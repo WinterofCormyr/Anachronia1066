@@ -1,0 +1,16 @@
+﻿#County of Baisary # kimek Culture ysara_gunar Religion characters
+#first ruler born 841 takes throne 861
+
+# rulers of the County of Baisary
+drsbaisary0001 = {
+	name = "Togortok" #
+	dynasty = drsdyn29 # len Baisary
+	religion = ysara_gunar
+	culture = kimek
+	841.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}

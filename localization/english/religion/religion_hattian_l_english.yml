@@ -1,0 +1,62 @@
+﻿l_english:
+ #hattian
+ hattian_religion:2 "Hattun Wahasap"
+ hattian_religion_adj:2 "Hattun"
+ hattian_religion_adherent:2 "Hattiti"
+ hattian_religion_adherent_plural:2 "Wahahatitti"
+ hattian_religion_desc:0 "Hattian religion is a diverse polytheistic tradition heavily influenced by that of the Galatians to the north, the Cybelites to the west, and the Zalwaris to the south."
+
+ hattian_high_god_name:0 "Wurunshemu"
+ hattian_high_god_name_possessive:0 "Wurunshemu's"
+ hattian_high_god_name_alternate:0 "Arinniti"
+ hattian_high_god_name_alternate_possessive:0 "Arinniti's"
+ hattian_good_god_halmassuit:0 "Halmassuit" # goddess of the hearth # handmaiden of Hanfasuit
+ hattian_good_god_hantapali:0 "Hantapali" # god of diplomacy, and the firstborn son of Furun-Katte and Furu-Semu
+ hattian_good_god_hashammil:0 "Hashammil" # god of industry # the firstborn son of Taru
+ hattian_good_god_kakshazet:0 "Kakshazet" # gxddé of love, appears as a universally attractive androgynous figure. Married to Kashtuwarit, and has many other consorts
+ hattian_good_god_kashtuwarit:0 "Kashtuwarit" # gxddess of gender, destroyer of oppressive gender roles and protector of transgender and nonbinary people. Married to Kakshazet
+ hattian_good_god_tahakshaziatis:0 "Tahakshaziatis" # thunder god # of Indo-European origin, though his name is native Hattian
+ hattian_good_god_tuhuleli:0 "Tuhuleli" # architect of heaven and god of construction
+ hattian_good_god_zithariya:0 "Zithariya" # protective deity # also called Zithariyah when considered feminine # Zithariya when considered masculine
+ hattian_evil_god_evil:0 "Evil"
+ hattian_evil_god_evil_possessive:0 "Evil's"
+ hattian_priest_male:0 "Priest"
+ hattian_priest_male_plural:0 "Priests"
+ hattian_priest_female:0 "Priestess"
+ hattian_priest_female_plural:0 "Priestesses"
+ hattian_priest_neuter:0 "Diviner"
+ hattian_priest_neuter_plural:0 "Diviners"
+ hattian_bishop_male:0 "Priest"
+ hattian_bishop_male_plural:0 "Priests"
+ hattian_death_deity_name:0 "Lelwani"
+ hattian_death_deity_name_possessive:0 "Lelwani's"
+ hattian_religious_symbol:0 "sun"
+ hattian_religious_text:0 "book of the Wāšhap"
+ hattian_divine_realm:0 "Iah"
+
+ hattian_health_god_name:0 "Inara"
+ hattian_health_god_name_possessive:0 "Inara's"
+ hattian_wealth_god_name:0 "Taru"
+ hattian_wealth_god_name_possessive:0 "Taru's"
+ hattian_household_god_name:0 "Hanfasuit"
+ hattian_household_god_name_possessive:0 "Hanfasuit's"
+ hattian_fate_god_name:0 "Istustaya and Papaya"
+ hattian_fate_god_name_possessive:0 "Istustaya and Papaya's"
+ hattian_knowledge_god_name:0 "Furu-Semu" # sun god you filthy homestuck
+ hattian_knowledge_god_name_possessive:0 "Furu-Semu's"
+ hattian_war_god_name:0 "Furun-Katte"
+ hattian_war_god_name_possessive:0 "Furun-Katte's"
+ hattian_night_god_name:0 "Kaska"
+ hattian_night_god_name_possessive:0 "Kaska's"
+
+ hattian_afterlife_name:0 "bountiful rebirth"
+ hattian_bad_afterlife_name:0 "dearthful rebirth"
+
+ hattian_pagan:0 "Hattun Leshappi"
+ hattian_pagan_adj:0 "Hattun"
+ hattian_pagan_adherent:0 "Hattun Zari"
+ hattian_pagan_adherent_plural:0 "Hattun Fazari"
+ doctrine_bigamy_name:0 "Bigamy"
+ doctrine_bigamy_desc:0 "Our faith decrees that people may have up to two spouses, but no more."
+ doctrine_hattian_bigamy_name:0 "Hattian Bigamy"
+ doctrine_hattian_bigamy_desc:0 "Wurunshemu decrees that people may have only up to two spouses, in a formal sense. However, relationships should be freely open, as long as everyone is consenting, and people may take lovers beyond their marriages as well."

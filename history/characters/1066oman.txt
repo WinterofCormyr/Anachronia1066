@@ -1,0 +1,13 @@
+﻿1066oman0001 = {
+	name = "Durra" #
+	female = yes
+	dynasty = drsdyn220 # bint Durra
+	religion = arabian_aitahism
+	culture = omani
+	1040.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}

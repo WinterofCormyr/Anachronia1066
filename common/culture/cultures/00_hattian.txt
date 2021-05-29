@@ -1,0 +1,103 @@
+﻿hattian_group = {
+	graphical_cultures = {
+		byzantine_group_coa_gfx
+		western_coa_gfx
+		mediterranean_building_gfx
+		byzantine_clothing_gfx
+		eastern_unit_gfx
+	}
+	mercenary_names = {
+		{ name = "mercenary_company_geezan_company" }
+		{ name = "mercenary_company_tigrayit_band" }
+	}
+	hattian = { # Hattian dynasties formed via un suffixed to any personal name
+		color = hsv { 0.32 0.4 0.34 }
+		cadet_dynasty_names = {
+			"Furunzariun"
+			"Furunkarun"
+			"Kizhanun"
+			"Hirun"
+		}
+		dynasty_names = {
+			"Furunzariun"
+			"Furunkarun"
+			"Kizhanun"
+			"Hirun"
+		}
+		male_names = { #
+			Hawurtuh Hantipa Hilapa Hallamul Katu Hanhamarkar Halepina Kaitzi Zarusemuzi Anniwastip Haputu Kakkar Eskatte Harikilamas Hayahanhanu Kaskatte Kaittu Halpupi Anhan Harkif Finduzil Hapramurtu Askas Fashamuruya Finduti 
+			Apramahais Kilianni Furun-kaip Hanharki Hanufel Hamaraz Kapalkimara Estipinu Hamasuitzi Hanti Haluhar Furun-kaipa Hantip Neriku Kizhantip Zisemul Hamashapa Estipa Hamas Lepinduzi Hamuzi Furuya Hayangarga Anufelianu Hangaras
+			Furuyahanga Fa-zarzi Anifa Hallamartu Hilamaruset Halentu Fa-zarzis Halefzi Kaisemurli Arusiyana Anamargari Hamarusiya Hilapupis Akkah Haleftuh Hanamutu Arkizhana Ziset Asazet Hanfashap Hapupi Hallari Astip Hawaskar
+			Niwasuitzi Hawastip Hangarazet Karusim Kakka Pindutip Yahir Aluhanamar Halepinu Alenti Findutuh Lentuh Akkapra Eskar Hanhanham Furuset Eskaputu Hanam Findutipa Astipa Hamul Hantipis Askatuh Askarkif Halam Hamasku 
+			Hanhanamul Haniwas Hamasuit Hanhap Furusiya Lefzi Kusemurufel Furtuh Halki Eskap Eskusim Askap Hilari Alpupis Nerpi Hiliana Halaputiu Kaskahili Hantu Furli Haras Hanfasku Hawas Lentu Karga Kapalentu Hanhait 
+			Kaskarzilam Niwastipinu Hilamuzi Niwaska Karkas Niwashan Kaskaskartu Askusemurtu Nerikifas Asbarzis Hapramas Karamurufel Hallar Arkimanu Arusemutu Arkaksazet Akkaku Zarzis Dahir Kaskapa Halkim Hawurzis Allamarkim
+			Kalepis Felianu Furun-kap Argarkap Kashar Anamas Ashana Hargar Hayaheriku Kartu Kaskah Arkap Estipalepi Zisemutu Estiu Zarikilam Karkizhaip Haluh Astipis Zaraz Apupi Assuitah Feltu Hallarkatte Alentuh Zarzi Hangara
+			Halmartu Eskaiset Furufa Kastipa Kasti Fa-zaras Hawaskari Akkarga Arkimarkim Alputip Karkim Askalu Hamari Eskusemul Estipi Eskaha Kasbarzi Hangari Hawurzi Kakkasbar Kalkim Furuyah Kaskattu Kahtu Askatu Hanniwaskas
+			Kaherpi Haipindutuh Hapra Hanifa-zar Assuit Eskari Kaisemuzi Asuit Hannifa Harga Nikusemutu Finufeltu Karzi Apramutiu Hilarastip Arkim Fassufelian Elzisemutu Estipsuit Arasuitahtu Furtu Aksaf Hawaskatte Yanfa Asbartu 
+			Kalkimantuh Kasbar Alepinu Astipalmah Fassufaskas Hanga Apram Annif Kasuit Asbarzi Kalentipi Hilap Kusemul Nerpinu Hamaskahil Leftu Kashana Katuh Zarkif Ashanu Halputu Hanfas Hanamani Arufel Lentuhan Kalepina Alamurli
+			Kassuit Askarkim Hayah Harzi Hamuzil Hawasbarkar Zarki Kassimas Kattu Haitahtu Halamurtuh Halkif Hilamartu Hayahir Asbar Furun-kas Kasuitzi Aksaz Asuittu Kaluh Halmara Finamul Hartu Kakkatte Haleftu Haprazet Hayanfa 
+			Haitzi Hawassiyah Hanhanu Kashaip Hanfa-zarki Lepina Furusim Askara Aprazet Hanni Apaluh Lentip Kassim Harkarzi Furun-kar Pisemuzi Harkizhanu Kaiset Furusemul Akkatte Pinufelzi Hanfa Feltuh Kahili Furun-kasku Akkahais
+			Hawurtu Pindutuh Hallamariku Halentipa Ariku Hapupinduzi
+		}
+		female_names = { #
+			#ah type	
+			Haleputah Zarahanah Asbarahtait Kahtah Kusimarah Kaluhahtah Hanfah Harikah Lkassiyanah Karah Askakkah Aru-semu Elarammah Karkimasah Karkimah Hateputah Akkaramanah Halmah Estipsuit Hilah Hannah Hayahanah Pisemu
+			Eskastipah Fahannah Kassiyanah Elapah Esaherpah Lkapah Hanahtah Akalarkimah Hawuruyah Hatuhangah Hamasazetah Kifah Karasahtah Niwassimah Eskalkah Zarkimah Alentah Kizhanhah Zarina Akasah Aprassuit Akkattah Estipsufah 
+			Argarah Felarkifah Zisazetah Hilapah Lentah Hatuhamah Estipsufel Asaherpah Hanidu Angah Eskarkilah Zisafasah Finah Arkimarah Furufelah Fassuit Akkasafah Karkifah Lentuhayah Eskarinah Zisafa-zah Kakkah Furlarah
+			Nikizhah Kasuit Fastipah Halapah Hawurufel Haluhargar Furu-semur Kaprazarah Aksah Aprah Halmannifah Fassimah Akkaskah Furuyah Kassuitah Kapalkasah Akkashanah Arazetah Hatepupinah Halepisemu Antah Kashanhah Hannikasah
+			Halkaisetah Feliannah Halmanah Anfassimah Katuhil Kargarammah Hatepinah Hawasah Pinduhamu Lkastipah Anufahallah Halah Kasbar Kimaskapah Katepisah Karkalammah Akkatepinah Kusiyah Haputah Furuyannah Karazetah Hamarazah
+			Kaitah Hilammasah Pisah Asazah Kasuitaisah Felamasah Akkarkifah Alentuhanah Kaskalentah Eskattah Kusimasbar Kapalkarina Ahtah Hallamu Furlapah Argah Hawasbarah Nerindu Karahargah Hawuru-semu Faskah Zarazetah
+			Hawasbarina Hantipah Kifashamah Hatuhalah Harkah Fasuit Hantuhapah Halmaruyah Hanfasbarah Nikimah Hangarah Elarahtah Niwasuitah Furufah Alentipah Hantuhah Akkassuitah Akkastipah Arkimah Kargah Eskalputah Kimanah 
+			Akkakkah Nerpah Haraskait Hamurlamah Halkaitah Nikaleputah Harah Aru-setah Kusiyannidu Hayannah Anfah Akastipah Eskahtah Hattahtah Asuitah Hammasafah Hamarah Antipah Furuna Lkatepisah Hanahapah Hilamurunah Kaksah 
+			Eskasazah Zahtah Assuit Yanah Hammah Nikimarkah Kaluhanfah Akasafah Lkakaruyah Akkarah Eskallah Furu-setah Katepupisah Angargarkah Halpunah Kapramah Hawaskarah Haluhah Hallapah Arkilapah Aruyah Hattah Akaitah Halkah
+			Nerinah Kattaitah Kaprah Askattah Hamah Kimah Karinah Fashah Halepisah Kasuitah Hangarkimah Araskah Eskah Lentaisah Pindu Felah Asaharah Aputah Haniduharah Harkifah Halentipah Lentipah Kakattah Kilah Katuhilah 
+			Hantipsuit Hawuruyanah Haprah Zisetahtah Kusiyantah Lkaskah Furunah Pisetah Hanahanah Astipah Haru-setah Hapunahayah Kastipalmah Hilamah Haluhilah Felianah Hallah Halef Kusiyanfah Estipsuitah Alentuhil Nifa-zah 
+			Arkarah Nifah Hilahalah Halammah Hammanfah Eskapah Kizhanna Kaherpah Hanniwasah Hanufasafah Karkil Alepinah Hanufasah Hantipalah Haluhil Pisetaitah Annah Karuyah Hamasah Niwasah Niwassuitah Furlah Arkizhah Akkapah
+			Kaskaramu Furlamah Taisah Felahtah Hatuhamar Furun-kar Halapallah Estipalah Niwassufel Hanufah Asbarazetah Hapah Hawur Elamah Hawassuitah Arkattah Halkattah Hantah Arkimarinah Aksafah Antuhana Furlar Hamaruyah 
+			Assuitah Assimarina Hawaskattah Kassiyah Aleputah Halpupina Eskasah Katepunah Askarah Anufel Hatuhil Halamah Halkasah Aramuruyah Antuhil Hayah Aramah Nikifasah
+			#anna type
+			Kuana Hamannanna Hamahiranna Harzianna Halpupiana Kattannanna Estiananna Astipina Kaipsufanna Kimanna Kaluhana Kilanna Fa-zanna Akkastianna Hanana Arantipanna Kastipana Hapanna Akkapanna Haluana Arkimaranna Kusiyahana
+			Ziannianna Yaherpianna Kifanna Kuanna Aksafanna Hawurufanna Hilana Kilannanna Fanna Fa-zaranna Aranna Kaprananna Kianna Elamurliana Kalkimanna Kaipana Arkimanna Karanna Hayana Fastiuanna Astiuanna Hamana Apantianna 
+			Zaranna Hilapanna Zanna Karzilanna Karannanna Harkizhanna Kaskuana Harzilianna Hannannanna Nerpinuanna Fassuitanna Hargaranna Hayanna Yanna Lepianna Asazanna Kaitana Asazaranna Elamulanna Nerpina Esafanna Astipisanna
+			Dahanna Kannanna Harana Hayahanna Dahtuhanna Harganna Nikilamana Kassiyanna Astipannana Karikuanna Karkashanna Zilarkianna Hamaranna Hanuana Kasanianna Hantuanna Nerianna Asanna Kahtuanna Harazanna Kilamulanna 
+			Kaitanna Akkahanna Pisanna Kastiuanna Katuhapanna Astianna Kusimasanna Kassuitanna Akkaitana Hapana Aksazaranna Lepina Lepisanna Arganna Asazetanna Elianna Zarkimanna Karazanna Kapupisanna Askasanna Hamanna Aksanganna
+			Nikimanna Hannanna Hamasbarana Ziliana Karkaipina Akkaheriana Lentiuanna Assiyahanna Zilianna Pisafana Kapranna Katuanna Eskuanna Harikilanna Kahanna Halmana Halputipina Daherianna Haipanna Asafanna Karuyanna
+			Akkastipana Kalmanna Apupina Hamuruyanna Zisazanna Haluanna Arazetanna Harianna Zilannanna Kaksanna Kassufana Haitanna Harufanna Apantuanna Harkattanna Halkimanna Kahaluanna Kapaluanna Hamurlianna Kasafasanna
+			Zilaranna Kaputiuanna Kimashanna Ashayanna Haranna Furufanna Kizhanna Zisetanna Kiannanna Nifanna Elapranna Nikuanna Kakuanna Kapana Kaherpina Karzilianna Arkapranna Akkarianna Haluhanna Ashapanna Kaisafanna
+			Kakusimanna Elarzianna Arzianna Elannanna Kaisanna Elanna Yahtuhanna Akuanuanna Hayahamanna Halkilanna Kannananna Kasannanna Arianna Aramanna Hapranna Nianna Ashanna Estiuanna Argarianna Yahannanna Eskatuanna
+			Arkasanna Dahamana Kasbaranna Harazetanna Hanna Arufeliana Kaipina Aksantianna Estianna Harkimana Aksazanna Hanganna Asantuanna Hiranufanna Eskahanna Askaranna Karkilanna Karamulanna Dahannanna Furufelana Karkifanna
+			Esazetanna Pinanna Hanuanna Kanikifanna Dahtuanna Yahanna Arkilanna Kanna Halmanna Akuana Kaskapanna Nikimasanna Hamarganna Akkasanna Lentuhanna Elapanna Kattana Astipanna Haprana Hiranna Hayahananna Nifashanna
+			Aruyanna Hawasanna Eskastipana Karazarana Halapanna Kasazetanna Haipina Kapupianna Halannanna Kahirana Furlianna Kapannanna Kallanuanna Apranna Haramahanna Hilianna Zilapanna Asana Akkaranna Hallannanna Kashanna
+			Asannanna Akusiyanna Eskattanna Eskapanna Kastianna Hallanna Karkakuanna Haprannanna Anhapanna Haputipanna Estipana Hilanna Kaskatuanna Karianna Halanna Nerpianna Hamulanna Hallamanna Annanna Esazanna Furuyahanna
+			Harikuanna Arannanna Anganna Hapaluhanna Pianna Kakkalmana Haitana Askuanna Hamahilanna Halepianna Akkattanna Furuyanna Lentipanna Kaipannanna Zilanna Zarkizhanna Karamangana Halamanna Aksanna Katuhanna Kaipanna
+			Antiuanna Hilannanna Kimana Hawurliana Hantuhanna Kalkizhanna Zisannanna Eliannanna Kasafanna Nerikuanna Kaisetanna Hapannanna Kaluanna
+			# all mixed together
+			Furufana Kiangarina Felanna Apannah Harkil Kattanna Hamanhah Kapanna Hannifanna Kaputah Kariangah Aksahtah Furufel Karinanah Kaipsuit Hatuhamanna Astipsuitah Antuhannana Kashanna Hawastipah Lkaipana Anuanna Niwasanna 
+			Estiana Furliana Harkasanna Kapalpupina Haisah Kimahanna Kilana Antanna Ahtuhanna Apupindu Lkapramanna Niwashannah Nikizhapana Estiuana Assuitah Akkaputah Hapalah Anfasah Assiyah Lepupina Karuna Asafahanna Katuhannah
+			Halamaranna Halarkilana Kallah Halamurlah Kapaluhanna Kifanfah Eskaluhanna Ahtanna Aksannanna Eskattaitah Elana Harzilana Eskakuanna Akkaipana Kapannana Karkilammah Kimasana Hayangarina Hawuruna Kaipanna Asannanna 
+			Akkaruyah Zisetah Nerpinah Feliana Askasah Kaprahamah Kastipah Eskarzilah Kaskah Kasuitanna Kasazanna Hamu Lkapupina Akarkilanna Eskalanna Kaksafanna Katepindu Estipianna Zarkil Hangaruna Zisannah Hargarannah Eskasbar
+			Argahanna Kasbargah Halmasanna Eskassiyah Akkaisah Aleputipah Angaranna Hawastiuana Halarkimah Fasafasana Kashana Apramana Akattah Kanannah Karkilah Hamashannah Karu-setah Aksazetah Kaipah Fasafasanna Kizhanah 
+			Asafasanna Halpuna Antiana Elamu Nikah Zianna Harikusimah Kateputah Haipsuit Arkarufah Nifana Haluhilanna Halkaipahah Eskarah Karazetanna Akkashah Zisah Hananna Kaitahtah Estipanna Hatuana Harantuhana Furlapana Kasah
+			Haisetah Lkapaluana Aputahil Fa-zar Karanhanna Aprazah Kasafah Arzilana Haitah Karannah Ashana Kakapanna Nifanna Dah Ariannah Akkapanah Felamah Angarufel Hatuhilanna Astipsuit Pisafannana Arahapanna Furu-Semu 
+			Kusimanna Kah Eskaipah Furlaprah Esafah Kasaherpina Karzilamu Hiramah Hantipina Hapahtah Akkarazanna Lepinah Akassuit Karina Akallarana Akapah Halkifah Zisantipah Halentanna Anfahtanna Hamassuit Halkaluhana Hanah 
+			Karuyanna Fasah Karamanna Esahtah Akkaprah Harasanna Zisafah Zaranidu Elaprah Niwasazanna Lentuhah Elarana Karannanfah Estipisana Kalmannah Aksafahtah Eskassuitah Kasahanna Lkatuhanna Kapah Kaitanna Kasanna Hirah 
+			Kianannah Haruna Estipah Lkakah Kimannah Felana Halkarkimah Kanah Zilah Akatuhapah Haruyahanna Haramah Lkapana Arashanna Arkapah Kakakuanah Antipina Haluhalmana Nikilah Kizhapah Fasanna Nerikilah Asahtuanna Kallaprah 
+			Arina Anuana Hamanfanna Elaruyah Aruyannah Eliannah Pisetahtah Akkashanna Lkarah Niana Akkah Kaipsuitah Haluhana Hamanah Asufelahtah Aprazetah Arasbar Nikilamah Akkarina Harkimah Yahana Fa-zah Zaranna Kargana
+			Askaramanna Karkizhanna Askait Anfana Hamahtah Halahapanna Asah Ashah Kassimah Kallapah Fasuitah Arikilapana Elamanna Kusimah Asannah Halkah Hawuruyanna Kasazah Astianah Nifashamu Zisafanna Zilamu Halkarkifah 
+			Estipisanna Arkiliana Halepisanna Kalmah Aprananna Aksannidu Taitah Aruyanna Elamanganna Arkifasah Eliana Hatuhanna Askapalkil Katuhannana Pisafah Zaruyah Fasbarianna Karuyana Akuanna Katepupina Asantah Argarzianna
+			Haluanah Harina Kakatepina Dahtah Fastianna Eskasana Kasana Akkatuhanna Lentipianna Lkargarina Assiyannah Assimah Arzilah Fasafanna Hapahah Halkaherpah Kilahanna Hallapanna Arkil Kattaipahah Kimasanna Hammanifah Hamur 
+			Nerina Estiannah Alentuhayah Hawurlanna Kasafasah Zarah Akusiyah Karamu Hannannah Akkasazetah Lentipsuit Kimanuanna Kusiyana Hatepuna Hapalputah Kaskasuit Karganna Hannaherina Asbarkilah Halputah Haluannah Kilaranna
+			Kizhah Hatuanna Eskaranna Hattanna Haluhamanna Karasufanna Askashanna Anufelianna Hanuannanna Haipianna Hatepindu Hamurufel Hammanna Askah Aramasanna Kizhayah Akuanah Aksahanna Furufelamah Antipanna Hiliana Leputah
+			Ziliannanna Karkasazana Pisahalah Pisahtah Kapanannana Akkasah Zarannah Akassuitah Aprazanna Kattah Kassuit Aksafana Halaranufah Arkifah Karkimanna Lkatuhana Taipanna Aprannah Kapupina Pinah Kaitah Kalamarah 
+			Kizhahanna Harkattana Fasazanna Harasah Katuanana Harkimanna Nikimanna Felapanna Elamanfah Haisetanna Estipina Argarazah Akait Asuit Hamahtuhana Lentuanna Asbaranna Kalputah Kusiyanna Hayannanna Eskaisafana Karzil 
+			Arahtah Fasbarahana Aprana Kaisazarah Eskassimah Niwassiyah Akalapanna Hawasuit Astipinanna Kalana Harkilanna Hamurlaprah Zilahantah Akkalah Kalkil Arufelah Pisemu Hamulah Hatuhah Alentuanna Arkilamah Akkalputah 
+			Ziliannah Nikarianah Katuhahanna Zarkah Akkaramah Furlamu Alepina Hatuhahanna Aruna Halepina Eskalannah Askaluanna Arana Estipinufel Hariannah Kalepupina Asahanna Hawassuit Harazetah Lepuna Kaskattah Felammargar
+			Harkianna Asazetah Kakkaputah Aksazah Hatepisanna Arahil Kaisah Akapramu Zisazaramah Hamahtaitah Kalanna Angarzianna Lkahanna Hapannahana Akkastipina Antipahanna Kalef Aksafa-zah Eskassuit Karamah Kilarannah Kaksahtah
+			Esaherpina Aputanna Kapananna Nikasah Hapallamah Hilaranna Hamarindu Elammanna Akkakuanna Kaskarah Akashanna Zilamulanna Eskarina Arazannah Akkatuhana Arkizhanna Karzianna Lkalanna Nikattah Kusimana Hallarkimah
+			Nerikaprah Estipananna Hawassufah Haramasah Hatepina
+		}
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+	}
+}

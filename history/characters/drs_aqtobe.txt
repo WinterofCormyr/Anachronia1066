@@ -1,0 +1,16 @@
+﻿#Duchy of Aqtobe # kimek Culture megha_gunar Religion characters
+#first ruler born 841 takes throne 861
+
+# rulers of the Duchy of Aqtobe
+drsaqtobe0001 = {
+	name = "C_ilbu" #
+	dynasty = drsdyn25 # len Aqtobe
+	religion = megha_gunar
+	culture = kimek
+	841.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}

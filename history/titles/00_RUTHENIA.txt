@@ -1,0 +1,6 @@
+e_russia = {
+	867.1.1 = {	change_development_level = 2 }
+	1066.1.1 = { change_development_level = 17 }
+	1130.1.1 = { change_development_level = 18 }
+	1200.1.1 = { change_development_level = 25 }
+}

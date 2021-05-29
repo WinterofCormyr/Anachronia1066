@@ -1,0 +1,32 @@
+﻿l_english:
+  trait_mz_lifestyle_conquerer:0 "Conquerers"
+  TRAIT_FLAG_DESC_mz_conquerer_trait_desc:0 "Winning an offensive [war|El] grants a bonus to same-faith and popular [opinion|El] and monthly [piety|El]. Failure to wage war or [raid|El] on a regular basis may result in losing this [trait|El]."
+
+  trait_mz_conquerer_1:0 "Amateur Conquerer"
+  trait_mz_conquerer_1_germanic:0 "Child of Ragnarok"
+  trait_mz_conquerer_1_steppe:0 "War Rider"
+
+  trait_mz_conquerer_2:0 "Conquerer"
+  trait_mz_conquerer_2_germanic:0 "Harbinger of Ragnarok"
+  trait_mz_conquerer_2_steppe:0 "Steppe Warlord"
+
+  trait_mz_conquerer_3:0 "Grand Conquerer"
+  trait_mz_conquerer_3_germanic:0 "Chosen of Ragnarok"
+  trait_mz_conquerer_3_steppe:0 "Chosen of the Blue Sky"
+
+  mz_conquerer_upgrade_title:0 "Conquerer Trait Upgraded"
+  mz_conquerer_downgrade_title:0 "Conquerer Trait Downgraded"
+  trait_mz_conquerer_1_desc:0 "The Amateur Conquerer has claimed a few victories and seeks to claim more."
+  trait_mz_conquerer_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has claimed a few victories and seeks to claim more."
+  trait_mz_conquerer_1_germanic_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is on the path to Valhalla."
+  trait_mz_conquerer_1_steppe_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] rides the path to eternal conquest."
+
+  trait_mz_conquerer_2_desc:0 "The Conquerer is a well-known and accomplished warmonger."
+  trait_mz_conquerer_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a well-known and accomplished warmonger."
+  trait_mz_conquerer_2_germanic_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is surely bound for Valhalla."
+  trait_mz_conquerer_2_steppe_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has won many victories under the Endless Blue Sky."
+
+  trait_mz_conquerer_3_desc:0 "The Grand Conquerer is a relentless scourge that conquers everything in their path."
+  trait_mz_conquerer_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a relentless scourge that conquers everything in [ROOT.GetCharacter.GetHerHis] path."
+  trait_mz_conquerer_3_germanic_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is sure to be welcomed into Valhalla with the highest honors."
+  trait_mz_conquerer_3_steppe_desc:0 "Many unfortunate foes have been trampled under the hooves of [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] mighty riders."

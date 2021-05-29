@@ -1,0 +1,394 @@
+﻿pelasgian_religion = {
+	family = rf_western
+	
+	doctrine = western_mideast_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_female_dominated
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_free_love
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_restricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	traits = {
+		virtues = { generous diplomat compassionate }
+		sins = { greedy sadistic callous }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_myrmidons" }
+		{ name = "holy_order_priesthood_of_ares" }
+	}
+
+	holy_order_maa = { praetorian }
+
+	localization = {
+		#High God Name
+		HighGodName = pelasgian_high_god_name # Atana Cybeleia # Athena Cybele
+		HighGodNamePossessive = pelasgian_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_SHE
+		HighGodHerselfHimself = CHARACTER_HERSELF
+		HighGodHerHis = CHARACTER_HERHIS_HER
+		HighGodNameAlternate = pelasgian_high_god_name_alternate # The Goddess
+		HighGodNameAlternatePossessive = pelasgian_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = pelasgian_high_god_name # Atana Cybeleia
+		CreatorNamePossessive = pelasgian_high_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_SHE
+		CreatorHerHis = CHARACTER_HERHIS_HER
+		CreatorHerHim = CHARACTER_HERHIM_HER
+
+		#HealthGod
+		HealthGodName = pelasgian_health_god_name # Ataghlas # Asclepius
+		HealthGodNamePossessive = pelasgian_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#FertilityGod
+		FertilityGodName = pelasgian_high_god_name # Atana Cybeleia
+		FertilityGodNamePossessive = pelasgian_high_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = pelasgian_wealth_god_name # Hermahas # Hermes
+		WealthGodNamePossessive = pelasgian_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = pelasgian_household_god_name # Dopota # sometimes an epithet of Atana Cybeleia
+		HouseholdGodNamePossessive = pelasgian_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = hellenism_fate_god_name # The Fates
+		FateGodNamePossessive = hellenism_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+
+		#KnowledgeGod
+		KnowledgeGodName = pelasgian_high_god_name # Atana Cybeleia
+		KnowledgeGodNamePossessive = pelasgian_high_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = pelasgian_high_god_name # Atana Cybeleia
+		WarGodNamePossessive = pelasgian_high_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIM_HER
+
+		#TricksterGod
+		TricksterGodName = pelasgian_wealth_god_name # Hermahas # Hermes
+		TricksterGodNamePossessive = pelasgian_wealth_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = pelasgian_night_god_name # Eiraneisseia # the proto Eirene # precedes Eirene who precedes Irene
+		NightGodNamePossessive = pelasgian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = pelasgian_water_god_name # Talagha # Thalassa
+		WaterGodNamePossessive = pelasgian_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
+
+
+
+		PantheonTerm = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { 
+			pelasgian_high_god_name # Atana Cybeleia # Athena Cybele
+			pelasgian_high_god_name_alternate # the Goddess
+			pelasgian_health_god_name # Ataghlas # Asclepius
+			pelasgian_wealth_god_name # Hermahas # Hermes
+			pelasgian_witchgodname_tiriseroe # Tiriseroe # Hermes Trismegistus
+			pelasgian_night_god_name # Eiraneisseia #proto Eirene # proto proto Irene
+			pelasgian_water_god_name # Talagha # Thalassa
+			pelasgian_good_god_rainbow_goddess # the Rainbow Goddess # predecessor of the goddess Iris # simply called the Rainbow Goddess
+			pelasgian_household_god_name # Dopota 
+			pelasgian_good_god_britomartis # Britomartis # goddess of hunting # proto Artemis
+			pelasgian_good_god_elutia # Elutia # Eilethyia # a mother goddess # mother of Atana Cybeleia
+			pelasgian_good_god_qerasia # Qerasia # goddess of Irenic Purity and Nobiloty which are possessed by ALL the gods in ALL of Anachronia
+			pelasgian_good_god_preswa # Queen of the Earth # goddess of life and death # the wheel of life # reincarnation goddess
+			pelasgian_divine_realm # Nere # the Endless Sea	# also the realm of the gods
+		}
+		DevilName = pelasgian_devil_name # the Evil Forces
+		DevilNamePossessive = pelasgian_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_THEY
+		DevilHerHis = CHARACTER_HERHIS_THEIR
+		DevilHerselfHimself = CHARACTER_THEMSELVES
+		EvilGodNames = { pelasgian_devil_name }
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = pelasgian_religious_symbol # the Pelasgian Knot
+		ReligiousText = pelasgian_religious_text # the Legends of Atana
+		ReligiousHeadName = pelasgian_religious_head_title # Priestess of All Humanity
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = pelasgian_priest_male # Priest
+		PriestMalePlural = pelasgian_priest_male_plural # Priests
+		PriestFemale = pelasgian_priest_female # Priestess
+		PriestFemalePlural = pelasgian_priest_female_plural # Priestesses
+		PriestNeuter = pelasgian_priest_neuter # Priestess
+		PriestNeuterPlural = pelasgian_priest_neuter_plural # Priestesses
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = pelasgian_priest_male
+		BishopMalePlural = pelasgian_priest_male_plural
+		BishopFemale = pelasgian_priest_female
+		BishopFemalePlural = pelasgian_priest_female_plural
+		BishopNeuter = pelasgian_priest_neuter
+		BishopNeuterPlural = pelasgian_priest_neuter_plural
+		DivineRealm = pelasgian_divine_realm # Nere # the Endless Sea # also an ocean and primordial god
+		PositiveAfterLife = pelasgian_good_afterlife_name # beniferous rebirth
+		NegativeAfterLife = pelasgian_bad_afterlife_name # maliferous rebirth
+		DeathDeityName = pelasgian_death_deity_name # the Underking
+		DeathDeityNamePossessive = pelasgian_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = pelasgian_witchgodname_tiriseroe # Tiriseroe # Hermes Trismegistus
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = weaver
+		WitchGodMotherFather = maker
+
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = { #
+		minoan_faith = {
+			color = { 0.1 0.1 0.6 }
+			icon = finnic_01
+			holy_site = rome
+			holy_site = athens
+			holy_site = sparta
+			holy_site = alexandria
+			holy_site = carthage
+			# holy sites
+			# kaneia # chandax # thera # athens # alexandria
+			
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_communal_identity
+			doctrine = tenet_way_of_cybele
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_deities_worshipped_henotheism
+			doctrine = doctrine_theogony_ex_nihilo
+			doctrine = doctrine_local_gods_dipantheonism
+			doctrine = doctrine_other_faiths_gods_ignored
+			doctrine = doctrine_pelasgian_high_god_atana_cybeleia
+			doctrine = doctrine_angels_good_god_or_nongod
+		}
+		iliite_faith = {
+			color = { 0.6 0.6 0.1 }
+			icon = osilian_02
+			holy_site = rome
+			holy_site = athens
+			holy_site = sparta
+			holy_site = alexandria
+			holy_site = carthage
+			# holy sites
+			# ilion # thera # nikaea # alexandria # corinth AKA korinthos
+			
+			doctrine = mz_tenet_civilized
+			doctrine = tenet_reincarnation
+			doctrine = tenet_way_of_cybele
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_henopantheonism
+			doctrine = doctrine_theogony_ex_nihilo
+			doctrine = doctrine_local_gods_dipantheonism
+			doctrine = doctrine_other_faiths_gods_multipantheonism
+			doctrine = doctrine_pelasgian_high_god_atana_cybeleia
+			doctrine = doctrine_angels_good_god_or_nongod
+		}
+		lelegic_cybelite = {
+			color = { 0.1 0.6 0.1 }
+			icon = lithuanian_03
+			holy_site = lesbos
+			holy_site = athens # thera
+			holy_site = sparta # nikaea
+			holy_site = alexandria
+			holy_site = carthage # ilion
+			# holy sites
+			# lesbos # thera # nikaea # alexandria # ilion
+			
+			doctrine = tenet_teachings_of_the_heroes
+			doctrine = tenet_amaranth_path
+			doctrine = tenet_way_of_cybele
+			localization = {	
+				GoodGodNames = { 
+					pelasgian_high_god_name # Atana Cybeleia # Athena Cybele
+					pelasgian_high_god_name_alternate # the Goddess
+					pelasgian_health_god_name # Ataghlas # Asclepius
+					pelasgian_wealth_god_name # Hermahas # Hermes
+					pelasgian_witchgodname_tiriseroe # Tiriseroe # Hermes Trismegistus
+					pelasgian_night_god_name # Weilineia #proto Eirene # proto proto Irene
+					pelasgian_water_god_name # Talagha # Thalassa
+					pelasgian_good_god_rainbow_goddess # the Rainbow Goddess # predecessor of the goddess Iris # simply called the Rainbow Goddess
+					pelasgian_household_god_name # Dopota 
+					pelasgian_good_god_britomartis # Britomartis # goddess of hunting # proto Artemis
+					pelasgian_good_god_elutia # Elutia # Eilethyia # a mother goddess # mother of Atana Cybeleia
+					pelasgian_good_god_qerasia # Qerasia # goddess of Irenic Purity and Nobiloty which are possessed by ALL the gods in ALL of Anachronia
+					pelasgian_good_god_preswa # Queen of the Earth # goddess of life and death # the wheel of life # reincarnation goddess
+					pelasgian_divine_realm # Nere # the Endless Sea	# also the realm of the gods
+					lelegic_good_god_sappho # Sappho # hero-goddess of love
+					lelegic_good_god_homer # Homer # hero-god of creativity
+					lelegic_good_god_heracles # Heracles # hero-god of heroism and bravery
+					lelegic_good_god_hesiod # Hesiod # hero-god of mythology
+				}
+			}
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_deities_worshipped_henopantheonism
+			doctrine = doctrine_theogony_ex_nihilo
+			doctrine = doctrine_local_gods_dipantheonism
+			doctrine = doctrine_other_faiths_gods_accepted # for the most part
+			doctrine = doctrine_pelasgian_high_god_atana_cybeleia
+			doctrine = doctrine_angels_neutral_god_or_nongod
+		}
+		chalkidian_faith = {
+			color = { 0.5 0.5 0.9 }
+			icon = estonian_03
+			holy_site = rome # ilion
+			holy_site = constantinople
+			holy_site = sparta # nikaea
+			holy_site = alexandria
+			holy_site = carthage # chalkidike
+			# holy sites
+			# ilion # constantinople # nikaea # alexandria # chalkidike
+			
+			doctrine = tenet_wheel_of_time
+			doctrine = tenet_sanctity_of_nature
+			doctrine = mz_tenet_elder_veneration
+			
+			doctrine = doctrine_gender_equal
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_deities_worshipped_henopantheonism
+			doctrine = doctrine_theogony_ex_nihilo
+			doctrine = doctrine_local_gods_elevated
+			doctrine = doctrine_other_faiths_gods_ignored
+			doctrine = doctrine_pelasgian_high_god_none
+			doctrine = doctrine_angels_irrelevant
+		}
+		high_cybelite = {
+			color = { 150 150 0 }
+			icon = lithuanian_04
+			holy_site = rome # ilion
+			holy_site = constantinople
+			holy_site = sparta # nikaea
+			holy_site = alexandria
+			holy_site = lesbos
+			# holy sites
+			# ilion # constantinople # nikaea # alexandria # lesbos
+			
+			doctrine = tenet_sun_worship
+			doctrine = tenet_way_of_cybele
+			doctrine = tenet_astrology
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_deities_worshipped_henotheism
+			doctrine = doctrine_theogony_ex_nihilo
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_semi_integrated
+			doctrine = doctrine_pelasgian_high_god_atana_cybeleia
+			doctrine = doctrine_angels_neutral_god_or_nongod
+		}
+		arkadian_faith = {
+			color = { 0 150 150 }
+			icon = lithuanian_02
+			holy_site = rome # arcadia
+			holy_site = constantinople # thera
+			holy_site = sparta # corinth # korinthos
+			holy_site = alexandria
+			holy_site = lesbos # kaneia
+			# holy sites
+			# ilion # constantinople # nikaea # alexandria # lesbos
+			
+			doctrine = tenet_sky_burials
+			doctrine = mz_tenet_great_hunt
+			doctrine = tenet_astrology
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_deities_worshipped_henotheism
+			doctrine = doctrine_theogony_ex_nihilo
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_semi_integrated
+			doctrine = doctrine_pelasgian_high_god_britomartis
+			doctrine = doctrine_angels_neutral_god_or_nongod
+			
+			
+			localization = {
+				#High God Name
+				HighGodName = pelasgian_good_god_britomartis # Britomartis # the Huntswoman
+				HighGodNamePossessive = pelasgian_good_god_britomartis_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = pelasgian_good_god_artemis # Artemis
+				HighGodNameAlternatePossessive = pelasgian_good_god_artemis_name_possessive
+			}
+		}
+		# FAITHS TO MAKE 
+		# iliite_faith # same deities and names # tenet_civilized tenet_way_of_cybele tenet_reincarnation # doctrine_gender_equal
+		# lelegic_cybelite # same deities and names # tenet_carnal_exaltation tenet_way_of_cybele tenet_amaranth_path # FOLLOWED IN THE LELEGES ISLES AND d_ephesos
+		# chalkidian_faith # same deities and names # tenet_ancestor_worship tenet_sanctity_of_nature mz_tenet_elder_veneration # doctrine_gender_equal
+		# arkadian_faith # FOLLOWED IN SOUTHERN d_achaia # pelasgian_good_god_britomartis is high god with alt name pelasgian_good_god_artemis # tenet_sky_burials mz_tenet_great_hunt tenet_astrology
+		# trikalan_faith # high god is pelasgian_good_god_cybele_solaria and all the entries that mention pelasgian_high_god_name mention her instead # tenet_sun_worship tenet_communal_identity tenet_ritual_celebrations # equal gender
+		# high_cybelite # FOLLOWED ALL OTHER REGIONS OF k_nikaea # same deities and names # tenet_sun_worship tenet_way_of_cybele tenet_astrology
+	}
+}

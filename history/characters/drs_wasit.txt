@@ -1,0 +1,139 @@
+﻿#Wasit # Neo#Sumerian characters
+
+# rulers of the Duchy of Wasit and the County of Wasit
+drswasit0001 = {
+	name = "Alulim" #
+	dynasty = 752bronzeage # Nanniya-Meskilak
+	religion = sumerian_pagan
+	culture = sumerian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drswasit0002 # Ashusikildigir
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drswasit0002 = {
+	name = "Ashusikildigir" #
+	female = yes
+	religion = sumerian_pagan
+	culture = sumerian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drswasit0001 # Alulim Nanniya-Meskilak
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drswasit0003 = {
+	name = "Alalngar" # has a son who is a warlord- and the first restored King of Mesopotamia
+	dynasty = 752bronzeage # Nanniya-Meskilak
+	religion = sumerian_pagan
+	culture = sumerian
+	father = drswasit0001
+	mother = drswasit0002
+	821.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		add_spouse = drswasit0007 # Puabi # son En-me-lu-ana # daughter Shagshag
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drswasit0004 = {
+	name = "Enanatuma" #
+	female = yes
+	dynasty = 752bronzeage # Nanniya-Meskilak
+	religion = sumerian_pagan
+	culture = sumerian
+	father = drswasit0001
+	mother = drswasit0002
+	822.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drswasit0005 = {
+	name = "En-hedu-anna" #
+	female = yes
+	dynasty = 752bronzeage # Nanniya-Meskilak
+	religion = sumerian_pagan
+	culture = sumerian
+	father = drswasit0001
+	mother = drswasit0002
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drswasit0006 = {
+	name = "Ninbanda" #
+	female = yes
+	dynasty = 752bronzeage # Nanniya-Meskilak
+	religion = sumerian_pagan
+	culture = sumerian
+	father = drswasit0001
+	mother = drswasit0002
+	824.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+drswasit0007 = {
+	name = "Puabi" #
+	female = yes
+	religion = sumerian_pagan
+	culture = sumerian
+	821.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		add_spouse = drswasit0003 # Alalngar Nanniya-Meskilak # son En-me-lu-ana # daughter Shagshag
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drswasit0008 = {
+	name = "En-me-lu-ana" # wife Suhub-ad # daughter Shatu-Murrim # daughter Nin-Imma
+	dynasty = 752bronzeage # Nanniya-Meskilak
+	religion = sumerian_pagan
+	culture = sumerian
+	father = drswasit0003
+	mother = drswasit0007
+	842.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drswasit0009 = {
+	name = "Shagshag" #
+	female = yes
+	dynasty = 752bronzeage # Nanniya-Meskilak
+	religion = sumerian_pagan
+	culture = sumerian
+	father = drswasit0003
+	mother = drswasit0007
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}

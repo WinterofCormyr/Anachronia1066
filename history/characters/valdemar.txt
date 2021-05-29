@@ -1,0 +1,1615 @@
+﻿#Valdemar characters
+
+# rulers of the Kingdom of Valdemar
+valdemar0001 = {
+	name = "Valdemarios" #fictional
+	dynasty = valdemardyn1 # Valdemarieskja
+	religion = valdemarian_common
+	culture = greek
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		culture = danish
+		add_spouse = valdemar0002 # daughter Myrrine
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+valdemar0002 = {
+	name = "Lissandra" #fictional
+	female = yes
+	religion = valdemarian_common
+	culture = danish
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		culture = danish
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+valdemar0003 = {
+	name = "Lyrrine" #fictional
+	female = yes
+	dynasty = valdemardyn1 # Valdemarieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0001
+	mother = valdemar0002
+	821.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		add_trait = celibate
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+valdemar0004 = {
+	name = "Ismy" #fictional
+	female = yes
+	dynasty = valdemardyn2 # Havaneskja
+	religion = valdemarian_common
+	culture = danish
+	841.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}
+valdemar0005 = {
+	name = "Sulia" #fictional
+	female = yes
+	dynasty = valdemardyn3 # Dann
+	religion = valdemarian_common
+	culture = danish
+	861.1.1 = {
+		birth = yes
+	}
+	881.1.1 = {
+		add_matrilineal_spouse = valdemar0006 # Windshadow # daughter Snowfire # 
+	}
+	941.1.1 = {
+		death = yes
+	}
+}
+valdemar0006 = {
+	name = "Windshadow" #fictional
+	religion = valdemarian_common
+	culture = danish
+	861.1.1 = {
+		birth = yes
+	}
+	941.1.1 = {
+		death = yes
+	}
+}
+valdemar0007 = {
+	name = "Starfall" #fictional
+	religion = valdemarian_common
+	culture = danish
+	861.1.1 = {
+		birth = yes
+	}
+	941.1.1 = {
+		death = yes
+	}
+}
+valdemar0008 = {
+	name = "Snowfire" #fictional
+	female = yes
+	dynasty = valdemardyn3 # Dann
+	religion = valdemarian_common
+	culture = danish
+	mother = valdemar0005
+	father = valdemar0006
+	882.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		add_matrilineal_spouse = valdemar0009 # Barret # daughter Marli # daughter Kaysa
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+valdemar0009 = {
+	name = "Barret" #fictional
+	religion = valdemarian_common
+	culture = danish
+	882.1.1 = {
+		birth = yes
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+valdemar0010 = {
+	name = "Marli" #fictional
+	female = yes
+	dynasty = valdemardyn3 # Dann
+	religion = valdemarian_common
+	culture = danish
+	mother = valdemar0008
+	father = valdemar0009
+	903.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		add_matrilineal_spouse = valdemar0012 # Alberich # daughter Shavanne
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+valdemar0011 = {
+	name = "Kaysa" #fictional
+	female = yes
+	dynasty = valdemardyn3 # Dann
+	religion = valdemarian_common
+	culture = danish
+	mother = valdemar0008
+	father = valdemar0009
+	904.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		death = yes
+	}
+}
+valdemar0012 = {
+	name = "Alberich" #fictional
+	religion = valdemarian_common
+	culture = danish
+	903.1.1 = {
+		birth = yes
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+valdemar0013 = {
+	name = "Shavanne" #fictional
+	female = yes
+	dynasty = valdemardyn3 # Dann
+	religion = valdemarian_common
+	culture = danish
+	mother = valdemar0010
+	father = valdemar0012
+	924.1.1 = {
+		birth = yes
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+valdemar0014 = {
+	name = "Sendar" #fictional
+	dynasty = valdemardyn4 # Devinieskja
+	religion = valdemarian_common
+	culture = danish
+	944.1.1 = {
+		birth = yes
+	}
+	1024.1.1 = {
+		death = yes
+	}
+}
+valdemar0015 = {
+	name = "Errold" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	964.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		add_spouse = valdemar0016 # daughter Selenay
+	}
+	1044.1.1 = {
+		death = yes
+	}
+}
+valdemar0016 = {
+	name = "Elspeth" #fictional
+	female = yes
+	religion = valdemarian_common
+	culture = danish
+	964.1.1 = {
+		birth = yes
+	}
+	1044.1.1 = {
+		death = yes
+	}
+}
+valdemar0017 = {
+	name = "Selenay" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	female = yes
+	father = valdemar0015 # Errold
+	mother = valdemar0016 # Elspeth
+	985.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		add_matrilineal_spouse = valdemar0018 # Karathanelan # son Talamir
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+valdemar0018 = {
+	name = "Karathanelan" #fictional
+	religion = valdemarian_common
+	culture = danish
+	985.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+valdemar0019 = {
+	name = "Talamir" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0018 # Karathanelan
+	mother = valdemar0017 # Selenay Erroldieskja
+	1006.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		add_spouse = valdemar0020 # Talia # daughter Alisia
+	}
+	1027.1.1 = {
+		add_spouse = valdemar0021 # Fayanna # daughter Cordaye
+	}
+	1028.1.1 = {
+		add_spouse = valdemar0022 # Zilli # daughter Elyth # daughter Frytha # daughter Kernessia # daughter Minara # daughter Thyfala # daughter Nanetta # daughter Sydiril # daughter Hesia # daughter Natrin # son Mirolom # daughter Elsevetia
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+valdemar0020 = {
+	name = "Talia" #fictional
+	religion = valdemarian_common
+	culture = danish
+	female = yes
+	1006.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		add_spouse = valdemar0019 # Talamir Erroldieskja # daughter Alisia
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+valdemar0021 = {
+	name = "Fayanna" #fictional
+	religion = valdemarian_common
+	culture = danish
+	female = yes
+	1006.1.1 = {
+		birth = yes
+	}
+	1027.1.1 = {
+		add_spouse = valdemar0019 # Talamir Erroldieskja # daughter Cordaye
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+valdemar0022 = {
+	name = "Zilli" #fictional
+	religion = valdemarian_common
+	culture = danish
+	female = yes
+	1006.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = {
+		add_spouse = valdemar0019 # Talamir Erroldieskja # daughter Elyth # daughter Frytha # daughter Kernessia # daughter Minara # daughter Thyfala # daughter Nanetta # daughter Sydiril # daughter Hesia # daughter Natrin # son Mirolom # daughter Elsevetia
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+valdemar0023 = {
+	name = "Alisia" #no spouse or children
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0020 # Talia
+	1027.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+valdemar0024 = {
+	name = "Cordaye" #fictional # no spouse or children
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0021 # Fayanna
+	1028.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+valdemar0025 = {
+	name = "Elyth" #fictional # no spouse or children
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1029.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+valdemar0026 = {
+	name = "Frytha" #fictional # husband Sarth # son Hauriers # daughter Evelessande # daughter Isota # son Kestofur
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1030.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+valdemar0027 = {
+	name = "Kernessia" #fictional # no spouse or children
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1031.1.1 = {
+		birth = yes
+	}
+	1111.1.1 = {
+		death = yes
+	}
+}
+valdemar0028 = {
+	name = "Minara" #fictional # husband Lesaltis # daughter Amalla # daughter Elina # daughter Malie # son Brandorn # daughter Glora # son Rinan
+	# husband 2	set via him Rhaegarus # daughter Athey # daughter Adria
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1032.1.1 = {
+		birth = yes
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}
+valdemar0029 = {
+	name = "Thyfala" #fictional # husband Alber # daughter Richent # son Sammond
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1033.1.1 = {
+		birth = yes
+	}
+	1113.1.1 = {
+		death = yes
+	}
+}
+valdemar0030 = {
+	name = "Nanetta" #fictional # no spouses or children
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1034.1.1 = {
+		birth = yes
+	}
+	1114.1.1 = {
+		death = yes
+	}
+}
+valdemar0031 = {
+	name = "Sydiril" #fictional # husband Ulran # son Rhundar
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1035.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+valdemar0032 = {
+	name = "Hesia" #fictional # husband Rhazar # daughter Beatha # daughter Sophra # daughter Ikina # son Reynfrid # daughter Xorlara
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1036.1.1 = {
+		birth = yes
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}
+valdemar0033 = {
+	name = "Natrin" #fictional # no spouses or children
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1037.1.1 = {
+		birth = yes
+	}
+	1117.1.1 = {
+		death = yes
+	}
+}
+valdemar0034 = {
+	name = "Mirolom" #fictional # no wives or children
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1038.1.1 = {
+		birth = yes
+	}
+	1118.1.1 = {
+		death = yes
+	}
+}
+valdemar0035 = {
+	name = "Elsevetia" #fictional # no husbands or children
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0019 # Talamir Erroldieskja
+	mother = valdemar0022 # Zilli
+	1039.1.1 = {
+		birth = yes
+	}
+	1119.1.1 = {
+		death = yes
+	}
+}
+
+valdemar0036 = {
+	name = "Sarth" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1030.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		add_matrilineal_spouse = valdemar0026 #Frytha Erroldieskja # son Hauriers # daughter Evelessande # daughter Isota # son Kestofur
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+valdemar0037 = {
+	name = "Hauriers" #fictional # wife Alianora # son Velley
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0036 # Sarth
+	mother = valdemar0026 # Frytha Erroldieskja
+	1051.1.1 = {
+		birth = yes
+	}
+	1131.1.1 = {
+		death = yes
+	}
+}
+valdemar0038 = {
+	name = "Evelessande" #fictional 
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0036 # Sarth
+	mother = valdemar0026 # Frytha Erroldieskja
+	1052.1.1 = {
+		birth = yes
+	}
+	1132.1.1 = {
+		death = yes
+	}
+}
+valdemar0039 = {
+	name = "Isota" #fictional 
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0036 # Sarth
+	mother = valdemar0026 # Frytha Erroldieskja
+	1053.1.1 = {
+		birth = yes
+	}
+	1133.1.1 = {
+		death = yes
+	}
+}
+valdemar0040 = {
+	name = "Kestofur" #fictional 
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0036 # Sarth
+	mother = valdemar0026 # Frytha Erroldieskja
+	1054.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = {
+		death = yes
+	}
+}
+valdemar0041 = {
+	name = "Lesaltis" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1032.1.1 = {
+		birth = yes
+	}
+	1052.1.1 = {
+		add_matrilineal_spouse = valdemar0028 #Minara Erroldieskja # daughter Amalla # daughter Elina # daughter Malie # son Brandorn # daughter Glora # son Rinan
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}
+valdemar0042 = {
+	name = "Amalla" #fictional 
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0041 # Lesaltis
+	mother = valdemar0028 # Minara Erroldieskja
+	1053.1.1 = {
+		birth = yes
+	}
+	1133.1.1 = {
+		death = yes
+	}
+}
+valdemar0043 = {
+	name = "Elina" #fictional 
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0041 # Lesaltis
+	mother = valdemar0028 # Minara Erroldieskja
+	1054.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = {
+		death = yes
+	}
+}
+valdemar0044 = {
+	name = "Malie" #fictional 
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0041 # Lesaltis
+	mother = valdemar0028 # Minara Erroldieskja
+	1055.1.1 = {
+		birth = yes
+	}
+	1135.1.1 = {
+		death = yes
+	}
+}
+valdemar0045 = {
+	name = "Brandorn" #fictional 
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0041 # Lesaltis
+	mother = valdemar0028 # Minara Erroldieskja
+	1056.1.1 = {
+		birth = yes
+	}
+	1136.1.1 = {
+		death = yes
+	}
+}
+
+valdemar0046 = {
+	name = "Glora" #fictional 
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0041 # Lesaltis
+	mother = valdemar0028 # Minara Erroldieskja
+	1057.1.1 = {
+		birth = yes
+	}
+	1137.1.1 = {
+		death = yes
+	}
+}
+valdemar0047 = {
+	name = "Rinan" #fictional 
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0041 # Lesaltis
+	mother = valdemar0028 # Minara Erroldieskja
+	1058.1.1 = {
+		birth = yes
+	}
+	1138.1.1 = {
+		death = yes
+	}
+}
+valdemar0048 = {
+	name = "Rhaegarus" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1032.1.1 = {
+		birth = yes
+	}
+	1059.1.1 = {
+		add_matrilineal_spouse = valdemar0028 #Minara Erroldieskja # daughter Athey # daughter Adria
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}
+valdemar0049 = {
+	name = "Athey" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0048 # Rhaegarus
+	mother = valdemar0028 # Minara Erroldieskja
+	1060.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+valdemar0050 = {
+	name = "Adria" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0048 # Rhaegarus
+	mother = valdemar0028 # Minara Erroldieskja
+	1061.1.1 = {
+		birth = yes
+	}
+	1141.1.1 = {
+		death = yes
+	}
+}
+valdemar0051 = {
+	name = "Alianora" #fictional
+	female = yes
+	religion = valdemarian_common
+	culture = danish
+	1051.1.1 = {
+		birth = yes
+	}
+	1111.1.1 = {
+		add_spouse = valdemar0037 #Hauriers Erroldieskja # son Velley
+	}
+	1131.1.1 = {
+		death = yes
+	}
+}
+valdemar0052 = {
+	name = "Velley" #fictional
+	# wife Carreenta # daughter Crune
+	# wife Aldrienne # daughter Tesiga # daughter Lizbellen
+	# wife Lurie # son Issiloth # daughter Bette # daughter Parient
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0037 # Hauriers Erroldieskja
+	mother = valdemar0051 # Alianora
+	1081.1.1 = {
+		birth = yes
+	}
+	1161.1.1 = {
+		death = yes
+	}
+}
+valdemar0053 = {
+	name = "Carreenta" #fictional
+	female = yes
+	religion = valdemarian_common
+	culture = danish
+	1081.1.1 = {
+		birth = yes
+	}
+	1101.1.1 = {
+		add_spouse = valdemar0052 #Velley Erroldieskja # daughter Crune
+	}
+	1161.1.1 = {
+		death = yes
+	}
+}
+valdemar0054 = {
+	name = "Aldrienne" #fictional
+	female = yes
+	religion = valdemarian_common
+	culture = danish
+	1081.1.1 = {
+		birth = yes
+	}
+	1101.1.1 = {
+		add_spouse = valdemar0052 #Velley Erroldieskja # daughter Tesiga # daughter Lizbellen
+	}
+	1171.1.1 = {
+		death = yes
+	}
+}
+valdemar0055 = {
+	name = "Lurie" #fictional
+	female = yes
+	religion = valdemarian_common
+	culture = danish
+	1081.1.1 = {
+		birth = yes
+	}
+	1101.1.1 = {
+		add_spouse = valdemar0052 #Velley Erroldieskja # son Issiloth # daughter Bette # daughter Parient
+	}
+	1161.1.1 = {
+		death = yes
+	}
+}
+
+valdemar0056 = {
+	name = "Crune" #fictional
+	# husband Ulberrak # daughter Brient # daughter Karal # daughter Arionwyn # daughter Rohilasya
+	# husband Tolfrido # daughter Guelaured
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0052 # Velley Erroldieskja
+	mother = valdemar0053 # Carreenta
+	1102.1.1 = {
+		birth = yes
+	}
+	1182.1.1 = {
+		death = yes
+	}
+}
+valdemar0057 = {
+	name = "Tesiga" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0052 # Velley Erroldieskja
+	mother = valdemar0054 # Aldrienne
+	1102.1.1 = {
+		birth = yes
+	}
+	1182.1.1 = {
+		death = yes
+	}
+}
+valdemar0058 = {
+	name = "Lizbellen" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0052 # Velley Erroldieskja
+	mother = valdemar0054 # Aldrienne
+	1103.1.1 = {
+		birth = yes
+	}
+	1183.1.1 = {
+		death = yes
+	}
+}
+valdemar0059 = {
+	name = "Issiloth" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0052 # Velley Erroldieskja
+	mother = valdemar0055 # Lurie
+	1102.1.1 = {
+		birth = yes
+	}
+	1182.1.1 = {
+		death = yes
+	}
+}
+valdemar0060 = {
+	name = "Bette" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0052 # Velley Erroldieskja
+	mother = valdemar0055 # Lurie
+	1103.1.1 = {
+		birth = yes
+	}
+	1183.1.1 = {
+		death = yes
+	}
+}
+valdemar0061 = {
+	name = "Parient" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0052 # Velley Erroldieskja
+	mother = valdemar0055 # Lurie
+	1104.1.1 = {
+		birth = yes
+	}
+	1184.1.1 = {
+		death = yes
+	}
+}
+
+valdemar0062 = {
+	name = "Ulberrak" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1102.1.1 = {
+		birth = yes
+	}
+	1122.1.1 = {
+		add_matrilineal_spouse = valdemar0056 #Crune Velleysdatter Erroldieskja # daughter Brient # daughter Karal # daughter Arionwyn # daughter Rohilasya
+	}
+	1182.1.1 = {
+		death = yes
+	}
+}
+valdemar0063 = {
+	name = "Brient" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0062 # Ulberrak
+	mother = valdemar0056 # Crune Velleysdatter Erroldieskja
+	1123.1.1 = {
+		birth = yes
+	}
+	1125.1.1 = {
+		death = yes
+	}
+}
+valdemar0064 = {
+	name = "Karal" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0062 # Ulberrak
+	mother = valdemar0056 # Crune Velleysdatter Erroldieskja
+	1124.1.1 = {
+		birth = yes
+	}
+	1144.1.1 = {
+		death = yes
+	}
+}
+valdemar0065 = {
+	name = "Arionwyn" #fictional
+	# husband Arthaym # daughter Ledosaundra # son Eyncan # daughter Glara # daughter Arcturiana # daughter Shayne # daughter Lizbethaina
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0062 # Ulberrak
+	mother = valdemar0056 # Crune Velleysdatter Erroldieskja
+	1125.1.1 = {
+		birth = yes
+	}
+	1199.1.1 = {
+		death = yes
+	}
+}
+valdemar0066 = {
+	name = "Rohilasya" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0062 # Ulberrak
+	mother = valdemar0056 # Crune Velleysdatter Erroldieskja
+	1126.1.1 = {
+		birth = yes
+	}
+	1175.1.1 = { # 49 years old
+		death = yes
+	}
+}
+valdemar0067 = {
+	name = "Tolfrido" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1102.1.1 = {
+		birth = yes
+	}
+	1127.1.1 = {
+		add_matrilineal_spouse = valdemar0056 #Crune Velleysdatter Erroldieskja # daughter Guelaured
+	}
+	1182.1.1 = {
+		death = yes
+	}
+}
+
+valdemar0068 = {
+	name = "Guelaured" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0067 # Tolfrido
+	mother = valdemar0056 # Crune Velleysdatter Erroldieskja
+	1129.1.1 = {
+		birth = yes
+	}
+	1185.1.1 = { # 58 years old
+		death = yes
+	}
+}
+valdemar0069 = {
+	name = "Arthaym" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1125.1.1 = {
+		birth = yes
+	}
+	1145.1.1 = {
+		add_matrilineal_spouse = valdemar0065 #Arionwyn Crunesdatter Erroldieskja # daughter Ledosaundra # son Eyncan # daughter Glara # daughter Arcturiana # daughter Shayne # daughter Lizbethaina
+	}
+	1199.1.1 = {
+		death = yes
+	}
+}
+valdemar0070 = {
+	name = "Ledosaundra" #fictional
+	# husband Lardor # daughter Rohirais # daughter Selielenza # daughter Shariena # daughter Ancie # daughter Sophil
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0069 # Arthaym
+	mother = valdemar0065 # Arionwyn Crunesdatter Erroldieskja
+	1146.1.1 = {
+		birth = yes
+	}
+	1229.1.1 = { # 83 years old
+		death = yes
+	}
+}
+valdemar0071 = {
+	name = "Eyncan" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0069 # Arthaym
+	mother = valdemar0065 # Arionwyn Crunesdatter Erroldieskja
+	1147.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = { # 73 years old
+		death = yes
+	}
+}
+valdemar0072 = {
+	name = "Glara" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0069 # Arthaym
+	mother = valdemar0065 # Arionwyn Crunesdatter Erroldieskja
+	1148.1.1 = {
+		birth = yes
+	}
+	1238.1.1 = { # 90 years old
+		death = yes
+	}
+}
+valdemar0073 = {
+	name = "Arcturiana" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0069 # Arthaym
+	mother = valdemar0065 # Arionwyn Crunesdatter Erroldieskja
+	1149.1.1 = {
+		birth = yes
+	}
+	1244.1.1 = { # 95 years old
+		death = yes
+	}
+}
+valdemar0074 = {
+	name = "Shayne" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0069 # Arthaym
+	mother = valdemar0065 # Arionwyn Crunesdatter Erroldieskja
+	1150.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = { # 50 years old
+		death = yes
+	}
+}
+valdemar0075 = {
+	name = "Lizbethaina" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0069 # Arthaym
+	mother = valdemar0065 # Arionwyn Crunesdatter Erroldieskja
+	1151.1.1 = {
+		birth = yes
+	}
+	1201.1.1 = { # 50 years old
+		death = yes
+	}
+}
+
+valdemar0076 = {
+	name = "Lardor" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1146.1.1 = {
+		birth = yes
+	}
+	1166.1.1 = {
+		add_matrilineal_spouse = valdemar0070 #Ledosaundra Arionwynsdatter Erroldieskja # daughter Rohirais # daughter Selielenza # daughter Shariena # daughter Ancie # daughter Sophil
+	}
+	1229.1.1 = {
+		death = yes
+	}
+}
+valdemar0077 = {
+	name = "Rohirais" #fictional # no spouses no children
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0076 # Lardor
+	mother = valdemar0070 # Ledosaundra Arionwynsdatter Erroldieskja
+	1167.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = { # 43 years old
+		death = yes
+	}
+}
+valdemar0078 = {
+	name = "Selielenza" #fictional
+	# husband Artec # daughter Merelin
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0076 # Lardor
+	mother = valdemar0070 # Ledosaundra Arionwynsdatter Erroldieskja
+	1168.1.1 = {
+		birth = yes
+	}
+	1217.1.1 = { # 49 years old
+		death = yes
+	}
+}
+valdemar0079 = {
+	name = "Shariena" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0076 # Lardor
+	mother = valdemar0070 # Ledosaundra Arionwynsdatter Erroldieskja
+	1169.1.1 = {
+		birth = yes
+	}
+	1254.1.1 = { # 85 years old
+		death = yes
+	}
+}
+valdemar0080 = {
+	name = "Ancie" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0076 # Lardor
+	mother = valdemar0070 # Ledosaundra Arionwynsdatter Erroldieskja
+	1170.1.1 = {
+		birth = yes
+	}
+	1259.1.1 = { # 89 years old
+		death = yes
+	}
+}
+valdemar0081 = {
+	name = "Sophil" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0076 # Lardor
+	mother = valdemar0070 # Ledosaundra Arionwynsdatter Erroldieskja
+	1171.1.1 = {
+		birth = yes
+	}
+	1239.1.1 = { # 68 years old
+		death = yes
+	}
+}
+
+valdemar0082 = {
+	name = "Artec" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1168.1.1 = {
+		birth = yes
+	}
+	1188.1.1 = {
+		add_matrilineal_spouse = valdemar0078 #Selielenza Ledosaundrasdatter Erroldieskja # daughter Merelin
+	}
+	1217.1.1 = {
+		death = yes
+	}
+}
+valdemar0083 = {
+	name = "Merelin" #fictional
+	# husband Jondalark # daughter Taleya # daughter Jalhanna # daughter Hazrade # daughter Hestracia
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0082 # Artec
+	mother = valdemar0078 # Selielenza Ledosaundrasdatter Erroldieskja
+	1189.1.1 = {
+		birth = yes
+	}
+	1229.1.1 = { # 40 years old
+		death = yes
+	}
+}
+
+valdemar0084 = {
+	name = "Jondalark" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1189.1.1 = {
+		birth = yes
+	}
+	1209.1.1 = {
+		add_matrilineal_spouse = valdemar0083 #Merelin Selielenzasdatter Erroldieskja # daughter Taleya # daughter Jalhanna # daughter Hazrade # daughter Hestracia
+	}
+	1229.1.1 = {
+		death = yes
+	}
+}
+valdemar0085 = {
+	name = "Taleya" #fictional
+	# husband Vellan # daughter Talara
+	# husband Ekart # daughter Ashara # daughter Selenay # daughter Donetta # son Alex # son Hendrik # son Otto # son Florin # daughter Okta # daughter Vindre # daughter Maddi # son Jovan # son Daren # daughter Sjendra
+	# husband Edard # daughter Cathi
+	# husband Stephen who is Catholic and all his children are Catholic # son Fyran # son Ingold # son Tomas
+	# husband Markten # son Kened # son Davor
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0084 # Jondalark
+	mother = valdemar0083 # Merelin Selielenzasdatter Erroldieskja
+	1210.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { # 96 years old
+		death = yes
+	}
+}
+valdemar0086 = {
+	name = "Jalhanna" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0084 # Jondalark
+	mother = valdemar0083 # Merelin Selielenzasdatter Erroldieskja
+	1211.1.1 = {
+		birth = yes
+	}
+	1255.1.1 = { # 44 years old
+		death = yes
+	}
+}
+valdemar0087 = {
+	name = "Hazrade" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0084 # Jondalark
+	mother = valdemar0083 # Merelin Selielenzasdatter Erroldieskja
+	1212.1.1 = {
+		birth = yes
+	}
+	1263.1.1 = { # 51 years old
+		death = yes
+	}
+}
+valdemar0088 = {
+	name = "Hestracia" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0084 # Jondalark
+	mother = valdemar0083 # Merelin Selielenzasdatter Erroldieskja
+	1213.1.1 = {
+		birth = yes
+	}
+	1284.1.1 = { # 71 years old
+		death = yes
+	}
+}
+valdemar0089 = {
+	name = "Vellan" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1210.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
+		add_matrilineal_spouse = valdemar0085 #Taleya Merelinsdatter Erroldieskja # daughter Talara
+	}
+	1306.1.1 = {
+		death = yes
+	}
+}
+valdemar0090 = {
+	name = "Talara" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0089 # Vellan
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja
+	1231.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0091 = {
+	name = "Ekart" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1210.1.1 = {
+		birth = yes
+	}
+	1232.1.1 = {
+		add_matrilineal_spouse = valdemar0085 #Taleya Merelinsdatter Erroldieskja # daughter Ashara # daughter Selenay # daughter Donetta # son Alex # son Hendrik # son Otto # son Florin # daughter Okta # daughter Vindre # daughter Maddi # son Jovan # son Daren # daughter Sjendra
+	}
+	1306.1.1 = {
+		death = yes
+	}
+}
+valdemar0092 = {
+	name = "Ashara" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1233.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0093 = {
+	name = "Selenay" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1234.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0094 = {
+	name = "Donetta" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1235.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0095 = {
+	name = "Alex" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1236.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0096 = {
+	name = "Hendrik" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1237.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0097 = {
+	name = "Otto" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1238.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0098 = {
+	name = "Florin" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1239.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0099 = {
+	name = "Okta" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1240.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0100 = {
+	name = "Vindre" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1241.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0101 = {
+	name = "Maddi" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1242.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0102 = {
+	name = "Jovan" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1243.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0103 = {
+	name = "Daren" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1244.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0104 = {
+	name = "Sjendra" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0091 # Ekart
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1245.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+valdemar0105 = {
+	name = "Edard" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1210.1.1 = {
+		birth = yes
+	}
+	1246.1.1 = {
+		add_matrilineal_spouse = valdemar0085 #Taleya Merelinsdatter Erroldieskja # daughter Cathi
+	}
+	1306.1.1 = {
+		death = yes
+	}
+}
+
+valdemar0106 = {
+	name = "Cathi" #fictional
+	female = yes
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0105 # Edard
+	mother = valdemar0085 # Taleya Merelinsdatter Erroldieskja 
+	1247.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}
+
+valdemar0107 = {
+	name = "Lesavard" #fictional
+	religion = valdemarian_common
+	culture = danish
+	1231.1.1 = {
+		birth = yes
+	}
+	1251.1.1 = {
+		add_matrilineal_spouse = valdemar0090 #Talara Taleyasdatter Erroldieskja # son Solian
+	}
+	1306.1.1 = {
+		death = yes
+	}
+}
+
+valdemar0108 = {
+	name = "Solian" #fictional
+	dynasty = valdemardyn5 # Erroldieskja
+	religion = valdemarian_common
+	culture = danish
+	father = valdemar0107 # Lesavard
+	mother = valdemar0090 # Talara Taleyasdatter Erroldieskja 
+	1252.1.1 = {
+		birth = yes
+	}
+	1306.1.1 = { 
+		death = yes
+	}
+}

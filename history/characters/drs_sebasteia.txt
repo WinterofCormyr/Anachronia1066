@@ -1,0 +1,16 @@
+﻿#Duchy of Sebasteia # neocimmerian Culture cobela_arixideuoi Religion characters
+
+# rulers of the Duchy of Sebasteia
+drssebasteia0001 = {
+	name = "Suolibrogenorigani" #
+	female = yes
+	dynasty = drsdyn125 # Alexeia
+	religion = cobela_arixideuoi
+	culture = neocimmerian
+	1040.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,1130 @@
+######### START SIBERIA ########
+
+e_siberia = { # Kimek and Kipchak and Cuman with this one
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	870.1.1 = {
+		holder = drssiberia0018 # Tabitha Tsatsame Bar Isaac
+	}
+	890.1.1 = {
+		holder = drssiberia0019 # Empress Talia Laytiva I Bar Isaac
+	}
+	903.1.1 = {
+		holder = drssiberia0020 # Empress Constance Sevindik I Bar Isaac
+	}
+	933.1.1 = {
+		holder = drssiberia0021 # Emperor Velmayka Lokpai I Bar Isaac
+	}
+	953.1.1 = {
+		holder = drssiberia0027 # Empress Nulzyava I Bar Isaac
+	}
+	973.1.1 = {
+		holder = drssiberia0029 # Empress Jibek I Bar Isaac
+	}
+	993.1.1 = {
+		holder = drssiberia0030 # Empress Licinia I Bar Isaac
+	}
+	1013.1.1 = {
+		holder = drssiberia0033 # Empress Dynari I Bar Isaac
+	}
+	1033.1.1 = {
+		holder = drssiberia0035 # Emperor Chilbu I Bar Isaac
+	}
+	1053.1.1 = {
+		holder = drssiberia0060 # Empress Chanina I Bar Isaac
+	}
+	1074.1.1 = {
+		holder = drssiberia0061 # Empress Shapira I Bar Isaac
+	}
+	1075.1.1 = {
+		holder = drssiberia0067 # Empress Lunia I Bar Isaac
+	}
+}
+
+#### START OB ####
+
+k_ob = { # held by Empress or Emperor of Siberia # only county Siberian leader will hold is c_ob # the capital of the empire
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+		liege = e_siberia
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	870.1.1 = {
+		holder = drssiberia0018 # Tabitha Tsatsame Bar Isaac
+	}
+	890.1.1 = {
+		holder = drssiberia0019 # Empress Talia Laytiva I Bar Isaac
+	}
+	903.1.1 = {
+		holder = drssiberia0020 # Empress Constance Sevindik I Bar Isaac
+	}
+	933.1.1 = {
+		holder = drssiberia0021 # Emperor Velmayka Lokpai I Bar Isaac
+	}
+	953.1.1 = {
+		holder = drssiberia0027 # Empress Nulzyava I Bar Isaac
+	}
+	973.1.1 = {
+		holder = drssiberia0029 # Empress Jibek I Bar Isaac
+	}
+	993.1.1 = {
+		holder = drssiberia0030 # Empress Licinia I Bar Isaac
+	}
+	1013.1.1 = {
+		holder = drssiberia0033 # Empress Dynari I Bar Isaac
+	}
+	1033.1.1 = {
+		holder = drssiberia0035 # Emperor Chilbu I Bar Isaac
+	}
+	1053.1.1 = {
+		holder = drssiberia0060 # Empress Chanina I Bar Isaac
+	}
+	1074.1.1 = {
+		holder = drssiberia0061 # Empress Shapira I Bar Isaac
+	}
+	1075.1.1 = {
+		holder = drssiberia0067 # Empress Lunia I Bar Isaac
+	}
+}
+d_salair = { # held by Empress or Emperor of Siberia # only county Siberian leader will hold is c_ob # the capital of the empire
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+		liege = k_ob
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	870.1.1 = {
+		holder = drssiberia0018 # Tabitha Tsatsame Bar Isaac
+	}
+	890.1.1 = {
+		holder = drssiberia0019 # Empress Talia Laytiva I Bar Isaac
+	}
+	903.1.1 = {
+		holder = drssiberia0020 # Empress Constance Sevindik I Bar Isaac
+	}
+	933.1.1 = {
+		holder = drssiberia0021 # Emperor Velmayka Lokpai I Bar Isaac
+	}
+	953.1.1 = {
+		holder = drssiberia0027 # Empress Nulzyava I Bar Isaac
+	}
+	973.1.1 = {
+		holder = drssiberia0029 # Empress Jibek I Bar Isaac
+	}
+	993.1.1 = {
+		holder = drssiberia0030 # Empress Licinia I Bar Isaac
+	}
+	1013.1.1 = {
+		holder = drssiberia0033 # Empress Dynari I Bar Isaac
+	}
+	1033.1.1 = {
+		holder = drssiberia0035 # Emperor Chilbu I Bar Isaac
+	}
+	1053.1.1 = {
+		holder = drssiberia0060 # Empress Chanina I Bar Isaac
+	}
+	1074.1.1 = {
+		holder = drssiberia0061 # Empress Shapira I Bar Isaac
+	}
+	1075.1.1 = {
+		holder = drssiberia0067 # Empress Lunia I Bar Isaac
+	}
+}
+c_ob = { # held by Empress or Emperor of Siberia # only county Siberian leader will hold is c_ob # the capital of the empire
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+		liege = d_salair
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	870.1.1 = {
+		holder = drssiberia0018 # Tabitha Tsatsame Bar Isaac
+	}
+	890.1.1 = {
+		holder = drssiberia0019 # Empress Talia Laytiva I Bar Isaac
+	}
+	903.1.1 = {
+		holder = drssiberia0020 # Empress Constance Sevindik I Bar Isaac
+	}
+	933.1.1 = {
+		holder = drssiberia0021 # Emperor Velmayka Lokpai I Bar Isaac
+	}
+	953.1.1 = {
+		holder = drssiberia0027 # Empress Nulzyava I Bar Isaac
+	}
+	973.1.1 = {
+		holder = drssiberia0029 # Empress Jibek I Bar Isaac
+	}
+	993.1.1 = {
+		holder = drssiberia0030 # Empress Licinia I Bar Isaac
+	}
+	1013.1.1 = {
+		holder = drssiberia0033 # Empress Dynari I Bar Isaac
+	}
+	1033.1.1 = {
+		holder = drssiberia0035 # Emperor Chilbu I Bar Isaac
+	}
+	1053.1.1 = {
+		holder = drssiberia0060 # Empress Chanina I Bar Isaac
+	}
+	1074.1.1 = {
+		holder = drssiberia0061 # Empress Shapira I Bar Isaac
+	}
+	1075.1.1 = {
+		holder = drssiberia0067 # Empress Lunia I Bar Isaac
+	}
+	1095.1.1 = {
+		holder = drssiberia0068 # Empress Euraxia I Bar Isaac
+	}
+}
+c_biia = { # held by an old_obish Culture redshift_gunar Faith countess # named Bumtsho Cnisia
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+		liege = d_salair
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		holder = drsbiia0001 # Bumtsho Cnisia
+	}
+}
+c_torema = { # held by an old_obish Culture redshift_gunar Faith countess # named Chenksa Velvus
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+		liege = d_salair
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		holder = drstorema0001 # Chenksa Velvus
+	}
+}
+
+#### START SIBIR ####
+
+k_sibir = { # held by an old_obish Culture queen # named Mirona Putyayka
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+		liege = e_siberia
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		holder = drssibir0001 # Mirona Putyayka Scribonia
+	}
+}
+
+#### START YUGRA ####
+
+k_yugra = { # held by an old_obish Culture suvar_al_i_faith queen # named Asli Hayn
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+		liege = e_siberia
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		holder = drsyugra0001 # Asli Hayn
+	}
+}
+#### START KIPCHAK ####
+k_kipchak = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		de_jure_liege = e_siberia # ADD NEW RULERS # GOVERNORS REPLACING THE HISTORY BELOW
+	}
+	870.1.1 = {
+		holder = drssiberia0018 # Tabitha Tsatsame Bar Isaac
+	}
+}
+#### START KIMEK ####
+k_kimek = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		de_jure_liege = e_siberia # ADD NEW RULERS # GOVERNORS REPLACING THE HISTORY BELOW# kimek Culture ysara_gunar #not made yet#goddess of the stars#has astrology tenet and unique tenet# Religion
+		liege = e_siberia
+		holder = drskimek0001 # Guranduk ysara OEg
+	}
+}
+d_mugodzhar_hills = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = k_kimek
+		holder = drskimek0001 # Guranduk ysara OEg
+	}
+}
+c_kos_uba = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = d_mugodzhar_hills
+		holder = drskimek0001 # Guranduk ysara OEg
+	}
+}
+c_mugodzhar_hills = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = d_mugodzhar_hills # NEW CHARACTER # Megha'Rix'Ta faith
+		holder = drsmugodzhar0001 # Ilkay megha OEg
+	}
+}
+c_jitikul = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = d_mugodzhar_hills # NEW CHARACTER # Megha'Rix'Ta faith
+		holder = drsjitikul0001 # Kobyak kobyak UElgue
+	}
+}
+d_aqtobe = { # capital Aqtobe # one duke ruling all provinces
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = k_kimek # NEW CHARACTER # megha_gunar kimek
+		holder = drsaqtobe0001 # C_ilbu len Aqtobe
+	}
+}
+c_aqtobe = { # capital Aqtobe # one duke ruling all provinces
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = d_aqtobe # NEW CHARACTER # megha_gunar kimek
+		holder = drsaqtobe0001 # C_ilbu len Aqtobe
+	}
+}
+c_orenburg = { # capital Aqtobe # one duke ruling all provinces
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = d_aqtobe # NEW CHARACTER # megha_gunar kimek
+		holder = drsaqtobe0001 # C_ilbu len Aqtobe
+	}
+}
+c_atamansku = { # capital Aqtobe # one duke ruling all provinces
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = d_aqtobe # NEW CHARACTER # megha_gunar kimek
+		holder = drsaqtobe0001 # C_ilbu len Aqtobe
+	}
+}
+d_atyrau = { # no ruler 867 # counts direct vassals of k_kimek
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = k_kimek # NEW CHARACTER # megha_gunar kimek
+		holder = 0
+	}
+}
+c_atyrau = { # 
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = k_kimek # NEW CHARACTER # megha_gunar khazar
+		holder = drsatyrau0001 # KE_lnissa OEloek
+	}
+}
+c_sagiz = { # 
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = k_kimek # NEW CHARACTER # ysara_gunar kimek
+		holder = drssagiz0001 # Yasar Yasarya
+	}
+}
+c_manatau = { # 
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = k_kimek # NEW CHARACTER # ysara_gunar kimek
+		holder = drsmanatau0001 # Togli Togliyya
+	}
+}
+c_baisary = { # 
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = k_kimek # NEW CHARACTER # ysara_gunar kimek
+		holder = drsbaisary0001 # Togortok len Baisary
+	}
+}
+c_basagha = { # 
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		liege = k_kimek # NEW CHARACTER # ysara_gunar kimek
+		holder = drsbasagha0001 # OEzlem oezlem UElgue
+	}
+}
+
+#### START CUMAN ####
+
+
+k_cuman = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	650.1.1 = {
+		holder = drssiberia0001 # Tammy Gyichangmo Bar Isaac
+	}
+	700.1.1 = {
+		holder = drssiberia0002 # Mariam Rayda Bar Isaac
+	}
+	730.1.1 = {
+		holder = drssiberia0003 # Isaac Malyaka Bar Isaac
+	}
+	750.1.1 = {
+		holder = drssiberia0004 # Abraham Atimuwer Bar Isaac
+	}
+	757.1.1 = {
+		holder = drssiberia0005 # Aaron Mosheg Bar Isaac
+	}
+	780.1.1 = {
+		holder = drssiberia0007 # Hulda Trinyen Bar Isaac
+	}
+	810.1.1 = {
+		holder = drssiberia0009 # Mariam Serzhay Bar Isaac
+	}
+	830.1.1 = {
+		holder = drssiberia0010 # Daniel Januarius Bar Isaac
+	}
+	850.1.1 = {
+		holder = drssiberia0015 # Samantha Ravzhava Bar Isaac
+	}
+	861.1.1 = {
+		de_jure_liege = e_siberia # ADD NEW RULERS # GOVERNORS REPLACING THE HISTORY BELOW
+	}
+	870.1.1 = {
+		holder = drssiberia0018 # Tabitha Tsatsame Bar Isaac
+	}
+}
+
+######## START TURAN ########
+
+e_turan = { # Zhetysu and Dzungaria with this one
+	867.1.1 = {	change_development_level = 10 }
+	1066.1.1 = { change_development_level = 45 } # first ruler in 766 when it is conquered by the Siberian Empire
+	
+	766.1.1 = {
+		holder = drssiberia0006 # Deborah Slyugan'ka Bar Isaac
+	}
+	790.1.1 = {
+		holder = drssiberia0008 # Ahijah Lazarz Adonato Bar Isaac
+	}
+	801.1.1 = {
+		holder = drsturan0001 # Elizabeth Sibel Bar Isaac
+	}
+	836.1.1 = {
+		holder = drsturan0002 # Mariam O_zgul Bar Isaac
+	}
+	866.1.1 = {
+		holder = drsturan0003 # Amos Wanxanak Bar Isaac
+	}
+	886.1.1 = {
+		holder = drsturan0004 # Agabus Uxushukhan Bar Isaac
+	}
+	906.1.1 = {
+		holder = drsturan0006 # Ghotai Sari Bar Isaac
+	}
+	926.1.1 = {
+		holder = drsturan0008 # Chiltanesi Aigiarn Bar Isaac
+	}
+}
+
+#### START ZHETYSU ####
+
+k_zhetysu = { # Zhetysu and Dzungaria with this one
+	867.1.1 = {	change_development_level = 10 }
+	1066.1.1 = { change_development_level = 45 } # first ruler in 766 when it is conquered by the Siberian Empire
+	
+	766.1.1 = {
+		liege = e_turan
+		holder = drssiberia0006 # Deborah Slyugan'ka Bar Isaac
+	}
+	790.1.1 = {
+		holder = drssiberia0008 # Ahijah Lazarz Adonato Bar Isaac
+	}
+	801.1.1 = {
+		holder = drsturan0001 # Elizabeth Sibel Bar Isaac
+	}
+	836.1.1 = {
+		holder = drsturan0002 # Mariam O_zgul Bar Isaac
+	}
+	866.1.1 = {
+		de_jure_liege = e_turan
+		holder = drsturan0003 # Amos Wanxanak Bar Isaac
+	}
+	886.1.1 = {
+		holder = drsturan0005 # Azariah Yazdegerd Bar Isaac
+	}
+	907.1.1 = {
+		holder = drsazariahene0001 # Margaud Bar Isaac
+	}
+	922.1.1 = {
+		holder = drsazariahene0002 # Alexandra Bar Isaac
+	}
+}
+
+#### START DZUNGARIA ####
+
+k_dzungaria = { # Zhetysu and Dzungaria with this one
+	867.1.1 = {	change_development_level = 10 }
+	1066.1.1 = { change_development_level = 45 } # first ruler in 766 when it is conquered by the Siberian Empire
+	
+	766.1.1 = {
+		holder = drssiberia0006 # Deborah Slyugan'ka Bar Isaac
+	}
+	790.1.1 = {
+		holder = drssiberia0008 # Ahijah Lazarz Adonato Bar Isaac
+	}
+	801.1.1 = {
+		holder = drsturan0001 # Elizabeth Sibel Bar Isaac
+	}
+	836.1.1 = {
+		holder = drsturan0002 # Mariam O_zgul Bar Isaac
+	}
+	866.1.1 = {
+		de_jure_liege = e_turan
+		holder = drsturan0003 # Amos Wanxanak Bar Isaac
+	}
+	886.1.1 = {
+		holder = drsturan0005 # Azariah Yazdegerd Bar Isaac
+	}
+	907.1.1 = {
+		holder = drsazariahene0001 # Margaud Bar Isaac
+	}
+	922.1.1 = {
+		holder = drsazariahene0002 # Alexandra Bar Isaac
+	}
+}

@@ -1,0 +1,775 @@
+﻿galatian_religion = { # Galataios Deuoi
+	family = rf_western
+
+	pagan_roots = yes
+
+	doctrine = western_mideast_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_equal # equal for main religion # doctrine_gender_male_dominated Greek influenced branch # doctrine_gender_female_dominated Cybelite influenced branch
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_mz_no_syncretism
+
+	#Marriage
+	doctrine = doctrine_free_love
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_restricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	traits = {
+		virtues = { brave just diligent compassionate }
+		sins = { craven arbitrary lazy wrathful }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	localization = {
+		#High God Name
+		HighGodName = galatian_high_god_name # Suolibrogenos
+		HighGodNamePossessive = galatian_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = galatian_high_god_name_alternate # Bussurigios
+		HighGodNameAlternatePossessive = galatian_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = galatian_good_god_sucellus # Sucellus god of life # killed by Agares # Cernunnos took his throne to continue the balance of life and death
+		CreatorNamePossessive = galatian_good_god_sucellus_possessive
+		CreatorSheHe = CHARACTER_SHEHE_THEY
+		CreatorHerHis = CHARACTER_HERHIS_THEIR
+		CreatorHerHim = CHARACTER_HERHIM_THEM
+
+		#HealthGod
+		HealthGodName = galatian_health_god_name # Sirona # Queen of Peace
+		HealthGodNamePossessive = galatian_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = galatian_good_god_cernunnos # Cernunnos # new god of life
+		FertilityGodNamePossessive = galatian_good_god_cernunnos_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_HE
+		FertilityGodHerHis = CHARACTER_HERHIS_HIS
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WealthGod
+		WealthGodName = galatian_wealth_god_name # Uindieinos
+		WealthGodNamePossessive = galatian_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = galatian_household_god_name # Epone # AKA Epona # also a war god
+		HouseholdGodNamePossessive = galatian_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = hellenism_fate_god_name # The Fates # from Greek syncretism
+		FateGodNamePossessive = hellenism_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+
+		#KnowledgeGod
+		KnowledgeGodName = galatian_knowledge_god_name # Vuronsemo # Wurunshemu # Furu-Semu # from Hattian syncretism
+		KnowledgeGodNamePossessive = galatian_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = galatian_war_god_name # Epone
+		WarGodNamePossessive = galatian_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIM_HER
+
+		#TricksterGod
+		TricksterGodName = galatian_high_god_name_alternate # Bussurigios
+		TricksterGodNamePossessive = galatian_high_god_name_alternate_possessive # Bussurigios
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = galatian_night_god_name # Artemis Selene # from Greek syncretism
+		NightGodNamePossessive = galatian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = galatian_water_god_name # Aquan # comma the Many Rivers
+		WaterGodNamePossessive = galatian_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_THEY
+		WaterGodHerHis = CHARACTER_HERHIS_THEIR
+		WaterGodHerHim = CHARACTER_HERHIM_THEM
+
+		PantheonTerm = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = {
+			galatian_high_god_name # Suolibrogenos
+			galatian_high_god_name_alternate # Bussurigios
+			galatian_good_god_sucellus # Sucellus
+			galatian_health_god_name # Sirona
+			galatian_good_god_cernunnos # Cernunnos
+			galatian_wealth_god_name # Uindieinos
+			galatian_household_god_name # Epone
+			galatian_knowledge_god_name # Vuronsemo
+			galatian_night_god_name # Artemis Selene
+			galatian_water_god_name # Aquan the Many Rivers
+			galatian_good_god_iesos # Iesos # Jesus # not to be confused with the evil Pantokrator
+			galatian_good_god_atia # Aitah
+			galatian_good_god_atiase # Ayase
+			galatian_good_god_cobela # Cobela
+			galatian_good_god_cobela_matir # Cobela Matir
+			galatian_good_god_agolon # Agolon
+		}
+		DevilName = galatian_evil_god_agares
+		DevilNamePossessive = galatian_evil_god_agares_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { 
+			galatian_evil_god_rome
+			galatian_evil_god_pantokrator # not to be confused with the Jesus who serves as a tutelary deity
+			galatian_evil_god_agares
+		}
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = galatian_religious_symbol
+		ReligiousText = galatian_religious_text
+		ReligiousHeadName = galatian_religious_head_title
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = galatian_priest_male
+		PriestMalePlural = galatian_priest_male_plural
+		PriestFemale = galatian_priest_female
+		PriestFemalePlural = galatian_priest_female_plural
+		PriestNeuter = galatian_priest_male
+		PriestNeuterPlural = galatian_priest_male_plural
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = galatian_bishop_male
+		BishopMalePlural = galatian_bishop_male_plural
+		BishopFemale = galatian_priest_female
+		BishopFemalePlural = galatian_priest_female_plural
+		BishopNeuter = galatian_priest_male
+		BishopNeuterPlural = galatian_priest_male_plural
+		DivineRealm = galatian_divine_realm
+		PositiveAfterLife = galatian_afterlife_name
+		NegativeAfterLife = galatian_bad_afterlife_name
+		DeathDeityName = galatian_death_deity_name # Uindieinos
+		DeathDeityNamePossessive = galatian_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = galatian_health_god_name # Sirona
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		high_galatian_faith = {
+			color = { 0 100 33 }
+			icon = gaulish_reformed
+
+			holy_site = nicosia
+			holy_site = sufed
+			holy_site = constantinople
+			holy_site = baghdad
+			holy_site = raqqa
+
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_inner_journey
+			doctrine = tenet_reincarnation
+
+			holy_order_names = {
+				{ name = "holy_order_children_of_asherah" }
+				{ name = "holy_order_knights_of_canaan" }
+				{ name = "holy_order_els_champions" }
+			}
+		}
+		iesodeuonosism = {
+			color = { 84 215 130 }
+			icon = insular_celtic
+
+			holy_site = nicosia
+			holy_site = sufed
+			holy_site = constantinople
+			holy_site = jerusalem
+			holy_site = rome
+			
+			doctrine = doctrine_gender_male_dominated
+			
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_adultery_men_crime
+			doctrine = doctrine_adultery_women_crime
+			doctrine = doctrine_bastardry_all
+			
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_monasticism
+			doctrine = tenet_reincarnation
+			
+			localization = {
+				#High God Name
+				HighGodName = galatian_good_god_iesos # Iesos Christos
+				HighGodNamePossessive = galatian_good_god_iesos_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+				HighGodNameAlternate = galatian_evil_god_pantokrator # Pantokrator
+				HighGodNameAlternatePossessive = galatian_evil_god_pantokrator_possessive
+
+				#Creator
+				CreatorName = galatian_good_god_sucellus # Sucellus god of life # killed by Agares # Cernunnos took his throne to continue the balance of life and death
+				CreatorNamePossessive = galatian_good_god_sucellus_possessive
+				CreatorSheHe = CHARACTER_SHEHE_THEY
+				CreatorHerHis = CHARACTER_HERHIS_THEIR
+				CreatorHerHim = CHARACTER_HERHIM_THEM
+
+				#HealthGod
+				HealthGodName = galatian_health_god_name # Sirona # Queen of Peace
+				HealthGodNamePossessive = galatian_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = galatian_good_god_cernunnos # Cernunnos # new god of life
+				FertilityGodNamePossessive = galatian_good_god_cernunnos_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_HE
+				FertilityGodHerHis = CHARACTER_HERHIS_HIS
+				FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WealthGod
+				WealthGodName = galatian_wealth_god_name # Uindieinos
+				WealthGodNamePossessive = galatian_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = galatian_household_god_name # Epone # AKA Epona # also a war god
+				HouseholdGodNamePossessive = galatian_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = hellenism_fate_god_name # The Fates # from Greek syncretism
+				FateGodNamePossessive = hellenism_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = galatian_knowledge_god_name # Vuronsemo # Wurunshemu # Furu-Semu # from Hattian syncretism
+				KnowledgeGodNamePossessive = galatian_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = galatian_war_god_name # Epone
+				WarGodNamePossessive = galatian_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = galatian_high_god_name_alternate # Bussurigios
+				TricksterGodNamePossessive = galatian_high_god_name_alternate_possessive # Bussurigios
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = galatian_night_god_name # Artemis Selene # from Greek syncretism
+				NightGodNamePossessive = galatian_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = galatian_water_god_name # Aquan # comma the Many Rivers
+				WaterGodNamePossessive = galatian_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_THEY
+				WaterGodHerHis = CHARACTER_HERHIS_THEIR
+				WaterGodHerHim = CHARACTER_HERHIM_THEM
+
+				PantheonTerm = iesodeuonosism_pantheon_the_archangels
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = {
+					galatian_high_god_name # Suolibrogenos
+					galatian_high_god_name_alternate # Bussurigios
+					galatian_good_god_sucellus # Sucellus
+					galatian_health_god_name # Sirona
+					galatian_good_god_cernunnos # Cernunnos
+					galatian_wealth_god_name # Uindieinos
+					galatian_household_god_name # Epone
+					galatian_knowledge_god_name # Vuronsemo
+					galatian_night_god_name # Artemis Selene
+					galatian_water_god_name # Aquan the Many Rivers
+					galatian_good_god_iesos # Iesos # Jesus # not to be confused with the evil Pantokrator
+					galatian_good_god_atia # Aitah
+					galatian_evil_god_pantokrator # not to be confused with the Jesus who serves as a tutelary deity
+					galatian_good_god_atiase # Ayase
+					galatian_good_god_agolon # Agolon
+				}
+				DevilName = galatian_evil_god_agares
+				DevilNamePossessive = galatian_evil_god_agares_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { 
+					galatian_evil_god_rome
+					galatian_evil_god_agares
+				}
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = galatian_religious_symbol
+				ReligiousText = galatian_religious_text
+				ReligiousHeadName = galatian_religious_head_title
+				ReligiousHeadTitleName = dualism_religious_head_title_name
+				DevoteeMale = paganism_devotee
+				DevoteeMalePlural = paganism_devoteeplural
+				DevoteeFemale = paganism_devotee
+				DevoteeFemalePlural = paganism_devoteeplural
+				DevoteeNeuter = paganism_devotee
+				DevoteeNeuterPlural = paganism_devoteeplural
+				PriestMale = galatian_priest_male
+				PriestMalePlural = galatian_priest_male_plural
+				PriestFemale = galatian_priest_female
+				PriestFemalePlural = galatian_priest_female_plural
+				PriestNeuter = galatian_priest_male
+				PriestNeuterPlural = galatian_priest_male_plural
+				AltPriestTermPlural = christianity_priest_alternate_plural
+				BishopMale = galatian_bishop_male
+				BishopMalePlural = galatian_bishop_male_plural
+				BishopFemale = galatian_priest_female
+				BishopFemalePlural = galatian_priest_female_plural
+				BishopNeuter = galatian_priest_male
+				BishopNeuterPlural = galatian_priest_male_plural
+				DivineRealm = galatian_divine_realm
+				PositiveAfterLife = galatian_afterlife_name
+				NegativeAfterLife = galatian_bad_afterlife_name
+				DeathDeityName = galatian_death_deity_name # Uindieinos
+				DeathDeityNamePossessive = galatian_death_deity_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				WitchGodName = galatian_health_god_name # Sirona
+				WitchGodHerHis = CHARACTER_HERHIS_HER
+				WitchGodSheHe = CHARACTER_SHEHE_SHE
+				WitchGodHerHim = CHARACTER_HERHIM_HER
+				WitchGodMistressMaster = mistress
+				WitchGodMotherFather = mother
+				
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+
+			holy_order_names = {
+				{ name = "holy_order_children_of_asherah" }
+				{ name = "holy_order_knights_of_canaan" }
+				{ name = "holy_order_els_champions" }
+			}
+		}
+		cobela_arixideuoi = {
+			color = { 33 100 33 }
+			icon = gaulish_reformed
+
+			holy_site = nicosia
+			holy_site = sufed
+			holy_site = constantinople
+			holy_site = athens
+			holy_site = sparta
+			
+			doctrine = doctrine_gender_female_dominated
+			
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_way_of_cybele
+			doctrine = tenet_reincarnation
+			
+			localization = {
+				#High God Name
+				HighGodName = galatian_good_god_cobela # Cobela
+				HighGodNamePossessive = galatian_good_god_cobela_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = galatian_good_god_cobela_matir # Cobela Matir
+				HighGodNameAlternatePossessive = galatian_good_god_cobela_matir_possessive
+
+				#Creator
+				CreatorName = galatian_good_god_sucellus # Sucellus god of life # killed by Agares # Cernunnos took his throne to continue the balance of life and death
+				CreatorNamePossessive = galatian_good_god_sucellus_possessive
+				CreatorSheHe = CHARACTER_SHEHE_THEY
+				CreatorHerHis = CHARACTER_HERHIS_THEIR
+				CreatorHerHim = CHARACTER_HERHIM_THEM
+
+				#HealthGod
+				HealthGodName = galatian_health_god_name # Sirona # Queen of Peace
+				HealthGodNamePossessive = galatian_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = galatian_good_god_cobela # Cobela
+				FertilityGodNamePossessive = galatian_good_god_cobela_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = galatian_good_god_iesos # Iesos
+				WealthGodNamePossessive = galatian_good_god_iesos_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = galatian_household_god_name # Epone # AKA Epona # also a war god
+				HouseholdGodNamePossessive = galatian_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = hellenism_fate_god_name # The Fates # from Greek syncretism
+				FateGodNamePossessive = hellenism_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = galatian_knowledge_god_name # Vuronsemo # Wurunshemu # Furu-Semu # from Hattian syncretism
+				KnowledgeGodNamePossessive = galatian_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = galatian_war_god_name # Epone
+				WarGodNamePossessive = galatian_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = galatian_high_god_name_alternate # Bussurigios
+				TricksterGodNamePossessive = galatian_high_god_name_alternate_possessive # Bussurigios
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = galatian_night_god_name # Artemis Selene # from Greek syncretism
+				NightGodNamePossessive = galatian_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = galatian_water_god_name # Aquan # comma the Many Rivers
+				WaterGodNamePossessive = galatian_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_THEY
+				WaterGodHerHis = CHARACTER_HERHIS_THEIR
+				WaterGodHerHim = CHARACTER_HERHIM_THEM
+
+				PantheonTerm = religion_the_gods
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = {
+					galatian_good_god_cobela # Cobela
+					galatian_good_god_cobela_matir # Cobela Matir
+					galatian_good_god_sucellus # Sucellus
+					galatian_health_god_name # Sirona
+					galatian_good_god_cernunnos # Cernunnos
+					galatian_household_god_name # Epone
+					galatian_knowledge_god_name # Vuronsemo
+					galatian_night_god_name # Artemis Selene
+					galatian_water_god_name # Aquan the Many Rivers
+					galatian_good_god_iesos # Iesos # Jesus # not to be confused with the evil Pantokrator
+					galatian_good_god_atia # Aitah
+					galatian_good_god_atiase # Ayase
+					galatian_good_god_agolon # Agolon
+				}
+				DevilName = galatian_evil_god_agares
+				DevilNamePossessive = galatian_evil_god_agares_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { 
+					galatian_evil_god_rome
+					galatian_evil_god_agares
+					galatian_evil_god_pantokrator # not to be confused with the Jesus who serves as a tutelary deity
+				}
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = galatian_religious_symbol
+				ReligiousText = galatian_religious_text
+				ReligiousHeadName = galatian_religious_head_title
+				ReligiousHeadTitleName = dualism_religious_head_title_name
+				DevoteeMale = paganism_devotee
+				DevoteeMalePlural = paganism_devoteeplural
+				DevoteeFemale = paganism_devotee
+				DevoteeFemalePlural = paganism_devoteeplural
+				DevoteeNeuter = paganism_devotee
+				DevoteeNeuterPlural = paganism_devoteeplural
+				PriestMale = galatian_priest_male
+				PriestMalePlural = galatian_priest_male_plural
+				PriestFemale = galatian_priest_female
+				PriestFemalePlural = galatian_priest_female_plural
+				PriestNeuter = galatian_priest_male
+				PriestNeuterPlural = galatian_priest_male_plural
+				AltPriestTermPlural = christianity_priest_alternate_plural
+				BishopMale = galatian_bishop_male
+				BishopMalePlural = galatian_bishop_male_plural
+				BishopFemale = galatian_priest_female
+				BishopFemalePlural = galatian_priest_female_plural
+				BishopNeuter = galatian_priest_male
+				BishopNeuterPlural = galatian_priest_male_plural
+				DivineRealm = galatian_divine_realm
+				PositiveAfterLife = galatian_afterlife_name
+				NegativeAfterLife = galatian_bad_afterlife_name
+				DeathDeityName = galatian_death_deity_name # Uindieinos
+				DeathDeityNamePossessive = galatian_death_deity_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				WitchGodName = galatian_health_god_name # Sirona
+				WitchGodHerHis = CHARACTER_HERHIS_HER
+				WitchGodSheHe = CHARACTER_SHEHE_SHE
+				WitchGodHerHim = CHARACTER_HERHIM_HER
+				WitchGodMistressMaster = mistress
+				WitchGodMotherFather = mother
+				
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+
+			holy_order_names = {
+				{ name = "holy_order_children_of_asherah" }
+				{ name = "holy_order_knights_of_canaan" }
+				{ name = "holy_order_els_champions" }
+			}
+		}
+		greek_galatian_faith = {
+			color = { 33 100 150 }
+			icon = hellenic
+
+			holy_site = nicosia
+			holy_site = sufed
+			holy_site = constantinople
+			holy_site = raqqa
+			holy_site = sparta
+			
+			doctrine = doctrine_gender_equal # also an Ireneist one in the same group see if I can make semi-female dominated
+			
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_astrology
+			doctrine = tenet_esotericism # those who believe in reincarnation don't make a big deal about it, and many people of the faith don't believe in reincarnation
+			
+			localization = {
+				#High God Name
+				HighGodName = galatian_good_god_zen_tavianos # Zen Tavianos # a less evil Zeus # basically Suolibrogenos mantled the good parts of Zeus while rejecting the bad parts
+				HighGodNamePossessive = galatian_good_god_zen_tavianos_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+				HighGodNameAlternate = galatian_high_god_name # Suolibrogenos
+				HighGodNameAlternatePossessive = galatian_high_god_name_possessive
+
+				#Creator
+				CreatorName = galatian_good_god_gaia_soucella # Gaia Soucella # Gaia syncretized with Sucellus # female rather than nonbinary
+				CreatorNamePossessive = galatian_good_god_gaia_soucella_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = galatian_health_god_name # Sirona # Queen of Peace
+				HealthGodNamePossessive = galatian_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = galatian_good_god_avrodite_cobela # Avrodite Cobela # syncretism of Aphrodite with Cobela
+				FertilityGodNamePossessive = galatian_good_god_avrodite_cobela_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = galatian_good_god_agolon # Agolon # Galatian Apollo
+				WealthGodNamePossessive = galatian_good_god_agolon_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = galatian_household_god_name # Epone # AKA Epona # also a war god
+				HouseholdGodNamePossessive = galatian_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = hellenism_fate_god_name # The Fates # from Greek syncretism
+				FateGodNamePossessive = hellenism_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = galatian_good_god_atena_chelia_vuronsemo # Atena Chelia Vuronsemo # syncretism of Athena, Helios, and Wurunshemu
+				KnowledgeGodNamePossessive = galatian_good_god_atena_chelia_vuronsemo_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = galatian_war_god_name # Epone
+				WarGodNamePossessive = galatian_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = galatian_high_god_name_alternate # Bussurigios
+				TricksterGodNamePossessive = galatian_high_god_name_alternate_possessive # Bussurigios
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = galatian_night_god_name # Artemis Selene # from Greek syncretism
+				NightGodNamePossessive = galatian_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = galatian_water_god_name # Aquan # comma the Many Rivers
+				WaterGodNamePossessive = galatian_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_THEY
+				WaterGodHerHis = CHARACTER_HERHIS_THEIR
+				WaterGodHerHim = CHARACTER_HERHIM_THEM
+
+				PantheonTerm = religion_the_gods
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = {
+					galatian_good_god_cobela # Cobela
+					galatian_good_god_cobela_matir # Cobela Matir
+					galatian_good_god_sucellus # Sucellus
+					galatian_health_god_name # Sirona
+					galatian_good_god_cernunnos # Cernunnos
+					galatian_wealth_god_name # Uindieinos
+					galatian_household_god_name # Epone
+					galatian_knowledge_god_name # Vuronsemo
+					galatian_night_god_name # Artemis Selene
+					galatian_water_god_name # Aquan the Many Rivers
+					galatian_good_god_iesos # Iesos # Jesus # not to be confused with the evil Pantokrator
+					galatian_good_god_atia # Aitah
+					galatian_good_god_atiase # Ayase
+					galatian_good_god_zen_tavianos # Zen Tavianos
+					galatian_good_god_gaia_soucella # Gaia Soucella
+					galatian_good_god_avrodite_cobela # Avrodite Cobela
+					galatian_good_god_agolon # Agolon
+					galatian_good_god_atena_chelia_vuronsemo # Atena Chelia Vuronsemo
+					inner_pontic_high_god_name # Adonis
+				}
+				DevilName = galatian_evil_god_agares
+				DevilNamePossessive = galatian_evil_god_agares_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { 
+					galatian_evil_god_rome
+					galatian_evil_god_agares
+					galatian_evil_god_pantokrator # not to be confused with the Jesus who serves as a tutelary deity
+				}
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = galatian_religious_symbol
+				ReligiousText = galatian_religious_text
+				ReligiousHeadName = galatian_religious_head_title
+				ReligiousHeadTitleName = dualism_religious_head_title_name
+				DevoteeMale = paganism_devotee
+				DevoteeMalePlural = paganism_devoteeplural
+				DevoteeFemale = paganism_devotee
+				DevoteeFemalePlural = paganism_devoteeplural
+				DevoteeNeuter = paganism_devotee
+				DevoteeNeuterPlural = paganism_devoteeplural
+				PriestMale = galatian_priest_male
+				PriestMalePlural = galatian_priest_male_plural
+				PriestFemale = galatian_priest_female
+				PriestFemalePlural = galatian_priest_female_plural
+				PriestNeuter = galatian_priest_male
+				PriestNeuterPlural = galatian_priest_male_plural
+				AltPriestTermPlural = christianity_priest_alternate_plural
+				BishopMale = galatian_bishop_male
+				BishopMalePlural = galatian_bishop_male_plural
+				BishopFemale = galatian_priest_female
+				BishopFemalePlural = galatian_priest_female_plural
+				BishopNeuter = galatian_priest_male
+				BishopNeuterPlural = galatian_priest_male_plural
+				DivineRealm = galatian_divine_realm
+				PositiveAfterLife = galatian_afterlife_name
+				NegativeAfterLife = galatian_bad_afterlife_name
+				DeathDeityName = galatian_death_deity_name # Uindieinos
+				DeathDeityNamePossessive = galatian_death_deity_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				WitchGodName = galatian_health_god_name # Sirona
+				WitchGodHerHis = CHARACTER_HERHIS_HER
+				WitchGodSheHe = CHARACTER_SHEHE_SHE
+				WitchGodHerHim = CHARACTER_HERHIM_HER
+				WitchGodMistressMaster = mistress
+				WitchGodMotherFather = mother
+				
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+
+			holy_order_names = {
+				{ name = "holy_order_children_of_asherah" }
+				{ name = "holy_order_knights_of_canaan" }
+				{ name = "holy_order_els_champions" }
+			}
+		}
+	}
+}

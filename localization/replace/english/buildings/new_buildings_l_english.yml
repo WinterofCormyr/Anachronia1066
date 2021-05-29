@@ -1,0 +1,19 @@
+﻿l_english:
+building_type_grindos_01:0 "Grindos"
+building_type_grindos_01_desc:0 "Undetectable from the surface, grindos are hidden underwater roads built of earth, wood or stone to aid in travel across water. These roads were known only to the locals making them an important element of defense against invaders."
+building_grindos_01:0 "Žemgrindos"
+building_grindos_01_desc:0 "Žemgrindos are hidden underwater roads built of earth."
+building_grindos_02:0 "Medgrindos"
+building_grindos_02_desc:0 "Medgrindos are hidden underwater roads built of wood."
+building_grindos_03:0 "Kūlgrindos"
+building_grindos_03_desc:0 "Kūlgrindos are hidden underwater roads built of stone."
+
+building_type_special_palemono_kalnas:0 "Palemono Kalnas"
+building_type_special_palemono_kalnas_desc:0 "According to legend, Palemon fled Rome for Lithuania where he built a hillfort settlement and established a dynasty."
+building_special_palemono_kalnas:0 "Palemono Kalnas"
+building_special_palemono_kalnas_desc:0 "According to legend, Palemon fled Rome for Lithuania where he built a hillfort settlement and established a dynasty."
+
+building_type_special_romowe:0 "Temple of Romowe"
+building_type_special_romowe_desc:0 "Romowe is the legendary [holy_site|E] of the Balts and home to their eternal flame."
+building_special_romowe:0 "Temple of Romowe"
+building_special_romowe_desc:0 "Romowe is the legendary [holy_site|E] of the Balts and home to their eternal flame."

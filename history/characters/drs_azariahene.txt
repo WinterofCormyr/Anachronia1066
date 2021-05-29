@@ -1,0 +1,104 @@
+﻿#Kingdom of Zhetysu and Dzungaria # ahezar until 930 then everfolk Culture old_aniar_na Religion characters
+
+# rulers of the Kingdoms of Zhetysu and Dzungaria
+drsazariahene0001 = {
+	name = "Margaud" # 
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar
+	culture = ahezar
+	father = drsturan0005 # Azariah Yazdegerd Bar Isaac
+	842.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drsazariahene0002 = {
+	name = "Alexandra" # daughter Loriel inherits Zhetysu # son Dhamna inherits Dzungaria # daughter Huldah no inheriance # daughter Diklah no inheritance
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar
+	culture = ahezar
+	mother = drsazariahene0001 # Margaud Bar Isaac
+	862.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		culture = everfolk
+	}
+	942.1.1 = {
+		death = yes
+	}
+}
+drsazariahene0003 = {
+	name = "Loriel" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar # yes
+	culture = ahezar
+	mother = drsazariahene0002 # Alexandra Bar Isaac
+	882.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		culture = everfolk
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+drsazariahene0004 = {
+	name = "Dhamna" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar # yes
+	culture = ahezar
+	mother = drsazariahene0002 # Alexandra Bar Isaac
+	883.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		culture = everfolk
+	}
+	963.1.1 = {
+		death = yes
+	}
+}
+drsazariahene0005 = {
+	name = "Huldah" # founds the empire of the tavar're in 930 # founds the tavar're culture in 960 # all in mongolia
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar # founds the empire of the tavar're in 930 # founds the tavar're culture in 960 # all in mongolia
+	culture = ahezar
+	mother = drsazariahene0002 # Alexandra Bar Isaac
+	884.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		culture = everfolk
+	}
+	960.1.1 = {
+		culture = high_tavar_re
+	}
+	964.1.1 = {
+		death = yes
+	}
+}
+drsazariahene0006 = {
+	name = "Diklah" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar
+	culture = ahezar
+	mother = drsazariahene0002 # Alexandra Bar Isaac
+	885.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		culture = everfolk
+	}
+	965.1.1 = {
+		death = yes
+	}
+}

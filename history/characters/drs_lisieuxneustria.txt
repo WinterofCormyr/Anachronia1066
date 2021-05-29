@@ -1,0 +1,17 @@
+﻿#Kingdom of the Neustrian Hearthland includes d_lisieux # neustrian Culture gallian_ireneism Religion characters
+#first ruler born 840 takes throne 860 dies 900 # IN NORMAN INVASION
+
+# rulers of the Kingdom of the Neustrian Hearthland in the 9th Century
+drslisieuxneustria0001 = {
+	name = "Amidala" #
+	female = yes
+	dynasty = drsdyn205 # Siclanding
+	religion = gallian_ireneism
+	culture = neustrian
+	840.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}

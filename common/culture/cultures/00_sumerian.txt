@@ -1,0 +1,70 @@
+﻿sumerian_group = {	
+	graphical_cultures = {
+		arabic_group_coa_gfx
+		mena_building_gfx
+		mena_clothing_gfx
+		mena_unit_gfx
+		dde_abbasid_clothing_gfx
+	}
+	mercenary_names = {
+		{ name = "mercenary_company_geezan_company" }
+		{ name = "mercenary_company_tigrayit_band" }
+	}
+	sumerian = {
+		color = hsv { 0.33 0.9 0.89 }
+		male_names = { #add sumerian names and family names
+			Alulim Alalngar En-men-lu-ana En-men-gal-ana Dumuzid En-sipad-zid-ana En-men-dur-ana Ubra-tutu Mesh-ki-ang-gasher Enmerkar Lugalbanda Dumuzid Dumuzi Gilgamesh Ur-Nungal Udul-klama La-ba_shum En-un-tarah-ana Mesh-he 
+			Melem-ana Lugal-kitun Mesh-Ane-pada Mesh-ki-ang-Nuna Elulu Balulu Hadanish En-shag-kush-ana Lugal-kinishe-dudu Lugal-ure Agrgandea Nanni Mesh-ki-ang-Nanna Lugal-Ane-mundu Unzi Undalulu Urur Puzur-Nirah Ishu-Il 
+			Shu-suen Puzur-Suen Ur-Zababa Zumudar Usi-watar Eshtar-muti Ishme-Shamash Shu-ilishu Nanniya Lugal-zage-si Ur-ningin Ur-gigir Kuda Puzur-ili Ur-Utu Lugal-melem En-hegal Lugal-sha-engur Ur-Nanshe Ur-nina Akurgal 
+			Eannatum Enannatum Entemena Enentarzi Lugalanda Urukagina Lugal-ushumgal Puzer-Mama Ur-Utu Ur-Mama Lu-Baba Lugula Kaku Kakug Ur-Baba Gudea Ur-Ningirsu Pirigme Ugme Ur-gar Nam-mahani Utu-hengal Ur-Namma Ur-Nammu Shulgi
+			Amar-Suena Shu-Suen Ibbi-Suen
+		}
+		female_names = {
+			Ashusikildigir Enanatuma En-hedu-anna Ninbanda Puabi Shagshag Suhub-ad Shatu-Murrim Nin-Imma Amurritum Beletum Aea Gamelat En-Hedu-Anna Shiptu Habannatum Nammu Nindukugga Mammetum Zimu Elutil Gemekala Urbau Lilith 
+			Ahunatum Yadidatum Ninbanda Anunit Gemeshega Sabit Ashusikildigir Ahatiwaqrat Lahamu Ninsar Belessunu
+		}
+		cadet_dynasty_names = {
+			"dynn_Nanniya-Meskilak"
+			"dynn_Sabit-Nanshe"
+			"dynn_Akurgal-Geshtinanna"
+			"dynn_Lugula-Ningal"
+			"dynn_Udul-Utu"
+			"dynn_Shulgi-Ninhursag"
+			"dynn_Kakug-Ninlil"
+			"dynn_Nanni-Enlil"
+			"dynn_Enmerkar-Ninazu"
+			"dynn_Melem-Ishtaran"
+			"dynn_Pirigme-Ishkur"
+			"dynn_Puzur-Nintinugga"
+			"dynn_Lugula-Ereshkigal"
+			"dynn_Zumudar-Nisaba"
+			"dynn_Nanni-Dumuzid"
+			"dynn_Ishu-Enki"
+			"dynn_Gar-Nanna"
+			"dynn_Ishu-Inanna"
+		}
+		dynasty_names = {
+			"dynn_Nanniya-Meskilak"
+			"dynn_Sabit-Nanshe"
+			"dynn_Akurgal-Geshtinanna"
+			"dynn_Lugula-Ningal"
+			"dynn_Udul-Utu"
+			"dynn_Shulgi-Ninhursag"
+			"dynn_Kakug-Ninlil"
+			"dynn_Nanni-Enlil"
+			"dynn_Enmerkar-Ninazu"
+			"dynn_Melem-Ishtaran"
+			"dynn_Pirigme-Ishkur"
+			"dynn_Puzur-Nintinugga"
+			"dynn_Lugula-Ereshkigal"
+			"dynn_Zumudar-Nisaba"
+			"dynn_Nanni-Dumuzid"
+			"dynn_Ishu-Enki"
+			"dynn_Gar-Nanna"
+			"dynn_Ishu-Inanna"
+		}
+		ethnicities = {
+			10 = arab
+		}
+	}
+}

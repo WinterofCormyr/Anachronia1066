@@ -1,0 +1,46 @@
+﻿l_english:
+#Holy Sites: Latvian
+holy_site_aglona_name:0 "Aglona" #ancient settlement, mythical place of Mindaugas death
+holy_site_aglona_effect_name:0 "From [holy_site|E] #weak ($holy_site_aglona_name$)#!"
+holy_site_elkukalni_name:0 "Elku Kalni" #ancestral hills
+holy_site_elkukalni_effect_name:0 "From [holy_site|E] #weak ($holy_site_elkukalni_name$)#!"
+holy_site_pokaini_name:0 "Pokaiņu Mežs" #ancestral forest
+holy_site_pokaini_effect_name:0 "From [holy_site|E] #weak ($holy_site_pokaini_name$)#!"
+holy_site_stelmuze_name:0 "Stelmužė" #oldest oak in region
+holy_site_stelmuze_effect_name:0 "From [holy_site|E] #weak ($holy_site_stelmuze_name$)#!"
+
+#Holy Sites: Lithuanian
+holy_site_kukaveitis_name:0 "Kukaveitis" #ancestral cremation site
+holy_site_kukaveitis_effect_name:0 "From [holy_site|E] #weak ($holy_site_kukaveitis_name$)#!"
+holy_site_palemono_kalnas_name:0 "Palemono Kalnas" #birthplace of Palemon dynasty
+holy_site_palemono_kalnas_effect_name:0 "From [holy_site|E] #weak ($holy_site_palemono_kalnas_name$)#!"
+
+#Holy Sites: Prussian
+holy_site_rambynas_name:0 "Rambynas" #Skalvian spiritual center at Ramigė
+holy_site_rambynas_effect_name:0 "From [holy_site|E] #weak ($holy_site_rambynas_name$)#!"
+holy_site_romowe_name:0 "Romowe"
+holy_site_romowe_effect_name:0 "From [holy_site|E] #weak ($holy_site_romowe_name$)#!"
+
+#Holy Sites: Sudovian
+holy_site_naura_name:0 "Naura" #Narew river
+holy_site_naura_effect_name:0 "From [holy_site|E] #weak ($holy_site_naura_name$)#!"
+holy_site_sventakupselai_name:0 "Sventakupsēlai" #sacred mounds
+holy_site_sventakupselai_effect_name:0 "From [holy_site|E] #weak ($holy_site_sventakupselai_name$)#!"
+
+#Holy Sites: Estonian
+holy_site_harja_name:0 "Härjä" #Toompea
+holy_site_harja_effect_name:0 "From [holy_site|E] #weak ($holy_site_harja_name$)#!"
+holy_site_kuremae_name:0 "Kuremäe"
+holy_site_kuremae_effect_name:0 "From [holy_site|E] #weak ($holy_site_kuremae_name$)#!"
+holy_site_puhajarv_name:0 "Pühajärv"
+holy_site_puhajarv_effect_name:0 "From [holy_site|E] #weak ($holy_site_puhajarv_name$)#!"
+
+#Holy Sites: Osilian
+holy_site_ebavere_name:0 "Ebaveremägi" #Birthplace of Taara
+holy_site_ebavere_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebavere_name$)#!"
+holy_site_kaali_name:0 "Kaali"
+holy_site_kaali_effect_name:0 "From [holy_site|E] #weak ($holy_site_kaali_name$)#!"
+holy_site_taaralinn_name:0 "Taaralinn"
+holy_site_taaralinn_effect_name:0 "From [holy_site|E] #weak ($holy_site_taaralinn_name$)#!"
+holy_site_turaida_name:0 "Turaida"
+holy_site_turaida_effect_name:0 "From [holy_site|E] #weak ($holy_site_turaida_name$)#!"

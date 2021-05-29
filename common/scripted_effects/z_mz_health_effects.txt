@@ -1,0 +1,41 @@
+﻿#Needs argument CHANCE
+physician_level_up_chance_effect = {
+	if = {
+		limit = {
+			NOT = { has_trait = physician_3 }
+			is_alive = yes
+		}
+		random = {
+			chance = {
+				value = $CHANCE$
+				if = { # For Magyar shamanism faith, court chaplains level up physician faster
+					limit = { 
+						faith = { has_doctrine_parameter = mz_court_chaplain_better_physicians }
+						has_council_position = councillor_court_chaplain
+					}
+					add = 10
+				}
+			}
+			physician_lifestyle_rank_up_effect = yes
+
+			#Used by physician_rank_up_tooltip_effect, to be shown in treatment outcome...
+			set_variable = { name = physician_level_up value = flag:physician days = 15 }
+
+			#...or in notification
+			if = {
+				limit = {
+					exists = liege
+					liege = { NOT = { this = scope:sick_character } }
+				}
+				liege = {
+					send_interface_message = { #Should be feed message, because it's not hugely important
+						type = event_court_physician_good
+						title = physician_level_up_chance_effect.t
+						left_icon = scope:physician
+						physician_rank_up_tooltip_effect = yes
+					}
+				}
+			}
+		}
+	}
+}

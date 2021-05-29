@@ -1,0 +1,1162 @@
+﻿#Holderland characters
+
+# rulers of the Kingdom of Holderland
+holderland0001 = {
+	name = "Rustam" # Shah of Holderland
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = holderland0002 # Sigra # daughter Nana # son HEIR Anushtegin # daughter Upach # daughter An 
+	}
+	821.1.1 = {
+		add_spouse = holderland0007 # Alfhild # daughter Aghatzak
+	}
+	822.1.1 = {
+		add_spouse = holderland0009 # Anakhit # son Arsamuh
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+holderland0002 = {
+	name = "Sigra" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = holderland0001 # Rustam
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+holderland0003 = {
+	name = "Nana" #
+	female = yes
+	father = holderland0001
+	mother = holderland0002
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	821.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+holderland0004 = {
+	name = "Anushtegin" # Shah of Holderland
+	father = holderland0001
+	mother = holderland0002
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	822.1.1 = {
+		birth = yes
+	}
+	842.1.1 = {
+		add_spouse = holderland0011 # Aleta
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+holderland0005 = {
+	name = "Upach" #
+	female = yes
+	father = holderland0001
+	mother = holderland0002
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+holderland0006 = {
+	name = "An" #
+	female = yes
+	father = holderland0001
+	mother = holderland0002
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	824.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+holderland0007 = {
+	name = "Alfhild" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	800.1.1 = {
+		birth = yes
+	}
+	821.1.1 = {
+		add_spouse = holderland0001 # Rustam
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+holderland0008 = {
+	name = "Aghatzak" #
+	female = yes
+	father = holderland0001 # Rustam Rustaami
+	mother = holderland0007 # Alfhild
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	822.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+holderland0009 = {
+	name = "Anakhit" #
+	female = yes
+	religion = holder_faith
+	culture = khorasani
+	800.1.1 = {
+		birth = yes
+	}
+	822.1.1 = {
+		add_spouse = holderland0001 # Rustam
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+holderland0010 = {
+	name = "Arsamuh" #
+	father = holderland0001 # Rustam Rustaami
+	mother = holderland0009 # Anakhit
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+holderland0011 = {
+	name = "Aleta" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	822.1.1 = {
+		birth = yes
+	}
+	842.1.1 = {
+		add_spouse = holderland0004 # Anushtegin Rustamzk Rustaami # son Arthamukh Anushteginzk
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+holderland0012 = {
+	name = "Arthamukh" # Shah of Holderland
+	father = holderland0004 # Anushtegin Rustamzk Rustaami
+	mother = holderland0011 # Aleta
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	843.1.1 = {
+		birth = yes
+	}
+	863.1.1 = {
+		add_spouse = holderland0013 # Alfridh
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+holderland0013 = {
+	name = "Alfridh" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	843.1.1 = {
+		birth = yes
+	}
+	863.1.1 = {
+		add_spouse = holderland0012 # Arthamukh Anushteginzk Rustaami # daughter Arghavan Arthamukhzk # daughter Banafsheh Arthamukhzk # son Askajamuk Arthamukhzk # daughter Chat Arthamukhzk # daughter Chatis Arthamukhzk
+		# daughter Chet Arthamukhzk # daughter Chinanch Arthamukhzk # son Azkajwar Arthamukhzk # daughter Darya Arthamukhzk
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+holderland0014 = {
+	name = "Arghavan" #
+	female = yes
+	father = holderland0012 # Arthamukh Anushteginzk Rustaami
+	mother = holderland0013 # Alfridh
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	864.1.1 = {
+		birth = yes
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+holderland0015 = {
+	name = "Banafsheh" #
+	female = yes
+	father = holderland0012 # Arthamukh Anushteginzk Rustaami
+	mother = holderland0013 # Alfridh
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	865.1.1 = {
+		birth = yes
+	}
+	945.1.1 = {
+		death = yes
+	}
+}
+holderland0016 = {
+	name = "Askajamuk" # Shah of Holderland
+	father = holderland0012 # Arthamukh Anushteginzk Rustaami
+	mother = holderland0013 # Alfridh
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	866.1.1 = {
+		birth = yes
+	}
+	886.1.1 = {
+		add_spouse = holderland0023 # Anna
+	}
+	946.1.1 = {
+		death = yes
+	}
+}
+holderland0017 = {
+	name = "Chat" #
+	female = yes
+	father = holderland0012 # Arthamukh Anushteginzk Rustaami
+	mother = holderland0013 # Alfridh
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	867.1.1 = {
+		birth = yes
+	}
+	947.1.1 = {
+		death = yes
+	}
+}
+holderland0018 = {
+	name = "Chatis" #
+	female = yes
+	father = holderland0012 # Arthamukh Anushteginzk Rustaami
+	mother = holderland0013 # Alfridh
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	868.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		death = yes
+	}
+}
+holderland0019 = {
+	name = "Chet" #
+	female = yes
+	father = holderland0012 # Arthamukh Anushteginzk Rustaami
+	mother = holderland0013 # Alfridh
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	869.1.1 = {
+		birth = yes
+	}
+	949.1.1 = {
+		death = yes
+	}
+}
+holderland0020 = {
+	name = "Chinanch" #
+	female = yes
+	father = holderland0012 # Arthamukh Anushteginzk Rustaami
+	mother = holderland0013 # Alfridh
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	870.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+holderland0021 = {
+	name = "Arkajwar" #
+	father = holderland0012 # Arthamukh Anushteginzk Rustaami
+	mother = holderland0013 # Alfridh
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	871.1.1 = {
+		birth = yes
+	}
+	951.1.1 = {
+		death = yes
+	}
+}
+holderland0022 = {
+	name = "Darya" #
+	female = yes
+	father = holderland0012 # Arthamukh Anushteginzk Rustaami
+	mother = holderland0013 # Alfridh
+	dynasty = valdemardyn6 # Rustaami
+	religion = holder_faith
+	culture = khorasani
+	872.1.1 = {
+		birth = yes
+	}
+	952.1.1 = {
+		death = yes
+	}
+}
+holderland0023 = {
+	name = "Anna" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	866.1.1 = {
+		birth = yes
+	}
+	886.1.1 = {
+		add_spouse = holderland0016 # Askajamuk Arthamukhzk Rustaami
+	}
+	946.1.1 = {
+		death = yes
+	}
+}
+holderland0024 = {
+	name = "Brynolf" # King of Holderland
+	dynasty = valdemardyn7 # Senasar
+	religion = holder_faith
+	culture = gothic
+	886.1.1 = {
+		birth = yes
+	}
+	906.1.1 = {
+		add_spouse = holderland0025 # Ylva # daughter Ulvhilde
+	}
+	907.1.1 = {
+		add_spouse = holderland0027 # Thordis
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+holderland0025 = {
+	name = "Ylva" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	886.1.1 = {
+		birth = yes
+	}
+	906.1.1 = {
+		add_spouse = holderland0024 # Brynolf Senasar
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+holderland0026 = {
+	name = "Ulvhilde" #
+	female = yes
+	father = holderland0024 # Brynolf Senasar
+	mother = holderland0025 # Ylva
+	dynasty = valdemardyn7 # Senasar
+	religion = holder_faith
+	culture = gothic
+	907.1.1 = {
+		birth = yes
+	}
+	987.1.1 = {
+		death = yes
+	}
+}
+holderland0027 = {
+	name = "Thordis" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	886.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		add_spouse = holderland0024 # Brynolf Senasar
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+# 966 rise of house Lakeholding
+holderland0028 = {
+	name = "Stenar" # King of Holderland
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	906.1.1 = {
+		birth = yes
+	}
+	986.1.1 = {
+		death = yes
+	}
+}
+holderland0029 = {
+	name = "Svanhild" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	906.1.1 = {
+		birth = yes
+	}
+	926.1.1 = {
+		add_spouse = holderland0028 # Stenar Lakeholding # son Jaerpulf gets kingship # son Odgrim gets Dal Nordmark and Varmaland founding new vassal kingdom
+		# son Styrbjorn counquers Livonia and converts culturally eventually his line founds more gender equal Holder religion
+		# daughter Sofia
+	}
+	986.1.1 = {
+		death = yes
+	}
+}
+holderland0030 = {
+	name = "Jaerpulf" # King of Holderland
+	# daughter Sigrid # daughter Sara # daughter Saga # daughter Rikissa # daughter Ragnhild # son Rodulvard
+	father = holderland0028 # Stenar Lakeholding
+	mother = holderland0029 # Svanhild
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	927.1.1 = {
+		birth = yes
+	}
+	1007.1.1 = {
+		death = yes
+	}
+}
+holderland0031 = {
+	name = "Odgrim" # King of Dal
+	father = holderland0028 # Stenar Lakeholding
+	mother = holderland0029 # Svanhild
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	928.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		add_spouse = holderland0040 # Ragnfrid
+	}
+	1008.1.1 = {
+		death = yes
+	}
+}
+holderland0032 = {
+	name = "Styrbjorn" # King of Livlios
+	father = holderland0028 # Stenar Lakeholding
+	mother = holderland0029 # Svanhild
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	929.1.1 = {
+		birth = yes
+	}
+	960.1.1 = {
+		culture = livonian
+	}
+	1009.1.1 = {
+		death = yes
+	}
+}
+holderland0033 = {
+	name = "Sofia" # 
+	female = yes
+	father = holderland0028 # Stenar Lakeholding
+	mother = holderland0029 # Svanhild
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	930.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+holderland0034 = {
+	name = "Sigrid" # 
+	female = yes
+	father = holderland0030 # Jaerpulf Lakeholding
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	948.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = {
+		death = yes
+	}
+}
+holderland0035 = {
+	name = "Sara" # 
+	female = yes
+	father = holderland0030 # Jaerpulf Lakeholding
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	949.1.1 = {
+		birth = yes
+	}
+	1029.1.1 = {
+		death = yes
+	}
+}
+holderland0036 = {
+	name = "Saga" # 
+	female = yes
+	father = holderland0030 # Jaerpulf Lakeholding
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	950.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+holderland0037 = {
+	name = "Rikissa" # 
+	female = yes
+	father = holderland0030 # Jaerpulf Lakeholding
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	951.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+holderland0038 = {
+	name = "Ragnhild" # 
+	female = yes
+	father = holderland0030 # Jaerpulf Lakeholding
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	952.1.1 = {
+		birth = yes
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+holderland0039 = {
+	name = "Rodulvard" # King of Holderland
+	father = holderland0030 # Jaerpulf Lakeholding
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	953.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+holderland0040 = {
+	name = "Ragnfrid" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	928.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		add_spouse = holderland0031 # Odgrim Stenarsson Lakeholding # daughter Marta # daughter Malmfrid # daughter Maer # daughter Linda # daughter Kernosina # son Adalvard
+	}
+	1008.1.1 = {
+		death = yes
+	}
+}
+holderland0041 = {
+	name = "Marta" # 
+	female = yes
+	father = holderland0031 # Odgrim Stenarsson Lakeholding
+	mother = holderland0040 # Ragnfrid
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	949.1.1 = {
+		birth = yes
+	}
+	1029.1.1 = {
+		death = yes
+	}
+}
+holderland0042 = {
+	name = "Malmfrid" # 
+	female = yes
+	father = holderland0031 # Odgrim Stenarsson Lakeholding
+	mother = holderland0040 # Ragnfrid
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	950.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+holderland0043 = {
+	name = "Maer" # 
+	female = yes
+	father = holderland0031 # Odgrim Stenarsson Lakeholding
+	mother = holderland0040 # Ragnfrid
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	951.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+holderland0044 = {
+	name = "Linda" # 
+	female = yes
+	father = holderland0031 # Odgrim Stenarsson Lakeholding
+	mother = holderland0040 # Ragnfrid
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	952.1.1 = {
+		birth = yes
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+holderland0045 = {
+	name = "Kernosina" # 
+	female = yes
+	father = holderland0031 # Odgrim Stenarsson Lakeholding
+	mother = holderland0040 # Ragnfrid
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	953.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+holderland0046 = {
+	name = "Adalvard" # King of Dal
+	father = holderland0031 # Odgrim Stenarsson Lakeholding
+	mother = holderland0040 # Ragnfrid
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	954.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+holderland0047 = {
+	name = "Aasa" #
+	female = yes
+	religion = holder_faith
+	culture = livonian
+	929.1.1 = {
+		birth = yes
+	}
+	949.1.1 = {
+		add_spouse = holderland0032 # Styrbjorn Stenarsson Lakeholding # daughter Katarina # son Vootele Livonian culture inherits k_livlios # son Vilimeel Livonian culture inherits c_vidzeme # daughter Lemme Livonian culture 
+		# daughter Tuuli Livonian culture # daughter Ahma Livonian culture # daughter Liis Livonian culture # daughter Aime Livonian culture # daughter Viire Livonian culture # daughter Aimo Livonian culture 
+		# son Vililemb Livonian culture inherits c_vanemane # daughter Aita Livonian culture
+	}
+	1009.1.1 = {
+		death = yes
+	}
+}
+holderland0048 = {
+	name = "Hiie" #
+	female = yes
+	religion = holder_faith
+	culture = livonian
+	929.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		add_spouse = holderland0032 # Styrbjorn Stenarsson Lakeholding # ALL CHILDREN LIVONIAN # daughter Ilma # daughter Maija # daughter Virge # daughter Aldi
+	}
+	1009.1.1 = {
+		death = yes
+	}
+}
+holderland0049 = {
+	name = "Katarina" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	950.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+holderland0050 = {
+	name = "Vootele" # King Vootele of Livlios
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	951.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+holderland0051 = {
+	name = "Vilimeel" # Count Vilimeel of Vidzeme
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	952.1.1 = {
+		birth = yes
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+holderland0052 = {
+	name = "Lemme" #
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	953.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+holderland0053 = {
+	name = "Tuuli" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	954.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+holderland0054 = {
+	name = "Ahma" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	955.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+holderland0055 = {
+	name = "Liis" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	956.1.1 = {
+		birth = yes
+	}
+	1036.1.1 = {
+		death = yes
+	}
+}
+holderland0056 = {
+	name = "Aime" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	957.1.1 = {
+		birth = yes
+	}
+	1037.1.1 = {
+		death = yes
+	}
+}
+holderland0057 = {
+	name = "Viire" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	958.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+holderland0058 = {
+	name = "Aimo" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	959.1.1 = {
+		birth = yes
+	}
+	1039.1.1 = {
+		death = yes
+	}
+}
+holderland0059 = {
+	name = "Vililemb" # Count Vililemb of Vanemane
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	960.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+holderland0060 = {
+	name = "Aita" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0047 # Aasa
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	961.1.1 = {
+		birth = yes
+	}
+	1041.1.1 = {
+		death = yes
+	}
+}
+holderland0062 = {
+	name = "Ilma" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0048 # Hiie
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	951.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+holderland0063 = {
+	name = "Maija" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0048 # Hiie
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	952.1.1 = {
+		birth = yes
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+holderland0064 = {
+	name = "Virge" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0048 # Hiie
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	953.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+holderland0065 = {
+	name = "Aldi" # 
+	female = yes
+	father = holderland0032 # Styrbjorn Stenarsson Lakeholding
+	mother = holderland0048 # Hiie
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = livonian
+	954.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+holderland0066 = {
+	name = "Karin" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	953.1.1 = {
+		birth = yes
+	}
+	973.1.1 = {
+		add_spouse = holderland0039 # Rodulvard Jaerpulfsson Lakeholding # son Brynolf # daughter Ingegerd # daughter Ingeborg # daughter Inga # daughter Iliana
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+holderland0067 = {
+	name = "Brynolf" # King Brynolf II of Holderland
+	# wife Holmfrid # son Jaerpulf
+	father = holderland0039 # Rodulvard Jaerpulfsson Lakeholding
+	mother = holderland0066 # Karin
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	974.1.1 = {
+		birth = yes
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+holderland0068 = {
+	name = "Ingegerd" # 
+	female = yes
+	father = holderland0039 # Rodulvard Jaerpulfsson Lakeholding
+	mother = holderland0066 # Karin
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	975.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+holderland0069 = {
+	name = "Ingeborg" # 
+	female = yes
+	father = holderland0039 # Rodulvard Jaerpulfsson Lakeholding
+	mother = holderland0066 # Karin
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	976.1.1 = {
+		birth = yes
+	}
+	1056.1.1 = {
+		death = yes
+	}
+}
+holderland0070 = {
+	name = "Inga" # 
+	female = yes
+	father = holderland0039 # Rodulvard Jaerpulfsson Lakeholding
+	mother = holderland0066 # Karin
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	977.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+holderland0071 = {
+	name = "Iliana" # 
+	female = yes
+	father = holderland0039 # Rodulvard Jaerpulfsson Lakeholding
+	mother = holderland0066 # Karin
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	978.1.1 = {
+		birth = yes
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+holderland0072 = {
+	name = "Stenar" # King Stenar of Dal
+	# wife Helena # son Odgrim # daughter Hafrid
+	father = holderland0046 # Adalvard Odgrimsson Lakeholding
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	974.1.1 = {
+		birth = yes
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+holderland0073 = {
+	name = "Holmfrid" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	974.1.1 = {
+		birth = yes
+	}
+	994.1.1 = {
+		add_spouse = holderland0067 # Brynolf Rodulvardsson Lakeholding # son Jaerpulf
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+holderland0074 = {
+	name = "Jaerpulf" # King Jaerpulf II of Holderland
+	father = holderland0067 # Brynolf Rodulvardsson Lakeholding
+	mother = holderland0073 # Holmfrid
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	995.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = { # great rebellion
+		death = yes
+	}
+}
+holderland0075 = {
+	name = "Helena" #
+	female = yes
+	religion = holder_faith
+	culture = gothic
+	974.1.1 = {
+		birth = yes
+	}
+	994.1.1 = {
+		add_spouse = holderland0072 # Stenar Adalvardsson Lakeholding # son Odgrim # daughter Hafrid
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+holderland0076 = {
+	name = "Odgrim" # King Odgrim II of Dal
+	father = holderland0062 # Stenar Adalvardsson Lakeholding
+	mother = holderland0075 # Helena
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	995.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+holderland0077 = {
+	name = "Hafrid" #
+	female = yes
+	father = holderland0062 # Stenar Adalvardsson Lakeholding
+	mother = holderland0075 # Helena
+	dynasty = valdemardyn8 # Lakeholding
+	religion = holder_faith
+	culture = gothic
+	996.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+#### NEXT DO ####
+#### indicates fully done # proceed to next
+#### Odgrim has a wife and children # unknown number or gender but at least one male
+#### Styrbjorn has two Livonian wives and several children with each of them including a single male heir
+#### Rodulvard holderland0039 has heir or heirs
+#### Adalvard holderland0046 has heir or heirs
+#### THEN Adalvard and Rodulvard the heirs of their heirs get deposed by the Valdemarian military when they take power.
+#### 950 Styrbjorn conquers Livonia for the Valdemarian crown
+
+# 1065 Valdemarian Military Governorate
+# 1120 Governors become Gothic 
+# 1120 founding of Livonian faith which covers all of k_livlios
+# 1140 Provinces in Holderland and Dallands become Roku

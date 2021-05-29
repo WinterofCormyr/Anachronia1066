@@ -1,0 +1,103 @@
+﻿#Pontic Empire # pontic Culture pontic_aitahism Religion characters
+
+# rulers of the Pontic Empire
+drspontus0001 = {
+	name = "Arkos" # Emperor Arkos I Arkosene of Pontus
+	dynasty = drsdyn7 # Arkosene
+	religion = pontic_aitahism
+	culture = pontic
+	800.1.1 = {
+		birth = yes
+	}
+	898.1.1 = {
+		death = yes
+	}
+}
+drspontus0002 = {
+	name = "Arkos" # Emperor Arkos II Arkosene of Pontus
+	dynasty = drsdyn7 # Arkosene
+	religion = pontic_aitahism
+	culture = pontic
+	father = drspontus0001
+	820.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drspontus0003 = {
+	name = "Katta" 
+	female = yes
+	religion = pontic_aitahism
+	culture = pontic
+	820.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		add_spouse = drspontus0002 # Arkos II Arkosene # daughter Leaina the Conqueror
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drspontus0004 = {
+	name = "Leaina" # Empress Leaina I Arkosene of Pontus
+	# husband Arcyilos # son Lynx # daughter Pardalis
+	female = yes
+	dynasty = drsdyn7 # Arkosene
+	religion = pontic_aitahism
+	culture = pontic
+	father = drspontus0002 # Arkos II Arkosene
+	mother = drspontus0003 # Katta
+	841.1.1 = {
+		birth = yes
+	}
+	906.1.1 = {
+		death = yes
+	}
+}
+drspontus0005 = {
+	name = "Arcyilos" 
+	religion = pontic_aitahism
+	culture = pontic
+	841.1.1 = {
+		birth = yes
+	}
+	861.1.1 = {
+		add_matrilineal_spouse = drspontus0004 # Leaina Arkosene # son Lynx # daughter Pardalis
+	}
+	906.1.1 = {
+		death = yes
+	}
+}
+drspontus0006 = {
+	name = "Lynx" # Emperor Lynx I Arkosene of Pontus
+	dynasty = drsdyn7 # Arkosene
+	religion = pontic_aitahism
+	culture = pontic
+	father = drspontus0005 # Arcyilos 
+	mother = drspontus0004 # Leaina Arkosene
+	862.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drspontus0007 = {
+	name = "Pardalis" # 
+	female = yes
+	dynasty = drsdyn7 # Arkosene
+	religion = pontic_aitahism
+	culture = pontic
+	father = drspontus0005 # Arcyilos 
+	mother = drspontus0004 # Leaina Arkosene
+	863.1.1 = {
+		birth = yes
+	}
+	953.1.1 = {
+		death = yes
+	}
+}
+# 953 throne of Pontus passes to house Rhaneis # house Attalata reigns in Pontus, and the empire capital is moved to Georgia

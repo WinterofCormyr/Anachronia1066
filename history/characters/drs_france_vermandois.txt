@@ -1,0 +1,17 @@
+﻿#High Queendom of France after 1013 # before 1013 County of Vermandois # french Culture gallian_ireneism Religion characters
+
+# rulers of the High Queendom of France # and before then the County of Vermandois
+drsfrance0001 = {
+	name = "Amalie" # High Queen Amalie I d'Estrées of France
+	female = yes
+# Empire of France rises 1013 under Amalie I d'Estrees # petty kings before then # once done with Aquitaine provinces revamp French namelists # Amalie's family were countesses of c_vermandois before then
+	dynasty = drsdyn175 # d'Estrées
+	religion = gallian_ireneism
+	culture = french
+	990.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}

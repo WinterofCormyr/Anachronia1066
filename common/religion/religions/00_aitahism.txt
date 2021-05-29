@@ -1,0 +1,629 @@
+﻿aitahism_religion = {
+	family = rf_mideast
+
+	pagan_roots = yes
+
+	doctrine = western_mideast_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_mz_no_syncretism
+
+	#Marriage
+	doctrine = doctrine_valdemarian_polygamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_restricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_any_dynasty_member_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_shunned
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	traits = {
+		virtues = { strategist overseer gallant just temperate }
+		sins = { arbitrary gluttonous }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_myrmidons" }
+		{ name = "holy_order_priesthood_of_ares" }
+	}
+
+	holy_order_maa = { praetorian }
+
+	localization = {
+		#High God Name
+		HighGodName = aitahism_high_god_name
+		HighGodNamePossessive = aitahism_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_SHE
+		HighGodHerselfHimself = CHARACTER_HERSELF
+		HighGodHerHis = CHARACTER_HERHIS_HER
+		HighGodNameAlternate = aitahism_high_god_name_alternate
+		HighGodNameAlternatePossessive = aitahism_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = aitahism_creator_god_name
+		CreatorNamePossessive = aitahism_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_SHE
+		CreatorHerHis = CHARACTER_HERHIS_HER
+		CreatorHerHim = CHARACTER_HERHIM_HER
+
+		#HealthGod
+		HealthGodName = aitahism_health_god_name
+		HealthGodNamePossessive = aitahism_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = aitahism_fertility_god_name
+		FertilityGodNamePossessive = aitahism_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = aitahism_wealth_god_name
+		WealthGodNamePossessive = aitahism_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = aitahism_household_god_name
+		HouseholdGodNamePossessive = aitahism_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = aitahism_fate_god_name
+		FateGodNamePossessive = aitahism_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+
+		#KnowledgeGod
+		KnowledgeGodName = aitahism_knowledge_god_name
+		KnowledgeGodNamePossessive = aitahism_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = aitahism_war_god_name
+		WarGodNamePossessive = aitahism_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = aitahism_trickster_god_name
+		TricksterGodNamePossessive = aitahism_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = aitahism_night_god_name
+		NightGodNamePossessive = aitahism_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = aitahism_water_god_name
+		WaterGodNamePossessive = aitahism_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
+
+
+
+		PantheonTerm = aitahism_good_god_noble_ancestors
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { aitahism_good_god_ayase aitahism_good_god_matah }
+		DevilName = aitahism_devil_name
+		DevilNamePossessive = aitahism_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { aitahism_evil_god_devil }
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = aitahism_religious_symbol
+		ReligiousText = aitahism_religious_text
+		ReligiousHeadName = aitahism_religious_head_title
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = aitahism_priest_male
+		PriestMalePlural = aitahism_priest_male_plural
+		PriestFemale = aitahism_priest_female
+		PriestFemalePlural = aitahism_priest_female_plural
+		PriestNeuter = aitahism_priest_male
+		PriestNeuterPlural = aitahism_priest_male_plural
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = aitahism_bishop_male
+		BishopMalePlural = aitahism_bishop_male_plural
+		BishopFemale = aitahism_priest_female
+		BishopFemalePlural = aitahism_priest_female_plural
+		BishopNeuter = aitahism_priest_male
+		BishopNeuterPlural = aitahism_priest_male_plural
+		DivineRealm = aitahism_divine_realm
+		PositiveAfterLife = aitahism_death_deity_name
+		NegativeAfterLife = aitahism_death_deity_name
+		DeathDeityName = aitahism_death_deity_name
+		DeathDeityNamePossessive = aitahism_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = aitahism_witchgodname_hekate
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		mesopotamian_aitahism = { # Assyria, Assyrians
+			color = { 0.91 0.92 0.99 }
+			icon = melieism
+			reformed_icon = melieism
+
+			holy_site = ahvaz
+			holy_site = baghdad
+			holy_site = jerusalem
+			holy_site = samarkand
+			holy_site = udabhanda
+			
+			
+			doctrine = doctrine_pluralism_righteous
+			
+			# Marriage
+			doctrine = doctrine_polygamy
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_polylatry
+			doctrine = doctrine_from_chaos
+			doctrine = doctrine_local_gods_rejected
+			doctrine = doctrine_other_faiths_gods_rejected
+			doctrine = doctrine_angels_demonized # Angels are Ancestors and the evil ancestors are often angels
+			doctrine = doctrine_nymphs_none
+			doctrine = doctrine_seshweayan_ascendant
+			
+			doctrine = tenet_sacred_childbirth
+			doctrine = tenet_adorcism
+			doctrine = tenet_pursuit_of_power
+		}
+		pontic_aitahism = { # Pontus, Greeks
+			color = { 0.81 0.67 0.99 }
+			icon = melieism
+
+			holy_site = ahvaz
+			holy_site = baghdad
+			holy_site = jerusalem
+			holy_site = samarkand
+			holy_site = udabhanda
+			
+			doctrine = doctrine_pluralism_righteous
+			doctrine = doctrine_clerical_gender_female_only
+			
+			# Marriage
+			doctrine = doctrine_valdemarian_polygamy
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_polylatry
+			doctrine = doctrine_from_chaos
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_accepted
+			doctrine = doctrine_angels_neutral_god_or_nongod
+			doctrine = doctrine_nymphs_neutral_nongod
+			doctrine = doctrine_hellenic_ascendant
+			
+			doctrine = tenet_free_dominion # new tenet combining tenet_warmonger with bonuses for opinions of different faiths and maluses to faith conversion # call it tenet_free_dominion
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_sacred_childbirth
+		}
+		turkic_aitahism = { # Ural region, Bashkirs
+			color = { 0.51 0.98 0.80 }
+			icon = melieism
+
+			holy_site = ahvaz
+			holy_site = baghdad
+			holy_site = jerusalem
+			holy_site = samarkand
+			holy_site = udabhanda
+						
+			doctrine = doctrine_pluralism_pluralistic
+			doctrine = doctrine_clerical_gender_female_only
+			
+			# Marriage
+			doctrine = doctrine_polyamorous_trigamy
+			
+			# Theology
+			doctrine = doctrine_monotheism
+			doctrine = doctrine_monolatry
+			doctrine = doctrine_theogony_ex_nihilo_monotheism
+			doctrine = doctrine_local_gods_rejected
+			doctrine = doctrine_other_faiths_gods_rejected
+			doctrine = doctrine_angels_good_monotheistic
+			doctrine = doctrine_nymphs_neutral_free
+			doctrine = doctrine_tengri_ascendant
+			
+			localization = {
+				#High God Name
+				HighGodName = aitahism_high_god_name
+				HighGodNamePossessive = aitahism_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aitahism_high_god_name_alternate
+				HighGodNameAlternatePossessive = aitahism_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = aitahism_high_god_name
+				CreatorNamePossessive = aitahism_high_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = aitahism_high_god_name
+				HealthGodNamePossessive = aitahism_high_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = aitahism_high_god_name_name
+				FertilityGodNamePossessive = aitahism_high_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = aitahism_high_god_name
+				WealthGodNamePossessive = aitahism_high_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				#HouseholdGod
+				HouseholdGodName = aitahism_high_god_name
+				HouseholdGodNamePossessive = aitahism_high_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = aitahism_fate_god_name
+				FateGodNamePossessive = aitahism_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = aitahism_high_god_name
+				KnowledgeGodNamePossessive = aitahism_high_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = aitahism_high_god_name
+				WarGodNamePossessive = aitahism_high_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = aitahism_high_god_name
+				TricksterGodNamePossessive = aitahism_high_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_SHE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HER
+
+				#NightGod
+				NightGodName = aitahism_high_god_name
+				NightGodNamePossessive = aitahism_high_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = aitahism_high_god_name
+				WaterGodNamePossessive = aaitahism_high_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+
+
+
+				PantheonTerm = aitahism_high_god_name
+				PantheonTermHasHave = pantheon_term_has
+				GoodGodNames = { aitahism_high_god_name }
+				DevilName = aitahism_devil_name
+				DevilNamePossessive = aitahism_devil_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { aitahism_evil_god_devil }
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = aitahism_religious_symbol
+				ReligiousText = aitahism_religious_text
+				ReligiousHeadName = aitahism_religious_head_title
+				ReligiousHeadTitleName = dualism_religious_head_title_name
+				DevoteeMale = paganism_devotee
+				DevoteeMalePlural = paganism_devoteeplural
+				DevoteeFemale = paganism_devotee
+				DevoteeFemalePlural = paganism_devoteeplural
+				DevoteeNeuter = paganism_devotee
+				DevoteeNeuterPlural = paganism_devoteeplural
+				PriestMale = aitahism_priest_male
+				PriestMalePlural = aitahism_priest_male_plural
+				PriestFemale = aitahism_priest_female
+				PriestFemalePlural = aitahism_priest_female_plural
+				PriestNeuter = aitahism_priest_male
+				PriestNeuterPlural = aitahism_priest_male_plural
+				AltPriestTermPlural = christianity_priest_alternate_plural
+				BishopMale = aitahism_bishop_male
+				BishopMalePlural = aitahism_bishop_male_plural
+				BishopFemale = aitahism_priest_female
+				BishopFemalePlural = aitahism_priest_female_plural
+				BishopNeuter = aitahism_priest_male
+				BishopNeuterPlural = aitahism_priest_male_plural
+				DivineRealm = aitahism_divine_realm
+				PositiveAfterLife = aitahism_death_deity_name
+				NegativeAfterLife = aitahism_death_deity_name
+				DeathDeityName = aitahism_death_deity_name
+				DeathDeityNamePossessive = aitahism_death_deity_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				WitchGodName = aitahism_witchgodname_hekate
+				WitchGodHerHis = CHARACTER_HERHIS_HER
+				WitchGodSheHe = CHARACTER_SHEHE_SHE
+				WitchGodHerHim = CHARACTER_HERHIM_HER
+				WitchGodMistressMaster = mistress
+				WitchGodMotherFather = mother
+
+				
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+			
+
+			doctrine = tenet_holy_sky # tenet combining sky_burials and sun_worship # call it tenet_holy_sky
+			doctrine = mz_tenet_great_hunt # mz_tenet_great_hunt LOOK IT UP TO CONFIRM IT'S CORRECT
+			doctrine = tenet_pacifism # tenet_pacifism
+		}
+		chudian_aitahism = { # Northern Russia, Veps and Permics
+			color = { 0.99 0.94 0.82 }
+			icon = melieism
+
+			holy_site = ahvaz
+			holy_site = baghdad
+			holy_site = jerusalem
+			holy_site = samarkand
+			holy_site = udabhanda
+						
+			doctrine = doctrine_pluralism_pluralistic
+			
+			# Marriage
+			doctrine = doctrine_polyamorous_hexagamy
+			
+			# Theology
+			doctrine = doctrine_noble_polytheism
+			doctrine = doctrine_deities_worshipped_henotheism
+			doctrine = doctrine_eternal_chaos
+			doctrine = doctrine_local_gods_dipantheonism
+			doctrine = doctrine_other_faiths_gods_ignored
+			doctrine = doctrine_angels_irrelevant
+			doctrine = doctrine_nymphs_irrelevant
+			doctrine = doctrine_finnougric_ascendant
+
+			doctrine = tenet_pacifism
+			doctrine = mz_tenet_great_hunt
+			doctrine = tenet_sacred_childbirth
+		}
+		aelonist_aitahism = { # Bohemia and Meissen, German and Czech
+			color = { 0.99 0.94 0.82 }
+			icon = melieism
+
+			holy_site = ahvaz
+			holy_site = baghdad
+			holy_site = jerusalem
+			holy_site = samarkand
+			holy_site = udabhanda
+						
+			doctrine = doctrine_pluralism_pluralistic
+			
+			# Marriage
+			doctrine = doctrine_allemanian_free_love # Allemanian free love # up to 25 spouses
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_henotheism
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_dipantheonism
+			doctrine = doctrine_other_faiths_gods_accepted
+			doctrine = doctrine_angels_good_god_or_nongod
+			doctrine = doctrine_nymphs_good_free
+			doctrine = doctrine_ireneist_ascendant # Ireneist ascendant # adds some pacifist things
+
+			doctrine = tenet_adorcism
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_sacred_childbirth
+			localization = {
+				#High God Name
+				HighGodName = aelonist_aitahism_god_aelona # Aelona
+				HighGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive # LOCALIZED
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aitahism_high_god_name # Aitah
+				HighGodNameAlternatePossessive = aitahism_high_god_name_possessive
+
+				#Creator
+				CreatorName = aelonist_aitahism_god_aelona #
+				CreatorNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = aelonist_aitahism_god_aelona #
+				HealthGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = aelonist_aitahism_god_aelona #
+				FertilityGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = aelonist_aitahism_god_aelona #
+				WealthGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				#HouseholdGod
+				HouseholdGodName = aelonist_aitahism_god_aelona #
+				HouseholdGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = aitahism_fate_god_name #
+				FateGodNamePossessive = aitahism_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = aelonist_aitahism_god_aelona #
+				KnowledgeGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = aelonist_aitahism_god_aelona #
+				WarGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = aelonist_aitahism_god_aelona #
+				TricksterGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_SHE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HER
+
+				#NightGod
+				NightGodName = aelonist_aitahism_god_aelona #
+				NightGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = aelonist_aitahism_god_aelona # 
+				WaterGodNamePossessive = aelonist_aitahism_god_aelona_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+			}
+		}
+		arabian_aitahism = { # Oman, Bedouin
+			color = { 0.48 0.47 0.31 }
+			icon = melieism
+
+			holy_site = ahvaz
+			holy_site = baghdad
+			holy_site = jerusalem
+			holy_site = samarkand
+			holy_site = udabhanda
+						
+			doctrine = doctrine_pluralism_pluralistic
+			doctrine = doctrine_clerical_gender_female_only
+			doctrine = doctrine_gender_female_dominated
+
+
+			doctrine = tenet_adorcism
+			doctrine = tenet_mercantilism
+			doctrine = tenet_pacifism
+		}
+		kurdish_aitahism = { # Kurdistania, Kurds
+			color = { 92 132 42 }
+			icon = melieism
+			reformed_icon = melieism
+
+			holy_site = sinjar
+			holy_site = baalbek
+			holy_site = lalish
+			holy_site = nishapur
+			holy_site = dashtestan
+			
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			doctrine = tenet_sacred_childbirth
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_reincarnation
+		}
+		suvar_al_i_aitahism = { # Kurdistania, Kurds
+			color = { 255 145 167 }
+			icon = melieism
+			reformed_icon = melieism
+
+			holy_site = baghdad
+			holy_site = jerusalem
+			holy_site = samarkand
+			holy_site = perm
+			holy_site = ob
+			
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			doctrine = tenet_amaranth_path
+			doctrine = tenet_sacred_childbirth
+			doctrine = tenet_reincarnation
+		}
+	}
+}

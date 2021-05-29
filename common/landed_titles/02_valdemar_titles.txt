@@ -1,0 +1,26 @@
+﻿# High Kingdom of Valdemar
+#e_valdemar = {
+#	color = { 122 96 178 }
+#	color2 = { 0 0 0 }
+#	
+#	capital = c_sjaelland
+#}
+# Estmarch contains Smaland Vastergotland Ostergotland
+k_dallands = {
+	color = { 92 142 109 }
+	color2 = { 0 0 0 }
+	
+	capital = c_dal
+}
+k_livlios = {
+	color = { 178 128 98 }
+	color2 = { 0 0 0 }
+	
+	capital = c_toreida
+}
+d_dalland = {
+	color = { 178 128 98 }
+	color2 = { 0 0 0 }
+	
+	capital = c_dal
+}

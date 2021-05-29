@@ -1,0 +1,1107 @@
+﻿#Highprincipality of France from 867 onward # french Culture gallian_ireneism Religion characters
+
+# rulers of the Highprincipality of France
+drskfrance0001 = {
+	name = "Raimbaut" # King Raimbaut I of France
+	# 4 vowels
+	# 4 consonants for 4 wives
+	# wife 1 # Irène de Lizines drsdyn177 # son with I name Ïalonnosse # daughter with A name Acionnette # daughter with A name Aëriculée # daughter with H name Helvis # daughter with H name Hodierne # daughter with H name Héliobalda
+	# wife 2 # Aphrodite de Longueville drsdyn178 # no children STILL CREATE THOUGH
+	# wife 3 # Artémis de Louan-Villegruis-Fontaine drsdyn179 # son with K name Cunomaglée # son with P name Philippe # daughter with W name Vesta
+	# wife 4 # Athéna de Luisetaines drsdyn180 # son with A name duke of Vermandois founds cadet branch NOT COUNT OF VERMANDOIS Artaë
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	847.1.1 = {
+		birth = yes
+	}
+	903.1.1 = { # 56 years old
+		death = yes
+	}
+}
+drskfrance0002 = {
+	name = "Irène" #
+	female = yes
+	dynasty = drsdyn177 # de Lizines
+	religion = gallian_ireneism
+	culture = french
+	847.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		add_spouse = drskfrance0001 # Raimbaut de Léchelle
+	}
+	885.1.1 = { # 38 years old
+		death = yes
+	}
+}
+drskfrance0003 = {
+	name = "Ïalonnosse" #
+	# 5 vowels
+	# 5 consonants
+	# 1 wife Alantedôbet de Les Marêts drsdyn181 # daughter A name then Y name Ancâmnes Yolande # daughter A name then Y name Andrâste Irène # Daughter A name Ardennes # daughter A name than Y name Anreméche Ida # daughter Dame Y name Dame Julienne
+	# daughter W name Valence # daughter Dame I name Dame Ida # daughter T name Tiburge 
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0002 # Irène de Lizines
+	867.1.1 = {
+		birth = yes
+	}
+	950.1.1 = { # 83 years old
+		death = yes
+	}
+}
+drskfrance0004 = {
+	name = "Acionnette" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0002 # Irène de Lizines
+	868.1.1 = {
+		birth = yes
+	}
+	998.1.1 = { # 130 years old
+		death = yes
+	}
+}
+drskfrance0005 = {
+	name = "Aëriculée" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0002 # Irène de Lizines
+	869.1.1 = {
+		birth = yes
+	}
+	873.1.1 = { # 4 years old
+		death = yes
+	}
+}
+drskfrance0006 = {
+	name = "Helvis" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0002 # Irène de Lizines
+	870.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = { # 130 years old
+		death = yes
+	}
+}
+drskfrance0007 = {
+	name = "Hodierne" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0002 # Irène de Lizines
+	871.1.1 = {
+		birth = yes
+	}
+	998.1.1 = { # 127 years old
+		death = yes
+	}
+}
+drskfrance0008 = {
+	name = "Héliobalda" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0002 # Irène de Lizines
+	872.1.1 = {
+		birth = yes
+	}
+	918.1.1 = { # 46 years old
+		death = yes
+	}
+}
+drskfrance0009 = {
+	name = "Aphrodite" #
+	female = yes
+	dynasty = drsdyn178 # de Longueville
+	religion = gallian_ireneism
+	culture = french
+	847.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		add_spouse = drskfrance0001 # Raimbaut de Léchelle
+	}
+	969.1.1 = { # 122 years old
+		death = yes
+	}
+}
+drskfrance0010 = {
+	name = "Artémis" # son with K name Cunomaglée # son with P name Philippe # daughter with W name Vesta
+	female = yes
+	dynasty = drsdyn179 # de Louan-Villegruis-Fontaine
+	religion = gallian_ireneism
+	culture = french
+	847.1.1 = {
+		birth = yes
+	}
+	868.1.1 = {
+		add_spouse = drskfrance0001 # Raimbaut de Léchelle
+	}
+	927.1.1 = { # 70 years old
+		death = yes
+	}
+}
+drskfrance0011 = {
+	name = "Cunomaglée" #
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0010 # Artémis de Louan-Villegruis-Fontaine
+	869.1.1 = {
+		birth = yes
+	}
+	945.1.1 = { # 76 years old
+		death = yes
+	}
+}
+drskfrance0012 = {
+	name = "Philippe" #
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0010 # Artémis de Louan-Villegruis-Fontaine
+	870.1.1 = {
+		birth = yes
+	}
+	942.1.1 = { # 72 years old
+		death = yes
+	}
+}
+drskfrance0013 = {
+	name = "Vesta" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0010 # Artémis de Louan-Villegruis-Fontaine
+	871.1.1 = {
+		birth = yes
+	}
+	1012.1.1 = { # 141 years old
+		death = yes
+	}
+}
+drskfrance0014 = {
+	name = "Athéna" # son with A name duke of Vermandois founds cadet branch NOT COUNT OF VERMANDOIS Artaë
+	female = yes
+	dynasty = drsdyn180 # de Luisetaines
+	religion = gallian_ireneism
+	culture = french
+	847.1.1 = {
+		birth = yes
+	}
+	869.1.1 = {
+		add_spouse = drskfrance0001 # Raimbaut de Léchelle
+	}
+	937.1.1 = { # 90 years old
+		death = yes
+	}
+}
+drskfrance0016 = {
+	name = "Alantedôbet" # daughter A name then Y name Ancâmnes Yolande # daughter A name then Y name Andrâste Irène # Daughter A name Ardennes # daughter A name than Y name Anreméche Ida # daughter Dame Y name Dame Julienne
+	# daughter W name Valence # daughter Dame I name Dame Ida # daughter T name Tiburge 
+	female = yes
+	dynasty = drsdyn181 # de Les Marêts
+	religion = gallian_ireneism
+	culture = french
+	867.1.1 = {
+		birth = yes
+	}
+	887.1.1 = {
+		add_spouse = drskfrance0003 # Ïalonnosse de Léchelle
+	}
+	930.1.1 = { # 63 years old
+		death = yes
+	}
+}
+drskfrance0017 = {
+	name = "Andrâste Irène" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0003 # Ïalonnosse de Léchelle
+	mother = drskfrance0016 # Alantedôbet de Les Marêts
+	888.1.1 = {
+		birth = yes
+	}
+	958.1.1 = { # 70 years old
+		death = yes
+	}
+}
+drskfrance0018 = {
+	name = "Ancâmnes Yolande" # 1 husband named Aphroditectiste de Tigeaux drsdyn193
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0003 # Ïalonnosse de Léchelle
+	mother = drskfrance0016 # Alantedôbet de Les Marêts
+	889.1.1 = {
+		birth = yes
+	}
+	996.1.1 = { # 108 years old
+		death = yes
+	}
+}
+drskfrance0019 = {
+	name = "Ardennes" #
+	# 3 vowels
+	# 5 consonants
+	# 8 letters
+	# 5 husbands # do not make nonproductive ones
+	#1 husband Solal de Cleyzieu drsdyn194 # daughter Diane # son Esoue # daughter Andréanne # son Antisthène with NEW CADET BRACH de la Ville des Rêves rules d_valois house_LManberg in code
+	#2 husband Anatoile d'Ambérieu drsdyn195 # daughter Érècquère des Fleurs NOT cadet branch # daughter Alix
+	#3 husband Calétos de Foissiat drsdyn196 # daughter Berthe
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0003 # Ïalonnosse de Léchelle
+	mother = drskfrance0016 # Alantedôbet de Les Marêts
+	890.1.1 = {
+		birth = yes
+	}
+	973.1.1 = { # 83 years old
+		death = yes
+	}
+}
+drskfrance0020 = {
+	name = "Anreméche Ida" # no children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0003 # Ïalonnosse de Léchelle
+	mother = drskfrance0016 # Alantedôbet de Les Marêts
+	891.1.1 = {
+		birth = yes
+	}
+	915.1.1 = { # 24 years old
+		death = yes
+	}
+}
+drskfrance0021 = {
+	name = "Julienne" #
+	# 4 vowels
+	# 4 consonants
+	# 1 husband Antère de Varambon drsdyn199
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0003 # Ïalonnosse de Léchelle
+	mother = drskfrance0016 # Alantedôbet de Les Marêts
+	892.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = { # 147 years old
+		death = yes
+	}
+}
+drskfrance0022 = {
+	name = "Valence" # No spouse or children
+	# 3 vowels
+	# 4 consonants
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0003 # Ïalonnosse de Léchelle
+	mother = drskfrance0016 # Alantedôbet de Les Marêts
+	893.1.1 = {
+		birth = yes
+	}
+	952.1.1 = { # 59 years old
+		death = yes
+	}
+}
+drskfrance0023 = {
+	name = "Ida" # no spouse or children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0003 # Ïalonnosse de Léchelle
+	mother = drskfrance0016 # Alantedôbet de Les Marêts
+	894.1.1 = {
+		birth = yes
+	}
+	1014.1.1 = { # 120 years old
+		death = yes
+	}
+}
+drskfrance0024 = {
+	name = "Tiburge" # no spouse or children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0003 # Ïalonnosse de Léchelle
+	mother = drskfrance0016 # Alantedôbet de Les Marêts
+	895.1.1 = {
+		birth = yes
+	}
+	938.1.1 = { # 43 years old
+		death = yes
+	}
+}
+# AFTER THIS DO DAME#FEMALE and SEIGNEUR#MALE titles for the children of ANY landed nobleholders county and above in the High Queendom of France
+# THEN DO CHILDREN OF DUKE Artaë Mansyrubiens of Vermandois in new file
+drskfrance0025 = {
+	name = "Aphroditectiste" # wife married matrilineally is Ancâmnes Yolanda de Léchelle drskfrance0018 # no children
+	dynasty = drsdyn193 # de Tigeaux
+	religion = gallian_ireneism
+	culture = french
+	889.1.1 = {
+		birth = yes
+	}
+	909.1.1 = {
+		add_matrilineal_spouse = drskfrance0018 # Ancâmnes Yolanda de Léchelle
+	}
+	971.1.1 = { # 82 years old
+		death = yes
+	}
+}
+drskfrance0026 = {
+	name = "Solal" # wife married matrilineally is Ardennes de Léchelle drskfrance0019 # daughter Diane # son Esoue # daughter Andréanne # son Antisthène with NEW CADET BRACH de la Ville des Rêves rules d_valois house_LManberg in code
+	dynasty = drsdyn194 # de Cleyzieu
+	religion = gallian_ireneism
+	culture = french
+	890.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		add_matrilineal_spouse = drskfrance0019 # Ardennes de Léchelle
+	}
+	986.1.1 = { # 96 years old
+		death = yes
+	}
+}
+#### GENERATION 1 OF TRACKING#### NO SPOUSES RECORDED GENERATION ####
+drskfrance0027 = {
+	name = "Diane" # no children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0026 # Solal de Cleyzieu
+	mother = drskfrance0019 # Ardennes de Léchelle
+	912.1.1 = {
+		birth = yes
+	}
+	999.1.1 = { # 87 years old
+		death = yes
+	}
+}
+drskfrance0028 = {
+	name = "Esoue" # no children
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0026 # Solal de Cleyzieu
+	mother = drskfrance0019 # Ardennes de Léchelle
+	913.1.1 = {
+		birth = yes
+	}
+	999.1.1 = { # 86 years old
+		death = yes
+	}
+}
+drskfrance0029 = {
+	name = "Andréanne" # no children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0026 # Solal de Cleyzieu
+	mother = drskfrance0019 # Ardennes de Léchelle
+	914.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = { # 96 years old
+		death = yes
+	}
+}
+drskfrance0030 = {
+	name = "Antisthène" # no children
+	dynasty_house = house_LManberg # de la Ville des Rêves house of de Léchelle dynasty
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0026 # Solal de Cleyzieu
+	mother = drskfrance0019 # Ardennes de Léchelle
+	915.1.1 = {
+		birth = yes
+	}
+	998.1.1 = { # 83 years old
+		death = yes
+	}
+}
+drskfrance0031 = {
+	name = "Anatoile" # wife married matrilineally is Ardennes de Léchelle drskfrance0019 # daughter Érècquère des Fleurs NOT cadet branch # daughter Alix
+	dynasty = drsdyn195 # d'Ambérieu
+	religion = gallian_ireneism
+	culture = french
+	890.1.1 = {
+		birth = yes
+	}
+	912.1.1 = {
+		add_matrilineal_spouse = drskfrance0019 # Ardennes de Léchelle
+	}
+	981.1.1 = { # 91 years old
+		death = yes
+	}
+}
+drskfrance0032 = {
+	name = "Érècquère des Fleurs" # no children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0031 # Anatoile d'Ambérieu
+	mother = drskfrance0019 # Ardennes de Léchelle
+	916.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = { # 84 years old
+		death = yes
+	}
+}
+drskfrance0033 = {
+	name = "Alix" # daughter Emma # daughter Julienne # son Tancrède # daughter Aphrodite INHERITS k_france in 958 # son Servilien
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0031 # Anatoile d'Ambérieu
+	mother = drskfrance0019 # Ardennes de Léchelle
+	917.1.1 = {
+		birth = yes
+	}
+	997.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0034 = {
+	name = "Calétos" # wife married matrilineally is Ardennes de Léchelle drskfrance0019 # daughter Berthe
+	dynasty = drsdyn196 # de Foissiat
+	religion = gallian_ireneism
+	culture = french
+	890.1.1 = {
+		birth = yes
+	}
+	913.1.1 = {
+		add_matrilineal_spouse = drskfrance0019 # Ardennes de Léchelle
+	}
+	973.1.1 = { # 83 years old
+		death = yes
+	}
+}
+drskfrance0035 = {
+	name = "Berthe" # no children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0034 # Calétos de Foissiat
+	mother = drskfrance0019 # Ardennes de Léchelle
+	918.1.1 = {
+		birth = yes
+	}
+	1001.1.1 = { # 83 years old
+		death = yes
+	}
+}
+#### GENERATION 2 OF TRACKING #### MAX 2 SPOUSES OR SETS OF CHILDREN #### PEOPLE WITHOUT SPOUSES CAN STILL HAVE CHILDREN BUT NOT ALWAYS #### ALL OF NEXT GEN LIVE EXACTLY 80 YEARS
+drskfrance0036 = {
+	name = "Emma" # no children no spouses
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0033 # Alix de Léchelle
+	937.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = { # 98 years old
+		death = yes
+	}
+}
+drskfrance0037 = {
+	name = "Julienne" # son Saint-Cissoniôsse # daughter Héliobalda # daughter Hélioctistée # daughter Aphroditectistée # daughter Bélésactistée # daughter Aaliz # daughter Adalsende
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0033 # Alix de Léchelle
+	938.1.1 = {
+		birth = yes
+	}
+	1037.1.1 = { # 99 years old
+		death = yes
+	}
+}
+drskfrance0038 = {
+	name = "Tancrède" # no children or spouses 
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0033 # Alix de Léchelle
+	939.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = { # 96 years old
+		death = yes
+	}
+}
+drskfrance0039 = {
+	name = "Aphrodite" # INHERITS k_france # daughter Sainte # daughter Taïna # daughter Ulrique # daughter Almodis # daughter Blanche # daughter Ermengarde # daughter Guillaumette # daughter Mafalda # son Dioscore # daughter Sybille # son Dalmace
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0033 # Alix de Léchelle
+	940.1.1 = {
+		birth = yes
+	}
+	1023.1.1 = { # 83 years old
+		death = yes
+	}
+}
+drskfrance0040 = {
+	name = "Servilien" #
+	# 1st set of children # son Lothaire
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0033 # Alix de Léchelle
+	941.1.1 = {
+		birth = yes
+	}
+	1022.1.1 = { # 81 years old
+		death = yes
+	}
+}
+#### SUCCESSION IN 958 #### YOUNGEST ADULT OF THE FAMILY INHERITS ####
+#### GENERATION 3 OF TRACKING #### 0 TO 3 SETS OF CHILDREN #### 0 TO 2 SPOUSES PER CHARACTER # up to 16 children per set
+## CHILDREN OF Julienne de Léchelle ##
+drskfrance0042 = {
+	name = "Héliobalda" # sister Hélioctistée # sister Aphroditectistée # sister Bélésactistée # sister Aaliz # sister Adalsende
+	# 0 husbands
+	# 0 children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0037 # Julienne de Léchelle
+	959.1.1 = {
+		birth = yes
+	}
+	1039.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0043 = {
+	name = "Hélioctistée" # sister Aphroditectistée # sister Bélésactistée # sister Aaliz # sister Adalsende
+	# 2 husbands
+	# 3 sets of children # one for each husband and one extra
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0037 # Julienne de Léchelle
+	960.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0044 = {
+	name = "Aphroditectistée" # sister Bélésactistée # sister Aaliz # sister Adalsende
+	# 0 spouses
+	# 2 sets of children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0037 # Julienne de Léchelle
+	961.1.1 = {
+		birth = yes
+	}
+	1041.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0045 = {
+	name = "Bélésactistée" # sister Aaliz # sister Adalsende
+	# no husbands
+	# no children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0037 # Julienne de Léchelle
+	962.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0046 = {
+	name = "Aaliz" # sister Adalsende
+	# no husbands
+	# no children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0037 # Julienne de Léchelle
+	963.1.1 = {
+		birth = yes
+	}
+	1043.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0047 = {
+	name = "Adalsende" #
+	# no husbands
+	# no children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0037 # Julienne de Léchelle
+	964.1.1 = {
+		birth = yes
+	}
+	1044.1.1 = { # 80 years old
+		death = yes
+	}
+}
+## CHILDREN OF Aphrodite de Léchelle ##
+drskfrance0048 = {
+	name = "Sainte" # sister Taïna # sister Ulrique # sister Almodis # sister Blanche # sister Ermengarde # sister Guillaumette # sister Mafalda # brother Dioscore # sister Sybille # brother Dalmace
+	# 1 husband
+	# 3 sets of children all with him
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	960.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0049 = {
+	name = "Taïna" # sister Ulrique # sister Almodis # sister Blanche # sister Ermengarde # sister Guillaumette # sister Mafalda # brother Dioscore # sister Sybille # brother Dalmace
+	# no husbands
+	# 1 set of children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	961.1.1 = {
+		birth = yes
+	}
+	1041.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0050 = {
+	name = "Ulrique" # sister Almodis # sister Blanche # sister Ermengarde # sister Guillaumette # sister Mafalda # brother Dioscore # sister Sybille # brother Dalmace
+	female = yes
+	# no husbands
+	# no children
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	962.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0051 = {
+	name = "Almodis" # sister Blanche # sister Ermengarde # sister Guillaumette # sister Mafalda # brother Dioscore # sister Sybille # brother Dalmace
+	# 2 husbands
+	# 2 sets of children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	963.1.1 = {
+		birth = yes
+	}
+	1043.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0052 = {
+	name = "Blanche" # sister Ermengarde # sister Guillaumette # sister Mafalda # brother Dioscore # sister Sybille # brother Dalmace
+	# 2 husbands
+	# 3 sets of children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	964.1.1 = {
+		birth = yes
+	}
+	1044.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0053 = {
+	name = "Ermengarde" # sister Guillaumette # sister Mafalda # brother Dioscore # sister Sybille # brother Dalmace
+	# 2 husbands
+	# 1 set of children # with the second husband
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	965.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0054 = {
+	name = "Guillaumette" # sister Mafalda # brother Dioscore # sister Sybille # brother Dalmace
+	# 1 husband
+	# 3 sets of children # 2 with him # 2 with no#unrecorded father
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	966.1.1 = {
+		birth = yes
+	}
+	1046.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0055 = {
+	name = "Mafalda" # brother Dioscore # sister Sybille # brother Dalmace
+	# 0 husbands
+	# 3 sets of children
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	967.1.1 = {
+		birth = yes
+	}
+	1047.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0056 = {
+	name = "Dioscore" # sister Sybille # brother Dalmace
+	# 0 wives
+	# 1 set of children
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	968.1.1 = {
+		birth = yes
+	}
+	1048.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0057 = {
+	name = "Sibylle" # brother Dalmace
+	# 1 husband
+	# 3 sets of children all with him
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	969.1.1 = {
+		birth = yes
+	}
+	1049.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0058 = {
+	name = "Dalmace" # 
+	# 2 wives
+	# 3 sets of children # 1 for each wife and 1 with varying unrecorded mothers
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0039 # Aphrodite de Léchelle
+	970.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = { # 80 years old
+		death = yes
+	}
+}
+##CHILDREN OF Servilien de Léchelle ##
+drskfrance0059 = {
+	name = "Lothaire" #
+	# 2 wives
+	# 1 set of children # with first wife
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0040 # Servilien de Léchelle
+	961.1.1 = {
+		birth = yes
+	}
+	1041.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0041 = {
+	name = "Saint-Cissoniôsse" # sister Héliobalda # sister Hélioctistée # sister Aphroditectistée # sister Bélésactistée # sister Aaliz # sister Adalsende
+	# 2 wives
+	## wife 1 Sainte-Cérès d'Amigny-Rouny drsdyn201 # 3 children # son Saint-Esoue # daughter Sainte-Vesta # daughter Sainte-Acionnette
+	## wife 2 Sainte-Perséphone d'Ancienville drsdyn202 # 10 children # son Saint-Ïalonnosse # daughter Sainte-Aëriculée # daughter Sainte-Alantedôbet # son Saint-Fèlvènisse # son Salluste # daughter Sainte-Ancâmnes # son Sallustien 
+	# daughter Sainte-Andrâste # son Salvien # son Samy
+	# 1 set of children per wife
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	mother = drskfrance0037 # Julienne de Léchelle
+	958.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0060 = {
+	name = "Sainte-Cérès" # son Saint-Esoue # daughter Sainte-Vesta # daughter Sainte-Acionnette
+	female = yes
+	dynasty = drsdyn201 # d'Amigny-Rouny
+	religion = gallian_ireneism
+	culture = french
+	958.1.1 = {
+		birth = yes
+	}
+	977.1.1 = {
+		add_spouse = drskfrance0041
+	}
+	1038.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0061 = {
+	name = "Saint-Esoue" #
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0060 # Sainte-Cérès d'Amigny-Rouny
+	978.1.1 = {
+		birth = yes
+	}
+	1058.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0062 = {
+	name = "Sainte-Vesta" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0060 # Sainte-Cérès d'Amigny-Rouny
+	979.1.1 = {
+		birth = yes
+	}
+	1059.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0063 = {
+	name = "Sainte-Acionnette" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0060 # Sainte-Cérès d'Amigny-Rouny
+	980.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0064 = {
+	name = "Sainte-Perséphone" # d'Ancienville drsdyn202 # 10 children # son Saint-Ïalonnosse # daughter Sainte-Aëriculée # daughter Sainte-Alantedôbet # son Saint-Fèlvènisse # son Salluste # daughter Sainte-Ancâmnes # son Sallustien 
+	# daughter Sainte-Andrâste # son Salvien # son Samy
+	female = yes
+	dynasty = drsdyn202 # d'Ancienville
+	religion = gallian_ireneism
+	culture = french
+	958.1.1 = {
+		birth = yes
+	}
+	977.1.1 = {
+		add_spouse = drskfrance0041
+	}
+	1038.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0065 = {
+	name = "Saint-Ïalonnosse" #
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0064 # Sainte-Perséphone d'Ancienville
+	980.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0066 = {
+	name = "Sainte-Aëriculée" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0064 # Sainte-Perséphone d'Ancienville
+	981.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0067 = {
+	name = "Sainte-Alantedôbet" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0064 # Sainte-Perséphone d'Ancienville
+	982.1.1 = {
+		birth = yes
+	}
+	1062.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0068 = {
+	name = "Saint-Fèlvènisse" #
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0064 # Sainte-Perséphone d'Ancienville
+	983.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0069 = {
+	name = "Salluste" #
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0064 # Sainte-Perséphone d'Ancienville
+	984.1.1 = {
+		birth = yes
+	}
+	1064.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0070 = {
+	name = "Sainte-Ancâmnes" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0064 # Sainte-Perséphone d'Ancienville
+	985.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0071 = {
+	name = "Sallustien" #
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0064 # Sainte-Perséphone d'Ancienville
+	986.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drskfrance0072 = {
+	name = "Sainte-Andrâste" #
+	female = yes
+	dynasty = drsdyn176 # de Léchelle
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0041 # Saint-Cissoniôsse de Léchelle
+	mother = drskfrance0064 # Sainte-Perséphone d'Ancienville
+	987.1.1 = {
+		birth = yes
+	}
+	1067.1.1 = { # 80 years old
+		death = yes
+	}
+}

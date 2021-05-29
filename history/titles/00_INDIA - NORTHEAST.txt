@@ -1,0 +1,121 @@
+e_bengal = { # Last Emperor dies 880 AD
+	666.1.1 = {
+		holder = drsbengal0003
+	}
+	702.1.1 = {
+		holder = drsbengal0004 # Maria Bhavashankari Bar Isaac
+	}
+	728.1.1 = {
+		holder = drsbengal0005 # Mariam Bishwas Devi Bar Isaac
+	}
+	748.1.1 = {
+		holder = drsbengal0009 # Thaddea Bibibai Bar Isaac
+	}
+	770.1.1 = {
+		holder = drsbengal0011 # Samuel Ballalsen Bar Isaac
+	}
+	789.1.1 = {
+		holder = drsbengal0012 # Lazarus Harendranarayan Bar Isaac
+	}
+	819.1.1 = {
+		holder = drsbengal0013 # Hannah Dattadevi Bar Isaac
+	}
+	839.1.1 = {
+		holder = drsbengal0014 # Chara Devavati Bar Isaac
+	}
+	859.1.1 = {
+		holder = drsbengal0016 # Silas Vakapala Bar Isaac
+	}
+}
+k_bengal = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_gauda = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+}
+d_varendra = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+}
+d_vanga = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+d_nadia = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+d_suhma = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+k_kamarupa = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_sutiya = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+d_para_lauhitya = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+}
+k_bihar = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_magadha = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+}
+d_tirabhukti = {
+	867.1.1 = {	change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+d_kasi = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+}
+d_jharkand = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+}
+k_kosala = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_kanyakubja = {
+	867.1.1 = { change_development_level = 20 }
+	1066.1.1 = { change_development_level = 25 }
+}
+c_kanyakubja = {
+	867.1.1 = { change_development_level = 24 }
+	1066.1.1 = { change_development_level = 34 }
+}
+k_gondwana = {
+	867.1.1 = {	change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+k_orissa = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_tosali = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+d_dandakaranaya = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+k_himalaya = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+k_pagan = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+}

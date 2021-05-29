@@ -1,0 +1,50 @@
+﻿#Old Ireneism characters
+
+# rulers of the Kingdom of Krete
+ireneism0001 = {
+	name = "Einion" #
+	dynasty = ireneismdyn1 # Logos
+	religion = old_ireneism
+	culture = welsh
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		culture = greek
+		add_spouse = ireneism0002 # Sarah # daughter Sophia
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+ireneism0002 = {
+	name = "Sarah" #
+	female = yes
+	religion = old_ireneism
+	culture = greek
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = ireneism0001 # Einion Logos # daughter Sophia
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+ireneism0003 = {
+	name = "Sophia" #
+	# husband Eirenaios # daughter Maria
+	female = yes
+	dynasty = ireneismdyn1 # Logos
+	religion = old_ireneism
+	culture = greek
+	father = ireneism0001
+	mother = ireneism0002
+	821.1.1 = {
+		birth = yes
+	}
+	918.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,15 @@
+﻿#Kingdom of Nikaea # greek Culture orthodox Religion characters
+
+# rulers of the Kingdom of Nikaea
+drsnikaea0001 = {
+	name = "Demetrios" # No chilren, line extinct after death
+	dynasty = drsdyn13 # Papadopoulos
+	religion = orthodox
+	culture = greek
+	1030.1.1 = {
+		birth = yes
+	}
+	1105.1.1 = {
+		death = yes
+	}
+}

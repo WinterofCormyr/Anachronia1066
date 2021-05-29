@@ -1,0 +1,17 @@
+﻿#Empire of Germany # franconian Culture allemanian_ireneism Religion characters
+#first ruler born 1090 takes throne 1120 dies 1176 # has ancestors who ruled a minor duchy in Germany before her dating back to 921 when they took that throne
+
+# rulers of the Empire of Germany
+drsgermany0001 = {
+	name = "Magdalena" #
+	female = yes
+	dynasty = drsdyn71 # von Buerske
+	religion = allemanian_ireneism
+	culture = franconian
+	1090.1.1 = {
+		birth = yes
+	}
+	1176.1.1 = {
+		death = yes
+	}
+}

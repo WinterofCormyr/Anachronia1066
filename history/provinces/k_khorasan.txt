@@ -1,0 +1,1029 @@
+#k_khorasan
+##d_nishapur ###################################
+###c_nishapur
+4014 = {	#Farhajird
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1066.1.1 = {
+		buildings = {
+			plantations_02
+			cereal_fields_01
+			barracks_01
+			hunting_grounds_01
+		}
+	}
+}
+4015 = {	#Zawa	#AKA Zava, Zaveh, Torbat-e Heydarieh
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4016 = {	#Shamat
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4017 = {	#Nishapur
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4018 = {	#Rivand
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_tus
+4012 = {	#Tus
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4010 = {	#Mazduran	#AKA Mazdavand
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	#Famous and on the silk road in the islamic period
+}
+4011 = {	#Maihana
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4013 = {	#Nuqaq
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_samaiqan
+4039 = {	#Samaiqan
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4038 = {	#Jarmaqan
+	holding = castle_holding	
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	} #placeholder
+}
+4040 = {	#Dawin
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_juwain
+4022 = {	#Jajarm
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4023 = {	#Isfarain	#AKA Esfarayen
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	#Prosperous after the islamic conquest of Persia, until the end of the Abbasid
+}
+
+###c_baihaq
+4019 = {	#Keshmar
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4020 = {	#Sabzavar	#AKA Sabzevar
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	#Already existed in the 1 millenium BC
+}
+4021 = {	#Mazinan
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_damghan
+4026 = {	#Damghan
+	culture = persian
+	religion = persic_ireneism	
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4024 = {	#Biyar	#Biar-e Kord
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4025 = {	#Bistum
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4027 = {	#Gerdkuh
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+#Fortified citadel from pre-islamic era
+
+##d_merv ###################################
+###c_merv
+4238 = {	#Merv
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			cereal_fields_01
+		}
+	}
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1066.1.1 = {		
+		buildings = {
+			cereal_fields_01
+			plantations_01
+			pastures_01
+			military_camps_01
+		}
+	}
+	
+}
+4234 = {	#Sinj
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4235 = {	#Jiranj
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4236 = {	#Kharad
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4237 = {	#Shawashkan
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4239 = {	#Kushmaihan
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_sarakhs
+4007 = {	#Sarakhs
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4008 = {	#Dandanqan
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4009 = {	#Shiraz-Sarakhsi
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_marvarrud
+4221 = {	#Marv-ar-Rud
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4218 = {	#Qarinayn
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4219 = {	#Barkdiz
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4220 = {	#Panjdih
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4222 = {	#Baghshur
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_rivsharan
+4223 = {	#Dizah
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1087.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4229 = {	#Bashin
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1087.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4230 = {	#Shurmin
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1087.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_guzgan
+4251 = {	#Yahudan	#AKA Yehudiya
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4249 = {	#Andkhud
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4250 = {	#Faryab
+	holding = castle_holding
+	religion = persic_ireneism
+	culture = khorasani
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4252 = {	#Taleqan
+	holding = castle_holding
+	religion = persic_ireneism
+	culture = khorasani
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4253 = {	#Gurzivan
+	holding = castle_holding
+	religion = persic_ireneism
+	culture = khorasani
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4254 = {	#Anbar-Guzgani
+	holding = castle_holding
+	religion = persic_ireneism
+	culture = khorasani
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_amol
+4240 = {	#Amol-e-Shatt	#AKA Amul
+	culture = sogdian
+	religion = persic_ireneism
+	holding = castle_holding
+	900.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+		culture = tajik
+	}
+	1000.1.1 = {
+		culture = khorasani
+	}
+}
+4241= {		#Shagal
+	holding = castle_holding
+	religion = persic_ireneism
+	culture = khorasani
+	900.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+4245 = {	#Sayat
+	holding = castle_holding
+	religion = persic_ireneism
+	culture = khorasani
+	900.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	
+}
+
+###c_zamm
+4247 = {	#Zamm
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	
+}
+4246 = {	#Niyaz
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	960.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+##d_ghur ###################################
+###c_ghur
+4225 = {	#Firuzkuh	#AKA Chagcharan
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	1066.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+
+}
+4224 = {	#Khasht
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	1066.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4226 = {	#Ahanjaran
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	1066.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4227 = {	#Ghur
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	1066.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_darmashan
+4201 = {	#Azadawan
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	} #-Province Mapping province - I'm not entirley sure what Paradox was going for with the massive buddhist prescence in Afghanistan so late into the game
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+# 4228 - Darmashan
+4228 = {	# 4228 - Darmashan
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	} #-Province Mapping province - I'm not entirley sure what Paradox was going for with the massive buddhist prescence in Afghanistan so late into the game
+	1063.1.1 = {
+		religion = afghan_school
+	}
+
+}
+4300 = {	#Zirjan
+	culture = afghan
+	religion = mahayana
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	} #-Province Mapping province - I'm not entirley sure what Paradox was going for with the massive buddhist prescence in Afghanistan so late into the game
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+
+###c_upper_ghur
+4231 = {	#Dih-e-Khalaf
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	} 
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+4232 = {	#Ribat-e-Karyan
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	} 
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+4233 = {	#Till
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	} 
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+
+##d_herat ###################################
+###c_herat
+4215 = {	#Herat
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			cereal_fields_01
+		}
+	}
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1066.1.1 = {
+		buildings = {
+			cereal_fields_01
+			plantations_01
+			hunting_grounds_01
+		}
+	}
+}
+4216 = {	#Karukh
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4217 = {	#Malin
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_bakharz
+4210 = {	#Buzjan
+	culture = khorasani
+	religion = pashtuni_khwarezmian_ireneism
+	holding = castle_holding
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4207 = {	#Pushang
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	#Was a religious center in the VIth century, remained relevant during Islamic era
+}
+4208 = {	#Tayabad
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4209 = {	#Khawaf
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4211 = {	#Zurabad
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_badghis
+4212 = {	#Kusuy
+	culture = khorasani
+	religion = pashtuni_khwarezmian_ireneism
+	holding = castle_holding
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4213 = {	#Bamain
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4214 = {	#Jabal-al-fidda
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}	#placeholder
+}
+
+###c_sabzevar
+4204 = {	#Asfuzar
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	880.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4205 = {	#Adraskan
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	880.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	#Mentioned in XIIIth century
+}
+4206 = {	#Khin
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	880.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_zirkuh
+4203 = {	#Abiz
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4202 = {	#Shahrakht
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	987.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+##d_balkh ###################################
+###c_balkh
+4335 = {	#Balkh
+	culture = sogdian
+	religion = mahayana
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			watchtowers_01
+		}
+	}
+	900.1.1 = {
+		culture = tajik
+	}
+	1000.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1066.1.1 = {		
+		buildings = {
+			watchtowers_01
+			pastures_01
+			hunting_grounds_01
+		}
+	}
+	#1230.1.1 = { culture = mongol }	
+}
+4334 = {	#Ribat-i-el-kif
+	holding = castle_holding
+	culture = sogdian
+	religion = mahayana
+	900.1.1 = {
+		culture = tajik
+	}
+	1000.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4336 = {	#Shapurqan
+	holding = castle_holding
+	culture = sogdian
+	religion = mahayana
+	900.1.1 = {
+		culture = tajik
+	}
+	1000.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4337 = {	#Navida
+	holding = castle_holding
+	culture = sogdian
+	religion = mahayana
+	900.1.1 = {
+		culture = tajik
+	}
+	1000.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4338 = {	#Siyahjird
+	holding = castle_holding
+	culture = sogdian
+	religion = mahayana
+	900.1.1 = {
+		culture = tajik
+	}
+	1000.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+
+###c_west-tokharestan
+4341 = {	#Samanjan
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+4339 = {	#Saan
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+4340 = {	#Ruy
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+
+###c_east-tokharestan
+4351 = {	#Khulm
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+4347 = {	#Andarab
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+4348 = {	#Baghlan
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+4349 = {	#Valvalij
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+4350 = {	#Talekan
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+4352 = {	#Mila
+	culture = afghan
+	religion = mahayana
+	holding = castle_holding
+	993.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+}
+
+##d_nasa ###################################
+###c_abivard
+4044 = {	#Abivard
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4041 = {	#Shahrastan
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4042 = {	#Nasa	#AKA Nesa
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4043 = {	#Khabushan
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_farava
+4036 = {	#Farava
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4037 = {	#Hesare-Taq
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+##d_kohestan ###################################
+###c_qain
+4062 = {	#Qain
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4063 = {	#Birjand
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	#First mention in XIIIth century
+}
+4064 = {	#Khusf
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	#One of the oldest cities of south Khorasan
+}
+4065 = {	#Barandud
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	#First mention in XIIIth century
+}
+4066 = {	#Junabid
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_tun
+4068 = {	#Tun
+	culture = khorasani
+	religion = persic_ireneism
+	holding = castle_holding
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4067 = {	#Bejestan
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4069 = {	#Tabas
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	#Important waypoint to Khorasan in pre-islamic times
+}
+4070 = {	#Khur
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4071 = {	#Raqe
+	holding = castle_holding
+	culture = khorasani
+	religion = persic_ireneism
+	1060.1.1 = {
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}

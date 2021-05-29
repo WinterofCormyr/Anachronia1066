@@ -1,0 +1,1024 @@
+﻿aniar_na_religion = { # Aniar'na are basically Aedra # this represents the imperial side, "lorkhan is good" # for the magna ge see megha'rix'ta # for the daedra see thuhar'na
+	# for the amaranthine#mystics see Suvar'al'i' 
+	family = rf_taminarian
+
+	pagan_roots = yes
+
+	doctrine = taminarian_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_mz_no_syncretism
+
+	#Marriage
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_approval
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_restricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+
+	traits = {
+		virtues = { generous gallant just temperate }
+		sins = { arbitrary gluttonous greedy }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_myrmidons" }
+		{ name = "holy_order_priesthood_of_ares" }
+	}
+
+	holy_order_maa = { praetorian }
+
+	localization = {
+		#High God Name
+		HighGodName = aniar_na_high_god_name # Aka # Akatosh
+		HighGodNamePossessive = aniar_na_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = aniar_na_high_god_name_alternate # Time-Dragon
+		HighGodNameAlternatePossessive = aniar_na_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = aniar_na_creator_god_name # All-Khan # Lorkhan
+		CreatorNamePossessive = aniar_na_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = aniar_na_health_god_name # Kuuna # Kynareth # separate from Khandorit
+		HealthGodNamePossessive = aniar_na_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = aniar_na_fertility_god_name # Khandorit # Dibella-Mara-Kynareth # The Triple Goddess
+		FertilityGodNamePossessive = aniar_na_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = aniar_na_wealth_god_name # Zen # Zenithar
+		WealthGodNamePossessive = aniar_na_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = aniar_na_household_god_name # Meriah # Mara # The Virgin Mary
+		HouseholdGodNamePossessive = aniar_na_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = aniar_na_fate_god_name # Sat'un # the Gilges # the Greek fates or Norse norns
+		FateGodNamePossessive = aniar_na_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+
+		#KnowledgeGod
+		KnowledgeGodName = aniar_na_knowledge_god_name # Xuliasi # feminine Julianos 
+		KnowledgeGodNamePossessive = aniar_na_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = aniar_na_war_god_name # Sareni # Stendarr
+		WarGodNamePossessive = aniar_na_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = aniar_na_trickster_god_name # All-Khan # Lorkhan
+		TricksterGodNamePossessive = aniar_na_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = aniar_na_night_god_name # Ysara # no clear counterpart # goddess of the stars
+		NightGodNamePossessive = aniar_na_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = aniar_na_water_god_name # Rkhet # Arkay
+		WaterGodNamePossessive = aniar_na_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+		PantheonTerm = aniar_na_good_god_aniar_na
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { 
+			aniar_na_creator_god_name
+			aniar_na_high_god_name
+			aniar_na_health_god_name
+			aniar_na_fertility_god_name
+			aniar_na_wealth_god_name
+			aniar_na_household_god_name
+			aniar_na_knowledge_god_name
+			aniar_na_war_god_name
+			aniar_na_night_god_name
+			aniar_na_water_god_name
+			aniar_na_god_azyren
+			aniar_na_god_azuloon
+			aniar_na_god_manyfold_azarootta
+			aniar_na_god_nin_inanna
+			aniar_na_god_lugal_an
+			aniar_na_god_shaushka
+			aniar_na_god_haya
+			aniar_na_god_antu_aya
+			aniar_na_god_nisaba_dingirnaga
+			aniar_na_god_nubadig
+			aniar_na_god_arcturus
+			aniar_na_god_jupiter
+			aniar_na_god_arubani_potnia
+			aniar_na_god_diwo_khaldi
+			aniar_na_god_bagvarti_diwia
+			aniar_na_god_potnia_athhena
+			aniar_na_god_potnia_hippeia
+		}
+		DevilName = aniar_na_devil_name
+		DevilNamePossessive = aniar_na_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_THEY
+		DevilHerHis = CHARACTER_HERHIS_THEIR
+		DevilHerselfHimself = CHARACTER_THEMSELF
+		EvilGodNames = { aniar_na_evil_god_devil }
+		HouseOfWorship = aniar_na_house_of_worship
+		HouseOfWorshipPlural = aniar_na_house_of_worship_plural
+		ReligiousSymbol = aniar_na_religious_symbol
+		ReligiousText = aniar_na_religious_text
+		ReligiousHeadName = aniar_na_religious_head_title
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = aniar_na_devotee
+		DevoteeMalePlural = aniar_na_devoteeplural
+		DevoteeFemale = aniar_na_devotee
+		DevoteeFemalePlural = aniar_na_devoteeplural
+		DevoteeNeuter = aniar_na_devotee
+		DevoteeNeuterPlural = aniar_na_devoteeplural
+		PriestMale = aniar_na_priest_male
+		PriestMalePlural = aniar_na_priest_male_plural
+		PriestFemale = aniar_na_priest_female
+		PriestFemalePlural = aniar_na_priest_female_plural
+		PriestNeuter = aniar_na_priest_male
+		PriestNeuterPlural = aniar_na_priest_male_plural
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = aniar_na_bishop_male
+		BishopMalePlural = aniar_na_bishop_male_plural
+		BishopFemale = aniar_na_priest_female
+		BishopFemalePlural = aniar_na_priest_female_plural
+		BishopNeuter = aniar_na_priest_male
+		BishopNeuterPlural = aniar_na_priest_male_plural
+		DivineRealm = aniar_na_divine_realm
+		PositiveAfterLife = aniar_na_dreamsleeve
+		NegativeAfterLife = aniar_na_dreamsleeve
+		DeathDeityName = aniar_na_death_deity_name # Rkhet # Arkay
+		DeathDeityNamePossessive = aniar_na_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = aniar_na_witchgodname_megha_rix # Megha'rix # leader of the Megha'rix'ta # Magnus fem
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = { #803 is when new religions start popping up # start taking provinces in 914 # old_aniar_na is GONE by 1018
+		old_aniar_na = { # Siberia # Ob 
+			color = { 136 216 114 }
+			icon = azariqa
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_righteous
+			
+			doctrine = tenet_adaptive
+			doctrine = tenet_reincarnation
+			doctrine = tenet_ritual_celebrations
+		}
+		aka_gunar = { # "gunar" translates as "cult" # but only in the historical scholarship sense # "cult of a god" # ADD PROVINCES STARTING 914 # southern Turan # d_soghd d_khuttal d_osrushana d_ferghana in Transoxiana
+			# d_baraba_steppe d_ala_tau in Ob # d_ostyaki in Yugra
+			color = { 50 50 50 }
+			icon = akatosh
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty 
+			
+			
+			doctrine = doctrine_pluralism_righteous
+			doctrine = doctrine_clerical_succession_temporal_appointment
+
+			
+			doctrine = tenet_communal_identity
+			doctrine = tenet_reincarnation
+			doctrine = tenet_way_of_aka
+		}
+		khandorit_gunar = { # "gunar" translates as "cult" # but only in the historical scholarship sense # "cult of a god" # ADD PROVINCES STARTING 914 # all of zhetysu
+			# characters will have one extra child matching their gender
+			color = { 191 61 32 }
+			icon = mara
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			#Marriage
+			doctrine = doctrine_valdemarian_polygamy
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_pacifism
+			doctrine = tenet_reincarnation
+			doctrine = tenet_way_of_khandorit
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_fertility_god_name # Khandorit
+				HighGodNamePossessive = aniar_na_fertility_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aniar_na_fertility_god_name_alternate # the Mother Mild
+				HighGodNameAlternatePossessive = aniar_na_fertility_god_name_alternate_possessive
+			}
+		}
+		all_khan_gunar = { # "gunar" translates as "cult" # but only in the historical scholarship sense # "cult of a god" # ADD PROVINCES STARTING 914 # the rest of Ob
+			#
+			color = { 178 115 76 }
+			icon = akatosh2
+			religious_head = k_all_banners_legion
+
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_fundamentalist
+			doctrine = doctrine_spiritual_head # All-Banners Legion
+			
+			#Marriage
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_shunned
+			doctrine = doctrine_adultery_women_shunned
+			
+			doctrine = tenet_armed_pilgrimages
+			doctrine = tenet_reincarnation
+			doctrine = tenet_way_of_allkhan
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_creator_god_name # All-Khan
+				HighGodNamePossessive = aniar_na_creator_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIM
+				HighGodNameAlternate = aniar_na_creator_god_name_alternate # The Serpent
+				HighGodNameAlternatePossessive = aniar_na_creator_god_name_alternate_possessive
+				# Grandmasters instead of Popes
+				ReligiousHeadName = allkhan_religious_head_title
+				ReligiousHeadTitleName = allkhan_religious_head_title_name		
+			}
+		}
+		ysara_gunar = { # "gunar" translates as "cult" # but only in the historical scholarship sense # "cult of a god" # ADD PROVINCES STARTING 914 # d_aqtobe and d_atyrau in k_kimek # ADD "HERESY" EVENT FOR ANIAR'NA
+			#
+			color = { 31 77 112 }
+			icon = welsh
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_righteous
+			
+			#Marriage
+			doctrine = doctrine_free_love
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_astrology
+			doctrine = tenet_reincarnation
+			doctrine = tenet_way_of_ysara
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_night_god_name # Ysara
+				HighGodNamePossessive = aniar_na_night_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE # actually uses neopronouns fae/faer
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aniar_na_night_god_name_alternate # The Queen of Liquid Starlight
+				HighGodNameAlternatePossessive = aniar_na_night_god_name_alternate_possessive
+			}
+		}
+		zen_gunar = { # "gunar" translates as "cult" # but only in the historical scholarship sense # "cult of a god" # ADD PROVINCES STARTING 914 # d_aqtobe and d_atyrau in k_kimek # ADD "HERESY" EVENT FOR ANIAR'NA
+			#
+			color = { 111 111 111 }
+			icon = zenithar
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			#Marriage
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_mercantilism
+			doctrine = tenet_reincarnation
+			doctrine = tenet_way_of_zen
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_wealth_god_name # Zen
+				HighGodNamePossessive = aniar_na_wealth_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIM
+				HighGodNameAlternate = aniar_na_wealth_god_name_alternate # The Poor Man's God
+				HighGodNameAlternatePossessive = aniar_na_wealth_god_name_alternate_possessive
+			}
+		}
+		meriah_gunar = { # "gunar" translates as "cult" # but only in the historical scholarship sense # "cult of a god" # 
+			#
+			color = { 157 157 157 }
+			icon = kynareth
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			#Marriage
+			doctrine = doctrine_free_love
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_christian_syncretism
+			doctrine = tenet_reincarnation
+			doctrine = tenet_way_of_khandorit # Meriah is very similar in teachings to Khandorit
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_household_god_name # Meriah
+				HighGodNamePossessive = aniar_na_household_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aniar_na_household_god_name_alternate # the Virgin Mary
+				HighGodNameAlternatePossessive = aniar_na_household_god_name_alternate_possessive
+			}
+		}
+		xuliasi_gunar = { # "gunar" translates as "cult" # but only in the historical scholarship sense # "cult of a god" # 
+			#
+			color = { 157 157 157 }
+			icon = julianos
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			#Marriage
+			doctrine = doctrine_free_love
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_communal_identity
+			doctrine = tenet_reincarnation
+			doctrine = tenet_way_of_xuliasi
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_knowledge_god_name # Xuliasi
+				HighGodNamePossessive = aniar_na_knowledge_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aniar_na_knowledge_god_name #
+				HighGodNameAlternatePossessive = aniar_na_knowledge_god_name_possessive
+			}
+		}
+		azyren_gunarat_rextis_kaloos = { # "gunarat" translates as "pantheonic cult" # but only in the historical scholarship sense # "cult of a pantheon (not just a god)" # 
+			#
+			color = { 155 0 77 }
+			icon = julianos
+
+			holy_site = perm
+			holy_site = sparta
+			holy_site = surgut
+			holy_site = ob
+			holy_site = alexandria
+			
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			#Marriage
+			doctrine = doctrine_free_love
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_xenine_royalty_and_grace
+			doctrine = tenet_pseudomonastic
+			doctrine = tenet_pacifism
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_god_azyren # Azyren
+				HighGodNamePossessive = aniar_na_god_azyren_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aniar_na_god_azyren_name_alternate # The Lady Irene
+				HighGodNameAlternatePossessive = aniar_na_god_azyren_name_alternate_possessive
+
+				#HealthGod
+				HealthGodName = aniar_na_god_manyfold_azarootta # Azar-oot-ta # Aitah
+				HealthGodNamePossessive = aniar_na_god_manyfold_azarootta_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = aniar_na_god_azuloon # Azuloon # Aelona
+				FertilityGodNamePossessive = aniar_na_god_azuloon_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+			}
+		}
+		ur_gunarat = { # "gunarat" translates as "pantheonic cult" # but only in the historical scholarship sense # "cult of a pantheon (not just a god)" # 
+			# follows the Ur-Pantheon
+			color = { 172 148 186 }
+			icon = sumerian_reformed
+
+			holy_site = wasit # Sumer
+			holy_site = giza # Egypt
+			holy_site = ngawa
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_righteous
+			
+			#Marriage
+			doctrine = doctrine_free_love
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_way_of_the_ancients # sanctity of nature and astrology
+			doctrine = tenet_scholarship_of_scripture
+			doctrine = tenet_unrelenting_faith
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_god_nin_inanna # Nin Inanna
+				HighGodNamePossessive = aniar_na_god_nin_inanna_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aniar_na_god_nin_inanna
+				HighGodNameAlternatePossessive = aniar_na_god_nin_inanna_name_possessive
+
+				#Creator
+				CreatorName = aniar_na_god_lugal_an # Lugal An Dingir Aniar'n'e
+				CreatorNamePossessive = aniar_na_god_lugal_an_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_HE
+				CreatorHerHis = CHARACTER_HERHIS_HIS
+				CreatorHerHim = CHARACTER_HERHIM_HIM
+
+				#HealthGod
+				HealthGodName = aniar_na_god_shaushka # Nin Shaushka
+				HealthGodNamePossessive = aniar_na_god_shaushka_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = aniar_na_god_nin_inanna # Nin Inanna
+				FertilityGodNamePossessive = aniar_na_god_nin_inanna_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = aniar_na_god_haya # Haya
+				WealthGodNamePossessive = aniar_na_god_haya_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = aniar_na_god_antu_aya # Antu Aya
+				HouseholdGodNamePossessive = aniar_na_god_antu_aya_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = aniar_na_fate_god_name # Sat'un # the Gilges # the Greek fates or Norse norns
+				FateGodNamePossessive = aniar_na_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = aniar_na_god_nisaba_dingirnaga # Nisaba Dingirnaga 
+				KnowledgeGodNamePossessive = aniar_na_god_nisaba_dingirnaga_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = aniar_na_god_nin_inanna # Nin Inanna
+				WarGodNamePossessive = aniar_na_god_nin_inanna_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = aniar_na_trickster_god_name # All-Khan # Lorkhan
+				TricksterGodNamePossessive = aniar_na_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = aniar_na_god_nubadig # Nubadig
+				NightGodNamePossessive = aniar_na_god_nubadig_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WaterGod
+				WaterGodName = aniar_na_god_nubadig # Nubadig
+				WaterGodNamePossessive = aniar_na_god_nubadig_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
+			}
+		}
+		inanna_gunar = { # "gunarat" translates as "pantheonic cult" # but only in the historical scholarship sense # "cult of a pantheon (not just a god)" # 
+			# follows the Ur-Pantheon # centers around the goddess Nin Inanna # unique tenet tenet_way_of_inanna is a combo of tenet_carnal_exaltation and tenet_unrelenting_faith
+			color = { 50 50 66 }
+			icon = sumerian_reformed
+
+			holy_site = wasit # Sumer
+			holy_site = giza # Egypt
+			holy_site = ngawa
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			#Marriage
+			doctrine = doctrine_free_love
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_way_of_the_ancients # sanctity of nature and astrology
+			doctrine = tenet_scholarship_of_scripture
+			doctrine = tenet_way_of_inanna # tenet_carnal_exaltation and tenet_warmonger
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_god_nin_inanna # Nin Inanna
+				HighGodNamePossessive = aniar_na_god_nin_inanna_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aniar_na_god_nin_inanna
+				HighGodNameAlternatePossessive = aniar_na_god_nin_inanna_name_possessive
+
+				#Creator
+				CreatorName = aniar_na_god_lugal_an # Lugal An Dingir Aniar'n'e
+				CreatorNamePossessive = aniar_na_god_lugal_an_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_HE
+				CreatorHerHis = CHARACTER_HERHIS_HIS
+				CreatorHerHim = CHARACTER_HERHIM_HIM
+
+				#HealthGod
+				HealthGodName = aniar_na_god_shaushka # Nin Shaushka
+				HealthGodNamePossessive = aniar_na_god_shaushka_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = aniar_na_god_nin_inanna # Nin Inanna
+				FertilityGodNamePossessive = aniar_na_god_nin_inanna_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = aniar_na_god_haya # Haya
+				WealthGodNamePossessive = aniar_na_god_haya_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = aniar_na_god_antu_aya # Antu Aya
+				HouseholdGodNamePossessive = aniar_na_god_antu_aya_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = aniar_na_fate_god_name # Sat'un # the Gilges # the Greek fates or Norse norns
+				FateGodNamePossessive = aniar_na_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = aniar_na_god_nisaba_dingirnaga # Nisaba Dingirnaga 
+				KnowledgeGodNamePossessive = aniar_na_god_nisaba_dingirnaga_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = aniar_na_god_nin_inanna # Nin Inanna
+				WarGodNamePossessive = aniar_na_god_nin_inanna_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = aniar_na_trickster_god_name # All-Khan # Lorkhan
+				TricksterGodNamePossessive = aniar_na_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = aniar_na_god_nubadig # Nubadig
+				NightGodNamePossessive = aniar_na_god_nubadig_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WaterGod
+				WaterGodName = aniar_na_god_nubadig # Nubadig
+				WaterGodNamePossessive = aniar_na_god_nubadig_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
+			}
+		}
+		scribal_faith = { # "gunarat" translates as "pantheonic cult" # but only in the historical scholarship sense # "cult of a pantheon (not just a god)" # 
+			# follows the Ur-Pantheon # centers around the goddess Nisaba Dingirnaga and the god Haya
+			color = { 230 230 100 }
+			icon = sumerian_reformed
+
+			holy_site = wasit # Sumer
+			holy_site = giza # Egypt
+			holy_site = ngawa
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_pluralistic
+			
+			#Marriage
+			doctrine = doctrine_free_love # practically only one spouse # but we need polyamory somehow right
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_way_of_the_ancients # sanctity of nature and astrology
+			doctrine = tenet_scholarship_of_scripture
+			doctrine = tenet_way_of_the_scribes # new tenet tenet_way_of_the_scribes combines tenet_reincarnation tenet_polyamory and tenet_xenine_royalty_and_grace
+			localization = {
+				#High God Name
+				HighGodName = aniar_na_god_nisaba_dingirnaga # Nisaba Dingirnaga
+				HighGodNamePossessive = aniar_na_god_nisaba_dingirnaga_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = aniar_na_god_nisaba_dingirnaga
+				HighGodNameAlternatePossessive = aniar_na_god_nisaba_dingirnaga_name_possessive
+
+				#Creator
+				CreatorName = aniar_na_god_lugal_an # Lugal An Dingir Aniar'n'e
+				CreatorNamePossessive = aniar_na_god_lugal_an_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_HE
+				CreatorHerHis = CHARACTER_HERHIS_HIS
+				CreatorHerHim = CHARACTER_HERHIM_HIM
+
+				#HealthGod
+				HealthGodName = aniar_na_god_shaushka # Nin Shaushka
+				HealthGodNamePossessive = aniar_na_god_shaushka_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = aniar_na_god_nin_inanna # Nin Inanna
+				FertilityGodNamePossessive = aniar_na_god_nin_inanna_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = aniar_na_god_haya # Haya
+				WealthGodNamePossessive = aniar_na_god_haya_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = aniar_na_god_antu_aya # Antu Aya
+				HouseholdGodNamePossessive = aniar_na_god_antu_aya_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = aniar_na_fate_god_name # Sat'un # the Gilges # the Greek fates or Norse norns
+				FateGodNamePossessive = aniar_na_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = aniar_na_god_nisaba_dingirnaga # Nisaba Dingirnaga 
+				KnowledgeGodNamePossessive = aniar_na_god_nisaba_dingirnaga_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = aniar_na_god_nin_inanna # Nin Inanna
+				WarGodNamePossessive = aniar_na_god_nin_inanna_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = aniar_na_trickster_god_name # All-Khan # Lorkhan
+				TricksterGodNamePossessive = aniar_na_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = aniar_na_god_nubadig # Nubadig
+				NightGodNamePossessive = aniar_na_god_nubadig_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WaterGod
+				WaterGodName = aniar_na_god_nubadig # Nubadig
+				WaterGodNamePossessive = aniar_na_god_nubadig_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
+			}
+		}
+		novar_tali_ha_gunarat = { # "gunarat" translates as "pantheonic cult" # but only in the historical scholarship sense # "cult of a pantheon (not just a god)" # 
+			# follows the Novar'Tali Pantheon # NIBENESE Pantheon
+			color = { 158 33 37 }
+			icon = hellenic
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			
+			doctrine = doctrine_pluralism_righteous
+			
+			#Marriage
+			doctrine = doctrine_polygamy
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_shunned
+			doctrine = doctrine_adultery_women_shunned
+			
+			doctrine = tenet_free_polytheism # sanctity of nature and astrology
+			doctrine = tenet_reincarnation
+			doctrine = tenet_ancestor_worship
+			localization = {
+				#High God Name
+				HighGodName = religion_the_gods # 
+				HighGodNamePossessive = novar_tali_the_gods_possessive # LOCALIZED
+				HighGodNameSheHe = CHARACTER_SHEHE_THEY
+				HighGodHerselfHimself = CHARACTER_THEMSELVES
+				HighGodHerHis = CHARACTER_HERHIS_THEIR
+				HighGodNameAlternate = religion_the_gods
+				HighGodNameAlternatePossessive = novar_tali_the_gods_possessive
+
+				#Creator
+				CreatorName = aniar_na_god_arcturus # Arcturus # King Arthur # ALTERNATE NAME Arcturus Rex
+				CreatorNamePossessive = aniar_na_god_arcturus_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_HE
+				CreatorHerHis = CHARACTER_HERHIS_HIS
+				CreatorHerHim = CHARACTER_HERHIM_HIM
+
+				#HealthGod
+				HealthGodName = aniar_na_god_jupiter # Prince Jupiter # ALTERNATE NAME the Plural Gang # more mental health than anything
+				HealthGodNamePossessive = aniar_na_god_jupiter_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_THEY
+				HealthGodHerHis = CHARACTER_HERHIS_THEIR
+				HealthGodHerHim = CHARACTER_HERHIM_THEM
+				
+				#FertilityGod
+				FertilityGodName = aniar_na_god_arubani_potnia # Arubani Potnia # alt name Potnia Arubani
+				FertilityGodNamePossessive = aniar_na_god_arubani_potnia_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = aniar_na_god_diwo_khaldi # Mountain god # mountains have mineral resources so it works I guess # alternative name the Huntsman of the Aniar'na
+				WealthGodNamePossessive = aniar_na_god_diwo_khaldi_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = aniar_na_god_bagvarti_diwia # also a mountain goddess # alt name Lady of the Peaks
+				HouseholdGodNamePossessive = aniar_na_god_bagvarti_diwia_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = aniar_na_fate_god_name # Sat'un # the Gilges # the Greek fates or Norse norns
+				FateGodNamePossessive = aniar_na_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = aniar_na_god_potnia_athhena # Potnia Athhena # alternate name the Athame 
+				KnowledgeGodNamePossessive = aniar_na_god_potnia_athhena_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = aniar_na_god_potnia_hippeia # Potnia Hippeia # alt name Potnia of the Horses
+				WarGodNamePossessive = aniar_na_god_potnia_hippeia_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = aniar_na_trickster_god_name # All-Khan # Lorkhan
+				TricksterGodNamePossessive = aniar_na_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = religion_the_gods #
+				NightGodNamePossessive = novar_tali_the_gods_possessive
+				NightGodSheHe = CHARACTER_SHEHE_THEY
+				NightGodHerHis = CHARACTER_HERHIS_THEIR
+				NightGodHerHim = CHARACTER_HERHIM_THEM
+
+				#WaterGod
+				WaterGodName = religion_the_gods # 
+				WaterGodNamePossessive = novar_tali_the_gods_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_THEY
+				WaterGodHerHis = CHARACTER_HERHIS_THEIR
+				WaterGodHerHim = CHARACTER_HERHIM_THEM
+			}
+		}
+		# "Cults" really Sects of different mainstream Aniar'na
+		#
+		# Pantheons based on Pantheons from Aurbis 2RED like the Andallics such as Sucellus and Sirona # Ur-Aniar'na such as Lugal An Dingir ## Nin Inanna ## and Lugal Nubadig # and the Nibenese ##Novar'Tali## Pantheons
+		# Novar'Tali have several faiths and gods like Varos Adonis ## Dea of Nibenay ## Princess Eirene ## Prince Neord ## and Prince Jupiter
+		#
+		# Syncretisms very much galore # found throughout the entirety of the CK3 world
+	}
+}

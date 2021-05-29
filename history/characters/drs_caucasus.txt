@@ -1,0 +1,15 @@
+﻿#Province of Caucasus # alan Culture orthodox Religion characters
+
+# rulers of the Province of Caucasus
+drscaucasus0001 = {
+	name = "Chelakhsartag" #
+	dynasty = drsdyn14 # Gæzdænty
+	religion = orthodox
+	culture = alan
+	1030.1.1 = {
+		birth = yes
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}

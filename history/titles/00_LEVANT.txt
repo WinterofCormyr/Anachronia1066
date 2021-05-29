@@ -1,0 +1,281 @@
+#### START JAZIRA ####
+k_jazira = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	820.1.1 = {
+		holder = drsjazira0001 # Ayetah Barta Ayetah
+	}
+	880.1.1 = {
+		holder = drsjazira0002 # Mehalia Barta Ayetah Barta Ayetah
+	}
+	900.1.1 = {
+		holder = drsjazira0004 # Nahara Barta Mehalia Barta Ayetah
+	}
+	921.1.1 = {
+		holder = drsjazira0006 # Lebbaeus Bar Nahara Barta Ayetah
+	}
+	942.1.1 = {
+		holder = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	}
+	962.1.1 = {
+		holder = drsjazira0009 # Maadai Bar Nura Barta Ayetah
+	}
+	983.1.1 = {
+		holder = drsjazira0016 # Maremmeh Bar Maadai Barta Ayetah
+	}
+	1004.1.1 = {
+		holder = drsjazira0017 # Saba Barta Ayetah
+	}
+	1005.1.1 = {
+		holder = drsjazira0032 # Paul Barta Ayetah
+	}
+	1026.1.1 = {
+		holder = drsjazira0046 # Rachim Barta Ayetah
+	}
+	1046.1.1 = {
+		holder = drsjazira0049 # Thomasa Barta Ayetah
+	}
+	1066.1.1 = {
+		holder = drsshanahan0001 # Artashes Shanahan
+	}
+	1126.1.1 = {
+		holder = drsshanahan0017 # Vartanoush Shanahan
+	}
+}
+# Duchy of Euphrates
+
+d_euphrates = {
+	820.1.1 = {
+		holder = drsseshweay0001 # Ibi'Sesh Ta'Sesh'Mah
+		liege = 0
+	}
+	880.1.1 = {
+		holder = drsseshweay0003 # Shu'Sesh Ta'Sesh'Mah
+	}
+	901.1.1 = {
+		holder = drsseshweay0008 # Amar'Sesha Ta'Sesh'Mah
+	}
+	922.1.1 = {
+		holder = drsseshweay0014 # Shul'Keppa Ta'Sesh'Mah
+	}
+}
+c_rahba = {
+	820.1.1 = {
+		holder = drsseshweay0001 # Ibi'Sesh Ta'Sesh'Mah
+	}
+	880.1.1 = {
+		holder = drsseshweay0003 # Shu'Sesh Ta'Sesh'Mah
+	}
+	901.1.1 = {
+		holder = drsseshweay0008 # Amar'Sesha Ta'Sesh'Mah
+	}
+	922.1.1 = {
+		holder = drsseshweay0014 # Shul'Keppa Ta'Sesh'Mah
+	}
+}
+c_hadithat-ana = {
+	820.1.1 = {
+		holder = drsseshweay0001 # Ibi'Sesh Ta'Sesh'Mah
+	}
+	880.1.1 = {
+		holder = drsseshweay0003 # Shu'Sesh Ta'Sesh'Mah
+	}
+	901.1.1 = {
+		holder = drsseshweay0008 # Amar'Sesha Ta'Sesh'Mah
+	}
+	922.1.1 = {
+		holder = drsseshweay0014 # Shul'Keppa Ta'Sesh'Mah
+	}
+}
+c_al-haditha = {
+	820.1.1 = {
+		holder = drsseshweay0001 # Ibi'Sesh Ta'Sesh'Mah
+	}
+	880.1.1 = {
+		holder = drsseshweay0003 # Shu'Sesh Ta'Sesh'Mah
+	}
+	901.1.1 = {
+		holder = drsseshweay0008 # Amar'Sesha Ta'Sesh'Mah
+	}
+	922.1.1 = {
+		holder = drsseshweay0014 # Shul'Keppa Ta'Sesh'Mah
+	}
+}
+
+#### START MESOPOTAMIA####
+
+k_mesopotamia = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+# Duchy of Basra
+
+d_basra = {
+	820.1.1 = {
+		holder = drsbasra0001 # Jushur Sabit-Nanshe
+	}
+	880.1.1 = {
+		holder = drsbasra0003 # Kullassina-bel Sabit-Nanshe
+	}
+	901.1.1 = {
+		holder = drsbasra0004 # Seluku Sabit-Nanshe
+	}
+	902.1.1 = {
+		holder = drsbasra0009 # Ahatsunu Sabit-Nanshe
+	}
+	923.1.1 = {
+		holder = drsbasra0011 # En-tarah-ana Sabit-Nanshe
+	}
+	# 925 warlord of Sumer invasion 
+}
+c_basra = {
+	820.1.1 = {
+		liege = d_basra
+		holder = drsbasra0001 # Jushur Sabit-Nanshe
+	}
+	880.1.1 = {
+		holder = drsbasra0003 # Kullassina-bel Sabit-Nanshe
+	}
+	901.1.1 = {
+		holder = drsbasra0004 # Seluku Sabit-Nanshe
+	}
+	902.1.1 = {
+		holder = drsbasra0009 # Ahatsunu Sabit-Nanshe
+	}
+	923.1.1 = {
+		holder = drsbasra0011 # En-tarah-ana Sabit-Nanshe
+	}
+	# 925 warlord of Sumer invasion 
+}
+c_ubulla = {
+	820.1.1 = {
+		liege = d_basra
+		holder = drsbasra0001 # Jushur Sabit-Nanshe
+	}
+	880.1.1 = {
+		holder = drsbasra0004 # Seluku Sabit-Nanshe
+	}
+	902.1.1 = {
+		holder = drsbasra0009 # Ahatsunu Sabit-Nanshe
+	}
+	923.1.1 = {
+		holder = drsbasra0011 # En-tarah-ana Sabit-Nanshe
+	}
+	# 925 warlord of Sumer invasion 
+}
+
+# Duchy of Wasit
+
+d_wasit = {
+	820.1.1 = {
+		holder = drswasit0001 # Alulim Nanniya-Meskilak
+	}
+	880.1.1 = {
+		holder = drswasit0003 # Alalngar Nanniya-Meskilak
+	}
+}
+c_wasit = {
+	820.1.1 = {
+		liege = d_wasit
+		holder = drswasit0001 # Alulim Nanniya-Meskilak
+	}
+	880.1.1 = {
+		holder = drswasit0003 # Alalngar Nanniya-Meskilak
+	}
+}
+c_akhadid = {
+	820.1.1 = {
+		liege = d_wasit
+		holder = drswasit0001 # Alulim Nanniya-Meskilak
+	}
+	880.1.1 = {
+		holder = drswasit0004 # Enanatuma Nanniya-Meskilak
+	}
+}
+
+c_batiha = {
+	820.1.1 = {
+		liege = d_wasit
+		holder = drswasit0001 # Alulim Nanniya-Meskilak
+	}
+	880.1.1 = {
+		holder = drswasit0005 # En-hedu-anna Nanniya-Meskilak
+	}
+}
+c_tadmor = {
+	820.1.1 = {
+		liege = d_wasit
+		holder = drswasit0001 # Alulim Nanniya-Meskilak
+	}
+	880.1.1 = {
+		holder = drswasit0005 # En-hedu-anna Nanniya-Meskilak
+	}
+}
+c_waqisa = {
+	820.1.1 = {
+		liege = d_wasit
+		holder = drswasit0001 # Alulim Nanniya-Meskilak
+	}
+	880.1.1 = {
+		holder = drswasit0006 # Ninbanda Nanniya-Meskilak
+	}
+}
+
+c_qadisiya = {
+	820.1.1 = {
+		liege = d_wasit
+		holder = drswasit0001 # Alulim Nanniya-Meskilak
+	}
+	880.1.1 = {
+		holder = drswasit0003 # Alalngar Nanniya-Meskilak
+	}
+}
+c_rusafa = {
+	820.1.1 = {
+		liege = d_wasit
+		holder = drswasit0001 # Alulim Nanniya-Meskilak
+	}
+	880.1.1 = {
+		holder = drswasit0004 # Enanatuma Nanniya-Meskilak
+	}
+}
+
+# County of Kufa
+
+c_kufa = {
+	820.1.1 = {
+		liege = 0
+	}
+}
+######## START NEO PALMYRENE EMPIRE ########
+e_neo_palmyrene_empire = {
+	1100.1.1 = {
+		holder = drscilician0013 # Empress Amma-n I Uni-na-Kumarbi of the Neo-Palmyrene Empire
+	}
+}
+#### START SYRIA ####
+k_syria = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1100.1.1 = {
+		liege = e_neo_palmyrene_empire
+		holder = drscilician0013 # Empress Amma-n I Uni-na-Kumarbi
+	}
+	1110.1.1 = {
+		de_jure_liege = e_neo_palmyrene_empire
+	}
+}
+#### START JERUSALEM ####
+k_jerusalem = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1110.1.1 = {
+		liege = e_neo_palmyrene_empire
+		holder = drscilician0013 # Empress Amma-n I Uni-na-Kumarbi
+	}
+	1120.1.1 = {
+		de_jure_liege = e_neo_palmyrene_empire
+	}
+}
+

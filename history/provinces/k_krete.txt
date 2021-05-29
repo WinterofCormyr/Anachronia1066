@@ -1,0 +1,83 @@
+# 479 - Kaneia
+479 = {	# 479 - Kaneia
+	
+	# County Title
+	#title = c_kaneia
+	
+	# Settlements
+	#max_settlements = 3
+	
+	#b_kandia = castle
+	#b_rethymno = city
+	
+	#b_matala = temple
+	#b_kastellikissamos = castle
+	#b_paleohora = castle
+	#b_nikiforosfokas = castle
+	#b_akrotin = castle
+	#b_arkadi = castle
+	
+	# Misc
+	culture = minoan
+	religion = old_ireneism
+	terrain = mountain
+	
+	# History
+	
+	
+	
+	
+
+}
+
+# 480 - Chandax
+480 = {	# 480 - Chandax
+	
+	# County Title
+	#title = c_chandax
+	
+	# Settlements
+	#max_settlements = 4
+	#b_iraklio = castle
+	#b_lassithi = city
+	
+	#b_agiosnikolaos = temple
+	#b_malia = castle
+	#b_kastelli = castle
+	#b_sitia = castle
+	#b_ierapetra = castle
+	#b_knossos = castle
+	
+	# Misc
+	culture = greek
+	religion = old_ireneism
+	terrain = mountain
+	
+	
+
+}
+
+# 3743 - Rethymno
+3743 = {	# 3743 - Rethymno
+	culture = minoan
+	religion = minoan_faith # Pelasgian religion faith # monotheistic worship of the goddess Attenai
+}
+
+# 3744 - Paleohora
+3744 = {	# 3744 - Paleohora
+	culture = minoan
+	religion = minoan_faith
+}
+
+# 3745 - Agios Nikolaos
+3745 = {	# 3745 - Agios Nikolaos
+	culture = greek
+	religion = old_ireneism
+}
+
+# 3746 - Ierapetra
+3746 = {	# 3746 - Ierapetra
+	culture = greek
+	religion = old_ireneism
+}
+

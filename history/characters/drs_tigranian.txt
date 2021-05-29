@@ -1,0 +1,351 @@
+﻿#Duchy of Kermanshah # Armenian characters
+
+# rulers of the Duchy of Kermanshah # Armenian culture # mesopotamian_aitahism religion until 983 # 984 onward kurdish_aitahism
+drstigranian0001 = {
+	name = "Artashes" # 
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	910.1.1 = {
+		birth = yes
+	}
+	# 930 marries Hasna who is assyrian
+	# 931 gets throne of Kermanshah
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1006.1.1 = {
+		death = yes
+	}
+}
+drstigranian0002 = {
+	name = "Hasna" # 
+	female = yes
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	910.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		add_spouse = drstigranian0001
+	}
+	# 930 marries Hasna who is assyrian
+	# 931 gets throne of Kermanshah
+	984.1.1 = {
+		religion = kurdish_aitahism
+		culture = armenian
+	}
+	1006.1.1 = {
+		death = yes
+	}
+}
+drstigranian0003 = {
+	name = "Artavasd" # 
+	# wife Aghavni # daughter Hripsimeh who inherits Kermanshah as a duchy and county # daughter Srpouhi inherits c_masabadhan #daughter Alitz inherits c_saimara #daughter Keghanoush # daughter Shoushanig
+	# daughter Almasd # daughter Keran # daughter Takouhi
+	# son Ayase # son Abas # son Gosdantin # daughter Anahid
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0001 # Artashes Tigranian
+	mother = drstigranian0002 # Hasna
+	931.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1015.1.1 = {
+		death = yes
+	}
+}
+drstigranian0004 = {
+	name = "Aghavni" # 
+	female = yes
+	religion = mesopotamian_aitahism
+	culture = armenian
+	931.1.1 = {
+		birth = yes
+	}
+	951.1.1 = {
+		add_spouse = drstigranian0003
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1015.1.1 = {
+		death = yes
+	}
+}
+drstigranian0005 = {
+	name = "Hripsimeh" # 
+	# inherits Kermanshah as a duchy and county 
+	## husband Bahram
+	# daughter Khorishah inherits d_kermanshah c_kermanshah
+	# son Nerseh
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	952.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+drstigranian0006 = {
+	name = "Srpouhi" # 
+	# inherits c_masabadhan
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	953.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1016.1.1 = {
+		death = yes
+	}
+}
+drstigranian0007 = {
+	name = "Alitz" # 
+	# inherits c_saimara
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	954.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1053.1.1 = {
+		death = yes
+	}
+}
+drstigranian0008 = {
+	name = "Keghanoush" # 
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	955.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+drstigranian0009 = {
+	name = "Shoushanig" # 
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	956.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1036.1.1 = {
+		death = yes
+	}
+}
+drstigranian0010 = {
+	name = "Almasd" # 
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	957.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1016.1.1 = {
+		death = yes
+	}
+}
+drstigranian0011 = {
+	name = "Keran" # 
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	958.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+drstigranian0012 = {
+	name = "Takouhi" # 
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	959.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1029.1.1 = {
+		death = yes
+	}
+}
+drstigranian0013 = {
+	name = "Ayase" # 
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	960.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+drstigranian0014 = {
+	name = "Abas" # 
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	961.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+drstigranian0015 = {
+	name = "Gosdantin" # 
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	962.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1053.1.1 = {
+		death = yes
+	}
+}
+drstigranian0016 = {
+	name = "Anahid" # 
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0003 # Artavasd Tigranian
+	mother = drstigranian0004 # Aghavni
+	963.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1041.1.1 = {
+		death = yes
+	}
+}
+drstigranian0017 = {
+	name = "Bahram" # daughter Khorishah # son Nerseh
+	religion = meshefaresism
+	culture = lurish
+	952.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		add_matrilineal_spouse = drstigranian0005 #Hripsimeh Tigranian
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+drstigranian0018 = {
+	name = "Khorishah" # 
+	female = yes
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0017 # Bahram
+	mother = drstigranian0005 # Hripsimeh Tigranian
+	973.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1052.1.1 = {
+		death = yes
+	}
+}
+drstigranian0019 = {
+	name = "Nerseh" # 
+	dynasty = drsdyn6 # Tigranian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drstigranian0017 # Bahram
+	mother = drstigranian0005 # Hripsimeh Tigranian
+	974.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		religion = kurdish_aitahism
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+# CONTINUE LINES OF KHORISHAH drstigranian0018 # Srpouhi drstigranian0006 and # Alitz drstigranian0007

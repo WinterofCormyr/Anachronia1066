@@ -1,0 +1,1158 @@
+#k_england
+#Channel Isles
+9811 = {	#CHANNEL
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	1100.11.11 = { culture = english }
+}
+
+9812 = {	#CHANNEL
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	1100.11.11 = { culture = english }
+}
+##d_bedford ###################################
+###c_middlesex
+1527 = {	#Edmonton / London
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	769.1.1 = {
+		special_building_slot = the_tower_of_london_01
+	}
+	867.1.1 = {
+		buildings = {
+			curtain_walls_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			farm_estates_01
+			barracks_01
+			pastures_01
+		}
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1526 = {	#London
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1528 = {	#Woxbrigge
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1529 = {	#Gore
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1530 = {	#Brentford
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+
+###c_essex
+1514 = {	#Colchester
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	
+	1100.11.11 = {
+		culture = english
+	}
+}
+1515 = {	#Maldon
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#1st mention under this name in 913, but already settled prior
+}
+1516 = {	#Chelmsford
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#1199
+}
+1517 = {	#Dunmow
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#Named "Dunemowe" in 951 but already settled before
+	#Set as castle_holding to have all 3 holding types
+}
+
+###c_bedford
+1538 = {	#Bedford
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	
+	1100.11.11 = {
+		culture = english
+	}
+}
+1539 = {	#Ampthill
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	950 = {
+		holding = castle_holding
+		#Unclear date, some early mentions in XIth, anglo-saxon origins though
+	}
+}
+1540 = {	#Luton
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#Founded around VIth
+	#Set as castle_holding to have all 3 holding types
+}
+
+###c_hertfordshire
+1531 = {	#Berkhamsted
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	
+	1100.11.11 = {
+		culture = english
+	}
+}
+1532 = {	#Saint Albans
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#Big roman city in England
+	#Abbey built in anglo saxon times
+}
+1533 = {	#Hertford
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#1st mention in 673
+}
+
+###c_buckinghamshire
+1551 = {	#Buckingham
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1552 = {	#Aylesbury
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#settled before CK timeframe
+}
+1553 = {	#Newport
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	1066.1.1 = {
+		holding = castle_holding
+		#Earliest verifiable mention in 1086
+	}
+}
+1554 = {	#Wycombe
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#1171
+}
+
+##d_northumberland ###################################
+###c_northumberland
+1609 = {	#Bamburgh
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	122.1.1 = {
+		special_building = hadrians_wall_01
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1612 = {	#Rothbury
+	holding = none
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	#Possibly settled by anglo-saxons, then viking attacks
+	#First mention of this name in 1100
+}
+1610 = {	#Lindisfarne
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+}
+1611 = {	#Hexham
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	122.1.1 = {
+		special_building = hadrians_wall_01
+	}
+}
+
+###c_durham
+1606 = {	# 1606 - Durham
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	
+	1100.11.11 = {
+		culture = english
+	}
+}
+1607 = {	#Hartlepool
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	#VIIth abbey
+}
+1608 = {	#Darlington
+	holding = none
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	#1183
+}
+
+###c_cumberland
+1635 = {	#Carlisle
+	culture = cumbrian
+	religion = cumbrian_ireneism
+	holding = castle_holding
+	122.1.1 = {
+		special_building = hadrians_wall_01
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1636 = {	#Whitehaven
+	holding = none
+	culture = cumbrian
+	religion = cumbrian_ireneism
+	950.1.1 = {
+		holding = castle_holding
+		#settled in the Xth
+	}
+}
+1642 = {	#Furness
+	holding = none
+	culture = cumbrian
+	religion = cumbrian_ireneism
+	#950.1.1 = {
+	#	holding = castle_holding
+	#	#Fairly depopulated before the scandinavians
+	#	#Left empty to not have everything built
+	#}
+}
+8780 = {	#Wigton
+	holding = castle_holding
+	culture = cumbrian
+	religion = cumbrian_ireneism
+	122.1.1 = {
+		special_building = hadrians_wall_01
+	}
+	#Pre-medieval settlement, has a church to have all holding types.
+}
+
+##d_lancaster ###################################
+###c_lancashire
+1639 = {	#Lancaster
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+
+	1100.11.11 = {
+		culture = english
+	}
+}
+1640 = {	#Salford
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+}
+1641 = {	#West Derby
+	holding = none
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+}
+
+###c_westmorland
+1637 = {	#Kendal
+	culture = cumbrian
+	religion = cumbrian_ireneism
+	holding = castle_holding
+}
+1638 = {	#Appleby
+	holding = none
+	culture = cumbrian
+	religion = cumbrian_ireneism
+}
+
+10104 = {	#Wigton
+	holding = none
+	culture = cumbrian
+	religion = cumbrian_ireneism
+}
+
+###c_cheshire
+1643 = {	#Chester
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+	767.1.1 = {
+		special_building = offas_dyke_01
+	}
+
+	1100.11.11 = {
+		culture = english
+	}
+}
+1644 = {	#Northwich
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+1645 = {	#Macclesfield
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	950.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_derby
+1621 = {	#Derby
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+
+	1100.11.11 = {
+		culture = english
+	}
+}
+1622 = {	#Chesterfield
+	holding = none
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	#Charter in 1204
+}
+1623 = {	#Castleton
+	holding = none
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	950.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_york ###################################
+###c_north_riding
+1595 = {	# York
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+								  
+	1066.1.1 = {
+		buildings = {
+			cereal_fields_01
+			hunting_grounds_02
+			military_camps_01
+		}
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1596 = {	#Scarborough
+	holding = none
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	966.1.1 = {
+		holding = castle_holding
+	}
+}
+1597 = {	#Whitby
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+}
+# 1598 - RICHMOND
+1598 = {	# 1598 - Richmond
+	
+	# Misc
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	
+	# History
+	
+	1100.11.11 = { culture = english }
+}
+
+1500 = {	#Yarlestre
+	holding = none
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+}
+
+###c_east_riding
+1588 = {	#Pocklington
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	
+	1100.11.11 = {
+		culture = english
+	}
+}
+1589 = {	#Cottingham
+	holding = none
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+1590 = {	#Bridlington
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+}
+
+###c_west_riding
+1591 = {	#Leeds
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+
+	1100.11.11 = {
+		culture = english
+	}
+}
+1592 = {	#Doncaster
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+}
+1593 = {	#Halifax
+	holding = none
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	#1150.1.1 = {
+	#	holding = castle_holding
+	#}
+}
+1594 = {	#Sheffield
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+}
+# 1499 - BOLTON
+1499 = {	# 1595 - York
+	
+	# Misc
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	# History
+	1100.11.11 = { culture = english }
+}
+1599 = {	#Ripon
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+}
+
+###c_lincolnshire
+1583 = {	#Lincoln
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+
+	1066.1.1 = {
+		buildings = {
+			cereal_fields_01
+			barracks_01
+			hunting_grounds_01
+		}
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1584 = {	#Stamford
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	922.1.1 = {
+		holding = castle_holding
+	}
+}
+1585 = {	#Boston
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+1586 = {	#Bolingbroke
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	#XIIth century
+}
+1587 = {	#Grimsby
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	#Settled by vikings in the IXth
+}
+
+##d_norfolk ###################################
+###c_norfolk
+1522 = {	#Norwich
+	culture = anglo_saxon
+	religion = valdemarian_common
+	holding = castle_holding
+	
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			peat_quarries_01
+			outposts_01
+		}
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1523 = {	#Thetford
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = valdemarian_common
+}
+1524 = {	#Walsingham
+	holding = none
+	culture = anglo_saxon
+	religion = valdemarian_common
+	#1153 priory
+}
+1525 = {	#Lynn aka King's Lynn
+	holding = none
+	culture = anglo_saxon
+	religion = valdemarian_common
+	950.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_suffolk
+1518 = {	#Ipswich
+	culture = anglo_saxon
+	religion = valdemarian_common
+	holding = castle_holding
+	
+	1100.11.11 = {
+		culture = english
+	}
+}
+1519 = {	#Sudbury
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = valdemarian_common
+}
+1520 = {	#Blything
+	holding = none
+	culture = anglo_saxon
+	religion = valdemarian_common
+}
+1521 = {	#Beodericsworth AKA Bury St Edmunds
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = valdemarian_common
+	#Monastery built in the VIIth
+}
+
+###c_cambridgeshire
+1534 = {	#Cambridge
+	culture = anglo_saxon
+	religion = valdemarian_common
+	holding = castle_holding
+	
+	1100.11.11 = {
+		culture = english
+	}
+}
+1535 = {	#Radfield
+	holding = none
+	culture = anglo_saxon
+	religion = valdemarian_common
+}
+1536 = {	#Papworth
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = valdemarian_common
+}
+1537 = {	#Ely
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = valdemarian_common
+	#abbey founded in VIIth
+}
+
+##d_hereford ###################################
+###c_warwickshire
+1603 = {	#Warwick
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english 
+	}
+}
+1604 = {	#Coventry
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+1605 = {	#Birmingham
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	#1166
+}
+
+###c_leicestershire
+1615 = {	#Leicester
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+
+	1100.11.11 = {
+		culture = english
+	}
+}
+1616 = {	#Melton
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	#post CK timeframe
+}
+1617 = {	#Bosworth
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+# 1613 - OAKHAM
+1613 = {	# 1613 - Oakham
+	
+	# Misc
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	
+	# History
+	
+	1100.11.11 = { culture = english }
+}
+
+###c_nottinghamshire
+1618 = {	#Nottingham
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+
+	1100.11.11 = {
+		culture = english
+	}
+}
+1619 = {	#Newark
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+1620 = {	#Retford
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+
+###c_staffordshire
+1627 = {	#Stafford
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1628 = {	#Wolverhampton
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	#Abbey founded in VIIth
+}
+1629 = {	#Stoke-on-Trent
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+
+###c_worcestershire
+1624 = {	#Worcester
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1625 = {	#Evesham
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	#early VIIIth
+}
+1626 = {	#Kidderminster
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+
+###c_huntingdonshire
+1541 = {	#Hustingstone
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+	
+	1100.11.11 = {
+		culture = english
+	}
+}
+1542 = {	#Norman Cross
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+1543 = {	#Leightonstone
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+
+###c_northamptonshire
+1600 = {	#Northampton
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+
+	1100.11.11 = {
+		culture = english
+	}
+}
+1601 = {	#Peterborough
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+1602 = {	#Kettering
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+
+###c_shropshire
+1646 = {	#Shrewshbury
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+	767.1.1 = {
+		special_building = offas_dyke_01
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1647 = {	#Ludlow
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	1075.1.1 = {
+		holding = castle_holding
+	}
+}
+1648 = {	#Bishop's Castle
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	767.1.1 = {
+		special_building = offas_dyke_01
+	}
+}
+
+##d_gloucester ###################################
+###c_gloucestershire
+1580 = {	#Gloucester
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+	767.1.1 = {
+		special_building = offas_dyke_01
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1581 = {	#Bristol
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+1582 = {	#Winchombe
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+###c_wiltshire
+1561 = {	#Salisbury
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	2.1.1 = {
+		special_building = stonehenge_01
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1562 = {	#Wilton
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1563 = {	#Ramsbury
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	909.1.1 = {
+		holding = castle_holding
+	}
+}
+1564 = {	#Malmesbury
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#Could have been a castle_holding, but left empty so the player can build whatever they want here
+}
+
+###c_oxfordshire
+1558 = {	#Oxford
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1559 = {	#Banbury
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+1560 = {	#Witney
+	holding = none
+	culture = anglo_saxon
+	religion = mercian_church_of_irene
+}
+
+###c_berkshire
+1555 = {	#Reading
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1556 = {	#Newbury
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+1557 = {	#Abingdon
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+
+##d_canterbury ###################################
+###c_kent
+1502 = {	#Dover
+	culture = anglo_saxon
+	religion = shayanaic
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			hunting_grounds_01
+		}
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1503 = {	#Canterbury
+	holding =  castle_holding
+	culture = anglo_saxon
+	religion = shayanaic
+	597.1.1 = {
+		special_building_slot = holy_site_canterbury_cathedral_01
+		special_building = holy_site_canterbury_cathedral_01
+	}
+}
+1504 = {	#Rochester
+	holding = none
+	culture = anglo_saxon
+	religion = shayanaic
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+1505 = {	#Tonbridge
+	holding = none
+	culture = anglo_saxon
+	religion = shayanaic
+}
+
+###c_surrey
+1510 = {	#Chertsey
+	culture = anglo_saxon
+	religion = shayanaic
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1511 = {	#Guildford
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = shayanaic
+}
+1512 = {	#Kingston
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = shayanaic
+}
+1513 = {	#Tandbridge
+	holding = none
+	culture = anglo_saxon
+	religion = shayanaic
+}
+
+###c_sussex
+1506 = {	#Lewes
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1507 = {	#Chichester
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1508 = {	#Arun
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1509 = {	#Hastings
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+
+##d_somerset ###################################
+###c_hampton
+1544 = {	#Winchester
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			curtain_walls_02
+			cereal_fields_01
+		}
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1545 = {	#Southampton
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1546 = {	#Portsmouth
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1547 = {	#Basingstoke
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	#Could have been castle_holding from start, but left empty to let the player be able to build holdings
+}
+1548 = {	#Christchurch
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+
+###c_isle_of_wight
+1549 = {	#Carisbrooke
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+
+###c_dorset
+1565 = {	#Wareham
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1566 = {	#Poole
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1567 = {	#Shaftesbury
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1568 = {	#Lyme
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_somerset
+1576 = {	#Bath
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1577 = {	#Winterstoke
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+1578 = {	#Ilchester
+	holding = none
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+	950.1.1 = {
+		holding = castle_holding
+	}
+}
+1579 = {	#Taunton
+	holding = castle_holding
+	culture = anglo_saxon
+	religion = seaxean_ireneism
+}
+
+##d_cornwall ###################################
+###c_devon
+1569 = {	#Exeter
+	culture = cornish
+	religion = cornish_ireneism
+	holding = castle_holding
+	1200.1.1 = {
+		culture = english
+	}
+}
+1570 = {	#Totnes
+	holding = none
+	culture = cornish
+	religion = cornish_ireneism
+	900.1.1 = {
+		holding = castle_holding
+	}
+}
+1571 = {	#Okehampton
+	holding = none
+	culture = cornish
+	religion = cornish_ireneism
+	980.1.1 = {	#1st mention
+		holding = castle_holding
+	}
+}
+1572 = {	#Barnstaple
+	holding = none
+	culture = cornish
+	religion = cornish_ireneism
+}
+
+###c_cornwall
+1573 = {	#Launceston
+	culture = cornish
+	religion = cornish_ireneism
+	holding = castle_holding
+}
+1574 = {	#Tintagel
+	holding = castle_holding
+	culture = cornish
+	religion = cornish_ireneism
+}
+1575 = {	#Helston
+	holding = none
+	culture = cornish
+	religion = cornish_ireneism
+}

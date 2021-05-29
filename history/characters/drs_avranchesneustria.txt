@@ -1,0 +1,17 @@
+﻿#Kingdom of Avranches # neustrian Culture gallian_ireneism Religion characters
+#first ruler born 841 takes throne 861 dies 900 in the conquest of Neustria
+
+# rulers of the Kingdom of Avranches
+drsavranchesneustria0001 = {
+	name = "Rusticula" #
+	female = yes
+	dynasty = drsdyn203 # Barnarding
+	religion = gallian_ireneism
+	culture = neustrian
+	841.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}

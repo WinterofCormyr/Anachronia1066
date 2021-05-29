@@ -1,0 +1,222 @@
+﻿tavar_re_group = {
+	graphical_cultures = {
+		byzantine_group_coa_gfx
+		western_coa_gfx
+		mediterranean_building_gfx
+		northern_clothing_gfx
+		northern_unit_gfx
+	}
+	mercenary_names = {
+		{ name = "mercenary_company_geezan_company" }
+		{ name = "mercenary_company_tigrayit_band" }
+	}
+	high_tavar_re = { # splits into many cultures by 1070 # a few have arisen by 1060
+		color = { 167 175 73 }
+
+		cadet_dynasty_names = {
+			"dynn_Direnni"
+			"dynn_Aundae"
+			"dynn_Camoran"
+			"dynn_Mothril"
+			"dynn_Rilis"
+			"dynn_Aliara"
+			"dynn_Arana_Tavar_re"
+			"dynn_Areleth"
+			"dynn_Ateldil"
+			"dynn_Duure"
+			"dynn_Favrete"
+			"dynn_Galerion"
+			"dynn_Loganne"
+			"dynn_Lloderion"
+			"dynn_Rumilon" # Rumilon 'Ien Inecil Calmarin Salolinwe 'ata Piryaden-Itelnoril Hilnore Firlamil 'cal Ternerben-Nivulirel
+			"dynn_Ternolire"
+			"dynn_Urayel"
+			"dynn_Elsinor"
+			"dynn_Wethrin"
+			"dynn_Auralus"
+			"dynn_Corelanya"
+			"dynn_Culanarin"
+			"dynn_Egyn"
+			"dynn_Errinorne"
+			"dynn_Firlamil"
+			"dynn_Hilnore"
+			"dynn_Inecil"
+			"dynn_Itelnoril"
+			"dynn_Nivulirel"
+			"dynn_Numralion"
+			"dynn_Piryaden"
+			"dynn_Salolinwe"
+			"dynn_Ternerben"
+		}
+
+		dynasty_names = {
+			"dynn_Direnni"
+			"dynn_Aundae"
+			"dynn_Camoran"
+			"dynn_Mothril"
+			"dynn_Rilis"
+			"dynn_Aliara"
+			"dynn_Arana_Tavar_re"
+			"dynn_Areleth"
+			"dynn_Ateldil"
+			"dynn_Duure"
+			"dynn_Favrete"
+			"dynn_Galerion"
+			"dynn_Loganne"
+			"dynn_Lloderion"
+			"dynn_Rumilon" # Rumilon 'Ien Inecil Calmarin Salolinwe 'ata Piryaden-Itelnoril Hilnore Firlamil 'cal Ternerben-Nivulirel
+			"dynn_Ternolire"
+			"dynn_Urayel"
+			"dynn_Elsinor"
+			"dynn_Wethrin"
+			"dynn_Auralus"
+			"dynn_Corelanya"
+			"dynn_Culanarin"
+			"dynn_Egyn"
+			"dynn_Errinorne"
+			"dynn_Firlamil"
+			"dynn_Hilnore"
+			"dynn_Inecil"
+			"dynn_Itelnoril"
+			"dynn_Nivulirel"
+			"dynn_Numralion"
+			"dynn_Piryaden"
+			"dynn_Salolinwe"
+			"dynn_Ternerben"
+		}
+		male_names = { #
+			# Saint Names
+			Isaac Abraham Aaron Ahijah Amos Agabus Azariah Daniel David Elijah Elisha Enoch Ezekiel Ezra Gad Gideon Habakkuk Haggai Hanani Hosea Iddo Isaiah Jacob Jehu Jeremiah Joel John Jonah Joshua Judas Job Lamech Lucius
+			Malachi Manahen Melchizedek Micah Micaiah Moses Mahum Nathan Noah Obadiah Oded Philip Paul Samuel Shemaiah Silas Simeon Uriah Zechariah Zephaniah Ananias Eldad Eliezer Elihu Jahaziel Joseph Medad Nebuchadnezzar
+			Saul Simeon Solomon 
+			# Mongolian Names
+			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei
+			Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai Chagatai Chaghagan Chanai Chigu
+			Chidukhul Chilagun Chiledu Chormakhan Chulgetei Dagun Daritai Dayir Dodai Duua Eljigedei Ghazan Ghunan Guchu Gughlug Guyug Harghasun Horkhudagh Hulegu Husun Inalchi Inancha Iturgen
+			Jajiradai Jamugha Jebe Jochi Jurchedei Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu Megetu Megujin
+			Menggei Mongke Morokha Munglig Nakhu Narin Nayaga Nogai Odchigin Ogodei Okhotur Oljaitu Oronartai Shiraghul Shirgugetu Subetei Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur
+			Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
+			Bukhatu_Salji Bukha_Khatagi Bodonchar_Munkhag BelgU_nU_tei BegU_nU_tei Baaridai Habich_Baghatur Jeguredei Menen_TU_dU_n Hachi_HU_lU_g Baishinkhor_Dogshin Chirhya_Lynhua
+			Chaujin_Ortagai Tumbinai_Setsen Sengun_Bilge Khabul Semsochule
+			#Buryat names
+			Adai Adyan Agbarjin Agvan Aldar Altan Amgalan Arigaba Ariq Arugtai Arya Azarga Baatar Badma Badmazhap Bahamu Bair Baldan Balzhinima Bars Bashiila Batu Bavasan Bayan Bazar Bek Belikto
+			Bidia Bodi Bolot Boroghson Buda Bukha Bulgan Buyan Damba Darayisung Dashi-Dorzho Dashinima Dayan Delbeg Dondok Dorzho Ejei Elbeg Eljigidei Engke Erdenebal Eshegen Eshi Galsan Geleg
+			Gombozab Gulichi Guluun Gunga Innokentii Irinchibal Joichi Jorightu Khermen Khotsa Kublai Ligdan Manduulun Mergen Mulan Namzil Osor Oyiradai Qayshan Qoshila Rinchin Sambuu Sayn Shono
+			Sodnom Solbon Suddhipala Tayisung Tekhe Toghun Tolui Toq Tseden Tsokto Tsydenzap Tsydyp Tsyren Tsyrendashi Urzin Uskhal Yeshinhorlo Zamso Zorikto
+			# Oirat names
+			Abai_Khatan Adyan Agbarjin Alag Altn Altzkhuta Angarak Arghun Arghun_Agha Arkhan Amasanj Ayuka Bahamu Batur Bata Batula Bayn Bayr BembO_ Buinta Bukha_TemU_r Chon Choqur_Ubashi
+			Dalantai Dayan Donduk Dorje Dzhav Dzhirgan Elduchi Elistina Elya Erdeni_Batur Esen Galdan Galdan_Bosugtu Gulichi Gunbu_Chuhun GU_shi Hurimashi IshtO_mO_r
+			Kitbugha Kharkhul Khishig Khongor Khontr Khutugaitu Kolor Konchok Kundelung Mergen Mingian Monchak MO_nkhtO_mO_r Nokha Notan Nowruz Ochirtu O_rU_g  Quduqa
+			Sanggaerzha_Yiledeng Sanal Sants Savr Sengge Septen_Bailsur Shukhur Targhai_Khurgen Taisun Tavn Tenzin Toghon Togoon Torobaikhu Tsetsen Tsewang_Rabdan Tsodba Tzayatr Tzeren Ulan Ytsl Zurtan
+			# Naiman names
+			Altan Arin_Taiz Bukha_Timur Buyimur Buyuruk Ciriac Daaritai Erke_kara Elkutur Gur Gurkhan Ilqa_Sangun Inanch Jagambu Jakha Jamuqa Javanqad Kereyidei Ketbugha Kitbuqa
+			Koksegu Korchi Kuchluk Kuchuguden Kulbur Kurchakus Marguz Qatarqa Qorisubachi Qorisu_Dayir Quchar Qurdjaquz Saryk Taibuka Tai_Timur Tayan Togrul Toqto_a Tooril Yula_Mangus
+			# Altmer names
+			Aldaril Anarenen Andil Angoril Armion Aronil Arrille Athellor Carecalmo Caryarel Earmil Eraamion Erundil Fainertil Falanaamo Fanildil Fiiriel Gladroon Hecerinde Hyarnarenquar Ilmiril Inganar Iroroon Itermerel Kardryn
+			Landorume Meanen Meryaran Mollimo Moranarg Mororurg Mossanon Nande Nelacar Norionil Olquar Qorwynn Rimintil Rumare Sanyon Seanwen Sinyaramen Sorcalin Tauryon Telinturco Tragrim Tunengore Tusamircil Tyermaillin
+			Umbacano Undil Uulernil Volanaro Yakov Yanniss Yarnar Mannimarco Gerrick Sanyon Ancotar Angalmo Aranath Areldil Areldur Arkved Arterion Calindil Carandial Celedaen Cirion Earil Eldamil Elidor Enrion Errandil Faelian 
+			Falcar Gilgondorin Halion Henantier Hindaril Hirtel Honditar Lithnilian Mankar Mannimarco Merandil Merildor Ocato Ohtimbar Orintur Ormil Raven Salmo Seridur Sinderion Suurootan Tilmo Tumindil Umbacano Ungarion 
+			Volanaro Voranil Aicantar Ancano Ancarion Aringoth Arondil Calcelmo Estormo Fasendil Kornalus Linwe Lorcalin Melaran Muril Naris Nelacar Nerien Nurelion Ondolemar Orthorn Quaranir Rulindil Runil Tandil Ulundil Valmir 
+			Viarmo Vingalmo Amuur Arcorion Eambar Erandil Falantar Falandil Falarel Filpormo Glamion Helonel Karulae Kilolembar Malkar Norendo Tancano Aenthannir Aesmer Aesril Aicaano Aicessar Ainaame Alamar Alarnon Aldarnen
+			Alderdon Aldimion Aldolin Aldotarel Almion Alrdorion Alturco Amaalmo Amballicil Ambalor Ambucilion Ambaran Aminyon Amyril Anarume Ancalmo Ancarive Ancelhros Ancemen Ancolcalion Anconath Andame Anderferion Andresalmo 
+			Andulalion Andur Angamar Angardil Angedreth Angiente Anginil Ango Angolin Anirlo Anquen Antarandur Antur Anyon Aonus Aracar Aralyon Arantar Arartar Arathel Arcarin Ardorin Arelian Arelmo Arfanel Arillas Arindur
+			Arrimoril Arunen Aryamo Aryon Astor Atalmo Ateldil Atirion Avys Bayenor Berrilidon Blanchete Caalore Caalorne Caano Caerel Cainar Calanor Calastil Calbalion Calcamar Caldandien Caldartur Caldelnalin Caldien Caldil 
+			Caledeen Calenus Calibar Calion Calondil Calpelion Calpion Calpydir Calunorril Caluurion Camaano Camarelur Camarino Canuldil Carindon Carmion Carnirrimo Cassirion Caurtil Ceborn Cebroon Celarus Cerulye Cimerhros 
+			Cingarfin Cinildil Cinnar Cinosarion Cintuumetil Cinucil Ciral Cirandur Circimure Cirdur Cirendur Ciricollo Cirimion Cirion Cirmo Cironire Cirorlin Ciryarel Ciryefarion Colinyarion Colmorion Colotarion Coluldorn
+			Condalin Coreyon Corimin Corirmorion Coristir Cornar Cororrond Corunorion Cuilacelmo Cuilalme Cuilenrion Cuileril Cuinanthon Cuinur Curandil Curinure Curissil Curtaarimon Curtaros Curvanen Daalinden Dandos Duperil
+			Durell Ealcil Eancar Eanidore Eanor Eanurlemar Earamon Earanyon Eardir Earelcar Earenwe Earil Earomar Earos Earran Earrastel Earunlad Ehran Elanaldur Elanar Elanninur Eldecil Eldellar Elderhros Elderien Eldhon 
+			Eldinaran Eldumoril Eldyme Eleril Elikar Ellacalion Ellidoril Ellimil Elneandil Elodinar Elonde Elondil Elpion Elundur Elurmeril Elurtalmo Elwintinar Emderil Emecelmo Emonarel Endaron Endarwe Endocar Enelon Engulion
+			Enodoril Enulyanar Envaril Eraaman Eraman Eranamo Erancar Erannin Eraros Erator Eremind Erendil Erolndil Erolquen Erthelgor Ertucalion Erudil Erunien Eryarion Eryeril Erymil Eryon Esaranir Eslendore Essaldur Estaamo 
+			Esteltin Esterdel Estertarian Esulo Esuren Fabanil Faelemar Faidur Faindor Fainorume Fairimo Faladil Falion Falordilmo Falutur Fandil Fandilol Faninmandon Fannariel Fanorne Fanwedil Fanyarel Faralan Faranwenn Farcaano
+			Farmeldo Farmir Farmolbrian Farmorion Farulnor Fasaran Fasarel Fasion Fasundil Fealote Felarian Fenanaral Fenarcalmo Fenderil Fendinmin Fenlil Fenoromir Feredir Ferlaatelmo Ferlion Ferlulril Ferlurnire Ferordomas
+			Fiirenanar Fiirenir Fiirofalion Filuntol Findarninur Findircalmo Finemo Finunval Finyedion Firamo Firavar Firen Firisar Firruldoril Firtirantar Foloril Furlarros Galalrimon Galenwe Galirlmo Galondorn Galulaben Gilien
+			Glaatol Glaetaldo Glamran Glanoyar Glenadir Guillaume Hadelar Haldinil Haldoril Halidur Halimorion Halinirya Halino Hanelaon Hanil Hanilan Harwion Hasudel Hecalindil Helaran Heldil Helemil Helirmaryon Helpirion
+			Heluumar Henaamo Henaril Hendare Hendaril Hendil Henendor Henlandon Hererquen Henyon Heratir Hervarion Heryemo Heryndel Hesolmo Hinaamo Hirenariel Hiryadrion Hyalan Hyamir Hyandorril Hydalion Hyircil Hymonim Hyurmir 
+			Iachesis Ilaatysar Ilanoras Ilermarin Ilindhar Illmildil Ilmindil Ilmure Ilwen Imedril Indilgalion Indilure Indure Indyen Ineldhel Inenborn Ingamircil Inganirnei Ingarlas Ingatalmo Ingeromir Ingunnen Iradal Iralundore
+			Iramo Ironarion Isinborn Isincolmo Isiraamo Itaalel Iteldil Itumil Iwelien Kelurm Kelurmend Landomas Landorganil Landuyas Lanilian Laronen Laruumorien Laryantil Lauron Laurosse Layedril Lelorion Lenarmen Lendetelmo
+			Lendilndorion Lenduldil Lenendore Lenolin Lentidorn Lenwe Lerinyon Lermilcilion Lermion Lernuvaril Lernyelel Leythen Linaaldel Linalion Lindel Lindowel Linenare Lingarmoril Lingonir Linormo Linuudilmo Linwenvar 
+			Linwirmion Linyon Lirendel Lisagnor Lisdebar Lisondor Lisotel Listallel Listinandil Litaagonir Litarion Lithindur Lithodor Lithyyorion Lituudrahil Loncano Loraaldel Loriel Lorimil Lorion Lorirlemil Luinillcar Macamir
+			Maldur Malin Malion Malirndon Manacar Manduntare Mangildril Mannimarco Maras Marbarin Marenil Marinmar Marostaale Meldil Meldon Melenlan Meluuran Menagarion Menaldinion Mendol Meneval Mengerlas Menuldhel Mercano 
+			Meredil Merion Merormo Meryon Midalmo Milerond Milmendien Mindil Minducil Miratar Mirdinnarian Miremonwe Mirionil Mirnor Mirulon Molacar Moladucil Molanor Molirstamil Mollyon Monwe Morelrubel Morimbar Mormalion 
+			Mormeril Mornandil Mornurdur Mulvarion Muramil Murarel MurderilNaalirnenil Naanelore Naanirfalion Naarcaano Naaril Naarwe Nadonil Naemon Nafarion Nafyeyor Nafiryaamo Naldien Nallore Namorimon Namornen Nandelle 
+			Nanormanar Nanwen Naramin Naranbar Narandor Naritalmo Narwundhel Naryon Nedoril Nelerien Nelinar Nelissil Nelulin Nelundahin Nemalarian Nemendoril Nemfarion Nemuutian Nenaron Nenaronald Nendahin Nengenil Nentimo
+			Nentirona Nenvalion Neramo Nerantar Nerassil Nerdorion Nerien'eth Netalcar Nilarion Nildolnorne Ninguldhon Niramo Nirelon Nirulmo Nirunar Nocare Nocerren Noculvon Noldir Nolonir Nolontar Nolulnarian Nomefanya Nondor 
+			Nonvarel Norarubel Norfando Norion Norirtil Norunduil Noryon Nuleros Nulion Nulurin Nuluufarya Numithir Nunaacil Nunalhros Nunelneandil Nunorbel Nuulehtel Nuvondo Nyderion Ocando Ocandur Ocanim Ohartalmo Ohmonir 
+			Ohtimir Olanbrim Olincilion Olquamir Oltimbar Olunandon Ondendil Ondicantar Ondindil Ondunlmo Opylemil Oradel Orninlur Ormilus Ormurrel Oromin Orquan Osalmil Ostarion Ostion Palomir Pamyedalin Panamar Pandermalion 
+			Panuncil Paredan Parmanir Parmbarel Parmion Parmtilir Pelaltor Pelidil Pelimo Pelleren Pelorrah Pelymar Penanmindil Penindur Peninya Pircalmo Piringamen Piromir Pirondil Pirtar Piruyamo Polinus Pondomir Qamor Qamtir
+			Qoramir Qualion Quanomil Quaranon Quarantar Quarintil Quarmuuril Quaronaldil Quelilmor Queryarel Quodel Quomin Quorarion Randor Relequen Rellus Riminil Riminor Rivenar Rolancano Roland Rolandor Roldofin Rolelnthir
+			Rolerandur Roltilmo Rolumdel Rulanir Rulenliondil Ruliel Rulistil Rullenyorion Rullincil Rullordril Rullunar Rulnannariel Rulnerdomas Rulninmir Rulorn Rulotar Rultarion Ruluril Rumlerrubel Rurelion Ruucaramil Ruurifin 
+			Ruuvitar Samel Sanamen Sanarel Sanderion Sanessalmo Sanodil Sarandil Sarodor Sarohanar Sawoyewen Semial Semiral Sevilirion Silolthon Silvanir Simohil Sinaldurion Sincano Sincantar Siniel Sinithrel Sinren Sintaananil 
+			Sinyaruton Sinyon Sircantir Sirdor Soltarian Sorangarion Soraperil Soraturil Soravil Sorderion Soriel Soritirmo Sorondil Sorriel Sortam Sortuuya Soryenil Sott Squan Sulimir Sumiril Sunantor Sununturil Surerdahen 
+			Surerndur Surolmoril Suurelbrim Talambarel Talendil Talerion Talinturil Talinus Talmo Talomar Talonir Talqua Talviah Tanacar Tanamo Tandemen Tangarion Taningamen Tanion Taniril Tanorian Tanulad Tanulldel Tanulnyon 
+			Taralqua Taredinion Tarma Tarmimn Tarmultur Tarnamir Tarnarrubel Tarqualaite Taryetinar Tauraniron Taurilfin Taurimind Telacar Telbincamo Teldigaran Teldur Telenger Telmiltarion Telomure Telonde Telonil Telonre
+			Telorsar Telultur Telyneyan Temanros Tendil Tendirrion Tendyederion Tenirtel Tenlethon Tenunil Tenvaril Tesenmolin Tessilstar Tesurcarion Thelerodor Thenley Thetathor Tholbor Thundermaul Tilarion Tilcalar Tildannire 
+			Tildanyorion Tildinbrim Tildulon Tildur Tilmanar Tilnygaran Timion Timiwe Tinaducil Tirwlurion Trallilrion Trelano Tuindal Tuinorion Tuinvitar Tuinylerion Tumande Tumbadoril Tumbaril Tumbomelion Tuminderion Tusoril
+			Tymonir Ulando Ularfire Ulcellore Ulcunariel Ulymen Umbelmion Umbendon Ummanor Ungalin Ungdil Uranyon Urcelmo Uricantar Urlurlarion Urluudomas Uryando Uulafalmil Uulion Uurkar Vaerelel Vairabrian Vairalmil Valando 
+			Valano Valarril Valderyorian Valiano Valik Valion Valnalmarin Valnil Valnurion Valorone Valrendil Valtarion Valtir Valunben Valtuumetil Vanando Vancano Vancecarion Vancoldalion Vandalion Vanderil Vandoril Vandulyar 
+			Vanendil Vanus Varafalmil Varalladan Vareldur Varfandur Vatonyamil Venayen Venerien Verandis Viivitar Vincalmo Vincano Vindur Vinenoldil Vinganirne Vingarion Virumariel Voranil Voranyarin Vorundil Vrithilin Wailimo 
+			Wirande Yanaril Yancol Yannod Yannodil Yarelion Yarmondur Yonadus Yvondir
+		}
+		female_names = { #
+			# Prophet names
+			Deborah Huldah Elizabeth Mariam
+			# Mongolian Names
+			Aigiarn Al-Alta Alan Alan_Gua Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Conchaka Dokez Doregene Doquz Ebegei Goland Gurbesu Hogelun Holuikhan Ibakha
+			Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulan Khutulun Kokachin Mongoljin Nomolun Oghul Orbei Orqina Sokhatai Sorkhaghatani Tekine Temulun TO_regene Yesugun Yesui Hoelun
+			# Buryat names
+			Adyana Altana Ariuna Bairma Bilduu Byorte Darima Dulma Erdeni Erzhena Gerelma Khanda Medegma Namgar Namzilma Samar Sanzima Saran Seseg Soyolma
+			Temyulen Tsymzidma Tsypelma Tsyrendulma Tsyrma Tuyana Zaufishan Zargalma Zhimba
+			# Oirat names
+			Adyana Altana Amin_Dara Ariuna Bairma Bilduu Byorte Darima Dulma Duya Erdeni Erzhena Gerelma Khanda Medegma Namgar Namzilma Samar Sanzima Saran Seseg SO_O_khlO
+			Soyolma Temyulen Tsymzidma Tsypelma Tsyrendulma Tsyrma Tuyana TeztzgO_ Zaufishan Zargalma Zhimba
+			# Naiman names
+			Aigiarn Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Chaur_Baqi Checheyigen Chotan Conchaka Dokez Doregene Doquz Ebegei Goland Gurbesu Hogelun Holuikhan Ibakha
+			Khadagan Khatun Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulan Khutulun Kokachin Mongoljin Nomolun Oghul Orbei Orqina Sokhatai Sorkhaghatani Tekine Temulun TO_regene Ussun_Kulan Yesugun Yesui Hoelun
+			# Altmer female names
+			Farya Alande Alanya Ancalin Cularalda Ealare Elarie Endare Iriel Malangwen Merenya Ohtari Penundil Serit Sunie Talisse Tandare Viniel Viriniel Medora Anirne Ardarume Calmaninde Camandil Celria Ciralinde Culumaire 
+			Cumanya Dhaunayne Elanande Elante Eldafire Elenwen Erissare Erranil Estalenya Estirdalin Estoril Faire Fistelle Helende Hession Iirenoore Imare Iniel Irinwe Lorurmend Mirkrand Nalcarya Siltalaure Sirilonwe Sondaale
+			Taarie Tarerane Tenyeminwe Termanwe Viraninde Alwaen Angalsama Aranalda Ardaline Ariente Arquen Aryarie Astante Atraena Aurelinwae Caminalda Carahil Caranya Cindanwe Earana Eilonwy Elante Erissare Hlidara Karinnarre 
+			Mirie Muurine Nerussa Ohtesse Palonirya Ranaline Ruma Sontaire Tandilwe Termanwe Varulae Arivanya Curwe Elenwen Endarie Faralda Minorne Nenya Niranye Nirya Reldith Taarie Valie  Ahlora Aicarya Ainamee Ainare Aineien 
+			Airfilwen Alanaire Alandare Alandil Alanne Alanwe Alcalime Alcardawe Alcildilwe Alcorana Aldamaire Aldanya Aldarenya Aldermil Aldewe Aldimonwe Aldononde Aldunie Alduril Aldurlde Alerume Alinisse Alirfire Alisewen 
+			Alque Alquufwe Altansawen Altininde Altoririe Alwe Alwinarwe Amaleera Ambarel Ambaril Amelinwe Amilya Aminore Aminwe Amirmil Analande Anaril Andalore Andenyerinwe Andewen Andiryewen Andorie Anenale Anenwen Anenya
+			Angalanwen Anganirne Angelenwen Angorwe Angwe Aniama Aniaste Aniel Anildalin Aninwe Aniralda Anirione Anirmelda Anirwe Anirwen Antomine Anurlan Anwelore Anwulsawen Araltil Aramil Aranalda Aranecarne Aranias Aranorne
+			Arantale Aranwen Arawe Arawen Arawende Arcimil Ardalure Areldur Arenwe Aressea Arfaire Arfanwe Arfire Arfiril Arfolasse Arnarne Arnarra Arnurdurwe Arnure Arnuulle Arnyeana Arocil Aroliel Arowende Artaste Arteril 
+			Arterome Artilonwe Artinaire Artiranwen Artuwe Arufinwe Arwolquen Astalwen Astanya Asteril Astewen Astilme Astirhil Astorne Astuwae Atildel Atofir Avarya Avinaire Avinisse Avirel Ayrenn Azarari Belardirwe Belarin
+			Calanye Calanyese Calawende Calircarya Calirririe Calulgwen Camaisse Camalanwe Camaldetuile Camenwen Caminarne Camore Camyaale Canaale Candangarilde Cangwen Caniel Canirne Caragwen Caranande Cararilde Carawen Carellon 
+			Carfinwen Cariel Carilasse Carillda Carimalda Caritaale Carterril Cartirinque Cartorrel Casiama Casorlaure Castarnisse Castewe Castyaarne Catannie Catonnel Cerunsawen Ceryolminwe Ceryra Ciindewal Cimalire Cinwiril
+			Ciramaire Cirantille Ciranya Cirenwe Cirode Cirtaarie Cirtelcare Cirterisse Cirunra Ciryelda Colaagwen Colanwe Colaste Colelsawen Colerdawen Colinra Connalenwe Connulsewen Connynque Corelanya Corerine Culanwe 
+			Cularalda Cularime Culast Culdandil Culdansea Culdilgwe Culdulquen Culuire Culydil Cumangwe Curilma Curime Curinaire Curinwe Curorne Cursare Curwe Eafifwe Eafinme Ealaren Ealonwe Ealurme Earfogwe Earlanorwe Earlarume
+			Earnaire Earnona Earrona Earyaorne Earyawaen Edelle Eilayne Eilelmil Eilonewen Elaasare Elaminwe Elanande Elanduya Elanecarne Elanere Elanil Elaninwe Elannie Elantelle Elanwe Elanya Elaraama Elarril Eldenyarasse
+			Eldwen Eldyeisse Elendare Elendarie Elenwen Elenya Elondore Elquisa Elwalama Elwilinta Emdoline Emdolye Emerel Eminaire Eminalime Eminelya Eminwe Enalde Enda Endaldilwe Endalle Endannie Endarande Endaraste 
+			Endartirinque Endetuile Endilale Endolale Engariel Enginaire Engitaale Eraril Erelin Erille Erinquen Erluramar Ernandel Errafinwe Erralle Errannie Errataale Errawen Erriisse Erronfaire Erronwe Erwurlde Esolarne Estaen
+			Estilldo Estinan Estre Fairencarne Fairenwen Fairwen Falen Fanuwende Fanwenlle Fanwilhil Fanwunine Fanwyearie Fanyeor Farandare Faranya Fararilde Farilme Farirale Faritaale Faritirinque Farowel Farwelayne Farwen 
+			Farwenya Farwewa Farwunte Faryan Felanwe Felawen Fenewen Finandawen Fintilorwe Finyedalin Firaldaale Firenteril Firien Firilanya Firilnisse Firinore Firlaalin Firlarmil Firneril Firorore Firtarcil Firtoldirwe Firtorel
+			Firtoril Firyate Fisinwe Fistalime Fistalle Fistamanwe Freyvene Gathewen Gelthorieth Gerwerdel Ghisiliane Grenedel Haenamil Haenelisse Haeruana Hanerye Haniana Hannayel Hantaari Hanursae Hanyarie Haranwe Helenaere
+			Henarine Henarsare Hendel Henenme Heniquarenwe Henunewe Heranwen Herenia Heruwende Hinwenl Hiradil Hiranesse Hirume Hiryeril Iindewen Iirenir Iladawen Ilalinwe Ilemin Ilunsare Imiril Inarala Inare Indalinwe Indradriel
+			Indrathel Ingaril Iniel Innuwae Inulale Irien Irinwen Isunie Karinith Kilisia Laanari Laanestii Laeriwene Laindilaure Lainirdawen Lairinque Lairiwene Lamoldaire Lamolime Lananwe Lanarie Landare Lanelte Lanende Langwe
+			Lanirsare Lanitaale Lantelcare Lantilwe Laranalda Lareika Larfanwe Larirmindil Larnatille Laryaril Latamenwe Latelisse Latidawe Lauriel Lembien Lenaninwe Lendonarin Lendurwy Lerangalion Lilatha Lilawen Linaanque 
+			Linaarie Linatoril Lindafwe Lindarrel Linguvale Linilwe Linimondil Linulyia Linwen Liranaire Lireore Lirinwen Lirunmil Lliae Lorais Lorana Lorin Lorne Lorumel Maalamenwe Mahlia Malangwe Malanie Maldetuile Maliren 
+			Malwen Mandalime Mangitaale Maritawen Mastengwe Meleril Meleriless Meluririe Melylin Menaste Mendarie Mengilwaen Meratille Merenfire Minalcil Minantille Mincarione Minelmawen Minique Minolewen Minwe Minwerdil 
+			Minwolhil Minworiel Miranya Mirkalinde Mirnarie Mirondil Molwen Monormil Morna Motistaari Munya Naalielir Naaniel Naeruuna Naire Naireorwe Nairume Nalargwen Nalinril Nalirsewen Nalyarie Namolduure Namolelcare 
+			Narwaawende Narwende Nauviemil Nelandare Nelanya Nenaarie Nendirume Nenime Nesaawy Nesaranwe Nesilhil Nestaarie Nesullinwe Nesulmawen Nesunte Nesyesawen Netanwe Niiranil Nimare Niralenwe Niralin Niraselya Nirilrel
+			Nirinwe Nirite Niryerie Nirywy Nolenowen Nolinare Nolinore Nolunbarel Nolyemal Nonde Noninririe Norerama Noryariel Nuranyawen Nurofire Nurome Nurwuuisse Ohlinonde Oholdirel Ohtandilwe Ohtantaril Ohtarona Ohtowen 
+			Oinara Oimifwe Oiomiralewen Oiomonwe Olnewil Olorime Olwanenya Oraneth Orarelwe Orelnque Orenwen Ornandel Ornenya Orninlusea Ornuune Ornyenque Oruude Palith Pamolinwe Pamolwe Pamuusare Panaaime Pandetuile Panersewen 
+			Panewen Panolya Panyra Penardil Penewen Pennifen Penolore Penunorwe Pinanande Qeuryaiel Quen Quendia Quenyas Querertoril Quertasse Queryarie Queryelin Raelys Ranais Ranwe Rathorith Relulae Renduril Renenfwe Rialilrin
+			Rinallie Rindelma Rinedel Riniswin Rinweril Rinwinne Rinyayewen Rinyde Ronawe Rondalinwe Rondellinwe Ronuril Ronwerquen Ronwiramwen Ronyadil Runaldilwe Runare Rundirwe Runwyenisse Saleia Salelale Saleorne Salerne 
+			Salinwe Sangur Sarah Sarandel Sarfinaire Sawen Selandilwen Selloe Seludalin Serfinilonwe Seritenya Seritir Siltamaire Silurie Sinarril Siniaritaale Sinien Sintilfalion Siramanwe Sirerale Sireril Sirinaire Sirinduure 
+			Sirinque Siriwen Siroria Sonlonwe Sorcalin Sorfinilon Sortarione Suriwen Taalinrel Taalorde Taanuire Taanwae Taanya Taarenyawen Taari Taarsare Taaruraire Taeruumawen Talirinde Talolayne Taltaarie Talulma Talwelin 
+			Talwullaure Tambare Tanaame Tanellinwe Tanelwen Tanerline Taralin Tarie Tarinwe Tarwanme Tarwannewen Tarwen Telalril Telandil Telarnel Telarniel Teldrelwe Teldulsewen Teldwennisse Teldwifwen Telorinwe Telorinwen 
+			Telwyaarie Telyasawen Temanlinwe Temelin Temerlda Tendinwe Tenduldirel Tenwinril Tenyemanwe Teralaure Teraniel Teranya Teraseldil Teriinwe Teromawen Terorne Thalie Thiirel Tilalime Tilanfire Tilinarie Tilorinwe 
+			Tilortil Tindoria Tindwode Tindwuu Tindwyfwe Tinegwen Tinimanwe Tirwin Tirwortil Tundanarne Tundullie Tundulsawen Turalla Turqualie Turquenwen Ulumir Umbarile Umbarume Umbuudalin Undaisse Undeya Undowolrinde Undwelda 
+			Undwinisse Undwinwe Undwyalie Unordirwe Unwalwy Unwoltil Unwudil Unwulfwe Uraacil Urcelia Urena Urien Urildil Urwaninwe Urwende Uryaamo Uudilwen Vaaryafwe Vaelede Vaeridil Vaerunne Vaerwyae Vaerwyeien Vairaame 
+			Vairyehil Valacarya Valaste Valenn Valenwe Valinwe Valla Valowende Valsirenn Valullinwe Vantorwen Varfundore Vartilonwen Varumil Varustante Varwenra Vastarie Vatisse Velandare Velatosse Velelya Velya Veranquel Veraye 
+			Vesteldore Vhasla Vilya Vinafwe Vindare Vindilween Vinelore Vintenwen Vinuuririe Vinwinarin Vinwysea Virenderil Virurarie Virwen Virwillaure Volunidai Wendlain Yalorasse Yaremanwe Kianra Ayrenn Estre Silhansa Tuinden
+			Arannelya Camilonwe Gialene Heron Peregrine Raven Tuinden	
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+		ethnicities = {
+			75 = circumpolar_dark_hair
+			25 = circumpolar_brown_hair
+		}
+	}
+}

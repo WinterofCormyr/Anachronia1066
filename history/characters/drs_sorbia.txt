@@ -1,0 +1,122 @@
+﻿#Kingdom of Sorbia # sorbian Culture aelonist_aitahism Religion characters
+
+# rulers of the Kingdom of Sorbia
+drssorbia0001 = {
+	name = "Aeta" # husband Cheschjimer married patrilineally # daughter Marja marries matrilineally
+	# husband Arnosht marries matrilineally # daughter Trudla
+	# husband Aellof marries patrilineally # daughter Ruzalca # daughter Lydija
+	female = yes
+	dynasty = drsdyn68 # Crabatovsce
+	religion = aelonist_aitahism
+	culture = sorbian
+	800.1.1 = {
+		birth = yes
+	}
+	862.1.1 = {
+		death = yes
+	}
+}
+drssorbia0002 = {
+	name = "Cheschjimer" # daughter Marja Blancavsce
+	dynasty = drsdyn69 # Blancavsce
+	religion = aelonist_aitahism
+	culture = sorbian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drssorbia0001 # Aeta Crabatovsce # children are of house Blancavsce
+	}
+	864.1.1 = {
+		death = yes
+	}
+}
+drssorbia0003 = {
+	name = "Arnosht" # daughter Trudla Crabatovsce
+	religion = aelonist_aitahism
+	culture = sorbian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_matrilineal_spouse = drssorbia0001 # Aeta Crabatovsce # children are of house Crabatovsce
+	}
+	828.1.1 = {
+		death = yes
+	}
+}
+drssorbia0004 = {
+	name = "Aellof" # daughter Ruzalca Aetavsce # daughter Lydija Aetavsce
+	dynasty = drsdyn70 # Aetavsce
+	religion = aelonist_aitahism
+	culture = sorbian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drssorbia0001 # Aeta Crabatovsce # children are of house Aetavsce
+	}
+	835.1.1 = {
+		death = yes
+	}
+}
+drssorbia0005 = {
+	name = "Marja" # inherits k_sorbia and d_meissen
+	female = yes
+	dynasty = drsdyn69 # Blancavsce
+	religion = aelonist_aitahism
+	culture = sorbian
+	father = drssorbia0002 # Cheschjimer Blancavsce
+	mother = drssorbia0001 # Aeta Crabatovsce
+	821.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drssorbia0006 = {
+	name = "Trudla" # inherits d_anhalt
+	female = yes
+	dynasty = drsdyn68 # Crabatovsce
+	religion = aelonist_aitahism
+	culture = sorbian
+	father = drssorbia0003 # Arnosht
+	mother = drssorbia0001 # Aeta Crabatovsce
+	822.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drssorbia0007 = {
+	name = "Ruzalca" # inherits d_lausitz
+	female = yes
+	dynasty = drsdyn70 # Aetavsce
+	religion = aelonist_aitahism
+	culture = sorbian
+	father = drssorbia0004 # Aellof Aetavsce
+	mother = drssorbia0001 # Aeta Crabatovsce
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drssorbia0008 = {
+	name = "Lydija" # inherits c_vogtland
+	female = yes
+	dynasty = drsdyn70 # Aetavsce
+	religion = aelonist_aitahism
+	culture = sorbian
+	father = drssorbia0004 # Aellof Aetavsce
+	mother = drssorbia0001 # Aeta Crabatovsce
+	824.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}

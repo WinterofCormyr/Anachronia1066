@@ -1,0 +1,13 @@
+﻿drscaenneustria0001 = { 
+	name = "Burgundofara" # Queen of the Westshore
+	female = yes
+	dynasty = drsdyn204 # Gotberging
+	religion = gallian_ireneism
+	culture = neustrian
+	841.1.1 = {
+		birth = yes
+	}
+	900.1.1 = { # Norman Invasion
+		death = yes
+	}
+}

@@ -1,0 +1,270 @@
+﻿#Duchy of Cherson # high_gothic Culture firner_situic Religion characters
+
+# rulers of the Duchy of Cherson and the Kingdom of Crimea
+drscherson0001 = {
+	name = "Athanarich" # Governor Athanarich I Cunigasting of Cherson # two wives
+	#1 wife Hildeburg Iolanthing # son Daghila # son Adalwin # daughter Jolanda # son Ansimunds # son Gæzaríchs
+	#2 wife Hilðigharði Athalathruthing # son Askalchs # son Gæzawulfs
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	800.1.1 = {
+		birth = yes
+	}
+	889.1.1 = {
+		death = yes
+	}
+}
+drscherson0002 = {
+	name = "Hildeburg" # husband Athanarich Cunigasting # son Daghila # son Adalwin # daughter Jolanda # son Ansimunds # son Gæzaríchs
+	female = yes
+	dynasty = drsdyn158 # Iolanthing
+	religion = firner_situic
+	culture = high_gothic
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drscherson0001 # Athanarich Cunigasting
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drscherson0003 = {
+	name = "Daghila" # Governor Dagila I Cunigasting of Cherson # 1 wife # named Eunike Adeling drsdyn160 # daughter Salomé # son Hughubherchts # daughter Ariadne
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0001 # Athanarich Cunigasting
+	mother = drscherson0002 # Hildeburg Iolanthing
+	821.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drscherson0004 = {
+	name = "Adalwin" #
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0001 # Athanarich Cunigasting
+	mother = drscherson0002 # Hildeburg Iolanthing
+	822.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drscherson0005 = {
+	name = "Jolanda" #
+	female = yes
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0001 # Athanarich Cunigasting
+	mother = drscherson0002 # Hildeburg Iolanthing
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drscherson0006 = {
+	name = "Ansimunds" #
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0001 # Athanarich Cunigasting
+	mother = drscherson0002 # Hildeburg Iolanthing
+	824.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+drscherson0007 = {
+	name = "Gæzaríchs" #
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0001 # Athanarich Cunigasting
+	mother = drscherson0002 # Hildeburg Iolanthing
+	825.1.1 = {
+		birth = yes
+	}
+	905.1.1 = {
+		death = yes
+	}
+}
+drscherson0008 = {
+	name = "Hilðigharði" # husband Athanarich Cunigasting # son Askalchs # son Gæzawulfs
+	female = yes
+	dynasty = drsdyn159 # Athalathruthing
+	religion = firner_situic
+	culture = high_gothic
+	800.1.1 = {
+		birth = yes
+	}
+	821.1.1 = {
+		add_spouse = drscherson0001 # Athanarich Cunigasting
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drscherson0009 = {
+	name = "Askalchs" #
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0001 # Athanarich Cunigasting
+	mother = drscherson0008 # Hilðigharði Athalathruthing
+	822.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drscherson0010 = {
+	name = "Gæzawulfs" #
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0001 # Athanarich Cunigasting
+	mother = drscherson0008 # Hilðigharði Athalathruthing
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drscherson0011 = {
+	name = "Eunike" # husband Daghila Cunigasting # daughter Salomé # son Hughubherchts # daughter Ariadne
+	female = yes
+	dynasty = drsdyn160 # Adeling
+	religion = firner_situic 
+	culture = high_gothic
+	821.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		add_spouse = drscherson0003 # Daghila Cunigasting
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drscherson0012 = { # Governor Salomé I Cunigasting of Crimea
+	name = "Salomé" # monogamous # husband Biljaharð Berchtaranding # no children
+	female = yes
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0003 # Daghila Cunigasting
+	mother = drscherson0011 # Eunike Adeling
+	842.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drscherson0013 = { # governor Hughubherchts I Cunigasting of Crimea
+	name = "Hughubherchts" # monogamous # wife Lwðja Alamanning # daughter Hilðiwara
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0003 # Daghila Cunigasting
+	mother = drscherson0011 # Eunike Adeling
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drscherson0014 = {
+	name = "Ariadne" # monogamous # husband Baruk Huniling # daughter Íréna # daughter Ariaðna 
+	female = yes
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0003 # Daghila Cunigasting
+	mother = drscherson0011 # Eunike Adeling
+	844.1.1 = {
+		birth = yes
+	}
+	924.1.1 = {
+		death = yes
+	}
+}
+drscherson0015 = {
+	name = "Biljaharð" # wife Salomé Cunigasting # no children
+	dynasty = drsdyn161 # Berchtaranding
+	religion = firner_situic 
+	culture = high_gothic
+	842.1.1 = {
+		birth = yes
+	}
+	862.1.1 = {
+		add_matrilineal_spouse = drscherson0012 # Salomé Cunigasting
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drscherson0016 = {
+	name = "Lwðja" # husband Hughubherchts Cunigasting # daughter Hilðiwara
+	female = yes
+	dynasty = drsdyn162 # Alamanning
+	religion = firner_situic 
+	culture = high_gothic
+	843.1.1 = {
+		birth = yes
+	}
+	863.1.1 = {
+		add_spouse = drscherson0013 # Hughubherchts Cunigasting
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drscherson0017 = { # Governor Hilðiwara I Cunigasting of Crimea
+	name = "Hilðiwara" # monogamous # husband Þiuðabhrands Ibhramundsing # no children
+	female = yes
+	dynasty = drsdyn72 # Cunigasting
+	religion = firner_situic
+	culture = high_gothic
+	father = drscherson0013 # Hughubherchts Cunigasting
+	mother = drscherson0016 # Lwðja Alamanning
+	864.1.1 = {
+		birth = yes
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+drscherson0018 = {
+	name = "Þiuðabhrands" # wife Hilðiwara Cunigasting # no children
+	dynasty = drsdyn163 # Ibhramundsing
+	religion = firner_situic 
+	culture = high_gothic
+	864.1.1 = {
+		birth = yes
+	}
+	884.1.1 = {
+		add_matrilineal_spouse = drscherson0017 # Hilðiwara Cunigasting
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+# CONTINUE FROM ARIADNE # ONE OF HER CHILDREN INHERITS # ARIADNE HAS # husband Baruk Huniling # daughter Íréna # daughter Ariaðna 

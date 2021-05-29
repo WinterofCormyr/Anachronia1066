@@ -1,0 +1,55 @@
+e_mongolia = { # most are e_empire_of_the_tavar_re de_jure_liege by 1066
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+}
+e_empire_of_the_tavar_re = { # most are e_empire_of_the_tavar_re de_jure_liege by 1066
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	930.1.1 = {
+		holder = drsazariahene0005 # Huldah Bar Isaac
+	}
+}
+k_mongolia = { # most are e_empire_of_the_tavar_re de_jure_liege by 1066
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	930.1.1 = {
+		holder = drsazariahene0005 # Huldah Bar Isaac
+		liege = e_empire_of_the_tavar_re
+	}
+	1050.1.1 = {
+		de_jure_liege = e_empire_of_the_tavar_re
+	}
+}
+k_tuva = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	930.1.1 = {
+		holder = drsazariahene0005 # Huldah Bar Isaac
+		liege = e_empire_of_the_tavar_re
+	}
+	1050.1.1 = {
+		de_jure_liege = e_empire_of_the_tavar_re
+	}
+}
+k_khakassia = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	930.1.1 = {
+		holder = drsazariahene0005 # Huldah Bar Isaac
+		liege = e_empire_of_the_tavar_re
+	}
+	1050.1.1 = {
+		de_jure_liege = e_empire_of_the_tavar_re
+	}
+}
+k_angara = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	930.1.1 = {
+		holder = drsazariahene0005 # Huldah Bar Isaac
+		liege = e_empire_of_the_tavar_re
+	}
+	1050.1.1 = {
+		de_jure_liege = e_empire_of_the_tavar_re
+	}
+}

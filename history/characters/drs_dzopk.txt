@@ -1,0 +1,650 @@
+﻿#Duchy of Dzopk # armenian Culture mesopotamian_aitahism Religion characters
+
+# rulers of the Duchy of Dzopk 1065 onward
+#Anoush drsghazaryan0008 marries Sarkis Sarkisian patrilineally # in new file called drs_dzopk # daughter Vartouhi # daughter Arda # daughter Leyli # twins Vosgi female and Hethum male # Hethum inherits Dzopk # daughter Arevig
+drsdzopk0001 = {
+	name = "Sarkis" #
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	988.1.1 = {
+		birth = yes
+	}
+	1008.1.1 = {
+		add_spouse = drsghazaryan0008
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0002 = {
+	name = "Vartouhi" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0001 # Sarkis Sarkisian
+	mother = drsghazaryan0008 # Anoush Ghazaryan
+	1009.1.1 = {
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0003 = {
+	name = "Arda" #
+	#1 husband Aboulgharib # son Hagop # daughter Anna # daughter Kohar # daughter Tamar # son Sahag # daughter Vartanoush # daughter Anoush # daughter Latavri # daughter Vartouhi # daughter Arda
+	#2 husband Hethum # daughter Arevig # daughter Srpouhi # daughter Alitz # son Ghevond # twin daughter Keghanoush and son Mashdotz # daughter Shoushanig # daughter Almasd # daughter Keran
+	#3 no husband
+	#4 no husband
+	#5 no husband
+	#6 no husband
+	#7 husband Khachig # daughter Takouhi # daughter Aghavni
+	#8 no husband
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0001 # Sarkis Sarkisian
+	mother = drsghazaryan0008 # Anoush Ghazaryan
+	1010.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0004 = {
+	name = "Leyli" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0001 # Sarkis Sarkisian
+	mother = drsghazaryan0008 # Anoush Ghazaryan
+	1011.1.1 = {
+		birth = yes
+	}
+	1102.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0005 = {
+	name = "Vosgi" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0001 # Sarkis Sarkisian
+	mother = drsghazaryan0008 # Anoush Ghazaryan
+	trait = twin
+	1012.1.1 = {
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0006 = {
+	name = "Hethum" #
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0001 # Sarkis Sarkisian
+	mother = drsghazaryan0008 # Anoush Ghazaryan
+	trait = twin
+	1013.1.1 = {
+		birth = yes
+	}
+	1103.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0007 = {
+	name = "Arevig" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0001 # Sarkis Sarkisian
+	mother = drsghazaryan0008 # Anoush Ghazaryan
+	1014.1.1 = {
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0008 = {
+	name = "Aboulgharib" # son Hagop # daughter Anna # daughter Kohar # daughter Tamar # son Sahag # daughter Vartanoush # daughter Anoush # daughter Latavri # daughter Vartouhi # daughter Arda
+	religion = mesopotamian_aitahism
+	culture = armenian
+	1010.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		add_matrilineal_spouse = drsdzopk0003
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0009 = {
+	name = "Hethum" # daughter Arevig # daughter Srpouhi # daughter Alitz # son Ghevond # twin daughter Keghanoush and son Mashdotz # daughter Shoushanig # daughter Almasd # daughter Keran
+	religion = mesopotamian_aitahism
+	culture = armenian
+	1010.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		add_matrilineal_spouse = drsdzopk0003
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0010 = {
+	name = "Khachig" # daughter Takouhi # daughter Aghavni
+	religion = mesopotamian_aitahism
+	culture = armenian
+	1010.1.1 = {
+		birth = yes
+	}
+	1032.1.1 = {
+		add_matrilineal_spouse = drsdzopk0003
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0011 = {
+	name = "Hagop" #
+	# wife Srpouhi # son Ayase # son Abas # daughter Anahid # daughter Aghavni # son Nerseh # daughter Srpouhi Erkrord # daughter Aghavni Erkrord # son Artavasd # daughter Aghavni Errord # daughter Keghanoush # son Artavasd Erkrord
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1033.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0012 = {
+	name = "Anna" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1034.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0013 = {
+	name = "Kohar" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1035.1.1 = {
+		birth = yes
+	}
+	1113.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0014 = {
+	name = "Tamar" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1036.1.1 = {
+		birth = yes
+	}
+	1123.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0015 = {
+	name = "Sahag" #
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1037.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0016 = {
+	name = "Vartanoush" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1038.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0017 = {
+	name = "Anoush" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1039.1.1 = {
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0018 = {
+	name = "Latavri" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1040.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0019 = {
+	name = "Vartouhi" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1041.1.1 = {
+		birth = yes
+	}
+	1139.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0020 = {
+	name = "Arda" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0008 # Aboulgharib
+	mother = drsdzopk0003 # Arda Sarkisian
+	1042.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0021 = {
+	name = "Arevig" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0009 # Hethum
+	mother = drsdzopk0003 # Arda Sarkisian
+	1043.1.1 = {
+		birth = yes
+	}
+	1106.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0022 = {
+	name = "Srpouhi" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0009 # Hethum
+	mother = drsdzopk0003 # Arda Sarkisian
+	1044.1.1 = {
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0023 = {
+	name = "Alitz" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0009 # Hethum
+	mother = drsdzopk0003 # Arda Sarkisian
+	1045.1.1 = {
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0024 = {
+	name = "Ghevond" # Keghanoush and Mashdotz # Shoushanig # Almasd #Keran
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0009 # Hethum
+	mother = drsdzopk0003 # Arda Sarkisian
+	1046.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0025 = {
+	name = "Keghanoush" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0009 # Hethum
+	mother = drsdzopk0003 # Arda Sarkisian
+	trait = twin
+	1047.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0026 = {
+	name = "Mashdotz" #
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0009 # Hethum
+	mother = drsdzopk0003 # Arda Sarkisian
+	trait = twin
+	1047.1.1 = {
+		birth = yes
+	}
+	1124.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0027 = {
+	name = "Shoushanig" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0009 # Hethum
+	mother = drsdzopk0003 # Arda Sarkisian
+	1048.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0028 = {
+	name = "Almasd" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0009 # Hethum
+	mother = drsdzopk0003 # Arda Sarkisian
+	1049.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0029 = {
+	name = "Keran" # daughter Tahouhi and daughter Aghavni # both with Khachig different years
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0009 # Hethum
+	mother = drsdzopk0003 # Arda Sarkisian
+	1050.1.1 = {
+		birth = yes
+	}
+	1151.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0030 = {
+	name = "Takouhi" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0010 # Khachig
+	mother = drsdzopk0003 # Arda Sarkisian
+	1051.1.1 = {
+		birth = yes
+	}
+	1145.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0031 = {
+	name = "Aghavni" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0010 # Khachig
+	mother = drsdzopk0003 # Arda Sarkisian
+	1052.1.1 = {
+		birth = yes
+	}
+	1105.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0032 = {
+	name = "Srpouhi" #
+	female = yes
+	# son Ayase # son Abas # daughter Anahid # daughter Aghavni # son Nerseh # daughter Srpouhi Erkrord # daughter Aghavni Erkrord # son Artavasd # daughter Aghavni Errord # daughter Keghanoush # son Artavasd Erkrord
+	religion = mesopotamian_aitahism
+	culture = armenian
+	1033.1.1 = {
+		birth = yes
+	}
+	1053.1.1 = {
+		add_spouse = drsdzopk0011 # Hagop Sarkisian
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0033 = {
+	name = "Ayase" #
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1054.1.1 = {
+		birth = yes
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0034 = {
+	name = "Abas" #
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1055.1.1 = {
+		birth = yes
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0035 = {
+	name = "Anahid" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1056.1.1 = {
+		birth = yes
+	}
+	1154.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0036 = {
+	name = "Aghavni" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1057.1.1 = {
+		birth = yes
+	}
+	1111.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0037 = {
+	name = "Nerseh" #
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1058.1.1 = {
+		birth = yes
+	}
+	1159.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0038 = {
+	name = "Srpouhi Erkrord" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1059.1.1 = {
+		birth = yes
+	}
+	1123.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0039 = {
+	name = "Aghavni Erkrord" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1060.1.1 = {
+		birth = yes
+	}
+	1124.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0040 = {
+	name = "Artavasd" #
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1061.1.1 = {
+		birth = yes
+	}
+	1113.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0041 = {
+	name = "Keghanoush" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1062.1.1 = {
+		birth = yes
+	}
+	1132.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0042 = {
+	name = "Aghavni Errord" #
+	female = yes
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1063.1.1 = {
+		birth = yes
+	}
+	1162.1.1 = {
+		death = yes
+	}
+}
+drsdzopk0043 = {
+	name = "Artavasd Erkrord" #
+	dynasty = drsdyn12 # Sarkisian
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsdzopk0011 # Hagop Sarkisian
+	mother = drsdzopk0032 # Srpouhi
+	1064.1.1 = {
+		birth = yes
+	}
+	1161.1.1 = {
+		death = yes
+	}
+}

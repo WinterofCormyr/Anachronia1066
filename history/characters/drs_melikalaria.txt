@@ -1,0 +1,16 @@
+﻿#Duchy of Magnopolis # pontic Culture pontic_aitahism Religion characters
+
+# rulers of the Duchy of Magnopolis from 1133 onward
+drsmelikalaria0001 = {
+	name = "Helene" # 
+	female = yes
+	dynasty = drsdyn79 # Melikalaria
+	religion = pontic_aitahism
+	culture = pontic
+	1113.1.1 = {
+		birth = yes
+	}
+	1212.1.1 = {
+		death = yes
+	}
+}

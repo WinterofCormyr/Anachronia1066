@@ -1,0 +1,45 @@
+﻿#Duchy of Melitene # Duchy of Edessa # assyrian Culture nestorian Religion characters # family is vassal to Armenia before the conquest of Antiocheia by Pontus, after which both are vassals to Antiocheia
+
+# rulers of the Duchy of Melitene and the Duchy of Edessa
+drsmelitene0001 = { # MAKE TITLE k_melitene_and_edessa # wife Chasina # daughter Nahara
+	name = "'Dadisho" # King 'Dadisho I Bar Talmai of Melitene
+	dynasty = drsdyn74 # Bar Talmai
+	religion = nestorian
+	culture = assyrian
+	781.1.1 = {
+		birth = yes
+	}
+	823.1.1 = {
+		death = yes
+	}
+}
+drsmelitene0002 = { # 
+	name = "Chasina" #
+	female = yes
+	religion = nestorian
+	culture = assyrian
+	781.1.1 = {
+		birth = yes
+	}
+	801.1.1 = {
+		add_spouse = drsmelitene0001 #'Dadisho Bar Talmai
+	}
+	844.1.1 = {
+		death = yes
+	}
+}
+drsmelitene0003 = { #
+	name = "Nahara" # Queen Nahara I Bar Talmai of Melitene and Edessa
+	female = yes
+	dynasty = drsdyn74 # Bar Talmai
+	religion = nestorian
+	culture = assyrian
+	father = drsmelitene0001 # 'Dadisho Bar Talmai
+	mother = drsmelitene0002 # Chasina
+	802.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}

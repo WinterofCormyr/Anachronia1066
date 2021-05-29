@@ -1,0 +1,280 @@
+#### A PONTIC EMPIRE WILL RISE BETWEEN 867 AND 936 ### THE WIRLD WILL BOW BEFORE THE AITAHIST MIGHT ###
+
+
+k_armenia = { # provinces done
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	
+	
+	890.1.1 = {
+		liege = e_pontic_empire
+		holder = drspontus0004 # Leaina I Arkosene
+	}
+	906.1.1 = {
+		holder = drspontus0007 # Pardalis I Arkosene
+	}
+	930.1.1 = {
+		de_jure_liege = e_pontic_empire
+		holder = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	}
+	964.1.1 = {
+		holder = drsarmenia0027 # Artashes ve Kardesh-Zankou
+	}
+	988.1.1 = {
+		holder = drsarmenia0033 # Shahanshah ve Kardesh-Zankou
+	}
+	1022.1.1 = {
+		holder = drsarmenia0056 # Arshak ve Kardesh-Zankou
+	}
+	1033.1.1 = {
+		holder = drsarmenia0058 # Kapriel ve Kardesh-Zankou
+	}
+	1061.1.1 = {
+		holder = drsarmenia0062 # Rita ve Kardesh-Zankou
+	}
+}
+
+d_dzopk = {
+	
+	820.1.1 = {
+		holder = drsarmenia0001 # Aristaces ve Kardesh
+	}
+	861.1.1 = {
+		holder = drsarmenia0002 # Husik ve Kardesh
+	}
+	890.1.1 = {
+		liege = k_armenia
+	}
+	901.1.1 = {
+		holder = drsarmenia0004 # Pharen ve Kardesh
+	}
+	908.1.1 = {
+		holder = drsarmenia0007 # Zaven ve Kardesh
+	}
+	935.1.1 = {
+		holder = drsarmenia0011 # Melitus ve Kardesh
+	}
+	947.1.1 = {
+		holder = drsarmenia0015 # Duke Roupen I ve Kardesh
+	}
+	967.1.1 = {
+		holder = drsarmenia0017 # Duchess Tamar I ve Kardesh
+	}
+	992.1.1 = {
+		holder = drsghazaryan0002 # Duke Hagop I Ghazaryan
+	}
+	1040.1.1 = {
+		holder = drsghazaryan0004 # Duke Sahag I Ghazaryan
+	}
+	1065.1.1 = {
+		holder = drsdzopk0006 # Duke Hethum I Sarkisian
+	}
+	1103.1.1 = {
+		holder = drsdzopk0003 # Duchess Arda I Sarkisian
+	}
+	1109.1.1 = {
+		holder = drsdzopk0033 # Duke Ayase I Sarkisian
+	}
+}
+d_mesopotamia = {
+	
+	867.1.1 = {
+		holder = drsarmenia0002 # Husik ve Kardesh
+	}
+	890.1.1 = {
+		liege = k_armenia
+	}
+	901.1.1 = {
+		holder = drsarmenia0004 # Pharen ve Kardesh
+	}
+	908.1.1 = {
+		holder = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	}
+	964.1.1 = {
+		holder = drsarmenia0027 # Artashes ve Kardesh-Zankou
+	}
+	988.1.1 = {
+		holder = drsarmenia0033 # Shahanshah ve Kardesh-Zankou
+	}
+	1022.1.1 = {
+		holder = drsarmenia0056 # Arshak ve Kardesh-Zankou
+	}
+	1033.1.1 = {
+		holder = drsarmenia0058 # Kapriel ve Kardesh-Zankou
+	}
+	1061.1.1 = {
+		holder = drsarmenia0062 # Rita ve Kardesh-Zankou
+	}
+}
+
+k_georgia = { # provinces done
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	
+	892.1.1 = {
+		liege = e_pontic_empire
+		holder = drspontus0006 # Lynx I Arkosene
+	}
+	906.1.1 = {
+		holder = drspontus0007 # Pardalis I Arkosene
+	}
+	930.1.1 = {
+		de_jure_liege = e_pontic_empire
+	}
+	953.1.1 = {
+		holder = drsrhaneis0001 # Emperor Helias I Rhaneis
+	}
+	1018.1.1 = {
+		holder = drsrhaneis0003 # Empress Leontia I Rhaneis
+	}
+	1037.1.1 = {
+		holder = drsrhaneis0006 # Emperor Seisiaros I Rhaneis
+	}
+	1060.1.1 = {
+		holder = drsrhaneis0008 # Empress Riana I Rhaneis
+	}
+	1073.1.1 = {
+		holder = drsrhaneis0015 # Empress Vardo I Rhaneis
+	}
+	1098.1.1 = {
+		holder = drsrhaneis0017 # Empress Suliko I Rhaneis
+	}
+	1104.1.1 = {
+		holder = drsrhaneis0020 # Empress Shukhia I Rhaneis
+	}
+	1116.1.1 = {
+		holder = drscilician0007 # Empress Alisha I Uni-na-Kumarbi #1117 Alisha appoints new Georgian Catholic governor # family soon converts to # uh# Traditional Ireneism let's say that # CCONVERTS IN 1135
+	}
+}
+
+c_tbilisi = { # provinces done
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	
+	892.1.1 = {
+		liege = e_pontic_empire
+		holder = drspontus0006 # Lynx I Arkosene
+	}
+	906.1.1 = {
+		holder = drspontus0007 # Pardalis I Arkosene
+	}
+	930.1.1 = {
+		de_jure_liege = e_pontic_empire
+	}
+	953.1.1 = {
+		holder = drsrhaneis0001 # Emperor Helias I Rhaneis
+	}
+	1018.1.1 = {
+		holder = drsrhaneis0003 # Empress Leontia I Rhaneis
+	}
+	1037.1.1 = {
+		holder = drsrhaneis0006 # Emperor Seisiaros I Rhaneis
+	}
+	1060.1.1 = {
+		holder = drsrhaneis0008 # Empress Riana I Rhaneis
+	}
+	1073.1.1 = {
+		holder = drsrhaneis0015 # Empress Vardo I Rhaneis
+	}
+	1098.1.1 = {
+		holder = drsrhaneis0017 # Empress Suliko I Rhaneis
+	}
+	1104.1.1 = {
+		holder = drsrhaneis0020 # Empress Shukhia I Rhaneis
+	}
+	1116.1.1 = {
+		holder = drscilician0007 # Empress Alisha I Uni-na-Kumarbi #1117 Alisha appoints new Georgian Catholic governor # family soon converts to # uh# Traditional Ireneism let's say that # CCONVERTS IN 1135
+	}
+}
+
+k_shirvan = { # divided into de jure duchies following old_shirvanite_church before 980 # converts to shirvanite_church in 1034 # provinces done
+	# d_albania has adhari Culture shirvanite_church Religion duke in 1066 # REMEMBER HISTORY ABOVE FOR CREATING IN FUTURE
+	# d_derbent has adhari Culture shirvanite_church Religion duchess in 1066 # REMEMBER HISTORY ABOVE FOR CREATING IN FUTURE
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	980.1.1 = {
+		liege = e_pontic_empire
+		holder = drsarmenia0034 # King Artashir I ve Kardesh-Zankou-Shemakha
+	}
+	1010.1.1 = {
+		de_jure_liege = e_pontic_empire
+	}
+	1034.1.1 = {
+		holder = drsarmenia0036 # King Smbat I ve Kardesh-Zankou-Shemakha
+	}
+	1039.1.1 = {
+		holder = drsarmenia0038 # Queen Eliz I ve Kardesh-Zankou-Shemakha
+	}
+	1046.1.1 = {
+		holder = drsarmenia0040 # King Isaak I ve Kardesh-Zankou-Shemakha
+	}
+	1076.1.1 = {
+		holder = drsarmenia0042 # King Oroezes I ve Kardesh-Zankou-Shemakha
+	}
+}
+
+d_albania = { # divided into de jure duchies following old_shirvanite_church before 980 # converts to shirvanite_church in 1034 # provinces done
+	# d_albania has adhari Culture shirvanite_church Religion duke in 1066 # REMEMBER HISTORY ABOVE FOR CREATING IN FUTURE
+	# d_derbent has adhari Culture shirvanite_church Religion duchess in 1066 # REMEMBER HISTORY ABOVE FOR CREATING IN FUTURE
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	980.1.1 = {
+		liege = k_shirvan
+		holder = drsarmenia0034 # King Artashir I ve Kardesh-Zankou-Shemakha
+	}
+	1034.1.1 = {
+		holder = drsarmenia0036 # King Smbat I ve Kardesh-Zankou-Shemakha
+	}
+	1039.1.1 = {
+		holder = drsarmenia0038 # Queen Eliz I ve Kardesh-Zankou-Shemakha
+	}
+	1046.1.1 = {
+		holder = drsarmenia0040 # King Isaak I ve Kardesh-Zankou-Shemakha
+	}
+	1050.1.1 = {
+		holder = drscalbania0001 # Vishtasb Kambizi
+	}
+}
+
+d_derbent = { # divided into de jure duchies following old_shirvanite_church before 980 # converts to shirvanite_church in 1034 # provinces done
+	# d_albania has adhari Culture shirvanite_church Religion duke in 1066 # REMEMBER HISTORY ABOVE FOR CREATING IN FUTURE
+	# d_derbent has adhari Culture shirvanite_church Religion duchess in 1066 # REMEMBER HISTORY ABOVE FOR CREATING IN FUTURE
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	980.1.1 = {
+		liege = k_shirvan
+		holder = drsarmenia0034 # King Artashir I ve Kardesh-Zankou-Shemakha
+	}
+	1034.1.1 = {
+		holder = drsarmenia0036 # King Smbat I ve Kardesh-Zankou-Shemakha
+	}
+	1039.1.1 = {
+		holder = drsarmenia0038 # Queen Eliz I ve Kardesh-Zankou-Shemakha
+	}
+	1046.1.1 = {
+		holder = drsarmenia0040 # King Isaak I ve Kardesh-Zankou-Shemakha
+	}
+	1050.1.1 = {
+		holder = drsderbent0001 # Azarmidokht Shahbazi
+	}
+}
+k_caucasus = { # provinces done
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	1050.1.1 = {
+		de_jure_liege = e_pontic_empire
+		liege = e_pontic_empire
+		holder = drscaucasus0001 # Chelakhsartag Gæzdænty
+	}
+}
+k_khazaria = { # provinces done
+	867.1.1 = {	change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+}

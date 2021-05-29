@@ -1,0 +1,89 @@
+﻿l_english:
+########################################
+#### k_latvia NEW
+########################################
+k_latvia:0 "Latvia"
+k_latvia_adj:0 "Latvian"
+########################################
+#### d_latgalians
+########################################
+d_latgalians:0 "Latgalia"
+d_latgalians_adj:0 "Latgalian"
+c_talava:0 "Talava"
+c_talava_adj:0 "Talava"
+b_rauna:0 "Beverin"
+b_rauna_adj:0 "Beverin"
+b_cesvaine:0 "Cesvaine"
+b_cesvaine_adj:0 "Cesvaine"
+c_kokenois:0 "Koknese"
+c_kokenois_adj:0 "Koknese"
+b_kokenois:0 "Koknese"
+b_kokenois_adj:0 "Koknese"
+c_jersika:0 "Jersika"
+c_jersika_adj:0 "Jersika"
+b_jersika:0 "Jersika"
+b_jersika_adj:0 "Jersika"
+b_jekabpils:0 "Lokstene"
+b_jekabpils_adj:0 "Lokstene"
+c_lotigola:0 "Lotigola" #NEW
+c_lotigola_adj:0 "Lotigola" #NEW
+b_rezekne:0 "Rezekne"
+b_rezekne_adj:0 "Rezekne"
+b_daugavpils:0 "Daugavpils"
+b_daugavpils_adj:0 "Daugavpils"
+c_aluksne:0 "Atzele"
+c_aluksne_adj:0 "Atzele"
+b_aluksne:0 "Aluksne"
+b_aluksne_adj:0 "Aluksne"
+b_gulbene:0 "Gulbene"
+b_gulbene_adj:0 "Gulbene"
+########################################
+#### d_semigallia NEW
+########################################
+d_semigallia:0 "Semigallia" #NEW
+d_semigallia_adj:0 "Semigallian" #NEW
+c_zemigalians:0 "Tervete"
+c_zemigalians_adj:0 "Tervete"
+b_dobele:0 "Dobele"
+b_dobele_adj:0 "Dobele"
+b_neuenburg:0 "Zagare"
+b_neuenburg_adj:0 "Zagare"
+c_upmale:0 "Upmale" #NEW
+c_upmale_adj:0 "Upmale" #NEW
+b_mitau:0 "Jelgava"
+b_mitau_adj:0 "Jelgava"
+b_bauska:0 "Bauska"
+b_bauska_adj:0 "Bauska"
+c_selpils:0 "Selonia"
+c_selpils_adj:0 "Selonian"
+b_selpils:0 "Selpils"
+b_selpils_adj:0 "Selpils"
+b_oknist:0 "Ilukste"
+b_oknist_adj:0 "Ilukste"
+c_pelone:0 "Pelone"
+c_pelone_adj:0 "Pelone"
+b_birzai:0 "Birzai"
+b_birzai_adj:0 "Birzai"
+########################################
+#### d_courland
+########################################
+d_courland:0 "Curonia"
+d_courland_adj:0 "Curonian"
+c_grobin:0 "Piemare"
+c_grobin_adj:0 "Piemare"
+b_grobin:0 "Grobina"
+b_grobin_adj:0 "Grobina"
+b_duvzare:0 "Impilta"
+b_duvzare_adj:0 "Impilta"
+c_palanga:0 "Ceklis"
+c_palanga_adj:0 "Ceklis"
+b_palanga:0 "Palanga"
+b_palanga_adj:0 "Palanga"
+b_ceklis:0 "Apole"
+b_ceklis_adj:0 "Apole"
+c_ventava:0 "Ventava" #NEW
+c_ventava_adj:0 "Ventava" #NEW
+b_piltene:0 "Piltene"
+b_piltene_adj:0 "Piltene"
+b_bandava:0 "Kuldiga"
+b_bandava_adj:0 "Kuldiga"

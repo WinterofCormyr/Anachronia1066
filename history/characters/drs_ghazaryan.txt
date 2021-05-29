@@ -1,0 +1,139 @@
+﻿#Duchy of Dzopk # armenian Culture nestorian Religion characters
+
+# rulers of the Duchy of Dzopk 992 onward # married patrilineally Tamar ve Kardesh drsarmenia0017
+drsghazaryan0001 = {
+	name = "Aboulgharib" # son Hagop
+	dynasty = drsdyn11 # Ghazaryan
+	religion = nestorian
+	culture = armenian
+	925.1.1 = {
+		birth = yes
+	}
+	945.1.1 = {
+		add_spouse = drsarmenia0017
+	}
+	992.1.1 = {
+		death = yes
+	}
+}
+drsghazaryan0002 = {
+	name = "Hagop" # wife Anna # son Sahag and daughter Kohar # they are twins
+	dynasty = drsdyn11 # Ghazaryan
+	religion = nestorian
+	culture = armenian
+	father = drsghazaryan0001 # Aboulgharib Ghazaryan
+	mother = drsarmenia0017 # Tamar ve Kardesh
+	946.1.1 = {
+		birth = yes
+	}
+	966.1.1 = {
+		add_spouse = drsghazaryan0003
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+drsghazaryan0003 = {
+	name = "Anna" # 
+	female = yes
+	religion = nestorian
+	culture = armenian
+	946.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+drsghazaryan0004 = {
+	name = "Sahag" # wife Vartanoush # twin son Hamazasp and daughter Anoush
+	dynasty = drsdyn11 # Ghazaryan
+	religion = nestorian
+	culture = armenian
+	father = drsghazaryan0002 # Aboulgharib Ghazaryan
+	mother = drsghazaryan0003 # Anna
+	trait = twin
+	967.1.1 = {
+		birth = yes
+	}
+	987.1.1 = {
+		add_spouse = drsghazaryan0006 # Vartanoush
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+drsghazaryan0005 = {
+	name = "Kohar" #
+	female = yes
+	dynasty = drsdyn11 # Ghazaryan
+	religion = nestorian
+	culture = armenian
+	father = drsghazaryan0002 # Aboulgharib Ghazaryan
+	mother = drsghazaryan0003 # Anna
+	trait = twin
+	967.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsghazaryan0006 = {
+	name = "Vartanoush" # 
+	female = yes
+	religion = nestorian
+	culture = armenian
+	967.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+drsghazaryan0007 = {
+	name = "Hamazasp" # wife Latavri # no children
+	dynasty = drsdyn11 # Ghazaryan
+	religion = nestorian
+	culture = armenian
+	father = drsghazaryan0004 # Sahag Ghazaryan
+	mother = drsghazaryan0006 # Vartanoush
+	trait = twin
+	988.1.1 = {
+		birth = yes
+	}
+	1008.1.1 = {
+		add_spouse = drsghazaryan0009 # Latavri
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+drsghazaryan0008 = {
+	name = "Anoush" # marries Sarkis Sarkisian patrilineally # in new file called drs_dzopk # daughter Vartouhi # daughter Arda # daughter Leyli # twins Vosgi female and Hethum male # Hethum inherits Dzopk # daughter Arevig
+	female = yes
+	dynasty = drsdyn11 # Ghazaryan
+	religion = nestorian
+	culture = armenian
+	father = drsghazaryan0004 # Sahag Ghazaryan
+	mother = drsghazaryan0006 # Vartanoush
+	trait = twin
+	988.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsghazaryan0009 = {
+	name = "Latavri" # 
+	female = yes
+	religion = nestorian
+	culture = armenian
+	988.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}

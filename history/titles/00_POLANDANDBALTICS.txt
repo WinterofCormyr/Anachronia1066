@@ -1,0 +1,111 @@
+#POLAND + BALTIC FILE#
+
+
+
+#CONTENTS SEARCH#
+
+###START POLAND###
+###START POMERANIA###
+###START LITHUANIA###
+###START ESTHONIA###
+e_wendish_empire = { # new k_luticy in the e_wendish_empire # follows aelonist aitahism and contains d_nordmark d_wagria and d_ostmark
+	867.1.1 = {	change_development_level = 11 }
+	1066.1.1 = { change_development_level = 22 }
+}
+
+#### START LIVONIA ####
+
+k_livlios = {
+	950.1.1 = {
+		holder = holderland0032 # Styrbjorn Lakeholding
+		government = feudal_government
+		liege = e_valdemar
+		de_jure_liege = e_valdemar
+	}
+	1009.1.1 = {
+		holder = holderland0050 # Vootele Lakeholding
+	}
+}
+
+d_livonia = {
+	950.1.1 = {
+		holder = holderland0032 # Styrbjorn Lakeholding
+		government = feudal_government
+		liege = k_livlios
+		de_jure_liege = k_livlios
+	}
+	1009.1.1 = {
+		holder = holderland0050 # Vootele Lakeholding
+	}
+}
+
+c_livs = {
+	950.1.1 = {
+		holder = holderland0032 # Styrbjorn Lakeholding
+		government = feudal_government
+		liege = k_livlios
+	}
+	1009.1.1 = {
+		holder = holderland0050 # Vootele Lakeholding
+	}
+}
+
+c_vanemane = {
+	950.1.1 = {
+		holder = holderland0032 # Styrbjorn Lakeholding
+		government = feudal_government
+		liege = k_livlios
+		de_jure_liege = d_livonia
+	}
+	1009.1.1 = {
+		holder = holderland0059 # Vililemb Lakeholding
+	}
+}
+
+
+
+
+c_toreida = {
+	950.1.1 = {
+		holder = holderland0032 # Styrbjorn Lakeholding
+		government = feudal_government
+		liege = k_livlios
+	}
+	1009.1.1 = {
+		holder = holderland0050 # Vootele Lakeholding
+	}
+}
+
+c_vidzeme = {
+	950.1.1 = {
+		holder = holderland0032 # Styrbjorn Lakeholding
+		government = feudal_government
+		liege = k_livlios
+	}
+	1009.1.1 = {
+		holder = holderland0051 # Vilimeel Lakeholding
+	}
+}
+
+#### START LUTICY ####
+
+k_luticy = {
+	769.1.1 = {
+		de_jure_liege = e_wendish_empire
+	}
+}
+d_nordmark = {
+	769.1.1 = {
+		de_jure_liege = k_luticy
+	}
+}
+d_wagria = {
+	769.1.1 = {
+		de_jure_liege = k_luticy
+	}
+}
+d_ostmark = {
+	769.1.1 = {
+		de_jure_liege = k_luticy
+	}
+}

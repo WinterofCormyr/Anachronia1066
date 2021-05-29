@@ -1,0 +1,339 @@
+﻿#Empire of Tibet # e_tibet # originally nestorian # later tibetan_church in 904 and onwards # assyrian # for CoA purposes # actually zhangzhung
+
+# rulers of the Empire of Tibet # generally do not do spouses lol # but in 1066 there is intermarrying with the dynasty of Daylam and Shirvan, ve Kardesh-Zankou-Shemakha
+drstibet0001 = { 
+	name = "Isaac" # 
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = assyrian
+	600.1.1 = {
+		birth = yes
+	}
+	682.1.1 = {
+		death = yes
+	}
+}
+drstibet0002 = { 
+	name = "Yahballaha Ngawang" # son Isaak Shenlha who founds Tibetan Empire
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0001
+	620.1.1 = {
+		birth = yes
+	}
+	708.1.1 = {
+		death = yes
+	}
+}
+#MARTA HARACHIPAR # SEE DRS_BENGAL
+drstibet0004 = { 
+	name = "Yahballaha Takla" # 
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0001
+	622.1.1 = {
+		birth = yes
+	}
+	644.1.1 = {
+		death = yes
+	}
+}
+# PAPA LIWERGYER # SEE DRS_TANGUTS
+
+# HNANISHOQH SDZOMAR # SEE DRS_BURMA
+drstibet0007 = { 
+	name = "Chasina Mari" # 
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0001
+	625.1.1 = {
+		birth = yes
+	}
+	626.1.1 = {
+		death = yes
+	}
+}
+drstibet0008 = { 
+	name = "Songtsen Troto" # 
+	dynasty = drsdyn21 # Bar Isaac
+	religion = bon
+	culture = zhangzhung
+	father = drstibet0001
+	626.1.1 = {
+		birth = yes
+	}
+	676.1.1 = {
+		death = yes
+	}
+}
+drstibet0009 = { 
+	name = "Tamsyn Bumphulwa" # 
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0001
+	627.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+drstibet0010 = { 
+	name = "Qhabdisho Draktsubye" # 
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0001
+	628.1.1 = {
+		birth = yes
+	}
+	676.1.1 = {
+		death = yes
+	}
+}
+drstibet0011 = { 
+	name = "Anena Mariam Tshogyal" # 
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = bon
+	culture = zhangzhung
+	father = drstibet0001
+	629.1.1 = {
+		birth = yes
+	}
+	647.1.1 = {
+		death = yes
+	}
+}
+#TAMMY GYICHANGMO # SEE DRS_SIBERTA
+
+drstibet0013 = { 
+	name = "Isaak Shenlha" # son Sabrishoqh Dokchen # son Eliya Gyalwa # daughter Atak # son Paul Kunla # son Qhabda Liknyashur # son Marai Martang # son Isaac Mulakhung
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0002
+	640.1.1 = {
+		birth = yes
+	}
+	713.1.1 = {
+		death = yes
+	}
+}
+drstibet0014 = { 
+	name = "Sabrishoqh Dokchen" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0013 # Isaak Shenlha Bar Isaac
+	660.1.1 = {
+		birth = yes
+	}
+	762.1.1 = {
+		death = yes
+	}
+}
+drstibet0015 = { 
+	name = "Eliya Gyalwa" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0013 # Isaak Shenlha Bar Isaac
+	661.1.1 = {
+		birth = yes
+	}
+	763.1.1 = {
+		death = yes
+	}
+}
+drstibet0016 = { 
+	name = "Atak" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0013 # Isaak Shenlha Bar Isaac
+	662.1.1 = {
+		birth = yes
+	}
+	764.1.1 = {
+		death = yes
+	}
+}
+drstibet0017 = { 
+	name = "Paul Kunla" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0013 # Isaak Shenlha Bar Isaac
+	663.1.1 = {
+		birth = yes
+	}
+	765.1.1 = {
+		death = yes
+	}
+}
+drstibet0018 = { 
+	name = "Qhabda Liknyashur" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0013 # Isaak Shenlha Bar Isaac
+	664.1.1 = {
+		birth = yes
+	}
+	765.1.1 = {
+		death = yes
+	}
+}
+drstibet0019 = { 
+	name = "Marai Martang" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0013 # Isaak Shenlha Bar Isaac
+	665.1.1 = {
+		birth = yes
+	}
+	766.1.1 = {
+		death = yes
+	}
+}
+drstibet0020 = { 
+	name = "Isaac Mulakhung" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0013 # Isaak Shenlha Bar Isaac
+	666.1.1 = {
+		birth = yes
+	}
+	767.1.1 = {
+		death = yes
+	}
+}
+drstibet0021 = { 
+	name = "Drangma" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0014 # Sabrishoqh Dokchen Bar Isaac
+	680.1.1 = {
+		birth = yes
+	}
+	767.1.1 = {
+		death = yes
+	}
+}
+drstibet0022 = { 
+	name = "Dadishoqh O_sel" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0014 # Sabrishoqh Dokchen Bar Isaac
+	681.1.1 = {
+		birth = yes
+	}
+	768.1.1 = {
+		death = yes
+	}
+}
+drstibet0023 = { 
+	name = "Isaac Shelgyung" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0014 # Sabrishoqh Dokchen Bar Isaac
+	682.1.1 = {
+		birth = yes
+	}
+	769.1.1 = {
+		death = yes
+	}
+}
+drstibet0024 = { 
+	name = "Yahballaha Tonggyung" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0022 # Dadishoqh O_sel Bar Isaac
+	701.1.1 = {
+		birth = yes
+	}
+	782.1.1 = {
+		death = yes
+	}
+}
+drstibet0025 = { 
+	name = "Emmanuel Zijid" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0024 # Yahballaha Tonggyung Bar Isaac
+	721.1.1 = {
+		birth = yes
+	}
+	811.1.1 = {
+		death = yes
+	}
+}
+drstibet0026 = { 
+	name = "Kyukma" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0025 # Emmanuel Zijid Bar Isaac
+	741.1.1 = {
+		birth = yes
+	}
+	831.1.1 = {
+		death = yes
+	}
+}
+drstibet0027 = { 
+	name = "Joseph Berkya" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0025 # Emmanuel Zijid Bar Isaac
+	742.1.1 = {
+		birth = yes
+	}
+	832.1.1 = {
+		death = yes
+	}
+}
+drstibet0028 = { 
+	name = "Ezekiel Dongla" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0027 # Joseph Berkya Bar Isaac
+	762.1.1 = {
+		birth = yes
+	}
+	852.1.1 = {
+		death = yes
+	}
+}
+drstibet0029 = { 
+	name = "Isho'yahb Shem'on Gyer" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0028 # Ezekiel Dongla Bar Isaac
+	782.1.1 = {
+		birth = yes
+	}
+	872.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,1170 @@
+#k_persia
+##d_isfahan ###################################
+###c_isfahan
+4106 = {	#Isfahan
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	867.1.1 = {		
+		special_building_slot = the_friday_mosque_01
+		special_building = the_friday_mosque_01
+		buildings = {
+			cereal_fields_01
+			barracks_01
+		}
+	}
+	1066.1.1 = {		
+		buildings = {
+			cereal_fields_02
+			barracks_01
+			hunting_grounds_01
+		}
+	}
+}
+4105 = {	#Julfa	#AKA New Julfa
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+	#Established in 1606
+}
+4107 = {	#Gulpaygan	#AKA Golpayegan
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+}
+4108 = {	#Wazwan	#AKA Vazvan
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+}
+
+###c_ardestan
+4047 = {	#Qashan	AKA Kashan
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+}
+4048 = {	#Natanz
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+}
+4049 = {	#Ardistan	#AKA Ardestan
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+	#Founded during the Sasanian Empire
+}
+4050 = {	#Uzwara		#AKA Zavareh
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+}
+
+###c_qumisha
+4103 = {	#Qumisha	#AKA Shahreza 
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+}
+4100 = {	#Jarquh
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism	#placeholder
+}
+4101 = {	#Sarwistan	#AKA Sarvistan
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+	#Already existed during the Sasanian empire
+}
+4102 = {	#Wardana
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+}
+4104 = {	#Firuzan
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+}
+
+###c_luristan
+4112 = {	#Asbid-Dasht
+	culture = lurish
+	religion = persic_ireneism
+	holding = castle_holding
+}
+4113 = {	#Juy-e-Sard
+	holding = castle_holding
+	culture = lurish
+	religion = persic_ireneism
+}
+
+
+##d_kirman ###################################
+###c_kirman
+4076 = {	#Khabis
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	930.1.1 = {
+		religion = kirman_school
+	}
+}
+4077 = {	#Zarand_PER
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	930.1.1 = {
+		religion = kirman_school
+	}
+	#Rich & important city in the islamic period
+}
+4078 = {	#Kirman		#AKA Kerman
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	930.1.1 = {
+		religion = kirman_school
+	}
+	#Important and thriving place since early Sasanian period
+}
+4079 = {	#Anar
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	930.1.1 = {
+		religion = kirman_school
+	}
+	#City already existed in pre-islamic times
+}
+4080 = {	#Rudhan
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	930.1.1 = {
+		religion = kirman_school
+	}
+}
+4081 = {	#Mashiz
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	930.1.1 = {
+		religion = kirman_school
+	}
+}
+
+###c_behabad
+4073 = {	#Behabad
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+4072 = {	#Nayband	#AKA Nay Band, Naiband
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+4074 = {	#Khubayan
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+4075 = {	#Rawar
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+
+###c_bam
+4083 = {	#Bamm
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+4082 = {	#Kashid
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	945.1.1 = {
+		religion = kirman_school
+	}	#placeholder
+}
+4084 = {	#Dardjiin
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+4085 = {	#Nurmashiir
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	945.1.1 = {
+		religion = kirman_school
+	}	#placeholder
+}
+4086 = {	#Dafariid
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+
+###c_sirjan
+4088 = {	#Sirjan
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	790.1.1 = { religion = persic_ireneism }
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+4087 = {	#Bimand
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	790.1.1 = { religion = persic_ireneism }
+	
+	945.1.1 = {
+		religion = kirman_school
+	}	#placeholder
+}
+4092 = {	#Baaft
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	790.1.1 = { religion = persic_ireneism }
+	
+	945.1.1 = {
+		religion = kirman_school
+	}	#placeholder
+}
+
+###c_jiruft
+4089 = {	#Jirfut
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	790.1.1 = { religion = persic_ireneism }
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+4090 = {	#Maghun
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	790.1.1 = { religion = persic_ireneism }
+	
+	945.1.1 = {
+		religion = kirman_school
+	}	#placeholder
+}
+4091 = {	#Ruyan-Jirufti
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	790.1.1 = { religion = persic_ireneism }
+	
+	945.1.1 = {
+		religion = kirman_school
+	}
+}
+
+##d_yazd ###################################
+###c_yazd
+4053 = {	#Yazd
+	culture = persian
+	religion = mazdayasna	
+	holding = castle_holding
+	1060.1.1 = {
+		religion = persic_ireneism
+	}
+}
+4051 = {	#Nain	#AKA Na'in
+	culture = persian
+	religion = mazdayasna	
+	holding = castle_holding
+	1060.1.1 = {
+		religion = persic_ireneism
+	}
+	#One of the first mosques in muslim Persia
+}
+4052 = {	#Uqda
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	1060.1.1 = {
+		religion = persic_ireneism
+	}
+}
+4054 = {	#Maibud		#AKA Meybod
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	1060.1.1 = {
+		religion = persic_ireneism
+	}
+	#One of the oldest castles and capitals in Iran
+}
+4055 = {	#Fahraj_yazd
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	1060.1.1 = {
+		religion = persic_ireneism
+	}
+	#Founded during the Sasanian empire
+}
+4056 = {	#Khazana
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	1060.1.1 = {
+		religion = persic_ireneism
+	}
+}
+
+###c_mafaza
+4057 = {	#Jarmaq
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1160.1.1 = {
+		religion = persic_ireneism
+	}
+}
+4058 = {	#Wandah
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	1060.1.1 = {
+		religion = persic_ireneism
+	}	#placeholder
+}
+4060 = {	#Mihrijan
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1160.1.1 = {
+		religion = persic_ireneism
+	}
+}
+4061 = {	#Biyaqad
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	1060.1.1 = {
+		religion = persic_ireneism
+	}
+}
+
+###c_shahre-babak
+4096 = {	#Shahr-e-babak
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+}
+4097 = {	#Muralziyan
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	800.1.1 = { 
+		religion = persic_ireneism	#placeholder
+	}
+}
+4098 = {	#Abarquh	#AKA Abarkuh 
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	800.1.1 = { 
+		religion = persic_ireneism	#placeholder
+	}
+}
+4099 = {	#Qaryat-al-Asad
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	800.1.1 = { 
+		religion = persic_ireneism	#placeholder
+	}
+}
+
+##d_rayy ###################################
+###c_rayy
+4319 = {	#Rayy
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	864.1.1 = { 
+		religion = pashtuni_khwarezmian_ireneism
+	}
+	1066.1.1 = {
+		buildings = {
+			pastures_01
+			hunting_grounds_01
+			barracks_01
+		}
+	}
+}
+4318 = {	#Dumbawand	#AKA Damavand
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	864.1.1 = { 
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4320 = {	#Waramin	#AKA Varamin / Varena
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	864.1.1 = { 
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4321 = {	#Mashkuya
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	864.1.1 = { 
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+4322 = {	#Qasran
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	864.1.1 = { 
+		religion = pashtuni_khwarezmian_ireneism
+	}
+}
+
+###c_khuwar
+4046 = {	#Khuwar
+	culture = persian
+	religion = mazdayasna	
+	holding = castle_holding
+	1060.1.1 = {
+		religion = persic_ireneism
+	}
+}
+4045 = {	#Simnan		#AKA Semnan
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	1060.1.1 = {
+		religion = persic_ireneism
+	}
+	#already existed in ancient Persia
+}
+
+###c_qom
+4109 = {	#Qom
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+}
+4110 = {	#Aba-Qomi
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+}
+4111 = {	#Sawa	#AKA Saveh
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+	#Very ancient city
+}
+
+##d_hamadan ###################################
+###c_hamadan
+4333 = {	#Hamadan
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4331 = {	#Rudhrawar
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}	#placeholder
+}
+4328 = {	#Aba
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4329 = {	#Mazdaqan
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}	#placeholder
+}
+4330 = {	#Sharuq
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+
+###c_nihawand
+4116 = {	#Nihawand	#AKA Nahavand
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4114 = {	#Abtaa
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4115 = {	#Karaj-abu-Dulad
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}	#placeholder
+}
+
+###c_dinawar
+4332 = {	#Dinawar
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4763 = {	#Andarab
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}	#placeholder
+}
+4764 = {	#Sad Khaniya
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}	#placeholder
+}
+4765 = {	#Sanda
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+
+##d_fars ###################################
+###c_shiraz
+4177 = {	#Shiraz-farsi
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+}
+4176 = {	#Sarwistan-Shirazi-Runiz
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }	#placeholder
+}
+4178 = {	#Kubanjan
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	800.1.1 = { religion = persic_ireneism }
+}
+4179 = {	#Kazarun	#AKA Kazerun
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	800.1.1 = { religion = persic_ireneism }
+	#Founded under the Sasanian Empire, became an important trade center later
+}
+4180 = {	#Sabur	#AKA Bishapur
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	800.1.1 = { religion = persic_ireneism }
+	#Founded as a capital by Shapur I of the Sasanians
+}
+
+###c_lar
+4093 = {	#Lar
+	culture = kurdish
+	religion = persic_ireneism
+	holding = castle_holding
+	1160.1.1 = {
+		religion = persic_ireneism
+		culture = persian
+	}
+}
+4094 = {	#Gerash
+	holding = castle_holding
+	culture = kurdish
+	religion = persic_ireneism
+	1160.1.1 = {
+		religion = persic_ireneism
+		culture = persian
+	}
+	#Left empty so players have to "fill" the county themselves
+}
+4095 = {	#Jahrum	#AKA Jahrom
+	holding = castle_holding
+	culture = kurdish
+	religion = persic_ireneism
+	1160.1.1 = {
+		religion = persic_ireneism
+		culture = persian
+	}
+	#Dates from the era of the Achaemenids
+}
+
+###c_darabjerd
+4171 = {	#Darabjerd	#AKA Darab
+	culture = kurdish
+	religion = persic_ireneism
+	holding = castle_holding
+}
+4172 = {	#Fustujan
+	culture = kurdish
+	religion = persic_ireneism
+	holding = castle_holding	#placeholder
+}
+4173 = {	#Nariz
+	holding = castle_holding
+	culture = kurdish
+	religion = persic_ireneism
+}
+4174 = {	#Istakhbanat
+	holding = castle_holding
+	culture = kurdish
+	religion = persic_ireneism
+}
+4175 = {	#Abade-Darabjerd
+	holding = castle_holding
+	culture = kurdish
+	religion = persic_ireneism
+}
+
+###c_arrajan
+4305 = {	#Arrajan
+	culture = lurish
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+}
+4301 = {	#Jannaba
+	culture = lurish
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+}
+4302 = {	#Siniz
+	culture = lurish
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+	#Rich port until it was destroyed during the Qarmatians
+}
+4303 = {	#Tawwaj	#AKA Tavvaz
+	culture = lurish
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+	#Likely built in ancient persia, served as a prosperous city & fort
+}
+4304 = {	#Khubadan
+	culture = lurish
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+}
+
+###c_istakhr
+4118 = {	#Istakhr
+	culture = persian
+	religion = persic_ireneism
+	holding = castle_holding
+}
+4117 = {	#Iqlid	#AKA Eqlid
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+	#Already built and somewhat important in ancient Persia
+}
+4119 = {	#Mayin
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+}
+4120 = {	#Abraj
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+}
+4121 = {	#Abada	#AKA Abadeh
+	holding = castle_holding
+	culture = persian
+	religion = persic_ireneism
+	#Existed in ancient Persia, set as church_holding to have all 3 holding types pre-built
+}
+
+###c_mandestan
+4195 = {	#Mandestan
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1337.1.1 = {
+		religion = persic_ireneism
+	}
+}
+4197 = {	#Bushkanat	#AKA Bushehr
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1337.1.1 = {
+		religion = persic_ireneism
+	}
+	#Important coastal trade city from ancient times
+}
+4198 = {	#Gundijan
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1337.1.1 = {
+		religion = persic_ireneism
+	}
+}
+4199 = {	#Firuzabad
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1337.1.1 = {
+		religion = persic_ireneism
+	}
+	#Ruined during the arab invasions
+	#Only "revived" in 950-980
+}
+4200 = {	#Karzin
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1337.1.1 = {
+		religion = persic_ireneism
+	}
+	#Set as church_holding to have all 3 types of holdings pre-built in the county
+}
+
+###c_irahistan
+4193 = {	#Naband
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1337.1.1 = {
+		religion = persic_ireneism
+	}
+}
+4194 = {	#Siraf
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1337.1.1 = {
+		religion = persic_ireneism
+	}
+	#Busy trade port on the Silk Road from early on
+}
+4196 = {	#Kariyan	#AKA Karyan
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	1337.1.1 = {
+		religion = persic_ireneism
+	}
+}
+
+##d_hormuz ###################################
+###c_hormuz
+4185 = {	#Hormuz
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	790.1.1 = { religion = persic_ireneism }
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {		
+		buildings = {
+			common_tradeport_02
+			pastures_01
+		}
+	}
+}
+4186 = {	#Shahru
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	790.1.1 = { religion = persic_ireneism }
+}
+4187 = {	#Laft
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	790.1.1 = { religion = persic_ireneism }
+}
+
+###c_sif-i-umara
+4191 = {	#Huzu
+	culture = persian
+	religion = mazdayasna
+	holding = castle_holding
+	790.1.1 = { religion = persic_ireneism }
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+}
+4188 = {	#Kaurestan
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	790.1.1 = { religion = persic_ireneism }
+}
+4189 = {	#Beiram	#AKA Beyram
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	790.1.1 = { religion = persic_ireneism }
+}
+4190 = {	#Dun
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	790.1.1 = { religion = persic_ireneism }
+}
+4192 = {	#Dazuk
+	holding = castle_holding
+	culture = persian
+	religion = mazdayasna
+	790.1.1 = { religion = persic_ireneism }
+}
+
+##d_khuzestan ###################################
+###c_ahvaz
+6011 = {	#Ahwaz		#AKA Ahvaz
+	culture = iraqi
+	religion = mazdakism
+	holding = castle_holding
+	867.1.1 = {
+		religion = persic_ireneism
+		
+	}
+}
+6009 = {	#Al-Madhar
+	holding = castle_holding
+	culture = iraqi
+	religion = mazdakism
+	867.1.1 = {
+		religion = persic_ireneism
+		
+	}
+}
+6010 = {	#Basinna
+	holding = castle_holding
+	culture = iraqi
+	religion = mazdakism
+	867.1.1 = {
+		religion = persic_ireneism
+		
+	}
+}
+6012 = {	#Huwaiza
+	holding = castle_holding
+	culture = iraqi
+	religion = mazdakism
+	867.1.1 = {
+		religion = persic_ireneism
+		
+	}
+}
+6015 = {	#Jubba
+	holding = castle_holding
+	culture = iraqi
+	religion = mazdakism
+	867.1.1 = {
+		religion = persic_ireneism
+		
+	}
+}
+
+###c_sardan
+4122 = {	#Lurijan
+	culture = lurish
+	religion = persic_ireneism
+	holding = castle_holding
+}
+4123 = {	#Aruj
+	holding = castle_holding
+	culture = lurish
+	religion = persic_ireneism
+}
+4124 = {	#Samshiborid
+	holding = castle_holding
+	culture = lurish
+	religion = persic_ireneism
+}
+
+###c_ramhurmuz
+4308 = {	#Ramhurmuz
+	culture = lurish
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+}
+4307 = {	#Asak
+	culture = lurish
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+}
+4309 = {	#Idhaj	#AKA Izeh
+	culture = lurish
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+}
+4306 = {	#Dariyan
+	culture = lurish
+	religion = mazdayasna
+	holding = castle_holding
+	800.1.1 = { religion = persic_ireneism }
+}
+
+###c_tustar
+4256 = {	#Tustar
+	culture = lurish
+	religion = persic_ireneism
+	holding = castle_holding
+}
+4257 = {	#Gondishapur	#AKA Gundeshapur
+	holding = castle_holding
+	culture = lurish
+	religion = persic_ireneism
+	#Important center during the muslim period (and probably before)
+}
+4258 = {	#Bazoh
+	holding = castle_holding
+	culture = lurish
+	religion = persic_ireneism
+}
+4259 = {	#Dizful		#AKA Dezful
+	holding = castle_holding
+	culture = lurish
+	religion = persic_ireneism
+	#Ancient fortified city, even capital of Elam Empire
+}
+# 4786 - AS-SAIMARA
+4818 = {	#Misc
+	culture = lurish
+	religion = persic_ireneism
+	holding = castle_holding
+	# History
+
+}
+
+###c_abbadan
+6017 = {	#Abbadan
+	culture = neo_sumerian
+	religion = sumerian_pagan
+	holding = castle_holding
+}
+6016 = {	#Bayan
+	holding = castle_holding	#placeholder
+	culture = neo_sumerian
+	religion = sumerian_pagan
+}
+6018 = {	#Basiyan
+	holding = castle_holding	#placeholder
+	culture = neo_sumerian
+	religion = sumerian_pagan
+}
+
+###c_dawraq
+6014 = {	#Dawraq
+	culture = lurish
+	religion = mazdakism
+	holding = castle_holding
+	867.1.1 = { religion = persic_ireneism }
+}
+6013 = {	#Azam
+	holding = castle_holding
+	culture = lurish
+	religion = mazdakism
+	holding = castle_holding
+	867.1.1 = { religion = persic_ireneism }
+}
+
+##d_kermanshah ###################################
+###c_kermanshah
+4781 = {	#Kermanshah
+	culture = kurdish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4782 = {	#Kerend-Kermanshah		#AKA Keren-e Gharb
+	culture = kurdish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4783 = {	#Tazar
+	culture = kurdish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4784 = {	#Bisutun	#AKA Beshitun
+	culture = kurdish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+
+###c_masabadhan
+4787 = {	#Siravan
+	culture = kurdish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4262 = {	#Alishtar
+	culture = kurdish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4785 = {	#Arivajan
+	culture = kurdish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+
+###c_saimara
+4786 = {	#As-saimara
+	culture = lurish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4260 = {	#Andamish
+	culture = lurish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}
+4261 = {	#Saburkhawasht
+	culture = lurish
+	religion = meshefaresism
+	holding = castle_holding
+	1000.1.1 = {
+		religion = kurdish_aitahism
+	}
+}

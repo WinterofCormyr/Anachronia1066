@@ -1,0 +1,22 @@
+﻿#Kingdom of the Volga-Urals # originally old_obish on 868 turning nordiaran Culture aniar_na_religion Faiths Religion characters
+
+# rulers of the Kingdoms of the Volga-Urals # always together
+drsvolgaural0001 = {
+	name = "Kastav" #
+	dynasty_house = house_Bar_Nabha # DYNASTY HOUSE BAR NABHA
+	religion = old_aniar_na
+	culture = old_obish
+	father = drssiberia0012 # David Bar Nabha
+	792.1.1 = {
+		birth = yes
+	}
+	803.1.1 = {
+		religion = khandorit_gunar #
+	}
+	#868.1.1 = {
+	#	culture = nordiaran
+	#}
+	872.1.1 = {
+		death = yes
+	}
+}

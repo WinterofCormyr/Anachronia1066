@@ -1,0 +1,245 @@
+﻿#Seshweay # Sumerian characters
+
+# rulers of the Duchy of seshweay and the County of seshweay
+drsseshweay0001 = {
+	name = "Ibi'Sesh" #
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drsseshweay0002 # Beles'Unu
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0002 = {
+	name = "Beles'Unu" #
+	female = yes
+	religion = seshweayan_pagan
+	culture = sumerian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drsseshweay0001 # Ibi'Sesh Taseshmah
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0003 = {
+	name = "Shu'Sesh" # 
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0001
+	mother = drsseshweay0002
+	821.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		add_spouse = drsseshweay0007 # Nin'Sar # son Amar'Sesha # daughter Aha'Tiva
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0004 = {
+	name = "Ashu'Si Kil'Dingir" #
+	female = yes
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0001
+	mother = drsseshweay0002
+	822.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0005 = {
+	name = "Sabit" #
+	female = yes
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0001
+	mother = drsseshweay0002
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0006 = {
+	name = "Geme'Shega" #
+	female = yes
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0001
+	mother = drsseshweay0002
+	824.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0007 = {
+	name = "Nin'Sar" #
+	female = yes
+	religion = seshweayan_pagan
+	culture = sumerian
+	821.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		add_spouse = drsseshweay0003 # Shu'Sesh Taseshmah # son Amar'Sesha # daughter Aha'Tiva
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0008 = {
+	name = "Amar'Sesha" # wife Pa'Unii # daughter Yadi'Atah # daughter Ahun'Atah
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0003
+	mother = drsseshweay0007
+	842.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0009 = {
+	name = "Aha'Tiva" #
+	female = yes
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0003
+	mother = drsseshweay0007
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0010 = {
+	name = "Pa'Unii" #
+	female = yes
+	religion = seshweayan_pagan
+	culture = sumerian
+	842.1.1 = {
+		birth = yes
+	}
+	862.1.1 = {
+		add_spouse = drsseshweay0008 # Amar'Sesha Taseshmah # daughter Yadi'Atah # daughter Ahun'Atah
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0011 = {
+	name = "Yadi'Atah" #
+	female = yes
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0008 # Amar'Sesha Taseshmah
+	mother = drsseshweay0010 # Pa'Unii
+	863.1.1 = {
+		birth = yes
+	}
+	943.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0012 = {
+	name = "Ahun'Atah" #
+	female = yes
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0008 # Amar'Sesha Taseshmah
+	mother = drsseshweay0010 # Pa'Unii
+	864.1.1 = {
+		birth = yes
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0013 = {
+	name = "La'Hétah" # if things break remove accent
+	female = yes
+	religion = seshweayan_pagan
+	culture = sumerian
+	842.1.1 = {
+		birth = yes
+	}
+	863.1.1 = {
+		add_spouse = drsseshweay0008 # Amar'Sesha Taseshmah # son Shul'Keppa # son Seis'Nham # daughter Kemekalha
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0014 = {
+	name = "Shul'Keppa" #
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0008 # Amar'Sesha Taseshmah
+	mother = drsseshweay0013 # La'Hetah
+	864.1.1 = {
+		birth = yes
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0015 = {
+	name = "Seis'Nham" #
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0008 # Amar'Sesha Taseshmah
+	mother = drsseshweay0013 # La'Hetah
+	865.1.1 = {
+		birth = yes
+	}
+	945.1.1 = {
+		death = yes
+	}
+}
+drsseshweay0016 = {
+	name = "Kemekalha" #
+	female = yes
+	dynasty = drsdyn1 # Taseshmah
+	religion = seshweayan_pagan
+	culture = sumerian
+	father = drsseshweay0008 # Amar'Sesha Taseshmah
+	mother = drsseshweay0013 # La'Hetah
+	866.1.1 = {
+		birth = yes
+	}
+	946.1.1 = {
+		death = yes
+	}
+}
+## Aitahist Kingdom of Jazira # Assyrian NOT Ashurian culture ruler # Aitahist provinces
+
+#Independent Duchy of Ashuria (New Duchy) ruling Irbil, Mosul, and Ninive # Specify as de jure in history not landed titles # duchy of Kurdistan rules Kurdistan and Shahrazur # Independent and Kurdish and Yazidi

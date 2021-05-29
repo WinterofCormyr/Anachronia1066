@@ -1,0 +1,2390 @@
+﻿byzantine_group = {
+	
+	graphical_cultures = {
+		byzantine_group_coa_gfx
+		western_coa_gfx
+		mediterranean_building_gfx
+		byzantine_clothing_gfx
+		eastern_unit_gfx
+	}
+	# byzantine_group CULTURE GROUP 
+	# pontic # greek # vlach # cibyrrhaeotine NOT CREATED ## combo of Hattian ## Isaurian ## Greek ## Telchines names # isaurian NOT CREATED
+	# eastern_celtic_group CULTURE GROUP
+	# galatian
+	# albanian_group CULTURE GROUP
+	# arberian
+	# northeast_caucasian_group CULTURE GROUP
+	# udi # caucasian_avar NO NEW NAME LIST
+	# northwest_caucasian_group CULTURE GROUP
+	# kasogi NEW NAME LIST ## MAYBE CIRCASSIAN FROM PARADOX FORUMS
+	# east_germanic_group CULTURE GROUP
+	# crimean_gothic # high_gothic FROM NORTH GERMANIC
+	# armenian_group CULTURE GROUP
+	# armenian
+	# ADD TO iranian_group 
+	# alan
+	# kartvelian_group CULTURE GROUP
+	mercenary_names = {
+		{ name = mercenary_company_manglabites }
+		{ name = "mercenary_company_the_ten_thousand" }
+	}
+
+	pontic = { #Was a distinct culture/language due to being separated from the western Greeks by the Turks. Also shrinks the massive Greek culture a bit. 
+		
+		color = { 0.5 0.35 0.9 }
+
+		cadet_dynasty_names = {
+			"Uranetios"
+			"Daogonos"
+			"Melikalaria"
+			"Koralanos"
+			"Magnapolitanai"
+			"Khaldaeos"
+			"Attalata"
+			"Rhaneis"
+			"Arkosene"
+			"Aitaias"
+			"Christoktistos"
+			"Christoktistene"
+			"Margariteis"
+			"Chrysanthian"
+			"Michaeleos"
+			"Eridanodoreia"
+			"Adrianeas"
+			"Rhaion"
+			"Christias"
+			"Eireniakeos"
+			"Theodosiani"
+			"Archirine"
+			"Ouranocharistios"
+			"Adonigonos"
+			"Ermephano"
+			"Nikephoriai"
+			"Rheateia"
+			"Artemiake-Selenektisteos"
+			"Hypation"
+		}
+
+		dynasty_names = {
+			"Uranetios"
+			"Daogonos"
+			"Melikalaria"
+			"Koralanos"
+			"Magnapolitanai"
+			"Khaldaeos"
+			"Attalata"
+			"Rhaneis"
+			"Arkosene"
+			"Christoktistios"
+			"Christoktistene"
+			"Margariteis"
+			"Chrysanthian"
+			"Michaeleos"
+			"Eridanodoreia"
+			"Adrianeas"
+			"Rhaion"
+			"Christias"
+			"Eireniakeos"
+			"Theodosiani"
+			"Archirine"
+			"Ouranocharistios"
+			"Adonigonos"
+			"Ermephano"
+			"Nikephoriai"
+			"Rheateia"
+			"Artemiake-Selenektisteos"
+			"Hypation"
+		}
+
+		male_names = {
+			Adrianos Akakios Alexandros Alexios Anastasios Anatolios Andreas Andronikos Anthemios Anthimos Antiochos Antonios Apollonios Arsenios Artemios Athanasios Bardas
+			Bartholomaios Basileios Belisarios Boethios Bosporios Christophoros Chrysanthos Chrysogonos Damianos Daniel David Demetrios Diogenes Dionysios Dorotheos Eirenaios Eudoxios Eustratios
+			Eugenios Euphemios Eusebios Eustathios Evangelos Gabriel Gennadios Georgios Gerasimos Germanos Gregoras Gregorios Hektorios Helias Herakleios Hierotheos Himerios
+			Hippolytos Hypatios Iakobos Ignatios Innokentios Ioannes Ioannikios Iordanes Ioseph Isaakios Isaias Isidoros Ioulianos Ioustinianos Ioustinos Kaisarios
+			Kallinikos Kallistos Komitas Konstantinos Konstantios Konstas Kosmas Kyriakos Kyrillos Kyros Laurentios Lazaros Leon Leontios Loukas Makarios Manuel Markos
+			Matthaios Maurikios Maximos Megistos Meletios Methodios Michael Narses Neophytos Nikephoros Niketas Nikodemos Nikolaos Niphon Orestes Pamphilios Pankratios Pantoleon Paschalis
+			Pelagios Phokas Photios Polykarpos Porphyrios Prokopios Pyrros Raphail Romanos Sabas Samuel Serapion Sebastianos Sergios Stephanos
+			Staurakios Symeon Symmachos Theocharistos Theodoros Theodosios Theodotos Theodoulos Theoktistos Theophanes Theophylaktos Thomas Tiberios Traianos
+			Timotheos Tryphon Valerios Zacharias Zenobios Zenon
+			Aristarchus Aristarchos
+			# TEMPLATES FOR THEOPHORIC NAMES
+			# NAMEios # NAMEaios #NAMEphoros #NAMEgonos #NAMEias #HieroNAME #NAMEs #NAMEos #NAMEcharistos #NAMEdoros #NAMEdosios #NAMEdotos #NAMEdoulos #NAMEktistos #NAMEphanes #NAMEphylaktos 
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based # Aitah is a goddess
+			Aitachios Aitaios Aitaphoros Aitagonos Aitaias Hieroaita Aitas Aitos Aitacharistos Aitodoros Aitodosios Aitodotos Aitodoulos Aitodulos Aitoktistos Aitophanes Aitophylaktos Aitophulaktos
+			# Ayase based # Ayase is a god
+			Aiasios Aiasaios Aiasophoros Aiasegonos Aiasogonos Aiasias Hieroaiase Aiases Aiaseos Aiasecharistos Aiasedoros Aiasedosios Aiasedotos Aiasedoulos Aiasektistos Aiasephanes Aiasephylaktos
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Du in Pontic
+			Duphoros Dugonos Hierodu Dus Ducharistos Dudoros Dudosios Dudotos Dudoulos Duktistos Duphanes Duphylaktos
+			# Tao based # Tu in Pontic
+			Tuphoros Tugonos Hierotu Tus Tucharistos Tudoros Tudosios Tudotos Tudulos Tuktistos Tuphanes Tuphylaktos
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu Based # Ouronshemou in Pontic # Wurunshemu is a goddess
+			Ouronshemoios Ouronshemaios Ouronshemouphoros Ouronshemougonos Ouronshemouas Hierouronshemou Ouronshemous Ouronshemoucharistos Ouronshemoudoros Ouronshemoudosios Ouronshemoudotos Ouronshemoudoulos Ouronshemouktistos
+			Ouronshemouphanes Ouronshemouphylaktos
+			# Inara based # Inara is a xenine deity
+			Inaraios Inaraphoros Inaragonos Inaraias Hieroinara Inaras Inaros Inaracharistos Inaradoros Inarodoros Inaradosios Inarodosios Inaradotos Inarodotos Inaradoulos Inarodoulos Inaraktistos Inaraphanes Inaraphylaktos
+			# Taru based # Tarou in Pontic # Taru is a god
+			Tarouios Tarouphoros Tarougonos Tarouias Hierotarou Tarous Taroucharistos Taroudoros Taroudosios Taroudotos Taroudoulos Tarouktistos Tarouphanes Tarouphylaktos
+			# Hanfasuit based # Anphasoith in Pontic # Hanfasuit is a goddess
+			Anphasoithios Anphasoithaios Anphasoithphoros Anphasoithgonos Anphasoithias Hieroanphasoith Anphasoiths Anphasoithos Anphasoithcharistos Anphasoithdoros Anphasoithdotos Anphasoithdoulos Anphasoithktistos
+			Anphasoithphanes Anphasoithphylaktos
+			##HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess
+			Seleneios Seleneos Selenes Selenaios Selenios Selenos Selenophoros Selenogonos Selenias Hieroselene Selenecharistos Selenodoros Selenodosios Selenodoulos Selenoktistos Selenophanes Selenophylaktos
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god
+			Eridanos Eridanaios Eridanophoros Eridanios Eridanogonos Eridanias Hieroeridan Hieroeridanos Eridanocharistos Eridanodoros Eridanodosios Eridanodotos Eridanodoulos Eridanoktistos Eridanophanes Eridanophylaktos
+			# Adonis based # Adonis is a god
+			Adonios Adonaios Adonophoros Adoniphoros Adonogonos Adonigonos Adonias Hieroadonis Adones Adonos Adonocharistos Adonicharistos Adonodoros Adonodoros Adonodosios Adonidosios Adonodoulos Adonidoulos Adonoktistos
+			Adoniktistos Adonophanes Adoniphanes Adonophylaktos Adoniphylaktos
+			# Eirene based names # Eirene is a goddess
+			Eireneios Eirenaios Eirenophoros Eirenogonos Eireneias Hieroeirene Eirenes Eireneos Eirenos Eirenocharistos Eirenodoros Eirenodosios Eirenodoulos Eirenoktistos Eirenophanes Eirenophylaktos
+			# Dione based # Dione is a goddess
+			Dionios Dionaios Dionophoros Dionogonos Dionias Hierodione Diones Dionos Dionocharistos Dionodoros Dionodosios Dionodotos Dionodoulos Dionoktistos Dionophanes Dionophylaktos
+			# Eos based # Eos is a goddess
+			Eosios Eosaios Eosophoros Eosogonos Eosias Hieroeos Eos Eosos Eosocharistos Eosodoros Eosodosios Eosodotos Eosodoulos Eosoktistos Eosophanes Eosophylaktos
+			# Aphrodite based # Aphrodite is a goddess 
+			Aphroditios Aphroditaios Aphroditophoros Aphroditogonos Aphroditias Hieroaphrodite Aphrodites Aphroditeos Aphroditocharistos Aphroditodoros Aphroditodosios Aphroditodotos Aphroditodoulos Aphroditoktistos
+			Aphroditophanes Aphroditophylaktos
+			# Ourania based # Ourania is a goddess
+			Ouranios Ouranaios Ouranophoros Ouranogonos Ouranias Hierourania Ouranias Ouranios Ouranocharistos Ouranodoros Ouranodosios Ouranodotos Ouranodoulos Ouranoktistos Ouranophanes Ouranophylaktos
+			# Urania based # Pontic traditional spelling of Ourania # Ourania is a goddess
+			Uranios Uranaios Uranophoros Uranogonos Uranias Hierurania Uranias Uranios Uranocharistos Uranodoros Uranodosios Uranodotos Uranodulos Uranoktistos Uranophanes Uranophulaktos
+			# Nyx based # Nyx is a goddess
+			Nyxios Nyxaios Nyxophoros Nyxogonos Nyxias Nyxes Nyxos Nyxocharistos Nyxodoros Nyxodosios Nyxodotos Nyxodoulos Nyxoktistos Nyxophanes Nyxophylaktos
+			# Myrtoesa based # Myrtoesa is a goddess
+			Myrtoesios Myrtoesaios Myrtoesphoros Myrtoesgonos Myrtoesias Hieromyrtoesa Myrtoes Myrtoesos Myrtoesocharistos Myrtoesodoros Myrtoesodosios Myrtoesodotos Myrtoesodoulos Myrtoesoktistos Myrtoesophanes Myrtoesophylaktos
+			# Archiroe based # Archiroe is a goddess
+			Archirios Archiraios Archirophoros Archirogonos Archirias Hieroarchiroe Archiroes Archiros Archirocharistos Archirodoros Archirodosios Archirodotos Archirodoulos Archiroktistos Archirophanes Archirophylaktos
+			# Hagno based # Hagno is a goddess # Agno in Pontic
+			Agnios Agnaios Agnophoros Agnogonos Agnias Hieragno Agnos Agnocharistos Agnodoros Agnodosios Agnodotos Agnodoulos Agnoktistos Agnophanes Agnophylaktos
+			# Anthracia based # Anthracia is a goddess # Anthrakia in Pontic
+			Anthrakios Anthrakaios Anthrakiophoros Anthrakiogonos Anthrakias Hieronthrakia Anthrakis Anthrakos Anthrakiocharistos Anthrakiodoros Anthrakiodotos Anthrakioktistos Anthrakiodoulos Anthrakiophanes Anthrakiophylaktos
+			# Nais based # Nais is a goddess 
+			Naisos Naisaios Naisophoros Naisogonos Naisias Hieronais Nais Naisos Naisocharistos Naisodoros Naisodosios Naisodotos Naisodoulos Naisoktistos Naisophanes Naisophylaktos
+			# Helios Based # Elios in Pontic # Elios is a god
+			Elios Elaios Eliophoros Eliogonos Elias Ieroelios Eliocharistos Eliodoros Eliodosios Eliodotos Elioktistos Eliodulos Eliophanes Eliophulaktos
+			# Hermes based # Ermes in Pontic # Ermes is a god
+			Ermeios Ermaios Ermophoros Ermogonos Ermeias Ermes Ermeos Ermecharistos Ermedoros Ermodosios Ermodotos Ermodoulos Ermoktistos Ermophanes Ermophylaktos
+			# Rhea based # Rhea is a goddess
+			Rheios Rhaios Rheophoros Rheogonos Rheias Hierorhea Rheas Rheos Rheocharistos Rheodoros Rheodosios Rheodotos Rheodoulos Rheoktistos Rheophanes Rheophylaktos
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartholomaios in Pontic # Bartholomew is a dude
+			Bartholomophoros Bartholomogonos Bartholomias Bartholomes Bartholomos Bartholomocharistos Bartholomodoros Bartholomodosios Bartholomodotos Bartholomodoulos Bartholomoktistos Bartholomophanes Bartholomophylaktos
+			# Christ based # Christos in Pontic # Christ is a god
+			Christios Christaios Christogonos Christias Hierochristos Christos Christocharistos Christodoros Christodosios Christodosos Christodoulos Christoktistos Christophanes Christophylaktos
+			# Daniel based # Daniel in Pontic # Daniel is a dude
+			Danielios Danielaios Danielophoros Danielogonos Danielias Danieles Danielos Danielocharistos Danielodoros Danielodosios Danielodotos Danielodoulos Danieloktistos Danielophanes Damielophylaktos
+			# Michael based # Michael is a dude
+			Michaelios Michaelaios Michaelphoros Michaephoros Michaelgonos Michaelias Hieromichael Michaeles Michaelos Michaelcharistos Michaeldoros Michaeldotos Michaeldoulos Michaelktistos Michaelphanes Michaelphylaktos
+			# Manuel based # Manuel is a dude
+			Manuelios Manuelaios Manuelphoros Manuelgonos Manuelias Hieromanuel Manueles Manuelos Manuelcharistos Manueldoros Manueldosios Manueldotos Manueldoulos Manuelktistos Manuelphanes Manuelphylaktos
+			# Emmanuel based # Emmanuel is a god
+			Emmanuelios Emmanuelaios Emmanuelphoros Emmanuelgonos Emmanuelias Hieremmanuel Emmanueles Emmanuelos Emmanuelcharistos Emmanueldosios Emmanueldotos Emmanueldoulos Emmanuelktistos Emmanuelphanes Emmanuelphylaktos
+			# TEMPLATES FOR THEOPHORIC NAMES
+			# NAMEios # NAMEaios #NAMEphoros #NAMEgonos #NAMEias #HieroNAME #NAMEs #NAMEos #NAMEcharistos #NAMEdoros #NAMEdosios #NAMEdotos #NAMEdoulos #NAMEktistos #NAMEphanes #NAMEphylaktos 
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Haru in Pontic
+			Harios Haraios Haruphoros Harugonos Harias Hieroharu Harus Haros Harucharistos Harudoros Harudosios Harudotos Harudulos Haruktistos Haruphanes Haruphylaktos
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Cubele in Pontic # Cybele is a goddess
+			Cubelios Cubelaios Cubelophoros Cubelogonos Cubelias Hierocubele Cubeles Cubelos Cubelocharistos Cubelodoros Cubelodosios Cubelodulos Cubeloktistos Cubelophanes Cubelophulaktos
+			#### WORD BASED
+			# Sunepha # Pontic Greek for cloud
+			Sunephos Sunephaios Sunephoros Sunegonos Sunias Sunephas Sunephocharistos Sunephodoros Sunephodisios Sunephodotos Sunephodoulos Sunephoktistos Sunephophanes Sunephophulaktos
+			# TEMPLATES FOR THEOPHORIC NAMES
+			# NAMEios # NAMEaios #NAMEphoros #NAMEgonos #NAMEias #HieroNAME #NAMEs #NAMEos #NAMEcharistos #NAMEdoros #NAMEdosios #NAMEdotos #NAMEdoulos #NAMEktistos #NAMEphanes #NAMEphylaktos 
+			# ALL VALID anatolian_cybelite NAMES
+			#
+			# NON THEOPHORIC
+			Adrianos Akakios Alexandros Alexios Anastasios Anatolios Andreas Andronikos Anthemios Anthimos Antiochos Antonios Apollonios Arsenios Artemios Athanasios Bardas
+			Basileios Belisarios Boethios Bosporios Chrysanthos Chrysogonos Damianos Demetrios Diogenes Dionysios Dorotheos Eirenaios Eudoxios Eustratios
+			Eugenios Euphemios Eusebios Eustathios Gennadios Georgios Gerasimos Germanos Gregoras Gregorios Hektorios Helias Herakleios Hierotheos Himerios
+			Hippolytos Hypatios Iakobos Ignatios Innokentios Ioulianos Ioustinianos Ioustinos Kaisarios
+			Kallinikos Kallistos Komitas Konstantinos Konstantios Konstas Kosmas Laurentios Leon Leontios Loukas Makarios
+			Maurikios Maximos Megistos Meletios Methodios Narses Neophytos Nikephoros Niketas Nikodemos Nikolaos Niphon Orestes Pamphilios Pankratios Pantoleon Paschalis
+			Pelagios Phokas Photios Polykarpos Porphyrios Prokopios Pyrros Romanos Sergios
+			Staurakios Symmachos Tiberios Traianos
+			Tryphon Valerios Zenobios Zenon
+			# CUBELE THEOPHORIC # CYBELE
+			Cubelios Cubelaios Cubelophoros Cubelogonos Cubelias Hierocubele Cubeles Cubelos Cubelocharistos Cubelodoros Cubelodosios Cubelodulos Cubeloktistos Cubelophanes Cubelophulaktos
+			# GEA THEOPHORIC # GAIA
+			Geios Geaios Geaphoros Geagonos Geias Hierogea Geas Geos Geacharistos Geadoros Geadosios Geadotos Geadoulos Geaktistos Geaphanes Geaphylaktos
+			# Aphrodite based # Aphrodite is a goddess 
+			Aphroditios Aphroditaios Aphroditophoros Aphroditogonos Aphroditias Hieroaphrodite Aphrodites Aphroditeos Aphroditocharistos Aphroditodoros Aphroditodosios Aphroditodotos Aphroditodoulos Aphroditoktistos
+			Aphroditophanes Aphroditophylaktos
+			# Urania based # Pontic traditional spelling of Ourania # Ourania is a goddess
+			Uranios Uranaios Uranophoros Uranogonos Uranias Hierurania Uranias Uranios Uranocharistos Uranodoros Uranodosios Uranodotos Uranodulos Uranoktistos Uranophanes Uranophulaktos
+			# Adonis based # Adonis is a god
+			Adonios Adonaios Adonophoros Adoniphoros Adonogonos Adonigonos Adonias Hieroadonis Adones Adonos Adonocharistos Adonicharistos Adonodoros Adonodoros Adonodosios Adonidosios Adonodoulos Adonidoulos Adonoktistos
+			Adoniktistos Adonophanes Adoniphanes Adonophylaktos Adoniphylaktos
+			# Eos based # Eos is a goddess
+			Eosios Eosaios Eosophoros Eosogonos Eosias Hieroeos Eos Eosos Eosocharistos Eosodoros Eosodosios Eosodotos Eosodoulos Eosoktistos Eosophanes Eosophylaktos
+			# Aristaeos based # Pontic name of Aristaeus#Aristaios # Aristaeos is a god
+			Aristaios Aristaeophoros Aristaeogonos Aristaias Aristaeos Aristaeocharistos Aristaeodoros Aristaeodosios Aristaeodotos Aristaeodoulos Aristaeoktistos Aristaeophanes Aristaeophylaktos
+		}
+		
+		female_names = {
+			Adriane Agathe Agne Aikaterine Alexandra Alexeia Anastasia Anna Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
+			Chrysogone Damiane Demetra Dionysia Dorothea Aigidia Eirene Elaiodora Epiphania Eudokia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne
+			Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene Hypatia Ioanna Ioulia Iouliana Ioustina Kale Konstantia Konstantine Kyra Kyriake
+			Leontia Margarita Maria Markia Martha Melissa Nikarete Nikoletta Nonna Parthena Pavlina Pelagia Pulcheria Rhodanthe Romane Romylia Sergia Sibylla
+			Simonis Sophia Stephania Thekla Theochariste Theodora Theodosia Theognosia Theoktiste Theophano Thomais Valeria Viviana Xene Zenobia Zoe
+			# TEMPLATES FOR THEOPHORIC NAMES
+			#NAMEia #NAMEa #NAMEine #NAMEiake #NAMEita #NAMEete #NAMErete #NAMEoletta #NAMEe #NAMEis #NAMEchariste #NAMEdora #NAMEdosia #NAMEgnosia #NAMEktiste #NAMEphano 
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based
+			Aitaia Aita Aitine Aitiake Aitita Aitete Aitarete Aitoletta Aite Aitais Aitachariste Aitadora Aitadosia Aitagnosia Aitaktiste Aitophano
+			# Ayase based
+			Aiasia Aiasa Aiasine Aiasiake Aiasita Aiasete Aiaserete Aiasoletta Aiase Aiasis Aiasechariste Aiasedora Aiasedosia Aiasegnosia Aiasektiste Aiasephano
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Du in Pontic # Daone Daoke Daota Daote Daorete Daoletta Daos Daochariste Daodora Daodosia Daognosia Daoktiste Daophano
+			Dune Duke Duta Dute Durete Duletta Dus Duchariste Dudora Dudosia Dugnosia Duktiste Duphano
+			# Tao based # Tu in Pontic # Taone Taoke Taota Taote Taorete Taoletta Taos Taochariste Taodora Taodosia Taognosia Taoktiste Taophano
+			Tune Tuke Tuta Tute Turete Tuletta Tus Tuchariste Tudora Tudosia Tugnosia Tuktiste Tuphano
+			# HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu based # Ouronshemou in Pontic
+			Ouronshemou Ouronshemoune Ouronshemouke Ouronshemouta Ouronshemoute Ouronshemourete Ouronshemouletta Ouronshemous Ouronshemouchariste Ouronshemoudora Ouronshemoudosia Ouronshemougnosia Ouronshemouktiste 
+			Ouronshemouphano
+			# Inara based
+			Inaraia Inara Inaraine Inariake Inarita Inaroletta Inare Inarais Inaris Inarachariste Inaradora Inaradosia Inaragnosia Inaraktiste Inaraphano Inarophano
+			# Taru based # Tarou in Pontic
+			Tarouia Taroua Tarouine Taroune Tarouiake Tarouke Tarouake Tarouita Tarouta Tarouete Taroute Tarourete Tarouoletta Tarouletta Taroue Tarouis Tarouchariste Taroudora Taroudosia Tarougnosia Tarouktiste Tarouphano
+			# Hanfasuit based # Anphasoith in Pontic
+			Anphasoithia Anphasoitha Anphasoithine Anphasoithiake Anphasoithita Anphasoithete Anphasoithrete Anphasoitholetta Anphasoithe Anphasoithis Anphasoithchariste Anphasoithdora Anphasoithdosia Anphasoithgnosia
+			Anphasoithktiste Anphasoithphano
+			## HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess
+			Selene Seleneia Selena Seleneine Selenine Seleiake Seleniake Selenake Selenita Seleneta Selenerete Seleneoletta Seleneis Selenechariste Selenedora Selenedosia Selenegnosia Selenektiste Selenephano Selenophano
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god
+			Eridania Eridana Eridanine Eridaniake Eridanita Eridanete Eridanarete Eridanerete Eridanoletta Eridane Eridanis Eridanachariste Eridanechariste Eridanichariste Eridanochariste Eridanadora Eridanedora
+			Eridanidora Eridanodora Eridanadosia Eridanedosia Eridanidosia Eridanodosia Eridanagnosia Eridanegnosia Eridanignosia Eridanognosia Eridanaktiste Eridanektiste Eridaniktiste Eridanoktiste Eridanophano
+			# Adonis based # Adonis is a god
+			Adonia Adona Adonine Adoniake Adonita Adonete Adonorete Adonirete Adonerete Adonoletta Adone Adonis Adonochariste Adonodora Adonidora Adonodosia Adonidosia Adonognosia Adonignosia Adonoktiste Adoniktiste Adonophano
+			Adoniphano
+			# Eirene based # Eirene is a goddess
+			Eireneia Eirenia Eirenea Eirena Eirenine Eireneine Eirenene Eireniake Eireneiake Eireneake Eirenita Eireneta Eireneita Eirenete Eirenerete Eireneoletta Eirenoletta Eirene Eirenis Eireneis Eirenechariste
+			Eirenedora Eirenodora Eirenedosia Eirenodosia Eirenegnosia Eirenognosia Eirenektiste Eirenoktiste Eirenephano Eirenophano
+			# Dione based # Dione is a goddess
+			Dioneia Dionia Dionea Diona Dionine Dioniake Dionita Dionete Dionerete Dionoletta Dione Dionis Dionochariste Dionodora Dionodosia Dionognosia Dionoktiste Dionophano
+			# Eos based # Eos is a goddess
+			Eosia Eosa Eosine Eosiake Eosita Eosete Eosorete Eoserete Eosoletta Eose Eosis Eosochariste Eosodora Eosodosia Eosognosia Eosoktiste Eosophano
+			# Aphrodite based # Aphrodite is a goddess
+			Aphroditia Aphrodita Aphroditine Aphroditiake Aphroditete Aphroditerete Aphroditoletta Aphrodite Aphroditis Aphroditichariste Aphroditochariste Aphroditodora Aphroditognosia Aphroditoktiste Aphroditophano
+			# Ourania based # Ourania is a goddess
+			Ourania Ourana Ouranine Ouraniake Ouranita Ouranete Ouranorete Ouranoletta Ourane Ouranis Ouranochariste Ouranodora Ouranodosia Ouranognosia Ouranoktiste Ouranophano
+			# Urania based # Pontic traditional spelling of Ourania # Ourania is a goddess
+			Urania Urana Uranine Uraniake Uranita Uranete Uranorete Uranoletta Urane Uranis Uranochariste Uranodora Uranodosia Uranognosia Uranoktiste Uranophano
+			# Nyx based # Nyx is a goddess
+			Nyxia Nyxa Nyxine Nyxiake Nyxita Nyxete Nyxyrete Nyxoletta Nyxe Nyxis Nyxochariste Nyxodora Nyxodosia Nyxognosia Nyxoktiste Nyxophano
+			# Myrtoesa based # Myrtoesa is a goddess
+			Myrtoesia Myrtgoesa Myrtoesine Myrtoesiake Myrtoesita Myrtoesete Myrtoerete Myrtoletta Myrtoese Myrtoesis Myrtoeschariste Myrtoesodora Myrtoesodosia Myrtoesognosia Myrtoesoktiste Myrtoesophano
+			# Archiroe based # Archiroe is a goddess
+			Archiroia Archiroa Archiroa Archiroine Archirine Archiroita Archirita Archiroete Archirete Archirorete Archirrete Archiroe Archiroeis Archirois Archiris Archirochariste Archirodora Archirodosia Archirognosia
+			Archiroktiste Archirophano
+			# Hagno based # Hagno is a goddess # Agno in Pontic
+			Agnia Agna Agnine Agniake Agnita Agnete Agnorete Agnoletta Agne Agnis Agnochariste Agnodora Agnodosia Agnognosia Agnoktiste Agnophano
+			# Anthracia based # Anthracia is a goddess # Anthrakia in Pontic
+			Anthrakia Anthraka Anthrakine Anthrakiake Anthrakita Anthrakete Anthrakirete Anthrakoletta Anthrake Anthrakis Anthrakochariste Anthrakodora Anthrakodosia Anthrakognosia Anthrakoktiste Anthrakophano
+			# Nais based # Nais is a goddess 
+			Naisia Naisa Naisine Naisiake Naisita Naisete Naisrete Naisoletta Naise Naisis Naisechariste Naisochariste Naischariste Naisodora Naisognosia Naisoktiste Naisophano
+			# Helios based # Elios in Pontic # Helios is a god
+			Elia Ela Eline Eliake Elita Elete Elirete Eliorete Elioletta Elie Elis Eliochariste Eliodora Eliodosia Eliognosia Elioktiste Eliophano
+			# Hermes based # Ermes in Pontic # Hermes is a god
+			Ermeia Ermesa Ermea Ermeine Ermine Ermeiake Ermiake Ermake Ermeita Ermita Ermete Ermerete Ermesoletta Ermoletta Ermeoletta Erme Ermese Ermechariste Ermodora Ermodosia Ermognosia Ermoktiste Ermophano
+			# Rhea based # Rhea is a goddess
+			Rheia Rhia Rhea Rheine Rhine Rheiake Rhiake Rhake Rheake Rheita Rhita Rheta Rhearete Rheate Rhete Rheoletta Rhe Rheis Rheachariste Rheadora Rheodora Rheadosia Rheodosia Rheagnosia Rheognosia Rheaktiste Rheoktiste
+			Rheaphano Rheophano
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartholomaios in Pontic # Bartholomew is a dude
+			Bartholomaia Bartholomia Bartholoma Bartholomine Bartholomiake Bartholomete Bartholomaiorete Bartholomoletta Bartholome Bartholomis Bartholomochariste Bartholomodora Bartholomodosia Bartholomognosia
+			Bartholomoktiste Bartholomophano
+			# Christ based names # Christos in Pontic # Christ is a god
+			Christia Christa Christine Christiake Christita Christete Christorete Christoletta Christe Christis Christochariste Christodora Christodosia Christognosia Christoktiste Christophano
+			# Daniel based # Daniel in Pontic # Daniel is a dude
+			Danielia Daniela Danieline Danieliake Danielita Danielete Danierete Danioletta Danie Danielis Danielochariste Danielodora Danielodosia Danielognosia Danieloktiste Danielophano
+			# Michael based # Michael is a dude
+			Michaelia Michaela Michaeline Michaeliake Michaelita Michaelete Michaerete Michaeloletta Michaele Michaelis Michaelchariste Michaeldora Michaeldosia Michaelgnosia Michaelktiste Michaelphano
+			# Manuel based names # Manuel is a dude
+			Manuelia Manuela Manueline Manueliake Manuelita Manuelete Manuerete Manueloletta Manuele Manuelis Manuelchariste Manueldora Manueldosia Manuelgnosia Manuelktiste Manuelphano
+			# Emmanuel based # Emmanuel is a god
+			Emmanuelia Emmanuela Emmanueline Emmanueliake Emmanuelita Emmanuelete Emmanuerete Emmanueloletta Emmanuele Emmanuelis Emmanuelchariste Emmanueldora Emmanueldosia Emmanuelgnosia Emmanuelktiste Emmanuelphano
+			# TEMPLATES FOR THEOPHORIC NAMES
+			#NAMEia #NAMEa #NAMEine #NAMEiake #NAMEita #NAMEete #NAMErete #NAMEoletta #NAMEe #NAMEis #NAMEchariste #NAMEdora #NAMEdosia #NAMEgnosia #NAMEktiste #NAMEphano 
+			## EGYPTIAN THEOPHORIC NAMES
+			# Horus based # Haru in Pontic # Haru is a god
+			Haria Hara Harine Hariake Harita Harete Harurete Haroletta Hare Haris Haruchariste Harudora Harudosia Harugnosia Haruktiste Haruphano
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Cubele in Pontic # Cybele is a goddess
+			Cubele Cubeleia Cubelia Cubela Cubeline Cubeliake Cubelita Cubelete Cuberete Cubeletta Cubelis Cubelechariste Cubelodora Cubelodosia Cubelognosia Cubeloktiste Cubelophano
+			#### WORD BASED
+			# Sunepha # Pontic for Cloud
+			Sunephia Sunepha Sunephine Sunephiake Sunephita Sunephete Sunephrete Sunepholeta Sunephe Sunephis Sunephochariste Sunephodora Sunephognosia Sunephoktiste Sunephophano
+			#
+			# TEMPLATES FOR THEOPHORIC NAMES
+			#NAMEia #NAMEa #NAMEine #NAMEiake #NAMEita #NAMEete #NAMErete #NAMEoletta #NAMEe #NAMEis #NAMEeia #NAMEaia #NAMEousa #NAMEsia 
+			# ALL VALID anatolian_cybelite NAMES
+			#
+			# NON THEOPHORIC
+			Adriane Agathe Agne Aikaterine Alexandra Alexeia Anastasia Anna Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
+			Chrysogone Damiane Demetra Dionysia Dorothea Aigidia Eirene Elaiodora Epiphania Eudokia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne
+			Eupraxia Eusebia Eustathia Evanthia Garyphallia Georgia Gregoria Helene Hypatia Ioulia Iouliana Ioustina Kale Konstantia Konstantine
+			Leontia Markia Martha Melissa Nikarete Nikoletta Nonna Parthena Pavlina Pelagia Pulcheria Rhodanthe Romane Romylia Sergia Sibylla
+			Sophia Stephania Thekla Valeria Viviana Xene Zenobia Zoe
+			# CUBELE THEOPHORIC # CYBELE
+			Cubele Cubeleia Cubelia Cubela Cubeline Cubeliake Cubelita Cubelete Cuberete Cubeletta Cubelis
+			# GEA THEOPHORIC # GAIA
+			Geia Gea Geine Geiake Geita Geate Gearete Ge Geis Gaia
+			# APHRODITE THEOPHORIC
+			Aphroditia Aphrodita Aphroditine Aphroditiake Aphroditete Aphrodite Aphroditis
+			# APHRODITE CYBELE THEOPHORIC
+			Aphroditia-Cubele Aphroditia-Cubeleia Aphroditia-Cubelia Aphroditia-Cubela Aphroditia-Cubeline Aphroditia-Cubeliake Aphroditia-Cubelita Aphroditia-Cubelete Aphroditia-Cuberete Aphroditia-Cubeletta Aphroditia-Cubelis
+			Aphrodita-Cubele Aphrodita-Cubeleia Aphrodita-Cubelia Aphrodita-Cubela Aphrodita-Cubeline Aphrodita-Cubeliake Aphrodita-Cubelita Aphrodita-Cubelete Aphrodita-Cuberete Aphrodita-Cubeletta Aphrodita-Cubelis
+			Aphroditine-Cubele Aphroditine-Cubeleia Aphroditine-Cubelia Aphroditine-Cubela Aphroditine-Cubeline Aphroditine-Cubeliake Aphroditine-Cubelita Aphroditine-Cubelete Aphroditine-Cuberete Aphroditine-Cubeletta 
+			Aphroditine-Cubelis
+			Aphroditiake-Cubele Aphroditiake-Cubeleia Aphroditiake-Cubelia Aphroditiake-Cubela Aphroditiake-Cubeline Aphroditiake-Cubeliake Aphroditiake-Cubelita Aphroditiake-Cubelite Aphroditiake-Cubelete
+			Aphroditiake-Cuberete Aphroditiake-Cubelette Aphroditiake-Cubeletta Aphroditiake-Cubelis
+			Aphroditete-Cubele Aphroditete-Cubeleia Aphroditete-Cubelia Aphroditete-Cubela Aphroditete-Cubeline Aphroditete-Cubeliake Aphroditete-Cubelita Aphroditete-Cubelite Aphroditete-Cubelete Aphroditete-Cuberete
+			Aphroditete-Cubelette Aphroditete-Cubeletta Aphroditete-Cubelis
+			Aphrodite-Cubele Aphrodite-Cubeleia Aphrodite-Cubelia Aphrodite-Cubela Aphrodite-Cubeline Aphrodite-Cubeliake Aphrodite-Cubelita Aphrodite-Cubelete Aphrodite-Cuberete Aphrodite-Cubeletta Aphrodite-Cubelis
+			Aphroditis-Cubele Aphroditis-Cubeleia Aphroditis-Cubelia Aphroditis-Cubela Aphroditis-Cubeline Aphroditis-Cubeliake Aphroditis-Cubelita Aphroditis-Cubelete Aphroditis-Cuberete Aphroditis-Cubeletta Aphroditis-Cubelis
+			# Urania based # Pontic traditional spelling of Ourania # Ourania is a goddess
+			Urania Urana Uranine Uraniake Uranita Uranete Uranorete Uranoletta Urane Uranis Uranochariste Uranodora Uranodosia Uranognosia Uranoktiste Uranophano
+			# Adonis based # Adonis is a god
+			Adonia Adona Adonine Adoniake Adonita Adonete Adonorete Adonirete Adonerete Adonoletta Adone Adonis Adonochariste Adonodora Adonidora Adonodosia Adonidosia Adonognosia Adonignosia Adonoktiste Adoniktiste Adonophano
+			Adoniphano
+			# Hermes based # Ermes in Pontic # Hermes is a god
+			Ermeia Ermesa Ermea Ermeine Ermine Ermeiake Ermiake Ermake Ermeita Ermita Ermete Ermerete Ermesoletta Ermoletta Ermeoletta Erme Ermese Ermechariste Ermodora Ermodosia Ermognosia Ermoktiste Ermophano Ermephano
+			# Selene based # Selene is a goddess
+			Selene Seleneia Selena Selenine Seleniake Selenake Selenita Seleneta Selenerete Seleneoletta Seleneis Selenechariste Selenedora Selenedosia Selenegnosia Selenektiste Selenephano
+			# Artemis based # Artemis is a goddess
+			Artemia Artema Artemine Artemiake Artemita Artemete Artemirete Artemioletta Arteme Artemis Artemeia Artemaia Artemousa Artemesia
+			# Artemis Selene theophoric
+			Artemia-Selene Artemia-Seleneia Artemia-Selena Artemia-Selenine Artemia-Seleniake Artemia-Selenita Artemia-Selenerete Artemia-Selenoletta Artemia-Seleneis Artemia-Selenechariste Artemia-Selenedora Artemia-Selenedosia
+			Artemia-Selenegnosia Artemia-Selenektiste Artemia-Selenephano
+			Artema-Selene Artema-Seleneia Artema-Selena Artema-Selenine Artema-Seleniake Artema-Selenita Artema-Selenerete Artema-Selenoletta Artema-Seleneis Artema-Selenechariste Artema-Selenedora Artema-Selenedosia
+			Artema-Selenegnosia Artema-Selenektiste Artema-Selenephano
+			Artemine-Selene Artemine-Seleneia Artemine-Selena Artemine-Selenine Artemine-Seleniake Artemine-Selenita Artemine-Selenerete Artemine-Selenoletta Artemine-Seleneis Artemine-Selenechariste Artemine-Selenedora
+			Artemine-Selenegnosia Artemine-Selenedosia Artemine-Selenektiste Artemine-Selenephano
+			Artemiake-Selene Artemiake-Seleneia Artemiake-Selena Artemiake-Selenine Artemiake-Seleniake Artemiake-Selenita Artemiake-Selenerete Artemiake-Selenoletta Artemiake-Seleneis Artemiake-Selenechariste
+			Artemiake-Selenedora Artemiake-Selenedosia Artemiake-Selenegnosia Artemiake-Selenektiste Artemiake-Selenephano
+			Artemita-Selene Artemita-Seleneia Artemita-Selena Artemita-Selenine Artemita-Seleniake Artemita-Selenita Artemita-Selenerete Artemita-Selenoletta Artemita-Seleneis Artemita-Selenechariaste Artemita-Selenedora
+			Artemita-Selenedosia Artemita-Selenegnosia Artemita-Selenektiste Artemita-Selenephano
+			Arteme-Selene Arteme-Seleneia Arteme-Selena Arteme-Selenine Arteme-Seleniake Arteme-Selenita Arteme-Selenerete Arteme-Selenoletta Arteme-Seleneis Arteme-Selenechariste Arteme-Selenedora Arteme-Selenedosia
+			Arteme-Selenegnosia Arteme-Selenektiste Arteme-Selenephano
+			Artemeia-Selene Artemeia-Seleneia Artemeia-Selena Artemeia-Selenine Artemeia-Seleniake Artemeia-Selenita Artemeia-Selenerete Artemeia-Selenoletta Artemeia-Seleneis Artemeia-Selenechariste Artemeia-Selenedora
+			Artemeia-Selenedosia Artemeia-Selenegnosia Artemeia-Selenektiste Artemeia-Selenephano
+			# EKATE BASED # Ekate is the Pontic name for Hecate # Hecate is a witchy goddess
+			Ekateia Ekata Ekatine Ekatita Ekatiake Ekatete Ekarete Ekaterete Ekateoletta Ekatoletta Ekate Ekateis Ekateia Ekataia Ekatousa Ekatesia
+			# Ekate Selene theophoric # goddess of the moon and witchcraft # synthesis of Hekate and Selene
+			Ekateia-Selene Ekateia-Seleneia Ekateia-Selena Ekateia-Selenine Ekateia-Seleniake Ekateia-Selenita Ekateia-Selenerete Ekateia-Selenoletta Ekateia-Seleneis Ekateia-Selenechariste Ekateia-Selenedora Ekateia-Selenedosia
+			Ekateia-Selenegnosia Ekateia-Selenektiste Ekateia-Selenephano
+			Ekata-Selene Ekata-Seleneia Ekata-Selena Ekata-Selenine Ekata-Seleniake Ekata-Selenita Ekata-Selenerete Ekata-Selenoletta Ekata-Seleneis Ekata-Selenechariste Ekata-Selenedora Ekata-Selenedosia Ekata-Selenegnoia
+			Ekata-Selenektiste Ekata-Selenephano
+			Ekatine-Selene Ekatine-Seleneia Ekatine-Selena Ekatine-Selenine Ekatine-Seleniake Ekatine-Selenita Ekatine-Selenerete Ekatine-Selenoletta Ekatine-Seleneis Ekatine-Selenechariste Ekatine-Selenedora Ekatine-Selenedosia
+			Ekatine-Selenegnosia Ekatine-Selenektiste Ekatine-Selenephano
+			Ekatita-Selene Ekatita-Seleneia Ekatita-Selena Ekatita-Selenine Ekatita-Seleniake Ekatita-Selenita Ekatita-Selenerete Ekatita-Selenoletta Ekatita-Seleneis Ekatita-Selenechariste Ekatita-Selenedora Ekatita-Selendosia
+			Ekatita-Selenegnosia Ekatita-Selenektiste Ekatita-Selenephano Ekatousa-Selenereta Ekatoletta-Selenerete Ekate-Selenechariste Ekateia-Selene Ekatousa-Seleneis Ekaterete-Selenegnosia Ekatousa-Selenita Ekatousa-Seleneia
+			Ekatousa-Selenephano Ekatiake-Seleneia Ekateoletta-Selenechariste Ekateia-Selena Ekate-Selenektiste Ekateoletta-Selenine Ekatiake-Selenedora Ekaterete-Selenita Ekatesia-Selenerete Ekarete-Selenedosia 
+			Ekatousa-Selenoletta Ekatete-Selenita Ekate-Selenedosia Ekatiake-Selene Ekate-Seleneia Ekaterete-Selenektiste Ekateia-Selenoletta Ekateis-Selenektiste Ekaterete-Selenedosia Ekatiake-Seleneis Ekatousa-Selene
+			Ekate-Selena Ekatiake-Selenedosia Ekatete-Selene Ekatete-Selenektiste Ekatete-Selenedora Ekarete-Selena Ekaterete-Selenechariste Ekateis-Selenechariste Ekatoletta-Selene Ekatesia-Selenoletta Ekatoletta-Selena 
+			Ekateoletta-Seleneis Ekatesia-Selenephano Ekateia-Selenine Ekaterete-Selenedora Ekatoletta-Selenereta Ekarete-Seleniake Ekateoletta-Selenedora Ekateis-Selenoletta Ekarete-Selenita Ekateia-Selenegnosia Ekatiake-Selena 
+			Ekatiake-Selenereta Ekate-Selenephano Ekatete-Seleniake Ekatesia-Selenegnosia Ekatoletta-Selenedora Ekatesia-Selenereta Ekaterete-Seleneia Ekaterete-Seleneis Ekateoletta-Seleneia Ekatoletta-Selenita 
+			Ekatiake-Selenektiste Ekateis-Selenita Ekateoletta-Selenegnosia Ekatoletta-Seleneis Ekataia-Selenereta Ekateoletta-Selenephano Ekatiake-Selenechariste Ekatete-Selenerete Ekarete-Seleneia Ekateoletta-Selene 
+			Ekarete-Selenine Ekaterete-Selenoletta Ekateis-Selenereta Ekatoletta-Selenephano Ekarete-Selenereta Ekatiake-Selenine Ekateis-Selenedosia Ekateoletta-Selenereta Ekaterete-Selenerete Ekataia-Selenoletta Ekarete-Selene 
+			Ekateia-Seleneis Ekateoletta-Selena Ekatete-Selenereta Ekataia-Seleneia Ekataia-Seleniake Ekataia-Selenephano Ekatousa-Selenechariste Ekatousa-Seleniake Ekatete-Seleneis Ekatesia-Selene Ekarete-Selenephano
+			Ekatesia-Seleneia Ekatete-Selenoletta Ekate-Selenine Ekateia-Selenephano Ekaterete-Selenine Ekataia-Selenegnosia Ekaterete-Selenephano Ekateoletta-Selenoletta Ekataia-Selenerete Ekatiake-Selenita Ekate-Seleneis 
+			Ekatoletta-Selenoletta Ekaterete-Selene Ekatete-Selenechariste Ekateis-Selenerete Ekaterete-Seleniake Ekateis-Selenedora Ekataia-Seleneis Ekatiake-Selenegnosia Ekateia-Seleneia Ekateoletta-Selenektiste 
+			Ekatesia-Selenedosia Ekatesia-Selenedora Ekatoletta-Selenektiste Ekateoletta-Selenerete Ekatesia-Selena Ekataia-Selene Ekate-Selenita Ekaterete-Selenereta Ekataia-Selenektiste Ekatoletta-Selenechariste
+			Ekateis-Selenine Ekate-Seleniake Ekatousa-Selena Ekarete-Selenechariste Ekatiake-Selenoletta Ekatesia-Selenektiste Ekateis-Selene Ekatete-Selenegnosia Ekateia-Seleniake Ekatesia-Selenechariste Ekateis-Seleniake 
+			Ekatesia-Seleniake Ekatoletta-Seleneia Ekatete-Seleneia Ekarete-Selenektiste Ekataia-Selenechariste Ekateis-Seleneis Ekarete-Selenerete Ekateia-Selenereta Ekate-Selenegnosia Ekataia-Selenedosia Ekateoletta-Seleniake
+			Ekatesia-Seleneis Ekateoletta-Selenedosia Ekarete-Seleneis Ekataia-Selenita Ekatousa-Selenine Ekateis-Selenegnosia Ekateia-Selenechariste Ekatete-Selenedosia Ekatiake-Seleniake Ekatoletta-Selenegnosia 
+			Ekatousa-Selenegnosia Ekataia-Selenedora Ekatete-Selenine Ekateia-Selenedora Ekate-Selenereta Ekatete-Selena Ekatete-Selenephano Ekateis-Selenephano Ekateis-Selena Ekateis-Seleneia Ekateia-Selenektiste
+			Ekatesia-Selenine Ekateia-Selenita Ekatoletta-Seleniake Ekate-Selene Ekate-Selenerete Ekarete-Selenegnosia Ekatousa-Selenedosia Ekatousa-Selenektiste Ekate-Selenedora Ekateia-Selenedosia Ekataia-Selenine
+			Ekateia-Selenerete Ekarete-Selenedora Ekatesia-Selenita Ekatoletta-Selenine Ekateoletta-Selenita Ekatoletta-Selenedosia Ekate-Selenoletta Ekatousa-Selenerete Ekatiake-Selenephano Ekatousa-Selenedora
+			Ekarete-Selenoletta Ekaterete-Selena Ekataia-Selena Ekatiake-Selenerete 
+			# Eos based # Eos is a goddess
+			Eosia Eosa Eosine Eosiake Eosita Eosete Eosorete Eoserete Eosoletta Eose Eosis Eosochariste Eosodora Eosodosia Eosognosia Eosoktiste Eosophano
+			# ARISTAEOS BASED # Pontic for Aristaeus or Aristaios # Aristaeos is a god
+			Aristaeia Aristaea Aristaeine Aristaeiake Aristiake Aristaeita Aristita Aristete Aristaete Aristaerete Aristarete Aristolette Aristae Aristaeis Aristais Aristaeia Aristeia Aristaia Aristousa Aristaesia
+			# AERISTAEOS BASED # alternative spelling of Aristaeos which is Pontic for Aristaeus or Aristaios # Aristaeos is a god
+			Aeristaeia Aeristaea Aeristaeine Aeristaeiake Aeristiake Aeristaeita Aeristita Aeristete Aeristaete Aeristaerete Aeristarete Aeristoletta Aeristae Aeristaeis Aeristais Aeristaeia Aeristeia Aeristaia Aeristousa
+			Aeristaesia
+			# Rhea based # Rhea is a goddess
+			Rheia Rhia Rhea Rheine Rhine Rheiake Rhiake Rhake Rheake Rheita Rhita Rheta Rhearete Rheate Rhete Rheoletta Rhe Rheis Rheachariste Rheadora Rheodora Rheadosia Rheodosia Rheagnosia Rheognosia Rheaktiste Rheoktiste
+			Rheaphano Rheophano
+		}
+
+		dynasty_of_location_prefix = "dynnp_of"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+
+		mercenary_names = {
+			{ name = mercenary_company_varangian_guard }
+			{ name = "mercenary_company_heruli" }
+			{ name = "mercenary_company_hoplites_of_place" }
+		}
+	}
+
+	isaurian = { # namelist by Asakhra on Paradox Forums
+		
+		color = { 0.9 0.7 0.9 }
+
+		cadet_dynasty_names = {
+			"Uranetios"
+			"Daogonos"
+			"Melikalaria"
+			"Koralanos"
+			"Magnapolitanai"
+			"Khaldaeos"
+			"Attalata"
+			"Rhaneis"
+			"Arkosene"
+			"Aitaias"
+			"Christoktistos"
+			"Christoktistene"
+			"Margariteis"
+			"Chrysanthian"
+			"Michaeleos"
+			"Eridanodoreia"
+			"Adrianeas"
+			"Rhaion"
+			"Christias"
+		}
+
+		dynasty_names = {
+			"Uranetios"
+			"Daogonos"
+			"Melikalaria"
+			"Koralanos"
+			"Magnapolitanai"
+			"Khaldaeos"
+			"Attalata"
+			"Rhaneis"
+			"Arkosene"
+			"Christoktistios"
+			"Christoktistene"
+			"Margariteis"
+			"Chrysanthian"
+			"Michaeleos"
+			"Eridanodoreia"
+			"Adrianeas"
+			"Rhaion"
+			"Christias"
+		}
+
+		male_names = {
+			Akakios Alkimos Anatolios Antonios Appalios Arbazakios Armamuua Armapiia Armaronzas Armasharruma Arnoubandas Arnuuanda Artemidoros Artemios Aspalios Athenodoros Aurelios Basil Basilios Bematios Bisylas Blas Boniphatios 
+			Bos Cercenius Chrysippos Claudius Constantine Cyril Diodoros Diomedes Diophantos Domitios Eianbias Elpidios Epiphanios Ermamoas Ermapias Eulalios Euphemios Euphronios Euschemon Euskhemon Eustathios Fabius Flavius 
+			Georgios Helenos Helladios Iakobos Iazarmas Iiapiia Iiasharruma Illas Illios Illos Indakos Indas Indes Indos Indous Ioannes Isidoros Kerkenios Khrisapias Khrysippos Kinaru Kinyras Kirsamoas Kirshamuua Kirshapiia 
+			Klaudios Kodisas Kodisseus Kolarbasis Konon Konstantinos Kosmas Kotones Kottones Kottounes Kouas Koudeis Koulapias Koundes Koundis Krates Kratos Kudramuua Kulaarpa Kulapiia Kuruarpa Kurunizurumeri Kurusharma Kuua Kuuata
+			Kydramouas Kyriakos Kyrillos Laios Lalas Lalos Leo Leon Longinos Longinus Loupos Lupus Lydios Mamas Marcian Marinos Marinus Mark Markianos Markos Maximinos Maximinus Maximos Menas Mennas Menodoros Mirasetas Mompraios 
+			Mopsos Mosetas Motas Moupsos Moutas Muksa Mutta Muuaziti Nanios Nannas Nanneis Nikias Nounechios Nounekhios Oadas Obamoutas Opramoas Opramos Orbalasetas Ouprasetas Ouramoutas Pala Palfurius Palphourios Paulinos Paulos
+			Peison Phabios Phlaouios Phlavios Piso Polemon Rhondas Rhondberras Rhondbies Rhonderbemis Rhondes Rhonzdrumeris Rhozarmas Roarbasis Runta Runtapara Runtapiia Sandas Sandatis Shanta Solon Sosandros Stephanos Straton
+			Styrax Taparamuua Taparaziti Tarasios Tarasis Tarazis Tarhuarpa Tarhukuuata Tarhumuua Tarhumuuata Tarhunhila Tarhupiia Tarhusharruma Tarkhimos Tarkhondimotos Tarkhymbios Tati Tberasetas Tberemosis Tedianos Theodoros
+			Theodosios Theophanes Tiberios Tlamoas Tlamuua Touanabias Trokhoarbasis Trokhongilanis Trokhozarmas Trokondas Trokoundes Tuhanapiia Tyrannos Uarpaziti Ubamutta Upparamuua Upparaziti Uramutta Valentine Valentinos 
+			Zakharias
+			# TEMPLATES FOR THEOPHORIC NAMES # CREATE ANEW
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based # Aitah is a goddess # Aita in Isaurian
+			# Ayase based # Ayase is a god # Aiase in Isaurian
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Duu in Isaurian
+			# Tao based # Tuu in Isaurian
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu Based # Urunsemu in Isaurian # Wurunshemu is a goddess
+			# Inara based # Inara is a xenine deity # Inara in Isaurian
+			# Taru based # Taru in Isaurian # Taru is a god
+			# Hanfasuit based # Anphasuuth in Isaurian # Hanfasuit is a goddess
+			##HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess # Seliin in Isaurian
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanos or Eridan in Isaurian
+			# Adonis based # Adonis is a god # Adoñus in Isaurian
+			# Eirene based names # Eirene is a goddess # Eiriin in Isaurian
+			# Dione based # Dione is a goddess # Duuñe in Isaurian
+			# Eos based # Eos is a goddess # Iuus in Isaurian
+			# Aphrodite based # Aphrodite is a goddess # Aphrodite in Isaurian
+			# Ourania based # Ourania is a goddess # Uuraña in Isaurian
+			# Nyx based # Nyx is a goddess # Ñuus in Isaurian
+			# Myrtoesa based # Myrtoesa is a goddess # Murtuusa in Isaurian
+			# Archiroe based # Archiroe is a goddess # Archiruu in Isaurian
+			# Hagno based # Hagno is a goddess # Año in Isaurian
+			# Anthracia based # Anthracia is a goddess # Anthrakia in Isaurian
+			# Nais based # Nais is a goddess # Nais in Isaurian
+			# Helios Based # Eliuus in Isaurian # Helios is a god
+			# Hermes based # Ermes in Isaurian # Hermes is a god
+			# Rhea based # Rhea is a goddess # Rhiia in Isaurian
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartholomiius in Isaurian # Bartholomew is a dude
+			# Christ based # Christos in Isaurian # Christ is a god
+			# Daniel based # Dañiil in Isaurian # Daniel is a dude
+			# Michael based # Maichiil in Isaurian # Michael is a dude
+			# Manuel based # Manuel is a dude # Mañuuel in Isaurian
+			# Emmanuel based # Emmanuel is a god # Em-Mañuuel in Isaurian
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Oros in Isaurian # Horus is a god
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Kuubele in Isaurian # Cybele is a goddess
+		}
+		
+		female_names = {
+			Agathe Aglaia Agne Ailia Akakia Anatolia Antonia
+            Arara Aris Ari Artemidora Artemis Athenodora Aurelia
+            Basilia Diodora Diodora Domitia Elpis Epiphania Eudoxia
+            Eulalia Euphemia Euphronia Eustathia Georgia Helene
+            Ioanne Ioulia Ioulitta Isaura Isidora Katerina
+            Kerkenia Cercenia Khrysippe Chrysippe Klara Klaudia Konnis Kunni Konstantina
+            Kottoneis Kyriake Kyrilla Lala Lalis Lalla Lallia
+            Lallis Laloa Leontia Longina Loukia Loupa Lydia
+            Marina Markia Markiane Maxima Maximina Menodora
+            Nena Nenis Palphouria Paula Pauline Pelagia Phabia
+            Phlavia Rhonesis Kurunashi Sophia Stephania Tedinenis Tatinani
+            Thekla Theodora Theodosia Theophane Tiberia Trebeis Tarpa
+            Trebemis Tarpamira Trokondeis Valeria Valentina Verina
+			# TEMPLATES FOR THEOPHORIC NAMES # CREATE ANEW
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based # Aitah is a goddess # Aita in Isaurian
+			# Ayase based # Ayase is a god # Aiase in Isaurian
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Duu in Isaurian
+			# Tao based # Tuu in Isaurian
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu Based # Urunsemu in Isaurian # Wurunshemu is a goddess
+			# Inara based # Inara is a xenine deity # Inara in Isaurian
+			# Taru based # Taru in Isaurian # Taru is a god
+			# Hanfasuit based # Anphasuuth in Isaurian # Hanfasuit is a goddess
+			##HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess # Seliin in Isaurian
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanos or Eridan in Isaurian
+			# Adonis based # Adonis is a god # Adoñus in Isaurian
+			# Eirene based names # Eirene is a goddess # Eiriin in Isaurian
+			# Dione based # Dione is a goddess # Duuñe in Isaurian
+			# Eos based # Eos is a goddess # Iuus in Isaurian
+			# Aphrodite based # Aphrodite is a goddess # Aphrodite in Isaurian
+			# Ourania based # Ourania is a goddess # Uuraña in Isaurian
+			# Nyx based # Nyx is a goddess # Ñuus in Isaurian
+			# Myrtoesa based # Myrtoesa is a goddess # Murtuusa in Isaurian
+			# Archiroe based # Archiroe is a goddess # Archiruu in Isaurian
+			# Hagno based # Hagno is a goddess # Año in Isaurian
+			# Anthracia based # Anthracia is a goddess # Anthrakia in Isaurian
+			# Nais based # Nais is a goddess # Nais in Isaurian
+			# Helios Based # Eliuus in Isaurian # Helios is a god
+			# Hermes based # Ermes in Isaurian # Hermes is a god
+			# Rhea based # Rhea is a goddess # Rhiia in Isaurian
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartholomiius in Isaurian # Bartholomew is a dude
+			# Christ based # Christos in Isaurian # Christ is a god
+			# Daniel based # Dañiil in Isaurian # Daniel is a dude
+			# Michael based # Maichiil in Isaurian # Michael is a dude
+			# Manuel based # Manuel is a dude # Mañuuel in Isaurian
+			# Emmanuel based # Emmanuel is a god # Em-Mañuuel in Isaurian
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Oros in Isaurian # Horus is a god
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Kuubele in Isaurian # Cybele is a goddess
+		}
+
+		dynasty_of_location_prefix = "dynnp_of"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+
+		mercenary_names = {
+			{ name = mercenary_company_varangian_guard }
+			{ name = "mercenary_company_heruli" }
+			{ name = "mercenary_company_hoplites_of_place" }
+		}
+	}
+
+	cibyrrhaeotine = { # Isaurian names by Asakhra on Paradox Forums # Telchines names from the Bronze Age Maryannu
+		
+		color = { 0.9 0.35 0.6 }
+
+		cadet_dynasty_names = {
+			"Uranetios"
+			"Daogonos"
+			"Melikalaria"
+			"Koralanos"
+			"Magnapolitanai"
+			"Khaldaeos"
+			"Attalata"
+			"Rhaneis"
+			"Arkosene"
+			"Aitaias"
+			"Christoktistos"
+			"Christoktistene"
+			"Margariteis"
+			"Chrysanthian"
+			"Michaeleos"
+			"Eridanodoreia"
+			"Adrianeas"
+			"Rhaion"
+			"Christias"
+		}
+
+		dynasty_names = {
+			"Uranetios"
+			"Daogonos"
+			"Melikalaria"
+			"Koralanos"
+			"Magnapolitanai"
+			"Khaldaeos"
+			"Attalata"
+			"Rhaneis"
+			"Arkosene"
+			"Christoktistios"
+			"Christoktistene"
+			"Margariteis"
+			"Chrysanthian"
+			"Michaeleos"
+			"Eridanodoreia"
+			"Adrianeas"
+			"Rhaion"
+			"Christias"
+		}
+
+		male_names = {
+			Akakios Alkimos Anatolios Antonios Appalios Arbazakios Armamuua Armapiia Armaronzas Armasharruma Arnoubandas Arnuuanda Artemidoros Artemios Aspalios Athenodoros Aurelios Basil Basilios Bematios Bisylas Blas Boniphatios 
+			Bos Cercenius Chrysippos Claudius Constantine Cyril Diodoros Diomedes Diophantos Domitios Eianbias Elpidios Epiphanios Ermamoas Ermapias Eulalios Euphemios Euphronios Euschemon Euskhemon Eustathios Fabius Flavius 
+			Georgios Helenos Helladios Iakobos Iazarmas Iiapiia Iiasharruma Illas Illios Illos Indakos Indas Indes Indos Indous Ioannes Isidoros Kerkenios Khrisapias Khrysippos Kinaru Kinyras Kirsamoas Kirshamuua Kirshapiia 
+			Klaudios Kodisas Kodisseus Kolarbasis Konon Konstantinos Kosmas Kotones Kottones Kottounes Kouas Koudeis Koulapias Koundes Koundis Krates Kratos Kudramuua Kulaarpa Kulapiia Kuruarpa Kurunizurumeri Kurusharma Kuua Kuuata
+			Kydramouas Kyriakos Kyrillos Laios Lalas Lalos Leo Leon Longinos Longinus Loupos Lupus Lydios Mamas Marcian Marinos Marinus Mark Markianos Markos Maximinos Maximinus Maximos Menas Mennas Menodoros Mirasetas Mompraios 
+			Mopsos Mosetas Motas Moupsos Moutas Muksa Mutta Muuaziti Nanios Nannas Nanneis Nikias Nounechios Nounekhios Oadas Obamoutas Opramoas Opramos Orbalasetas Ouprasetas Ouramoutas Pala Palfurius Palphourios Paulinos Paulos
+			Peison Phabios Phlaouios Phlavios Piso Polemon Rhondas Rhondberras Rhondbies Rhonderbemis Rhondes Rhonzdrumeris Rhozarmas Roarbasis Runta Runtapara Runtapiia Sandas Sandatis Shanta Solon Sosandros Stephanos Straton
+			Styrax Taparamuua Taparaziti Tarasios Tarasis Tarazis Tarhuarpa Tarhukuuata Tarhumuua Tarhumuuata Tarhunhila Tarhupiia Tarhusharruma Tarkhimos Tarkhondimotos Tarkhymbios Tati Tberasetas Tberemosis Tedianos Theodoros
+			Theodosios Theophanes Tiberios Tlamoas Tlamuua Touanabias Trokhoarbasis Trokhongilanis Trokhozarmas Trokondas Trokoundes Tuhanapiia Tyrannos Uarpaziti Ubamutta Upparamuua Upparaziti Uramutta Valentine Valentinos 
+			Zakharias
+			
+			##ISAURIAN THEOPHORIC NAMES##
+			
+			# TEMPLATES FOR THEOPHORIC NAMES # CREATE ANEW
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based # Aitah is a goddess # Aita in Isaurian
+			# Ayase based # Ayase is a god # Aiase in Isaurian
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Duu in Isaurian
+			# Tao based # Tuu in Isaurian
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu Based # Urunsemu in Isaurian # Wurunshemu is a goddess
+			# Inara based # Inara is a xenine deity # Inara in Isaurian
+			# Taru based # Taru in Isaurian # Taru is a god
+			# Hanfasuit based # Anphasuuth in Isaurian # Hanfasuit is a goddess
+			##HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess # Seliin in Isaurian
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanos or Eridan in Isaurian
+			# Adonis based # Adonis is a god # Adoñus in Isaurian
+			# Eirene based names # Eirene is a goddess # Eiriin in Isaurian
+			# Dione based # Dione is a goddess # Duuñe in Isaurian
+			# Eos based # Eos is a goddess # Iuus in Isaurian
+			# Aphrodite based # Aphrodite is a goddess # Aphrodite in Isaurian
+			# Ourania based # Ourania is a goddess # Uuraña in Isaurian
+			# Nyx based # Nyx is a goddess # Ñuus in Isaurian
+			# Myrtoesa based # Myrtoesa is a goddess # Murtuusa in Isaurian
+			# Archiroe based # Archiroe is a goddess # Archiruu in Isaurian
+			# Hagno based # Hagno is a goddess # Año in Isaurian
+			# Anthracia based # Anthracia is a goddess # Anthrakia in Isaurian
+			# Nais based # Nais is a goddess # Nais in Isaurian
+			# Helios Based # Eliuus in Isaurian # Helios is a god
+			# Hermes based # Ermes in Isaurian # Hermes is a god
+			# Rhea based # Rhea is a goddess # Rhiia in Isaurian
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartholomiius in Isaurian # Bartholomew is a dude
+			# Christ based # Christos in Isaurian # Christ is a god
+			# Daniel based # Dañiil in Isaurian # Daniel is a dude
+			# Michael based # Maichiil in Isaurian # Michael is a dude
+			# Manuel based # Manuel is a dude # Mañuuel in Isaurian
+			# Emmanuel based # Emmanuel is a god # Em-Mañuuel in Isaurian
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Oros in Isaurian # Horus is a god
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Kuubele in Isaurian # Cybele is a goddess
+			
+			##HATTIAN NORMAL NAMES##
+			Hawurtuh Hantipa Hilapa Hallamul Katu Hanhamarkar Halepina Kaitzi Zarusemuzi Anniwastip Haputu Kakkar Eskatte Harikilamas Hayahanhanu Kaskatte Kaittu Halpupi Anhan Harkif Finduzil Hapramurtu Askas Fashamuruya Finduti 
+			Apramahais Kilianni Furun-kaip Hanharki Hanufel Hamaraz Kapalkimara Estipinu Hamasuitzi Hanti Haluhar Furun-kaipa Hantip Neriku Kizhantip Zisemul Hamashapa Estipa Hamas Lepinduzi Hamuzi Furuya Hayangarga Anufelianu Hangaras
+			Furuyahanga Fa-zarzi Anifa Hallamartu Hilamaruset Halentu Fa-zarzis Halefzi Kaisemurli Arusiyana Anamargari Hamarusiya Hilapupis Akkah Haleftuh Hanamutu Arkizhana Ziset Asazet Hanfashap Hapupi Hallari Astip Hawaskar
+			Niwasuitzi Hawastip Hangarazet Karusim Kakka Pindutip Yahir Aluhanamar Halepinu Alenti Findutuh Lentuh Akkapra Eskar Hanhanham Furuset Eskaputu Hanam Findutipa Astipa Hamul Hantipis Askatuh Askarkif Halam Hamasku 
+			Hanhanamul Haniwas Hamasuit Hanhap Furusiya Lefzi Kusemurufel Furtuh Halki Eskap Eskusim Askap Hilari Alpupis Nerpi Hiliana Halaputiu Kaskahili Hantu Furli Haras Hanfasku Hawas Lentu Karga Kapalentu Hanhait 
+			Kaskarzilam Niwastipinu Hilamuzi Niwaska Karkas Niwashan Kaskaskartu Askusemurtu Nerikifas Asbarzis Hapramas Karamurufel Hallar Arkimanu Arusemutu Arkaksazet Akkaku Zarzis Dahir Kaskapa Halkim Hawurzis Allamarkim
+			Kalepis Felianu Furun-kap Argarkap Kashar Anamas Ashana Hargar Hayaheriku Kartu Kaskah Arkap Estipalepi Zisemutu Estiu Zarikilam Karkizhaip Haluh Astipis Zaraz Apupi Assuitah Feltu Hallarkatte Alentuh Zarzi Hangara
+			Halmartu Eskaiset Furufa Kastipa Kasti Fa-zaras Hawaskari Akkarga Arkimarkim Alputip Karkim Askalu Hamari Eskusemul Estipi Eskaha Kasbarzi Hangari Hawurzi Kakkasbar Kalkim Furuyah Kaskattu Kahtu Askatu Hanniwaskas
+			Kaherpi Haipindutuh Hapra Hanifa-zar Assuit Eskari Kaisemuzi Asuit Hannifa Harga Nikusemutu Finufeltu Karzi Apramutiu Hilarastip Arkim Fassufelian Elzisemutu Estipsuit Arasuitahtu Furtu Aksaf Hawaskatte Yanfa Asbartu 
+			Kalkimantuh Kasbar Alepinu Astipalmah Fassufaskas Hanga Apram Annif Kasuit Asbarzi Kalentipi Hilap Kusemul Nerpinu Hamaskahil Leftu Kashana Katuh Zarkif Ashanu Halputu Hanfas Hanamani Arufel Lentuhan Kalepina Alamurli
+			Kassuit Askarkim Hayah Harzi Hamuzil Hawasbarkar Zarki Kassimas Kattu Haitahtu Halamurtuh Halkif Hilamartu Hayahir Asbar Furun-kas Kasuitzi Aksaz Asuittu Kaluh Halmara Finamul Hartu Kakkatte Haleftu Haprazet Hayanfa 
+			Haitzi Hawassiyah Hanhanu Kashaip Hanfa-zarki Lepina Furusim Askara Aprazet Hanni Apaluh Lentip Kassim Harkarzi Furun-kar Pisemuzi Harkizhanu Kaiset Furusemul Akkatte Pinufelzi Hanfa Feltuh Kahili Furun-kasku Akkahais
+			Hawurtu Pindutuh Hallamariku Halentipa Ariku Hapupinduzi
+			
+			##HATTIAN THEOPHORIC NAMES##
+			
+			# TEMPLATES FOR THEOPHORIC NAMES # CREATE ANEW
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based # Aitah is a goddess # Kaitah in Hattian
+			# Ayase based # Ayase is a god # Aia-se in Hattian
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Du in Hattian
+			# Tao based # Tu in Hattian
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu Based # Wurunshemu in Hattian # Wurunshemu is a goddess
+			# Inara based # Inara is a xenine deity # Inara in Hattian
+			# Taru based # Taru in Hattian # Taru is a god
+			# Hanfasuit based # Hanfasuit in Hattian # Hanfasuit is a goddess
+			# Furu-Semu based # Furu-Semu in Hattian # Furu-Semu is a goddess
+			# Furun-Katte based # Furun-Katte in Hattian # Furun-Katte is a god
+			# Kasku based # Kasku in Hattian # Kasku is a god
+			# Katahziwuri based # Katahziwuri in Hattian # Katahziwuri is a god
+			# Halmassuit based # Halmassuit in Hattian # Halmassuit is a goddess
+			# Hantapali based # Hantapali in Hattian # Hantapali is a god
+			# Hashammil based # Hashammil in Hattian # Hashammil is a god
+			# Kakshazet based # Kakshazet in Hattian # Kakshazet is a god
+			# Kashtuwarit based # Kashtuwarit in Hattian # Kashtuwarit is a goddess
+			# Tahakshaziatis based # Tahakshaziatis in Hattian # Tahakshaziatis is a xenine deity
+			##HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess # Sel-Enne in Hattian
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanka or Eridan in Hattian
+			# Adonis based # Adonis is a god # Adonis in Hattian
+			# Eirene based names # Eirene is a goddess # Airini in Hattian
+			# Dione based # Dione is a goddess # Dihone in Hattian
+			# Eos based # Eos is a goddess # Ezos in Hattian
+			# Ez-Ezzos # Alt Hattian name of Ezos # AKA Eos
+			# Aphrodite based # Aphrodite is a goddess # Afrodaiti in Hattian
+			# Ourania based # Ourania is a goddess # Wuranian in Hatian
+			# Nyx based # Nyx is a goddess # Nu-Setian in Hattian
+			# Myrtoesa based # Myrtoesa is a goddess # Murtohessa in Hattian
+			# Archiroe based # Archiroe is a goddess # Arkiranna in Hattian
+			# Hagno based # Hagno is a goddess # Haknah in Hattian
+			# Anthracia based # Anthracia is a goddess # Antaharakian in Hattian
+			# Nais based # Nais is a goddess # Nais in Hattian
+			# Helios Based # Helihos in Hattian # Helios is a god
+			# Hermes based # Herkemes in Hattian # Hermes is a god
+			# Rhea based # Rhea is a goddess # Resha in Hattian
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartahalomaishos in Hattian # Bartholomew is a dude
+			# Christ based # Kuris-Itos in Hattian # Christ is a god
+			# Daniel based # Danikel in Hattian # Daniel is a dude
+			# Michael based # Maikel in Hattian # Michael is a dude
+			# Manuel based # Manuel is a dude # Maniwel in Hattian
+			# Emmanuel based # Emmanuel is a god # Em-Maniwel
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Horus in Hattian # Horus is a god
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Kibelle in Hattian # Cybele is a goddess
+			
+			## TELCHINES NORMAL NAMES ##
+			
+			Ageleus Aigeus Aigialeus Aiglapios Aineus Akhilleus Akraipheus Amphiktyon Amyntor Asbetos Asgelatas Athamas Atreus Atumnios Bliarios Epopeus Erekhtheus Eurystheus Guneus Hephaistos Hypseus Iapetos Idomeneus Kadmos 
+			Kaineus Kalydnos Kapaneus Katreus Kekrops  Korythos Labdakos Leonteus Lethos Leukopeus Melanthos Melisseus Membliaros Menestheus  Menoikeus Nanas Narkissos Neleus Nireus Nykteus Odlukeus Oileus Oineus Ophioneus
+			Orestheus Pandareus Pelasgos Penthilos Phereus Phoinikes Phrastor Phthonos Pittakos Prosymnos Proteus Pylaios Rhadamanthys Sisyphos Teutamos Theseus Thyreus Titaresios Trikorynthos Tydeus Udaeus Xanthos
+			
+			##Telchines THEOPHORIC NAMES##
+			
+			# TEMPLATES FOR THEOPHORIC NAMES # CREATE ANEW
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based # Aitah is a goddess # Eita in Telchines
+			# Ayase based # Ayase is a god # Eiase in Telchines
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Deuros in Telchines
+			# Tao based # Teuros in Telchines
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu Based # Euronsemeleia in Telchines # Wurunshemu is a goddess
+			# Inara based # Inara is a xenine deity # Einara in Telchines
+			# Taru based # Taros in Telchines # Taru is a god
+			# Hanfasuit based # Anphaseitheia in Telchines # Hanfasuit is a goddess
+			# Anphaseithe alternate name of Amphaseitheia # Hanfasuit # a goddess
+			# Furu-Semu based # Pheuro-Semo in Telchines # Furu-Semu is a goddess
+			# Furun-Katte based # Pheuron-Katti in Telchines # Furun-Katte is a god
+			# Kasku based # Kasko in Telchines # Kasku is a god
+			# Katahziwuri based # Kathaseioureus in Telchines # Katahziwuri is a god
+			# Halmassuit based # Almasetheia in Telchines # Halmassuit is a goddess
+			# Almasitheia alternate name of Almasetheia # Halmassuit # a goddess
+			# Almasethe alternate name of Almasetheia # Halmassuit # a goddess
+			# Almasithe alternate name of Almasetheia # Halmassuit # a goddess
+			# Hantapali based # Antapalus in Telchines # Hantapali is a god
+			# Hashammil based # Assamelus in Telchines # Hashammil is a god
+			# Kakshazet based # Kassiaseus in Telchines # Kakshazet is a god
+			# Kashtuwarit based # Castuiareia in Telchines # Kashtuwarit is a goddess
+			# Tahakshaziatis based # Takssasiatis in Telchines # Tahakshaziatis is a xenine deity
+			##HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess # Selene in Telchines
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanus or Eridan in Telchines
+			# Adonis based # Adonis is a god # Adonis in Telchines
+			# Eirene based names # Eirene is a goddess # Eirene in Telchines
+			# Dione based # Dione is a goddess # Deione in Telchines
+			# Eos based # Eos is a goddess # Eos in Telchines
+			# Esesseia # Telchines form of Ez-Ezzos# an alt Hattian name of Ezos # AKA Eos
+			# Aphrodite based # Aphrodite is a goddess # Aphroditeia in Telchines
+			# Ourania based # Ourania is a goddess # Euraneia in Telchines
+			# Nyx based # Nyx is a goddess # Nissa in Telchines
+			# Myrtoesa based # Myrtoesa is a goddess # Mirthessa in Telchines
+			# Nirthessa based # alternate name of Myrtoesa # a goddess
+			# Archiroe based # Archiroe is a goddess # Arkiroe in Telchines
+			# Hagno based # Hagno is a goddess # Haknah in Hattian
+			# Anthracia based # Anthracia is a goddess # Anthrakia in Telchines
+			# Nais based # Nais is a goddess # Nais in Yelchines
+			# Helios Based # Eleius in Telchines # Helios is a god
+			# Hermes based # Eremus in Telchines # Hermes is a god
+			# Rhea based # Rhea is a goddess # Reia in Telchines
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartholomaius in Telchines # Bartholomew is a dude
+			# Christ based # Kristus in Telchines # Christ is a god
+			# Daniel based # Daneiel in Telcines # Daniel is a dude
+			# Michael based # Mikeiel in Telchines # Michael is a dude
+			# Manuel based # Manuel is a dude # Manuel in Telchines
+			# Emmanuel based # Emmanuel is a god # Emmanuel in Telchines
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Orus in Telchines # Horus is a god
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Kibelaia in Telchines # Cybele is a goddess
+			# Kibeleia alt name of Kibelaia # Cybele # a goddess
+			# Kubelaia alt name of Kibelaia # Cybele # a goddess
+			# Kubeleia alt name of Kibelaia # Cybele # a goddess
+		}
+		
+		female_names = {
+			Agathe Aglaia Agne Ailia Akakia Anatolia Antonia
+            Arara Aris Ari Artemidora Artemis Athenodora Aurelia
+            Basilia Diodora Diodora Domitia Elpis Epiphania Eudoxia
+            Eulalia Euphemia Euphronia Eustathia Georgia Helene
+            Ioanne Ioulia Ioulitta Isaura Isidora Katerina
+            Kerkenia Cercenia Khrysippe Chrysippe Klara Klaudia Konnis Kunni Konstantina
+            Kottoneis Kyriake Kyrilla Lala Lalis Lalla Lallia
+            Lallis Laloa Leontia Longina Loukia Loupa Lydia
+            Marina Markia Markiane Maxima Maximina Menodora
+            Nena Nenis Palphouria Paula Pauline Pelagia Phabia
+            Phlavia Rhonesis Kurunashi Sophia Stephania Tedinenis Tatinani
+            Thekla Theodora Theodosia Theophane Tiberia Trebeis Tarpa
+            Trebemis Tarpamira Trokondeis Valeria Valentina Verina
+			
+			##ISAURIAN THEOPHORIC NAMES##
+			
+			# TEMPLATES FOR THEOPHORIC NAMES # CREATE ANEW
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based # Aitah is a goddess # Aita in Isaurian
+			# Ayase based # Ayase is a god # Aiase in Isaurian
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Duu in Isaurian
+			# Tao based # Tuu in Isaurian
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu Based # Urunsemu in Isaurian # Wurunshemu is a goddess
+			# Inara based # Inara is a xenine deity # Inara in Isaurian
+			# Taru based # Taru in Isaurian # Taru is a god
+			# Hanfasuit based # Anphasuuth in Isaurian # Hanfasuit is a goddess
+			##HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess # Seliin in Isaurian
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanos or Eridan in Isaurian
+			# Adonis based # Adonis is a god # Adoñus in Isaurian
+			# Eirene based names # Eirene is a goddess # Eiriin in Isaurian
+			# Dione based # Dione is a goddess # Duuñe in Isaurian
+			# Eos based # Eos is a goddess # Iuus in Isaurian
+			# Aphrodite based # Aphrodite is a goddess # Aphrodite in Isaurian
+			# Ourania based # Ourania is a goddess # Uuraña in Isaurian
+			# Nyx based # Nyx is a goddess # Ñuus in Isaurian
+			# Myrtoesa based # Myrtoesa is a goddess # Murtuusa in Isaurian
+			# Archiroe based # Archiroe is a goddess # Archiruu in Isaurian
+			# Hagno based # Hagno is a goddess # Año in Isaurian
+			# Anthracia based # Anthracia is a goddess # Anthrakia in Isaurian
+			# Nais based # Nais is a goddess # Nais in Isaurian
+			# Helios Based # Eliuus in Isaurian # Helios is a god
+			# Hermes based # Ermes in Isaurian # Hermes is a god
+			# Rhea based # Rhea is a goddess # Rhiia in Isaurian
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartholomiius in Isaurian # Bartholomew is a dude
+			# Christ based # Christos in Isaurian # Christ is a god
+			# Daniel based # Dañiil in Isaurian # Daniel is a dude
+			# Michael based # Maichiil in Isaurian # Michael is a dude
+			# Manuel based # Manuel is a dude # Mañuuel in Isaurian
+			# Emmanuel based # Emmanuel is a god # Em-Mañuuel in Isaurian
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Oros in Isaurian # Horus is a god
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Kuubele in Isaurian # Cybele is a goddess
+			
+			##HATTIAN NORMAL NAMES##
+			
+			#ah type	
+			Haleputah Zarahanah Asbarahtait Kahtah Kusimarah Kaluhahtah Hanfah Harikah Lkassiyanah Karah Askakkah Aru-semu Elarammah Karkimasah Karkimah Hateputah Akkaramanah Halmah Estipsuit Hilah Hannah Hayahanah Pisemu
+			Eskastipah Fahannah Kassiyanah Elapah Esaherpah Lkapah Hanahtah Akalarkimah Hawuruyah Hatuhangah Hamasazetah Kifah Karasahtah Niwassimah Eskalkah Zarkimah Alentah Kizhanhah Zarina Akasah Aprassuit Akkattah Estipsufah 
+			Argarah Felarkifah Zisazetah Hilapah Lentah Hatuhamah Estipsufel Asaherpah Hanidu Angah Eskarkilah Zisafasah Finah Arkimarah Furufelah Fassuit Akkasafah Karkifah Lentuhayah Eskarinah Zisafa-zah Kakkah Furlarah
+			Nikizhah Kasuit Fastipah Halapah Hawurufel Haluhargar Furu-semur Kaprazarah Aksah Aprah Halmannifah Fassimah Akkaskah Furuyah Kassuitah Kapalkasah Akkashanah Arazetah Hatepupinah Halepisemu Antah Kashanhah Hannikasah
+			Halkaisetah Feliannah Halmanah Anfassimah Katuhil Kargarammah Hatepinah Hawasah Pinduhamu Lkastipah Anufahallah Halah Kasbar Kimaskapah Katepisah Karkalammah Akkatepinah Kusiyah Haputah Furuyannah Karazetah Hamarazah
+			Kaitah Hilammasah Pisah Asazah Kasuitaisah Felamasah Akkarkifah Alentuhanah Kaskalentah Eskattah Kusimasbar Kapalkarina Ahtah Hallamu Furlapah Argah Hawasbarah Nerindu Karahargah Hawuru-semu Faskah Zarazetah
+			Hawasbarina Hantipah Kifashamah Hatuhalah Harkah Fasuit Hantuhapah Halmaruyah Hanfasbarah Nikimah Hangarah Elarahtah Niwasuitah Furufah Alentipah Hantuhah Akkassuitah Akkastipah Arkimah Kargah Eskalputah Kimanah 
+			Akkakkah Nerpah Haraskait Hamurlamah Halkaitah Nikaleputah Harah Aru-setah Kusiyannidu Hayannah Anfah Akastipah Eskahtah Hattahtah Asuitah Hammasafah Hamarah Antipah Furuna Lkatepisah Hanahapah Hilamurunah Kaksah 
+			Eskasazah Zahtah Assuit Yanah Hammah Nikimarkah Kaluhanfah Akasafah Lkakaruyah Akkarah Eskallah Furu-setah Katepupisah Angargarkah Halpunah Kapramah Hawaskarah Haluhah Hallapah Arkilapah Aruyah Hattah Akaitah Halkah
+			Nerinah Kattaitah Kaprah Askattah Hamah Kimah Karinah Fashah Halepisah Kasuitah Hangarkimah Araskah Eskah Lentaisah Pindu Felah Asaharah Aputah Haniduharah Harkifah Halentipah Lentipah Kakattah Kilah Katuhilah 
+			Hantipsuit Hawuruyanah Haprah Zisetahtah Kusiyantah Lkaskah Furunah Pisetah Hanahanah Astipah Haru-setah Hapunahayah Kastipalmah Hilamah Haluhilah Felianah Hallah Halef Kusiyanfah Estipsuitah Alentuhil Nifa-zah 
+			Arkarah Nifah Hilahalah Halammah Hammanfah Eskapah Kizhanna Kaherpah Hanniwasah Hanufasafah Karkil Alepinah Hanufasah Hantipalah Haluhil Pisetaitah Annah Karuyah Hamasah Niwasah Niwassuitah Furlah Arkizhah Akkapah
+			Kaskaramu Furlamah Taisah Felahtah Hatuhamar Furun-kar Halapallah Estipalah Niwassufel Hanufah Asbarazetah Hapah Hawur Elamah Hawassuitah Arkattah Halkattah Hantah Arkimarinah Aksafah Antuhana Furlar Hamaruyah 
+			Assuitah Assimarina Hawaskattah Kassiyah Aleputah Halpupina Eskasah Katepunah Askarah Anufel Hatuhil Halamah Halkasah Aramuruyah Antuhil Hayah Aramah Nikifasah
+			#anna type
+			Kuana Hamannanna Hamahiranna Harzianna Halpupiana Kattannanna Estiananna Astipina Kaipsufanna Kimanna Kaluhana Kilanna Fa-zanna Akkastianna Hanana Arantipanna Kastipana Hapanna Akkapanna Haluana Arkimaranna Kusiyahana
+			Ziannianna Yaherpianna Kifanna Kuanna Aksafanna Hawurufanna Hilana Kilannanna Fanna Fa-zaranna Aranna Kaprananna Kianna Elamurliana Kalkimanna Kaipana Arkimanna Karanna Hayana Fastiuanna Astiuanna Hamana Apantianna 
+			Zaranna Hilapanna Zanna Karzilanna Karannanna Harkizhanna Kaskuana Harzilianna Hannannanna Nerpinuanna Fassuitanna Hargaranna Hayanna Yanna Lepianna Asazanna Kaitana Asazaranna Elamulanna Nerpina Esafanna Astipisanna
+			Dahanna Kannanna Harana Hayahanna Dahtuhanna Harganna Nikilamana Kassiyanna Astipannana Karikuanna Karkashanna Zilarkianna Hamaranna Hanuana Kasanianna Hantuanna Nerianna Asanna Kahtuanna Harazanna Kilamulanna 
+			Kaitanna Akkahanna Pisanna Kastiuanna Katuhapanna Astianna Kusimasanna Kassuitanna Akkaitana Hapana Aksazaranna Lepina Lepisanna Arganna Asazetanna Elianna Zarkimanna Karazanna Kapupisanna Askasanna Hamanna Aksanganna
+			Nikimanna Hannanna Hamasbarana Ziliana Karkaipina Akkaheriana Lentiuanna Assiyahanna Zilianna Pisafana Kapranna Katuanna Eskuanna Harikilanna Kahanna Halmana Halputipina Daherianna Haipanna Asafanna Karuyanna
+			Akkastipana Kalmanna Apupina Hamuruyanna Zisazanna Haluanna Arazetanna Harianna Zilannanna Kaksanna Kassufana Haitanna Harufanna Apantuanna Harkattanna Halkimanna Kahaluanna Kapaluanna Hamurlianna Kasafasanna
+			Zilaranna Kaputiuanna Kimashanna Ashayanna Haranna Furufanna Kizhanna Zisetanna Kiannanna Nifanna Elapranna Nikuanna Kakuanna Kapana Kaherpina Karzilianna Arkapranna Akkarianna Haluhanna Ashapanna Kaisafanna
+			Kakusimanna Elarzianna Arzianna Elannanna Kaisanna Elanna Yahtuhanna Akuanuanna Hayahamanna Halkilanna Kannananna Kasannanna Arianna Aramanna Hapranna Nianna Ashanna Estiuanna Argarianna Yahannanna Eskatuanna
+			Arkasanna Dahamana Kasbaranna Harazetanna Hanna Arufeliana Kaipina Aksantianna Estianna Harkimana Aksazanna Hanganna Asantuanna Hiranufanna Eskahanna Askaranna Karkilanna Karamulanna Dahannanna Furufelana Karkifanna
+			Esazetanna Pinanna Hanuanna Kanikifanna Dahtuanna Yahanna Arkilanna Kanna Halmanna Akuana Kaskapanna Nikimasanna Hamarganna Akkasanna Lentuhanna Elapanna Kattana Astipanna Haprana Hiranna Hayahananna Nifashanna
+			Aruyanna Hawasanna Eskastipana Karazarana Halapanna Kasazetanna Haipina Kapupianna Halannanna Kahirana Furlianna Kapannanna Kallanuanna Apranna Haramahanna Hilianna Zilapanna Asana Akkaranna Hallannanna Kashanna
+			Asannanna Akusiyanna Eskattanna Eskapanna Kastianna Hallanna Karkakuanna Haprannanna Anhapanna Haputipanna Estipana Hilanna Kaskatuanna Karianna Halanna Nerpianna Hamulanna Hallamanna Annanna Esazanna Furuyahanna
+			Harikuanna Arannanna Anganna Hapaluhanna Pianna Kakkalmana Haitana Askuanna Hamahilanna Halepianna Akkattanna Furuyanna Lentipanna Kaipannanna Zilanna Zarkizhanna Karamangana Halamanna Aksanna Katuhanna Kaipanna
+			Antiuanna Hilannanna Kimana Hawurliana Hantuhanna Kalkizhanna Zisannanna Eliannanna Kasafanna Nerikuanna Kaisetanna Hapannanna Kaluanna
+			# all mixed together
+			Furufana Kiangarina Felanna Apannah Harkil Kattanna Hamanhah Kapanna Hannifanna Kaputah Kariangah Aksahtah Furufel Karinanah Kaipsuit Hatuhamanna Astipsuitah Antuhannana Kashanna Hawastipah Lkaipana Anuanna Niwasanna 
+			Estiana Furliana Harkasanna Kapalpupina Haisah Kimahanna Kilana Antanna Ahtuhanna Apupindu Lkapramanna Niwashannah Nikizhapana Estiuana Assuitah Akkaputah Hapalah Anfasah Assiyah Lepupina Karuna Asafahanna Katuhannah
+			Halamaranna Halarkilana Kallah Halamurlah Kapaluhanna Kifanfah Eskaluhanna Ahtanna Aksannanna Eskattaitah Elana Harzilana Eskakuanna Akkaipana Kapannana Karkilammah Kimasana Hayangarina Hawuruna Kaipanna Asannanna 
+			Akkaruyah Zisetah Nerpinah Feliana Askasah Kaprahamah Kastipah Eskarzilah Kaskah Kasuitanna Kasazanna Hamu Lkapupina Akarkilanna Eskalanna Kaksafanna Katepindu Estipianna Zarkil Hangaruna Zisannah Hargarannah Eskasbar
+			Argahanna Kasbargah Halmasanna Eskassiyah Akkaisah Aleputipah Angaranna Hawastiuana Halarkimah Fasafasana Kashana Apramana Akattah Kanannah Karkilah Hamashannah Karu-setah Aksazetah Kaipah Fasafasanna Kizhanah 
+			Asafasanna Halpuna Antiana Elamu Nikah Zianna Harikusimah Kateputah Haipsuit Arkarufah Nifana Haluhilanna Halkaipahah Eskarah Karazetanna Akkashah Zisah Hananna Kaitahtah Estipanna Hatuana Harantuhana Furlapana Kasah
+			Haisetah Lkapaluana Aputahil Fa-zar Karanhanna Aprazah Kasafah Arzilana Haitah Karannah Ashana Kakapanna Nifanna Dah Ariannah Akkapanah Felamah Angarufel Hatuhilanna Astipsuit Pisafannana Arahapanna Furu-semu 
+			Kusimanna Kah Eskaipah Furlaprah Esafah Kasaherpina Karzilamu Hiramah Hantipina Hapahtah Akkarazanna Lepinah Akassuit Karina Akallarana Akapah Halkifah Zisantipah Halentanna Anfahtanna Hamassuit Halkaluhana Hanah 
+			Karuyanna Fasah Karamanna Esahtah Akkaprah Harasanna Zisafah Zaranidu Elaprah Niwasazanna Lentuhah Elarana Karannanfah Estipisana Kalmannah Aksafahtah Eskassuitah Kasahanna Lkatuhanna Kapah Kaitanna Kasanna Hirah 
+			Kianannah Haruna Estipah Lkakah Kimannah Felana Halkarkimah Kanah Zilah Akatuhapah Haruyahanna Haramah Lkapana Arashanna Arkapah Kakakuanah Antipina Haluhalmana Nikilah Kizhapah Fasanna Nerikilah Asahtuanna Kallaprah 
+			Arina Anuana Hamanfanna Elaruyah Aruyannah Eliannah Pisetahtah Akkashanna Lkarah Niana Akkah Kaipsuitah Haluhana Hamanah Asufelahtah Aprazetah Arasbar Nikilamah Akkarina Harkimah Yahana Fa-zah Zaranna Kargana
+			Askaramanna Karkizhanna Askait Anfana Hamahtah Halahapanna Asah Ashah Kassimah Kallapah Fasuitah Arikilapana Elamanna Kusimah Asannah Halkah Hawuruyanna Kasazah Astianah Nifashamu Zisafanna Zilamu Halkarkifah 
+			Estipisanna Arkiliana Halepisanna Kalmah Aprananna Aksannidu Taitah Aruyanna Elamanganna Arkifasah Eliana Hatuhanna Askapalkil Katuhannana Pisafah Zaruyah Fasbarianna Karuyana Akuanna Katepupina Asantah Argarzianna
+			Haluanah Harina Kakatepina Dahtah Fastianna Eskasana Kasana Akkatuhanna Lentipianna Lkargarina Assiyannah Assimah Arzilah Fasafanna Hapahah Halkaherpah Kilahanna Hallapanna Arkil Kattaipahah Kimasanna Hammanifah Hamur 
+			Nerina Estiannah Alentuhayah Hawurlanna Kasafasah Zarah Akusiyah Karamu Hannannah Akkasazetah Lentipsuit Kimanuanna Kusiyana Hatepuna Hapalputah Kaskasuit Karganna Hannaherina Asbarkilah Halputah Haluannah Kilaranna
+			Kizhah Hatuanna Eskaranna Hattanna Haluhamanna Karasufanna Askashanna Anufelianna Hanuannanna Haipianna Hatepindu Hamurufel Hammanna Askah Aramasanna Kizhayah Akuanah Aksahanna Furufelamah Antipanna Hiliana Leputah
+			Ziliannanna Karkasazana Pisahalah Pisahtah Kapanannana Akkasah Zarannah Akassuitah Aprazanna Kattah Kassuit Aksafana Halaranufah Arkifah Karkimanna Lkatuhana Taipanna Aprannah Kapupina Pinah Kaitah Kalamarah 
+			Kizhahanna Harkattana Fasazanna Harasah Katuanana Harkimanna Nikimanna Felapanna Elamanfah Haisetanna Estipina Argarazah Akait Asuit Hamahtuhana Lentuanna Asbaranna Kalputah Kusiyanna Hayannanna Eskaisafana Karzil 
+			Arahtah Fasbarahana Aprana Kaisazarah Eskassimah Niwassiyah Akalapanna Hawasuit Astipinanna Kalana Harkilanna Hamurlaprah Zilahantah Akkalah Kalkil Arufelah Pisemu Hamulah Hatuhah Alentuanna Arkilamah Akkalputah 
+			Ziliannah Nikarianah Katuhahanna Zarkah Akkaramah Furlamu Alepina Hatuhahanna Aruna Halepina Eskalannah Askaluanna Arana Estipinufel Hariannah Kalepupina Asahanna Hawassuit Harazetah Lepuna Kaskattah Felammargar
+			Harkianna Asazetah Kakkaputah Aksazah Hatepisanna Arahil Kaisah Akapramu Zisazaramah Hamahtaitah Kalanna Angarzianna Lkahanna Hapannahana Akkastipina Antipahanna Kalef Aksafa-zah Eskassuit Karamah Kilarannah Kaksahtah
+			Esaherpina Aputanna Kapananna Nikasah Hapallamah Hilaranna Hamarindu Elammanna Akkakuanna Kaskarah Akashanna Zilamulanna Eskarina Arazannah Akkatuhana Arkizhanna Karzianna Lkalanna Nikattah Kusimana Hallarkimah
+			Nerikaprah Estipananna Hawassufah Haramasah Hatepina
+			
+			##HATTIAN THEOPHORIC NAMES##
+			
+			# TEMPLATES FOR THEOPHORIC NAMES # CREATE ANEW
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based # Aitah is a goddess # Kaitah in Hattian
+			# Ayase based # Ayase is a god # Aia-se in Hattian
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Du in Hattian
+			# Tao based # Tu in Hattian
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu Based # Wurunshemu in Hattian # Wurunshemu is a goddess
+			# Inara based # Inara is a xenine deity # Inara in Hattian
+			# Taru based # Taru in Hattian # Taru is a god
+			# Hanfasuit based # Hanfasuit in Hattian # Hanfasuit is a goddess
+			# Furu-Semu based # Furu-Semu in Hattian # Furu-Semu is a goddess
+			# Furun-Katte based # Furun-Katte in Hattian # Furun-Katte is a god
+			# Kasku based # Kasku in Hattian # Kasku is a god
+			# Katahziwuri based # Katahziwuri in Hattian # Katahziwuri is a god
+			# Halmassuit based # Halmassuit in Hattian # Halmassuit is a goddess
+			# Hantapali based # Hantapali in Hattian # Hantapali is a god
+			# Hashammil based # Hashammil in Hattian # Hashammil is a god
+			# Kakshazet based # Kakshazet in Hattian # Kakshazet is a god
+			# Kashtuwarit based # Kashtuwarit in Hattian # Kashtuwarit is a goddess
+			# Tahakshaziatis based # Tahakshaziatis in Hattian # Tahakshaziatis is a xenine deity
+			##HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess # Sel-Enne in Hattian
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanka or Eridan in Hattian
+			# Adonis based # Adonis is a god # Adonis in Hattian
+			# Eirene based names # Eirene is a goddess # Airini in Hattian
+			# Dione based # Dione is a goddess # Dihone in Hattian
+			# Eos based # Eos is a goddess # Ezos in Hattian
+			# Ez-Ezzos # Alt Hattian name of Ezos # AKA Eos
+			# Aphrodite based # Aphrodite is a goddess # Afrodaiti in Hattian
+			# Ourania based # Ourania is a goddess # Wuranian in Hatian
+			# Nyx based # Nyx is a goddess # Nu-Setian in Hattian
+			# Myrtoesa based # Myrtoesa is a goddess # Murtohessa in Hattian
+			# Archiroe based # Archiroe is a goddess # Arkiranna in Hattian
+			# Hagno based # Hagno is a goddess # Haknah in Hattian
+			# Anthracia based # Anthracia is a goddess # Antaharakian in Hattian
+			# Nais based # Nais is a goddess # Nais in Hattian
+			# Helios Based # Helihos in Hattian # Helios is a god
+			# Hermes based # Herkemes in Hattian # Hermes is a god
+			# Rhea based # Rhea is a goddess # Resha in Hattian
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartahalomaishos in Hattian # Bartholomew is a dude
+			# Christ based # Kuris-Itos in Hattian # Christ is a god
+			# Daniel based # Danikel in Hattian # Daniel is a dude
+			# Michael based # Maikel in Hattian # Michael is a dude
+			# Manuel based # Manuel is a dude # Maniwel in Hattian
+			# Emmanuel based # Emmanuel is a god # Em-Maniwel
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Horus in Hattian # Horus is a god
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Kibelle in Hattian # Cybele is a goddess
+			
+			##TELCHINES NORMAL NAMES##
+			Adrasteia Amaltheia Amathuia Argeia Ariadne Arepuia Bateia Boudeia Daphne Deianira Demonassa Diktynna Eileithyia Euanthe Europa Euryganeia Euryphaessa Galateia Gello Gorgo Harpuia Io Iophossa Iphianassa Iphimedeia 
+			Kalaureia Kassiopeia Keruneia Keto Khariklo Kythereia Lasthaneia Lebadeia Leto Manto Mideia Penelopeia Pero Persophoneia Physadeia Pitane Psalakantha Sappho Semele Skelerdeia Telephassa Tyro
+			
+			##Telchines THEOPHORIC NAMES##
+			
+			# TEMPLATES FOR THEOPHORIC NAMES # CREATE ANEW
+			## AITAHIST THEOPHORIC NAMES
+			# Aitah based # Aitah is a goddess # Eita in Telchines
+			# Ayase based # Ayase is a god # Eiase in Telchines
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Deuros in Telchines
+			# Tao based # Teuros in Telchines
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Wurunshemu Based # Euronsemeleia in Telchines # Wurunshemu is a goddess
+			# Inara based # Inara is a xenine deity # Einara in Telchines
+			# Taru based # Taros in Telchines # Taru is a god
+			# Hanfasuit based # Anphaseitheia in Telchines # Hanfasuit is a goddess
+			# Anphaseithe alternate name of Amphaseitheia # Hanfasuit # a goddess
+			# Furu-Semu based # Pheuro-Semo in Telchines # Furu-Semu is a goddess
+			# Furun-Katte based # Pheuron-Katti in Telchines # Furun-Katte is a god
+			# Kasku based # Kasko in Telchines # Kasku is a god
+			# Katahziwuri based # Kathaseioureus in Telchines # Katahziwuri is a god
+			# Halmassuit based # Almasetheia in Telchines # Halmassuit is a goddess
+			# Almasitheia alternate name of Almasetheia # Halmassuit # a goddess
+			# Almasethe alternate name of Almasetheia # Halmassuit # a goddess
+			# Almasithe alternate name of Almasetheia # Halmassuit # a goddess
+			# Hantapali based # Antapalus in Telchines # Hantapali is a god
+			# Hashammil based # Assamelus in Telchines # Hashammil is a god
+			# Kakshazet based # Kassiaseus in Telchines # Kakshazet is a god
+			# Kashtuwarit based # Castuiareia in Telchines # Kashtuwarit is a goddess
+			# Tahakshaziatis based # Takssasiatis in Telchines # Tahakshaziatis is a xenine deity
+			##HELLENIC THEOPHORIC NAMES
+			# Selene based # Selene is a goddess # Selene in Telchines
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanus or Eridan in Telchines
+			# Adonis based # Adonis is a god # Adonis in Telchines
+			# Eirene based names # Eirene is a goddess # Eirene in Telchines
+			# Dione based # Dione is a goddess # Deione in Telchines
+			# Eos based # Eos is a goddess # Eos in Telchines
+			# Esesseia # Telchines form of Ez-Ezzos# an alt Hattian name of Ezos # AKA Eos
+			# Aphrodite based # Aphrodite is a goddess # Aphroditeia in Telchines
+			# Ourania based # Ourania is a goddess # Euraneia in Telchines
+			# Nyx based # Nyx is a goddess # Nissa in Telchines
+			# Myrtoesa based # Myrtoesa is a goddess # Mirthessa in Telchines
+			# Nirthessa based # alternate name of Myrtoesa # a goddess
+			# Archiroe based # Archiroe is a goddess # Arkiroe in Telchines
+			# Hagno based # Hagno is a goddess # Haknah in Hattian
+			# Anthracia based # Anthracia is a goddess # Anthrakia in Telchines
+			# Nais based # Nais is a goddess # Nais in Yelchines
+			# Helios Based # Eleius in Telchines # Helios is a god
+			# Hermes based # Eremus in Telchines # Hermes is a god
+			# Rhea based # Rhea is a goddess # Reia in Telchines
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartholomaius in Telchines # Bartholomew is a dude
+			# Christ based # Kristus in Telchines # Christ is a god
+			# Daniel based # Daneiel in Telcines # Daniel is a dude
+			# Michael based # Mikeiel in Telchines # Michael is a dude
+			# Manuel based # Manuel is a dude # Manuel in Telchines
+			# Emmanuel based # Emmanuel is a god # Emmanuel in Telchines
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Orus in Telchines # Horus is a god
+			## PELASGIAN THEOPHORIC NAMES
+			# Cybele based # Kibelaia in Telchines # Cybele is a goddess
+			# Kibeleia alt name of Kibelaia # Cybele # a goddess
+			# Kubelaia alt name of Kibelaia # Cybele # a goddess
+			# Kubeleia alt name of Kibelaia # Cybele # a goddess
+		}
+
+		dynasty_of_location_prefix = "dynnp_of"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+
+		mercenary_names = {
+			{ name = mercenary_company_varangian_guard }
+			{ name = "mercenary_company_heruli" }
+			{ name = "mercenary_company_hoplites_of_place" }
+		}
+	}
+	greek = {
+		
+		color = { 0.8 0.3 0.8 }
+
+		cadet_dynasty_names = {
+			"dynn_Macrodoukas"
+			"dynn_Aineidas"
+			"dynn_Kantakouzenos"
+			"dynn_Kastriotis"
+			"dynn_Doukas_Kamateros"
+			"dynn_Skleros"
+			"dynn_Palaiologos"
+			"dynn_Makrembolites"
+			"dynn_Botaneiates"
+			"dynn_Diogenes"
+			"dynn_Komnenos"
+			"dynn_Monomachos"
+			"dynn_Argyros"
+			"dynn_Kourkouas"
+			"dynn_Phokas"
+			"dynn_Stryphnos"
+			"dynn_Gabras"
+			"dynn_Aaron"
+			"dynn_Grammatikos"
+			"dynn_Zeno"
+			"dynn_Bua_Spatas"
+			"dynn_Gavalas"
+			"dynn_Axuchos"
+			"dynn_Kamonas"
+			"dynn_Asidenos"
+			"dynn_Komnenos_Doukas"
+			"dynn_Karatzas"
+			"dynn_Amiroutzes"
+			"dynn_Bessarion"
+			"dynn_Callistus"
+			"dynn_Chalkokondyles"
+			"dynn_Gazis"
+			"dynn_Kourtesios"
+			"dynn_Kallistos"
+			"dynn_Kladas"
+			{ "dynnp_de" "dynn_Patras" }
+			"dynn_Gemistus"
+			"dynn_Allatios"
+			"dynn_Chalcocondyles"
+			"dynn_Korniaktos"
+			"dynn_Damaskenos"
+			"dynn_Eparchos"
+			"dynn_Flanginis"
+			"dynn_FokA_s"
+			"dynn_Heraclides"
+			"dynn_Kallokratos"
+			"dynn_Kottounios"
+			"dynn_Leontaritis"
+			"dynn_Loukanis"
+			"dynn_Margunios"
+			"dynn_Musurus"
+			"dynn_Nafpliotis"
+			"dynn_HatzidA_kis"
+			"dynn_Aprenos"
+			"dynn_Chortatzis"
+			"dynn_Gabrielopoulos"
+			"dynn_Gounaropoulos"
+			"dynn_Belissariotis"
+			"dynn_Konstantopoulos"
+			"dynn_Kavallarios"
+			"dynn_Maniakis"
+			"dynn_Notaras"
+			"dynn_Sgouromallis"
+			"dynn_Epiphanis"
+			"dynn_Logaras"
+			"dynn_Eudaimon"
+			"dynn_Sakellarios"
+			"dynn_Maurozoumis"
+			"dynn_Stylaios"
+			"dynn_Basilakios"
+			"dynn_Mamonas"
+			"dynn_Kekaumenos"
+			"dynn_Metaxas"
+			"dynn_Kanavos"
+			"dynn_Koukouzelis"
+			"dynn_Koresis"
+			"dynn_Makrinos"
+			"dynn_Lambardas"
+			"dynn_Adrianos"
+			"dynn_Agallon"
+			"dynn_Akropolites"
+			"dynn_Aoinos"
+			"dynn_Apokaukos"
+			"dynn_Aprenos"
+			"dynn_Arbantenos"
+			"dynn_Argyros"
+			"dynn_Arianites"
+			"dynn_Atrapes"
+			"dynn_Balsamon"
+			"dynn_Botaneiates"
+			"dynn_Boumbalis"
+			"dynn_Bourtzes"
+			"dynn_Chandrenos"
+			"dynn_Choniates"
+			"dynn_Choumnos"
+			"dynn_Chrysoloras"
+			"dynn_Exazenos"
+			"dynn_Glabas"
+			"dynn_Kabasilas"
+			"dynn_Kalamanos"
+			"dynn_Kaloethes"
+			"dynn_Kalothetos"
+			"dynn_Kantakouzenos"
+			"dynn_Katrares"
+			"dynn_Koresses"
+			"dynn_Kourkouas"
+			"dynn_Kourtikes"
+			"dynn_Laskaris"
+			"dynn_Limpidares"
+			"dynn_Machoneos"
+			"dynn_Makrembolites"
+			"dynn_Malakes"
+			"dynn_Maliasenos"
+			"dynn_Mamalis"
+			"dynn_Mandromenos"
+			"dynn_Manouelites"
+			"dynn_Melachroinos"
+			"dynn_Mourtzouphlos"
+			"dynn_Mouzakios"
+			"dynn_Mouzalon"
+			"dynn_Neokaisareites"
+			"dynn_Nestongos"
+			"dynn_Pantechnes"
+			"dynn_Paraspondylos"
+			"dynn_Petraliphas"
+			"dynn_Petzikopoulos"
+			"dynn_Philanthropenos"
+			"dynn_Phokas"
+			"dynn_Prasomales"
+			"dynn_Prinkips"
+			"dynn_Rossatas"
+			"dynn_Sebastopoulos"
+			"dynn_Segouropoulos"
+			"dynn_Sgouros"
+			"dynn_Sphrantzes"
+			"dynn_Strabomytes"
+			"dynn_Syraneres"
+			"dynn_Syropoulos"
+			"dynn_Tagares"
+			"dynn_Trichas"
+			"dynn_Tsaphas"
+			"dynn_Tzykandeles"
+			"dynn_Zaridas"
+			"dynn_Akunin"
+			"dynn_Abalantes"
+			"dynn_Aboudimos"
+			"dynn_Adralestos"
+			"dynn_Agallianos"
+			"dynn_Akapnes"
+			"dynn_Alopos"
+			"dynn_Alousianos"
+			"dynn_Amiropoulos"
+			"dynn_Anatolikos"
+			"dynn_Andreiomenos"
+			"dynn_Androsalites"
+			"dynn_Angoures"
+			"dynn_Antiochites"
+			"dynn_Antiochos"
+			"dynn_Antipapas"
+			"dynn_Arbintenos"
+			"dynn_Areobindenos"
+			"dynn_Areobindos"
+			"dynn_Argyropoulos"
+			"dynn_Aristenos"
+			"dynn_Artoukomites"
+			"dynn_Arvantenos"
+			"dynn_Aulenos"
+			"dynn_Aulepates"
+			"dynn_Axinites"
+			"dynn_Axiomatikos"
+			"dynn_Balantes"
+			"dynn_Barbaros"
+			"dynn_Bardales"
+			"dynn_Barenos"
+			"dynn_Barys"
+			"dynn_Belissariotes"
+			"dynn_Bempetziotes"
+			"dynn_Beriboes"
+			"dynn_Beriotes"
+			"dynn_Blachernites"
+			"dynn_Blangas"
+			"dynn_BoI_las"
+			"dynn_Bouches"
+			"dynn_Boutzares"
+			"dynn_Bouzenos"
+			"dynn_Brachamios"
+			"dynn_Chaldos"
+			"dynn_Chalkites"
+			"dynn_Chalkoutzes"
+			"dynn_Chamaretos"
+			"dynn_Charsianites"
+			"dynn_Chasanes"
+			"dynn_Chazanes"
+			"dynn_Choinides"
+			"dynn_Chomatenos"
+			"dynn_Chordolibas"
+			"dynn_Choriates"
+			"dynn_Chrouselios"
+			"dynn_Chrousos"
+			"dynn_Chrysanthos"
+			"dynn_Chryselios"
+			"dynn_Chrysobalantites"
+			"dynn_Chytes"
+			"dynn_Daimones"
+			"dynn_Dalessenos"
+			"dynn_Dalassenos_Doukas"
+			"dynn_Dekanos"
+			"dynn_Diabatenos"
+			"dynn_Dikaios"
+			"dynn_Diogenes"
+			"dynn_Domestikopouolos"
+			"dynn_Doukas_Laskaris"
+			"dynn_Doukas_Palaiologos"
+			"dynn_Doxapatres"
+			"dynn_Drakontopoulos"
+			"dynn_Drosinos"
+			"dynn_Drosos"
+			"dynn_Droulenos"
+			"dynn_Elegmites"
+			"dynn_Enochos"
+			"dynn_Epanokomites"
+			"dynn_Ergodotes"
+			"dynn_Erotikos"
+			"dynn_Eugenianos"
+			"dynn_Eugenios"
+			"dynn_Eulogios"
+			"dynn_Exotrochos"
+			"dynn_Gabalas"
+			"dynn_Galaton"
+			"dynn_Gelotes"
+			"dynn_Gidos"
+			"dynn_Glykys"
+			"dynn_Goudeles"
+			"dynn_Gourzoubathenos"
+			"dynn_Granatos"
+			"dynn_Gribas"
+			"dynn_Grispos"
+			"dynn_Gymnos"
+			"dynn_Hagiochrisophorites"
+			"dynn_Hagioprokopites"
+			"dynn_Hagiotheodorites"
+			"dynn_Hagiozacharites"
+			"dynn_Hamartolos"
+			"dynn_Haplorabdes"
+			"dynn_Haploucheir"
+			"dynn_Hexakionites"
+			"dynn_Hexaklinites"
+			"dynn_Hexamilites"
+			"dynn_Hierakes"
+			"dynn_Hikanatos"
+			"dynn_Iasites"
+			"dynn_Iberopoulos"
+			"dynn_Isakiotes"
+			"dynn_Italikos"
+			"dynn_Kaballarios"
+			"dynn_Kabasilas"
+			"dynn_Kaisar"
+			"dynn_Kalameteros"
+			"dynn_Kalamaras"
+			"dynn_Kalampakes"
+			"dynn_Kalognomos"
+			"dynn_Kamytzes_Komnenodoukas"
+			"dynn_Kappadox_Kalampakes"
+			"dynn_Karabitenos"
+			"dynn_Karabitziotes"
+			"dynn_KaraI_onatan"
+			"dynn_Karamallos"
+			"dynn_Karantes"
+			"dynn_Kardamopoulos"
+			"dynn_Karenos"
+			"dynn_Karianites"
+			"dynn_Karkaronymos"
+			"dynn_Karmalikes"
+			"dynn_Karouzeiates"
+			"dynn_Kaspax"
+			"dynn_Kastamonites"
+			"dynn_Katakalon"
+			"dynn_Katakalos"
+			"dynn_Kataphloros"
+			"dynn_Katas"
+			"dynn_Katharos"
+			"dynn_Katotikos"
+			"dynn_Katzamoundes"
+			"dynn_Kegenes"
+			"dynn_Kekaleimenos"
+			"dynn_Keklymmenos"
+			"dynn_Kemineianos"
+			"dynn_Kenchres"
+			"dynn_Kentenares"
+			"dynn_Kephalas"
+			"dynn_Kibyrraiotes"
+			"dynn_Kinnamos"
+			"dynn_Kokkinos"
+			"dynn_Komnenodoukas"
+			"dynn_Konops"
+			"dynn_Kontostephanos_Komnenos"
+			"dynn_Kopsenos"
+			"dynn_Kostomyres"
+			"dynn_Kotertzes"
+			"dynn_Kouloukes"
+			"dynn_Kouneres"
+			"dynn_Kritharas"
+			"dynn_Kritopolos"
+			"dynn_Kyminianos"
+			"dynn_Kynochorites"
+			"dynn_Kyriotes"
+			"dynn_Kyritzes"
+			"dynn_Labouzenos"
+			"dynn_Laktentitzes"
+			"dynn_Lalakon"
+			"dynn_Lampsiotes"
+			"dynn_Lapardas"
+			"dynn_Lependrenos"
+			"dynn_Leukedonites"
+			"dynn_Libadares"
+			"dynn_Libadas"
+			"dynn_Libellisios"
+			"dynn_Limas"
+			"dynn_Liparites"
+			"dynn_Lithokastrites"
+			"dynn_Logariastes"
+			"dynn_Loules"
+			"dynn_Louloukes"
+			"dynn_Lykaon"
+			"dynn_Machetarios"
+			"dynn_Madrites"
+			"dynn_Madytenos"
+			"dynn_Makropoderes"
+			"dynn_MaleI_nos"
+			"dynn_Maleses"
+			"dynn_Mamalos"
+			"dynn_Manganes"
+			"dynn_Marachas"
+			"dynn_Marapas"
+			"dynn_Marchapsabos"
+			"dynn_Marianites"
+			"dynn_Marzapoulos"
+			"dynn_Matzaris"
+			"dynn_Matzas"
+			"dynn_Matzoukes"
+			"dynn_Maurex"
+			"dynn_Maurokatakalos"
+			"dynn_Mauros"
+			"dynn_Maurozomes"
+			"dynn_Mechos"
+			"dynn_Megalommates"
+			"dynn_Megenos"
+			"dynn_Meginos"
+			"dynn_Mermentoulos"
+			"dynn_Mesarites"
+			"dynn_Meschos"
+			"dynn_Mesopotamites"
+			"dynn_Metochites"
+			"dynn_Metropoulos"
+			"dynn_Mitylenaios"
+			"dynn_Monachites"
+			"dynn_Monokarites"
+			"dynn_Moroiannes"
+			"dynn_Mosaraph"
+			"dynn_Moschos"
+			"dynn_Mosele"
+			"dynn_Moungos"
+			"dynn_Mourmoures"
+			"dynn_Moustakes"
+			"dynn_Mozaes"
+			"dynn_Myralides"
+			"dynn_MyredeI_tes"
+			"dynn_Myrelaetes"
+			"dynn_Myron"
+			"dynn_Nabatenos"
+			"dynn_Narbiotes"
+			"dynn_Narsites"
+			"dynn_Neophytos"
+			"dynn_Neustongios"
+			"dynn_Nikerites"
+			"dynn_Nikoulitzes"
+			"dynn_Noe"
+			"dynn_Oinaiotes"
+			"dynn_Olyntenos"
+			"dynn_Opos"
+			"dynn_Pagomenos"
+			"dynn_Paktiares"
+			"dynn_Palaiologos_Komnenos"
+			"dynn_Doukas_Mourtzouphlos"
+			"dynn_Palaiotes"
+			"dynn_Palatinos"
+			"dynn_Pamphilos"
+			"dynn_Panaretos"
+			"dynn_Pankalos"
+			"dynn_Panokomites"
+			"dynn_Parsakoutenos"
+			"dynn_Parthenios"
+			"dynn_Paxenos"
+			"dynn_Pediasimos"
+			"dynn_Peganites"
+			"dynn_Pekoules"
+			"dynn_Pelamedes"
+			"dynn_Pentarkles"
+			"dynn_Pepagomenos"
+			"dynn_Pepanos"
+			"dynn_Perenos"
+			"dynn_Peribleptenos"
+			"dynn_Phalkon"
+			"dynn_Phialites"
+			"dynn_Philaretos"
+			"dynn_Philinos"
+			"dynn_Phrangopolos"
+			"dynn_Pistophilos"
+			"dynn_Pleures"
+			"dynn_Politopolos"
+			"dynn_Pothos"
+			"dynn_Probatas"
+			"dynn_Promountenos"
+			"dynn_Proteuon"
+			"dynn_Ptochos"
+			"dynn_Rentakenos"
+			"dynn_Rizenos"
+			"dynn_Rodios"
+			"dynn_Rogerios"
+			"dynn_Romaios"
+			"dynn_Rousopoulos"
+			"dynn_Sagopoulos"
+			"dynn_Sarakenopoulos"
+			"dynn_Saronites"
+			"dynn_Sauloioannes"
+			"dynn_Semnos"
+			"dynn_Serblias"
+			"dynn_Sikoundenos"
+			"dynn_Sinopites"
+			"dynn_Skandales"
+			"dynn_Skanranos"
+			"dynn_Skeblenos"
+			"dynn_Skleropoulos"
+			"dynn_Skoutariotes"
+			"dynn_Skribas"
+			"dynn_Smyrnaios"
+			"dynn_Solomon"
+			"dynn_Sortes"
+			"dynn_Soumenos"
+			"dynn_Spanogregores"
+			"dynn_Spanopoulos"
+			"dynn_Spondyles"
+			"dynn_Stachytzes"
+			"dynn_Stemnitziotes"
+			"dynn_Strategopoulos"
+			"dynn_Strephnes"
+			"dynn_Stypeiotes"
+			"dynn_Styppes"
+			"dynn_Synacheris"
+			"dynn_Syros"
+			"dynn_Tatikes"
+			"dynn_Tetragonites"
+			"dynn_Theodorokanos"
+			"dynn_Theodosiopolites"
+			"dynn_Thylakas"
+			"dynn_Tilapos"
+			"dynn_Timonites"
+			"dynn_Tourmarchopoulos"
+			"dynn_Traphines"
+			"dynn_Trellos"
+			"dynn_Triakontaphyllos"
+			"dynn_Triblattites"
+			"dynn_Trichinopodes"
+			"dynn_Triphyllios"
+			"dynn_Tzanzes"
+			"dynn_Tzefres"
+			"dynn_Tzetas"
+			"dynn_Tzipoureles"
+			"dynn_Tzirithon"
+			"dynn_Tzoulas"
+			"dynn_Tzoumenes"
+			"dynn_Tzouroulles"
+			"dynn_Tzympenos"
+			"dynn_Vatatzes"
+			"dynn_Xenos"
+			"dynn_Xeros"
+			"dynn_Xiphias"
+			"dynn_Zabareiotes"
+			"dynn_Zagarommates"
+			"dynn_Zerbos"
+			"dynn_Zomes"
+			"dynn_Zonaras"
+			"dynn_Kalomalas"
+			"dynn_Kaloudes"
+			"dynn_Kamateros_Kantakouzenos"
+			"dynn_Kampanarios"
+			"dynn_Kallierges"
+			"dynn_Loukites"
+			"dynn_Kometopoulos"
+			"dynn_Pateranos"
+			"dynn_Paleologo"
+			"dynn_Gregoras"
+			"dynn_Sanudo"
+			"dynn_Komytzes"
+			"dynn_Lascaris"
+			"dynn_Attikos"
+			"dynn_Anastasiotis"
+			"dynn_Evergetidiotis"
+			"dynn_Chliarinos"
+			"dynn_Chysovergis"
+			"dynn_Eugeniotis"
+			"dynn_Vorradiotis"
+			"dynn_Mountanis"
+			"dynn_Theotokitis"
+			"dynn_Viticlenou"
+			"dynn_Autoreianos"
+			"dynn_Akoimitos"
+			"dynn_Charitopoulos"
+			"dynn_Panemorphiotis"
+			"dynn_Hyakinthiotis"
+			"dynn_Galesiotis"
+			"dynn_Bekkos"
+			"dynn_Kyprios"
+			"dynn_Gonitis"
+			"dynn_Pammakaristiotis"
+			"dynn_Perivleptiotis"
+			"dynn_Manganiotis"
+			"dynn_Kalekas"
+			"dynn_Xylaloes"
+			"dynn_Syrikos"
+			"dynn_Tatikios"
+			"dynn_Aspietes"
+			"dynn_Leon"
+			"dynn_Phokas"
+			"dynn_Leon"
+			"dynn_Matteski"
+			{ "dynnp_al-" "dynn_Muzaffar" }
+			"dynn_Kastriotis"
+			"dynn_Kourkoas"
+			"dynn_Euferbenos"
+		}
+
+		dynasty_names = {
+			"dynn_Kantakouzenos"
+			"dynn_Palaiologos"
+			"dynn_Komnenos"
+			"dynn_Macrodoukas"
+			"dynn_Aineidas"
+			"dynn_Kantakouzenos"
+			"dynn_Kastriotis"
+			"dynn_Doukas_Kamateros"
+			"dynn_Skleros"
+			"dynn_Palaiologos"
+			"dynn_Makrembolites"
+			"dynn_Botaneiates"
+			"dynn_Diogenes"
+			"dynn_Komnenos"
+			"dynn_Monomachos"
+			"dynn_Argyros"
+			"dynn_Kourkouas"
+			"dynn_Phokas"
+			"dynn_Stryphnos"
+			"dynn_Gabras"
+			"dynn_Aaron"
+			"dynn_Grammatikos"
+			"dynn_Zeno"
+			"dynn_Bua_Spatas"
+			"dynn_Gavalas"
+			"dynn_Axuchos"
+			"dynn_Kamonas"
+			"dynn_Asidenos"
+			"dynn_Komnenos_Doukas"
+			"dynn_Karatzas"
+			"dynn_Amiroutzes"
+			"dynn_Bessarion"
+			"dynn_Callistus"
+			"dynn_Chalkokondyles"
+			"dynn_Gazis"
+			"dynn_Kourtesios"
+			"dynn_Kallistos"
+			"dynn_Kladas"
+			{ "dynnp_de" "dynn_Patras" }
+			"dynn_Gemistus"
+			"dynn_Allatios"
+			"dynn_Chalcocondyles"
+			"dynn_Korniaktos"
+			"dynn_Damaskenos"
+			"dynn_Eparchos"
+			"dynn_Flanginis"
+			"dynn_FokA_s"
+			"dynn_Heraclides"
+			"dynn_Kallokratos"
+			"dynn_Kottounios"
+			"dynn_Leontaritis"
+			"dynn_Loukanis"
+			"dynn_Margunios"
+			"dynn_Musurus"
+			"dynn_Nafpliotis"
+			"dynn_HatzidA_kis"
+			"dynn_Aprenos"
+			"dynn_Chortatzis"
+			"dynn_Gabrielopoulos"
+			"dynn_Gounaropoulos"
+			"dynn_Belissariotis"
+			"dynn_Konstantopoulos"
+			"dynn_Kavallarios"
+			"dynn_Maniakis"
+			"dynn_Notaras"
+			"dynn_Sgouromallis"
+			"dynn_Epiphanis"
+			"dynn_Logaras"
+			"dynn_Eudaimon"
+			"dynn_Sakellarios"
+			"dynn_Maurozoumis"
+			"dynn_Stylaios"
+			"dynn_Basilakios"
+			"dynn_Mamonas"
+			"dynn_Kekaumenos"
+			"dynn_Metaxas"
+			"dynn_Kanavos"
+			"dynn_Koukouzelis"
+			"dynn_Koresis"
+			"dynn_Makrinos"
+			"dynn_Lambardas"
+			"dynn_Adrianos"
+			"dynn_Agallon"
+			"dynn_Akropolites"
+			"dynn_Aoinos"
+			"dynn_Apokaukos"
+			"dynn_Aprenos"
+			"dynn_Arbantenos"
+			"dynn_Argyros"
+			"dynn_Arianites"
+			"dynn_Atrapes"
+			"dynn_Balsamon"
+			"dynn_Botaneiates"
+			"dynn_Boumbalis"
+			"dynn_Bourtzes"
+			"dynn_Chandrenos"
+			"dynn_Choniates"
+			"dynn_Choumnos"
+			"dynn_Chrysoloras"
+			"dynn_Exazenos"
+			"dynn_Glabas"
+			"dynn_Kabasilas"
+			"dynn_Kalamanos"
+			"dynn_Kaloethes"
+			"dynn_Kalothetos"
+			"dynn_Kantakouzenos"
+			"dynn_Katrares"
+			"dynn_Koresses"
+			"dynn_Kourkouas"
+			"dynn_Kourtikes"
+			"dynn_Laskaris"
+			"dynn_Limpidares"
+			"dynn_Machoneos"
+			"dynn_Makrembolites"
+			"dynn_Malakes"
+			"dynn_Maliasenos"
+			"dynn_Mamalis"
+			"dynn_Mandromenos"
+			"dynn_Manouelites"
+			"dynn_Melachroinos"
+			"dynn_Mourtzouphlos"
+			"dynn_Mouzakios"
+			"dynn_Mouzalon"
+			"dynn_Neokaisareites"
+			"dynn_Nestongos"
+			"dynn_Pantechnes"
+			"dynn_Paraspondylos"
+			"dynn_Petraliphas"
+			"dynn_Petzikopoulos"
+			"dynn_Philanthropenos"
+			"dynn_Phokas"
+			"dynn_Prasomales"
+			"dynn_Prinkips"
+			"dynn_Rossatas"
+			"dynn_Sebastopoulos"
+			"dynn_Segouropoulos"
+			"dynn_Sgouros"
+			"dynn_Sphrantzes"
+			"dynn_Strabomytes"
+			"dynn_Syraneres"
+			"dynn_Syropoulos"
+			"dynn_Tagares"
+			"dynn_Trichas"
+			"dynn_Tsaphas"
+			"dynn_Tzykandeles"
+			"dynn_Zaridas"
+			"dynn_Akunin"
+			"dynn_Abalantes"
+			"dynn_Aboudimos"
+			"dynn_Adralestos"
+			"dynn_Agallianos"
+			"dynn_Akapnes"
+			"dynn_Alopos"
+			"dynn_Alousianos"
+			"dynn_Amiropoulos"
+			"dynn_Anatolikos"
+			"dynn_Andreiomenos"
+			"dynn_Androsalites"
+			"dynn_Angoures"
+			"dynn_Antiochites"
+			"dynn_Antiochos"
+			"dynn_Antipapas"
+			"dynn_Arbintenos"
+			"dynn_Areobindenos"
+			"dynn_Areobindos"
+			"dynn_Argyropoulos"
+			"dynn_Aristenos"
+			"dynn_Artoukomites"
+			"dynn_Arvantenos"
+			"dynn_Aulenos"
+			"dynn_Aulepates"
+			"dynn_Axinites"
+			"dynn_Axiomatikos"
+			"dynn_Balantes"
+			"dynn_Barbaros"
+			"dynn_Bardales"
+			"dynn_Barenos"
+			"dynn_Barys"
+			"dynn_Belissariotes"
+			"dynn_Bempetziotes"
+			"dynn_Beriboes"
+			"dynn_Beriotes"
+			"dynn_Blachernites"
+			"dynn_Blangas"
+			"dynn_BoI_las"
+			"dynn_Bouches"
+			"dynn_Boutzares"
+			"dynn_Bouzenos"
+			"dynn_Brachamios"
+			"dynn_Chaldos"
+			"dynn_Chalkites"
+			"dynn_Chalkoutzes"
+			"dynn_Chamaretos"
+			"dynn_Charsianites"
+			"dynn_Chasanes"
+			"dynn_Chazanes"
+			"dynn_Choinides"
+			"dynn_Chomatenos"
+			"dynn_Chordolibas"
+			"dynn_Choriates"
+			"dynn_Chrouselios"
+			"dynn_Chrousos"
+			"dynn_Chrysanthos"
+			"dynn_Chryselios"
+			"dynn_Chrysobalantites"
+			"dynn_Chytes"
+			"dynn_Daimones"
+			"dynn_Dalessenos"
+			"dynn_Dalassenos_Doukas"
+			"dynn_Dekanos"
+			"dynn_Diabatenos"
+			"dynn_Dikaios"
+			"dynn_Diogenes"
+			"dynn_Domestikopouolos"
+			"dynn_Doukas_Laskaris"
+			"dynn_Doukas_Palaiologos"
+			"dynn_Doxapatres"
+			"dynn_Drakontopoulos"
+			"dynn_Drosinos"
+			"dynn_Drosos"
+			"dynn_Droulenos"
+			"dynn_Elegmites"
+			"dynn_Enochos"
+			"dynn_Epanokomites"
+			"dynn_Ergodotes"
+			"dynn_Erotikos"
+			"dynn_Eugenianos"
+			"dynn_Eugenios"
+			"dynn_Eulogios"
+			"dynn_Exotrochos"
+			"dynn_Gabalas"
+			"dynn_Galaton"
+			"dynn_Gelotes"
+			"dynn_Gidos"
+			"dynn_Glykys"
+			"dynn_Goudeles"
+			"dynn_Gourzoubathenos"
+			"dynn_Granatos"
+			"dynn_Gribas"
+			"dynn_Grispos"
+			"dynn_Gymnos"
+			"dynn_Hagiochrisophorites"
+			"dynn_Hagioprokopites"
+			"dynn_Hagiotheodorites"
+			"dynn_Hagiozacharites"
+			"dynn_Hamartolos"
+			"dynn_Haplorabdes"
+			"dynn_Haploucheir"
+			"dynn_Hexakionites"
+			"dynn_Hexaklinites"
+			"dynn_Hexamilites"
+			"dynn_Hierakes"
+			"dynn_Hikanatos"
+			"dynn_Iasites"
+			"dynn_Iberopoulos"
+			"dynn_Isakiotes"
+			"dynn_Italikos"
+			"dynn_Kaballarios"
+			"dynn_Kabasilas"
+			"dynn_Kaisar"
+			"dynn_Kalameteros"
+			"dynn_Kalamaras"
+			"dynn_Kalampakes"
+			"dynn_Kalognomos"
+			"dynn_Kamytzes_Komnenodoukas"
+			"dynn_Kappadox_Kalampakes"
+			"dynn_Karabitenos"
+			"dynn_Karabitziotes"
+			"dynn_KaraI_onatan"
+			"dynn_Karamallos"
+			"dynn_Karantes"
+			"dynn_Kardamopoulos"
+			"dynn_Karenos"
+			"dynn_Karianites"
+			"dynn_Karkaronymos"
+			"dynn_Karmalikes"
+			"dynn_Karouzeiates"
+			"dynn_Kaspax"
+			"dynn_Kastamonites"
+			"dynn_Katakalon"
+			"dynn_Katakalos"
+			"dynn_Kataphloros"
+			"dynn_Katas"
+			"dynn_Katharos"
+			"dynn_Katotikos"
+			"dynn_Katzamoundes"
+			"dynn_Kegenes"
+			"dynn_Kekaleimenos"
+			"dynn_Keklymmenos"
+			"dynn_Kemineianos"
+			"dynn_Kenchres"
+			"dynn_Kentenares"
+			"dynn_Kephalas"
+			"dynn_Kibyrraiotes"
+			"dynn_Kinnamos"
+			"dynn_Kokkinos"
+			"dynn_Komnenodoukas"
+			"dynn_Konops"
+			"dynn_Kontostephanos_Komnenos"
+			"dynn_Kopsenos"
+			"dynn_Kostomyres"
+			"dynn_Kotertzes"
+			"dynn_Kouloukes"
+			"dynn_Kouneres"
+			"dynn_Kritharas"
+			"dynn_Kritopolos"
+			"dynn_Kyminianos"
+			"dynn_Kynochorites"
+			"dynn_Kyriotes"
+			"dynn_Kyritzes"
+			"dynn_Labouzenos"
+			"dynn_Laktentitzes"
+			"dynn_Lalakon"
+			"dynn_Lampsiotes"
+			"dynn_Lapardas"
+			"dynn_Lependrenos"
+			"dynn_Leukedonites"
+			"dynn_Libadares"
+			"dynn_Libadas"
+			"dynn_Libellisios"
+			"dynn_Limas"
+			"dynn_Liparites"
+			"dynn_Lithokastrites"
+			"dynn_Logariastes"
+			"dynn_Loules"
+			"dynn_Louloukes"
+			"dynn_Lykaon"
+			"dynn_Machetarios"
+			"dynn_Madrites"
+			"dynn_Madytenos"
+			"dynn_Makropoderes"
+			"dynn_MaleI_nos"
+			"dynn_Maleses"
+			"dynn_Mamalos"
+			"dynn_Manganes"
+			"dynn_Marachas"
+			"dynn_Marapas"
+			"dynn_Marchapsabos"
+			"dynn_Marianites"
+			"dynn_Marzapoulos"
+			"dynn_Matzaris"
+			"dynn_Matzas"
+			"dynn_Matzoukes"
+			"dynn_Maurex"
+			"dynn_Maurokatakalos"
+			"dynn_Mauros"
+			"dynn_Maurozomes"
+			"dynn_Mechos"
+			"dynn_Megalommates"
+			"dynn_Megenos"
+			"dynn_Meginos"
+			"dynn_Mermentoulos"
+			"dynn_Mesarites"
+			"dynn_Meschos"
+			"dynn_Mesopotamites"
+			"dynn_Metochites"
+			"dynn_Metropoulos"
+			"dynn_Mitylenaios"
+			"dynn_Monachites"
+			"dynn_Monokarites"
+			"dynn_Moroiannes"
+			"dynn_Mosaraph"
+			"dynn_Moschos"
+			"dynn_Mosele"
+			"dynn_Moungos"
+			"dynn_Mourmoures"
+			"dynn_Moustakes"
+			"dynn_Mozaes"
+			"dynn_Myralides"
+			"dynn_MyredeI_tes"
+			"dynn_Myrelaetes"
+			"dynn_Myron"
+			"dynn_Nabatenos"
+			"dynn_Narbiotes"
+			"dynn_Narsites"
+			"dynn_Neophytos"
+			"dynn_Neustongios"
+			"dynn_Nikerites"
+			"dynn_Nikoulitzes"
+			"dynn_Noe"
+			"dynn_Oinaiotes"
+			"dynn_Olyntenos"
+			"dynn_Opos"
+			"dynn_Pagomenos"
+			"dynn_Paktiares"
+			"dynn_Palaiologos_Komnenos"
+			"dynn_Doukas_Mourtzouphlos"
+			"dynn_Palaiotes"
+			"dynn_Palatinos"
+			"dynn_Pamphilos"
+			"dynn_Panaretos"
+			"dynn_Pankalos"
+			"dynn_Panokomites"
+			"dynn_Parsakoutenos"
+			"dynn_Parthenios"
+			"dynn_Paxenos"
+			"dynn_Pediasimos"
+			"dynn_Peganites"
+			"dynn_Pekoules"
+			"dynn_Pelamedes"
+			"dynn_Pentarkles"
+			"dynn_Pepagomenos"
+			"dynn_Pepanos"
+			"dynn_Perenos"
+			"dynn_Peribleptenos"
+			"dynn_Phalkon"
+			"dynn_Phialites"
+			"dynn_Philaretos"
+			"dynn_Philinos"
+			"dynn_Phrangopolos"
+			"dynn_Pistophilos"
+			"dynn_Pleures"
+			"dynn_Politopolos"
+			"dynn_Pothos"
+			"dynn_Probatas"
+			"dynn_Promountenos"
+			"dynn_Proteuon"
+			"dynn_Ptochos"
+			"dynn_Rentakenos"
+			"dynn_Rizenos"
+			"dynn_Rodios"
+			"dynn_Rogerios"
+			"dynn_Romaios"
+			"dynn_Rousopoulos"
+			"dynn_Sagopoulos"
+			"dynn_Sarakenopoulos"
+			"dynn_Saronites"
+			"dynn_Sauloioannes"
+			"dynn_Semnos"
+			"dynn_Serblias"
+			"dynn_Sikoundenos"
+			"dynn_Sinopites"
+			"dynn_Skandales"
+			"dynn_Skanranos"
+			"dynn_Skeblenos"
+			"dynn_Skleropoulos"
+			"dynn_Skoutariotes"
+			"dynn_Skribas"
+			"dynn_Smyrnaios"
+			"dynn_Solomon"
+			"dynn_Sortes"
+			"dynn_Soumenos"
+			"dynn_Spanogregores"
+			"dynn_Spanopoulos"
+			"dynn_Spondyles"
+			"dynn_Stachytzes"
+			"dynn_Stemnitziotes"
+			"dynn_Strategopoulos"
+			"dynn_Strephnes"
+			"dynn_Stypeiotes"
+			"dynn_Styppes"
+			"dynn_Synacheris"
+			"dynn_Syros"
+			"dynn_Tatikes"
+			"dynn_Tetragonites"
+			"dynn_Theodorokanos"
+			"dynn_Theodosiopolites"
+			"dynn_Thylakas"
+			"dynn_Tilapos"
+			"dynn_Timonites"
+			"dynn_Tourmarchopoulos"
+			"dynn_Traphines"
+			"dynn_Trellos"
+			"dynn_Triakontaphyllos"
+			"dynn_Triblattites"
+			"dynn_Trichinopodes"
+			"dynn_Triphyllios"
+			"dynn_Tzanzes"
+			"dynn_Tzefres"
+			"dynn_Tzetas"
+			"dynn_Tzipoureles"
+			"dynn_Tzirithon"
+			"dynn_Tzoulas"
+			"dynn_Tzoumenes"
+			"dynn_Tzouroulles"
+			"dynn_Tzympenos"
+			"dynn_Vatatzes"
+			"dynn_Xenos"
+			"dynn_Xeros"
+			"dynn_Xiphias"
+			"dynn_Zabareiotes"
+			"dynn_Zagarommates"
+			"dynn_Zerbos"
+			"dynn_Zomes"
+			"dynn_Zonaras"
+			"dynn_Kalomalas"
+			"dynn_Kaloudes"
+			"dynn_Kamateros_Kantakouzenos"
+			"dynn_Kampanarios"
+			"dynn_Kallierges"
+			"dynn_Loukites"
+			"dynn_Kometopoulos"
+			"dynn_Pateranos"
+			"dynn_Paleologo"
+			"dynn_Gregoras"
+			"dynn_Sanudo"
+			"dynn_Komytzes"
+			"dynn_Lascaris"
+			"dynn_Attikos"
+			"dynn_Anastasiotis"
+			"dynn_Evergetidiotis"
+			"dynn_Chliarinos"
+			"dynn_Chysovergis"
+			"dynn_Eugeniotis"
+			"dynn_Vorradiotis"
+			"dynn_Mountanis"
+			"dynn_Theotokitis"
+			"dynn_Viticlenou"
+			"dynn_Autoreianos"
+			"dynn_Akoimitos"
+			"dynn_Charitopoulos"
+			"dynn_Panemorphiotis"
+			"dynn_Hyakinthiotis"
+			"dynn_Galesiotis"
+			"dynn_Bekkos"
+			"dynn_Kyprios"
+			"dynn_Gonitis"
+			"dynn_Pammakaristiotis"
+			"dynn_Perivleptiotis"
+			"dynn_Manganiotis"
+			"dynn_Kalekas"
+			"dynn_Xylaloes"
+			"dynn_Syrikos"
+			"dynn_Tatikios"
+			"dynn_Aspietes"
+			"dynn_Leon"
+			"dynn_Phokas"
+			"dynn_Leon"
+			"dynn_Matteski"
+			{ "dynnp_al-" "dynn_Muzaffar" }
+			"dynn_Kastriotis"
+			"dynn_Kourkoas"
+			"dynn_Euferbenos"
+		}
+
+		male_names = {
+			Adrianos Akakios Alexandros Alexios Anastasios Anatolios Andreas Andronikos Anthemios Anthimos Antiochos Antonios Apollonios Arsenios Artemios Athanasios Bardas
+			Bartholomaios Basileios Belisarios Boethios Bosporios Christophoros Chrysanthos Chrysogonos Damianos Daniel David Demetrios Diogenes Dionysios Dorotheos Eirenaios Eudoxios Eustratios
+			Eugenios Euphemios Eusebios Eustathios Evangelos Gabriel Gennadios Georgios Gerasimos Germanos Gregoras Gregorios Hektorios Helias Herakleios Hierotheos Himerios
+			Hippolytos Hypatios Iakobos Ignatios Innokentios Ioannes Ioannikios Iordanes Ioseph Isaakios Isaias Isidoros Ioulianos Ioustinianos Ioustinos Kaisarios
+			Kallinikos Kallistos Komitas Konstantinos Konstantios Konstas Kosmas Kyriakos Kyrillos Kyros Laurentios Lazaros Leon Leontios Loukas Makarios Manuel Markos
+			Matthaios Maurikios Maximos Megistos Meletios Methodios Michael Narses Neophytos Nikephoros Niketas Nikodemos Nikolaos Niphon Orestes Pamphilios Pankratios Pantoleon Paschalis
+			Pavlos Pelagios Petros Philaretos Philippos Philotheos Phokas Photios Polykarpos Porphyrios Prokopios Pyrros Raphail Romanos Sabas Samuel Serapion Sebastianos Sergios Stephanos
+			Staurakios Symeon Symmachos Theocharistos Theodoros Theodosios Theodotos Theodoulos Theoktistos Theophanes Theophilos Theophylaktos Thomas Tiberios Traianos
+			Timotheos Tryphon Valerios Zacharias Zenobios Zenon
+			Aristarchus Aristarchos
+		}
+		
+		female_names = {
+			Adriane Agathe Agne Aikaterine Alexandra Alexeia Anastasia Anna Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
+			Chrysogone Damiane Demetra Dionysia Dorothea Aigidia Eirene Elaiodora Epiphania Eudokia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne
+			Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene Hypatia Ioanna Ioulia Iouliana Ioustina Kale Konstantia Konstantine Kyra Kyriake
+			Leontia Margarita Maria Markia Martha Melissa Nikarete Nikoletta Nonna Parthena Pavlina Pelagia Petronia Philippa Phyllis Pulcheria Rhodanthe Romane Romylia Sergia Sibylla
+			Simonis Sophia Stephania Thekla Theochariste Theodora Theodosia Theognosia Theoktiste Theophano Thomais Valeria Viviana Xene Zenobia Zoe
+		}
+
+		dynasty_of_location_prefix = "dynnp_of"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+
+		mercenary_names = {
+			{ name = mercenary_company_varangian_guard }
+			{ name = "mercenary_company_heruli" }
+			{ name = "mercenary_company_hoplites_of_place" }
+		}
+	}	
+	vlach = { #Truthfully they should be grouped with the romance cultures or at least their own little balkans romance group. For now will set it to be like CK2 HIP as CK cultural groups are more based on cultural similarities rather than linguistic
+
+		color = { 0.3 0.2 0.2 }
+
+		cadet_dynasty_names = {
+			"dynn_Basarab"
+			"dynn_Dragusin"
+			"dynn_Basarab"
+			"dynn_Litovoi"
+			"dynn_SelimoviC_"
+			"dynn_CsA_ky"
+			"dynn_DezsO_fi"
+			"dynn_Guthi-OrszA_gh"
+			"dynn_MarczaltO_vi"
+			"dynn_Petenye"
+			"dynn_Tibai"
+			"dynn_ZA_ch"
+			"dynn_Szapolyai"
+			"dynn_VA_rdai"
+			"dynn_ProdaniC_"
+			"dynn_Odescalchi"
+			"dynn_Costin"
+		}
+
+		dynasty_names = {
+			"dynn_Basarab"
+			"dynn_Dragusin"
+			"dynn_Basarab"
+			"dynn_Litovoi"
+			"dynn_SelimoviC_"
+			"dynn_CsA_ky"
+			"dynn_DezsO_fi"
+			"dynn_Guthi-OrszA_gh"
+			"dynn_MarczaltO_vi"
+			"dynn_Petenye"
+			"dynn_Tibai"
+			"dynn_ZA_ch"
+			"dynn_Szapolyai"
+			"dynn_VA_rdai"
+			"dynn_ProdaniC_"
+			"dynn_Odescalchi"
+			"dynn_Costin"
+			"dynn_BA_dA_rA_u"
+			"dynn_BA_lA_ceanu"
+			"dynn_Bosie"
+			"dynn_BrA_iloi"
+			"dynn_BuS_ilA_"
+			"dynn_Calerghi"
+			"dynn_Callimachi"
+			"dynn_Cantemir"
+			"dynn_Carianopol"
+			"dynn_Crihan"
+			"dynn_Carionfil"
+			"dynn_Cristescu"
+			"dynn_Casassovici"
+			"dynn_Cesianu"
+			"dynn_ChinteS_ti"
+			"dynn_Chirescu"
+			"dynn_CoteS_ti"
+			"dynn_CraioveS_tilor"
+			"dynn_CrA_snaru"
+			"dynn_Dinastia"
+			"dynn_DA_neS_tilor"
+			"dynn_Diamandy"
+			"dynn_DrA_culeS_tilor"
+			"dynn_DrugA_"
+			"dynn_Eliescu"
+			"dynn_Emandi"
+			"dynn_Filipescu"
+			"dynn_Florescu"
+			"dynn_FundA_T_eni"
+			"dynn_Giosani"
+			"dynn_Golescu"
+			"dynn_GrA_diS_teanu"
+			"dynn_Greceanu"
+			"dynn_Hagi"
+			"dynn_HA_jdA_u"
+			"dynn_Jianu"
+			"dynn_Korne"
+			"dynn_Lecca"
+			"dynn_LereS_ti"
+			"dynn_Magheru"
+			"dynn_Marineanu"
+			"dynn_Miclescu"
+			"dynn_MovilA_"
+			"dynn_MA_nA_stireanu"
+			"dynn_Niculescu_DorobanT_u"
+			"dynn_PA_cleanu"
+			"dynn_Pisoschi"
+			"dynn_PleS_ia"
+			"dynn_PleS_nilA_"
+			"dynn_PleS_oianu"
+			"dynn_RacovitzA_"
+			"dynn_RA_S_canu"
+			"dynn_Rallet"
+			"dynn_Rosetti"
+			"dynn_RusA_neS_ti"
+			"dynn_Savoia"
+			"dynn_Stoicescu"
+			"dynn_S_oarec"
+			"dynn_S_oldan"
+			"dynn_TurbureS_ti"
+			"dynn_UrlA_T_eni"
+			"dynn_VidraS_cu"
+			"dynn_Yarka"
+		}
+
+		male_names = {
+			Adrian Alexandru Anghel Aron Bajan Balc Barbat Basarab Bogdan Carol Ciprian Ciubar Claudiu
+			Corneliu Costin Damjan Dan Dragos Dumitru Emerik Florin Franjo Gavril Gheorghe Grigore Iacob
+			Iancu Ieremia Ilie Ioan Iorghu Iosif Iuga Janos Ladislau Latcu Laurentiu Litovoi Lucian Marin
+			Mihai Milos Mircea Moise Nicolaie Petre Pirvu Radovan Radu Roman Sas Seneslav Sergiu Simion
+			Stefan Stelian Teodor Tepes Tibor Tihomir Timotei Tudor Valentin Valeriu Vasile Veaceslav
+			Victor Vilhelm Vintila Vlad
+		}
+		female_names = {
+			Adelina Adriana Afina Alexandra Alexia Ana Anastasia Angela Arina Christina Clara Dana Ecatarina
+			Elena Elisabeta Emilia Eufroysina Felicia Floarea Iacoba Ioana Ionela Irina Iulia Maria Monica
+			Natalia Olimpia Paraschiva Petra Roxana Ruxandra Smaranda Sophia Stana Stefana Stefania Teodora
+			Tereza Vasilica Violeta Voica Zina
+			
+		}
+		
+		dynasty_of_location_prefix = "dynnp_de"
+		
+		patronym_suffix_male = "dynnpat_suf_escu"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_sheperds_of_the_romans" }
+		}
+	}
+	
+}

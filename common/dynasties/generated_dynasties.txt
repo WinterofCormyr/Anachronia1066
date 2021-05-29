@@ -1,0 +1,6840 @@
+﻿3bronzeage = {
+	name = "dynn_Apries-Set"
+	culture = "upper_egyptian"
+}
+4bronzeage = {
+	name = "dynn_Meryatum-Wosret"
+	culture = "lower_egyptian"
+}
+5bronzeage = {
+	name = "dynn_Rashepses-Renenutet"
+	culture = "lower_egyptian"
+}
+6bronzeage = {
+	name = "dynn_Apries-Set"
+	culture = "lower_egyptian"
+}
+7bronzeage = {
+	name = "dynn_Harkhuf-Wadjet"
+	culture = "lower_egyptian"
+}
+8bronzeage = {
+	name = "dynn_QakareIbi-Anuket"
+	culture = "lower_egyptian"
+}
+9bronzeage = {
+	name = "dynn_Bek-Sopdu"
+	culture = "lower_egyptian"
+}
+10bronzeage = {
+	name = "dynn_Isesi-Menhit"
+	culture = "lower_egyptian"
+}
+11bronzeage = {
+	name = "dynn_Qareh-Bat"
+	culture = "lower_egyptian"
+}
+12bronzeage = {
+	name = "dynn_Baskakeren-Heqet"
+	culture = "lower_egyptian"
+}
+13bronzeage = {
+	name = "dynn_Wegaf"
+	culture = "lower_egyptian"
+}
+14bronzeage = {
+	name = "dynn_Shemai-Khonsu"
+	culture = "lower_egyptian"
+}
+15bronzeage = {
+	name = "dynn_Qareh-Bat"
+	culture = "lower_egyptian"
+}
+16bronzeage = {
+	name = "dynn_Minmose-Pakhet"
+	culture = "lower_egyptian"
+}
+17bronzeage = {
+	name = "dynn_Kakhent-Wosret"
+	culture = "lower_egyptian"
+}
+18bronzeage = {
+	name = "dynn_Wakhare-Wosret"
+	culture = "lower_egyptian"
+}
+19bronzeage = {
+	name = "dynn_Senusret-Wadj-wer"
+	culture = "lower_egyptian"
+}
+20bronzeage = {
+	name = "dynn_Wahibre-Geb"
+	culture = "lower_egyptian"
+}
+21bronzeage = {
+	name = "dynn_Nebwy-Wadjet"
+	culture = "lower_egyptian"
+}
+22bronzeage = {
+	name = "dynn_Huni-Renenutet"
+	culture = "lower_egyptian"
+}
+23bronzeage = {
+	name = "dynn_Teritedakhatey-Yeturow"
+	culture = "nubian"
+}
+24bronzeage = {
+	name = "dynn_Harkhuf-Wadjet"
+	culture = "upper_egyptian"
+}
+25bronzeage = {
+	name = "dynn_QakareIbi-Anuket"
+	culture = "upper_egyptian"
+}
+26bronzeage = {
+	name = "dynn_Bek-Sopdu"
+	culture = "upper_egyptian"
+}
+27bronzeage = {
+	name = "dynn_Isesi-Menhit"
+	culture = "upper_egyptian"
+}
+28bronzeage = {
+	name = "dynn_Qareh-Bat"
+	culture = "upper_egyptian"
+}
+29bronzeage = {
+	name = "dynn_Baskakeren-Heqet"
+	culture = "upper_egyptian"
+}
+30bronzeage = {
+	name = "dynn_Wegaf"
+	culture = "upper_egyptian"
+}
+31bronzeage = {
+	name = "dynn_Shemai-Khonsu"
+	culture = "upper_egyptian"
+}
+32bronzeage = {
+	name = "dynn_Qareh-Bat"
+	culture = "upper_egyptian"
+}
+33bronzeage = {
+	name = "dynn_Minmose-Pakhet"
+	culture = "upper_egyptian"
+}
+34bronzeage = {
+	name = "dynn_Kakhent-Wosret"
+	culture = "upper_egyptian"
+}
+35bronzeage = {
+	name = "dynn_Wakhare-Wosret"
+	culture = "upper_egyptian"
+}
+36bronzeage = {
+	name = "dynn_Senusret-Wadj-wer"
+	culture = "upper_egyptian"
+}
+37bronzeage = {
+	name = "dynn_Wahibre-Geb"
+	culture = "upper_egyptian"
+}
+40bronzeage = {
+	name = "dynn_Wegaf-Anhur"
+	culture = "upper_egyptian"
+}
+41bronzeage = {
+	name = "dynn_Karkamani-Kdimnle"
+	culture = "nubian"
+}
+42bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "sinaian"
+}
+43bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "sinaian"
+}
+44bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "sinaian"
+}
+45bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "moabite"
+}
+46bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "edomite"
+}
+47bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "phoenician"
+}
+48bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "canaanite"
+}
+49bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "phoenician"
+}
+50bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "canaanite"
+}
+51bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "canaanite"
+}
+52bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "canaanite"
+}
+53bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "canaanite"
+}
+54bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "ammonite"
+}
+55bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "moabite"
+}
+56bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "ammonite"
+}
+57bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "ammonite"
+}
+58bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "ammonite"
+}
+59bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "canaanite"
+}
+60bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "canaanite"
+}
+61bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "bedu"
+}
+62bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "canaanite"
+}
+63bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "canaanite"
+}
+64bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "canaanite"
+}
+65bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "canaanite"
+}
+66bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "golanite"
+}
+67bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "phoenician"
+}
+68bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "aramean"
+}
+69bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "aramean"
+}
+70bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "eblaite"
+}
+71bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "eblaite"
+}
+72bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "eblaite"
+}
+73bronzeage = {
+	name = "dynn_Abibaal-Sydyk"
+	culture = "amoritic"
+}
+74bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "amoritic"
+}
+75bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "phoenician"
+}
+76bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "golanite"
+}
+77bronzeage = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "canaanite"
+}
+78bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "aramean"
+}
+79bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "aramean"
+}
+80bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "phoenician"
+}
+81bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "golanite"
+}
+82bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "golanite"
+}
+83bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "aramean"
+}
+84bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "edomite"
+}
+86bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "amoritic"
+}
+87bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "eblaite"
+}
+88bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "eblaite"
+}
+89bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "eblaite"
+}
+90bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "amoritic"
+}
+91bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "amoritic"
+}
+92bronzeage = {
+	name = "dynn_Hari-yazu-Shaushka"
+	culture = "zalwari"
+}
+93bronzeage = {
+	name = "dynn_Hama-nna-Nubadig"
+	culture = "zalwari"
+}
+94bronzeage = {
+	name = "dynn_Aki-ya-Nubadig"
+	culture = "zalwari"
+}
+95bronzeage = {
+	name = "dynn_Ima-ku-Rashap"
+	culture = "zalwari"
+}
+96bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "amoritic"
+}
+97bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "amoritic"
+}
+98bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "amoritic"
+}
+99bronzeage = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "harrani"
+}
+100bronzeage = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "harrani"
+}
+101bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "amoritic"
+}
+102bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "amoritic"
+}
+103bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "amoritic"
+}
+104bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "eblaite"
+}
+105bronzeage = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "amoritic"
+}
+106bronzeage = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "amoritic"
+}
+107bronzeage = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "amoritic"
+}
+108bronzeage = {
+	name = "dynn_Luli-Arsay"
+	culture = "amoritic"
+}
+109bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "tarhuntassan"
+}
+110bronzeage = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "kizzuni"
+}
+111bronzeage = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "kizzuni"
+}
+112bronzeage = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "kizzuni"
+}
+113bronzeage = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "kizzuni"
+}
+114bronzeage = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "kizzuni"
+}
+115bronzeage = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "kizzuni"
+}
+116bronzeage = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "kizzuni"
+}
+117bronzeage = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "kizzuni"
+}
+118bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "tarhuntassan"
+}
+119bronzeage = {
+	name = "dynn_Anatar"
+	culture = "tarhuntassan"
+}
+120bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+121bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "tarhuntassan"
+}
+122bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "tarhuntassan"
+}
+123bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "tarhuntassan"
+}
+124bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "lukkan"
+}
+125bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "tarhuntassan"
+}
+126bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "lukkan"
+}
+127bronzeage = {
+	name = "dynn_Anatar"
+	culture = "lukkan"
+}
+128bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+129bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "lukkan"
+}
+130bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "lukkan"
+}
+131bronzeage = {
+	name = "dynn_Anatar"
+	culture = "tarhuntassan"
+}
+132bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "tarhuntassan"
+}
+133bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+134bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "lukkan"
+}
+135bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "lukkan"
+}
+136bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "telchines"
+}
+137bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "cypriot"
+}
+138bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "cypriot"
+}
+139bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "cypriot"
+}
+140bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "cypriot"
+}
+141bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "cypriot"
+}
+142bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "minoan"
+}
+143bronzeage = {
+	name = "dynn_Kalydna"
+	culture = "minoan"
+}
+144bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "minoan"
+}
+145bronzeage = {
+	name = "dynn_Latmathe"
+	culture = "minoan"
+}
+146bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "minoan"
+}
+147bronzeage = {
+	name = "dynn_Nirale"
+	culture = "minoan"
+}
+148bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "karpathan"
+}
+149bronzeage = {
+	name = "dynn_Pandarna"
+	culture = "minoan"
+}
+150bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "leleges"
+}
+151bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "cycladic"
+}
+152bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "carian"
+}
+153bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "carian"
+}
+154bronzeage = {
+	name = "dynn_Anatar"
+	culture = "carian"
+}
+155bronzeage = {
+	name = "dynn_Anatar"
+	culture = "lukkan"
+}
+156bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+157bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "carian"
+}
+158bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "carian"
+}
+159bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "tyrsenian"
+}
+160bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "wilusan"
+}
+161bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "wilusan"
+}
+162bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "leleges"
+}
+163bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "sehan"
+}
+164bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "leleges"
+}
+165bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "leleges"
+}
+166bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "lydian"
+}
+167bronzeage = {
+	name = "dynn_Anatar"
+	culture = "wilusan"
+}
+168bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "wilusan"
+}
+169bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "wilusan"
+}
+170bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "lukkan"
+}
+171bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "carian"
+}
+172bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "lydian"
+}
+173bronzeage = {
+	name = "dynn_Anatar"
+	culture = "lydian"
+}
+174bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "miran"
+}
+175bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "leleges"
+}
+176bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "helladic"
+}
+177bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "kranaoi"
+}
+178bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "helladic"
+}
+179bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "hektenas"
+}
+180bronzeage = {
+	name = "dynn_Kyparisioi"
+	culture = "proto_greek"
+}
+181bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "hyades"
+}
+182bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "dryopes"
+}
+183bronzeage = {
+	name = "dynn_Lakedamnios"
+	culture = "proto_greek"
+}
+184bronzeage = {
+	name = "dynn_Dynios"
+	culture = "proto_greek"
+}
+185bronzeage = {
+	name = "dynn_Artarwaios"
+	culture = "proto_greek"
+}
+186bronzeage = {
+	name = "dynn_Malathiwes"
+	culture = "proto_greek"
+}
+187bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "athamanes"
+}
+188bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "dryopes"
+}
+189bronzeage = {
+	name = "dynn_Dywoios"
+	culture = "proto_greek"
+}
+190bronzeage = {
+	name = "dynn_Sosthenid"
+	culture = "bryges"
+}
+191bronzeage = {
+	name = "dynn_Kerkios"
+	culture = "proto_greek"
+}
+192bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "kranaoi"
+}
+193bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "helladic"
+}
+194bronzeage = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+195bronzeage = {
+	name = "dynn_Idomeneios"
+	culture = "proto_greek"
+}
+196bronzeage = {
+	name = "dynn_Oichaleai"
+	culture = "proto_greek"
+}
+197bronzeage = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+198bronzeage = {
+	name = "dynn_Hippostratid"
+	culture = "bryges"
+}
+199bronzeage = {
+	name = "dynn_Aratid"
+	culture = "bryges"
+}
+200bronzeage = {
+	name = "dynn_Therid"
+	culture = "bryges"
+}
+201bronzeage = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+202bronzeage = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+203bronzeage = {
+	name = "dynn_Aratid"
+	culture = "bryges"
+}
+204bronzeage = {
+	name = "dynn_Omirid"
+	culture = "bryges"
+}
+205bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "tyrsenian"
+}
+206bronzeage = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+207bronzeage = {
+	name = "dynn_Helladid"
+	culture = "bryges"
+}
+208bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "tyrsenian"
+}
+209bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "tyrsenian"
+}
+210bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "tyrsenian"
+}
+211bronzeage = {
+	name = "dynn_Aradnethe"
+	culture = "tyrsenian"
+}
+212bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "helladic"
+}
+213bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "helladic"
+}
+214bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "hektenas"
+}
+215bronzeage = {
+	name = "dynn_Korinsios"
+	culture = "proto_greek"
+}
+216bronzeage = {
+	name = "dynn_Esalewia"
+	culture = "proto_greek"
+}
+217bronzeage = {
+	name = "dynn_Odrywia"
+	culture = "proto_greek"
+}
+218bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "tyrsenian"
+}
+219bronzeage = {
+	name = "dynn_Lorumathe"
+	culture = "kuretes"
+}
+220bronzeage = {
+	name = "dynn_Lousios"
+	culture = "proto_greek"
+}
+221bronzeage = {
+	name = "dynn_Amnisios"
+	culture = "proto_greek"
+}
+222bronzeage = {
+	name = "dynn_Medeios"
+	culture = "proto_greek"
+}
+223bronzeage = {
+	name = "dynn_Onomastid"
+	culture = "bryges"
+}
+224bronzeage = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+225bronzeage = {
+	name = "dynn_Amnisios"
+	culture = "proto_greek"
+}
+226bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "hektenas"
+}
+227bronzeage = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+228bronzeage = {
+	name = "dynn_Oichaleai"
+	culture = "proto_greek"
+}
+229bronzeage = {
+	name = "dynn_Aradnethe"
+	culture = "helladic"
+}
+230bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "helladic"
+}
+231bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "helladic"
+}
+232bronzeage = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "harrani"
+}
+233bronzeage = {
+	name = "dynn_Hamilcar-El"
+	culture = "amoritic"
+}
+234bronzeage = {
+	name = "dynn_Milkyaton-Kotharat"
+	culture = "amoritic"
+}
+235bronzeage = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "harrani"
+}
+236bronzeage = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "harrani"
+}
+237bronzeage = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "harrani"
+}
+238bronzeage = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "amoritic"
+}
+239bronzeage = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "amoritic"
+}
+241bronzeage = {
+	name = "dynn_Yehomilk-Ashtar"
+	culture = "amoritic"
+}
+242bronzeage = {
+	name = "dynn_Melqartshama-Arsu"
+	culture = "amoritic"
+}
+243bronzeage = {
+	name = "dynn_Melqartpilles-Horon"
+	culture = "amoritic"
+}
+244bronzeage = {
+	name = "dynn_Azimilik-Athirat"
+	culture = "amoritic"
+}
+245bronzeage = {
+	name = "dynn_Bomilcar-Baalah"
+	culture = "amoritic"
+}
+246bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "south_akkadian"
+}
+266bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+269bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "dilmunite"
+}
+270bronzeage = {
+	name = "dynn_Ilulu-Sin"
+	culture = "dilmunite"
+}
+271bronzeage = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "maganite"
+}
+272bronzeage = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "maganite"
+}
+273bronzeage = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "maganite"
+}
+274bronzeage = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "maganite"
+}
+275bronzeage = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "dilmunite"
+}
+276bronzeage = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "dilmunite"
+}
+277bronzeage = {
+	name = "dynn_Akurgal-Geshtinanna"
+	culture = "sumerian"
+}
+278bronzeage = {
+	name = "dynn_Udul-Utu"
+	culture = "sumerian"
+}
+279bronzeage = {
+	name = "dynn_Ishu-Enki"
+	culture = "sumerian"
+}
+280bronzeage = {
+	name = "dynn_Kakug-Ninlil"
+	culture = "sumerian"
+}
+281bronzeage = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "ellipian"
+}
+282bronzeage = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "anshanian"
+}
+283bronzeage = {
+	name = "dynn_Ukku-Tarana"
+	culture = "anshanian"
+}
+284bronzeage = {
+	name = "dynn_Attar-Halki"
+	culture = "anshanian"
+}
+285bronzeage = {
+	name = "dynn_Pahir-Hutran"
+	culture = "anshanian"
+}
+286bronzeage = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "liyan"
+}
+287bronzeage = {
+	name = "dynn_Napi-Nashur"
+	culture = "anshanian"
+}
+288bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "anshanian"
+}
+290bronzeage = {
+	name = "dynn_Ukku-Tarana"
+	culture = "susanian"
+}
+291bronzeage = {
+	name = "dynn_Attar-Halki"
+	culture = "susanian"
+}
+292bronzeage = {
+	name = "dynn_Pahir-Hutran"
+	culture = "susanian"
+}
+293bronzeage = {
+	name = "dynn_Napi-Nashur"
+	culture = "susanian"
+}
+294bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "susanian"
+}
+295bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "susanian"
+}
+296bronzeage = {
+	name = "dynn_Napi-Nashur"
+	culture = "susanian"
+}
+297bronzeage = {
+	name = "dynn_Meryatum-Wosret"
+	culture = "mu_kedi"
+}
+298bronzeage = {
+	name = "dynn_Rashepses-Renenutet"
+	culture = "mu_kedi"
+}
+299bronzeage = {
+	name = "dynn_Sekhemib-Neper"
+	culture = "upper_egyptian"
+}
+300bronzeage = {
+	name = "dynn_Apries-Set"
+	culture = "mu_kedi"
+}
+301bronzeage = {
+	name = "dynn_Khamudi-Sopdu"
+	culture = "upper_egyptian"
+}
+302bronzeage = {
+	name = "dynn_Harkhuf-Wadjet"
+	culture = "mu_kedi"
+}
+303bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "susanian"
+}
+304bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "susanian"
+}
+305bronzeage = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "gutian"
+}
+306bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "gutian"
+}
+307bronzeage = {
+	name = "dynn_Hurba-Bugash"
+	culture = "gutian"
+}
+308bronzeage = {
+	name = "dynn_Ukku-Tarana"
+	culture = "ellipian"
+}
+309bronzeage = {
+	name = "dynn_Attar-Halki"
+	culture = "ellipian"
+}
+310bronzeage = {
+	name = "dynn_Gabnila-Sah"
+	culture = "gutian"
+}
+311bronzeage = {
+	name = "dynn_Apa-Zini"
+	culture = "gutian"
+}
+312bronzeage = {
+	name = "dynn_Pahir-Hutran"
+	culture = "ellipian"
+}
+313bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "south_akkadian"
+}
+314bronzeage = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "south_akkadian"
+}
+315bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "anshanian"
+}
+316bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "phoenician"
+}
+318bronzeage = {
+	name = "dynn_Xrnxble-Qalhata"
+	culture = "nubian"
+}
+319bronzeage = {
+	name = "dynn_Amanikhabale-Ametelis"
+	culture = "nubian"
+}
+320bronzeage = {
+	name = "dynn_Amereye-Deketen"
+	culture = "nubian"
+}
+321bronzeage = {
+	name = "dynn_Yesbokheamani-Xdekmli"
+	culture = "nubian"
+}
+322bronzeage = {
+	name = "dynn_Altanersa-Abar"
+	culture = "nubian"
+}
+323bronzeage = {
+	name = "dynn_Meryatum-Wosret"
+	culture = "wahenian"
+}
+324bronzeage = {
+	name = "dynn_Adherba"
+	culture = "berber"
+}
+325bronzeage = {
+	name = "dynn_Vermina"
+	culture = "berber"
+}
+326bronzeage = {
+	name = "dynn_Ahmid"
+	culture = "berber"
+}
+327bronzeage = {
+	name = "dynn_Penamid"
+	culture = "berber"
+}
+328bronzeage = {
+	name = "dynn_Masinna"
+	culture = "berber"
+}
+329bronzeage = {
+	name = "dynn_Galesta"
+	culture = "berber"
+}
+330bronzeage = {
+	name = "dynn_Galesta"
+	culture = "berber"
+}
+331bronzeage = {
+	name = "dynn_Masinna"
+	culture = "berber"
+}
+332bronzeage = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "haburi"
+}
+333bronzeage = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "haburi"
+}
+334bronzeage = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "haburi"
+}
+335bronzeage = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "haburi"
+}
+336bronzeage = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "haburi"
+}
+337bronzeage = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "haburi"
+}
+338bronzeage = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "harrani"
+}
+339bronzeage = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "harrani"
+}
+340bronzeage = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "harrani"
+}
+341bronzeage = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "harrani"
+}
+342bronzeage = {
+	name = "dynn_Hadda-ahu-Arsay"
+	culture = "amoritic"
+}
+343bronzeage = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "haburi"
+}
+344bronzeage = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "haburi"
+}
+345bronzeage = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "harrani"
+}
+346bronzeage = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "harrani"
+}
+347bronzeage = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "shubrian"
+}
+348bronzeage = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "shubrian"
+}
+349bronzeage = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "shubrian"
+}
+350bronzeage = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "shubrian"
+}
+351bronzeage = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "shubrian"
+}
+352bronzeage = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "haburi"
+}
+353bronzeage = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "shubrian"
+}
+354bronzeage = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "haburi"
+}
+355bronzeage = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "haburi"
+}
+356bronzeage = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "haburi"
+}
+357bronzeage = {
+	name = "dynn_Pirhen-saki-Adamma"
+	culture = "tukri"
+}
+358bronzeage = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "haburi"
+}
+359bronzeage = {
+	name = "dynn_Kuzi-Allani"
+	culture = "haburi"
+}
+360bronzeage = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "haburi"
+}
+361bronzeage = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "haburi"
+}
+362bronzeage = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "haburi"
+}
+363bronzeage = {
+	name = "dynn_Uni-na-Kumarbi"
+	culture = "tukri"
+}
+364bronzeage = {
+	name = "dynn_Alli-turah-Shaushka"
+	culture = "tukri"
+}
+365bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "ashurian"
+}
+366bronzeage = {
+	name = "dynn_Ilulu-Sin"
+	culture = "ashurian"
+}
+367bronzeage = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "shubrian"
+}
+368bronzeage = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "shubrian"
+}
+369bronzeage = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "harrani"
+}
+370bronzeage = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "shubrian"
+}
+371bronzeage = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "haburi"
+}
+372bronzeage = {
+	name = "dynn_Hazip-Tesub-Ningal"
+	culture = "tukri"
+}
+373bronzeage = {
+	name = "dynn_Sahhi-ya-Shaushka"
+	culture = "tukri"
+}
+374bronzeage = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "ashurian"
+}
+376bronzeage = {
+	name = "dynn_Ammen-ammume-Kushuh"
+	culture = "tukri"
+}
+378bronzeage = {
+	name = "dynn_Ipashi-Sali"
+	culture = "gutian"
+}
+379bronzeage = {
+	name = "dynn_Sehlum-naya-Sharruma"
+	culture = "tukri"
+}
+380bronzeage = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "tukri"
+}
+381bronzeage = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "tukri"
+}
+382bronzeage = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "tukri"
+}
+383bronzeage = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "tukri"
+}
+384bronzeage = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "ashurian"
+}
+386bronzeage = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "tukri"
+}
+387bronzeage = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "ashurian"
+}
+388bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "ashurian"
+}
+389bronzeage = {
+	name = "dynn_Kuzi-Allani"
+	culture = "tukri"
+}
+390bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+391bronzeage = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "south_akkadian"
+}
+392bronzeage = {
+	name = "dynn_Jushur-Sin"
+	culture = "south_akkadian"
+}
+393bronzeage = {
+	name = "dynn_Hameru-Shipak"
+	culture = "gutian"
+}
+394bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "ashurian"
+}
+395bronzeage = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "gutian"
+}
+396bronzeage = {
+	name = "dynn_Hala-Duniash"
+	culture = "gutian"
+}
+397bronzeage = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "gutian"
+}
+398bronzeage = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "gutian"
+}
+399bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "dilmunite"
+}
+400bronzeage = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "tukri"
+}
+401bronzeage = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "ashurian"
+}
+402bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "ashurian"
+}
+403bronzeage = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "haburi"
+}
+404bronzeage = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "haburi"
+}
+405bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "south_akkadian"
+}
+406bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "ashurian"
+}
+407bronzeage = {
+	name = "dynn_Aruna-Duzagash"
+	culture = "gutian"
+}
+408bronzeage = {
+	name = "dynn_Shipta-Alban"
+	culture = "gutian"
+}
+411bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "nesili"
+}
+412bronzeage = {
+	name = "dynn_Hari-yazu-Shaushka"
+	culture = "ishuwan"
+}
+413bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "hattian"
+}
+414bronzeage = {
+	name = "dynn_Anatar"
+	culture = "hattian"
+}
+415bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "miran"
+}
+416bronzeage = {
+	name = "dynn_Anatar"
+	culture = "miran"
+}
+417bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "hapallan"
+}
+418bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "hapallan"
+}
+419bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "tarhuntassan"
+}
+420bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+421bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+422bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "tarhuntassan"
+}
+423bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+424bronzeage = {
+	name = "dynn_Anatar"
+	culture = "nesili"
+}
+425bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+426bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "palaic"
+}
+427bronzeage = {
+	name = "dynn_Anatar"
+	culture = "hapallan"
+}
+428bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "hapallan"
+}
+429bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "palaic"
+}
+430bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "hapallan"
+}
+431bronzeage = {
+	name = "dynn_Anatar"
+	culture = "palaic"
+}
+432bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "hapallan"
+}
+433bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "palaic"
+}
+434bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "palaic"
+}
+435bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "palaic"
+}
+436bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "hattian"
+}
+437bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "nesili"
+}
+438bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "nesili"
+}
+439bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "nesili"
+}
+440bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "hattian"
+}
+441bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "hattian"
+}
+442bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "hattian"
+}
+443bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "hattian"
+}
+444bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "hattian"
+}
+445bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+446bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "hattian"
+}
+447bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+448bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "hattian"
+}
+449bronzeage = {
+	name = "dynn_Hama-nna-Nubadig"
+	culture = "ishuwan"
+}
+450bronzeage = {
+	name = "dynn_Aki-ya-Nubadig"
+	culture = "ishuwan"
+}
+451bronzeage = {
+	name = "dynn_Ima-ku-Rashap"
+	culture = "ishuwan"
+}
+452bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "kuretes"
+}
+453bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "kuretes"
+}
+454bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "kuretes"
+}
+455bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "kuretes"
+}
+456bronzeage = {
+	name = "dynn_Aradnethe"
+	culture = "kuretes"
+}
+457bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "kuretes"
+}
+458bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "kuretes"
+}
+459bronzeage = {
+	name = "dynn_Brugindarathe"
+	culture = "minoan"
+}
+460bronzeage = {
+	name = "dynn_Larumnathe"
+	culture = "minoan"
+}
+461bronzeage = {
+	name = "dynn_Kogamathe"
+	culture = "minoan"
+}
+462bronzeage = {
+	name = "dynn_Milatathe"
+	culture = "minoan"
+}
+463bronzeage = {
+	name = "dynn_Amarunthathe"
+	culture = "minoan"
+}
+464bronzeage = {
+	name = "dynn_Tenedathe"
+	culture = "minoan"
+}
+465bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "cycladic"
+}
+466bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "cycladic"
+}
+467bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "cycladic"
+}
+468bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "cycladic"
+}
+469bronzeage = {
+	name = "dynn_Aradnethe"
+	culture = "cycladic"
+}
+470bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "cycladic"
+}
+471bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "cycladic"
+}
+472bronzeage = {
+	name = "dynn_Astupalathe"
+	culture = "cycladic"
+}
+473bronzeage = {
+	name = "dynn_Pandarna"
+	culture = "cycladic"
+}
+474bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "cycladic"
+}
+475bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "cycladic"
+}
+476bronzeage = {
+	name = "dynn_Leukopale"
+	culture = "cycladic"
+}
+477bronzeage = {
+	name = "dynn_Kissamathe"
+	culture = "cycladic"
+}
+478bronzeage = {
+	name = "dynn_Onkestathe"
+	culture = "cycladic"
+}
+479bronzeage = {
+	name = "dynn_Teutamna"
+	culture = "cycladic"
+}
+480bronzeage = {
+	name = "dynn_Alasarnathe"
+	culture = "cycladic"
+}
+481bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "kranaoi"
+}
+482bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "kranaoi"
+}
+483bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "kranaoi"
+}
+484bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "hektenas"
+}
+485bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "dryopes"
+}
+486bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "hyades"
+}
+487bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "hyades"
+}
+488bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "dryopes"
+}
+489bronzeage = {
+	name = "dynn_Astupalathe"
+	culture = "helladic"
+}
+490bronzeage = {
+	name = "dynn_Pandarna"
+	culture = "helladic"
+}
+491bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "helladic"
+}
+492bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "helladic"
+}
+493bronzeage = {
+	name = "dynn_Leukopale"
+	culture = "helladic"
+}
+494bronzeage = {
+	name = "dynn_Kissamathe"
+	culture = "helladic"
+}
+495bronzeage = {
+	name = "dynn_Onkestathe"
+	culture = "helladic"
+}
+496bronzeage = {
+	name = "dynn_Teutamna"
+	culture = "helladic"
+}
+497bronzeage = {
+	name = "dynn_Alasarnathe"
+	culture = "helladic"
+}
+498bronzeage = {
+	name = "dynn_Dandexathe"
+	culture = "helladic"
+}
+499bronzeage = {
+	name = "dynn_Kadmale"
+	culture = "helladic"
+}
+500bronzeage = {
+	name = "dynn_Pandarle"
+	culture = "helladic"
+}
+501bronzeage = {
+	name = "dynn_Tegurathe"
+	culture = "helladic"
+}
+502bronzeage = {
+	name = "dynn_Labdakale"
+	culture = "helladic"
+}
+503bronzeage = {
+	name = "dynn_Kantanathe"
+	culture = "helladic"
+}
+504bronzeage = {
+	name = "dynn_Pholegandrathe"
+	culture = "helladic"
+}
+505bronzeage = {
+	name = "dynn_Tulisathe"
+	culture = "helladic"
+}
+506bronzeage = {
+	name = "dynn_Nirna"
+	culture = "helladic"
+}
+507bronzeage = {
+	name = "dynn_Kastabathe"
+	culture = "helladic"
+}
+508bronzeage = {
+	name = "dynn_Epopale"
+	culture = "helladic"
+}
+509bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "helladic"
+}
+510bronzeage = {
+	name = "dynn_Phaistathe"
+	culture = "helladic"
+}
+511bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "helladic"
+}
+512bronzeage = {
+	name = "dynn_Aradnethe"
+	culture = "kranaoi"
+}
+513bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "kranaoi"
+}
+514bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "helladic"
+}
+515bronzeage = {
+	name = "dynn_Mosukhlathe"
+	culture = "helladic"
+}
+516bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "helladic"
+}
+517bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "athamanes"
+}
+518bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "athamanes"
+}
+519bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "athamanes"
+}
+520bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "tyrsenian"
+}
+521bronzeage = {
+	name = "dynn_Astupalathe"
+	culture = "tyrsenian"
+}
+522bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "athamanes"
+}
+523bronzeage = {
+	name = "dynn_Aradnethe"
+	culture = "athamanes"
+}
+524bronzeage = {
+	name = "dynn_Lawranthios"
+	culture = "proto_greek"
+}
+525bronzeage = {
+	name = "dynn_Xivia"
+	culture = "proto_greek"
+}
+526bronzeage = {
+	name = "dynn_Atreiwios"
+	culture = "proto_greek"
+}
+527bronzeage = {
+	name = "dynn_Sphagianiai"
+	culture = "proto_greek"
+}
+528bronzeage = {
+	name = "dynn_Tylisios"
+	culture = "proto_greek"
+}
+529bronzeage = {
+	name = "dynn_Malitas"
+	culture = "proto_greek"
+}
+530bronzeage = {
+	name = "dynn_Dawios"
+	culture = "proto_greek"
+}
+531bronzeage = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+532bronzeage = {
+	name = "dynn_Owitonioi"
+	culture = "proto_greek"
+}
+533bronzeage = {
+	name = "dynn_Phasgianiai"
+	culture = "proto_greek"
+}
+534bronzeage = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+535bronzeage = {
+	name = "dynn_Owitonioi"
+	culture = "proto_greek"
+}
+536bronzeage = {
+	name = "dynn_Kythereai"
+	culture = "proto_greek"
+}
+537bronzeage = {
+	name = "dynn_Owitonioi"
+	culture = "proto_greek"
+}
+538bronzeage = {
+	name = "dynn_Kyprios"
+	culture = "proto_greek"
+}
+539bronzeage = {
+	name = "dynn_Dawios"
+	culture = "proto_greek"
+}
+540bronzeage = {
+	name = "dynn_Phasgianiai"
+	culture = "proto_greek"
+}
+541bronzeage = {
+	name = "dynn_Xivia"
+	culture = "proto_greek"
+}
+542bronzeage = {
+	name = "dynn_Maranenioi"
+	culture = "proto_greek"
+}
+543bronzeage = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+544bronzeage = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+545bronzeage = {
+	name = "dynn_Malitas"
+	culture = "proto_greek"
+}
+546bronzeage = {
+	name = "dynn_Doriewes"
+	culture = "proto_greek"
+}
+547bronzeage = {
+	name = "dynn_Korinsia"
+	culture = "proto_greek"
+}
+548bronzeage = {
+	name = "dynn_Witimios"
+	culture = "proto_greek"
+}
+549bronzeage = {
+	name = "dynn_Odrywios"
+	culture = "proto_greek"
+}
+550bronzeage = {
+	name = "dynn_Oichaleai"
+	culture = "proto_greek"
+}
+551bronzeage = {
+	name = "dynn_Lakedamnios"
+	culture = "proto_greek"
+}
+552bronzeage = {
+	name = "dynn_Doriewes"
+	culture = "proto_greek"
+}
+553bronzeage = {
+	name = "dynn_Ewitaios"
+	culture = "proto_greek"
+}
+554bronzeage = {
+	name = "dynn_Opilimnios"
+	culture = "proto_greek"
+}
+555bronzeage = {
+	name = "dynn_Keios"
+	culture = "proto_greek"
+}
+556bronzeage = {
+	name = "dynn_Petonios"
+	culture = "proto_greek"
+}
+557bronzeage = {
+	name = "dynn_Lamniai"
+	culture = "proto_greek"
+}
+558bronzeage = {
+	name = "dynn_Tauriskid"
+	culture = "bryges"
+}
+559bronzeage = {
+	name = "dynn_Pelopid"
+	culture = "bryges"
+}
+560bronzeage = {
+	name = "dynn_Leukonid"
+	culture = "bryges"
+}
+561bronzeage = {
+	name = "dynn_Megalid"
+	culture = "bryges"
+}
+562bronzeage = {
+	name = "dynn_Alcetid"
+	culture = "bryges"
+}
+563bronzeage = {
+	name = "dynn_Peneid"
+	culture = "bryges"
+}
+564bronzeage = {
+	name = "dynn_Tauromeneid"
+	culture = "bryges"
+}
+565bronzeage = {
+	name = "dynn_Onomastid"
+	culture = "bryges"
+}
+566bronzeage = {
+	name = "dynn_Helenid"
+	culture = "bryges"
+}
+567bronzeage = {
+	name = "dynn_Zenonid"
+	culture = "bryges"
+}
+568bronzeage = {
+	name = "dynn_Pandarna"
+	culture = "tyrsenian"
+}
+569bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "tyrsenian"
+}
+570bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "tyrsenian"
+}
+571bronzeage = {
+	name = "dynn_Timolid"
+	culture = "bryges"
+}
+572bronzeage = {
+	name = "dynn_Nikokrid"
+	culture = "bryges"
+}
+573bronzeage = {
+	name = "dynn_Dydid"
+	culture = "bryges"
+}
+574bronzeage = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+575bronzeage = {
+	name = "dynn_Leukopale"
+	culture = "tyrsenian"
+}
+576bronzeage = {
+	name = "dynn_Kissamathe"
+	culture = "tyrsenian"
+}
+577bronzeage = {
+	name = "dynn_Onkestathe"
+	culture = "tyrsenian"
+}
+578bronzeage = {
+	name = "dynn_Teutamna"
+	culture = "tyrsenian"
+}
+579bronzeage = {
+	name = "dynn_Alasarnathe"
+	culture = "tyrsenian"
+}
+580bronzeage = {
+	name = "dynn_Dandexathe"
+	culture = "tyrsenian"
+}
+581bronzeage = {
+	name = "dynn_Kadmale"
+	culture = "tyrsenian"
+}
+582bronzeage = {
+	name = "dynn_Pandarle"
+	culture = "tyrsenian"
+}
+583bronzeage = {
+	name = "dynn_Tegurathe"
+	culture = "tyrsenian"
+}
+584bronzeage = {
+	name = "dynn_Labdakale"
+	culture = "tyrsenian"
+}
+585bronzeage = {
+	name = "dynn_Kantanathe"
+	culture = "tyrsenian"
+}
+586bronzeage = {
+	name = "dynn_Pholegandrathe"
+	culture = "tyrsenian"
+}
+587bronzeage = {
+	name = "dynn_Tulisathe"
+	culture = "tyrsenian"
+}
+588bronzeage = {
+	name = "dynn_Nirna"
+	culture = "tyrsenian"
+}
+589bronzeage = {
+	name = "dynn_Kastabathe"
+	culture = "tyrsenian"
+}
+590bronzeage = {
+	name = "dynn_Epopale"
+	culture = "tyrsenian"
+}
+591bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "wilusan"
+}
+592bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "wilusan"
+}
+593bronzeage = {
+	name = "dynn_Aradnethe"
+	culture = "leleges"
+}
+594bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "leleges"
+}
+595bronzeage = {
+	name = "dynn_Sedamnathe"
+	culture = "telchines"
+}
+596bronzeage = {
+	name = "dynn_Aptarathe"
+	culture = "telchines"
+}
+597bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "leleges"
+}
+598bronzeage = {
+	name = "dynn_Kaduiethe"
+	culture = "telchines"
+}
+599bronzeage = {
+	name = "dynn_Astupalathe"
+	culture = "leleges"
+}
+600bronzeage = {
+	name = "dynn_Pandarna"
+	culture = "leleges"
+}
+601bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "telchines"
+}
+602bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "leleges"
+}
+603bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "leleges"
+}
+604bronzeage = {
+	name = "dynn_Leukopale"
+	culture = "leleges"
+}
+605bronzeage = {
+	name = "dynn_Kissamathe"
+	culture = "leleges"
+}
+606bronzeage = {
+	name = "dynn_Onkestathe"
+	culture = "leleges"
+}
+607bronzeage = {
+	name = "dynn_Teutamna"
+	culture = "leleges"
+}
+608bronzeage = {
+	name = "dynn_Alasarnathe"
+	culture = "leleges"
+}
+609bronzeage = {
+	name = "dynn_Dandexathe"
+	culture = "leleges"
+}
+610bronzeage = {
+	name = "dynn_Kadmale"
+	culture = "leleges"
+}
+611bronzeage = {
+	name = "dynn_Pandarle"
+	culture = "leleges"
+}
+612bronzeage = {
+	name = "dynn_Tegurathe"
+	culture = "leleges"
+}
+613bronzeage = {
+	name = "dynn_Labdakale"
+	culture = "leleges"
+}
+614bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "lydian"
+}
+615bronzeage = {
+	name = "dynn_Kantanathe"
+	culture = "leleges"
+}
+616bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "lydian"
+}
+617bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "wilusan"
+}
+618bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "sehan"
+}
+619bronzeage = {
+	name = "dynn_Anatar"
+	culture = "sehan"
+}
+620bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "sehan"
+}
+621bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "sehan"
+}
+622bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "sehan"
+}
+623bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "sehan"
+}
+624bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "sehan"
+}
+625bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "carian"
+}
+626bronzeage = {
+	name = "dynn_Anatar"
+	culture = "carian"
+}
+627bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "carian"
+}
+628bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "carian"
+}
+629bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "carian"
+}
+630bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "carian"
+}
+631bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+632bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "carian"
+}
+633bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "lukkan"
+}
+634bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "lukkan"
+}
+635bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "lukkan"
+}
+636bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+637bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "lukkan"
+}
+638bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "lukkan"
+}
+639bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "lukkan"
+}
+640bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "carian"
+}
+641bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "carian"
+}
+642bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "carian"
+}
+643bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "carian"
+}
+644bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "lydian"
+}
+645bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "lydian"
+}
+646bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "miran"
+}
+647bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "miran"
+}
+648bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "miran"
+}
+649bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "miran"
+}
+650bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "miran"
+}
+651bronzeage = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "canaanite"
+}
+652bronzeage = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "canaanite"
+}
+653bronzeage = {
+	name = "dynn_Luli-Arsay"
+	culture = "canaanite"
+}
+654bronzeage = {
+	name = "dynn_Hamilcar-El"
+	culture = "canaanite"
+}
+655bronzeage = {
+	name = "dynn_Milkyaton-Kotharat"
+	culture = "canaanite"
+}
+656bronzeage = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "canaanite"
+}
+657bronzeage = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "canaanite"
+}
+658bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "ammonite"
+}
+659bronzeage = {
+	name = "dynn_Paltibaal-Shadrafa"
+	culture = "canaanite"
+}
+660bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "moabite"
+}
+661bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "moabite"
+}
+662bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "moabite"
+}
+663bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "moabite"
+}
+664bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "edomite"
+}
+665bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "bedu"
+}
+666bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "bedu"
+}
+667bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "edomite"
+}
+668bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "edomite"
+}
+669bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "bedu"
+}
+670bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "edomite"
+}
+671bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "sinaian"
+}
+672bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "sinaian"
+}
+673bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "sinaian"
+}
+674bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "phoenician"
+}
+675bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "phoenician"
+}
+676bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "phoenician"
+}
+677bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "phoenician"
+}
+678bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "phoenician"
+}
+679bronzeage = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "phoenician"
+}
+680bronzeage = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "phoenician"
+}
+681bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "aramean"
+}
+682bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "aramean"
+}
+683bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "aramean"
+}
+684bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "aramean"
+}
+685bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "golanite"
+}
+686bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "golanite"
+}
+687bronzeage = {
+	name = "dynn_Galesta"
+	culture = "berber"
+}
+688bronzeage = {
+	name = "dynn_Tacfarina"
+	culture = "berber"
+}
+689bronzeage = {
+	name = "dynn_Kenamid"
+	culture = "berber"
+}
+690bronzeage = {
+	name = "dynn_Tacfarina"
+	culture = "berber"
+}
+691bronzeage = {
+	name = "dynn_Wegaf-Anhur"
+	culture = "lower_egyptian"
+}
+692bronzeage = {
+	name = "dynn_Sekhemib-Neper"
+	culture = "lower_egyptian"
+}
+693bronzeage = {
+	name = "dynn_Inenek-Inti-Nefertum"
+	culture = "upper_egyptian"
+}
+694bronzeage = {
+	name = "dynn_Tao-Bat"
+	culture = "upper_egyptian"
+}
+695bronzeage = {
+	name = "dynn_Neferkare-Nepit"
+	culture = "upper_egyptian"
+}
+696bronzeage = {
+	name = "dynn_Apile-Tabiry"
+	culture = "nubian"
+}
+697bronzeage = {
+	name = "dynn_Apilye-Kdimnli"
+	culture = "nubian"
+}
+698bronzeage = {
+	name = "dynn_Bashkakeren-Ametsl"
+	culture = "nubian"
+}
+699bronzeage = {
+	name = "dynn_Aritenyesbokhe-Apetikde"
+	culture = "nubian"
+}
+700bronzeage = {
+	name = "dynn_Rashepses-Renenutet"
+	culture = "wahenian"
+}
+701bronzeage = {
+	name = "dynn_Apries-Set"
+	culture = "wahenian"
+}
+702bronzeage = {
+	name = "dynn_Harkhuf-Wadjet"
+	culture = "wahenian"
+}
+703bronzeage = {
+	name = "dynn_QakareIbi-Anuket"
+	culture = "wahenian"
+}
+704bronzeage = {
+	name = "dynn_Bek-Sopdu"
+	culture = "wahenian"
+}
+705bronzeage = {
+	name = "dynn_Isesi-Menhit"
+	culture = "wahenian"
+}
+706bronzeage = {
+	name = "dynn_Qareh-Bat"
+	culture = "wahenian"
+}
+707bronzeage = {
+	name = "dynn_Baskakeren-Heqet"
+	culture = "wahenian"
+}
+708bronzeage = {
+	name = "dynn_Wegaf"
+	culture = "wahenian"
+}
+709bronzeage = {
+	name = "dynn_Shemai-Khonsu"
+	culture = "wahenian"
+}
+710bronzeage = {
+	name = "dynn_QakareIbi-Anuket"
+	culture = "mu_kedi"
+}
+711bronzeage = {
+	name = "dynn_Bek-Sopdu"
+	culture = "mu_kedi"
+}
+712bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "sinaian"
+}
+713bronzeage = {
+	name = "dynn_Isesi-Menhit"
+	culture = "mu_kedi"
+}
+714bronzeage = {
+	name = "dynn_Ukku-Tarana"
+	culture = "liyan"
+}
+715bronzeage = {
+	name = "dynn_Attar-Halki"
+	culture = "liyan"
+}
+716bronzeage = {
+	name = "dynn_Pahir-Hutran"
+	culture = "liyan"
+}
+717bronzeage = {
+	name = "dynn_Napi-Nashur"
+	culture = "anshanian"
+}
+718bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "anshanian"
+}
+719bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+720bronzeage = {
+	name = "dynn_Ata-Halki"
+	culture = "anshanian"
+}
+721bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+722bronzeage = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "anshanian"
+}
+723bronzeage = {
+	name = "dynn_Ata-Halki"
+	culture = "susanian"
+}
+724bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "susanian"
+}
+725bronzeage = {
+	name = "dynn_Numena-Humban"
+	culture = "anshanian"
+}
+726bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+727bronzeage = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "anshanian"
+}
+728bronzeage = {
+	name = "dynn_Attar-Halki"
+	culture = "anshanian"
+}
+729bronzeage = {
+	name = "dynn_Napi-Nashur"
+	culture = "ellipian"
+}
+730bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "ellipian"
+}
+731bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "ellipian"
+}
+732bronzeage = {
+	name = "dynn_Napi-Nashur"
+	culture = "ellipian"
+}
+733bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "ellipian"
+}
+734bronzeage = {
+	name = "dynn_Huta-Tassi"
+	culture = "gutian"
+}
+735bronzeage = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "south_akkadian"
+}
+736bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "ellipian"
+}
+737bronzeage = {
+	name = "dynn_Ata-Halki"
+	culture = "ellipian"
+}
+738bronzeage = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "gutian"
+}
+739bronzeage = {
+	name = "dynn_Pirigme-Ishkur"
+	culture = "sumerian"
+}
+740bronzeage = {
+	name = "dynn_Akurgal-Geshtinanna"
+	culture = "sumerian"
+}
+741bronzeage = {
+	name = "dynn_Nanni-Enlil"
+	culture = "sumerian"
+}
+742bronzeage = {
+	name = "dynn_Ishu-Enki"
+	culture = "sumerian"
+}
+743bronzeage = {
+	name = "dynn_Lugula-Ningal"
+	culture = "sumerian"
+}
+745bronzeage = {
+	name = "dynn_Shulgi-Ninhursag"
+	culture = "sumerian"
+}
+746bronzeage = {
+	name = "dynn_Shulgi-Ninhursag"
+	culture = "sumerian"
+}
+747bronzeage = {
+	name = "dynn_Nanni-Enlil"
+	culture = "sumerian"
+}
+748bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+749bronzeage = {
+	name = "dynn_Babum-Geshtinanna"
+	culture = "south_akkadian"
+}
+750bronzeage = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+751bronzeage = {
+	name = "dynn_Sargon-Ea"
+	culture = "south_akkadian"
+}
+752bronzeage = {
+	name = "dynn_Nanniya-Meskilak"
+	culture = "sumerian"
+}
+753bronzeage = {
+	name = "dynn_Puannum-Ningal"
+	culture = "south_akkadian"
+}
+754bronzeage = {
+	name = "dynn_Ipashi-Sali"
+	culture = "gutian"
+}
+755bronzeage = {
+	name = "dynn_Aruna-Duzagash"
+	culture = "gutian"
+}
+756bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "ellipian"
+}
+757bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "gutian"
+}
+758bronzeage = {
+	name = "dynn_Samani"
+	culture = "south_akkadian"
+}
+759bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+760bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "maganite"
+}
+761bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "maganite"
+}
+762bronzeage = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "dilmunite"
+}
+763bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "dilmunite"
+}
+764bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "dilmunite"
+}
+765bronzeage = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "maganite"
+}
+766bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "maganite"
+}
+767bronzeage = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "dilmunite"
+}
+768bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "dilmunite"
+}
+769bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "dilmunite"
+}
+770bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "dilmunite"
+}
+771bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "dilmunite"
+}
+772bronzeage = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "dilmunite"
+}
+773bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "dilmunite"
+}
+774bronzeage = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "dilmunite"
+}
+775bronzeage = {
+	name = "dynn_Jushur-Sin"
+	culture = "dilmunite"
+}
+776bronzeage = {
+	name = "dynn_Ahiram-Baalah"
+	culture = "amoritic"
+}
+777bronzeage = {
+	name = "dynn_Zakarba_al-Azizos"
+	culture = "amoritic"
+}
+778bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "ashurian"
+}
+779bronzeage = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "lullubi"
+}
+780bronzeage = {
+	name = "dynn_Shima-Hudha"
+	culture = "gutian"
+}
+781bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "lullubi"
+}
+782bronzeage = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "tukri"
+}
+783bronzeage = {
+	name = "dynn_Hurba-Bugash"
+	culture = "lullubi"
+}
+784bronzeage = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "tukri"
+}
+785bronzeage = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "tukri"
+}
+786bronzeage = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "tukri"
+}
+787bronzeage = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "tukri"
+}
+788bronzeage = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "tukri"
+}
+789bronzeage = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "tukri"
+}
+790bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "ashurian"
+}
+791bronzeage = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "ashurian"
+}
+792bronzeage = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "tukri"
+}
+793bronzeage = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "haburi"
+}
+794bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "ashurian"
+}
+795bronzeage = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "ashurian"
+}
+796bronzeage = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "haburi"
+}
+797bronzeage = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "tukri"
+}
+798bronzeage = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "haburi"
+}
+799bronzeage = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "haburi"
+}
+800bronzeage = {
+	name = "dynn_Allai-tatta-Hebat"
+	culture = "tukri"
+}
+801bronzeage = {
+	name = "dynn_Aradnethe"
+	culture = "cypriot"
+}
+802bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "cypriot"
+}
+803bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "cypriot"
+}
+804bronzeage = {
+	name = "dynn_Astupalathe"
+	culture = "cypriot"
+}
+805bronzeage = {
+	name = "dynn_Pandarna"
+	culture = "cypriot"
+}
+806bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "cypriot"
+}
+807bronzeage = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "phoenician"
+}
+808bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "eblaite"
+}
+809bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "eblaite"
+}
+810bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "eblaite"
+}
+811bronzeage = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "eblaite"
+}
+812bronzeage = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "eblaite"
+}
+813bronzeage = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "amoritic"
+}
+814bronzeage = {
+	name = "dynn_Adonibaal-Eshmun"
+	culture = "amoritic"
+}
+815bronzeage = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "eblaite"
+}
+816bronzeage = {
+	name = "dynn_Hiempsal-Lotan"
+	culture = "amoritic"
+}
+817bronzeage = {
+	name = "dynn_Luli-Arsay"
+	culture = "eblaite"
+}
+818bronzeage = {
+	name = "dynn_Yada_milk-Yam"
+	culture = "amoritic"
+}
+819bronzeage = {
+	name = "dynn_Metallo-Misor"
+	culture = "amoritic"
+}
+820bronzeage = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "amoritic"
+}
+821bronzeage = {
+	name = "dynn_Boulomenus-Hadad"
+	culture = "amoritic"
+}
+822bronzeage = {
+	name = "dynn_Milkherem-Moloch"
+	culture = "amoritic"
+}
+823bronzeage = {
+	name = "dynn_Chelbes-Shamin"
+	culture = "amoritic"
+}
+824bronzeage = {
+	name = "dynn_Pala-mi-Ningal"
+	culture = "zalwari"
+}
+825bronzeage = {
+	name = "dynn_Pir-kinnu-Teshub"
+	culture = "zalwari"
+}
+826bronzeage = {
+	name = "dynn_Memen-kanazi-Adamma"
+	culture = "zalwari"
+}
+827bronzeage = {
+	name = "dynn_Sazum-sarri-Kumarbi"
+	culture = "zalwari"
+}
+828bronzeage = {
+	name = "dynn_Kuzi-Allani"
+	culture = "harrani"
+}
+829bronzeage = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "harrani"
+}
+830bronzeage = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "harrani"
+}
+831bronzeage = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "amoritic"
+}
+832bronzeage = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "harrani"
+}
+833bronzeage = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "harrani"
+}
+834bronzeage = {
+	name = "dynn_Ittoba_al-Shachar"
+	culture = "amoritic"
+}
+835bronzeage = {
+	name = "dynn_Ormilk-Shamin"
+	culture = "amoritic"
+}
+836bronzeage = {
+	name = "dynn_Himilco-Kotharat"
+	culture = "amoritic"
+}
+837bronzeage = {
+	name = "dynn_Yanud-Lim-El"
+	culture = "amoritic"
+}
+838bronzeage = {
+	name = "dynn_Chelbes-Shamin"
+	culture = "amoritic"
+}
+839bronzeage = {
+	name = "dynn_Ahirom-Horon"
+	culture = "amoritic"
+}
+840bronzeage = {
+	name = "dynn_Yutpan-Zephon"
+	culture = "amoritic"
+}
+841bronzeage = {
+	name = "dynn_Gerimilki-Hadad"
+	culture = "amoritic"
+}
+842bronzeage = {
+	name = "dynn_Phelles-Shadrafa"
+	culture = "amoritic"
+}
+843bronzeage = {
+	name = "dynn_Iptur-Dagan-Aglibol"
+	culture = "amoritic"
+}
+844bronzeage = {
+	name = "dynn_Allai-tatta-Hebat"
+	culture = "haburi"
+}
+845bronzeage = {
+	name = "dynn_Sena-ya-Hutena"
+	culture = "haburi"
+}
+846bronzeage = {
+	name = "dynn_Kari-ya-Nubadig"
+	culture = "haburi"
+}
+847bronzeage = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "haburi"
+}
+848bronzeage = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "shubrian"
+}
+849bronzeage = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "shubrian"
+}
+850bronzeage = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "harrani"
+}
+851bronzeage = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "harrani"
+}
+852bronzeage = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "harrani"
+}
+853bronzeage = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "harrani"
+}
+854bronzeage = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "harrani"
+}
+855bronzeage = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "harrani"
+}
+856bronzeage = {
+	name = "dynn_Allai-tatta-Hebat"
+	culture = "harrani"
+}
+857bronzeage = {
+	name = "dynn_Sena-ya-Hutena"
+	culture = "harrani"
+}
+858bronzeage = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "haburi"
+}
+859bronzeage = {
+	name = "dynn_Tata-ra-Shalash"
+	culture = "haburi"
+}
+860bronzeage = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "haburi"
+}
+861bronzeage = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "haburi"
+}
+862bronzeage = {
+	name = "dynn_Sama-hul-Kubaba"
+	culture = "haburi"
+}
+863bronzeage = {
+	name = "dynn_Taki-ya-Hayya"
+	culture = "haburi"
+}
+864bronzeage = {
+	name = "dynn_Pisr-uhli-Hebat"
+	culture = "haburi"
+}
+865bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "tarhuntassan"
+}
+866bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+867bronzeage = {
+	name = "dynn_Ara-zah-Sherri"
+	culture = "kizzuni"
+}
+868bronzeage = {
+	name = "dynn_Tahi-ya-Kushuh"
+	culture = "kizzuni"
+}
+869bronzeage = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "kizzuni"
+}
+870bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+871bronzeage = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "kizzuni"
+}
+872bronzeage = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "kizzuni"
+}
+873bronzeage = {
+	name = "dynn_Kuzi-Allani"
+	culture = "kizzuni"
+}
+874bronzeage = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "kizzuni"
+}
+875bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+876bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+877bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+878bronzeage = {
+	name = "dynn_Pala-mi-Ningal"
+	culture = "ishuwan"
+}
+879bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "nesili"
+}
+880bronzeage = {
+	name = "dynn_Anaramati"
+	culture = "hattian"
+}
+881bronzeage = {
+	name = "dynn_Anatar"
+	culture = "nesili"
+}
+882bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "nesili"
+}
+883bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+884bronzeage = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "kizzuni"
+}
+885bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "nesili"
+}
+886bronzeage = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "kizzuni"
+}
+887bronzeage = {
+	name = "dynn_S_atar-mat-Nabarbi"
+	culture = "zalwari"
+}
+888bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "hattian"
+}
+889bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "nesili"
+}
+890bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "hapallan"
+}
+891bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "palaic"
+}
+892bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "nesili"
+}
+893bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+894bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "palaic"
+}
+895bronzeage = {
+	name = "dynn_Anatar"
+	culture = "palaic"
+}
+896bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "palaic"
+}
+897bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "hapallan"
+}
+898bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "palaic"
+}
+899bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "palaic"
+}
+900bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "palaic"
+}
+901bronzeage = {
+	name = "dynn_Pir-kinnu-Teshub"
+	culture = "ishuwan"
+}
+902bronzeage = {
+	name = "dynn_Memen-kanazi-Adamma"
+	culture = "ishuwan"
+}
+903bronzeage = {
+	name = "dynn_Sazum-sarri-Kumarbi"
+	culture = "ishuwan"
+}
+904bronzeage = {
+	name = "dynn_S_atar-mat-Nabarbi"
+	culture = "ishuwan"
+}
+905bronzeage = {
+	name = "dynn_Zirri-Hutena"
+	culture = "ishuwan"
+}
+906bronzeage = {
+	name = "dynn_Anaramati"
+	culture = "tarhuntassan"
+}
+907bronzeage = {
+	name = "dynn_Anatar"
+	culture = "tarhuntassan"
+}
+908bronzeage = {
+	name = "dynn_Anatar"
+	culture = "tarhuntassan"
+}
+909bronzeage = {
+	name = "dynn_Anatar"
+	culture = "miran"
+}
+910bronzeage = {
+	name = "dynn_Anatar"
+	culture = "hapallan"
+}
+911bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "hapallan"
+}
+912bronzeage = {
+	name = "dynn_Anatar"
+	culture = "hattian"
+}
+913bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "hattian"
+}
+914bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "hattian"
+}
+915bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+916bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "hattian"
+}
+917bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "hattian"
+}
+918bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "hattian"
+}
+919bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "hattian"
+}
+922bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "hyksos"
+}
+923bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "hyksos"
+}
+924bronzeage = {
+	name = "dynn_Imhotep-Bastet"
+	culture = "upper_egyptian"
+}
+925bronzeage = {
+	name = "dynn_Dagi-Maahes"
+	culture = "upper_egyptian"
+}
+926bronzeage = {
+	name = "dynn_Wetka-Khepri"
+	culture = "upper_egyptian"
+}
+927bronzeage = {
+	name = "dynn_Khamudi-Sopdu"
+	culture = "lower_egyptian"
+}
+928bronzeage = {
+	name = "dynn_Inenek-Inti-Nefertum"
+	culture = "lower_egyptian"
+}
+929bronzeage = {
+	name = "dynn_Tao-Bat"
+	culture = "lower_egyptian"
+}
+930bronzeage = {
+	name = "dynn_Neferkare-Nepit"
+	culture = "lower_egyptian"
+}
+931bronzeage = {
+	name = "dynn_Qenna-Hesat"
+	culture = "lower_egyptian"
+}
+932bronzeage = {
+	name = "dynn_Imhotep-Bastet"
+	culture = "lower_egyptian"
+}
+933bronzeage = {
+	name = "dynn_Dagi-Maahes"
+	culture = "lower_egyptian"
+}
+934bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "hyksos"
+}
+935bronzeage = {
+	name = "dynn_Wetka-Khepri"
+	culture = "lower_egyptian"
+}
+936bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "hyksos"
+}
+937bronzeage = {
+	name = "dynn_Shosqenq-Shu"
+	culture = "lower_egyptian"
+}
+938bronzeage = {
+	name = "dynn_Dagi-Maahes"
+	culture = "lower_egyptian"
+}
+939bronzeage = {
+	name = "dynn_Wentawet-Horus"
+	culture = "lower_egyptian"
+}
+940bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "hyksos"
+}
+941bronzeage = {
+	name = "dynn_Teritnide-Hrkebe"
+	culture = "nubian"
+}
+942bronzeage = {
+	name = "dynn_Shosqenq-Shu"
+	culture = "upper_egyptian"
+}
+943bronzeage = {
+	name = "dynn_Dagi-Maahes"
+	culture = "upper_egyptian"
+}
+944bronzeage = {
+	name = "dynn_Wentawet-Horus"
+	culture = "upper_egyptian"
+}
+945bronzeage = {
+	name = "dynn_Neferkare-Ptah"
+	culture = "upper_egyptian"
+}
+946bronzeage = {
+	name = "dynn_Weni-Hapi"
+	culture = "upper_egyptian"
+}
+947bronzeage = {
+	name = "dynn_Nakhtnebef-Atum"
+	culture = "upper_egyptian"
+}
+948bronzeage = {
+	name = "dynn_Iry-Hor-Bat"
+	culture = "upper_egyptian"
+}
+949bronzeage = {
+	name = "dynn_Tefnakht-Ra"
+	culture = "upper_egyptian"
+}
+950bronzeage = {
+	name = "dynn_Khabash-Amunet"
+	culture = "upper_egyptian"
+}
+951bronzeage = {
+	name = "dynn_Osorkon-Sopdu"
+	culture = "upper_egyptian"
+}
+952bronzeage = {
+	name = "dynn_Djedkare-Khnum"
+	culture = "upper_egyptian"
+}
+953bronzeage = {
+	name = "dynn_Qen-Heqet"
+	culture = "upper_egyptian"
+}
+954bronzeage = {
+	name = "dynn_Unas-Isis"
+	culture = "upper_egyptian"
+}
+955bronzeage = {
+	name = "dynn_Nebet-Nekbhet"
+	culture = "upper_egyptian"
+}
+956bronzeage = {
+	name = "dynn_Minkhaf-Mut"
+	culture = "upper_egyptian"
+}
+957bronzeage = {
+	name = "dynn_Henuttawy-Bat"
+	culture = "upper_egyptian"
+}
+958bronzeage = {
+	name = "dynn_Webensenu-Amun"
+	culture = "upper_egyptian"
+}
+959bronzeage = {
+	name = "dynn_Nasakhma-Delikrer"
+	culture = "nubian"
+}
+961bronzeage = {
+	name = "dynn_Tamelerdeamani-Amnxedele"
+	culture = "nubian"
+}
+962bronzeage = {
+	name = "dynn_Yesbokheamani-Xdekmli"
+	culture = "nubian"
+}
+963bronzeage = {
+	name = "dynn_Teritnide-Hrkebe"
+	culture = "nubian"
+}
+964bronzeage = {
+	name = "dynn_Talakhamani-Arty"
+	culture = "nubian"
+}
+965bronzeage = {
+	name = "dynn_Wegaf"
+	culture = "upper_egyptian"
+}
+966bronzeage = {
+	name = "dynn_Teqerideamani-Xresye"
+	culture = "nubian"
+}
+967bronzeage = {
+	name = "dynn_Aqemleye-Amanitakaye"
+	culture = "nubian"
+}
+969bronzeage = {
+	name = "dynn_Tarma-ri-s-Adamma"
+	culture = "haburi"
+}
+970bronzeage = {
+	name = "dynn_Nupa-tiya-Rashap"
+	culture = "haburi"
+}
+971bronzeage = {
+	name = "dynn_Satta-kiyazi-Rashap"
+	culture = "haburi"
+}
+972bronzeage = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "haburi"
+}
+973bronzeage = {
+	name = "dynn_Kari-ya-Nubadig"
+	culture = "harrani"
+}
+974bronzeage = {
+	name = "dynn_Seh-saya-Kushuh"
+	culture = "haburi"
+}
+975bronzeage = {
+	name = "dynn_Senip-sarri-Hutelluri"
+	culture = "haburi"
+}
+976bronzeage = {
+	name = "dynn_Kiyazi-Hutena"
+	culture = "haburi"
+}
+977bronzeage = {
+	name = "dynn_Paki-la-Sumuqan"
+	culture = "haburi"
+}
+979bronzeage = {
+	name = "dynn_Batnoam-Athirat"
+	culture = "amoritic"
+}
+980bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "amoritic"
+}
+981bronzeage = {
+	name = "dynn_Ittoba_al-Shachar"
+	culture = "amoritic"
+}
+982bronzeage = {
+	name = "dynn_Qareh-Bat"
+	culture = "wahenian"
+}
+983bronzeage = {
+	name = "dynn_Adherba"
+	culture = "berber"
+}
+984bronzeage = {
+	name = "dynn_Senua"
+	culture = "berber"
+}
+985bronzeage = {
+	name = "dynn_Tacfarina"
+	culture = "berber"
+}
+986bronzeage = {
+	name = "dynn_Galid"
+	culture = "berber"
+}
+987bronzeage = {
+	name = "dynn_Ahmid"
+	culture = "berber"
+}
+988bronzeage = {
+	name = "dynn_Kenamid"
+	culture = "berber"
+}
+989bronzeage = {
+	name = "dynn_Narava"
+	culture = "berber"
+}
+990bronzeage = {
+	name = "dynn_Tacfarina"
+	culture = "berber"
+}
+992bronzeage = {
+	name = "dynn_Sabit-Nanshe"
+	culture = "sumerian"
+}
+993bronzeage = {
+	name = "dynn_Sabit-Nanshe"
+	culture = "neo_sumerian"
+}
+994bronzeage = {
+	name = "dynn_Puzur-Nintinugga"
+	culture = "neo_sumerian"
+}
+996bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "neo_sumerian"
+}
+997bronzeage = {
+	name = "dynn_Aba-Lim-Anat"
+	culture = "amoritic"
+}
+998bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "amoritic"
+}
+999bronzeage = {
+	name = "dynn_Sargon-Ea"
+	culture = "south_akkadian"
+}
+1000bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1001bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1002bronzeage = {
+	name = "dynn_Puannum-Ningal"
+	culture = "south_akkadian"
+}
+1003bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1004bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1005bronzeage = {
+	name = "dynn_Rimush-Tishpak"
+	culture = "south_akkadian"
+}
+1006bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1007bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "south_akkadian"
+}
+1008bronzeage = {
+	name = "dynn_Hana-Tammuz"
+	culture = "south_akkadian"
+}
+1009bronzeage = {
+	name = "dynn_Puannum-Ningal"
+	culture = "south_akkadian"
+}
+1010bronzeage = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1011bronzeage = {
+	name = "dynn_Rimush-Tishpak"
+	culture = "south_akkadian"
+}
+1012bronzeage = {
+	name = "dynn_Untash-Nahhunte"
+	culture = "ellipian"
+}
+1014bronzeage = {
+	name = "dynn_Jushur-Sin"
+	culture = "maganite"
+}
+1015bronzeage = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "maganite"
+}
+1016bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "maganite"
+}
+1017bronzeage = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "maganite"
+}
+1018bronzeage = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "dilmunite"
+}
+1019bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "dilmunite"
+}
+1020bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "sinaian"
+}
+1021bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "sinaian"
+}
+1022bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "sinaian"
+}
+1023bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "sinaian"
+}
+1024bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "moabite"
+}
+1025bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "edomite"
+}
+1026bronzeage = {
+	name = "dynn_Luli-Arsay"
+	culture = "phoenician"
+}
+1027bronzeage = {
+	name = "dynn_Yehomilk-Ashtar"
+	culture = "canaanite"
+}
+1028bronzeage = {
+	name = "dynn_Melqartshama-Arsu"
+	culture = "canaanite"
+}
+1029bronzeage = {
+	name = "dynn_Melqartpilles-Horon"
+	culture = "canaanite"
+}
+1030bronzeage = {
+	name = "dynn_Azimilik-Athirat"
+	culture = "canaanite"
+}
+1031bronzeage = {
+	name = "dynn_Bomilcar-Baalah"
+	culture = "canaanite"
+}
+1032bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "ammonite"
+}
+1033bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "moabite"
+}
+1034bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "ammonite"
+}
+1035bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "ammonite"
+}
+1036bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "ammonite"
+}
+1037bronzeage = {
+	name = "dynn_Hadda-ahu-Arsay"
+	culture = "canaanite"
+}
+1038bronzeage = {
+	name = "dynn_Ahiram-Baalah"
+	culture = "canaanite"
+}
+1039bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "bedu"
+}
+1040bronzeage = {
+	name = "dynn_Zakarba_al-Azizos"
+	culture = "canaanite"
+}
+1041bronzeage = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "canaanite"
+}
+1042bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "golanite"
+}
+1043bronzeage = {
+	name = "dynn_Hamilcar-El"
+	culture = "phoenician"
+}
+1044bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "aramean"
+}
+1045bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "aramean"
+}
+1046bronzeage = {
+	name = "dynn_Abdmelqart-Aglibol"
+	culture = "amoritic"
+}
+1047bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "amoritic"
+}
+1048bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "golanite"
+}
+1049bronzeage = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "aramean"
+}
+1050bronzeage = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "aramean"
+}
+1051bronzeage = {
+	name = "dynn_Astartos-Qadeshtu"
+	culture = "amoritic"
+}
+1052bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "golanite"
+}
+1053bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "golanite"
+}
+1054bronzeage = {
+	name = "dynn_Baaliaton-Azizos"
+	culture = "aramean"
+}
+1055bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "edomite"
+}
+1056bronzeage = {
+	name = "dynn_Adonibaal-Eshmun"
+	culture = "canaanite"
+}
+1057bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "tarhuntassan"
+}
+1058bronzeage = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "kizzuni"
+}
+1059bronzeage = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "kizzuni"
+}
+1060bronzeage = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "kizzuni"
+}
+1061bronzeage = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "kizzuni"
+}
+1062bronzeage = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "kizzuni"
+}
+1064bronzeage = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "kizzuni"
+}
+1065bronzeage = {
+	name = "dynn_Allai-tatta-Hebat"
+	culture = "kizzuni"
+}
+1066bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "tarhuntassan"
+}
+1067bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "tarhuntassan"
+}
+1068bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+1069bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "tarhuntassan"
+}
+1070bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "tarhuntassan"
+}
+1071bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "lukkan"
+}
+1072bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+1073bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "lukkan"
+}
+1074bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "lukkan"
+}
+1075bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+1076bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+1077bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+1078bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+1079bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+1080bronzeage = {
+	name = "dynn_Anaramati"
+	culture = "lukkan"
+}
+1081bronzeage = {
+	name = "dynn_Anatar"
+	culture = "lukkan"
+}
+1082bronzeage = {
+	name = "dynn_Aradnethe"
+	culture = "telchines"
+}
+1083bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "cypriot"
+}
+1085bronzeage = {
+	name = "dynn_Kissamathe"
+	culture = "cypriot"
+}
+1086bronzeage = {
+	name = "dynn_Onkestathe"
+	culture = "cypriot"
+}
+1088bronzeage = {
+	name = "dynn_Kadmale"
+	culture = "minoan"
+}
+1089bronzeage = {
+	name = "dynn_Abna"
+	culture = "minoan"
+}
+1090bronzeage = {
+	name = "dynn_Labdakale"
+	culture = "minoan"
+}
+1091bronzeage = {
+	name = "dynn_Kalydna"
+	culture = "karpathan"
+}
+1092bronzeage = {
+	name = "dynn_Tenedathe"
+	culture = "minoan"
+}
+1093bronzeage = {
+	name = "dynn_Tulisathe"
+	culture = "minoan"
+}
+1094bronzeage = {
+	name = "dynn_Mathumnathe"
+	culture = "minoan"
+}
+1095bronzeage = {
+	name = "dynn_Epopale"
+	culture = "minoan"
+}
+1096bronzeage = {
+	name = "dynn_Kalydnale"
+	culture = "minoan"
+}
+1097bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "minoan"
+}
+1098bronzeage = {
+	name = "dynn_Mathumnathe"
+	culture = "minoan"
+}
+1099bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "minoan"
+}
+1100bronzeage = {
+	name = "dynn_Pholegandrathe"
+	culture = "leleges"
+}
+1101bronzeage = {
+	name = "dynn_Dandexathe"
+	culture = "cycladic"
+}
+1102bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "telchines"
+}
+1103bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "carian"
+}
+1104bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+1105bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+1106bronzeage = {
+	name = "dynn_Anaramati"
+	culture = "carian"
+}
+1107bronzeage = {
+	name = "dynn_Anatar"
+	culture = "carian"
+}
+1108bronzeage = {
+	name = "dynn_Anatar"
+	culture = "carian"
+}
+1109bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "tyrsenian"
+}
+1111bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "wilusan"
+}
+1112bronzeage = {
+	name = "dynn_Tulisathe"
+	culture = "leleges"
+}
+1113bronzeage = {
+	name = "dynn_Anatar"
+	culture = "sehan"
+}
+1114bronzeage = {
+	name = "dynn_Nirna"
+	culture = "leleges"
+}
+1115bronzeage = {
+	name = "dynn_Kastabathe"
+	culture = "leleges"
+}
+1116bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "lydian"
+}
+1117bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "wilusan"
+}
+1118bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "wilusan"
+}
+1119bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "wilusan"
+}
+1120bronzeage = {
+	name = "dynn_Anatar"
+	culture = "lukkan"
+}
+1121bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "carian"
+}
+1122bronzeage = {
+	name = "dynn_Anatar"
+	culture = "lydian"
+}
+1123bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "lydian"
+}
+1124bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "miran"
+}
+1125bronzeage = {
+	name = "dynn_Epopale"
+	culture = "leleges"
+}
+1126bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "carian"
+}
+1127bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "lukkan"
+}
+1128bronzeage = {
+	name = "dynn_Ata-Halki"
+	culture = "anshanian"
+}
+1129bronzeage = {
+	name = "dynn_Kidin-Ishshan"
+	culture = "anshanian"
+}
+1130bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+1131bronzeage = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "anshanian"
+}
+1132bronzeage = {
+	name = "dynn_Napi-Nashur"
+	culture = "liyan"
+}
+1133bronzeage = {
+	name = "dynn_Kutir-Napirisha"
+	culture = "anshanian"
+}
+1134bronzeage = {
+	name = "dynn_Pahir-Hutran"
+	culture = "anshanian"
+}
+1135bronzeage = {
+	name = "dynn_Ukku-Tarana"
+	culture = "anshanian"
+}
+1137bronzeage = {
+	name = "dynn_Numena-Humban"
+	culture = "susanian"
+}
+1138bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "susanian"
+}
+1139bronzeage = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "susanian"
+}
+1140bronzeage = {
+	name = "dynn_Attar-Halki"
+	culture = "susanian"
+}
+1141bronzeage = {
+	name = "dynn_Ata-Halki"
+	culture = "susanian"
+}
+1142bronzeage = {
+	name = "dynn_Kidin-Ishshan"
+	culture = "susanian"
+}
+1143bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "susanian"
+}
+1144bronzeage = {
+	name = "dynn_Qareh-Bat"
+	culture = "mu_kedi"
+}
+1145bronzeage = {
+	name = "dynn_Baskakeren-Heqet"
+	culture = "mu_kedi"
+}
+1146bronzeage = {
+	name = "dynn_Ramose-Nut"
+	culture = "upper_egyptian"
+}
+1147bronzeage = {
+	name = "dynn_Wegaf"
+	culture = "mu_kedi"
+}
+1148bronzeage = {
+	name = "dynn_Menkheperre-Neith"
+	culture = "upper_egyptian"
+}
+1149bronzeage = {
+	name = "dynn_Shemai-Khonsu"
+	culture = "mu_kedi"
+}
+1150bronzeage = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "susanian"
+}
+1151bronzeage = {
+	name = "dynn_Kutir-Napirisha"
+	culture = "susanian"
+}
+1152bronzeage = {
+	name = "dynn_Shipta-Alban"
+	culture = "gutian"
+}
+1153bronzeage = {
+	name = "dynn_Hurba-Bugash"
+	culture = "gutian"
+}
+1154bronzeage = {
+	name = "dynn_Purna-Sah"
+	culture = "gutian"
+}
+1155bronzeage = {
+	name = "dynn_Numena-Humban"
+	culture = "ellipian"
+}
+1156bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "ellipian"
+}
+1157bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "gutian"
+}
+1158bronzeage = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "gutian"
+}
+1159bronzeage = {
+	name = "dynn_Uzunnu-Buriash"
+	culture = "gutian"
+}
+1160bronzeage = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "ellipian"
+}
+1161bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1162bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+1163bronzeage = {
+	name = "dynn_Kutik-Hutran"
+	culture = "anshanian"
+}
+1164bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "anshanian"
+}
+1165bronzeage = {
+	name = "dynn_Attar-Halki"
+	culture = "ellipian"
+}
+1166bronzeage = {
+	name = "dynn_Milkyaton-Kotharat"
+	culture = "phoenician"
+}
+1169bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "nesili"
+}
+1170bronzeage = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "ishuwan"
+}
+1171bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "nesili"
+}
+1172bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}
+1173bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "miran"
+}
+1174bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "miran"
+}
+1175bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "miran"
+}
+1176bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "hapallan"
+}
+1177bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "hapallan"
+}
+1178bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+1179bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+1180bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+1181bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "tarhuntassan"
+}
+1182bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "tarhuntassan"
+}
+1183bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "tarhuntassan"
+}
+1184bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "nesili"
+}
+1185bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "palaic"
+}
+1186bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "hapallan"
+}
+1187bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "hapallan"
+}
+1188bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "hapallan"
+}
+1189bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "palaic"
+}
+1190bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "hapallan"
+}
+1191bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "palaic"
+}
+1192bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "palaic"
+}
+1193bronzeage = {
+	name = "dynn_Anataruntiya"
+	culture = "hattian"
+}
+1194bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+1195bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+1196bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "hattian"
+}
+1198bronzeage = {
+	name = "dynn_Anatar"
+	culture = "nesili"
+}
+1199bronzeage = {
+	name = "dynn_Anaramati"
+	culture = "hattian"
+}
+1200bronzeage = {
+	name = "dynn_Anatar"
+	culture = "nesili"
+}
+1201bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "nesili"
+}
+1202bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "nesili"
+}
+1203bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "nesili"
+}
+1204bronzeage = {
+	name = "dynn_Ewe-Kubaba"
+	culture = "ishuwan"
+}
+1206bronzeage = {
+	name = "dynn_Sena-ya-Hutena"
+	culture = "kizzuni"
+}
+1207bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "hapallan"
+}
+1209bronzeage = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "amoritic"
+}
+1210bronzeage = {
+	name = "dynn_Hiram-Nikkal"
+	culture = "amoritic"
+}
+1211bronzeage = {
+	name = "dynn_Zirri-Hutena"
+	culture = "zalwari"
+}
+1212bronzeage = {
+	name = "dynn_Ari-tupki-Ebrimusha"
+	culture = "zalwari"
+}
+1213bronzeage = {
+	name = "dynn_Ba_aleser-Shapash"
+	culture = "amoritic"
+}
+1214bronzeage = {
+	name = "dynn_Ewe-Kubaba"
+	culture = "zalwari"
+}
+1215bronzeage = {
+	name = "dynn_Baalhanno-Ashtar"
+	culture = "amoritic"
+}
+1216bronzeage = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "harrani"
+}
+1217bronzeage = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "harrani"
+}
+1218bronzeage = {
+	name = "dynn_Luli-Arsay"
+	culture = "amoritic"
+}
+1219bronzeage = {
+	name = "dynn_Paltibaal-Anat"
+	culture = "amoritic"
+}
+1220bronzeage = {
+	name = "dynn_Eshmouniaton-Nikkal"
+	culture = "amoritic"
+}
+1221bronzeage = {
+	name = "dynn_Tabnit-Shamin"
+	culture = "amoritic"
+}
+1222bronzeage = {
+	name = "dynn_Maharbaal-Eshmun"
+	culture = "amoritic"
+}
+1223bronzeage = {
+	name = "dynn_Abiba_al-Mot"
+	culture = "amoritic"
+}
+1224bronzeage = {
+	name = "dynn_Tata-ra-Shalash"
+	culture = "harrani"
+}
+1227bronzeage = {
+	name = "dynn_Eni-ya-Hurri"
+	culture = "haburi"
+}
+1228bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "ashurian"
+}
+1229bronzeage = {
+	name = "dynn_Tagis-nati-e-Hebat"
+	culture = "haburi"
+}
+1230bronzeage = {
+	name = "dynn_Sena-ya-Hutena"
+	culture = "tukri"
+}
+1231bronzeage = {
+	name = "dynn_Gabnila-Sah"
+	culture = "lullubi"
+}
+1232bronzeage = {
+	name = "dynn_Kari-ya-Nubadig"
+	culture = "tukri"
+}
+1233bronzeage = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "tukri"
+}
+1234bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+1235bronzeage = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "tukri"
+}
+1236bronzeage = {
+	name = "dynn_Tata-ra-Shalash"
+	culture = "tukri"
+}
+1237bronzeage = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "tukri"
+}
+1238bronzeage = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "tukri"
+}
+1239bronzeage = {
+	name = "dynn_Sama-hul-Kubaba"
+	culture = "tukri"
+}
+1240bronzeage = {
+	name = "dynn_Taki-ya-Hayya"
+	culture = "tukri"
+}
+1241bronzeage = {
+	name = "dynn_Kulumum-Ninurta"
+	culture = "ashurian"
+}
+1242bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "ashurian"
+}
+1243bronzeage = {
+	name = "dynn_Babum-Geshtinanna"
+	culture = "ashurian"
+}
+1244bronzeage = {
+	name = "dynn_Pisr-uhli-Hebat"
+	culture = "tukri"
+}
+1245bronzeage = {
+	name = "dynn_Hana-Tammuz"
+	culture = "south_akkadian"
+}
+1246bronzeage = {
+	name = "dynn_Limer-Adad"
+	culture = "south_akkadian"
+}
+1247bronzeage = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "south_akkadian"
+}
+1248bronzeage = {
+	name = "dynn_Katir-he-Pirinki"
+	culture = "tukri"
+}
+1249bronzeage = {
+	name = "dynn_Apa-Zini"
+	culture = "lullubi"
+}
+1250bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1251bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1252bronzeage = {
+	name = "dynn_Babum-Geshtinanna"
+	culture = "dilmunite"
+}
+1253bronzeage = {
+	name = "dynn_Tarma-ri-s-Adamma"
+	culture = "tukri"
+}
+1254bronzeage = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "ashurian"
+}
+1255bronzeage = {
+	name = "dynn_Sargon-Ea"
+	culture = "ashurian"
+}
+1256bronzeage = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "haburi"
+}
+1257bronzeage = {
+	name = "dynn_Ilulu-Sin"
+	culture = "south_akkadian"
+}
+1258bronzeage = {
+	name = "dynn_Puannum-Ningal"
+	culture = "ashurian"
+}
+1259bronzeage = {
+	name = "dynn_Abibaal-Dagon"
+	culture = "amoritic"
+}
+1260bronzeage = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "harrani"
+}
+1261bronzeage = {
+	name = "dynn_Paltibaal-Shadrafa"
+	culture = "amoritic"
+}
+1262bronzeage = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "harrani"
+}
+1263bronzeage = {
+	name = "dynn_Sama-hul-Kubaba"
+	culture = "harrani"
+}
+1264bronzeage = {
+	name = "dynn_Taki-ya-Hayya"
+	culture = "harrani"
+}
+1266bronzeage = {
+	name = "dynn_Astharymos-Resheph"
+	culture = "amoritic"
+}
+1267bronzeage = {
+	name = "dynn_Ittoba_al-Shachar"
+	culture = "amoritic"
+}
+1268bronzeage = {
+	name = "dynn_Bomical-Resheph"
+	culture = "amoritic"
+}
+1269bronzeage = {
+	name = "dynn_Una-tis-Shalash"
+	culture = "haburi"
+}
+1270bronzeage = {
+	name = "dynn_Pisr-uhli-Hebat"
+	culture = "harrani"
+}
+1271bronzeage = {
+	name = "dynn_Katir-he-Pirinki"
+	culture = "harrani"
+}
+1272bronzeage = {
+	name = "dynn_Tarma-ri-s-Adamma"
+	culture = "harrani"
+}
+1273bronzeage = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "shubrian"
+}
+1274bronzeage = {
+	name = "dynn_Papu-zi-Tashmisu"
+	culture = "shubrian"
+}
+1275bronzeage = {
+	name = "dynn_Kuzi-Allani"
+	culture = "shubrian"
+}
+1276bronzeage = {
+	name = "dynn_Sur-siya-Shalash"
+	culture = "shubrian"
+}
+1277bronzeage = {
+	name = "dynn_Kipu-seni-Nabarbi"
+	culture = "haburi"
+}
+1278bronzeage = {
+	name = "dynn_Muzu-m-Shimegi"
+	culture = "haburi"
+}
+1279bronzeage = {
+	name = "dynn_Azu-na-n-Allani"
+	culture = "haburi"
+}
+1280bronzeage = {
+	name = "dynn_Nani-ku-Hutelluri"
+	culture = "haburi"
+}
+1281bronzeage = {
+	name = "dynn_Nupa-tiya-Rashap"
+	culture = "tukri"
+}
+1282bronzeage = {
+	name = "dynn_Satta-kiyazi-Rashap"
+	culture = "tukri"
+}
+1283bronzeage = {
+	name = "dynn_Baaliahon-Lotan"
+	culture = "amoritic"
+}
+1284bronzeage = {
+	name = "dynn_Malchus-Shachar"
+	culture = "amoritic"
+}
+1285bronzeage = {
+	name = "dynn_Knidia"
+	culture = "proto_greek"
+}
+1286bronzeage = {
+	name = "dynn_Kyparisioi"
+	culture = "achaian"
+}
+1287bronzeage = {
+	name = "dynn_Lakedamnios"
+	culture = "achaian"
+}
+1288bronzeage = {
+	name = "dynn_Dynios"
+	culture = "achaian"
+}
+1289bronzeage = {
+	name = "dynn_Petonios"
+	culture = "proto_greek"
+}
+1290bronzeage = {
+	name = "dynn_Kerawios"
+	culture = "proto_greek"
+}
+1291bronzeage = {
+	name = "dynn_Zakynsios"
+	culture = "proto_greek"
+}
+1293bronzeage = {
+	name = "dynn_Aigyptios"
+	culture = "proto_greek"
+}
+1294bronzeage = {
+	name = "dynn_Zagreid"
+	culture = "bryges"
+}
+1295bronzeage = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+1296bronzeage = {
+	name = "dynn_Lynkinthos"
+	culture = "helladic"
+}
+1297bronzeage = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+1298bronzeage = {
+	name = "dynn_Keios"
+	culture = "proto_greek"
+}
+1299bronzeage = {
+	name = "dynn_Xivia"
+	culture = "proto_greek"
+}
+1300bronzeage = {
+	name = "dynn_Sywerios"
+	culture = "proto_greek"
+}
+1301bronzeage = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+1302bronzeage = {
+	name = "dynn_Kephistodid"
+	culture = "bryges"
+}
+1303bronzeage = {
+	name = "dynn_Karsid"
+	culture = "bryges"
+}
+1304bronzeage = {
+	name = "dynn_Lawranthios"
+	culture = "proto_greek"
+}
+1305bronzeage = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+1306bronzeage = {
+	name = "dynn_Kephistodid"
+	culture = "bryges"
+}
+1307bronzeage = {
+	name = "dynn_Leonidid"
+	culture = "bryges"
+}
+1308bronzeage = {
+	name = "dynn_Phaistathe"
+	culture = "tyrsenian"
+}
+1309bronzeage = {
+	name = "dynn_Kephistodid"
+	culture = "bryges"
+}
+1310bronzeage = {
+	name = "dynn_Pyhrrid"
+	culture = "bryges"
+}
+1311bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "tyrsenian"
+}
+1312bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "tyrsenian"
+}
+1313bronzeage = {
+	name = "dynn_Mosukhlathe"
+	culture = "tyrsenian"
+}
+1314bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "tyrsenian"
+}
+1315bronzeage = {
+	name = "dynn_Malathiwes"
+	culture = "achaian"
+}
+1316bronzeage = {
+	name = "dynn_Dywoios"
+	culture = "achaian"
+}
+1317bronzeage = {
+	name = "dynn_Kerkios"
+	culture = "achaian"
+}
+1318bronzeage = {
+	name = "dynn_Metapios"
+	culture = "proto_greek"
+}
+1319bronzeage = {
+	name = "dynn_Kerkios"
+	culture = "proto_greek"
+}
+1320bronzeage = {
+	name = "dynn_Kelchides"
+	culture = "proto_greek"
+}
+1321bronzeage = {
+	name = "dynn_Lynkinthos"
+	culture = "tyrsenian"
+}
+1322bronzeage = {
+	name = "dynn_Astupalathe"
+	culture = "kuretes"
+}
+1323bronzeage = {
+	name = "dynn_Lykinthios"
+	culture = "proto_greek"
+}
+1324bronzeage = {
+	name = "dynn_Odrywia"
+	culture = "proto_greek"
+}
+1325bronzeage = {
+	name = "dynn_Knidia"
+	culture = "proto_greek"
+}
+1326bronzeage = {
+	name = "dynn_Zagreid"
+	culture = "bryges"
+}
+1327bronzeage = {
+	name = "dynn_Karsid"
+	culture = "bryges"
+}
+1328bronzeage = {
+	name = "dynn_Krokylaioi"
+	culture = "proto_greek"
+}
+1329bronzeage = {
+	name = "dynn_Zenonid"
+	culture = "bryges"
+}
+1330bronzeage = {
+	name = "dynn_Lousios"
+	culture = "proto_greek"
+}
+1331bronzeage = {
+	name = "dynn_Malthiwios"
+	culture = "achaian"
+}
+1332bronzeage = {
+	name = "dynn_Idomeneios"
+	culture = "achaian"
+}
+1335bronzeage = {
+	name = "dynn_Sphakosios"
+	culture = "achaian"
+}
+1336bronzeage = {
+	name = "dynn_Perraibothe"
+	culture = "helladic"
+}
+1337bronzeage = {
+	name = "dynn_Malthiwios"
+	culture = "achaian"
+}
+1338bronzeage = {
+	name = "dynn_Labdakna"
+	culture = "helladic"
+}
+1339bronzeage = {
+	name = "dynn_Korinsios"
+	culture = "achaian"
+}
+1340bronzeage = {
+	name = "dynn_Esalewia"
+	culture = "achaian"
+}
+1341bronzeage = {
+	name = "dynn_Odrywia"
+	culture = "achaian"
+}
+1342bronzeage = {
+	name = "dynn_Pandarna"
+	culture = "kuretes"
+}
+1343bronzeage = {
+	name = "dynn_Lousios"
+	culture = "achaian"
+}
+1344bronzeage = {
+	name = "dynn_Amnisios"
+	culture = "achaian"
+}
+1347bronzeage = {
+	name = "dynn_Oichaleai"
+	culture = "achaian"
+}
+1348bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "kuretes"
+}
+1349bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "kuretes"
+}
+1350bronzeage = {
+	name = "dynn_Leukopale"
+	culture = "kuretes"
+}
+1351bronzeage = {
+	name = "dynn_Kissamathe"
+	culture = "kuretes"
+}
+1352bronzeage = {
+	name = "dynn_Onkestathe"
+	culture = "kuretes"
+}
+1353bronzeage = {
+	name = "dynn_Erumanthe"
+	culture = "minoan"
+}
+1354bronzeage = {
+	name = "dynn_Kadmale"
+	culture = "cycladic"
+}
+1355bronzeage = {
+	name = "dynn_Pandarle"
+	culture = "cycladic"
+}
+1356bronzeage = {
+	name = "dynn_Tegurathe"
+	culture = "cycladic"
+}
+1357bronzeage = {
+	name = "dynn_Labdakale"
+	culture = "cycladic"
+}
+1358bronzeage = {
+	name = "dynn_Kantanathe"
+	culture = "cycladic"
+}
+1359bronzeage = {
+	name = "dynn_Pholegandrathe"
+	culture = "cycladic"
+}
+1360bronzeage = {
+	name = "dynn_Tulisathe"
+	culture = "cycladic"
+}
+1361bronzeage = {
+	name = "dynn_Nirna"
+	culture = "cycladic"
+}
+1362bronzeage = {
+	name = "dynn_Kastabathe"
+	culture = "cycladic"
+}
+1363bronzeage = {
+	name = "dynn_Epopale"
+	culture = "cycladic"
+}
+1364bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "cycladic"
+}
+1365bronzeage = {
+	name = "dynn_Phaistathe"
+	culture = "cycladic"
+}
+1366bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "cycladic"
+}
+1367bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "cycladic"
+}
+1368bronzeage = {
+	name = "dynn_Mosukhlathe"
+	culture = "cycladic"
+}
+1369bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "cycladic"
+}
+1370bronzeage = {
+	name = "dynn_Lawranthios"
+	culture = "achaian"
+}
+1371bronzeage = {
+	name = "dynn_Xivia"
+	culture = "achaian"
+}
+1372bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "hektenas"
+}
+1373bronzeage = {
+	name = "dynn_Atreiwios"
+	culture = "achaian"
+}
+1374bronzeage = {
+	name = "dynn_Sphagianiai"
+	culture = "achaian"
+}
+1375bronzeage = {
+	name = "dynn_Tylisios"
+	culture = "achaian"
+}
+1376bronzeage = {
+	name = "dynn_Naruxathe"
+	culture = "dryopes"
+}
+1377bronzeage = {
+	name = "dynn_Malitas"
+	culture = "achaian"
+}
+1378bronzeage = {
+	name = "dynn_Mukalessathe"
+	culture = "helladic"
+}
+1379bronzeage = {
+	name = "dynn_Elurathe"
+	culture = "helladic"
+}
+1380bronzeage = {
+	name = "dynn_Nirale"
+	culture = "helladic"
+}
+1381bronzeage = {
+	name = "dynn_Nirna"
+	culture = "helladic"
+}
+1382bronzeage = {
+	name = "dynn_Kelousathe"
+	culture = "helladic"
+}
+1383bronzeage = {
+	name = "dynn_Dawios"
+	culture = "achaian"
+}
+1384bronzeage = {
+	name = "dynn_Sphakosios"
+	culture = "achaian"
+}
+1385bronzeage = {
+	name = "dynn_Lebedathe"
+	culture = "helladic"
+}
+1386bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "kranaoi"
+}
+1387bronzeage = {
+	name = "dynn_Owitonioi"
+	culture = "achaian"
+}
+1388bronzeage = {
+	name = "dynn_Phasgianiai"
+	culture = "achaian"
+}
+1389bronzeage = {
+	name = "dynn_Sphakosios"
+	culture = "achaian"
+}
+1390bronzeage = {
+	name = "dynn_Gunale"
+	culture = "helladic"
+}
+1391bronzeage = {
+	name = "dynn_Aziottenathe"
+	culture = "athamanes"
+}
+1392bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "athamanes"
+}
+1393bronzeage = {
+	name = "dynn_Kastabathe"
+	culture = "tyrsenian"
+}
+1394bronzeage = {
+	name = "dynn_Perraibothe"
+	culture = "tyrsenian"
+}
+1395bronzeage = {
+	name = "dynn_Owitonioi"
+	culture = "achaian"
+}
+1396bronzeage = {
+	name = "dynn_Astupalathe"
+	culture = "athamanes"
+}
+1397bronzeage = {
+	name = "dynn_Lamniai"
+	culture = "proto_greek"
+}
+1398bronzeage = {
+	name = "dynn_Dywoios"
+	culture = "proto_greek"
+}
+1399bronzeage = {
+	name = "dynn_Sphakosios"
+	culture = "proto_greek"
+}
+1400bronzeage = {
+	name = "dynn_Owitonioi"
+	culture = "proto_greek"
+}
+1401bronzeage = {
+	name = "dynn_Xivia"
+	culture = "proto_greek"
+}
+1402bronzeage = {
+	name = "dynn_Maranenioi"
+	culture = "proto_greek"
+}
+1403bronzeage = {
+	name = "dynn_Witylios"
+	culture = "proto_greek"
+}
+1404bronzeage = {
+	name = "dynn_Idomeneios"
+	culture = "proto_greek"
+}
+1405bronzeage = {
+	name = "dynn_Sphagianiai"
+	culture = "proto_greek"
+}
+1406bronzeage = {
+	name = "dynn_Keios"
+	culture = "proto_greek"
+}
+1407bronzeage = {
+	name = "dynn_Amnisios"
+	culture = "proto_greek"
+}
+1408bronzeage = {
+	name = "dynn_Malathiwes"
+	culture = "proto_greek"
+}
+1409bronzeage = {
+	name = "dynn_Lepeurios"
+	culture = "proto_greek"
+}
+1410bronzeage = {
+	name = "dynn_Korinsia"
+	culture = "proto_greek"
+}
+1411bronzeage = {
+	name = "dynn_Pleuonios"
+	culture = "proto_greek"
+}
+1412bronzeage = {
+	name = "dynn_Kerawios"
+	culture = "proto_greek"
+}
+1413bronzeage = {
+	name = "dynn_Wrypiaioi"
+	culture = "proto_greek"
+}
+1414bronzeage = {
+	name = "dynn_Kyprios"
+	culture = "proto_greek"
+}
+1415bronzeage = {
+	name = "dynn_Kytaisios"
+	culture = "proto_greek"
+}
+1416bronzeage = {
+	name = "dynn_Harisios"
+	culture = "proto_greek"
+}
+1417bronzeage = {
+	name = "dynn_Zephyreai"
+	culture = "proto_greek"
+}
+1418bronzeage = {
+	name = "dynn_Knosios"
+	culture = "proto_greek"
+}
+1419bronzeage = {
+	name = "dynn_Tethrywes"
+	culture = "proto_greek"
+}
+1420bronzeage = {
+	name = "dynn_Metapios"
+	culture = "proto_greek"
+}
+1421bronzeage = {
+	name = "dynn_Amnisios"
+	culture = "proto_greek"
+}
+1422bronzeage = {
+	name = "dynn_Dywoios"
+	culture = "proto_greek"
+}
+1423bronzeage = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+1424bronzeage = {
+	name = "dynn_Knosia"
+	culture = "proto_greek"
+}
+1425bronzeage = {
+	name = "dynn_Tylisios"
+	culture = "proto_greek"
+}
+1426bronzeage = {
+	name = "dynn_Kerawios"
+	culture = "proto_greek"
+}
+1427bronzeage = {
+	name = "dynn_Malthiwios"
+	culture = "proto_greek"
+}
+1428bronzeage = {
+	name = "dynn_Killistratid"
+	culture = "bryges"
+}
+1429bronzeage = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+1430bronzeage = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+1431bronzeage = {
+	name = "dynn_Nikoklid"
+	culture = "bryges"
+}
+1432bronzeage = {
+	name = "dynn_Zosimid"
+	culture = "bryges"
+}
+1433bronzeage = {
+	name = "dynn_Tauriskid"
+	culture = "bryges"
+}
+1434bronzeage = {
+	name = "dynn_Pytheid"
+	culture = "bryges"
+}
+1435bronzeage = {
+	name = "dynn_Onomastid"
+	culture = "bryges"
+}
+1436bronzeage = {
+	name = "dynn_Onomastid"
+	culture = "bryges"
+}
+1437bronzeage = {
+	name = "dynn_Hippostratid"
+	culture = "bryges"
+}
+1438bronzeage = {
+	name = "dynn_Labdakna"
+	culture = "tyrsenian"
+}
+1439bronzeage = {
+	name = "dynn_Mukalessathe"
+	culture = "tyrsenian"
+}
+1440bronzeage = {
+	name = "dynn_Elurathe"
+	culture = "tyrsenian"
+}
+1441bronzeage = {
+	name = "dynn_Zosimid"
+	culture = "bryges"
+}
+1442bronzeage = {
+	name = "dynn_Philetid"
+	culture = "bryges"
+}
+1443bronzeage = {
+	name = "dynn_Philonid"
+	culture = "bryges"
+}
+1444bronzeage = {
+	name = "dynn_Philetid"
+	culture = "bryges"
+}
+1445bronzeage = {
+	name = "dynn_Nirale"
+	culture = "tyrsenian"
+}
+1446bronzeage = {
+	name = "dynn_Nirna"
+	culture = "tyrsenian"
+}
+1447bronzeage = {
+	name = "dynn_Kelousathe"
+	culture = "tyrsenian"
+}
+1448bronzeage = {
+	name = "dynn_Lebedathe"
+	culture = "tyrsenian"
+}
+1449bronzeage = {
+	name = "dynn_Gunale"
+	culture = "tyrsenian"
+}
+1450bronzeage = {
+	name = "dynn_Pandarle"
+	culture = "tyrsenian"
+}
+1451bronzeage = {
+	name = "dynn_Pandarle"
+	culture = "tyrsenian"
+}
+1452bronzeage = {
+	name = "dynn_Saransathe"
+	culture = "tyrsenian"
+}
+1453bronzeage = {
+	name = "dynn_Kekropna"
+	culture = "tyrsenian"
+}
+1454bronzeage = {
+	name = "dynn_Kothokidaithe"
+	culture = "tyrsenian"
+}
+1455bronzeage = {
+	name = "dynn_Ekhthina"
+	culture = "tyrsenian"
+}
+1456bronzeage = {
+	name = "dynn_Kuardathe"
+	culture = "tyrsenian"
+}
+1457bronzeage = {
+	name = "dynn_Saransathe"
+	culture = "tyrsenian"
+}
+1458bronzeage = {
+	name = "dynn_Sibullathe"
+	culture = "tyrsenian"
+}
+1459bronzeage = {
+	name = "dynn_Kuthnathe"
+	culture = "tyrsenian"
+}
+1460bronzeage = {
+	name = "dynn_Purasathe"
+	culture = "tyrsenian"
+}
+1461bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "wilusan"
+}
+1462bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "wilusan"
+}
+1463bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "leleges"
+}
+1464bronzeage = {
+	name = "dynn_Phaistathe"
+	culture = "leleges"
+}
+1465bronzeage = {
+	name = "dynn_Epidaurathe"
+	culture = "leleges"
+}
+1466bronzeage = {
+	name = "dynn_Nelinthos"
+	culture = "telchines"
+}
+1467bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "leleges"
+}
+1468bronzeage = {
+	name = "dynn_Mosukhlathe"
+	culture = "leleges"
+}
+1469bronzeage = {
+	name = "dynn_Astupalathe"
+	culture = "telchines"
+}
+1470bronzeage = {
+	name = "dynn_Patmathe"
+	culture = "leleges"
+}
+1471bronzeage = {
+	name = "dynn_Lynkinthos"
+	culture = "leleges"
+}
+1472bronzeage = {
+	name = "dynn_Kastabathe"
+	culture = "leleges"
+}
+1473bronzeage = {
+	name = "dynn_Perraibothe"
+	culture = "leleges"
+}
+1474bronzeage = {
+	name = "dynn_Labdakna"
+	culture = "leleges"
+}
+1475bronzeage = {
+	name = "dynn_Mukalessathe"
+	culture = "leleges"
+}
+1476bronzeage = {
+	name = "dynn_Elurathe"
+	culture = "leleges"
+}
+1477bronzeage = {
+	name = "dynn_Nirale"
+	culture = "leleges"
+}
+1478bronzeage = {
+	name = "dynn_Nirna"
+	culture = "leleges"
+}
+1479bronzeage = {
+	name = "dynn_Kelousathe"
+	culture = "leleges"
+}
+1480bronzeage = {
+	name = "dynn_Lebedathe"
+	culture = "leleges"
+}
+1481bronzeage = {
+	name = "dynn_Gunale"
+	culture = "leleges"
+}
+1482bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "lydian"
+}
+1483bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "wilusan"
+}
+1484bronzeage = {
+	name = "dynn_Tuwaruntiya"
+	culture = "sehan"
+}
+1485bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "sehan"
+}
+1486bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "sehan"
+}
+1487bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "sehan"
+}
+1488bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "sehan"
+}
+1489bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "sehan"
+}
+1490bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "sehan"
+}
+1491bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "carian"
+}
+1492bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+1493bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "carian"
+}
+1494bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "carian"
+}
+1495bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "carian"
+}
+1496bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "lukkan"
+}
+1497bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "lukkan"
+}
+1498bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "lukkan"
+}
+1499bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "lukkan"
+}
+1500bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "lukkan"
+}
+1501bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "lukkan"
+}
+1502bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "carian"
+}
+1503bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "carian"
+}
+1504bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "carian"
+}
+1505bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "carian"
+}
+1506bronzeage = {
+	name = "dynn_Tupanamuta"
+	culture = "lydian"
+}
+1507bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "lydian"
+}
+1508bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "miran"
+}
+1509bronzeage = {
+	name = "dynn_Tarhunatala"
+	culture = "miran"
+}
+1510bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "miran"
+}
+1511bronzeage = {
+	name = "dynn_Hiempsal-Lotan"
+	culture = "canaanite"
+}
+1512bronzeage = {
+	name = "dynn_Yada_milk-Yam"
+	culture = "canaanite"
+}
+1513bronzeage = {
+	name = "dynn_Metallo-Misor"
+	culture = "canaanite"
+}
+1514bronzeage = {
+	name = "dynn_Urumilki-Astoreth"
+	culture = "canaanite"
+}
+1515bronzeage = {
+	name = "dynn_Boulomenus-Hadad"
+	culture = "canaanite"
+}
+1516bronzeage = {
+	name = "dynn_Milkherem-Moloch"
+	culture = "canaanite"
+}
+1517bronzeage = {
+	name = "dynn_Chelbes-Shamin"
+	culture = "canaanite"
+}
+1518bronzeage = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "canaanite"
+}
+1519bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "ammonite"
+}
+1520bronzeage = {
+	name = "dynn_Ittoba_al-Shachar"
+	culture = "canaanite"
+}
+1521bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "moabite"
+}
+1522bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "moabite"
+}
+1523bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "moabite"
+}
+1524bronzeage = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "moabite"
+}
+1525bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "edomite"
+}
+1526bronzeage = {
+	name = "dynn_Merbalos-Aglibol"
+	culture = "bedu"
+}
+1527bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "bedu"
+}
+1528bronzeage = {
+	name = "dynn_Milki-Dagan-Baalah"
+	culture = "edomite"
+}
+1529bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "edomite"
+}
+1530bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "bedu"
+}
+1531bronzeage = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "sinaian"
+}
+1532bronzeage = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "phoenician"
+}
+1533bronzeage = {
+	name = "dynn_Mattan-Manuzi"
+	culture = "phoenician"
+}
+1534bronzeage = {
+	name = "dynn_Ormilk-Shamin"
+	culture = "amoritic"
+}
+1535bronzeage = {
+	name = "dynn_Paltibaal-Shadrafa"
+	culture = "phoenician"
+}
+1536bronzeage = {
+	name = "dynn_Yehomilk-Ashtar"
+	culture = "phoenician"
+}
+1537bronzeage = {
+	name = "dynn_Ormilk-Shamin"
+	culture = "canaanite"
+}
+1538bronzeage = {
+	name = "dynn_Melqartshama-Arsu"
+	culture = "phoenician"
+}
+1539bronzeage = {
+	name = "dynn_Melqartpilles-Horon"
+	culture = "phoenician"
+}
+1540bronzeage = {
+	name = "dynn_Luli-Arsay"
+	culture = "aramean"
+}
+1541bronzeage = {
+	name = "dynn_Hamilcar-El"
+	culture = "aramean"
+}
+1542bronzeage = {
+	name = "dynn_Milkyaton-Kotharat"
+	culture = "aramean"
+}
+1543bronzeage = {
+	name = "dynn_Eugoras-Chemosh"
+	culture = "golanite"
+}
+1544bronzeage = {
+	name = "dynn_Gisgo-Shadrafa"
+	culture = "golanite"
+}
+1545bronzeage = {
+	name = "dynn_Galid"
+	culture = "berber"
+}
+1546bronzeage = {
+	name = "dynn_Setna"
+	culture = "berber"
+}
+1547bronzeage = {
+	name = "dynn_Penamid"
+	culture = "berber"
+}
+1548bronzeage = {
+	name = "dynn_Vermina"
+	culture = "berber"
+}
+1549bronzeage = {
+	name = "dynn_Massinissa-Ishara"
+	culture = "hyksos"
+}
+1550bronzeage = {
+	name = "dynn_Yehimlk-Gebal"
+	culture = "hyksos"
+}
+1551bronzeage = {
+	name = "dynn_Adonibaal-Anat"
+	culture = "hyksos"
+}
+1552bronzeage = {
+	name = "dynn_Khenthap-Horus"
+	culture = "upper_egyptian"
+}
+1553bronzeage = {
+	name = "dynn_Minmose-Pakhet"
+	culture = "wahenian"
+}
+1554bronzeage = {
+	name = "dynn_Kakhent-Wosret"
+	culture = "wahenian"
+}
+1555bronzeage = {
+	name = "dynn_Wakhare-Wosret"
+	culture = "wahenian"
+}
+1556bronzeage = {
+	name = "dynn_Senusret-Wadj-wer"
+	culture = "wahenian"
+}
+1557bronzeage = {
+	name = "dynn_Wahibre-Geb"
+	culture = "wahenian"
+}
+1558bronzeage = {
+	name = "dynn_Nebwy-Wadjet"
+	culture = "wahenian"
+}
+1559bronzeage = {
+	name = "dynn_Huni-Renenutet"
+	culture = "wahenian"
+}
+1560bronzeage = {
+	name = "dynn_Wegaf-Anhur"
+	culture = "wahenian"
+}
+1561bronzeage = {
+	name = "dynn_Sekhemib-Neper"
+	culture = "wahenian"
+}
+1562bronzeage = {
+	name = "dynn_Khamudi-Sopdu"
+	culture = "wahenian"
+}
+1563bronzeage = {
+	name = "dynn_Qareh-Bat"
+	culture = "mu_kedi"
+}
+1564bronzeage = {
+	name = "dynn_Minmose-Pakhet"
+	culture = "mu_kedi"
+}
+1565bronzeage = {
+	name = "dynn_Iphurkura-Adonis"
+	culture = "sinaian"
+}
+1566bronzeage = {
+	name = "dynn_Kakhent-Wosret"
+	culture = "mu_kedi"
+}
+1567bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "liyan"
+}
+1568bronzeage = {
+	name = "dynn_Ige-Kittah"
+	culture = "liyan"
+}
+1569bronzeage = {
+	name = "dynn_Napi-Nashur"
+	culture = "liyan"
+}
+1570bronzeage = {
+	name = "dynn_Numena-Humban"
+	culture = "anshanian"
+}
+1571bronzeage = {
+	name = "dynn_Ata-Halki"
+	culture = "anshanian"
+}
+1572bronzeage = {
+	name = "dynn_Pahir-Hutran"
+	culture = "susanian"
+}
+1573bronzeage = {
+	name = "dynn_Ukku-Tarana"
+	culture = "susanian"
+}
+1574bronzeage = {
+	name = "dynn_Shushun-Tanhish"
+	culture = "anshanian"
+}
+1575bronzeage = {
+	name = "dynn_Shushun-Tanhish"
+	culture = "anshanian"
+}
+1576bronzeage = {
+	name = "dynn_Ata-Halki"
+	culture = "ellipian"
+}
+1577bronzeage = {
+	name = "dynn_Kidin-Ishshan"
+	culture = "ellipian"
+}
+1578bronzeage = {
+	name = "dynn_Kuk-Ilhush"
+	culture = "ellipian"
+}
+1579bronzeage = {
+	name = "dynn_Ulam-Kassu"
+	culture = "gutian"
+}
+1580bronzeage = {
+	name = "dynn_Hana-Tammuz"
+	culture = "south_akkadian"
+}
+1581bronzeage = {
+	name = "dynn_Temti-Inshushinak"
+	culture = "ellipian"
+}
+1582bronzeage = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "south_akkadian"
+}
+1583bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1584bronzeage = {
+	name = "dynn_Kutir-Napirisha"
+	culture = "ellipian"
+}
+1585bronzeage = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "south_akkadian"
+}
+1586bronzeage = {
+	name = "dynn_Udul-Utu"
+	culture = "neo_sumerian"
+}
+1587bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "neo_sumerian"
+}
+1588bronzeage = {
+	name = "dynn_Iltasadum-Nabu"
+	culture = "neo_sumerian"
+}
+1589bronzeage = {
+	name = "dynn_Udul-Utu"
+	culture = "neo_sumerian"
+}
+1590bronzeage = {
+	name = "dynn_Ilulu-Sin"
+	culture = "south_akkadian"
+}
+1591bronzeage = {
+	name = "dynn_Ilulu-Sin"
+	culture = "south_akkadian"
+}
+1592bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "neo_sumerian"
+}
+1593bronzeage = {
+	name = "dynn_Nanni-Enlil"
+	culture = "neo_sumerian"
+}
+1594bronzeage = {
+	name = "dynn_Sargon-Ea"
+	culture = "neo_sumerian"
+}
+1595bronzeage = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1596bronzeage = {
+	name = "dynn_Ilulu-Sin"
+	culture = "south_akkadian"
+}
+1597bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "south_akkadian"
+}
+1598bronzeage = {
+	name = "dynn_Samani"
+	culture = "south_akkadian"
+}
+1599bronzeage = {
+	name = "dynn_Jushur-Sin"
+	culture = "south_akkadian"
+}
+1600bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "south_akkadian"
+}
+1601bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+1602bronzeage = {
+	name = "dynn_Pahir-Hutran"
+	culture = "ellipian"
+}
+1603bronzeage = {
+	name = "dynn_Hayani-Ereshkigal"
+	culture = "south_akkadian"
+}
+1604bronzeage = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1605bronzeage = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "south_akkadian"
+}
+1606bronzeage = {
+	name = "dynn_Babum-Geshtinanna"
+	culture = "south_akkadian"
+}
+1607bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "south_akkadian"
+}
+1608bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "south_akkadian"
+}
+1609bronzeage = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1610bronzeage = {
+	name = "dynn_Suhlamu-Inzak"
+	culture = "south_akkadian"
+}
+1611bronzeage = {
+	name = "dynn_Ilulu-Sin"
+	culture = "maganite"
+}
+1612bronzeage = {
+	name = "dynn_Sargon-Ea"
+	culture = "maganite"
+}
+1613bronzeage = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "dilmunite"
+}
+1614bronzeage = {
+	name = "dynn_Sargon-Ea"
+	culture = "dilmunite"
+}
+1615bronzeage = {
+	name = "dynn_Puannum-Ningal"
+	culture = "dilmunite"
+}
+1616bronzeage = {
+	name = "dynn_Rimush-Tishpak"
+	culture = "maganite"
+}
+1617bronzeage = {
+	name = "dynn_Samani-Enlil"
+	culture = "maganite"
+}
+1618bronzeage = {
+	name = "dynn_Samani"
+	culture = "dilmunite"
+}
+1619bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "dilmunite"
+}
+1620bronzeage = {
+	name = "dynn_Sargon-Ea"
+	culture = "dilmunite"
+}
+1621bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "dilmunite"
+}
+1622bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "dilmunite"
+}
+1623bronzeage = {
+	name = "dynn_Puannum-Ningal"
+	culture = "dilmunite"
+}
+1624bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "dilmunite"
+}
+1625bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "south_akkadian"
+}
+1626bronzeage = {
+	name = "dynn_Samani"
+	culture = "ashurian"
+}
+1627bronzeage = {
+	name = "dynn_Ipashi-Sali"
+	culture = "lullubi"
+}
+1628bronzeage = {
+	name = "dynn_Zuqaqip-Bau"
+	culture = "south_akkadian"
+}
+1629bronzeage = {
+	name = "dynn_Hameru-Shipak"
+	culture = "lullubi"
+}
+1630bronzeage = {
+	name = "dynn_Ulam-Kassu"
+	culture = "gutian"
+}
+1631bronzeage = {
+	name = "dynn_Lullaya-Shamash"
+	culture = "lullubi"
+}
+1632bronzeage = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "tukri"
+}
+1633bronzeage = {
+	name = "dynn_Hala-Duniash"
+	culture = "lullubi"
+}
+1634bronzeage = {
+	name = "dynn_Seh-saya-Kushuh"
+	culture = "tukri"
+}
+1635bronzeage = {
+	name = "dynn_Senip-sarri-Hutelluri"
+	culture = "tukri"
+}
+1636bronzeage = {
+	name = "dynn_Kiyazi-Hutena"
+	culture = "tukri"
+}
+1637bronzeage = {
+	name = "dynn_Paki-la-Sumuqan"
+	culture = "tukri"
+}
+1638bronzeage = {
+	name = "dynn_Eni-ya-Hurri"
+	culture = "tukri"
+}
+1639bronzeage = {
+	name = "dynn_Akiya-Mulliltu"
+	culture = "ashurian"
+}
+1640bronzeage = {
+	name = "dynn_Tagis-nati-e-Hebat"
+	culture = "tukri"
+}
+1641bronzeage = {
+	name = "dynn_Sargon-Ea"
+	culture = "ashurian"
+}
+1642bronzeage = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "tukri"
+}
+1643bronzeage = {
+	name = "dynn_Tudiya-Ishtar"
+	culture = "ashurian"
+}
+1644bronzeage = {
+	name = "dynn_Una-tis-Shalash"
+	culture = "tukri"
+}
+1645bronzeage = {
+	name = "dynn_Unap-tagi-Rashap"
+	culture = "haburi"
+}
+1646bronzeage = {
+	name = "dynn_Urra-n-Shimegi"
+	culture = "haburi"
+}
+1647bronzeage = {
+	name = "dynn_Kipu-seni-Nabarbi"
+	culture = "tukri"
+}
+1648bronzeage = {
+	name = "dynn_Abazu-Belet-Ili"
+	culture = "ashurian"
+}
+1649bronzeage = {
+	name = "dynn_Muzu-m-Shimegi"
+	culture = "tukri"
+}
+1650bronzeage = {
+	name = "dynn_Nubar-ela-Allani"
+	culture = "haburi"
+}
+1651bronzeage = {
+	name = "dynn_Una-kka-Nubadig"
+	culture = "haburi"
+}
+1652bronzeage = {
+	name = "dynn_Teutamna"
+	culture = "cypriot"
+}
+1653bronzeage = {
+	name = "dynn_Alasarnathe"
+	culture = "cypriot"
+}
+1654bronzeage = {
+	name = "dynn_Dandexathe"
+	culture = "cypriot"
+}
+1655bronzeage = {
+	name = "dynn_Kadmale"
+	culture = "cypriot"
+}
+1656bronzeage = {
+	name = "dynn_Pandarle"
+	culture = "cypriot"
+}
+1657bronzeage = {
+	name = "dynn_Tegurathe"
+	culture = "cypriot"
+}
+1658bronzeage = {
+	name = "dynn_Eloulaios-Yarhibol"
+	culture = "amoritic"
+}
+1659bronzeage = {
+	name = "dynn_Pummay-Yam"
+	culture = "amoritic"
+}
+1660bronzeage = {
+	name = "dynn_Eshmounhilles-Mot"
+	culture = "amoritic"
+}
+1661bronzeage = {
+	name = "dynn_Abdhamon-Shapash"
+	culture = "amoritic"
+}
+1662bronzeage = {
+	name = "dynn_Maharbaal-Eshmun"
+	culture = "amoritic"
+}
+1663bronzeage = {
+	name = "dynn_Metallo-Misor"
+	culture = "amoritic"
+}
+1664bronzeage = {
+	name = "dynn_Nupa-tiya-Rashap"
+	culture = "harrani"
+}
+1665bronzeage = {
+	name = "dynn_Azmelqart-Ishara"
+	culture = "amoritic"
+}
+1666bronzeage = {
+	name = "dynn_Uski-za-n-Nabarbi"
+	culture = "zalwari"
+}
+1667bronzeage = {
+	name = "dynn_Astartos-Qadeshtu"
+	culture = "amoritic"
+}
+1668bronzeage = {
+	name = "dynn_Kabi-ta-Sumuqan"
+	culture = "zalwari"
+}
+1669bronzeage = {
+	name = "dynn_Pthu-na-Sharruma"
+	culture = "zalwari"
+}
+1670bronzeage = {
+	name = "dynn_Aru-pa-Shalash"
+	culture = "zalwari"
+}
+1671bronzeage = {
+	name = "dynn_Kuza-ri-Pirinki"
+	culture = "zalwari"
+}
+1672bronzeage = {
+	name = "dynn_Ussu-ultu-Hutena"
+	culture = "zalwari"
+}
+1673bronzeage = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "zalwari"
+}
+1674bronzeage = {
+	name = "dynn_Tuza-ya-Sherri"
+	culture = "zalwari"
+}
+1675bronzeage = {
+	name = "dynn_Satta-kiyazi-Rashap"
+	culture = "harrani"
+}
+1676bronzeage = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "harrani"
+}
+1677bronzeage = {
+	name = "dynn_Seh-saya-Kushuh"
+	culture = "harrani"
+}
+1678bronzeage = {
+	name = "dynn_Senip-sarri-Hutelluri"
+	culture = "harrani"
+}
+1679bronzeage = {
+	name = "dynn_Kiyazi-Hutena"
+	culture = "harrani"
+}
+1680bronzeage = {
+	name = "dynn_Paki-la-Sumuqan"
+	culture = "harrani"
+}
+1681bronzeage = {
+	name = "dynn_Eni-ya-Hurri"
+	culture = "harrani"
+}
+1682bronzeage = {
+	name = "dynn_Tagis-nati-e-Hebat"
+	culture = "harrani"
+}
+1683bronzeage = {
+	name = "dynn_Ribaddi-Ashtar"
+	culture = "amoritic"
+}
+1684bronzeage = {
+	name = "dynn_Hiram-Nikkal"
+	culture = "amoritic"
+}
+1685bronzeage = {
+	name = "dynn_Aba-Lim-Anat"
+	culture = "amoritic"
+}
+1686bronzeage = {
+	name = "dynn_Mago-Lotan"
+	culture = "amoritic"
+}
+1687bronzeage = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "harrani"
+}
+1688bronzeage = {
+	name = "dynn_Una-tis-Shalash"
+	culture = "harrani"
+}
+1689bronzeage = {
+	name = "dynn_Sipitba_al-Hermon"
+	culture = "amoritic"
+}
+1690bronzeage = {
+	name = "dynn_Yantin-Haddu-Zephon"
+	culture = "amoritic"
+}
+1691bronzeage = {
+	name = "dynn_Maharbaal-Eshmun"
+	culture = "amoritic"
+}
+1692bronzeage = {
+	name = "dynn_Ba_al-Yarikh"
+	culture = "amoritic"
+}
+1693bronzeage = {
+	name = "dynn_Yada_milk-Yam"
+	culture = "amoritic"
+}
+1694bronzeage = {
+	name = "dynn_Abbar-Adonis"
+	culture = "amoritic"
+}
+1695bronzeage = {
+	name = "dynn_Paltibaal-Anat"
+	culture = "amoritic"
+}
+1696bronzeage = {
+	name = "dynn_Eshmouniaton-Adonis"
+	culture = "amoritic"
+}
+1697bronzeage = {
+	name = "dynn_Arzi-hip-Kumarbi"
+	culture = "haburi"
+}
+1698bronzeage = {
+	name = "dynn_Halb-abusa-Shuwaliyatti"
+	culture = "haburi"
+}
+1699bronzeage = {
+	name = "dynn_Sattawaza-Hutena"
+	culture = "haburi"
+}
+1700bronzeage = {
+	name = "dynn_Azzu-kki-Rashap"
+	culture = "haburi"
+}
+1701bronzeage = {
+	name = "dynn_Sehrum-nirzi-Shimegi"
+	culture = "haburi"
+}
+1702bronzeage = {
+	name = "dynn_Kipu-seni-Nabarbi"
+	culture = "harrani"
+}
+1703bronzeage = {
+	name = "dynn_Nanip-naya-Sumuqan"
+	culture = "haburi"
+}
+1704bronzeage = {
+	name = "dynn_Zitu-ya-Hutelluri"
+	culture = "shubrian"
+}
+1705bronzeage = {
+	name = "dynn_Tushratta-Ningal"
+	culture = "shubrian"
+}
+1706bronzeage = {
+	name = "dynn_Asu-zi-Hutelluri"
+	culture = "shubrian"
+}
+1707bronzeage = {
+	name = "dynn_Hazip-Nawar-Hutelluri"
+	culture = "shubrian"
+}
+1708bronzeage = {
+	name = "dynn_Tahi-Shimegi"
+	culture = "shubrian"
+}
+1709bronzeage = {
+	name = "dynn_Zaza-naya-Teshub"
+	culture = "shubrian"
+}
+1710bronzeage = {
+	name = "dynn_Nubar-wari-Nubadig"
+	culture = "shubrian"
+}
+1711bronzeage = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "shubrian"
+}
+1712bronzeage = {
+	name = "dynn_Turip-seni-Ashtabil"
+	culture = "shubrian"
+}
+1713bronzeage = {
+	name = "dynn_Muzu-m-Shimegi"
+	culture = "harrani"
+}
+1714bronzeage = {
+	name = "dynn_Azu-na-n-Allani"
+	culture = "harrani"
+}
+1715bronzeage = {
+	name = "dynn_Nani-ku-Hutelluri"
+	culture = "harrani"
+}
+1716bronzeage = {
+	name = "dynn_Unap-tagi-Rashap"
+	culture = "harrani"
+}
+1717bronzeage = {
+	name = "dynn_Urra-n-Shimegi"
+	culture = "harrani"
+}
+1718bronzeage = {
+	name = "dynn_Nubar-ela-Allani"
+	culture = "harrani"
+}
+1719bronzeage = {
+	name = "dynn_Una-kka-Nubadig"
+	culture = "harrani"
+}
+1720bronzeage = {
+	name = "dynn_Nupu-ri-Shalash"
+	culture = "haburi"
+}
+1721bronzeage = {
+	name = "dynn_Zunzu-m-Sherri"
+	culture = "haburi"
+}
+1722bronzeage = {
+	name = "dynn_Wari-taldu-Rashap"
+	culture = "haburi"
+}
+1723bronzeage = {
+	name = "dynn_Ser-za-n-Ningal"
+	culture = "haburi"
+}
+1724bronzeage = {
+	name = "dynn_Arip-an-Adamma"
+	culture = "haburi"
+}
+1725bronzeage = {
+	name = "dynn_Anataruntiya"
+	culture = "tarhuntassan"
+}
+1726bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "tarhuntassan"
+}
+1727bronzeage = {
+	name = "dynn_Kari-ya-Nubadig"
+	culture = "kizzuni"
+}
+1728bronzeage = {
+	name = "dynn_Azzu-nni-Shalash"
+	culture = "kizzuni"
+}
+1729bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "tarhuntassan"
+}
+1730bronzeage = {
+	name = "dynn_Taku-na-Ningal"
+	culture = "kizzuni"
+}
+1731bronzeage = {
+	name = "dynn_Tata-ra-Shalash"
+	culture = "kizzuni"
+}
+1732bronzeage = {
+	name = "dynn_Anaramati"
+	culture = "tarhuntassan"
+}
+1733bronzeage = {
+	name = "dynn_Anaramati"
+	culture = "tarhuntassan"
+}
+1734bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "tarhuntassan"
+}
+1735bronzeage = {
+	name = "dynn_Kabi-ta-Sumuqan"
+	culture = "ishuwan"
+}
+1736bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+1737bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "nesili"
+}
+1738bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "nesili"
+}
+1739bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "nesili"
+}
+1740bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}
+1741bronzeage = {
+	name = "dynn_Izzu-nni-Kushuh"
+	culture = "zalwari"
+}
+1742bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "nesili"
+}
+1743bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "nesili"
+}
+1744bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "palaic"
+}
+1745bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}
+1746bronzeage = {
+	name = "dynn_Tuwar"
+	culture = "nesili"
+}
+1747bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}
+1748bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "tarhuntassan"
+}
+1749bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "palaic"
+}
+1750bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "palaic"
+}
+1751bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "palaic"
+}
+1752bronzeage = {
+	name = "dynn_Taruntiya"
+	culture = "hapallan"
+}
+1753bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "palaic"
+}
+1754bronzeage = {
+	name = "dynn_Anaramati"
+	culture = "palaic"
+}
+1755bronzeage = {
+	name = "dynn_Anatar"
+	culture = "palaic"
+}
+1756bronzeage = {
+	name = "dynn_Pthu-na-Sharruma"
+	culture = "ishuwan"
+}
+1757bronzeage = {
+	name = "dynn_Aru-pa-Shalash"
+	culture = "ishuwan"
+}
+1758bronzeage = {
+	name = "dynn_Kuza-ri-Pirinki"
+	culture = "ishuwan"
+}
+1759bronzeage = {
+	name = "dynn_Ussu-ultu-Hutena"
+	culture = "ishuwan"
+}
+1760bronzeage = {
+	name = "dynn_Azzu-eli-Pirinki"
+	culture = "ishuwan"
+}
+1761bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "tarhuntassan"
+}
+1762bronzeage = {
+	name = "dynn_Asinamuna"
+	culture = "tarhuntassan"
+}
+1763bronzeage = {
+	name = "dynn_Kattaziti"
+	culture = "miran"
+}
+1764bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "hattian"
+}
+1765bronzeage = {
+	name = "dynn_Tupanasalli"
+	culture = "hattian"
+}
+1766bronzeage = {
+	name = "dynn_Tupanasalli"
+	culture = "hattian"
+}
+1767bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "hattian"
+}
+1768bronzeage = {
+	name = "dynn_Anawatta"
+	culture = "nesili"
+}
+1769bronzeage = {
+	name = "dynn_Tupanasalli"
+	culture = "hattian"
+}
+1770bronzeage = {
+	name = "dynn_Tarkasziti"
+	culture = "nesili"
+}
+1771bronzeage = {
+	name = "dynn_Tarkasa"
+	culture = "nesili"
+}

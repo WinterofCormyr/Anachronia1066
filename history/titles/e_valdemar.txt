@@ -1,0 +1,67 @@
+e_valdemar = {
+	820.1.1 = {
+		succession_laws = { scandinavian_elective_succession_law }
+		holder = valdemar0001 # Valdemarios I Valdemarieskja
+		government = feudal_government
+	}
+	880.1.1 = {
+		holder = valdemar0003 # Lyrrine I Valdemariosdatter Valdemarieskja
+	}
+	901.1.1 = {
+		holder = valdemar0004 # Ismy I Havaneskja
+	}
+	921.1.1 = {
+		holder = valdemar0005 # Sulia I Dann
+	}
+	941.1.1 = {
+		holder = valdemar0008 # Snowfire I Suliasdatter Dann
+	}
+	962.1.1 = {
+		holder = valdemar0010 # Marli I Snowfiresdatter Dann
+	}
+	983.1.1 = {
+		holder = valdemar0013 # Shavanne I Marlisdatter Dann
+	}
+	1004.1.1 = {
+		holder = valdemar0014 # Sendar I Devinieskja
+	}
+	1024.1.1 = {
+		holder = valdemar0015 # Errold I Erroldieskja
+	}
+	1044.1.1 = {
+		holder = valdemar0017 # Selenay I Erroldsdatter Erroldieskja
+	}
+	1065.1.1 = {
+		holder = valdemar0019 # Talamir I Selenaysen Erroldieskja
+	}
+	1086.1.1 = {
+		holder = valdemar0023 # Alisia I Talamirsdatter Erroldieskja
+	}
+	1107.1.1 = {
+		holder = valdemar0024 # Cordaye I Talamirsdatter Erroldieskja
+	}
+	1108.1.1 = {
+		holder = valdemar0025 # Elyth I Talamirsdatter Erroldieskja
+	}
+	1109.1.1 = {
+		holder = valdemar0026 # Frytha I Talamirsdatter Erroldieskja
+	}
+	1110.1.1 = {
+		holder = valdemar0037 # Hauriers I Frythasen Erroldieskja
+	}
+	1131.1.1 = {
+		holder = valdemar0052 # Velley I Haurierssen Erroldieskja
+	}
+	1161.1.1 = {
+		holder = valdemar0056 # Crune I Velleysdatter Erroldieskja
+	}
+	1182.1.1 = {
+		holder = valdemar0065 # Arionwyn I Crunesdatter Erroldieskja
+	}
+	1199.1.1 = {
+		holder = valdemar0070 # Ledosaundra I Arionwynsdatter Erroldieskja
+	}
+	1229.1.1 = {
+		holder = valdemar0085 # Taleya I Merelinsdatter Erroldieskja
+	}
+}

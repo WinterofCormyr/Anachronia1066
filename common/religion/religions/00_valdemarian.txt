@@ -1,0 +1,650 @@
+﻿valdemarian_religion = {
+	family = rf_western
+
+	doctrine = western_mideast_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+	
+	#Marriage
+	doctrine = doctrine_valdemarian_polygamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_restricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	traits = {
+		virtues = { generous just temperate }
+		sins = { greedy arbitrary gluttonous }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_myrmidons" }
+		{ name = "holy_order_priesthood_of_ares" }
+	}
+
+	holy_order_maa = { praetorian }
+
+	localization = {
+		#High God Name
+		HighGodName = valdemarian_high_god_name
+		HighGodNamePossessive = valdemarian_high_god_name_possessive
+		HighGodNameSheHe = valdemarian_high_god_shehe
+		HighGodHerselfHimself = valdemarian_high_god_herselfhimself
+		HighGodHerHis = valdemarian_high_god_herhis
+		HighGodNameAlternate = valdemarian_high_god_name_alternate
+		HighGodNameAlternatePossessive = valdemarian_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = valdemarian_creator_god_name
+		CreatorNamePossessive = valdemarian_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_SHE
+		CreatorHerHis = CHARACTER_HERHIS_HER
+		CreatorHerHim = CHARACTER_HERHIM_HER
+
+		#HealthGod
+		HealthGodName = valdemarian_health_god_name # Shayana
+		HealthGodNamePossessive = valdemarian_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = valdemarian_fertility_god_name
+		FertilityGodNamePossessive = valdemarian_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = valdemarian_wealth_god_name
+		WealthGodNamePossessive = valdemarian_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = valdemarian_household_god_name
+		HouseholdGodNamePossessive = valdemarian_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = valdemarian_high_god_name
+		FateGodNamePossessive = valdemarian_high_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+
+		#KnowledgeGod
+		KnowledgeGodName = valdemarian_knowledge_god_name
+		KnowledgeGodNamePossessive = valdemarian_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = valdemarian_war_god_name
+		WarGodNamePossessive = valdemarian_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIM_HER
+
+		#TricksterGod
+		TricksterGodName = valdemarian_high_god_name
+		TricksterGodNamePossessive = valdemarian_high_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_THEY
+		TricksterGodHerHis = CHARACTER_HERHIS_THEIR
+		TricksterGodHerHim = CHARACTER_HERHIM_THEM
+		
+		#NightGod
+		NightGodName = valdemarian_night_god_name
+		NightGodNamePossessive = valdemarian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_THEY
+		NightGodHerHis = CHARACTER_HERHIS_THEIR
+		NightGodHerHim = CHARACTER_HERHIM_THEM
+
+		#WaterGod
+		WaterGodName = valdemarian_water_god_name
+		WaterGodNamePossessive = valdemarian_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+		PantheonTerm = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { valdemarian_creator_god_name valdemarian_health_god_name valdemarian_fertility_god_name valdemarian_household_god_name valdemarian_knowledge_god_name valdemarian_war_god_name valdemarian_night_god_name valdemarian_water_god_name valdemarian_good_god_astera valdemarian_good_god_kernos valdemarian_good_god_agnira valdemarian_good_god_agnoma valdemarian_good_god_v_kandis valdemarian_good_god_karanel valdemarian_good_god_dara valdemarian_good_god_resoden valdemarian_good_god_star_eyed valdemarian_good_god_thenoth } # Agnira # Agnoma # Astera # Kernos # Resoden # Star-Eyed # Thenoth # V'kandis # Karanel # Dara
+		DevilName = valdemarian_devil_name
+		DevilNamePossessive = valdemarian_devil_name_possessive
+		DevilSheHe = valdemarian_devil_shehe
+		DevilHerHis = CHARACTER_HERHIS_THEIR
+		DevilHerselfHimself = valdemarian_devil_herselfhimself
+		EvilGodNames = { valdemarian_evil_god_maliferous }
+		HouseOfWorship = valdemarian_house_of_worship
+		HouseOfWorshipPlural = valdemarian_house_of_worship_plural
+		ReligiousSymbol = valdemarian_religious_symbol
+		ReligiousText = valdemarian_religious_text
+		ReligiousHeadName = valdemarian_religious_head_title
+		ReligiousHeadTitleName = valdemarian_religious_head_title_name
+		DevoteeMale = valdemarian_devotee_male
+		DevoteeMalePlural = valdemarian_devotee_male_plural
+		DevoteeFemale = valdemarian_devotee_female
+		DevoteeFemalePlural = valdemarian_devotee_female_plural
+		DevoteeNeuter = valdemarian_devotee_neuter
+		DevoteeNeuterPlural = valdemarian_devotee_neuter_plural
+		PriestMale = valdemarian_priest_male
+		PriestMalePlural = valdemarian_priest_male_plural
+		PriestFemale = valdemarian_priest_female
+		PriestFemalePlural = valdemarian_priest_female_plural
+		PriestNeuter = valdemarian_priest_neuter
+		PriestNeuterPlural = valdemarian_priest_neuter_plural
+		AltPriestTermPlural = valdemarian_priest_term_plural
+		BishopMale = valdemarian_priest_male
+		BishopMalePlural = valdemarian_priest_male_plural
+		BishopFemale = valdemarian_priest_female
+		BishopFemalePlural = valdemarian_priest_female_plural
+		BishopNeuter = valdemarian_priest_neuter
+		BishopNeuterPlural = valdemarian_priest_neuter_plural
+		DivineRealm = valdemarian_divine_realm
+		PositiveAfterLife = valdemarian_positive_afterlife
+		NegativeAfterLife = valdemarian_negative_afterlife
+		DeathDeityName = valdemarian_death_name
+		DeathDeityNamePossessive = valdemarian_death_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = valdemarian_high_god_name
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		valdemarian_common = { # Denmark
+			color = { 0.77 0.5 0.83 }
+			icon = gaulish22
+
+			holy_site = rome
+			holy_site = uppsala
+			holy_site = ranaheim
+			holy_site = rugen
+			holy_site = torun
+
+			doctrine = tenet_adaptive
+			doctrine = tenet_polyamory
+			doctrine = tenet_ritual_celebrations
+		}
+		northern_valdemar_faith = { # Southern Norway
+			color = { 0.74 0.43 0.52 }
+			icon = mara
+			
+			localization = {
+				#High God Name
+				HighGodName = valdemarian_high_god_name
+				HighGodNamePossessive = valdemarian_high_god_name_possessive
+				HighGodNameSheHe = valdemarian_high_god_shehe
+				HighGodHerselfHimself = valdemarian_high_god_herselfhimself
+				HighGodHerHis = valdemarian_high_god_herhis
+				HighGodNameAlternate = valdemarian_high_god_name_alternate
+				HighGodNameAlternatePossessive = valdemarian_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = northern_valdemar_creator_god_name
+				CreatorNamePossessive = northern_valdemar_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_HE
+				CreatorHerHis = CHARACTER_HERHIS_HIS
+				CreatorHerHim = CHARACTER_HERHIM_HIM
+
+				#HealthGod
+				HealthGodName = northern_valdemar_health_god_name
+				HealthGodNamePossessive = northern_valdemar_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = northern_valdemar_health_god_name
+				FertilityGodNamePossessive = northern_valdemar_health_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = northern_valdemar_creator_god_name
+				WealthGodNamePossessive = northern_valdemar_creator_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = northern_valdemar_creator_god_name
+				HouseholdGodNamePossessive = northern_valdemar_creator_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_HE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+				#FateGod
+				FateGodName = northern_valdemar_creator_god_name
+				FateGodNamePossessive = northern_valdemar_creator_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_HE
+				FateGodHerHis = CHARACTER_HERHIS_HIS
+				FateGodHerHim = CHARACTER_HERHIM_HIM
+
+				#KnowledgeGod
+				KnowledgeGodName = northern_valdemar_creator_god_name
+				KnowledgeGodNamePossessive = northern_valdemar_creator_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WarGod
+				WarGodName = northern_valdemar_creator_god_name
+				WarGodNamePossessive = northern_valdemar_creator_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				#TricksterGod
+				TricksterGodName = northern_valdemar_creator_god_name
+				TricksterGodNamePossessive = northern_valdemar_creator_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		
+				#NightGod
+				NightGodName = valdemarian_night_god_name
+				NightGodNamePossessive = valdemarian_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_THEY
+				NightGodHerHis = CHARACTER_HERHIS_THEIR
+				NightGodHerHim = CHARACTER_HERHIM_THEM
+
+				#WaterGod
+				WaterGodName = northern_valdemar_health_god_name
+				WaterGodNamePossessive = northern_valdemar_health_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+
+
+
+					PantheonTerm = religion_the_gods
+					PantheonTermHasHave = pantheon_term_have
+					GoodGodNames = { valdemarian_night_god_name valdemarian_good_god_astera valdemarian_good_god_kernos } # Kernos and Astera # Kernos # Astera
+					DevilName = valdemarian_devil_name
+					DevilNamePossessive = valdemarian_devil_name_possessive
+					DevilSheHe = valdemarian_devil_shehe
+					DevilHerHis = CHARACTER_HERHIS_THEIR
+					DevilHerselfHimself = valdemarian_devil_herselfhimself
+					EvilGodNames = { valdemarian_evil_god_maliferous }
+					HouseOfWorship = valdemarian_house_of_worship
+					HouseOfWorshipPlural = valdemarian_house_of_worship_plural
+					ReligiousSymbol = valdemarian_religious_symbol
+					ReligiousText = valdemarian_religious_text
+					ReligiousHeadName = valdemarian_religious_head_title
+					ReligiousHeadTitleName = valdemarian_religious_head_title_name
+					DevoteeMale = valdemarian_devotee_male
+					DevoteeMalePlural = valdemarian_devotee_male_plural
+					DevoteeFemale = valdemarian_devotee_female
+					DevoteeFemalePlural = valdemarian_devotee_female_plural
+					DevoteeNeuter = valdemarian_devotee_neuter
+					DevoteeNeuterPlural = valdemarian_devotee_neuter_plural
+					PriestMale = valdemarian_priest_male
+					PriestMalePlural = valdemarian_priest_male_plural
+					PriestFemale = valdemarian_priest_female
+					PriestFemalePlural = valdemarian_priest_female_plural
+					PriestNeuter = valdemarian_priest_neuter
+					PriestNeuterPlural = valdemarian_priest_neuter_plural
+					AltPriestTermPlural = valdemarian_priest_term_plural
+					BishopMale = valdemarian_priest_male
+					BishopMalePlural = valdemarian_priest_male_plural
+					BishopFemale = valdemarian_priest_female
+					BishopFemalePlural = valdemarian_priest_female_plural
+					BishopNeuter = valdemarian_priest_neuter
+					BishopNeuterPlural = valdemarian_priest_neuter_plural
+					DivineRealm = valdemarian_divine_realm
+					PositiveAfterLife = valdemarian_positive_afterlife
+					NegativeAfterLife = valdemarian_negative_afterlife
+					DeathDeityName = valdemarian_death_name
+					DeathDeityNamePossessive = valdemarian_death_name_possessive
+					DeathDeitySheHe = CHARACTER_SHEHE_HE
+					DeathDeityHerHis = CHARACTER_HERHIS_HIS
+					WitchGodName = valdemarian_high_god_name
+					WitchGodHerHis = CHARACTER_HERHIS_HER
+					WitchGodSheHe = CHARACTER_SHEHE_SHE
+					WitchGodHerHim = CHARACTER_HERHIM_HER
+					WitchGodMistressMaster = mistress
+					WitchGodMotherFather = mother
+
+					
+					GHWName = ghw_great_holy_war
+					GHWNamePlural = ghw_great_holy_wars
+			}
+
+			holy_site = rome
+			holy_site = uppsala
+			holy_site = ranaheim
+			holy_site = rugen
+			holy_site = torun
+			
+			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_astrology
+		}
+		rethwellanini = { # Northern Italy
+			color = { 0.99 0.43 0.01 }
+			icon = arkay
+			
+			localization = {
+				#High God Name
+				HighGodName = rethwellanini_high_god_name
+				HighGodNamePossessive = rethwellanini_high_god_name_possessive
+				HighGodNameSheHe = rethwellanini_high_god_shehe
+				HighGodHerselfHimself = rethwellanini_high_god_herselfhimself
+				HighGodHerHis = rethwellanini_high_god_herhis
+				HighGodNameAlternate = rethwellanini_high_god_name_alternate
+				HighGodNameAlternatePossessive = rethwellanini_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = rethwellanini_creator_god_name
+				CreatorNamePossessive = rethwellanini_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = rethwellanini_health_god_name
+				HealthGodNamePossessive = rethwellanini_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = rethwellanini_fertility_god_name
+				FertilityGodNamePossessive = rethwellanini_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = rethwellanini_health_god_name
+				WealthGodNamePossessive = rethwellanini_health_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				#HouseholdGod
+				HouseholdGodName = rethwellanini_fertility_god_name
+				HouseholdGodNamePossessive = rethwellanini_fertility_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = rethwellanini_creator_god_name
+				FateGodNamePossessive = rethwellanini_creator_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_SHE
+				FateGodHerHis = CHARACTER_HERHIS_HER
+				FateGodHerHim = CHARACTER_HERHIM_HER
+
+				#KnowledgeGod
+				KnowledgeGodName = rethwellanini_creator_god_name
+				KnowledgeGodNamePossessive = rethwellanini_creator_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = rethwellanini_health_god_name
+				WarGodNamePossessive = rethwellanini_health_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = rethwellanini_health_god_name
+				TricksterGodNamePossessive = rethwellanini_health_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_SHE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HER
+		
+				#NightGod
+				NightGodName = rethwellanini_fertility_god_name
+				NightGodNamePossessive = rethwellanini_fertility_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = rethwellanini_health_god_name
+				WaterGodNamePossessive = rethwellanini_health_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+
+
+
+				PantheonTerm = religion_the_gods
+				PantheonTermHasHave = pantheon_term_have
+			}
+
+			holy_site = rome
+			holy_site = uppsala
+			holy_site = toledo
+			holy_site = carthage
+			holy_site = preslav
+			
+			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_sacred_childbirth
+			doctrine = tenet_sanctity_of_nature
+		}
+		jkathacek = { # Sicily
+			color = { 0.89 0.49 0.28 }
+			icon = arkay
+			
+			localization = {
+				#High God Name
+				HighGodName = jkathacek_high_god_name
+				HighGodNamePossessive = jkathacek_high_god_name_possessive
+				HighGodNameSheHe = jkathacek_high_god_shehe
+				HighGodHerselfHimself = jkathacek_high_god_herselfhimself
+				HighGodHerHis = jkathacek_high_god_herhis
+				HighGodNameAlternate = jkathacek_high_god_name_alternate
+				HighGodNameAlternatePossessive = jkathacek_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = jkathacek_creator_god_name
+				CreatorNamePossessive = jkathacek_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = jkathacek_creator_god_name
+				HealthGodNamePossessive = jkathacek_creator_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = jkathacek_creator_god_name
+				FertilityGodNamePossessive = jkathacek_creator_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = jkathacek_wealth_god_name
+				WealthGodNamePossessive = jkathacek_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = jkathacek_creator_god_name
+				HouseholdGodNamePossessive = jkathacek_creator_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = jkathacek_wealth_god_name
+				FateGodNamePossessive = jkathacek_wealth_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_HE
+				FateGodHerHis = CHARACTER_HERHIS_HIS
+				FateGodHerHim = CHARACTER_HERHIM_HIM
+
+				#KnowledgeGod
+				KnowledgeGodName = jkathacek_creator_god_name
+				KnowledgeGodNamePossessive = jkathacek_creator_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = jkathacek_creator_god_name
+				WarGodNamePossessive = jkathacek_creator_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = jkathacek_wealth_god_name
+				TricksterGodNamePossessive = jkathacek_wealth_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+		
+				#NightGod
+				NightGodName = jkathacek_creator_god_name
+				NightGodNamePossessive = jkathacek_creator_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = jkathacek_creator_god_name
+				WaterGodNamePossessive = jkathacek_creator_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+
+
+
+				PantheonTerm = religion_the_gods
+				PantheonTermHasHave = pantheon_term_have
+			}
+
+			holy_site = rome
+			holy_site = uppsala
+			holy_site = toledo
+			holy_site = carthage
+			holy_site = preslav
+			
+			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_reincarnation
+		}
+		shayanaic = { # Frisia
+			color = { 0.56 0.49 0.89 }
+			icon = gaulish22
+			
+			localization = {
+				#High God Name
+				HighGodName = shayanaic_high_god_name
+				HighGodNamePossessive = shayanaic_high_god_name_possessive
+				HighGodNameSheHe = shayanaic_high_god_shehe
+				HighGodHerselfHimself = shayanaic_high_god_herselfhimself
+				HighGodHerHis = shayanaic_high_god_herhis
+				HighGodNameAlternate = shayanaic_high_god_name_alternate
+				HighGodNameAlternatePossessive = shayanaic_high_god_name_alternate_possessive
+					PriestMale = valdemarian_priest_male
+					PriestMalePlural = valdemarian_priest_male_plural
+					PriestFemale = valdemarian_priest_male
+					PriestFemalePlural = valdemarian_priest_male_plural
+					PriestNeuter = valdemarian_priest_male
+					PriestNeuterPlural = valdemarian_priest_male_plural
+					AltPriestTermPlural = valdemarian_priest_term_plural
+					BishopMale = valdemarian_priest_male
+					BishopMalePlural = valdemarian_priest_male_plural
+					BishopFemale = valdemarian_priest_male
+					BishopFemalePlural = valdemarian_priest_male_plural
+					BishopNeuter = valdemarian_priest_male
+					BishopNeuterPlural = valdemarian_priest_male_plural
+			}
+
+			holy_site = paderborn
+			holy_site = uppsala
+			holy_site = ranaheim
+			holy_site = rugen
+			holy_site = torun
+			
+			doctrine = tenet_monasticism
+			doctrine = tenet_pacifism
+			doctrine = tenet_mendicant_preachers
+		}
+		holder_faith = { # Geatland
+			color = { 255 206 71 }
+			icon = zoroastrian
+
+			holy_site = rome
+			holy_site = uppsala
+			holy_site = ranaheim
+			holy_site = rugen
+			holy_site = torun
+
+			doctrine = tenet_communal_identity
+			doctrine = tenet_legalism
+			doctrine = tenet_reincarnation
+			doctrine = doctrine_bastardry_legitimization
+			doctrine = doctrine_adultery_women_crime
+			doctrine = doctrine_kinslaying_any_dynasty_member_crime
+			doctrine = doctrine_gender_male_dominated
+			doctrine = doctrine_pluralism_fundamentalist
+		}
+		# Rethwellan follows the LadyTrine and Her aspects # Agnira the Maiden # Agnetha the Mother # Agnoma the Crone
+		# Rethwellan is Northern Italy
+		# Rethwellan religion is Rethwellanini
+		#
+		# Jkatha follows the Gods but Lady Windborn AKA Windborn Soulshaper AKA Teslat is their supreme deity ## Another major god is the Sun God Resoden # Resoden is also a wealth god fate god and trickster hero
+		# Jkatha is Sicily
+		# Jkathan Religion is Jkathacek
+		# 
+		# Shayanaic Faith believes in Shayana as the supreme god and has little difference from the Valdemarian Common faith except that all clergy use gender neutral pronouns
+		# Shayanaic is followed in the Netherlands
+		#
+		# Vkandian is a separate religious group # monotheistically following Vkandis Sunlord
+		# Free Karsean Vkandism 
+		# Karse is Poland
+		# Iftelite Vkandism # Vkandis is known as Vykaendys
+		# Iftel is Lithuania
+	}
+}

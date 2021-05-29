@@ -1,0 +1,75 @@
+﻿## This is for collecting various on_actions that trigger from in-game effects. The nested on_actions they use are defined elsewhere.
+
+on_war_started = {
+	on_actions = { mz_conquerer_declare_offensive_war }
+}
+
+on_war_won_attacker = {
+	on_actions = { mz_conquerer_win_offensive_war }
+}
+
+on_join_war_as_secondary = {
+	on_actions = { mz_conquerer_join_war }
+}
+
+on_war_transferred = {
+	on_actions = { mz_conquerer_join_war }
+}
+
+on_combat_end_winner = {
+	on_actions = { mz_conquerer_battle }
+}
+
+on_combat_end_loser = {
+	on_actions = { mz_conquerer_battle }
+}
+
+on_raid_action_completion = {
+	on_actions = { mz_conquerer_raid }
+}
+
+on_15th_birthday = {
+	on_actions = { mz_faith_education_boost }
+}
+
+random_yearly_playable_pulse = {
+	on_actions = { mz_conquerer_short_pulse }
+}
+
+three_year_playable_pulse = {
+	on_actions = { mz_conquerer_long_pulse }
+}
+
+on_birthday = {
+	on_actions = { mz_eldership_increase_skills_action }
+}
+
+on_death = {
+	on_actions = { 
+		mz_burial_rites_ancestor
+		mz_dawnbreakers_spouse_delayed_update
+	}
+}
+
+on_title_gain = {
+	on_actions = { mz_dawnbreakers_spouse_update }
+}
+
+on_title_lost = {
+	on_actions = { mz_dawnbreakers_spouse_update }
+}
+
+on_marriage = {
+	on_actions = { mz_dawnbreakers_spouse_update }
+}
+
+on_divorce = {
+	on_actions = { 
+		delay = { days = 1 } # Delay is necessary for this to work correctly. Why? loldunno
+		mz_dawnbreakers_spouse_update 
+	}
+}
+
+on_faith_created = { # Scope is reformer, this will only work if the right game rule is set and the reformer is AI
+	on_actions = { mz_faith_creation_ai }
+}

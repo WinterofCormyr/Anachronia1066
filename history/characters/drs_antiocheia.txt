@@ -1,0 +1,16 @@
+﻿#Kingdom of Antiocheia # harrani Culture hurrian_pagan Religion characters
+
+# rulers of the Kingdom of Antiocheia
+drsantiocheia0001 = {
+	name = "Kabi-pal-Kuma" # 
+	female = yes
+	dynasty = 346bronzeage # Sehrum-nirzi-Shimegi
+	religion = hurrian_pagan
+	culture = harrani
+	1030.1.1 = {
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}

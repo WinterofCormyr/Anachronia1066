@@ -1,0 +1,11 @@
+﻿######################################################################
+# Terrain
+######################################################################
+
+building_grindos_requirement_terrain = {
+	OR = {
+		terrain = forest
+		terrain = taiga
+		terrain = wetlands
+	}
+}

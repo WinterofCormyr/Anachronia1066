@@ -1,0 +1,883 @@
+﻿drsdyn1 = {
+	name = "Ta'Sesh'Mah"
+	culture = sumerian
+}
+drsdyn2 = {
+	name = "Bejndar"
+	culture = kurdish
+}
+drsdyn3 = {
+	name = "Serger"
+	culture = kurdish
+}
+drsdyn4 = {
+	name = "Barta Ayetah"
+	culture = assyrian
+}
+drsdyn5 = {
+	name = "Shanahan"
+	culture = armenian
+}
+drsdyn6 = {
+	name = "Tigranian"
+	culture = armenian
+}
+drsdyn7 = {
+	name = "Arkosene" # dynasty of the Pontic Empire
+	culture = pontic
+}
+drsdyn8 = {
+	name = "Rhaneis" # dynasty of the Pontic Empire after the Arkosene dynasty died out
+	culture = pontic
+}
+drsdyn9 = {
+	name = "Attalata" # dynasty of the Kingdom of Pontus from 953 onward
+	culture = pontic
+}
+drsdyn10 = {
+	name = "ve Kardesh" # dynasty of the Province of Armenia from 930 onward
+	# founding house is ve Kardesh # rules d_dzopk from 867 onwards # vassals of k_armenia from 890 onward
+	# in 900 house ve Kardesh-Zankou is founded # rules d_mesopotamia from that point onward # crowned Kings of Armenia in 930 # ryle from that point onward
+	# in 1000 house Shanahan is founded from ve Kardesh # the original ones # landless until 1066 when they take the throne of Jazira peacefully
+	culture = armenian
+}
+drsdyn11 = {
+	name = "Ghazaryan" # Nestorian Armenian
+	culture = armenian
+}
+drsdyn12 = {
+	name = "Sarkisian" # mesopotamian_aitahism Armenian
+	culture = armenian
+}
+drsdyn13 = {
+	name = "Papadopoulos" # orthodox Greek
+	culture = greek
+}
+drsdyn14 = {
+	name = "Gæzdænty" # orthodox alan
+	culture = alan
+}
+drsdyn15 = {
+	name = "Furunzariun" # hattian_pagan hattian
+	culture = hattian
+}
+drsdyn16 = {
+	name = "Ardestani" # d_isfahan
+	culture = persian
+}
+drsdyn17 = {
+	name = "Mashizi" # d_kirman and k_kirman
+	culture = persian
+}
+drsdyn18 = {
+	name = "Afghanzada" # d_kirman and k_kirman
+	culture = afghan
+}
+drsdyn19 = {
+	name = "Chitalia" # k_gujarat
+	culture = gujarati
+}
+drsdyn20 = {
+	name = "bint Layla" # k_gujarat arabian_aitahism
+	culture = omani
+}
+drsdyn21 = {
+	name = "Bar Isaac" # e_tibet # originally nestorian # later tibetan_church
+	culture = assyrian # for CoA purposes # actually Zhangzhung
+}
+drsdyn22 = {
+	name = "ysara Ög" # k_kimek
+	culture = kimek
+}
+drsdyn23 = {
+	name = "megha Ög" # c_mugodzhar_hills
+	culture = kimek
+}
+drsdyn24 = {
+	name = "kobyak Ülgü" # c_jitikul
+	culture = kimek
+}
+drsdyn25 = {
+	name = "len Aqtobe" # d_aqtobe
+	culture = kimek
+}
+drsdyn26 = {
+	name = "këlnissa Ölök" # c_atyrau
+	culture = khazar
+}
+drsdyn27 = {
+	name = "Yasarya" # c_sagiz
+	culture = kimek
+}
+drsdyn28 = {
+	name = "Togliyya" # c_manatau
+	culture = kimek
+}
+drsdyn29 = {
+	name = "len Baisary" # c_baisary
+	culture = kimek
+}
+drsdyn30 = {
+	name = "özlem Ülgü" # c_basagha
+	culture = kimek
+}
+drsdyn31 = {
+	name = "Cnisia" # c_biia
+	culture = old_obish
+}
+drsdyn32 = {
+	name = "Velvus" # c_torema
+	culture = old_obish
+}
+drsdyn33 = {
+	name = "Hayn" # k_yugra
+	culture = old_obish
+}
+drsdyn34 = {
+	name = "Direnni" #
+	culture = high_tavar_re
+}
+drsdyn35 = {
+	name = "Aundae" #
+	culture = high_tavar_re
+}
+drsdyn36 = { 
+	name = "dynn_Camoran"
+	culture = high_tavar_re
+}
+drsdyn37 = { 
+	name = "dynn_Mothril"
+	culture = high_tavar_re 
+}
+drsdyn38 = { 
+	name = "dynn_Rilis"
+	culture = high_tavar_re 
+}
+drsdyn39 = { 
+	name = "dynn_Aliara"
+	culture = high_tavar_re
+}
+drsdyn40 = { 
+	name = "dynn_Arana_Tavar_re"
+	culture = high_tavar_re
+}
+drsdyn41 = { 
+	name = "dynn_Areleth" 
+	culture = high_tavar_re 
+}	
+drsdyn42 = { 
+	name = "dynn_Ateldil" 
+	culture = high_tavar_re 
+}
+drsdyn43 = { 
+	name = "dynn_Duure"
+	culture = high_tavar_re
+}
+drsdyn44 = { 
+	name = "dynn_Favrete" 
+	culture = high_tavar_re
+}
+drsdyn45 = { 
+	name = "dynn_Galerion" 
+	culture = high_tavar_re 
+}
+drsdyn46 = { 
+	name = "dynn_Loganne"
+	culture = high_tavar_re 
+}
+drsdyn47 = { 
+	name = "dynn_Lloderion" 
+	culture = high_tavar_re 
+}
+drsdyn48 = { 
+	name = "dynn_Rumilon" 
+	culture = high_tavar_re 
+} # Rumilon 'Ien Inecil Calmarin Salolinwe 'ata Piryaden-Itelnoril Hilnore Firlamil 'cal Ternerben-Nivulirel
+drsdyn49 = { 
+	name = "dynn_Ternolire" 
+	culture = high_tavar_re 
+}
+drsdyn50 = { 
+	name = "dynn_Urayel" 
+	culture = high_tavar_re 
+}
+drsdyn51 = { 
+	name = "dynn_Elsinor" 
+	culture = high_tavar_re 
+}
+drsdyn52 = { 
+	name = "dynn_Wethrin" 
+	culture = high_tavar_re 
+}
+drsdyn53 = { 
+	name = "dynn_Auralus" 
+	culture = high_tavar_re 
+}
+drsdyn54 = { 
+	name = "dynn_Corelanya" 
+	culture = high_tavar_re 
+}
+drsdyn55 = {
+	name = "dynn_Culanarin" 
+	culture = high_tavar_re 
+}
+drsdyn56 = {
+	name = "dynn_Egyn" 
+	culture = high_tavar_re 
+}
+drsdyn57 = { 
+	name = "dynn_Errinorne" 
+	culture = high_tavar_re 
+}
+drsdyn58 = { 
+	name = "dynn_Firlamil" 
+	culture = high_tavar_re 
+}
+drsdyn59 = { 
+	name = "dynn_Hilnore" 
+	culture = high_tavar_re 
+}
+drsdyn60 = { 
+	name = "dynn_Inecil" 
+	culture = high_tavar_re 
+}
+drsdyn61 = { 
+	name = "dynn_Itelnoril" 
+	culture = high_tavar_re 
+}
+drsdyn62 = { 
+	name = "dynn_Nivulirel" 
+	culture = high_tavar_re 
+}
+drsdyn63 = { 
+	name = "dynn_Numralion"
+	culture = high_tavar_re 
+}
+drsdyn64 = { 
+	name = "dynn_Piryaden" 
+	culture = high_tavar_re 
+}
+drsdyn65 = { 
+	name = "dynn_Salolinwe" 
+	culture = high_tavar_re 
+}
+drsdyn66 = { 
+	name = "dynn_Ternerben" 
+	culture = high_tavar_re 
+}
+drsdyn67 = { 
+	name = "Scribonia" 
+	culture = old_obish 
+}
+drsdyn68 = { 
+	name = "Crabatovsce" 
+	culture = sorbian 
+}
+drsdyn69 = { 
+	name = "Blancavsce" 
+	culture = sorbian 
+}
+drsdyn70 = { 
+	name = "Aetavsce" 
+	culture = sorbian 
+}
+drsdyn71 = { 
+	name = "von Bürske" 
+	culture = franconian 
+}
+drsdyn72 = { 
+	name = "Cunigasting" 
+	culture = high_gothic 
+}
+drsdyn73 = { 
+	name = "Khaldaeos" 
+	culture = pontic 
+}
+drsdyn74 = { 
+	name = "Bar Talmai" 
+	culture = assyrian 
+}
+drsdyn75 = { 
+	name = "Amaling" 
+	culture = crimean_gothic 
+}
+drsdyn76 = { 
+	name = "Vitigising" 
+	culture = crimean_gothic 
+}
+drsdyn77 = { 
+	name = "Magnapolitanai" 
+	culture = pontic 
+}
+drsdyn78 = { 
+	name = "Koralanos" 
+	culture = pontic 
+}
+drsdyn79 = { 
+	name = "Melikalaria" 
+	culture = pontic 
+}
+drsdyn80 = { 
+	name = "Daogonos" 
+	culture = pontic 
+}
+drsdyn81 = { 
+	name = "Uranetios" 
+	culture = pontic 
+}
+drsdyn82 = { 
+	name = "Aitaias" 
+	culture = pontic 
+}
+drsdyn83 = { 
+	name = "Christoktistios" 
+	culture = pontic 
+}
+drsdyn84 = { 
+	name = "Christoktistene" 
+	culture = pontic 
+}
+drsdyn85 = { 
+	name = "Margariteis" 
+	culture = pontic 
+}
+drsdyn86 = { 
+	name = "Chrysanthian" 
+	culture = pontic 
+}
+drsdyn87 = { 
+	name = "Michaeleos" 
+	culture = pontic 
+}
+drsdyn88 = { 
+	name = "Eridanodoreia" 
+	culture = pontic 
+}
+drsdyn89 = { 
+	name = "Adrianeas" 
+	culture = pontic 
+}
+drsdyn90 = { 
+	name = "Rhaion" 
+	culture = pontic 
+}
+drsdyn91 = { 
+	name = "Christias" 
+	culture = pontic 
+}
+drsdyn92 = { 
+	name = "Ambitouti" 
+	culture = galatian 
+}
+drsdyn93 = { 
+	name = "Rigosages" 
+	culture = galatian 
+}
+drsdyn94 = { 
+	name = "Tektosages" 
+	culture = galatian 
+}
+drsdyn95 = { 
+	name = "Tectosages" 
+	culture = galatian 
+}
+drsdyn96 = { 
+	name = "Tolistobogi" 
+	culture = galatian 
+}
+drsdyn97 = { 
+	name = "Aigosages" 
+	culture = galatian 
+}
+drsdyn98 = { 
+	name = "Daguteni" 
+	culture = galatian 
+}
+drsdyn99 = { 
+	name = "Inovanteni" 
+	culture = galatian 
+}
+drsdyn100 = { 
+	name = "Ocondiani" 
+	culture = galatian 
+}
+drsdyn101 = { 
+	name = "Okondiani" 
+	culture = galatian 
+}
+drsdyn102 = { 
+	name = "Vuronsemestogenos" 
+	culture = galatian 
+}
+drsdyn103 = { 
+	name = "Vuronsemestogena" 
+	culture = galatian 
+}
+drsdyn104 = { 
+	name = "Vuronsemestogenom" 
+	culture = galatian 
+}
+drsdyn105 = { 
+	name = "Eponetorixi" 
+	culture = galatian 
+}
+drsdyn106 = { 
+	name = "Vuronsemocintutouta" 
+	culture = galatian 
+}
+drsdyn107 = { 
+	name = "Elirenos" 
+	culture = galatian 
+}
+drsdyn108 = { 
+	name = "Cintudixonitoutias" 
+	culture = galatian 
+}
+drsdyn109 = { 
+	name = "Cinixoti" 
+	culture = galatian 
+}
+drsdyn110 = { 
+	name = "Christoualatoutabi" 
+	culture = galatian 
+}
+drsdyn111 = { 
+	name = "Eponerigani" 
+	culture = galatian 
+}
+drsdyn112 = { 
+	name = "Vuronsemouolnati" 
+	culture = galatian 
+}
+drsdyn113 = { 
+	name = "Nixatigerni" 
+	culture = galatian 
+}
+drsdyn114 = { 
+	name = "Atiageni" 
+	culture = galatian 
+}
+drsdyn115 = { 
+	name = "Eridanogennos" 
+	culture = galatian 
+}
+drsdyn116 = { 
+	name = "Echogennom" 
+	culture = galatian 
+}
+drsdyn117 = { 
+	name = "Viroeridanos" 
+	culture = galatian 
+}
+drsdyn118 = { 
+	name = "Veliogeotouta" 
+	culture = galatian 
+}
+drsdyn119 = { 
+	name = "Chagnotoutan" 
+	culture = galatian 
+}
+drsdyn120 = { 
+	name = "Segoartemistoutim" 
+	culture = galatian 
+}
+drsdyn121 = { 
+	name = "Petratoutas" 
+	culture = galatian 
+}
+drsdyn122 = { 
+	name = "Elirenegena" 
+	culture = galatian 
+}
+drsdyn123 = { 
+	name = "Eireniakeos" 
+	culture = pontic 
+}
+drsdyn124 = { 
+	name = "Tornikian" 
+	culture = armenian 
+}
+drsdyn125 = { 
+	name = "Alexeia" 
+	culture = neocimmerian 
+}
+drsdyn126 = { 
+	name = "Theodosiani" 
+	culture = pontic 
+}
+drsdyn127 = { 
+	name = "Archirine" 
+	culture = pontic 
+}
+drsdyn128 = { 
+	name = "Kambizi" 
+	culture = adhari 
+}
+drsdyn129 = { 
+	name = "Shahbazi" 
+	culture = adhari 
+}
+drsdyn130 = { 
+	name = "Elyari" 
+	culture = khorasani 
+}
+drsdyn131 = { 
+	name = "al-Ghaythahi" 
+	culture = omani 
+}
+drsdyn132 = { 
+	name = "Keyvani" 
+	culture = khorasani 
+}
+drsdyn133 = { 
+	name = "Quhyari" 
+	culture = khorasani 
+}
+drsdyn134 = { 
+	name = "Ghiyasi" 
+	culture = khorasani 
+}
+drsdyn135 = { 
+	name = "Saheli" 
+	culture = khorasani 
+}
+drsdyn136 = { 
+	name = "Chakavaki" 
+	culture = khorasani 
+}
+drsdyn137 = { 
+	name = "Setayeshi" 
+	culture = khorasani 
+}
+drsdyn138 = { 
+	name = "Shadani" 
+	culture = khorasani 
+}
+drsdyn139 = { 
+	name = "Rakhshonaki" 
+	culture = khorasani 
+}
+drsdyn140 = { 
+	name = "Chehri" 
+	culture = khorasani 
+}
+drsdyn141 = { 
+	name = "Bahadori" 
+	culture = khorasani 
+}
+drsdyn142 = { 
+	name = "Chahri" 
+	culture = khorasani 
+}
+drsdyn143 = { 
+	name = "Mahyari" 
+	culture = khorasani 
+}
+drsdyn144 = { 
+	name = "Vandadi" 
+	culture = khorasani 
+}
+drsdyn145 = { 
+	name = "Kevani" 
+	culture = khorasani 
+}
+drsdyn146 = { 
+	name = "Lailiyi" 
+	culture = khorasani 
+}
+drsdyn147 = { 
+	name = "Goldisi" 
+	culture = khorasani 
+}
+drsdyn148 = { 
+	name = "Ereji" 
+	culture = khorasani 
+}
+drsdyn149 = { 
+	name = "Nami" 
+	culture = khorasani 
+}
+drsdyn150 = { 
+	name = "Faranaki" 
+	culture = khorasani 
+}
+drsdyn151 = { 
+	name = "Khorasandokhti" 
+	culture = khorasani 
+}
+drsdyn152 = { 
+	name = "Beha_faridi" 
+	culture = khorasani 
+}
+drsdyn153 = { 
+	name = "Daliri" 
+	culture = khorasani 
+}
+drsdyn154 = { 
+	name = "Darabi" 
+	culture = khorasani 
+}
+drsdyn155 = { 
+	name = "Vindadhi_Andalibi" 
+	culture = khorasani 
+}
+drsdyn156 = { 
+	name = "Mahdokhti" 
+	culture = khorasani 
+}
+drsdyn157 = { 
+	name = "Julkirazi" 
+	culture = khorasani 
+}
+drsdyn158 = { 
+	name = "Iolanthing" 
+	culture = high_gothic 
+}
+drsdyn159 = { 
+	name = "Athalathruthing" 
+	culture = high_gothic 
+}
+drsdyn160 = { 
+	name = "Adeling" 
+	culture = high_gothic 
+}
+drsdyn161 = { 
+	name = "Berchtaranding" 
+	culture = high_gothic 
+}
+drsdyn162 = { 
+	name = "Allamaning" 
+	culture = high_gothic 
+}
+drsdyn163 = { 
+	name = "Ibhramundsing" 
+	culture = high_gothic 
+}
+drsdyn164 = { 
+	name = "Furunkarun" 
+	culture = hattian 
+}
+drsdyn165 = { 
+	name = "Kizhanun" 
+	culture = hattian 
+}
+drsdyn166 = { 
+	name = "Hirun" 
+	culture = hattian 
+}
+drsdyn167 = { 
+	name = "Karganun" 
+	culture = hattian 
+}
+drsdyn168 = { 
+	name = "Ouranocharistios" 
+	culture = pontic 
+}
+drsdyn169 = { 
+	name = "Adonigonos" 
+	culture = pontic
+}
+drsdyn170 = { 
+	name = "Ermephano" 
+	culture = pontic
+}
+drsdyn171 = { 
+	name = "Nikephoriai" 
+	culture = pontic
+}
+drsdyn172 = { 
+	name = "Rheateia" 
+	culture = pontic
+}
+drsdyn173 = { 
+	name = "Artemiake-Selenektisteos" 
+	culture = pontic
+}
+drsdyn174 = { 
+	name = "Hypation" 
+	culture = pontic
+}
+drsdyn175 = { 
+	name = "d'Estrées-lès-Crécy" 
+	culture = french
+}
+drsdyn176 = { 
+	name = "de Léchelle" 
+	culture = french
+}
+drsdyn177 = { 
+	name = "de Lizines" 
+	culture = french
+}
+drsdyn178 = { 
+	name = "de Longueville" 
+	culture = french
+}
+drsdyn179 = { 
+	name = "de Louan-Villegruis-Fontaine" 
+	culture = french
+}
+drsdyn180 = { 
+	name = "de Luisetaines" 
+	culture = french
+}
+drsdyn181 = { 
+	name = "de Les Marêts" 
+	culture = french
+}
+drsdyn182 = { 
+	name = "de Meigneux" 
+	culture = french
+}
+drsdyn183 = { 
+	name = "de Nandy" 
+	culture = french
+}
+drsdyn184 = { 
+	name = "de Pringy" 
+	culture = french
+}
+drsdyn185 = { 
+	name = "de Savigny-le-Temple" 
+	culture = french
+}
+drsdyn186 = { 
+	name = "de Vert-Saint-Denis" 
+	culture = french
+}
+drsdyn187 = { 
+	name = "de Bailly-Romainvilliers" 
+	culture = french
+}
+drsdyn188 = { 
+	name = "de Chessy"
+	culture = french
+}
+drsdyn189 = { 
+	name = "de Couilly-Pont-aux-Dames"
+	culture = french
+}
+drsdyn190 = { 
+	name = "de Coulommes"
+	culture = french
+}
+drsdyn191 = { 
+	name = "de Coutevroult"
+	culture = french
+}
+drsdyn192 = { 
+	name = "de Crécy-la-Chapelle"
+	culture = french
+}
+drsdyn193 = { 
+	name = "de Tigeaux"
+	culture = french
+}
+drsdyn194 = { 
+	name = "de Cleyzieu"
+	culture = french
+}
+drsdyn195 = { 
+	name = "d'Ambérieu"
+	culture = french
+}
+drsdyn196 = { 
+	name = "de Foissiat"
+	culture = french
+}
+drsdyn197 = { 
+	name = "d'Évosges"
+	culture = french
+}
+drsdyn198 = { 
+	name = "de Géovreisset"
+	culture = french
+}
+drsdyn199 = { 
+	name = "de Varambon"
+	culture = french
+}
+drsdyn200 = { 
+	name = "von Erfurt"
+	culture = thuringian
+}
+drsdyn201 = { 
+	name = "d'Amigny-Rouny"
+	culture = french
+}
+drsdyn202 = { 
+	name = "d'Ancienville"
+	culture = french
+}
+drsdyn203 = { 
+	name = "Barnarding"
+	culture = neustrian
+}
+drsdyn204 = { 
+	name = "Gotberging"
+	culture = neustrian
+}
+drsdyn205 = { 
+	name = "Siclanding"
+	culture = neustrian
+}
+drsdyn206 = { 
+	name = "Sunning"
+	culture = neustrian
+}
+drsdyn207 = { 
+	name = "Chlotharing"
+	culture = neustrian
+}
+drsdyn208 = { 
+	name = "Ildegarding"
+	culture = neustrian
+}
+drsdyn209 = { 
+	name = "ach Bride"
+	culture = pictish
+}
+drsdyn210 = { 
+	name = "uab Taran"
+	culture = pictish
+}
+drsdyn211 = { 
+	name = "uab Ruatirch"
+	culture = pictish
+}
+drsdyn212 = { 
+	name = "av Astera og Kernos"
+	culture = norman
+}
+drsdyn213 = { 
+	name = "Marcatruding"
+	culture = neustrian
+}
+drsdyn214 = { 
+	name = "de Blérancourt"
+	culture = french
+}
+drsdyn215 = { 
+	name = "Childeberting"
+	culture = neustrian
+}
+drsdyn216 = { 
+	name = "de Bayeux"
+	culture = norman
+}
+drsdyn217 = { 
+	name = "de Cormolain"
+	culture = norman
+}
+drsdyn218 = { 
+	name = "de Cossesseville"
+	culture = norman
+}
+drsdyn219 = { 
+	name = "de Cottun"
+	culture = norman
+}
+drsdyn220 = { 
+	name = "bint Durra" 
+	culture = omani 
+}

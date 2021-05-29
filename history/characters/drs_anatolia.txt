@@ -1,0 +1,752 @@
+﻿#Kingdom of Anatolia # hattian Culture hattian_pagan Religion characters
+
+# rulers of the Kingdom of Anatolia
+drsanatolia0001 = {
+	name = "Furufana" # husband Hawurtuh # son Hantipa # daughter Kiangarina # daughter Felanna
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	910.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0002 = {
+	name = "Hawurtuh" # son Hantipa # daughter Kiangarina # daughter Felanna
+	religion = hattian_pagan
+	culture = hattian
+	910.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		add_matrilineal_spouse = drsanatolia0001 # Furufana Furunzariun
+	}
+	984.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0003 = {
+	name = "Hantipa" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0002 # Hawurtuh
+	mother = drsanatolia0001 # Furufana Furunzariun
+	930.2.1 = {
+		birth = yes
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0004 = {
+	name = "Kiangarina" # husband Halepina # daughter Apannah # daughter Harkil # daughter Kattanna # son Eskatte # daughter Hamanhah # daughter Kapanna # son Kaskatte # son Kaittu # son Anhan
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0002 # Hawurtuh
+	mother = drsanatolia0001 # Furufana Furunzariun
+	931.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0005 = {
+	name = "Felanna" # 
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0002 # Hawurtuh
+	mother = drsanatolia0001 # Furufana Furunzariun
+	932.1.1 = {
+		birth = yes
+	}
+	1019.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0006 = {
+	name = "Halepina" # daughter Apannah # daughter Harkil # daughter Kattanna # son Eskatte # daughter Hamanhah # daughter Kapanna # son Kaskatte # son Kaittu # son Anhan
+	religion = hattian_pagan
+	culture = hattian
+	931.1.1 = {
+		birth = yes
+	}
+	951.1.1 = {
+		add_matrilineal_spouse = drsanatolia0004 # Kiangarina Furunzariun
+	}
+	984.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0007 = {
+	name = "Apannah" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0006 # Halepina
+	mother = drsanatolia0004 # Kiangarina Furunzariun
+	952.1.1 = {
+		birth = yes
+	}
+	1017.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0008 = {
+	name = "Harkil" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0006 # Halepina
+	mother = drsanatolia0004 # Kiangarina Furunzariun
+	953.1.1 = {
+		birth = yes
+	}
+	1009.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0009 = {
+	name = "Kattanna" #
+	# husband Harkif
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0006 # Halepina
+	mother = drsanatolia0004 # Kiangarina Furunzariun
+	954.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0010 = {
+	name = "Eskatte" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0006 # Halepina
+	mother = drsanatolia0004 # Kiangarina Furunzariun
+	955.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0011 = {
+	name = "Hamanhah" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0006 # Halepina
+	mother = drsanatolia0004 # Kiangarina Furunzariun
+	956.1.1 = {
+		birth = yes
+	}
+	1022.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0012 = {
+	name = "Kapanna" #
+	#1 husband Hapramurtu # no children with him
+	#2 husband Askas # daughter Hannifanna # son Fashamuruya # son Finduti
+	#3 husband Apramahais # daughter Kaputah # daughter Kariangah
+	#4 husband Kilianni # daughter Aksahtah # twin sons Furun-kaip and Hanharki
+	#5 husband Hanufel # daughter Furufel
+	#6 husband Kapalkimara # daughter Karinanah # daughter Kaipsuit # daughter Hatuhamanna
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0006 # Halepina
+	mother = drsanatolia0004 # Kiangarina Furunzariun
+	957.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0013 = {
+	name = "Kaskatte" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0006 # Halepina
+	mother = drsanatolia0004 # Kiangarina Furunzariun
+	958.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0014 = {
+	name = "Kaittu" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0006 # Halepina
+	mother = drsanatolia0004 # Kiangarina Furunzariun
+	959.1.1 = {
+		birth = yes
+	}
+	1037.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0015 = {
+	name = "Anhan" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0006 # Halepina
+	mother = drsanatolia0004 # Kiangarina Furunzariun
+	960.1.1 = {
+		birth = yes
+	}
+	1053.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0017 = {
+	name = "Harkif" # 
+	religion = hattian_pagan
+	culture = hattian
+	954.1.1 = {
+		birth = yes
+	}
+	974.1.1 = {
+		add_matrilineal_spouse = drsanatolia0009 # Kattanna Furunzariun
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0018 = {
+	name = "Hapramurtu" # 
+	religion = hattian_pagan
+	culture = hattian
+	957.1.1 = {
+		birth = yes
+	}
+	977.1.1 = {
+		add_matrilineal_spouse = drsanatolia0012 # Kapanna Furunzariun
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0019 = {
+	name = "Askas" # daughter Hannifanna # son Fashamuruya # son Finduti
+	religion = hattian_pagan
+	culture = hattian
+	957.1.1 = {
+		birth = yes
+	}
+	978.1.1 = {
+		add_matrilineal_spouse = drsanatolia0012 # Kapanna Furunzariun
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0020 = {
+	name = "Hannifanna" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0019 # Askas
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	979.1.1 = {
+		birth = yes
+	}
+	1029.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0021 = {
+	name = "Fashamuruya" #
+	#1 wife Antuhannana # son Hamaraz
+	#2 wife Kashanna # son Hanti
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0019 # Askas
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	980.1.1 = {
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0022 = {
+	name = "Finduti" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0019 # Askas
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	981.1.1 = {
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0023 = {
+	name = "Apramahais" # daughter Kaputah # daughter Kariangah
+	religion = hattian_pagan
+	culture = hattian
+	957.1.1 = {
+		birth = yes
+	}
+	982.1.1 = {
+		add_matrilineal_spouse = drsanatolia0012 # Kapanna Furunzariun
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0024 = {
+	name = "Kaputah" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0023 # Apramahais
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	983.1.1 = {
+		birth = yes
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0025 = {
+	name = "Kariangah" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0023 # Apramahais
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	984.1.1 = {
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0026 = {
+	name = "Kilianni" #
+	religion = hattian_pagan
+	culture = hattian
+	957.1.1 = {
+		birth = yes
+	}
+	985.1.1 = {
+		add_matrilineal_spouse = drsanatolia0012 # Kapanna Furunzariun
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0027 = {
+	name = "Aksahtah" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0026 # Kilianni
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	986.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0028 = {
+	name = "Furun-kaip" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0026 # Kilianni
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	trait = twin
+	987.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0029 = {
+	name = "Hanharki" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0026 # Kilianni
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	trait = twin
+	987.1.1 = {
+		birth = yes
+	}
+	1052.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0030 = {
+	name = "Hanufel" #
+	religion = hattian_pagan
+	culture = hattian
+	957.1.1 = {
+		birth = yes
+	}
+	988.1.1 = {
+		add_matrilineal_spouse = drsanatolia0012 # Kapanna Furunzariun
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0031 = {
+	name = "Furufel" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0030 # Hanufel
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	989.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0032 = {
+	name = "Kapalkimara" #
+	religion = hattian_pagan
+	culture = hattian
+	957.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		add_matrilineal_spouse = drsanatolia0012 # Kapanna Furunzariun
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0033 = {
+	name = "Karinanah" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0032 # Kapalkimara
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	991.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0034 = {
+	name = "Kaipsuit" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0032 # Kapalkimara
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	992.1.1 = {
+		birth = yes
+	}
+	1074.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0035 = {
+	name = "Hatuhamanna" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0032 # Kapalkimara
+	mother = drsanatolia0012 # Kapanna Furunzariun
+	993.1.1 = {
+		birth = yes
+	}
+	1091.1.1 = {
+		death = yes
+	}
+}
+	#4 husband Kilianni # daughter Aksahtah # twin sons Furun-kaip and Hanharki
+	#5 husband Hanufel # daughter Furufel
+	#6 husband Kapalkimara # daughter Karinanah # daughter Kaipsuit # daughter Hatuhamanna
+drsanatolia0036 = {
+	name = "Antuhannana" #
+	female = yes
+	religion = hattian_pagan
+	culture = hattian
+	980.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		add_spouse = drsanatolia0021 # Fashamuruya Furunzariun
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0037 = {
+	name = "Hamaraz" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0021 # Fashamuruya Furunzariun
+	mother = drsanatolia0036 # Antuhannana
+	1001.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0038 = {
+	name = "Kashanna" #
+	female = yes
+	religion = hattian_pagan
+	culture = hattian
+	980.1.1 = {
+		birth = yes
+	}
+	1001.1.1 = {
+		add_spouse = drsanatolia0021 # Fashamuruya Furunzariun
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0039 = {
+	name = "Hanti" #
+	#1 wife Estiana # no children
+	#2 wife Furliana # no children
+	#3 wife Harkasanna # daughter Haisah
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0021 # Fashamuruya Furunzariun
+	mother = drsanatolia0038 # Kashanna
+	1002.1.1 = {
+		birth = yes
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+	#1 wife Antuhannana # son Hamaraz
+	#2 wife Kashanna # son Hanti
+drsanatolia0040 = {
+	name = "Estiana" #
+	female = yes
+	religion = hattian_pagan
+	culture = hattian
+	1002.1.1 = {
+		birth = yes
+	}
+	1022.1.1 = {
+		add_spouse = drsanatolia0039 # Hanti Furunzariun
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0041 = {
+	name = "Furliana" #
+	female = yes
+	religion = hattian_pagan
+	culture = hattian
+	1002.1.1 = {
+		birth = yes
+	}
+	1023.1.1 = {
+		add_spouse = drsanatolia0039 # Hanti Furunzariun
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0042 = {
+	name = "Harkasanna" #
+	female = yes
+	religion = hattian_pagan
+	culture = hattian
+	1002.1.1 = {
+		birth = yes
+	}
+	1024.1.1 = {
+		add_spouse = drsanatolia0039 # Hanti Furunzariun
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0043 = {
+	name = "Haisah" #
+	#1 husband Haluhar # daughter Kimahanna # daughter Kilana
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0039 # Hanti Furunzariun
+	mother = drsanatolia0042 # Harkasanna
+	1025.1.1 = {
+		birth = yes
+	}
+	1129.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0044 = {
+	name = "Haluhar" #
+	religion = hattian_pagan
+	culture = hattian
+	1025.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		add_matrilineal_spouse = drsanatolia0043 # Haisah Furunzariun
+	}
+	1129.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0045 = {
+	name = "Kimahanna" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0044 # Haluhar
+	mother = drsanatolia0043 # Haisah Furunzariun
+	1046.1.1 = {
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0046 = {
+	name = "Kilana" #
+	# husband Arkos pontic pontic_aitahism married matrilineally # son Finduti # daughter Haleputah # daughter Eskastipah # daughter Argarah
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0044 # Haluhar
+	mother = drsanatolia0043 # Haisah Furunzariun
+	1047.1.1 = {
+		birth = yes
+	}
+	1147.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0047 = {
+	name = "Arkos" #
+	religion = pontic_aitahism
+	culture = pontic
+	1047.1.1 = {
+		birth = yes
+	}
+	1067.1.1 = {
+		add_matrilineal_spouse = drsanatolia0046 # Kilana Furunzariun
+	}
+	1147.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0048 = {
+	name = "Finduti" #
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0047 # Arkos
+	mother = drsanatolia0046 # Kilana Furunzariun
+	1068.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0049 = {
+	name = "Haleputah" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0047 # Arkos
+	mother = drsanatolia0046 # Kilana Furunzariun
+	1069.1.1 = {
+		birth = yes
+	}
+	1169.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0050 = {
+	name = "Eskastipah" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0047 # Arkos
+	mother = drsanatolia0046 # Kilana Furunzariun
+	1070.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+drsanatolia0051 = {
+	name = "Argarah" #
+	female = yes
+	dynasty = drsdyn15 # Furunzariun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolia0047 # Arkos
+	mother = drsanatolia0046 # Kilana Furunzariun
+	1071.1.1 = {
+		birth = yes
+	}
+	1171.1.1 = {
+		death = yes
+	}
+}
+#DO HALEPINA AND KIANGARINA OTHER CHILDREN NEXT # daughter Hamanhah # daughter Kapanna # son Kaskatte # son Kaittu # son Anhan
+# THEN DO HEIRS OF KATTANNA
+# then do Alemannian Ireneism - start that

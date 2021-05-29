@@ -1,0 +1,849 @@
+﻿#Shahi of Khorasan # khorasani Culture pashtuni_khwarezmian_ireneism Religion characters
+
+# rulers of the Shahi of Khorasan # FAMILY WAS THE FIRST TO CONVERT TO pashtuni_khwarezmian_ireneism AND SPREAD THE RELIGION MASSIVELY AROUND 920 WHEN THEY FOUNDED THE KINGDOM
+drskhorasan0001 = {
+	name = "Bolour" # Queen Bolour #unknown#regnal#number#create#ancestors#later# Elyari of Khorasan # husband Dara Goldisi drsdyn147 # son Aban # daughter Nastaran # daughter Nayaab # daughter Mahasti # daughter Sa_ye 
+	# daughter Shaghayegh # daughter Parvana 
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0023 # Parsa Elyari
+	mother = drskhorasan0027 # Parvanah
+	1000.1.1 = {
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0002 = {
+	name = "Durr-e-Khorasan" # first queen and ruler of Khorasan # founded the kingdom 920 AD # children Farajareen a son # Fakhr-un-nissa a daughter # no others
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	890.1.1 = {
+		birth = yes
+	}
+	906.1.1 = {
+		add_trait = education_martial_4
+	}
+	916.1.1 = {
+		add_trait = mystic_3
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0003 = {
+	name = "Umar" # Durr-e-Khorasan's husband # an Arab arabian_aitahism
+	dynasty = drsdyn131 # al-Ghaythahi
+	religion = arabian_aitahism
+	culture = omani
+	890.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		add_matrilineal_spouse = drskhorasan0002
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0004 = {
+	name = "Farajareen" # name means 'release of Irene' # combining Arabic with Persian # polygamous # 2 wives
+	#1 wife Arteeneh Keyvani drsdyn132 # no children
+	#2 wife Iran Quhyari drsdyn133 # no children
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0003 # Umar al-Ghaythahi
+	mother = drskhorasan0002 # Durr-e-Khorasan Elyari
+	912.1.1 = {
+		birth = yes
+	}
+	987.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0005 = {
+	name = "Fakhr-un-nissa" # Valdemarian polygamous # 8 husbands # all matrilineal
+	#1 husband Tahjai Ghiyasi drsdyn134 # daughter Chehrah # daughter Irandokht # son Iraj
+	#3 husband Shirareena Chakavaki drsdyn136 # no children
+	#4 husband Vandad Setayeshi drsdyn137 # daughter Mahak
+	#5 husband Janpolad Shadani drsdyn138 # daughter Abid # daughter Afrouz # daughter Khorasan
+	#6 husband Keyvan Rakhshonaki drsdyn139 # daughter Nishapur # daughter Afsaneh # daughter Ahu
+	#7 husband Sheerareena Chehri drsdyn140 # no children
+	#8 husband Kayvan Bahadori drsdyn141 # son Gurvan
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0003 # Umar al-Ghaythahi
+	mother = drskhorasan0002 # Durr-e-Khorasan Elyari
+	913.1.1 = {
+		birth = yes
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0006 = {
+	name = "Arteeneh" # 
+	female = yes
+	dynasty = drsdyn132 # Keyvani
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	912.1.1 = {
+		birth = yes
+	}
+	932.1.1 = {
+		add_spouse = drskhorasan0004 # Farajareen Elyari
+	}
+	987.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0007 = {
+	name = "Iran" # 
+	female = yes
+	dynasty = drsdyn133 # Quhyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	912.1.1 = {
+		birth = yes
+	}
+	933.1.1 = {
+		add_spouse = drskhorasan0004 # Farajareen Elyari
+	}
+	987.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0008 = {
+	name = "Tahjai" # 
+	dynasty = drsdyn134 # Ghiyasi
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	913.1.1 = {
+		birth = yes
+	}
+	934.1.1 = {
+		add_matrilineal_spouse = drskhorasan0005 # Fakhr-un-nissa Elyari
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0009 = {
+	name = "Chehrah" # monogamous # husband Fereydoon Chahri drsdyn142 # no children
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0008 # Tahjai Ghiyasi
+	mother = drskhorasan0005 # Fakhr-un-nissa Elyari
+	935.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0010 = {
+	name = "Irandokht" # monogamous # husband Bahadur Mahyari drsdyn143 # no children
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0008 # Tahjai Ghiyasi
+	mother = drskhorasan0005 # Fakhr-un-nissa Elyari
+	936.1.1 = {
+		birth = yes
+	}
+	1011.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0011 = {
+	name = "Iraj" # monogamous # wife Parvaneh Vandadi drsdyn144 # no children
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0008 # Tahjai Ghiyasi
+	mother = drskhorasan0005 # Fakhr-un-nissa Elyari
+	937.1.1 = {
+		birth = yes
+	}
+	1012.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0012 = {
+	name = "Fereydoon" # 
+	dynasty = drsdyn142 # Chahri
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	935.1.1 = {
+		birth = yes
+	}
+	955.1.1 = {
+		add_matrilineal_spouse = drskhorasan0009 # Chehrah Fakhr-un-nissadokht Elyari
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0013 = {
+	name = "Bahadur" # 
+	dynasty = drsdyn143 # Mahyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	936.1.1 = {
+		birth = yes
+	}
+	956.1.1 = {
+		add_matrilineal_spouse = drskhorasan0010 # Irandokht Fakhr-un-nissadokht Elyari
+	}
+	1011.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0014 = {
+	name = "Parvaneh" #
+	female = yes	
+	dynasty = drsdyn144 # Vandadi
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	937.1.1 = {
+		birth = yes
+	}
+	957.1.1 = {
+		add_spouse = drskhorasan0011 # Iraj Fakhr-un-Nissazade Elyari
+	}
+	1012.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0015 = {
+	name = "Shirareena" # 
+	dynasty = drsdyn136 # Chakavaki
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	913.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		add_matrilineal_spouse = drskhorasan0005 # Fakhr-un-nissa Elyari
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0016 = {
+	name = "Vandad" # 
+	dynasty = drsdyn137 # Setayeshi
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	913.1.1 = {
+		birth = yes
+	}
+	938.1.1 = {
+		add_matrilineal_spouse = drskhorasan0005 # Fakhr-un-nissa Elyari
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0017 = {
+	name = "Mahak" # monogamous # husband Mehran Kevani drsdyn145 # daughter Areena # daughter Parvaneh # daughter Tajlu
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0016 # Vandad Setayeshi
+	mother = drskhorasan0005 # Fakhr-un-nissa Elyari
+	939.1.1 = {
+		birth = yes
+	}
+	1014.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0018 = {
+	name = "Mehran" # 
+	dynasty = drsdyn145 # Kevani
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	939.1.1 = {
+		birth = yes
+	}
+	959.1.1 = {
+		add_matrilineal_spouse = drskhorasan0017 # Mahak Fakhr-un-nissadokht Elyari
+	}
+	1014.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0019 = {
+	name = "Areena" # monogamous # husband Jambolad Lailiyi drsdyn146 # son Parsa FATHER OF QUEEN BOLOUR # son Fereydoun # daughter Fereshteh # daughter Nishapurdokht # daughter Irsa
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0018 # Mehran Kevani
+	mother = drskhorasan0017 # Mahak Fakhr-un-nissadokht Elyari
+	960.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0020 = {
+	name = "Parvaneh" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0018 # Mehran Kevani
+	mother = drskhorasan0017 # Mahak Fakhr-un-nissadokht Elyari
+	961.1.1 = {
+		birth = yes
+	}
+	1036.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0021 = {
+	name = "Tajlu" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0018 # Mehran Kevani
+	mother = drskhorasan0017 # Mahak Fakhr-un-nissadokht Elyari
+	962.1.1 = {
+		birth = yes
+	}
+	1037.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0022 = {
+	name = "Jambolad" # 
+	dynasty = drsdyn146 # Lailiyi
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	970.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		add_matrilineal_spouse = drskhorasan0019 # Areena Mahakdokht Elyari
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0023 = {
+	name = "Parsa" # monogamous # wife Parvanah married 999 NO HOUSE # daughter Bolour ALREADY DONE # daughter Farzaneh # daughter Durr-e-Kohestan # daughter Aynaz # daughter Viyana # daughter Shahdokht # daughter Farideh
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0022 # Jambolad Lailiyi
+	mother = drskhorasan0019 # Areena Mahakdokht Elyari
+	981.1.1 = {
+		birth = yes
+	}
+	1056.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0024 = {
+	name = "Fereydoun" #
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0022 # Jambolad Lailiyi
+	mother = drskhorasan0019 # Areena Mahakdokht Elyari
+	982.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0024 = {
+	name = "Fereshteh" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0022 # Jambolad Lailiyi
+	mother = drskhorasan0019 # Areena Mahakdokht Elyari
+	985.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0025 = {
+	name = "Nishapurdokht" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0022 # Jambolad Lailiyi
+	mother = drskhorasan0019 # Areena Mahakdokht Elyari
+	990.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0026 = {
+	name = "Irsa" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0022 # Jambolad Lailiyi
+	mother = drskhorasan0019 # Areena Mahakdokht Elyari
+	995.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0027 = {
+	name = "Parvanah" # 
+	female = yes
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	981.1.1 = {
+		birth = yes
+	}
+	999.1.1 = {
+		add_spouse = drskhorasan0023 # Parsa Areenazade Elyari
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0028 = {
+	name = "Farzaneh" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0023 # Parsa Areenazade Elyari
+	mother = drskhorasan0027 # Parvanah
+	1001.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0029 = {
+	name = "Durr-e-Kohestan" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0023 # Parsa Areenazade Elyari
+	mother = drskhorasan0027 # Parvanah
+	1002.1.1 = {
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0030 = {
+	name = "Aynaz" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0023 # Parsa Areenazade Elyari
+	mother = drskhorasan0027 # Parvanah
+	1003.1.1 = {
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0031 = {
+	name = "Viyana" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0023 # Parsa Areenazade Elyari
+	mother = drskhorasan0027 # Parvanah
+	1004.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0032 = {
+	name = "Shahdokht" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0023 # Parsa Areenazade Elyari
+	mother = drskhorasan0027 # Parvanah
+	1005.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0033 = {
+	name = "Farideh" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0023 # Parsa Areenazade Elyari
+	mother = drskhorasan0027 # Parvanah
+	1006.1.1 = {
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0034 = {
+	name = "Dara" # wife Bolour Elyari drsdyn130 # son Aban # daughter Nastaran # daughter Nayaab # daughter Mahasti # daughter Sa_ye 
+	# daughter Shaghayegh # daughter Parvana
+	dynasty = drsdyn147 # Goldisi
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	1000.1.1 = {
+		birth = yes
+	}
+	1020.1.1 = {
+		add_matrilineal_spouse = drskhorasan0001 # Bolour Parsadokht Elyari
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+#SKIPPED 35
+drskhorasan0036 = {
+	name = "Nastaran" # monogamous # husband Geev Khorasandokhti drsdyn151 # no children
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0034 # Dara Goldisi
+	mother = drskhorasan0001 # Bolour Parsadokht Elyari
+	1022.1.1 = {
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0037 = {
+	name = "Nayaab" #
+	# husband 1 Pejman Beha_faridi drsdyn152 # son Taimaz # no other children
+	# husband 2 Vashan Daliri drsdyn153 # no children
+	# husband 3 Giyath Darabi drsdyn154 # no children
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0034 # Dara Goldisi
+	mother = drskhorasan0001 # Bolour Parsadokht Elyari
+	1023.1.1 = {
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0038 = {
+	name = "Mahasti" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0034 # Dara Goldisi
+	mother = drskhorasan0001 # Bolour Parsadokht Elyari
+	1024.1.1 = {
+		birth = yes
+	}
+	1099.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0039 = {
+	name = "Sa_ye" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0034 # Dara Goldisi
+	mother = drskhorasan0001 # Bolour Parsadokht Elyari
+	1025.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0040 = {
+	name = "Shaghayegh" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0034 # Dara Goldisi
+	mother = drskhorasan0001 # Bolour Parsadokht Elyari
+	1026.1.1 = {
+		birth = yes
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0041 = {
+	name = "Parvana" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0034 # Dara Goldisi
+	mother = drskhorasan0001 # Bolour Parsadokht Elyari
+	1027.1.1 = {
+		birth = yes
+	}
+	1102.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0042 = {
+	name = "Geev" #
+	dynasty = drsdyn151 # Khorasandokhti
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	1022.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = {
+		add_matrilineal_spouse = drskhorasan0036 # Nastaran Bolourdokht Elyari
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0043 = {
+	name = "Pejman" #
+	dynasty = drsdyn152 # Beha_faridi
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	1023.1.1 = {
+		birth = yes
+	}
+	1043.1.1 = {
+		add_matrilineal_spouse = drskhorasan0037 # Nayaab Bolourdokht Elyari
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0044 = {
+	name = "Taimaz" # polygamous # 4 wives
+	#wife 1 Larmina Vindadhi-Andalibi drsdyn155 # daughter Dariana
+	#wife 2 Viyanah Mahdokhti drsdyn156 # son Giyath # daughter Tala # daughter Tarana # daughter Delaram # son Labban
+	#wife 3 Gelareh Julkirazi drsdyn157 # no children
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0043 # Pejman Beha_faridi
+	mother = drskhorasan0037 # Nayaab Bolourdokht Elyari
+	1044.1.1 = {
+		birth = yes
+	}
+	1119.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0045 = {
+	name = "Vashan" #
+	dynasty = drsdyn153 # Daliri
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	1023.1.1 = {
+		birth = yes
+	}
+	1044.1.1 = {
+		add_matrilineal_spouse = drskhorasan0037 # Nayaab Bolourdokht Elyari
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0046 = {
+	name = "Giyath" #
+	dynasty = drsdyn154 # Darabi
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	1023.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		add_matrilineal_spouse = drskhorasan0037 # Nayaab Bolourdokht Elyari
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0047 = {
+	name = "Larmina" #
+	female = yes
+	dynasty = drsdyn155 # Vindadhi-Andalibi
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	1044.1.1 = {
+		birth = yes
+	}
+	1064.1.1 = {
+		add_spouse = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	}
+	1119.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0048 = {
+	name = "Dariana" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	mother = drskhorasan0047 # Larmina Vindadhi-Andalibi
+	1065.1.1 = {
+		birth = yes
+	}
+	1139.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0049 = {
+	name = "Viyanah" #
+	female = yes
+	dynasty = drsdyn156 # Mahdokhti
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	1044.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		add_spouse = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	}
+	1119.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0050 = {
+	name = "Giyath" #
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	mother = drskhorasan0049 # Viyanah Mahdokhti
+	1066.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0051 = {
+	name = "Tala" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	mother = drskhorasan0049 # Viyanah Mahdokhti
+	1067.1.1 = {
+		birth = yes
+	}
+	1141.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0052 = {
+	name = "Tarana" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	mother = drskhorasan0049 # Viyanah Mahdokhti
+	1068.1.1 = {
+		birth = yes
+	}
+	1142.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0053 = {
+	name = "Delaram" #
+	female = yes
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	mother = drskhorasan0049 # Viyanah Mahdokhti
+	1069.1.1 = {
+		birth = yes
+	}
+	1143.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0054 = {
+	name = "Labban" #
+	dynasty = drsdyn130 # Elyari
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	father = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	mother = drskhorasan0049 # Viyanah Mahdokhti
+	1070.1.1 = {
+		birth = yes
+	}
+	1145.1.1 = {
+		death = yes
+	}
+}
+drskhorasan0055 = {
+	name = "Gelareh" #
+	female = yes
+	dynasty = drsdyn157 # Julkirazi
+	religion = pashtuni_khwarezmian_ireneism
+	culture = khorasani
+	1044.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		add_spouse = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	}
+	1119.1.1 = {
+		death = yes
+	}
+}

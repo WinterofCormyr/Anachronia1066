@@ -1,0 +1,16 @@
+﻿#Kingdom of the Neustrian Shore # neustrian Culture gallian_ireneism Religion characters
+#first ruler born 844 takes throne 864 bends ther knee 900 dies 924 as a vassal
+
+# rulers of the Kingdom of the Neustrian Shore 864 onwards
+drseuneustria0001 = {
+	name = "Theutbald" #
+	dynasty = drsdyn206 # Sunning
+	religion = gallian_ireneism
+	culture = neustrian
+	844.1.1 = {
+		birth = yes
+	}
+	924.1.1 = {
+		death = yes
+	}
+}

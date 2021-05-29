@@ -1,0 +1,70 @@
+﻿dynasty_Galindjai = { name = "dynn_Galindjai" culture = "galindian" }
+dynasty_Maurawwai = { name = "dynn_Maurawwai" culture = "galindian" }
+dynasty_Sasnjai = { name = "dynn_Sasnjai" culture = "galindian" }
+
+dynasty_Goliada_s = { name = "dynn_Goliada_s" culture = "goliadian" }
+
+dynasty_Bartjai = { name = "dynn_Bartjai" culture = "prussian" }
+dynasty_Kulmai = { name = "dynn_Kulmai" culture = "prussian" }
+dynasty_Lubawjai = { name = "dynn_Lubawjai" culture = "prussian" }
+dynasty_Na_tangjai = { name = "dynn_Na_tangjai" culture = "prussian" }
+dynasty_Nadra_uwjai = { name = "dynn_Nadra_uwjai" culture = "prussian" }
+dynasty_Paguddjai = { name = "dynn_Paguddjai" culture = "prussian" }
+dynasty_Pameddjai = { name = "dynn_Pameddjai" culture = "prussian" }
+dynasty_Sembjai = { name = "dynn_Sembjai" culture = "prussian" }
+dynasty_Wa_rmjai = { name = "dynn_Wa_rmjai" culture = "prussian" }
+
+dynasty_Skallawjai = { name = "dynn_Skallawjai" culture = "skalvian" }
+
+dynasty_Auktes = { name = "dynn_Auktes" culture = "sudovian" }
+dynasty_Bukai = { name = "dynn_Bukai" culture = "sudovian" }
+dynasty_Kumetes = { name = "dynn_Kumetes" culture = "sudovian" }
+dynasty_Vozukai = { name = "dynn_Vozukai" culture = "sudovian" }
+dynasty_Sterkai = { name = "dynn_Sterkai" culture = "sudovian" }
+dynasty_Gevines = { name = "dynn_Gevines" culture = "sudovian" }
+dynasty_Loni_kes = { name = "dynn_Loni_kes" culture = "sudovian" }
+dynasty_Skobervai = { name = "dynn_Skobervai" culture = "sudovian" }
+dynasty_Pavirpai = { name = "dynn_Pavirpai" culture = "sudovian" }
+dynasty_Mini_kai = { name = "dynn_Mini_kai" culture = "sudovian" }
+
+dynasty_A_psais_i = { name = "dynn_A_psais_i" culture = "curonian" }
+dynasty_La_cais_i = { name = "dynn_La_cais_i" culture = "curonian" }
+dynasty_Uvais_i = { name = "dynn_Uvais_i" culture = "curonian" }
+
+dynasty_Krupais_i = { name = "dynn_Krupais_i" culture = "latgalian" }
+dynasty_Mednais_i = { name = "dynn_Mednais_i" culture = "latgalian" }
+dynasty_Reinais_i = { name = "dynn_Reinais_i" culture = "latgalian" }
+dynasty_Trusais_i = { name = "dynn_Trusais_i" culture = "latgalian" }
+
+dynasty_Ke_staic_iai = { name = "dynn_Ke_staic_iai" culture = "lithuanian" }
+dynasty_Aldaic_iai = { name = "dynn_Aldaic_iai" culture = "lithuanian" }
+dynasty_Virkutaic_iai = { name = "dynn_Virkutaic_iai" culture = "lithuanian" }
+
+dynasty_Rima_te_ = { name = "dynn_Rima_te_" culture = "samogitian" }
+dynasty_Dobila_te_ = { name = "dynn_Dobila_te_" culture = "samogitian" }
+
+dynasty_Egli_tais_i = { name = "dynn_Egli_tais_i" culture = "semigallian" }
+dynasty_Ozolais_i = { name = "dynn_Ozolais_i" culture = "semigallian" }
+
+dynasty_Be_rzais_i = { name = "dynn_Be_rzais_i" culture = "selonian" }
+dynasty_Se_lais_i = { name = "dynn_Se_lais_i" culture = "selonian" }
+
+dynasty_Ra_va_la_ = { name = "dynn_Ra_va_la_" culture = "estonian" }
+dynasty_Tarvanpa_a_ = { name = "dynn_Tarvanpa_a_" culture = "estonian" }
+dynasty_Ridala = { name = "dynn_Ridala" culture = "estonian" }
+dynasty_Sakala = { name = "dynn_Sakala" culture = "estonian" }
+dynasty_Alistekund = { name = "dynn_Alistekund" culture = "estonian" }
+
+dynasty_Ri_go_ = { name = "dynn_Ri_go_" culture = "livonian" }
+dynasty_Mo_tsapu_ol = { name = "dynn_Mo_tsapu_ol" culture = "livonian" }
+dynasty_Vidu_mo_ = { name = "dynn_Vidu_mo_" culture = "livonian" }
+dynasty_Ka_ndab = { name = "dynn_Ka_ndab" culture = "livonian" }
+
+dynasty_Saaremaa = { name = "dynn_Saaremaa" culture = "osilian" }
+
+dynasty_Oto_mpa_a_ = { name = "dynn_Oto_mpa_a_" culture = "ugaunian" }
+dynasty_Tarbatu = { name = "dynn_Tarbatu" culture = "ugaunian" }
+
+dynasty_Solosti = { name = "dynn_Solosti" culture = "izhorian" }
+
+dynasty_Jo_go_pera_ = { name = "dynn_Jo_go_pera_" culture = "votian" }

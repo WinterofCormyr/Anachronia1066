@@ -1,0 +1,336 @@
+﻿#Kingdom of Pontus # pontic Culture pontic_aitahism Religion characters
+
+# rulers of the Kingdom of Pontus post 953
+drsattalata0001 = {
+	name = "Adriane" # Queen Adriane I Attalata of Pontus
+	# husband Antiochos # daughter Agathe # son Aiasios theophoric name after Aya'se # daughter Sophia # daughter Aithanna theophoric name after Aitah # daughter Eusebia # daughter Damiane # daughter Demetra # daughter Cybela
+	# daughter Seisiara
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	923.1.1 = {
+		birth = yes
+	}
+	999.1.1 = {
+		death = yes
+	}
+}
+drsattalata0002 = {
+	name = "Antiochos" 
+	religion = pontic_aitahism
+	culture = pontic
+	923.1.1 = {
+		birth = yes
+	}
+	943.1.1 = {
+		add_matrilineal_spouse = drsattalata0001 # Adriane Attalata
+		# daughter Agathe # son Aiasios theophoric name after Aya'se # daughter Sophia # daughter Aithanna theophoric name after Aitah # daughter Eusebia # daughter Damiane # daughter Demetra # daughter Cybela
+		# daughter Seisiara
+	}
+	999.1.1 = {
+		death = yes
+	}
+}
+drsattalata0003 = {
+	name = "Agathe" # Queen Agathe I Attalata of Pontus
+	# husband Leon # daughter Aikaterine # daughter Evanthia
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0002 # Antiochos
+	mother = drsattalata0001 # Adriane Attalata
+	944.1.1 = {
+		birth = yes
+	}
+	1018.1.1 = {
+		death = yes
+	}
+}
+drsattalata0004 = {
+	name = "Aiasios" # theophoric name after Aya'se
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0002 # Antiochos
+	mother = drsattalata0001 # Adriane Attalata
+	945.1.1 = {
+		birth = yes
+	}
+	1027.1.1 = {
+		death = yes
+	}
+}
+drsattalata0005 = {
+	name = "Sophia" # 
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0002 # Antiochos
+	mother = drsattalata0001 # Adriane Attalata
+	946.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+drsattalata0006 = {
+	name = "Aithanna" # theophoric name after Aitah 
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0002 # Antiochos
+	mother = drsattalata0001 # Adriane Attalata
+	947.1.1 = {
+		birth = yes
+	}
+	999.1.1 = {
+		death = yes
+	}
+}
+drsattalata0007 = {
+	name = "Eusebia" # 
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0002 # Antiochos
+	mother = drsattalata0001 # Adriane Attalata
+	948.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+drsattalata0008 = {
+	name = "Damiane" # 
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0002 # Antiochos
+	mother = drsattalata0001 # Adriane Attalata
+	949.1.1 = {
+		birth = yes
+	}
+	1048.1.1 = {
+		death = yes
+	}
+}
+drsattalata0009 = {
+	name = "Demetra" # 
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0002 # Antiochos
+	mother = drsattalata0001 # Adriane Attalata
+	950.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		death = yes
+	}
+}
+drsattalata0010 = {
+	name = "Cybela" # 
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0002 # Antiochos
+	mother = drsattalata0001 # Adriane Attalata
+	951.1.1 = {
+		birth = yes
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+drsattalata0011 = {
+	name = "Seisiara" # hydrophoric name after the river Seshweay AKA Euphrates 
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0002 # Antiochos
+	mother = drsattalata0001 # Adriane Attalata
+	952.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = {
+		death = yes
+	}
+}
+drsattalata0012 = {
+	name = "Leon" 
+	religion = pontic_aitahism
+	culture = pontic
+	944.1.1 = {
+		birth = yes
+	}
+	964.1.1 = {
+		add_matrilineal_spouse = drsattalata0003 # Agathe Attalata
+		# daughter Aikaterine # daughter Evanthia
+	}
+	1018.1.1 = {
+		death = yes
+	}
+}
+drsattalata0013 = {
+	name = "Aikaterine" # 
+	# husband Helian
+	# son Selenarios
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0012 # Leon
+	mother = drsattalata0003 # Agathe Attalata
+	965.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsattalata0014 = {
+	name = "Evanthia" # 
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0012 # Leon
+	mother = drsattalata0003 # Agathe Attalata
+	966.1.1 = {
+		birth = yes
+	}
+	1064.1.1 = {
+		death = yes
+	}
+}
+drsattalata0015 = {
+	name = "Helian" 
+	religion = pontic_aitahism
+	culture = pontic
+	965.1.1 = {
+		birth = yes
+	}
+	985.1.1 = {
+		add_matrilineal_spouse = drsattalata0013 # Aikaterine Attalata
+		# son Selenarios
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+drsattalata0016 = {
+	name = "Selenarios" # wife Aiasanikke # daughter Euphrosyne # daughter Mústike
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0015 # Helian
+	mother = drsattalata0013 # Aikaterine Attalata
+	986.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+drsattalata0017 = {
+	name = "Aiasanikke" # equivalent of Basilike # honoring the great general Aya'se
+	female = yes
+	religion = pontic_aitahism
+	culture = pontic
+	986.1.1 = {
+		birth = yes
+	}
+	1006.1.1 = {
+		add_spouse = drsattalata0016 # Selenarios Attalata
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+drsattalata0018 = {
+	name = "Euphrosyne" # daughter Euphrasia
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0016 # Selenarios Attalata
+	mother = drsattalata0017 # Aiasanikke
+	1007.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+drsattalata0019 = {
+	name = "Mústike" # 
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsattalata0016 # Selenarios Attalata
+	mother = drsattalata0017 # Aiasanikke
+	1008.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+drsattalata0020 = {
+	name = "Euphrasia" # 
+	# daughter Mústara # equivalent to Mystara
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	mother = drsattalata0018 # Queen Euphrosyne I Attalata of Pontus
+	1028.1.1 = {
+		birth = yes
+	}
+	1099.1.1 = {
+		death = yes
+	}
+}
+drsattalata0021 = {
+	name = "Mústara" # equivalent to Mystara
+	# daughter Zenobia
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	mother = drsattalata0020 # Queen Euphrasia I Attalata of Pontus
+	1048.1.1 = {
+		birth = yes
+	}
+	1102.1.1 = {
+		death = yes
+	}
+}
+drsattalata0022 = {
+	name = "Zenobia" #
+	female = yes
+	dynasty = drsdyn9 # Attalata
+	religion = pontic_aitahism
+	culture = pontic
+	mother = drsattalata0021 # Queen Mústara I Attalata of Pontus
+	1068.1.1 = {
+		birth = yes
+	}
+	1133.1.1 = {
+		death = yes
+	}
+}
+#### Continue to the OLDER people alive at 1124 # mainly focus on 1066
+#### 953 throne of Pontus passes to house Rhaneis # house Attalata reigns in Pontus, and the empire capital is moved to Georgia

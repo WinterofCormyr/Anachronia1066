@@ -1,0 +1,981 @@
+﻿#Kingdom of Armenia # armenian Culture armenian_apostolic Religion characters
+# founding house is ve Kardesh # rules d_dzopk from 867 onwards # vassals of k_armenia from 890 onward
+# in 900 house ve Kardesh-Zankou is founded # rules d_mesopotamia from that point onward # crowned Kings of Armenia in 930 # rule from that point onward
+# in 1000 house Shanahan is founded from ve Kardesh # the original ones # landless until 1066 when they take the throne of Jazira peacefully
+	
+
+# rulers of the Province of Armenia 
+drsarmenia0001 = {
+	name = "Aristaces" # son Husik
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	800.1.1 = {
+		birth = yes
+	}
+	861.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0002 = {
+	name = "Husik" #
+	# wife Katranide # son Pharen
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0001
+	820.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0003 = {
+	name = "Katranide" #
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	820.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		add_spouse = drsarmenia0002 # Husik ve Kardesh
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0004 = {
+	name = "Pharen" #
+	# wife Zmroukhd # daughter Sirvart # son Zaven inherits d_dzopk # daughter Hranoush # son Aspuraces inherits d_mesopotamia and founds ve Kardesh-Zankou 
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0002 # Husik ve Kardesh
+	mother = drsarmenia0003 # Katranide
+	841.1.1 = {
+		birth = yes
+	}
+	908.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0005 = {
+	name = "Zmroukhd" #
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	841.1.1 = {
+		birth = yes
+	}
+	861.1.1 = {
+		add_spouse = drsarmenia0004 # Pharen ve Kardesh
+	}
+	908.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0006 = {
+	name = "Sirvart" #
+	female = yes
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0004 # Pharen ve Kardesh
+	mother = drsarmenia0005 # Zmroukhd
+	862.1.1 = {
+		birth = yes
+	}
+	952.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0007 = {
+	name = "Zaven" # inherits d_dzopk
+	# wife Aghavni # son Melitus # twins Kyud who is male and Hripsimeh who is female
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0004 # Pharen ve Kardesh
+	mother = drsarmenia0005 # Zmroukhd
+	863.1.1 = {
+		birth = yes
+	}
+	935.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0008 = {
+	name = "Hranoush" #
+	female = yes
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0004 # Pharen ve Kardesh
+	mother = drsarmenia0005 # Zmroukhd
+	864.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0009 = {
+	name = "Aspuraces" # inherits d_mesopotamia
+	# wife Lousin # daughter Yeva # daughter Arin # daughter Mara # daughter Zabel # daughter Baydzar # daughter Margarid # daughter Zmroukhd # daughter Berjanoush # son Artashes inherits k_armenia
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0004 # Pharen ve Kardesh
+	mother = drsarmenia0005 # Zmroukhd
+	865.1.1 = {
+		birth = yes
+	}
+	964.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0010 = {
+	name = "Aghavni" #
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	863.1.1 = {
+		birth = yes
+	}
+	883.1.1 = {
+		add_spouse = drsarmenia0007 # Zaven ve Kardesh
+	}
+	935.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0011 = {
+	name = "Melitus" # inherits d_dzopk
+	# wife Anahid # son Roupen # daughter Khorishah
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0007 # Zaven ve Kardesh
+	mother = drsarmenia0010 # Aghavni
+	884.1.1 = {
+		birth = yes
+	}
+	947.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0012 = {
+	name = "Kyud" # ancestor of Artashes Shanahan
+	# daughter Srpouhi
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0007 # Zaven ve Kardesh
+	mother = drsarmenia0010 # Aghavni
+	trait = twin
+	885.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		death = yes # family converts to Mesopotamian Aitahism after death
+	}
+}
+drsarmenia0013 = {
+	name = "Hripsimeh" #
+	female = yes
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0007 # Zaven ve Kardesh
+	mother = drsarmenia0010 # Aghavni
+	trait = twin
+	885.1.1 = {
+		birth = yes
+	}
+	952.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0014 = {
+	name = "Anahid" #
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	884.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		add_spouse = drsarmenia0011 # Melitus ve Kardesh
+	}
+	947.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0015 = {
+	name = "Roupen" #
+	# daughter Tamar
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0011 # Melitus ve Kardesh
+	mother = drsarmenia0014 # Anahid
+	905.1.1 = {
+		birth = yes
+	}
+	967.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0016 = {
+	name = "Khorishah" #
+	female = yes
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0011 # Melitus ve Kardesh
+	mother = drsarmenia0014 # Anahid
+	906.1.1 = {
+		birth = yes
+	}
+	986.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0017 = {
+	name = "Tamar" #
+	female = yes
+	dynasty_house = house_ve_Kardesh # ve Kardesh - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0015 # Roupen ve Kardesh
+	925.1.1 = {
+		birth = yes
+	}
+	992.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0018 = {
+	name = "Lousin" # daughter Yeva # daughter Arin # daughter Mara # daughter Zabel # daughter Baydzar # daughter Margarid # daughter Zmroukhd # daughter Berjanoush # son Artashes inherits k_armenia
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	865.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		add_spouse = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	}
+	964.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0019 = {
+	name = "Yeva" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	mother = drsarmenia0018 # Lousin
+	886.1.1 = {
+		birth = yes
+	}
+	953.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0020 = {
+	name = "Arin" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	mother = drsarmenia0018 # Lousin
+	887.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0021 = {
+	name = "Mara" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	mother = drsarmenia0018 # Lousin
+	888.1.1 = {
+		birth = yes
+	}
+	978.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0022 = {
+	name = "Zabel" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	mother = drsarmenia0018 # Lousin
+	889.1.1 = {
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0023 = {
+	name = "Baydzar" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	mother = drsarmenia0018 # Lousin
+	890.1.1 = {
+		birth = yes
+	}
+	943.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0024 = {
+	name = "Margarid" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	mother = drsarmenia0018 # Lousin
+	891.1.1 = {
+		birth = yes
+	}
+	954.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0025 = {
+	name = "Zmroukhd" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	mother = drsarmenia0018 # Lousin
+	892.1.1 = {
+		birth = yes
+	}
+	955.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0026 = {
+	name = "Berjanoush" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	mother = drsarmenia0018 # Lousin
+	893.1.1 = {
+		birth = yes
+	}
+	979.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0027 = {
+	name = "Artashes" #
+	# wife Maria # twin son Hovhannes and daughter Berjouhi
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0009 # Aspuraces ve Kardesh-Zankou
+	mother = drsarmenia0018 # Lousin
+	894.1.1 = {
+		birth = yes
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0028 = {
+	name = "Maria" # twin son Hovhannes and daughter Berjouhi
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	894.1.1 = {
+		birth = yes
+	}
+	914.1.1 = {
+		add_spouse = drsarmenia0027 # Artashes ve Kardesh-Zankou
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0029 = {
+	name = "Hovhannes" # wife Meghranoush # daughter Mariyam # son Shahanshah # son Artashir
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0027 # Artashes ve Kardesh-Zankou
+	mother = drsarmenia0028 # Maria
+	trait = twin
+	915.1.1 = {
+		birth = yes
+	}
+	976.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0030 = {
+	name = "Berjouhi" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0027 # Artashes ve Kardesh-Zankou
+	mother = drsarmenia0028 # Maria
+	trait = twin
+	915.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0031 = {
+	name = "Meghranoush" # daughter Mariyam # son Shahanshah # son Artashir
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	915.1.1 = {
+		birth = yes
+	}
+	935.1.1 = {
+		add_spouse = drsarmenia0029 # Hovhannes ve Kardesh-Zankou
+	}
+	976.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0032 = {
+	name = "Mariyam" #
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0029 # Hovhannes ve Kardesh-Zankou
+	mother = drsarmenia0031 # Meghranoush
+	936.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0033 = {
+	name = "Shahanshah" # wife Ovsanna # son Arshak
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0029 # Hovhannes ve Kardesh-Zankou
+	mother = drsarmenia0031 # Meghranoush
+	937.1.1 = {
+		birth = yes
+	}
+	1022.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0034 = { # 980 conquers Shirvan for Pontic Empire # HAS CADET DYNASTY VE KARDESH-ZANKOU-SHEMAKHA # son NAMED SMBAT founds equal gender Christian religion with Aitahist syncretism # Aitah is the Virgin Mary
+	name = "Artashir" #
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0029 # Hovhannes ve Kardesh-Zankou
+	mother = drsarmenia0031 # Meghranoush
+	938.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0035 = {
+	name = "Nane" #son Smbat
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	938.1.1 = {
+		birth = yes
+	}
+	958.1.1 = {
+		add_spouse = drsarmenia0034 # Artashir ve Kardesh-Zankou-Shemakha
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0036 = { # 
+	name = "Smbat" # wife Dalita # daughter Eliz
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0034 # Artashir ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0035 # Nane
+	959.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1039.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0037 = {
+	name = "Dalita" # daughter Eliz # Eliz matrilineally marries an Udi man and converts to his culture
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	959.1.1 = {
+		birth = yes
+	}
+	979.1.1 = {
+		add_spouse = drsarmenia0036 # Smbat ve Kardesh-Zankou-Shemakha
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1039.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0038 = { # 
+	name = "Eliz" # husband Bokawon marries matrilineally # son Isaak
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0036 # Smbat ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0037 # Dalita
+	980.1.1 = {
+		birth = yes
+	}
+	1001.1.1 = {
+		culture = udi # to match husband
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0039 = {
+	name = "Bokawon" #
+	religion = old_shirvanite_church
+	culture = udi
+	980.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		add_matrilineal_spouse = drsarmenia0038 # Eliz ve Kardesh-Zankou-Shemakha
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0040 = { # 
+	name = "Isaak" #
+	# wife Ghoncheh who is adhari # son Oroezes # daughter Zhora # daughter Orayin # daughter Kici # son Zor # daughter Daria # daughter Xunc conquers Daylam for Pontus # daughter Ot # daughter JKebin # daughter Curesun
+	# daughter Xibna # twin sons Bocoken and Iskapos # 
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0039 # Bokawon
+	mother = drsarmenia0038 # Eliz ve Kardesh-Zankou-Shemakha
+	1002.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0041 = {
+	name = "Ghoncheh" #
+	female = yes
+	religion = old_shirvanite_church
+	culture = adhari
+	1002.1.1 = {
+		birth = yes
+	}
+	1022.1.1 = {
+		add_spouse = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0042 = { # 
+	name = "Oroezes" #
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1023.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0043 = { # 
+	name = "Zhora" #
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1024.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1119.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0044 = { # 
+	name = "Orayin" #
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1025.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1103.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0045 = { # 
+	name = "Kici" #
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1026.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0046 = { # 
+	name = "Zor" #
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1027.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0047 = { # 
+	name = "Daria" #
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1028.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0048 = { # 
+	name = "Xunc" # 1050 conquers Daylam for Pontus 
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1029.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1127.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0049 = { # 
+	name = "Ot" #
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1030.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0050 = { # 
+	name = "Kebin" #
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1031.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0051 = { # 
+	name = "Curesun" #
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1032.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0052 = { # 
+	name = "Xibna" #
+	female = yes
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = armenian_apostolic
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	1033.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0053 = { # 
+	name = "Bocoken" #
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = shirvanite_church
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	trait = twin
+	1034.1.1 = {
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0054 = { # 
+	name = "Iskapos" #
+	dynasty_house = house_ve_kzshemakha # ve Kardesh-Zankou-Shemakha - ve Kardesh
+	religion = shirvanite_church
+	culture = udi
+	father = drsarmenia0040 # Isaak ve Kardesh-Zankou-Shemakha
+	mother = drsarmenia0041 # Ghoncheh
+	trait = twin
+	1034.1.1 = {
+		birth = yes
+	}
+	1123.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0055 = {
+	name = "Ovsanna" #
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	937.1.1 = {
+		birth = yes
+	}
+	957.1.1 = {
+		add_spouse = drsarmenia0033 # Shahanshah ve Kardesh-Zankou
+	}
+	1022.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0056 = {
+	name = "Arshak" # wife Gorandoukht # son Kapriel
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0033 # Shahanshah ve Kardesh-Zankou
+	mother = drsarmenia0055 # Ovsanna
+	958.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0057 = {
+	name = "Gorandoukht" #
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	958.1.1 = {
+		birth = yes
+	}
+	978.1.1 = {
+		add_spouse = drsarmenia0056 # Arshak ve Kardesh-Zankou
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0058 = {
+	name = "Kapriel" # wife Razmouhi # son Tatoul
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0056 # Arshak ve Kardesh-Zankou
+	mother = drsarmenia0057 # Gorandoukht
+	979.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0059 = {
+	name = "Razmouhi" #
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	979.1.1 = {
+		birth = yes
+	}
+	999.1.1 = {
+		add_spouse = drsarmenia0058 # Kapriel ve Kardesh-Zankou
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0060 = {
+	name = "Tatoul" # wife Houri # daughter Rita
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0058 # Kapriel ve Kardesh-Zankou
+	mother = drsarmenia0059 # Razmouhi
+	1000.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0061 = {
+	name = "Houri" #
+	female = yes
+	religion = armenian_apostolic
+	culture = armenian
+	1000.1.1 = {
+		birth = yes
+	}
+	1020.1.1 = {
+		add_spouse = drsarmenia0060 # Tatoul ve Kardesh-Zankou
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+drsarmenia0062 = {
+	name = "Rita" # matrilineally marries a man named Ashot
+	female = yes
+	dynasty_house = house_ve_kzankou # ve Kardesh-Zankou - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0060 # Tatoul ve Kardesh-Zankou
+	mother = drsarmenia0061 # Houri
+	1021.1.1 = {
+		birth = yes
+	}
+	1106.1.1 = {
+		death = yes
+	}
+}

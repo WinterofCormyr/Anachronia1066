@@ -1,0 +1,103 @@
+﻿## Eldership councilor modifiers
+mz_eldership_chancellor_scale = {
+	value = 0
+	if = {
+		limit = { # Both liege and councilor must have this doctrine parameter for this to work
+			faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			liege = { 
+				faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			}
+			age >= 50
+		}
+		add = 1
+		floor = yes
+		min = 1
+	}
+}
+
+mz_eldership_steward_scale = {
+	value = 0
+	if = {
+		limit = { # Both liege and councilor must have this doctrine parameter for this to work
+			faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			liege = { 
+				faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			}
+			age >= 50
+		}
+		add = 1
+		floor = yes
+		min = 1
+	}
+}
+
+mz_eldership_marshal_scale = {
+	value = 0
+	if = {
+		limit = { # Both liege and councilor must have this doctrine parameter for this to work
+			faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			liege = { 
+				faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			}
+			age >= 50
+		}
+		add = 1
+		floor = yes
+		min = 1
+	}
+}
+
+mz_eldership_spymaster_scale = {
+	value = 0
+	if = {
+		limit = { # Both liege and councilor must have this doctrine parameter for this to work
+			faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			liege = { 
+				faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			}
+			age >= 50
+		}
+		add = 1
+		floor = yes
+		min = 1
+	}
+}
+
+mz_eldership_court_chaplain_scale = {
+	value = 0
+	if = {
+		limit = { # Both liege and councilor must have this doctrine parameter for this to work
+			faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			liege = { 
+				faith = { has_doctrine_parameter = mz_eldership_councilor_bonus }
+			}
+			age >= 50
+		}
+		add = 1
+		floor = yes
+		min = 1
+	}
+}
+
+mz_steward_develop_county_civilized_bonus_monthly_increase = {
+	value = 0
+	if = {
+		limit = {
+			liege.faith = { has_doctrine_parameter = mz_develop_county_same_faith_bonus }
+		}
+		add = steward_develop_county_base_total
+		multiply = 0.5
+	}
+}
+
+steward_develop_county_total = {
+	add = steward_develop_county_base
+	add = steward_develop_county_monthly_increase
+	add = steward_develop_county_monthly_increase_friend_bonus
+	add = steward_develop_county_monthly_increase_best_friend_bonus
+	add = steward_develop_county_monthly_increase_rival_bonus
+	add = steward_develop_county_monthly_increase_nemesis_bonus
+	add = steward_develop_county_perk_bonus_monthly_increase
+	add = steward_develop_county_erudition_bonus_monthly_increase
+	add = mz_steward_develop_county_civilized_bonus_monthly_increase
+}

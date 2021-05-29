@@ -1,0 +1,673 @@
+﻿#Duchy of Vermandois from 890 # petty kingdom of Vermandois from 1013 onward # french Culture gallian_ireneism Religion characters
+
+# rulers of the Duchy#Pettycrown of Vermandois # use new tag for new members
+drskfrance0015 = {
+	name = "Artaë" #
+	# 1 wife named Divounè de Meigneux drsdyn182 # 1 daughter named Noire # Noire Mansyrubiens is the next duchess of Vermandois
+	dynasty_house = house_Mansyrubiens # Mansyrubiens house of de Léchelle dynasty
+	# NEW DOCUMENT FOR HOUSE SOON
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0001 # Raimbaut de Léchelle
+	mother = drskfrance0014 # Athéna de Luisetaines
+	870.1.1 = {
+		birth = yes
+	}
+	901.1.1 = { # 31 years old
+		death = yes
+	}
+}
+drsmansyrubiens0001 = {
+	name = "Divounè" #
+	dynasty = drsdyn182 # de Meigneux
+	female = yes
+	religion = gallian_ireneism
+	culture = french
+	870.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		add_spouse = drskfrance0015
+	}
+	974.1.1 = { # 104 years old
+		death = yes
+	}
+}
+drsmansyrubiens0002 = {
+	name = "Noire" # 1 husband named Alaône de Nandy drsdyn183 matrilineal # 1 daughter named Gaie-Érècquère 
+	female = yes
+	dynasty_house = house_Mansyrubiens # Mansyrubiens house of de Léchelle dynasty
+	religion = gallian_ireneism
+	culture = french
+	father = drskfrance0015 # Artaë Mansyrubiens
+	mother = drsmansyrubiens0001 # Divounè de Meigneux
+	891.1.1 = {
+		birth = yes
+	}
+	913.1.1 = { # 22 years old
+		death = yes
+	}
+}
+drsmansyrubiens0003 = {
+	name = "Alaône" #
+	dynasty = drsdyn183 # de Nandy
+	religion = gallian_ireneism
+	culture = french
+	891.1.1 = {
+		birth = yes
+	}
+	911.1.1 = {
+		add_matrilineal_spouse = drsmansyrubiens0002 # Noire Mansyrubiens
+	}
+	994.1.1 = { # 103 years old
+		death = yes
+	}
+}
+drsmansyrubiens0004 = {
+	name = "Gaie-Érècquère" # 
+	# 8 vowels
+	# 5 consonants
+	# 1 husband named Payen de Pringy drsdyn184 # daughter A name Aliette and no other children
+	female = yes
+	dynasty_house = house_Mansyrubiens # Mansyrubiens house of de Léchelle dynasty
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0003 # Alaône de Nandy
+	mother = drsmansyrubiens0002 # Noire Mansyrubiens
+	912.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = { # 116 years old
+		death = yes
+	}
+}
+drsmansyrubiens0005 = {
+	name = "Payen" #
+	dynasty = drsdyn184 # de Pringy
+	religion = gallian_ireneism
+	culture = french
+	912.1.1 = {
+		birth = yes
+	}
+	932.1.1 = {
+		add_matrilineal_spouse = drsmansyrubiens0004 # Gaie-Érècquère Mansyrubiens
+	}
+	957.1.1 = { # 45 years old
+		death = yes
+	}
+}
+drsmansyrubiens0006 = {
+	name = "Aliette" # 
+	# 4 vowels
+	# 3 consonants
+	# 1 husband Théodoric de Savigny-le-Temple drsdyn185 # son T name Thalalée
+	female = yes
+	dynasty_house = house_Mansyrubiens # Mansyrubiens house of de Léchelle dynasty
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0005 # Payen de Pringy
+	mother = drsmansyrubiens0004 # Gaie-Érècquère Mansyrubiens
+	933.1.1 = {
+		birth = yes
+	}
+	988.1.1 = { # 55 years old
+		death = yes
+	}
+}
+drsmansyrubiens0007 = {
+	name = "Théodoric" # CONTINUE WITH MY FAMILY
+	# father Esoue de Vert-Saint-Denis # mother Èpone de Savigny-le-Temple # married matrilineally
+	# younger sister Valence de Savigny-le-Temple # younger brother Valeran de Savigny-le-Temple # younger sister Yvesse de Savigny-le-Temple # younger sister Dianebalda de Savigny-le-Temple # younger sister Aphrodite de Savigny-le-Temple
+	# younger sister Alisaneuctistée de Savigny-le-Temple
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0009 # Esoue de Vert-Saint-Denis
+	mother = drsmansyrubiens0010 # Èpone de Savigny-le-Temple
+	933.1.1 = {
+		birth = yes
+	}
+	953.1.1 = {
+		add_matrilineal_spouse = drsmansyrubiens0006 # Aliette Mansyrubiens
+	}
+	1063.1.1 = { # 130 years old
+		death = yes
+	}
+}
+drsmansyrubiens0008 = {
+	name = "Thalalée" # 
+	dynasty_house = house_Mansyrubiens # Mansyrubiens house of de Léchelle dynasty
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0007 # Théodoric de Savigny-le-Temple
+	mother = drsmansyrubiens0006 # Aliette Mansyrubiens
+	954.1.1 = {
+		birth = yes
+	}
+	957.1.1 = { # 3 years old
+		death = yes
+	}
+}
+drsmansyrubiens0009 = {
+	name = "Esoue" # 
+	dynasty = drsdyn186 # de Vert-Saint-Denis
+	religion = gallian_ireneism
+	culture = french
+	912.1.1 = {
+		birth = yes
+	}
+	966.1.1 = { # 54 years old
+		death = yes
+	}
+}
+drsmansyrubiens0010 = {
+	name = "Èpone" # 
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	912.1.1 = {
+		birth = yes
+	}
+	932.1.1 = {
+		add_matrilineal_spouse = drsmansyrubiens0009
+	}
+	1014.1.1 = { # 102 years old
+		death = yes
+	}
+}
+drsmansyrubiens0011 = {
+	name = "Valence" # younger brother Valeran de Savigny-le-Temple # younger sister Yvesse de Savigny-le-Temple # younger sister Dianebalda de Savigny-le-Temple # younger sister Aphrodite de Savigny-le-Temple
+	# younger sister Alisaneuctistée de Savigny-le-Temple
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0009 # Esoue de Vert-Saint-Denis
+	mother = drsmansyrubiens0010 # Èpone de Savigny-le-Temple
+	934.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = { # 116 years old
+		death = yes
+	}
+}
+drsmansyrubiens0012 = {
+	name = "Valeran" # younger sister Yvesse de Savigny-le-Temple # younger sister Dianebalda de Savigny-le-Temple # younger sister Aphrodite de Savigny-le-Temple
+	# younger sister Alisaneuctistée de Savigny-le-Temple
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0009 # Esoue de Vert-Saint-Denis
+	mother = drsmansyrubiens0010 # Èpone de Savigny-le-Temple
+	935.1.1 = {
+		birth = yes
+	}
+	954.1.1 = { # 19 years old
+		death = yes
+	}
+}
+drsmansyrubiens0013 = {
+	name = "Yvesse" # younger sister Dianebalda de Savigny-le-Temple # younger sister Aphrodite de Savigny-le-Temple
+	# younger sister Alisaneuctistée de Savigny-le-Temple
+	#3 vowels
+	#3 consonants
+	# 1 husband Gelduin de Bailly-Romainvilliers drsdyn187 # daughter Raymonde # daughter Épone # daughter Cérès
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0009 # Esoue de Vert-Saint-Denis
+	mother = drsmansyrubiens0010 # Èpone de Savigny-le-Temple
+	936.1.1 = {
+		birth = yes
+	}
+	1077.1.1 = { # 141 years old
+		death = yes
+	}
+}
+drsmansyrubiens0014 = {
+	name = "Dianebalda" # younger sister Aphrodite de Savigny-le-Temple
+	# younger sister Alisaneuctistée de Savigny-le-Temple
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0009 # Esoue de Vert-Saint-Denis
+	mother = drsmansyrubiens0010 # Èpone de Savigny-le-Temple
+	937.1.1 = {
+		birth = yes
+	}
+	1074.1.1 = { # 137 years old
+		death = yes
+	}
+}
+drsmansyrubiens0015 = {
+	name = "Aphrodite" # younger sister Alisaneuctistée de Savigny-le-Temple
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0009 # Esoue de Vert-Saint-Denis
+	mother = drsmansyrubiens0010 # Èpone de Savigny-le-Temple
+	938.1.1 = {
+		birth = yes
+	}
+	963.1.1 = { # 25 years old
+		death = yes
+	}
+}
+drsmansyrubiens0016 = {
+	name = "Alisaneuctistée" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0009 # Esoue de Vert-Saint-Denis
+	mother = drsmansyrubiens0010 # Èpone de Savigny-le-Temple
+	939.1.1 = {
+		birth = yes
+	}
+	968.1.1 = { # 29 years old
+		death = yes
+	}
+}
+drsmansyrubiens0017 = {
+	name = "Gelduin" # 
+	dynasty = drsdyn187 # de Bailly-Romainvilliers
+	religion = gallian_ireneism
+	culture = french
+	936.1.1 = {
+		birth = yes
+	}
+	956.1.1 = {
+		add_matrilineal_spouse = drsmansyrubiens0013 # Yvesse de Savigny-le-Temple
+	}
+	1013.1.1 = { # 77 years old
+		death = yes
+	}
+}
+drsmansyrubiens0018 = {
+	name = "Raymonde" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0017 # Gelduin de Bailly-Romainvilliers
+	mother = drsmansyrubiens0013 # Yvesse de Savigny-le-Temple
+	957.1.1 = {
+		birth = yes
+	}
+	958.1.1 = { # 1 year old
+		death = yes
+	}
+}
+drsmansyrubiens0019 = {
+	name = "Épone" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0017 # Gelduin de Bailly-Romainvilliers
+	mother = drsmansyrubiens0013 # Yvesse de Savigny-le-Temple
+	958.1.1 = {
+		birth = yes
+	}
+	991.1.1 = { # 33 years old
+		death = yes
+	}
+}
+drsmansyrubiens0020 = {
+	name = "Cérès" # husband Clotaire de Chessy # daughter Cérès
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0017 # Gelduin de Bailly-Romainvilliers
+	mother = drsmansyrubiens0013 # Yvesse de Savigny-le-Temple
+	959.1.1 = {
+		birth = yes
+	}
+	999.1.1 = { # 40 years old
+		death = yes
+	}
+}
+drsmansyrubiens0021 = {
+	name = "Clotaire" # 
+	dynasty = drsdyn188 # de Chessy
+	religion = gallian_ireneism
+	culture = french
+	959.1.1 = {
+		birth = yes
+	}
+	979.1.1 = {
+		add_matrilineal_spouse = drsmansyrubiens0020 # Cérès de Savigny-le-Temple
+	}
+	1101.1.1 = { # 142 years old
+		death = yes
+	}
+}
+drsmansyrubiens0022 = {
+	name = "Cérès" #
+	# 2 vowels
+	# 3 consonants
+	# 2 husbands
+	#1 husband Anaxandre de Couilly-Pont-aux-Dames drsdyn189 married matrilineally # son Télèphe # daughter Perséphone # son Théodat # son Ursul # son Télémaque
+	#2 husband Alexien de Coulommes drsdyn190 # daughter Artémis Première # daughter Artémis Deuxième # daughter Artémis Troisième # daughter Irène # daughter Artémis-Séléné # daughter Denise
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0021 # Clotaire de Chessy
+	mother = drsmansyrubiens0020 # Cérès de Savigny-le-Temple
+	980.1.1 = {
+		birth = yes
+	}
+	1118.1.1 = { # 138 years old
+		death = yes
+	}
+}
+drsmansyrubiens0023 = {
+	name = "Anaxandre" # son Télèphe # daughter Perséphone # son Théodat # son Ursul # son Télémaque
+	dynasty = drsdyn189 # de Couilly-Pont-aux-Dames
+	religion = gallian_ireneism
+	culture = french
+	980.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		add_matrilineal_spouse = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	}
+	1030.1.1 = { # 50 years old
+		death = yes
+	}
+}
+drsmansyrubiens0024 = {
+	name = "Télèphe" #
+	# 3 vowels
+	# 4 consonants
+	# 1 wife named Douce de Coutevroult drsdyn191 # daughter Irène # daughter Ida
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0023 # Anaxandre de Couilly-Pont-aux-Dames
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1001.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = { # 99 years old
+		death = yes
+	}
+}
+drsmansyrubiens0025 = {
+	name = "Perséphone" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0023 # Anaxandre de Couilly-Pont-aux-Dames
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1002.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = { # 94 years old
+		death = yes
+	}
+}
+drsmansyrubiens0026 = {
+	name = "Théodat" #
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0023 # Anaxandre de Couilly-Pont-aux-Dames
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1003.1.1 = {
+		birth = yes
+	}
+	1099.1.1 = { # 96 years old
+		death = yes
+	}
+}
+drsmansyrubiens0027 = {
+	name = "Ursul" #
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0023 # Anaxandre de Couilly-Pont-aux-Dames
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1004.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = { # 92 years old
+		death = yes
+	}
+}
+drsmansyrubiens0028 = {
+	name = "Télémaque" #
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0023 # Anaxandre de Couilly-Pont-aux-Dames
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1005.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = { # 91 years old
+		death = yes
+	}
+}
+drsmansyrubiens0029 = {
+	name = "Alexien" # daughter Artémis Première # daughter Artémis Deuxième # daughter Artémis Troisième # daughter Irène # daughter Artémis-Séléné # daughter Denise
+	dynasty = drsdyn190 # de Coulommes
+	religion = gallian_ireneism
+	culture = french
+	980.1.1 = {
+		birth = yes
+	}
+	1006.1.1 = {
+		add_matrilineal_spouse = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	}
+	1067.1.1 = { # 87 years old
+		death = yes
+	}
+}
+drsmansyrubiens0030 = {
+	name = "Artémis Première" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0029 # Alexien de Coulommes
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1007.1.1 = {
+		birth = yes
+	}
+	1098.1.1 = { # 91 years old
+		death = yes
+	}
+}
+drsmansyrubiens0031 = {
+	name = "Artémis Deuxième" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0029 # Alexien de Coulommes
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1008.1.1 = {
+		birth = yes
+	}
+	1093.1.1 = { # 85 years old
+		death = yes
+	}
+}
+drsmansyrubiens0032 = {
+	name = "Artémis Troisième" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0029 # Alexien de Coulommes
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1009.1.1 = {
+		birth = yes
+	}
+	1103.1.1 = { # 94 years old
+		death = yes
+	}
+}
+drsmansyrubiens0033 = {
+	name = "Irène" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0029 # Alexien de Coulommes
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1010.1.1 = {
+		birth = yes
+	}
+	1097.1.1 = { # 87 years old
+		death = yes
+	}
+}
+drsmansyrubiens0034 = {
+	name = "Artémis-Séléné" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0029 # Alexien de Coulommes
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1011.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = { # 97 years old
+		death = yes
+	}
+}
+drsmansyrubiens0035 = {
+	name = "Denise" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0029 # Alexien de Coulommes
+	mother = drsmansyrubiens0022 # Cérès de Savigny-le-Temple
+	1012.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = { # 91 years old
+		death = yes
+	}
+}
+drsmansyrubiens0036 = {
+	name = "Douce" #
+	female = yes
+	dynasty = drsdyn191 # de Coutevroult
+	religion = gallian_ireneism
+	culture = french
+	1001.1.1 = {
+		birth = yes
+	}
+	1021.1.1 = {
+		add_spouse = drsmansyrubiens0024 # Télèphe de Savigny-le-Temple
+	}
+	1100.1.1 = { # 99 years old
+		death = yes
+	}
+}
+drsmansyrubiens0037 = {
+	name = "Irène" #
+	# 3 vowels
+	# 2 consonants
+	# 5 letters
+	# 1 husband named Ambésares de Crécy-la-Chapelle drsdyn192 # son Orson # daughter Charlotte # daughter Helvis
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0024 # Télèphe de Savigny-le-Temple
+	mother = drsmansyrubiens0036 # Douce de Coutevroult
+	1022.1.1 = {
+		birth = yes
+	}
+	1106.1.1 = { # 84 years old
+		death = yes
+	}
+}
+drsmansyrubiens0038 = {
+	name = "Ida" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0024 # Télèphe de Savigny-le-Temple
+	mother = drsmansyrubiens0036 # Douce de Coutevroult
+	1023.1.1 = {
+		birth = yes
+	}
+	1103.1.1 = { # 80 years old
+		death = yes
+	}
+}
+drsmansyrubiens0039 = {
+	name = "Ambésares" #
+	dynasty = drsdyn192 # de Crécy-la-Chapelle
+	religion = gallian_ireneism
+	culture = french
+	1022.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = {
+		add_matrilineal_spouse = drsmansyrubiens0037 # Irène de Savigny-le-Temple
+	}
+	1110.1.1 = { # 88 years old
+		death = yes
+	}
+}
+drsmansyrubiens0040 = {
+	name = "Orson" #
+	# 2 vowels
+	# 3 consonants
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0039 # Ambésares de Crécy-la-Chapelle
+	mother = drsmansyrubiens0037 # Irène de Savigny-le-Temple
+	1044.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # 90 years old
+		death = yes
+	}
+}
+drsmansyrubiens0041 = {
+	name = "Charlotte" #
+	female = yes
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0039 # Ambésares de Crécy-la-Chapelle
+	mother = drsmansyrubiens0037 # Irène de Savigny-le-Temple
+	1045.1.1 = {
+		birth = yes
+	}
+	1137.1.1 = { # 92 years old
+		death = yes
+	}
+}
+drsmansyrubiens0042 = {
+	name = "Helvis" #
+	dynasty = drsdyn185 # de Savigny-le-Temple
+	religion = gallian_ireneism
+	culture = french
+	father = drsmansyrubiens0039 # Ambésares de Crécy-la-Chapelle
+	mother = drsmansyrubiens0037 # Irène de Savigny-le-Temple
+	1046.1.1 = {
+		birth = yes
+	}
+	1137.1.1 = { # 91 years old
+		death = yes
+	}
+}

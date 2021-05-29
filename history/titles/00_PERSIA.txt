@@ -1,0 +1,499 @@
+k_persia = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+
+k_makran = {
+	867.1.1 = {	change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+
+
+k_khorasan = { # Pashtuni-Khwarezmian Ireneist kingdom of Khorasan # ruled by a Khorasani queen Bolour Elyari in 1066 # pashtuni_khwarezmian_ireneism khorasani
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	920.1.1 = {
+		holder = drskhorasan0002 # Durr-e-Khorasan Elyari # first queen of Khorasan
+	}
+	960.1.1 = {
+		holder = drskhorasan0004 # Shah Farajareen Durr-e-Khorasanzade Elyari # first male king of Khorasan
+	}
+	987.1.1 = {
+		holder = drskhorasan0005 # Fakhr-un-Nissa Durr-e-Khorasandokht Elyari # 
+	}
+	988.1.1 = {
+		holder = drskhorasan0009 # Chehrah Fakhr-un-Nissadokht Elyari # 
+	}
+	1010.1.1 = {
+		holder = drskhorasan0010 # Irandokht Fakhr-un-Nissadokht Elyari # 
+	}
+	1011.1.1 = {
+		holder = drskhorasan0011 # Iraj Fakhr-un-Nissazade Elyari # 
+	}
+	1012.1.1 = {
+		holder = drskhorasan0017 # Mahak Fakhr-un-Nissadokht Elyari # 
+	}
+	1014.1.1 = {
+		holder = drskhorasan0019 # Areena Mahakdokht Elyari # 
+	}
+	1035.1.1 = {
+		holder = drskhorasan0023 # Parsa Areenazade Elyari # 
+	}
+	1056.1.1 = {
+		holder = drskhorasan0001 # Bolour Parsadokht Elyari # death of previous Khorasani king or queen
+	}
+	1081.1.1 = {
+		holder = drskhorasan0036 # Nastaran Bolourdokht Elyari
+	}
+	1097.1.1 = {
+		holder = drskhorasan0037 # Nayaab Bolourdokht Elyari
+	}
+	1098.1.1 = {
+		holder = drskhorasan0044 # Taimaz Nayaabzade Elyari
+	}
+	1119.1.1 = {
+		holder = drskhorasan0048 # Dariana Taimazdokht Elyari
+	}
+}
+
+k_transoxiana = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+
+k_kabulistan = {
+	867.1.1 = {	change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	993.1.1 = {
+		holder = drsafghanzada0007 # Shah Besebodhi Zarsangazade Afghanzada
+	}
+	1059.1.1 = {
+		holder = drsafghanzada0009 # Shah Besebodhi II Besebodhizade Afghanzada
+	}
+	1064.1.1 = {
+		holder = drsafghanzada0015 # Queen Storay Tanimadokht Afghanzada
+	}
+	1099.1.1 = {
+		holder = drsafghanzada0020 # Shah Nufail Storayzade Afghanzada
+	}
+	1115.1.1 = {
+		holder = drsafghanzada0023 # Queen Mina Mohebbodhidokht Afghanzada
+	}
+	1121.1.1 = {
+		holder = drsafghanzada0025 # Queen Pohyali Mohebbodhidokht Afghanzada
+	}
+	1157.1.1 = {
+		holder = drsafghanzada0025 # Queen Lawanga Mohebbodhidokht Afghanzada
+	}
+}
+
+k_khwarezmia = {
+	867.1.1 = {	change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+k_daylam = {
+	867.1.1 = {	change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1050.1.1 = {
+		liege = e_pontic_empire
+		de_jure_liege = e_pontic_empire
+		holder = drsarmenia0048 # Governor Xunc I ve Kardesh-Zankou-Shemakha
+	}
+}
+
+k_kurdistania = {
+	867.1.1 = {	change_development_level = 5 }
+	1065.1.1 = { change_development_level = 8 }
+	800.1.1 = {
+		de_jure_liege = e_persia
+	}
+	820.1.1 = {
+		holder = drskurdistania0001 # Bejno Bejndar
+	}
+	880.1.1 = {
+		holder = drskermanshah0004 # S_I_rkU_h Serger
+	}
+	902.1.1 = {
+		holder = drskermanshah0016 # S_arvin Serger
+	}
+	930.1.1 = {
+		holder = drsjazira0006 # Lebbaeus Bar Nahara Barta Ayetah
+	}
+	942.1.1 = {
+		holder = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	}
+	962.1.1 = {
+		holder = drsjazira0010 # Khayra Barta Nura Barta Ayetah
+	}
+	984.1.1 = {
+		holder = drsjazira0020 # Mari Barta Ayetah
+	}
+	1003.1.1 = {
+		holder = drsjazira0041 # Zia kurE_ Mari Barta Ayetah
+	}
+	1024.1.1 = {
+		holder = drsjazira0042 # SerC_inar kiC_E_ Mari Barta Ayetah
+	}
+	1025.1.1 = {
+		holder = drsjazira0048 # Xwedayar kurE_ SerC_inar Barta Ayetah
+	}
+	1046.1.1 = {
+		holder = drsjazira0050 # Serbar kiC_E_ Xwedayar Barta Ayetah
+	}
+	1066.1.1 = {
+		holder = drsjazira0051 # Xarmandar Vali kurE_ Serbar Barta Ayetah
+	}
+	1086.1.1 = {
+		holder = drsjazira0053 # RU_ken kiC_E_ Xarmandar Vali Barta Ayetah
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+d_ashuria = {
+	800.1.1 = {
+		de_jure_liege = k_kurdistania
+		liege = 0
+	}
+	820.1.1 = {
+		holder = drsashuria0001 # Tiglath-Pileser Akiya-Mulliltu
+	}
+}
+
+c_irbil = {
+	800.1.1 = {
+		de_jure_liege = d_ashuria
+		liege = 0
+	}
+	820.1.1 = {
+		holder = drsashuria0001 # Tiglath-Pileser Akiya-Mulliltu
+	}
+}
+
+c_ninive = {
+	800.1.1 = {
+		de_jure_liege = d_ashuria
+		liege = 0
+	}
+	820.1.1 = {
+		holder = drsashuria0001 # Tiglath-Pileser Akiya-Mulliltu
+	}
+}
+
+c_mosul = {
+	800.1.1 = {
+		de_jure_liege = d_ashuria
+		liege = 0
+	}
+	820.1.1 = {
+		holder = drsashuria0001 # Tiglath-Pileser Akiya-Mulliltu
+	}
+}
+
+d_kurdistan = {
+	800.1.1 = {
+		de_jure_liege = k_kurdistania
+	}
+	820.1.1 = {
+		holder = drskurdistania0001 # Bejno Bejndar
+	}
+	880.1.1 = {
+		holder = drskermanshah0004 # S_I_rkU_h Serger
+	}
+	902.1.1 = {
+		holder = drskermanshah0016 # S_arvin Serger
+	}
+	930.1.1 = {
+		holder = drsjazira0006 # Lebbaeus Bar Nahara Barta Ayetah
+	}
+	942.1.1 = {
+		holder = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	}
+	962.1.1 = {
+		holder = drsjazira0010 # Khayra Barta Nura Barta Ayetah
+	}
+	984.1.1 = {
+		holder = drsjazira0020 # Mari Barta Ayetah
+	}
+	1003.1.1 = {
+		holder = drsjazira0041 # Zia kurE_ Mari Barta Ayetah
+	}
+	1024.1.1 = {
+		holder = drsjazira0042 # SerC_inar kiC_E_ Mari Barta Ayetah
+	}
+	1025.1.1 = {
+		holder = drsjazira0048 # Xwedayar kurE_ SerC_inar Barta Ayetah
+	}
+	1046.1.1 = {
+		holder = drsjazira0050 # Serbar kiC_E_ Xwedayar Barta Ayetah
+	}
+	1066.1.1 = {
+		holder = drsjazira0051 # Xarmandar Vali kurE_ Serbar Barta Ayetah
+	}
+	1086.1.1 = {
+		holder = drsjazira0053 # RU_ken kiC_E_ Xarmandar Vali Barta Ayetah
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+
+c_kurdistan = {
+	
+	820.1.1 = {
+		holder = drskurdistania0001 # Bejno Bejndar
+	}
+	880.1.1 = {
+		holder = drskermanshah0004 # S_I_rkU_h Serger
+	}
+	902.1.1 = {
+		holder = drskermanshah0016 # S_arvin Serger
+	}
+	930.1.1 = {
+		holder = drsjazira0006 # Lebbaeus Bar Nahara Barta Ayetah
+	}
+	942.1.1 = {
+		holder = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	}
+	962.1.1 = {
+		holder = drsjazira0010 # Khayra Barta Nura Barta Ayetah
+	}
+	984.1.1 = {
+		holder = drsjazira0020 # Mari Barta Ayetah
+	}
+	1003.1.1 = {
+		holder = drsjazira0041 # Zia kurE_ Mari Barta Ayetah
+	}
+	1024.1.1 = {
+		holder = drsjazira0042 # SerC_inar kiC_E_ Mari Barta Ayetah
+	}
+	1025.1.1 = {
+		holder = drsjazira0048 # Xwedayar kurE_ SerC_inar Barta Ayetah
+	}
+	1046.1.1 = {
+		holder = drsjazira0050 # Serbar kiC_E_ Xwedayar Barta Ayetah
+	}
+	1066.1.1 = {
+		holder = drsjazira0051 # Xarmandar Vali kurE_ Serbar Barta Ayetah
+	}
+	1086.1.1 = {
+		holder = drsjazira0053 # RU_ken kiC_E_ Xarmandar Vali Barta Ayetah
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+
+d_kermanshah = {
+	800.1.1 = {
+		de_jure_liege = k_kurdistania
+	}
+	820.1.1 = {
+		holder = drskermanshah0001 # S_ahbaz Serger
+		liege = k_kurdistania
+	}
+	880.1.1 = {
+		holder = drskermanshah0004 # S_I_rkU_h Serger
+	}
+	881.1.1 = {
+		holder = drskermanshah0006 # S_ayan Serger
+	}
+	931.1.1 = {
+		holder = drstigranian0001 # Artashes Tigranian
+	}
+	1006.1.1 = {
+		holder = drstigranian0003 # Artavasd Tigranian
+	}
+	1015.1.1 = {
+		holder = drstigranian0005 # Hripsimeh Tigranian
+	}
+	1034.1.1 = {
+		holder = drstigranian0018 # Khorishah Tigranian
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+
+}
+
+c_kermanshah = {
+	800.1.1 = {
+		de_jure_liege = d_kermanshah
+	}
+	820.1.1 = {
+		holder = drskermanshah0001 # S_ahbaz Serger
+		liege = d_kermanshah
+	}
+	880.1.1 = {
+		holder = drskermanshah0004 # S_I_rkU_h Serger
+	}
+	881.1.1 = {
+		holder = drskermanshah0006 # S_ayan Serger
+	}
+	931.1.1 = {
+		holder = drstigranian0001 # Artashes Tigranian
+	}
+	1006.1.1 = {
+		holder = drstigranian0003 # Artavasd Tigranian
+	}
+	1015.1.1 = {
+		holder = drstigranian0005 # Hripsimeh Tigranian
+	}
+	1034.1.1 = {
+		holder = drstigranian0018 # Khorishah Tigranian
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+
+
+c_masabadhan = {
+	800.1.1 = {
+		de_jure_liege = d_kermanshah
+	}
+	820.1.1 = {
+		holder = drskermanshah0001 # S_ahbaz Serger
+		liege = d_kermanshah
+	}
+	880.1.1 = {
+		holder = drskermanshah0004 # S_I_rkU_h Serger
+	}
+	881.1.1 = {
+		holder = drskermanshah0006 # S_ayan Serger
+	}
+	931.1.1 = {
+		holder = drstigranian0001 # Artashes Tigranian
+	}
+	1006.1.1 = {
+		holder = drstigranian0003 # Artavasd Tigranian
+	}
+	1015.1.1 = {
+		holder = drstigranian0006 # Srpouhi Tigranian
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+
+c_saimara = {
+	800.1.1 = {
+		de_jure_liege = d_kermanshah
+	}
+	820.1.1 = {
+		holder = drskermanshah0001 # S_ahbaz Serger
+		liege = d_kermanshah
+	}
+	880.1.1 = {
+		holder = drskermanshah0004 # S_I_rkU_h Serger
+	}
+	881.1.1 = {
+		holder = drskermanshah0006 # S_ayan Serger
+	}
+	931.1.1 = {
+		holder = drstigranian0001 # Artashes Tigranian
+	}
+	1006.1.1 = {
+		holder = drstigranian0003 # Artavasd Tigranian
+	}
+	1015.1.1 = {
+		holder = drstigranian0007 # Alitz Tigranian
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+
+d_hamadan = {
+	800.1.1 = {
+		de_jure_liege = k_kurdistania
+	}
+	990.1.1 = {
+		holder = drsjazira0042 # SerC_inar kiC_E_ Mari Barta Ayetah
+		liege = k_kurdistania
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+
+k_isfahan = {
+	866.1.1 = {
+		holder = drsisfahan0001 # Golnaz Ardestani
+	}
+	904.1.1 = {
+		holder = drsisfahan0003 # Ghoncheh Ardestani
+	}
+	967.1.1 = {
+		holder = drsisfahan0005 # Roshanora Ardestani
+	}
+	969.1.1 = {
+		holder = drsisfahan0007 # Queen Elham I Ghonchehdokht Ardestani
+	}
+	975.1.1 = {
+		holder = drsisfahan0030 # Queen Areena I Elhamdokht Ardestani
+	}
+	1010.1.1 = {
+		holder = drsisfahan0034 # Queen Ava I Areenadokht Ardestani
+	}
+	1013.1.1 = {
+		holder = drsisfahan0037 # Queen Kambizdokht I Avadokht Ardestani
+	}
+	1034.1.1 = {
+		holder = drsisfahan0042 # Shah Jahanshah I Kambizdokhtzade Ardestani
+	}
+	1055.1.1 = {
+		holder = drsisfahan0045 # Shah Iranzade I Jahanshahzade Ardestani
+	}
+	1076.1.1 = {
+		holder = drsisfahan0061 # Shah Roxana I Iranzadedokht Ardestani
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+d_isfahan = {
+	866.1.1 = {
+		holder = drsisfahan0001 # Golnaz Ardestani
+	}
+	904.1.1 = {
+		holder = drsisfahan0003 # Ghoncheh Ardestani
+	}
+	967.1.1 = {
+		holder = drsisfahan0005 # Roshanora Ardestani
+	}
+	969.1.1 = {
+		holder = drsisfahan0007 # Queen Elham I Ghonchehdokht Ardestani
+	}
+	975.1.1 = {
+		holder = drsisfahan0030 # Queen Areena I Elhamdokht Ardestani
+	}
+	1010.1.1 = {
+		holder = drsisfahan0034 # Queen Ava I Areenadokht Ardestani
+	}
+	1013.1.1 = {
+		holder = drsisfahan0037 # Queen Kambizdokht I Avadokht Ardestani
+	}
+	1034.1.1 = {
+		holder = drsisfahan0042 # Shah Jahanshah I Kambizdokhtzade Ardestani
+	}
+	1055.1.1 = {
+		holder = drsisfahan0045 # Shah Iranzade I Jahanshahzade Ardestani
+	}
+	1076.1.1 = {
+		holder = drsisfahan0061 # Shah Roxana I Iranzadedokht Ardestani
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+k_kirman = {
+	865.1.1 = {
+		holder = drskirman0001 # Aayaan Mashizi
+	}
+	923.1.1 = {
+		holder = drsafghanzada0001 # Zulëixa Afghanzada
+	}
+	945.1.1 = {
+		holder = drsafghanzada0004 # Zarsanga Afghanzada
+	}
+	1010.1.1 = {
+		holder = drsafghanzada0006 # Brekhna Afghanzada
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}
+d_kirman = {
+	865.1.1 = {
+		holder = drskirman0001 # Aayaan Mashizi
+	}
+	923.1.1 = {
+		holder = drsafghanzada0001 # Zulëixa Afghanzada
+	}
+	945.1.1 = {
+		holder = drsafghanzada0004 # Zarsanga Afghanzada
+	}
+	1010.1.1 = {
+		holder = drsafghanzada0006 # Brekhna Afghanzada
+	}
+	##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090
+}

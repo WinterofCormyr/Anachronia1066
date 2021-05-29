@@ -1,0 +1,553 @@
+﻿eastern_celtic_group = {
+	graphical_cultures = {
+		byzantine_group_coa_gfx
+		western_coa_gfx
+		mediterranean_building_gfx
+		byzantine_clothing_gfx
+		eastern_unit_gfx
+	}
+	
+	mercenary_names = {
+		{ name = mercenary_company_manglabites }
+		{ name = "mercenary_company_the_ten_thousand" }
+	}
+	
+	galatian = { #maybe make eastern celtic # either way break apart byzantine_group 
+		
+		color = { 0 100 29 } # form dynasties with #NAMEgenos #NAMEgena #NAMEgenom # NAMEos #NAMEi #NAMEtouta #NAMEtoutan #NAMEtoutim #NAMEtoutas #NAMEtoutias #NAMEtouti #NAMEtoutia #NAMEtoutanom #NAMEtoutabo #NAMEtoutabi
+
+		cadet_dynasty_names = { 
+			"Ambitouti"
+			"Rigosages"
+			"Tektosages"
+			"Tectosages"
+			"Tolistobogi"
+			"Aigosages"
+			"Daguteni"
+			"Inovanteni"
+			"Ocondiani"
+			"Okondiani"
+			"Vuronsemestogenos"
+			"Vuronsemestogena"
+			"Vuronsemestogenom"
+			"Eponetorixi"
+			"Vuronsemocintutouta"
+			"Elirenos"
+			"Cintudixonitoutias"
+			"Christoualatoutabi"
+			"Cinixoti"
+			"Eponerigani"
+			"Vuronsemouolnati"
+			"Nixatigerni"
+			"Atiageni"
+			"Eridanogennos"
+			"Echogennom"
+			"Viroeridanos"
+			"Veliogeotouta"
+			"Chagnotoutan"
+			"Segoartemistoutim"
+			"Petratoutas"
+			"Elirenegena"
+		}
+
+		dynasty_names = {
+			"Ambitouti"
+			"Rigosages"
+			"Tektosages"
+			"Tectosages"
+			"Tolistobogi"
+			"Aigosages"
+			"Daguteni"
+			"Inovanteni"
+			"Ocondiani"
+			"Okondiani"
+			"Vuronsemestogenos"
+			"Vuronsemestogena"
+			"Vuronsemestogenom"
+			"Eponetorixi"
+			"Vuronsemocintutouta"
+			"Elirenos"
+			"Cintudixonitoutias"
+			"Christoualatoutabi"
+			"Cinixoti"
+			"Eponerigani"
+			"Vuronsemouolnati"
+			"Nixatigerni"
+			"Atiageni"
+			"Eridanogennos"
+			"Echogennom"
+			"Viroeridanos"
+			"Veliogeotouta"
+			"Chagnotoutan"
+			"Segoartemistoutim"
+			"Petratoutas"
+			"Elirenegena" # new dynasty of Galatia 1097 # cobela_arixideuoi
+		}
+
+		male_names = {	# dynasties Ambitouti Rigosages Tektosages Tectosages Tolistobogi Aigosages Daguteni Inovanteni Ocondiani Okondiani
+			#NUMBERS
+			#cintu # first # fem cinta
+			#allos # second # fem alla
+			#tritios # third # fem tritia
+			#getuarios # fourth # fem getuaria
+			#gengetos # fifth # fem gengeta
+			#suexos # sixth # fem suexa
+			#sextametos # seventh # fem sextameta
+			#oxtumetos # eighth # fem oxtumeta
+			#nametos # ninth # fem nameta
+			#decometos # tenth # fem decometa
+            Anastasios Anthimos Antiochos Antiokhos Antoeis Antonios Apollonios Archelaos Arkhelaos Artemidoros Articnos Artiknos Ateporix Baegorix Baigorixo Basil Basileios Basiliskos Bassos Bathanattos Belgos 
+			Bitognatos Bitorix Bitos Bogodiataros Boiorix Bolgios Borgoris Brennos Brogimaros Brogitarios Brogitaros Brogoris Cambaules Cassignatos Catomaros Cerethrios Claudius Combolomaros Combutis Comontorios Connacorix 
+			Constantine Daniel Deiotaros Dikasios Diodoros Dionysios Dominius Dominus Domneion Domnilaos Domnos Doumnorix Drousos Dumnorix Dyteutos Dytilaos Elpidios Epatorix Eporedorix Eposognatos Gaios Gaizatorix Gregorios
+			Heliodoros Hormazd Hormizes Iakobos Ignatios Ioannes Ioulianos Ioulios Jacob John Julian Julius Kallistratos Kambaules Kassignatos Kastor Katomaros Kerethrios Klaudios Kleon Kombolomaros Komboutis Komontorios Konnakorix
+			Konstantinos Koädratos Kyriakos Leo Leon Leonnorios Leontios Longinos Lostoiekos Loukas Loutatios Lutatios Markos Martyrios Matthaios Menas Mihrdad Mikhail Mithradates Mouses Nicolas Nikolaos Olorix Orestorios Ortiagon
+			Palladios Paulos Petros Pios Plotinos Prix Pylamenes Quadratus Rouphos Sebastianos Segermas Sergios Severos Simon Sinatos Sinorix Sisinnios Smertomaros Smertorix
+			Stephanos Symeon Tectomaros Tektomaros Theodoros Theodotos Thoas Thomas Tiberios Timotheos Valerios
+			# TEMPLATES FOR THEOPHORIC NAMES ## MAKE ANEW
+			#NAMEestos #NAMEnios #NAMEnos # NAMErix #NAMEios #NAMEgnatos #NAMEtorix #NAMEcorix #NAME #NAMEmaros #CatuNAME #NAMEuelnamnos #NAMEuellaunos #NAMEuallos #NAMEtigernos #NAMEtigerne #NAMEgenos #SegoNAME #VelioNAME
+			#ViroNAME
+			####COMMON RELIGIONS
+			## GALATIAN THEOPHORIC NAMES
+			# Suolibrogenos based # Suolibrogenos is a god
+			Suolibrogenestos Suolibrogennios Suolibrogennos Suolibrogenorix Suolibrogenios Suolibrogenognatos Suolibrogenotorix Suolibrogenocorix Suolibrogenos Suolibrogenomaros Catusuolibrogenos Suolibrogenouelnamnos
+			Suolibrogenouellaunos Suolibrogenouallos Suolibrogenotigernos Suolibrogenotigerne Cintusuolibrogenos Suolibrogenogenos Segosuolibrogenos Veliosuolibrogenos Virosuolibrogenos
+			# Bussurigios based # Bussurigios is a god
+			# Sucellus based # Sucellus is a god
+			# Cernunnos based # Cernunnos is a god
+			Cernunnonestos Cernunnestos Cernunnos Cernunnorix Cernunnios Cernunnognatos Cernunnotorix Cernunnocorix Cernunnomaros Catucernunnos Cernunnouelnamnos Cernunnouellaunos Cernunnouallos Cernunnotigernos Cernunnotigerne
+			Cernunnogenos Segocernunnos Veliocernunnos Virocernunnos
+			# Christ based # Christos in Galatian # Christ is a god
+			# Jesus based # Iesos in Galatian # Jesus is a god
+			Iesestos Iesonios Iesonos Iesorix Iesios Iesognatos Iesotorix Iesocorix Iesos Iesomaros Catuiesos Iesouelnamnos Iesuelnamnos Iesouellaunos Iesuellaunos Iesouallos Iesuallos Iesotigernos Iesotigerne Iesogenos Segoiesos
+			Velioiesos Viroiesos Iessestos Iessonios Iessonos Iessorix Iessios Iessognatos Iessotorix Iessocorix Iessos Iessomaros Catuiessos Iessouelnamnos Iessuelnamnos Iessouellaunos Iessuellaunos Iessoualos Iessualos
+			Iessotigernos Iessotigerne Iessogenos Segoiessos Velioiessos Viroiessos
+			# Cybele based # Cobela in Galatian # Cybele is a goddess
+			# Sirona based # Sirona is a goddess
+			# Epona based # Epona is a goddess # Epone in Galatian
+			Eponestos Eponenios Eponenos Eponerix Eponios Eponognatos Eponetorix Eponecorix Eponemaros Catuepone Eponuelnamnos Eponuellaunos Eponuallos Eponetigernos Eponetigerne Eponecintu Eponegenos
+			# Selene based # Selene is a goddess # Selene in Galatian
+			Selenestos Selenios Selenenios Selenenos Selenos Selenerix Seleneios Selenegnatos Selenetorix Selenecorix Selenemaros Catuselene Seleneuelnamnos Selenuelnamnos Seleneuellaunos Selenuellaunos Seleneuallos Selenuallos
+			Selenetigernos Selenetigerne Selenegenos Segoselene Velioselene Viroselene
+			# Artemis based # Artemis is a goddess # Artemis in Galatian
+			Artemestos Artemenios Artemenos Artemenorix Artemenognatos Artemenotorix Artemenocorix Artemenomaros Catuartemis Artemenuelnamnos Artemenuellaunos Artemenuallos Artementigernos Artementigerne Artemencintu Cintuartemis
+			Artemigenos Segoartemis Velioartemis Viroartemis
+			# Aitah based # Aitah is a goddess # Atia in Galatian
+			Atiestos Atianos Atiarix Atiaios Atiagnatos Atiatorix Atiacorix Atiomaros Catuatia Atiuelnamnos Atiuallos Atitigernos Atitigerne Atiakintu Atiagenos Atiogenos Segatia Segonatia Velioatia 
+			Veliatia Viroatia
+			# Ayase based # Ayase is a god # Atiase in Galatian
+			Atiastestos Atiasenios Atiasenos Atiaserix Atiaseios Atiasegnatos Atiasetorix Atiasecorix Atiase Atiasemaros Catuatiase Atiaseuelnamnos Atiaseuellaunos Atiaseuallos Atiasetigernos Atiasetigerne Atiasecintu Atiasegenos
+			Segoatiase Velicoatiase Veliatiase Viroatiase
+			# Wurunshemu Based # Vuronsemo in Galatian # Wurunshemu is a goddess
+			Vuronsemestos Vuronsemonios Vuronsemonos Vuronsemorix Vuronsemognatos Vuronsemotorix Vuronsemocorix Vuronsemomaros Catuvuronsemo Vuronsemuelnamnos Vuronsemuellaunos Vuronsemouallos Vuronsemotigernos Vuronsemotigerne
+			Vuronsemocintu Cintuvuronsemo Vuronsemogenos Segovuronsemo Veliovuronsemo Virovuronsemo
+			####COMMON MYTH NAMES
+			##HELLENIC THEOPHORIC NAMES
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanos or Eridan in Galatian
+			Eridanestos Eridanosestos Eridanios Eridanrix Eridanorix Eridagnatos Eridanognatos Eridatorix Eridanotorix Eridacorix Eridanocorix Eridan Eridanos Eridamaros Eridanomaros Catueridan Catueridanos Eridanouellaunos
+			Eriduelnamnos Eridanouelnamnos Eridanuelnamnos Eriduellaunos Eridanuellaunos Eriduallos Eridanuallos Eridanouallos Eridatigernos Eridanotigernos Eridatigerne Eridanotigerne Eridagenos Eridanogenos Segoeridan
+			Segoeridanos Velioeridan Velioeridanos Viroeridan Viroeridanos
+			# Adonis based # Adonis is a god # Adonis in Galatian
+			Adoniestos Adoninios Adoninos Adonirix Adonios Adonignatos Adonitorix Adonicorix Adonis Adonimaros Catuafonis Adonuelnamnos Adonuellaunos Adonuallos Adonitigernos Adonitigerne Adonigenos Segoadonis Velioadonis 
+			Viroadonis
+			# TEMPLATES FOR THEOPHORIC NAMES ## MAKE ANEW
+			#NAMEestos #NAMEnios #NAMEnos # NAMErix #NAMEios #NAMEgnatos #NAMEtorix #NAMEcorix #NAME #NAMEmaros #CatuNAME #NAMEuelnamnos #NAMEuellaunos #NAMEuallos #NAMEtigernos #NAMEtigerne #NAMEgenos #SegoNAME #VelioNAME
+			#ViroNAME
+			# Eirene based names # Eirene is a goddess # Elirene in Galatian
+			Elirenestos Elirenenios Elirenios Elirenerix Elireneios Elirenegnatos Elirenetorix Elirenecorix Elirenemaros Catuelirene Elireneuelnamnos Elirenuelnamnos Elireneuellaunos Elirenuellaunos Elireneuallos Elirenuallos
+			Elirenetigernos Elirenetigerne Elirenegenos Segoelirene Velioelirene Viroelirene
+			# Dione based # Dione is a goddess # Dixona in Galatian
+			Dixonestos Dixonenios Dixonenos Dixonerix Dixoneios Dixonagnatos Dixonetorix Dixonecorix Dixonemaros Dixonamaros Catudixona Dixonuelnamnos Dixonuellaunos Dixonuallos Dixonotigernos Dixonotigerne Dixonocintu
+			Cintudixona Dixonogenos Dixonagenos Dixonegenos Segodixona Veliodixona Virodixona
+			# Eos based # Eos is a goddess # Echos in Galatian
+			# Aphrodite based # Aphrodite is a goddess # Avrodite in Galatian
+			# Ourania based # Ourania is a goddess # Orania in Galatian
+			# Urania based # Galatian alternate spelling of Ourania # Ourania is a goddess
+			# Nyx based # Nyx is a goddess # Nix in Galatian
+			# Myrtoesa based # Myrtoesa is a goddess # Mirtoësa in Galatian
+			# Archiroe based # Archiroe is a goddess # Archiroë in Galatian
+			# Hagno based # Hagno is a goddess # Chagno in Galatian
+			# Anthracia based # Anthracia is a goddess # Anterasia in Galatian
+			# Nais based # Nais is a goddess # Nais in Galatian
+			# Helios Based # Chelios in Galatian # Chelios is a god
+			# Hermes based # Chermes in Galatian # Hermes is a god
+			# Rhea based # Rhea is a goddess # Rea in Galatian
+			# Gaia based # Gaia is a goddess # Gea in Galatian
+			
+			##MOST COMMON NAMES IN RANDOM LIST##
+			Vuronsemotigernos Eponerix Selenecorix Viroeridanos Dumnorix Dominus Segoartemis Catucernunnos Eridanuelnamnos Elpidios Suolibrogenouelnamnos Iesotigerne Eponuallos Kastor Dikasios Artemenuelnamnos Longinos Drousos 
+			Adonitorix Vuronsemomaros Epatorix Catuiessos Vuronsemuellaunos Eridagnatos Dixonogenos Viroadonis Artementigerne Iesestos Suolibrogenognatos Menas Vuronsemorix Eridagenos Klaudios Catuatiase Dixonagnatos Velioadonis
+			Combutis Matthaios Segoeridan Selenenos Heliodoros Iesouelnamnos Mithradates Adoninios Adonirix Atiuelnamnos Dixonecorix Julian Bathanattos Iesios Severos Suolibrogenorix Velioartemis Veliatiase Catueridanos
+			Eridanuallos Eponios Cernunnestos Atitigernos Atiakintu Dixonocintu Seleneuelnamnos Virosuolibrogenos Vuronsemogenos Atiacorix Eridanomaros Suolibrogenouallos Artiknos Eponestos Elirenegenos Elirenetorix Catuatia
+			Basil Vuronsemonios Ioulianos Atiagnatos Elirenerix Eriduellaunos Virodixona Apollonios Iessogenos Segoselene Dionysios Catuartemis Atiaseuallos Bogodiataros Vuronsemouallos Vuronsemotorix Iessuellaunos Bassos 
+			Dixonenos Dytilaos Catomaros Suolibrogenos Adonuelnamnos Velioiessos Virovuronsemo Elirenestos Dixonestos Dixoneios Cernunnomaros Segocernunnos Viroatiase Suolibrogenestos Vuronsemuelnamnos Adonitigerne Gaizatorix 
+			Baegorix Dixonenios Eridanognatos Iessotigerne Kambaules Iessotigernos Dixonerix Artemenuallos Cintuvuronsemo Elirenuallos Segonatia Elireneuallos Eridanos Brogimaros Thomas Eridanouallos Virocernunnos Iessuelnamnos
+			Prix Artemenognatos Hormazd Atiasegenos Dixonagenos Suolibrogenotigerne Thoas Ignatios Eridanogenos Symeon Pylamenes Cernunnouelnamnos Dixonetorix Seleneuallos Veliodixona Segoiesos Eridacorix Selenerix Adoninos
+			Comontorios Artemenuellaunos Archelaos Jacob Atiasemaros Anastasios Cassignatos Veliatia Atiasecintu Markos Sebastianos Eridanrix Iesouellaunos Simon Velioelirene Eridan Kleon Adoniestos Martyrios Cintudixona
+			Lostoiekos Smertomaros Elireneios Cerethrios Atiarix Catuafonis Dixonuellaunos Eridanouelnamnos Orestorios Catuvuronsemo Selenenios Viroelirene Vuronsemognatos Selenetigerne Veliocernunnos Seleneuellaunos Palladios 
+			Iessotorix Borgoris Eridanosestos Adonuellaunos Iessoualos Iesocorix Elirenegnatos Adonios Artemencintu Eponegenos Suolibrogenogenos Eponetigerne Artemenocorix Atiasegnatos Adonicorix Cernunnotorix Eposognatos
+			Suolibrogenios Atiogenos Gregorios Leonnorios Iakobos Deiotaros Quadratus Dixonemaros Eridanocorix Mikhail Artemenotorix Iessognatos Iesognatos Velicoatiase Cernunnos Elirenemaros Pios Elirenios Catusuolibrogenos 
+			Claudius Kerethrios Suolibrogennios Iessouelnamnos Suolibrogenomaros Kombolomaros Elirenetigernos Vuronsemocintu Nikolaos Eponuellaunos Ateporix Kassignatos Combolomaros Adonigenos Iessos Artemenos Catueridan 
+			Stephanos Sinatos Suolibrogenotorix Olorix Cernunnouellaunos Antoeis Atiaseuelnamnos Komontorios John Elirenecorix Elireneuelnamnos Segosuolibrogenos Bitos Articnos Leontios Atiaios Eponetigernos Iessocorix Iesos
+			Cernunnogenos Iessonos Diodoros Selenios Koädratos Elirenenios Atiasetorix Eridanuellaunos Segoelirene Velioeridan Komboutis Eridatigerne Vuronsemonos Segoiessos Selenos Mouses Belgos Velioiesos Atiaserix 
+			Vuronsemocorix Eridanotigerne Domnilaos Antiokhos Cernunnouallos Dyteutos Leon Atiasecorix Segoeridanos Antonios Selenuallos Artementigernos Viroselene Tektomaros Eriduallos Viroeridan Segoadonis Hormizes 
+			Dixonotigerne Adonuallos Velioatia Ortiagon Domnos Elireneuellaunos Atiagenos Eridanotigernos Iessestos Baigorixo Atiestos Viroiesos Selenegnatos Atiase Eponognatos Artemestos Iessouellaunos Seleneios Iesotorix 
+			Eridanestos Julius Viroiessos Catudixona Dominius Iesomaros Antiochos Cernunnocorix Brogitarios Iessorix Eridatorix Nicolas Cintuartemis Theodoros Elirenuellaunos Atiasetigerne Selenuellaunos Elirenetigerne Boiorix 
+			Iesonos Atiasenios Cernunnios Brogitaros Suolibrogenotigernos Adonignatos Dixonuallos Selenetorix Iessualos Atiaseuellaunos Iesuallos Dixonegenos Connacorix Atiomaros Segoatiase Eponecintu Eridanorix Artemigenos 
+			Cernunnonestos Veliovuronsemo Konstantinos Velioselene Viroartemis Eponemaros Paulos Segovuronsemo Adonimaros Kallistratos Suolibrogenouellaunos Selenuelnamnos Atianos Eridanotorix Cernunnotigerne Atiatorix Eponenios
+			Katomaros Petros Segatia Loutatios Basiliskos Valerios Iesuelnamnos Iessios Timotheos Rouphos Atiaseios Catuiesos Catuelirene Vuronsemestos Atiastestos Adonitigernos Artemenomaros Iessomaros Sisinnios 
+			Veliosuolibrogenos Adonis Bitorix Loukas Catuselene Cernunnorix Cintusuolibrogenos Iesonios Catuepone Mihrdad Suolibrogenocorix Theodotos Dixonuelnamnos Velioeridanos Constantine Viroatia Atiasenos Bolgios Brennos 
+			Selenestos Segodixona Gaios Eponuelnamnos Doumnorix Cambaules Ioulios Eridanouellaunos Plotinos Bitognatos Eriduelnamnos Artemidoros Suolibrogennos Eporedorix Dixonotigernos Anthimos Kyriakos Sergios Domneion Tiberios
+			Atiuallos Smertorix Atiasetigernos Konnakorix Selenemaros Iesouallos Selenetigernos Selenegenos Ioannes Eridanios Cernunnotigernos Eridamaros Segermas Basileios Vuronsemotigerne Eridatigernos Daniel Arkhelaos 
+			Iesotigernos Tectomaros Atitigerne Iesorix Leo Elirenuelnamnos Sinorix Iesogenos Eponetorix Artemenios Lutatios Eponenos Iesuellaunos Iessonios Eponecorix Artemenorix Cernunnognatos Dixonamaros Brogoris
+			## PELASGIAN THEOPHORIC NAMES
+			####LESS COMMON THEOPHORIC NAMES
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Dëos in Galatian
+			Dëoestos Dëonios Dëonos Dëorix Dëios Dëognatos Dëotorix Dëocorix Dëomaros Catudëos Dëuelnamnos Dëuellaunos Dëuallos Dëotigernos Dëotigerne Dëocintu Cintudëos Dëogenos Segodëos Veliodëos Virodëos
+			# Tao based # Tëos in Galatian
+			Tëoestos Tëonios Tëonos Tëorix Tëios Tëognatos Tëotorix Tëocorix Tëomaros Catutëos Tëuelnamnos Tëuellaunos Tëuallos Tëotigernos Tëotigerne Tëocintu Cintutëos Tëogenos Segotëos Veliotëos Virotëos
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Inara based # Inara is a xenine deity # Inara in Galatian
+			# Taru based # Taru in Galatian # Taru is a god
+			# Hanfasuit based # Chanvasota in Galatian # Hanfasuit is a goddess
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartolomaios in Galatian # Bartholomew is a dude
+			# Daniel based # Daniel in Galatian # Daniel is a dude
+			# Michael based # Michael is a dude # Michael in Galatian
+			# Manuel based # Manuel is a dude # Manoëlos in Galatian
+			# Emmanuel based # Emmanuel is a god # Emanoëlos in Galatian 
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Choros in Galatian
+			# TEMPLATES FOR THEOPHORIC NAMES ## MAKE ANEW
+			#NAMEestos #NAMEnios #NAMEnos # NAMErix #NAMEios #NAMEgnatos #NAMEtorix #NAMEcorix #NAME #NAMEmaros #CatuNAME #NAMEuelnamnos #NAMEuellaunos #NAMEuallos #NAMEtigernos #NAMEtigerne # CintuNAME 
+			#NAMEgenos #SegoNAME #VelioNAME #ViroNAME
+			#### WORD BASED
+			# Tascos # Galatian for badger
+			# Taskos # Galatian for badger
+		}
+		
+		female_names = {
+            Adiobogiona Agatha Agathe Agne Agnes Anastasia Antiochis Antiokhis Antonia Antonilla Apollodora Apollonia Artemidora Artemisia Athenais Basilike Beatrice Beatrike Berenike Brogimara Camilla Camma Catomara
+			Chiomara Clara Claudia Constantia Deiotara Dionysia Domina Dominia Domna Domneio Drousilla Drusilla Elpis Epona Epone Esther Gaiana Gregoria Ioanna Ioulia Iouliana Isidora Juliana Kamila Kamma Katerina Katomara Khiomara
+			Klara Klaudia Kleopatra Konstantia Koädratilla Kyriake Leontia Longina Marcia Maria Markia Martha Melissa Mikhailia Nina Nino Nymphadora Palladia Petra Pia Plotina Poseidonia Quadratilla Rebekka Rixa 
+			Rossomara Sarra Sergia Severa Simona Simone Smertomara Sophia Stephania Tectomara Tektomara Theodora Theophane Theophano Timothea Valeria Viviana
+			# TEMPLATES FOR THEOPHORIC NAMES ## MAKE ANEW
+			#NAMEgnata #NAMErigani #NAMEuolnati #NAMEuala #NAMEtigerne #NAMEtigerna #NAMEgennon #NAMEgenno #SovaduNAME #VelioNAME #NAMEa #NAMEmara #NAMEia #NAMEtilla #NAME
+			####COMMON RELIGIONS
+			## GALATIAN THEOPHORIC NAMES
+			# Suolibrogenos based # Suolibrogenos is a god
+			Suolibrogenognata Suolibrogenorigani Suolibrogenuolnati Suolibrogenuala Suolibrogenotigerne Suolibrogenotigerna Suolibrogenogennon Suolibrogenogenno Sovadusuolibrogenos Veliosuolibrogenos Suolibrogena Suolibrogenomara
+			Suolibrogeneia Suolibrogenotilla
+			# Bussurigios based # Bussurigios is a god
+			# Sucellus based # Sucellus is a god
+			# Cernunnos based # Cernunnos is a god
+			# Christ based # Christos in Galatian # Christ is a god
+			Christognata Christorigani Christouolnati Christouala Christotigerne Christotigerna Christogennon Christogenno Sovaduchristos Veliochristos Christa Christomara Christia Christotilla
+			# Jesus based # Iesos in Galatian # Jesus is a god
+			Iesognata Iesorigani Iesouolnati Iesuala Iesouala Iesoutigerne Iesoutigerna Iesugennon Iesougennon Iesugenno Iesougenno Sovaduiesos Velioiesos Velioiessos Iesa Iesomara Iesia Iesotilla 
+			# Cybele based # Cobela in Galatian # Cybele is a goddess
+			Cobelagnata Cobelarigani Cobeluolnati Cobeluala Cobelatigerne Cobelatigerna Cobelagennon Cobelagenno Sovaducobela Veliocobela Cobela Cobelamara Cobelaia Cobelia Cobelatilla
+			# Sirona based # Sirona is a goddess
+			Sironagnata Sironarigani Sironauolnati Sironuolnati Sironauala Sironuala Sironatigerne Sironagennon Sironagenno Sovadusirona Veliosirona Sirona Sironamara Sironia Sironatilla
+			# Epona based # Epona is a goddess # Epone in Galatian
+			Eponegnata Eponerigani Eponuolnati Eponuala Eponetigerne Eponetigerna Eponegennon Eponegenno Sovaduepone Velioepone Epona Eponea Eponemara Eponia Eponea Eponeia Eponetilla Epone
+			# Selene based # Selene is a goddess # Selene in Galatian
+			# Artemis based # Artemis is a goddess # Artemis in Galatian
+			Artemegnata Artemerigani Artemuolnati Artemuala Artemetigerne Artemetigerna Artemegennon Artemegenno Sovaduartemis Velioartemis Artemisa Artemia Artemisia Artemomara Artemiotilla Artemis
+			# Wurunshemu Based # Vuronsemo in Galatian # Wurunshemu is a goddess
+			Vuronsemognata Vuronsemorigani Vuronsemouolnati Vuronsemouala Vuronsemotigerne Vuronsemogennon Vuronsemogenno Sovaduvuronsemo Veliovuronsemo Vuronsema Vuronsemomara Vuronsemotilla Vuronsemo
+			# Aitah based # Aitah is a goddess # Atia in Galatian
+			Atiagnata Atiarigani Atiuolnati Atiuala Atiatigerne Atiatigerna Atiagennon Atiagenno Sovaduatia Velioatia Atia Atiamara Atiatilla
+			# Ayase based # Ayase is a god # Atiase in Galatian
+			Atiasegnata Atiaserigani Atiaseuolnati Atiaseuala Atiasetigerna Atiasetigerne Atiasegennon Atiasegenno Sovaduatiase Velioatiase Atiasea Atiasemara Atiaseia Atiasetilla 
+			####COMMON MYTH NAMES
+			# TEMPLATES FOR THEOPHORIC NAMES ## MAKE ANEW
+			#NAMEgnata #NAMErigani #NAMEuolnati #NAMEuala #NAMEtigerne #NAMEtigerna #NAMEgennon #NAMEgenno #SovaduNAME #VelioNAME #NAMEa #NAMEmara #NAMEia #NAMEtilla #NAME
+			##HELLENIC THEOPHORIC NAMES
+			# Eridanos based # Eridanos is a river god COMBINED WITH ERIDAN BECAUSE THAT MAKES MORE SENSE # Eridan based # abbreviated form of Eridanos # Eridan is a homestuck I mean a river god # Eridanos or Eridan in Galatian
+			Eridagnata Eridanognata Eridarigani Eridanorigani Eriduolnati Eridanuolnati Eriduala Eridanuala Eridatigerne Eridanotigerne Eridatigerna Eridanotigerna Eridagennon Eridanogennon Eridagenno Eridanogenno Sovadueridan
+			Sovadueridanos Velioeridan Velioeridanos Eridana Erida Eridamara Eridanomara Eridia Eridania Eridatilla Eridanotilla
+			# Adonis based # Adonis is a god # Adonis in Galatian
+			# Eirene based names # Eirene is a goddess # Elirene in Galatian
+			Elirenegnata Elirenerigani Elirenuolnati Elireneuolnati Elirenuala Elirenetigerne Elirenetigerna Elirenegennon Elirenegenno Sovaduelirene Velioelirene Elirena Elirenemara Elirenia Elirenetilla Elirene
+			# Dione based # Dione is a goddess # Dixona in Galatian
+			Dixonagnata Dixonarigani Dixonauolnati Dixonauala Dixonatigerne Dixonatigerna Dixonagennon Dixonagenno Sovadudixona Veliodixona Dixona Dionamara Dixonia Dixonatilla
+			# Eos based # Eos is a goddess # Echos in Galatian
+			Echognata Echorigani Echosuolnati Echosuala Echotigerne Echotigerna Echogennon Echogenno Sovaduechos Velioechos Echa Echosa Echomara Echosia Echia Echotilla Echo
+			# Aphrodite based # Aphrodite is a goddess # Avrodite in Galatian
+			Avroditegnata Avroditerigani Avroditeuolnati Avroditeuala Avroditetigerne Avroditetigerna Avroditegennon Avroditegenno Sovaduavrodite Velioavrodite Avrodita Avroditemara Avroditia Avroditeia Avroditea Avroditetilla
+			Avrodite
+			# Ourania based # Ourania is a goddess # Orania in Galatian
+			Oraniagnata Oranignata Oraniarigani Oranirigani Oraniauolnati Oraniuolnati Oraniauala Oraniuala Oraniatigerne Oranitigerne Oraniagennon Oranigennon Sovaduorania Sovadurania Sovadorania Veliorania Velorania Orania
+			Orana Oraniamara Oranimara Orania Orani Oraniatilla Oranitilla
+			# Urania based # Galatian alternate spelling of Ourania # Ourania is a goddess
+			# Nyx based # Nyx is a goddess # Nix in Galatian
+			Nixignata Dagonixa Nixirigani Nixuolnati Nixuala Nixatigerne Nixitigerna Nixigennon Nixigenno Sovadunix Velionix Nixa Niximara Nixia Nixitilla
+			# Myrtoesa based # Myrtoesa is a goddess # Mirtoësa in Galatian
+			# Archiroe based # Archiroe is a goddess # Archiroë in Galatian
+			# Hagno based # Hagno is a goddess # Chagno in Galatian
+			Chagnognata Chagnorigani Chagnouolnati Chagnouala Chagnotigerne Chagnotigerna Chagnogennon Chagnogenno Sovaduchagno Veliochagno Chagna Chagnomara Chagnia Chagnotilla Chagno 
+			# Anthracia based # Anthracia is a goddess # Anterasia in Galatian
+			# Nais based # Nais is a goddess # Nais in Galatian
+			# Helios Based # Chelios in Galatian # Chelios is a god
+			Cheliognata Cheliorigani Cheliosuolnati Cheliosuala Cheliotigerne Cheliotigerna Cheliogennon Cheliogenno Sovaduchelios Veliochelios Chelia Cheliomara Cheliotilla
+			# Hermes based # Chermes in Galatian # Hermes is a god
+			Chermegnata Chermerigani Chermeuolnati Chermeuala Chermetigerne Chermetigerna Chermegennon Chermegenno Sovaduchermes Veliochermes Cherma Chermea Chermemara Chermeia Chermetilla
+			# Rhea based # Rhea is a goddess # Rea in Galatian
+			# Gaia based # Gaia is a goddess # Gea in Galatian
+			Geagnata Gearigani Geauolnati Geauala Geatigerne Geatigerna Geagennon Geagenno Sovadugea Veliogea Gea Geamara Geia Geatilla
+			
+			##MOST COMMON NAMES IN RANDOM LIST##
+			
+			Echogennon Iesougennon Iesouala Veliogea Geauolnati Chagno Sovaducobela Iesuala Antiochis Agathe Rossomara Brogimara Petra Elirenegenno Plotina Elirena Cheliotigerne Drousilla Echosia Geamara Kamma Chermeuala
+			Sovadorania Domneio Longina Christa Sironamara Avroditegenno Elirenegennon Drusilla Chermetilla Orana Oraniarigani Cheliosuala Suolibrogenomara Adiobogiona Veliochermes Eridanuolnati Avroditetilla Veliodixona
+			Sovadusuolibrogenos Elirenetigerne Cherma Epona Suolibrogeneia Veliorania Echogenno Sironauolnati Cheliorigani Suolibrogenotilla Sovadusirona Katerina Artemegenno Geagennon Eponea Chermemara Avroditia Velioepone
+			Gaiana Sironagennon Velioeridan Cheliomara Vuronsemouala Chagnotigerne Atiagennon Cobeluolnati Esther Christomara Artemis Atiuolnati Agne Elirenemara Eridarigani Christogenno Cheliotigerna Atiamara Eridanomara 
+			Artemiotilla Echognata Suolibrogenogennon Sovaduelirene Chermea Sovadudixona Oranirigani Christorigani Dixonagennon Dixonagnata Orani Cobelatilla Atiaserigani Cobelagenno Christogennon Sironagenno Theophane
+			Eponegennon Eridagenno Eridanorigani Eriduolnati Quadratilla Cobelamara Suolibrogenognata Atia Camilla Suolibrogenotigerne Camma Atiarigani Agatha Cheliotilla Dionysia Dixonatigerna Echosa Artemisia Nymphadora
+			Chiomara Oraniagnata Velioatia Erida Eponegnata Cobelagnata Artemerigani Apollodora Sironatilla Chermerigani Atiagnata Klaudia Apollonia Artemia Dixonauolnati Atiuala Sovaduchristos Sovaduatia Chelia Vuronsemomara 
+			Chagnotilla Sovaduchelios Timothea Dixonatigerne Christotigerna Suolibrogenuolnati Echorigani Nixigenno Veliochagno Avroditea Artemetigerne Christouolnati Chagnorigani Kleopatra Anastasia Gea Atiasetigerne 
+			Sovaduchagno Sergia Simone Elireneuolnati Cobelia Vuronsemogenno Eriduala Agnes Theophano Sovaduatiase Avrodita Atiasetigerna Vuronsema Domna Eridamara Isidora Poseidonia Nixuala Echotigerne Velioatiase Orania Iesia
+			Elirenetilla Dixonatilla Cobelaia Iesotilla Cobeluala Eridia Oraniatilla Nixatigerne Eridania Elirenuala Rebekka Sovadueridanos Eridanogennon Oranitigerne Chagnouolnati Sironarigani Oraniuala Veliosuolibrogenos 
+			Smertomara Geatilla Artemuala Suolibrogenorigani Eponuala Iesouolnati Kamila Cobelatigerna Chagna Chermegenno Nixuolnati Eponeia Cobela Velioavrodite Avroditegennon Constantia Cheliosuolnati Artemomara Elirenetigerna
+			Claudia Nixirigani Deiotara Nixitilla Eridanotigerna Eridatigerne Oranignata Chagnogenno Sovadugea Eponetigerne Eponetilla Velioeridanos Vuronsemotilla Catomara Cobelatigerne Oranigennon Oranitilla Artemisa Atiaseia
+			Oranimara Chermeuolnati Atiasegnata Kyriake Dionamara Eridana Echa Cobelarigani Veliovuronsemo Sophia Chermegennon Iesoutigerne Nino Elirenegnata Dixonagenno Eridatigerna Berenike Veliosirona Atiaseuolnati 
+			Suolibrogenogenno Basilike Oraniauolnati Geagnata Echotilla Sovadurania Eponerigani Atiasegenno Dixonia Chermetigerna Sarra Suolibrogena Artemegennon Vuronsemogennon Niximara Geia Eridatilla Echia Echo Nixitigerna
+			Oraniamara Christognata Melissa Chagnia Markia Iesugennon Sironauala Konstantia Christotilla Velioelirene Cobelagennon Chermeia Palladia Eponetigerna Dominia Avroditegnata Iesugenno Martha Geatigerne Eridanogenno 
+			Eridanotilla Veliochristos Iouliana Velorania Artemetigerna Sovaduiesos Elirenuolnati Christotigerne Athenais Atiagenno Velioiesos Chagnouala Dixonarigani Sironuala Oraniauala Sovadueridan Veliocobela Eponemara
+			Iesoutigerna Nixa Chagnogennon Antonia Geatigerna Sironia Veliochelios Antiokhis Eridanotigerne Artemegnata Beatrice Eponia Mikhailia Koädratilla Sironatigerne Christia Clara Avroditemara Eponuolnati 
+			Suolibrogenotigerna Vuronsemognata Chagnognata Simona Chagnomara Geagenno Elirenerigani Echotigerna Sovaduavrodite Antonilla Dagonixa Ioanna Dixonauala Marcia Atiatigerna Atiaseuala Avroditetigerna Beatrike Gregoria 
+			Khiomara Stephania Echosuala Avroditeia Velioiessos Vuronsemouolnati Oraniatigerne Leontia Artemidora Chermetigerne Avroditeuala Sironagnata Artemuolnati Iesa Atiatilla Suolibrogenuala Velionix Tektomara Atiasegennon
+			Echomara Chermegnata Maria Severa Sovaduvuronsemo Sovaduechos Tectomara Velioechos Cheliogenno Avrodite Velioartemis Sironuolnati Gearigani Geauala Avroditeuolnati Nixignata Iesognata Nina Rixa Atiasea Atiatigerne 
+			Vuronsemo Atiasemara Nixigennon Klara Epone Avroditetigerne Ioulia Sovadunix Chagnotigerna Atiasetilla Christouala Vuronsemorigani Elirene Cheliogennon Eridagennon Viviana Elpis Eridagnata Oraniuolnati Cheliognata
+			Eponegenno Domina Eridanognata Dixona Pia Eridanuala Theodora Sovaduchermes Echosuolnati Elirenia Sovaduepone Iesorigani Vuronsemotigerne Oraniagennon Sirona Juliana Avroditerigani Valeria Nixia Sovaduartemis 
+			Iesougenno Katomara Sovaduorania Iesomara
+			
+			## PELASGIAN THEOPHORIC NAMES
+			####LESS COMMON THEOPHORIC NAMES
+			## DAOIST THEOPHORIC NAMES
+			# Dao based # Dëos in Galatian
+			# Tao based # Tëos in Galatian
+			## HATTUN WAASHAP THEOPHORIC NAMES
+			# Inara based # Inara is a xenine deity # Inara in Galatian
+			# Taru based # Taru in Galatian # Taru is a god
+			# Hanfasuit based # Chanvasota in Galatian # Hanfasuit is a goddess
+			## CHRISTIAN THEOPHORIC AND SANCTOPHORIC NAMES
+			# Bartholomew based # Bartolomaios in Galatian # Bartholomew is a dude
+			# Daniel based # Daniel in Galatian # Daniel is a dude
+			# Michael based # Michael is a dude # Michael in Galatian
+			# Manuel based # Manuel is a dude # Manoëlos in Galatian
+			# Emmanuel based # Emmanuel is a god # Emanoëlos in Galatian 
+			## KEMETIC THEOPHORIC NAMES
+			# Horus based # Choros in Galatian
+			# TEMPLATES FOR THEOPHORIC NAMES ## MAKE ANEW
+			#NAMEgnata #NAMErigani #NAMEuolnati #NAMEuala #NAMEtigerne #NAMEtigerna #NAMEgennon #NAMEgenno #SovaduNAME #VelioNAME #NAMEa #NAMEmara #NAMEia #NAMEtilla
+			#### WORD BASED
+			# Tascos # Galatian for badger
+			# Taskos # Galatian for badger
+		}
+
+		dynasty_of_location_prefix = "dynnp_of"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = mercenary_company_varangian_guard }
+			{ name = "mercenary_company_heruli" }
+			{ name = "mercenary_company_hoplites_of_place" }
+		}
+	}
+	
+	neocimmerian = {
+		
+		color = { 62 40 31 }
+		
+		cadet_dynasty_names = { # dynasties are just personal names
+			"Alexeia"
+		}
+
+		dynasty_names = {
+			"Alexeia"
+		}
+
+		male_names = {	# c_kamisa c_sebasteia c_pedachtoe c_sebastopolis c_kheranion 
+			##MOST COMMON NAMES IN RANDOM LIST##
+			Elirenetigernos Suolibrogenotigernos Ardeshir Uranias Chrysanthos Eosogonos Emmanuelias Adoniestos Anthrakos Katomaros Bassos Aiasedoulos Anphasoithaios Atitigerne Ehsan Catomaros Iesuellaunos Viroartemis Babak 
+			Leontios Leonnorios Atiasegnatos Segoiesos Adonophoros Dytilaos Adonuellaunos Kyriakos Eponetigernos Kyros Kambaules Dionophylaktos Khachig Danielaios Dionios Manuelcharistos Zenon Anphasoithos Inaraios Himerios
+			Aphroditodoulos Adoniphylaktos Selenetigernos Sunephodotos Trdat Shahryar Atiastestos Danielodotos Neophytos Jahanshah Tovmas Methodios Mleh Eugenios Nikephoros Eponuallos Pylamenes Catuatia Eosos Theodosios Melek 
+			Emmanuelcharistos Mehrab Leo Emmanuelios Suolibrogenos Ortiagon Eridanodoulos Segocernunnos Deiotaros Naisogonos Harudosios Plotinos Cintudixona Iessouellaunos Brogitarios Elirenegenos Iesomaros Artemenuellaunos Vahid
+			Severos Velioadonis Aiasegonos Dionysios Sabas Dixonogenos Segoelirene Adoninios Gevorg Davit Dixonetorix Iessualos Emmanueldoulos Dionodoros Aitaphoros Doumnorix Dionaios Nezam Innokentios Agnios Basiliskos Maurikios
+			Eosocharistos Bagour Eirenodoulos Michaelcharistos Nyxias Segoartemis Manuelaios Selenes Inaraphanes Segovuronsemo Hieroarchiroe Myrtoesos Hossein Vahan Iessos Georgios Tuktistos Hormazd Atiatorix Dionodotos 
+			Brogitaros Eridanomaros Naisophylaktos Maziar Cernunnocorix Ioulianos Marzuban Eosaios Goshtasb Hieroaphrodite Kleon Iessomaros Archirodosios Dominius Artashir Dus Inaradotos Sunephos Atiaios Antonios 
+			Aphroditocharistos Dixonestos Sunephophanes Iesonios Eriduallos Myrtoesodoros Humayun Atiaseios Thomas Tudoros Veliodixona Selenerix Demetrios Mihrdat Suolibrogenouellaunos Raphail Olorix Bedros Eponetigerne Ardahan
+			Selenodoulos Manuelktistos Ebrahim Kavoos Eridanophanes Shapur Selenecorix Eirenodosios Narses Aphroditios Inarodoulos Hethum Atiuallos Artemios Atiuelnamnos Michaelaios Eosias Manuelgonos Tectomaros Prokopios 
+			Eridanotigerne Eridanocharistos Ouranoktistos Vuronsemocintu Dionos Eponenios Eridanodosios Hieronais Nyxocharistos Ouronshemoucharistos Bartholomodotos Michaelias Christaios Eirenos Damielophylaktos Abolhassan
+			Atiacorix Aiasophoros Ouronshemouphoros Hieroeirene Aphroditogonos Farroukh Aitacharistos Selenos Staurakios Vuronsemorix Ateporix Eponemaros Archirodotos Hieroselene Iesonos Adoninos Hieroeos Iessuelnamnos Eridamaros
+			Anthrakiophoros Emmanuelaios Hieremmanuel Yazdegerd Eponios Aleksandr Sunephaios Danielodosios Bitorix Vandad Eshkhan Fath Alexandros Elirenecorix Germanos Archirodoulos Myrtoesias Hierodu Archirophoros Selenuallos 
+			Artemencintu Aitos Eridanorix Yeghishe Naisias Laurentios Sergios Uranoktistos Agnodotos Atiasetigernos Selenuellaunos Bartholomodoros Inaragonos Emmanueldosios Agnogonos Eireneos Traianos Pios Vagharshak Hagop Inaros
+			Eriduellaunos Valerios Anthrakiocharistos Bartholomodosios Yeghise Virocernunnos Eosodoros Dionias Sunephodisios Anphasoithcharistos Dixonagnatos Aristarchus Zia Eosophoros Uranodoros Brkisho Zaven Andreas Melitus
+			Damianos Epatorix Bartholomophoros Tahmasb Polykarpos Bolgios Cintuvuronsemo Emmanueldotos Hovsep Articnos Shayan Sahag Adonitorix Vassak Eosodotos Timotheos Makarios Hormizes Brennos Inaraktistos Adonaios Iesocorix
+			Ghevond Eirenocharistos Naisodoulos Elireneuelnamnos Suolibrogenorix Selenestos Hovhannes Eridanognatos Eridanouellaunos Aiasedosios Christos Nyxos Adonoktistos Paulos Suolibrogenotorix Dikasios Manuchihr Haruktistos
+			Eridanogenos Boethios Anthrakias Bathanattos Vuronsemogenos Ouronshemoudoulos Artemenognatos Dertad Eriduelnamnos Vuronsemuelnamnos Shahrokh Hierotarou Tudotos Tarougonos Ardavan Iordanes Aiasogonos Haruphanes
+			Aboughamr Cernunnonestos Rouphos Artemenos Javeed Reza Sisinnios Aiasios Eridatigernos Christogonos Aphroditophoros Eridanophoros Eireneios Theocharistos Gurgen Bitos Hieroadonis Tiberios Ferdows Elpidios Manuelos
+			Suolibrogenios Kaisarios Michaelktistos Iessorix Ouranodotos Iessotorix Christodoulos Iakobos Vuronsemouallos Selenuelnamnos Atiestos Uranodotos Tarouias Artiknos Viroselene Inaraias Mashdotz Hieroeridanos 
+			Elirenuallos Vrtanes Vuronsemuellaunos Tarous Anthrakiodotos Selenophoros Ioannes Bartholomes Mozaffar Virodixona Iesogenos Domnos Uranodosios Suolibrogenouallos Tucharistos Vuronsemognatos Ouronshemouphanes 
+			Taroudoros Michaelphoros Ouronshemaios Ouronshemouktistos Iessouelnamnos Serapion Esma_il Uranios Iessuellaunos Catuartemis Avag Sunegonos Longinos Sunephas Archiraios Aphroditaios Michaeldoros Zenobios Adonimaros 
+			Inaraphylaktos Naisodotos Seleneios Gerasimos Inaradoros Suolibrogennios Vishtasb Morteza Nyxodotos Michaeldotos Naisophoros Boghos Smertomaros Velioatia Velioiessos Vuronsemocorix Cernunnotigerne Rostam Aitodoulos 
+			Elireneuallos Danielios Atrnerseh Mzhezh Orestes Tornik Eridanotorix Catusuolibrogenos Elirenenios Manuelphanes Dionoktistos Myrtoesodosios Abbas Tuphylaktos Hieroinara Koädratos Catudixona Kosmas Dixonamaros 
+			Viroatiase Akakios Veliatia Manuelias Theodoulos Aiasias Myrtoesoktistos Atiaseuellaunos Aphroditophanes Bartholomophanes Pelagios Catuiesos Domnilaos Cernunnotigernos Anphasoiths Manuelphylaktos Malkhas Velioiesos 
+			Taroudoulos Hierodione Konstas Adonophylaktos Atiogenos Aitaios Ashot Emmanuelos Bartholomaios Haraios Gholam Eridanoktistos Shahab Pyrros Naisophanes Kallistratos Naisaios Michaephoros Bartholomodoulos 
+			Ouronshemoudoros Dumnorix Selenoktistos Dionophanes Vuronsemestos Atiakintu Apollonios Ioannikios Tugonos Antiochos Ouronshemoios Artemigenos Eponenos Mushegh Aristarchos Elirenetorix Arsen Agnophoros Eponecintu
+			Farhad Zand Theophanes Mahmud Kurush Eridanophylaktos Aitoktistos Kastor Viroeridanos Photios Naisos Bagrat Husik Veliatiase Ouronshemougonos Bartholomophylaktos Aboulgharib Danielos Fariborz Atiaseuelnamnos Archelaos
+			Sinorix Megistos Danielophoros Uranophanes Selenaios Velioeridanos Atiagenos Bartholomoktistos Selenetorix Aiasedotos Uranophulaktos Harugonos Cintusuolibrogenos Elirenegnatos Cernunnestos Harudotos Catuafonis Peroz
+			Segoeridan Palladios Hierotheos Jahandar Vakhtank Atiaseuallos Euphemios Tarouktistos Hieromanuel Sunephophulaktos Danielogonos Atiasetorix Aphroditias Archiroktistos Borgoris Iessotigerne Kombolomaros 
+			Anphasoithphanes Suolibrogenestos Selenodosios Michaelgonos Mohammed Segatia Kyrillos Dudoulos Artavazd Cintuartemis Danielocharistos Danielophanes Cernunnios Artementigernos Hieroaiase Vahag Dixoneios Faraz Nikolaos
+			Hierouronshemou Quadratus Aitodoros Archirophylaktos Abirad Khachik Eridanosestos Uranophoros Afshar Baigorixo Aiasephanes Anushirvan Adonigonos Duphylaktos Dixonenos Anphasoithdotos Inarodoros Anphasoithgonos 
+			Bartholomos Eridanotigernos Claudius Agnias Aitaias Ouranophanes Christias Atiagnatos Christodosos Nyxios Velioselene Bartholomogonos Isidoros Nikodemos Naisodosios Bakhtiar Iesuallos Ali Inarodosios Dixonuelnamnos
+			Uranogonos Hieronthrakia Akbar Anthrakios Eudoxios Shahbaz Adonios Dixonenios Ignatios Emmanuelgonos Tatoul Kavadh Artemenios Haros Komontorios Anthrakiophanes Eridanios Tigran Boiorix Eridanogonos Catuvuronsemo 
+			Manuelphoros Isaias Atiasetigerne Avedis Niketas Elireneuellaunos Dyteutos Adonodoulos Pamphilios Petros Atianos Aitas Jacob Sunias Agnocharistos Vuronsemotigernos Diodoros Ouranodoulos Aspuraces Selenogonos 
+			Sunephoros Gagik Elirenestos Myrtoesphoros Selenecharistos Naisocharistos Gosdantin Selenegnatos Dudotos Aitophulaktos Hieromyrtoesa Agnos Stephanos Anphasoithias Dionogonos Konnakorix Seleneuelnamnos Eridanaios 
+			Mikayel Emmanuelphoros Aphroditodosios Eridanos Selenophanes Fareed Eireneias Grigor Eosodoulos Suolibrogenogenos Hedayat Zakare Evangelos Eirenes Nyxodoros Veliocernunnos Eirenodoros Anthrakiophylaktos Dixonocintu
+			Aitophanes Zarmihr Eridanuallos Atiase Iesuelnamnos Velioartemis Uranocharistos Dixonerix Iessonios Phokas Christophylaktos Viroadonis Alexios Theodoros Archirios Cernunnorix Segoiessos Drousos Michaelphylaktos
+			Dixonuellaunos Eridan Zacharias Cambaules Sina Iesouallos Ouronshemous Dionophoros Vachagan Myrtoesodoulos Eridanodoros Anthemios Tachat Julius Michaelios Dariush Stepanos Duktistos Domneion Ahmad Archirophanes 
+			Viroelirene Dominus Thoas Myrtoesodotos Virovuronsemo Ouronshemoudotos Velicoatiase Emmanueles Tarouphanes Matthaios Elirenios Segoeridanos Combutis Iessestos Theodotos Sunephocharistos Aiasecharistos Iesestos 
+			Adonicharistos Khurshid Adonuallos Nyxodoulos Eusebios Ouranophylaktos Aiasephylaktos Fereedun Basileios Adrianos Ioustinos Selenegenos Belgos Aphrodites Heliodoros Hierourania Ananias Vuronsemotigerne Vuronsemonios 
+			Christodosios Kallistos Danieles Porphyrios Aitodotos Loukas Abas Segosuolibrogenos Dudosios Allahyar Sadri Athanasios Catucernunnos Myrtoesophylaktos Lutatios Dixonotigerne Bartholomocharistos Herakleios Eustathios 
+			Eponestos Anthrakaios Dixonotigernos Ouranodoros Iesouellaunos Athom Cernunnouallos Hieromichael Eponecorix Atiasenios Dixonuallos Gabriel Ioulios Vahram Suolibrogenouelnamnos Bosporios Inaradoulos Parviz Symmachos
+			Antiokhos Combolomaros Adonias Selenophylaktos Eosodosios Catuelirene Basil Harucharistos Segermas Sebastianos Eridatorix Segoadonis Ivane Adonigenos Aristakes Archirogonos Tudulos Kerethrios Eirenoktistos Paschalis
+			Hypatios Eridanuelnamnos Ruhollah Pankratios Aphroditodotos Arsenios Artemenocorix Bitognatos Vuronsemonos Manueldoulos Eosophanes Cerethrios Selenodoros Ouranias Manuel Veliosuolibrogenos Adonirix Bahram 
+			Michaelphanes Catuatiase Adonos Hafez Eridagenos Nyxogonos Myrtoesocharistos Shahanshah Hormoz Archiroes Diogenes Elirenemaros Emmanuelphylaktos Iessios Varazdat Hazarasp Simon Danieloktistos Artemenorix Naisoktistos 
+			Agnodoros Myrtoesaios Christophanes Segonatia Archirias Artemenuallos Oshin Nyxoktistos Harus Cernunnouellaunos Joab Eporedorix Taniel Cernunnotorix Tus Hooshyar Hierochristos Inaraphoros Mihrdad Pashang Dionodosios
+			Hierotu Connacorix Eustratios Khashayar Kapriel Aiases Orestorios Anthrakiogonos Naisodoros Adonicorix Brogoris Adones Symeon Mithradates Kassignatos Vahhab Manuelios Agnoktistos Amin Anthrakiodoros Selenenios
+			Nyxodosios Vesd Adonodoros Manueldotos Christoktistos Michaeles Ioseph Andronikos Khosrau Jahangir Anphasoithphylaktos Kallinikos Faramarz Khodadad Eridanouallos Agnodoulos Tarouphylaktos Selenemaros Gregoras
+			Emmanuelktistos Danush Eridanodotos Hierurania Taroudosios Aphroditodoros Artementigerne Adoniphoros Adoniktistos Zakaria Atiomaros Eridanocorix Anatolios Eridatigerne Eirenaios Michaelos Helias Dixonegenos
+			Eridanestos Archirodoros Catuepone Uranaios Salman Meletios Vuronsemomaros Babken Adonodosios Atiasemaros Nyxophylaktos Aristaces Chrysogonos Velioeridan Eridacorix Eposognatos Eridagnatos Hamazasp Aitodosios Nicolas 
+			Duphanes Margos Anphasoithphoros Dixonecorix Hieroanphasoith Agnaios Aphroditeos Myrtoesgonos Adonignatos Viroatia Hassan Agnophanes Sarkis Inaras Theoktistos Nyxes Bozorg Shahram Adonogonos Thoros Konstantios Kambiz
+			Brogimaros Mouses Nyxophanes Eosoktistos Ouronshemouas Ouranocharistos Loutatios Seleneuellaunos Iessoualos Christodoros Eirenophylaktos Iessocorix Esfandiar Myrtoesophanes Gaios Cernunnos Shahruz Sinatos 
+			Ouronshemouphylaktos Arshak Eridanuellaunos Manueldoros Suolibrogenomaros Nyxaios Anthimos Yousef Elirenetigerne Iessognatos Eridanouelnamnos Leon Selenenos Seleneuallos Ouranios Tarouios Tryphon Lostoiekos 
+			Gaizatorix Manueldosios John Assad Zartosht Eirenophanes Levon Emmanuelphanes Cernunnouelnamnos Arkhelaos Anphasoithios Inaradosios Adonocharistos Eridanrix Viroiesos Atitigernos Darab Ouranogonos Cernunnomaros 
+			Selenias Iesotorix Nais Artemenotorix Danielodoulos Atiasecorix Eponetorix Aitophylaktos Bahman Nerseh Haruphylaktos Khudayar Lazaros Dugonos Komboutis Sevag Veliovuronsemo Kharmandar Aiaseos Anthrakis Suolibrogennos
+			Ouronshemoudosios Julian Elirenuelnamnos Manushihr Dorotheos Iesos Christophoros Niphon Aiasektistos Morad Behrouz Tuphanes Pujman Ouranophoros Inaracharistos Anthrakiodoulos Bartholomias Atiasegenos Hippolytos Harios
+			Harudulos Dixonemaros Uranodulos Harudoros Nard Segoselene Eosophylaktos Catuselene Ouranodosios Iessotigernos Nawid Myrtoesios Farzad Iessogenos Mashad Aphroditoktistos Selenios Artemidoros Daniel Naveed Catuiessos
+			Sunephodoulos Diones Segoatiase Sunephoktistos Tektomaros Anphasoithdoros Aitagonos Dionodoulos Atiarix Cernunnogenos Maximos Zahak Agnophylaktos Baegorix Pantoleon Atiasecintu Tarouphoros Atiaserix Klaudios Prix 
+			Viroiessos Adoniphanes Velioelirene Catueridan Dixonagenos Aiasaios Adonidoulos Cernunnognatos Varshasb Vuronsemotorix Hieroaita Sunephodoros Comontorios Samuel Artashes Romanos Eponognatos Danielodoros Artemenomaros
+			Eponuellaunos Godarz Artemenuelnamnos Constantine Artemestos David Davud Iessonos Virosuolibrogenos Tudosios Eskander Manueles Smertorix Gregorios Mushel Vache Ouranaios Tuphoros Keyghobad Mamigon Bardas Mikhail 
+			Archiros Behrad Harias Antoeis Danielias Anthrakioktistos Seleneos Suolibrogenotigerne Kyud Keykhosrau Iesouelnamnos Martyrios Myrtoes Isaakios Roupen Shahin Michael Konstantinos Aitachios Aitodulos Adonidosios 
+			Agnodosios Khosrov Michaeldoulos Adonitigerne Dudoros Theophylaktos Anphasoithktistos Jamshid Eos Aphroditophylaktos Komitas Eirenogonos Vartan Ioustinianos Selenetigerne Suolibrogenognatos Eridanias Aiasedoros 
+			Eponegenos Atiasenos Dionocharistos Pharen Anastasios Adonis Adonitigernos Suolibrogenocorix Eponerix Bogodiataros Elirenerix Iesorix Iesotigerne Anphasoithdoulos Adonuelnamnos Nyxophoros Inarodotos Aurang Haruphoros
+			Menas Eirenophoros Christocharistos Smbat Ducharistos Christios Hektorios Duphoros Taroudotos Elirenuellaunos Ayeshah Vali Kamran Djamasp Belisarios Archirocharistos Iesios Catueridanos Adonophanes Hieroeridan 
+			Iesotigernos Iesognatos Aram Farrukhzad Mehrzad Eosios Ghobad Hieragno Segodixona Cassignatos Elireneios Markos Gennadios Eponuelnamnos Viroeridan Taroucharistos Hieroharu
+		}
+		
+		female_names = {
+			##MOST COMMON NAMES IN RANDOM LIST##
+			Adonognosia Tute Atiasegenno Christouolnati Tuchariste Danielophano Uranorete Suolibrogenorigani Alexeia Atiagenno Eridanogenno Danieloktiste Atiasetigerna Adonita Inaroletta Manuelita Sovadugea Sironatigerne 
+			Chrysogone Afsaneh Bartholomodosia Avrodita Tarouita Pavlina Oranitilla Cobelagenno Cobelarigani Aiasiake Ouronshemouktiste Eponerigani Sunephine Tuktiste Veliochagno Chermetigerna Nikoletta Dionea Eudoxia Brogimara 
+			Atia Archiris Aitete Parvin Pounig Eponuolnati Eirenia Velioatiase Berjouhi Sunephognosia Anthrakine Aphroditoletta Ourania Valeria Theognosia Eudokia Eponeia Zmroukhd Eirenegnosia Sovaduchristos Ouronshemoune Roxana 
+			Sirvart Suolibrogenogenno Azadeh Eosodosia Ghoncheh Adonignosia Atiamara Nyxe Dionia Plotina Ouranophano Sirona Echosuala Emmanueldora Atiatilla Danielete Naisodora Hasmig Echogenno Tarourete Manuelphano Oraniauala
+			Sunephoktiste Inariake Sironauala Artemegenno Sophia Eosa Eridanichariste Avroditegenno Sunephia Euphrosyne Eridanoletta Eponegennon Drousilla Danieline Elirenia Dominia Dus Oranignata Anphasoithe Banafsheh Domina
+			Eirenechariste Archirorete Christa Chermetilla Eridanete Anphasoithchariste Donya Lousin Avroditeuala Eirenine Naisochariste Cobelatigerna Eoserete Eireneis Nyxochariste Myrtoese Sironagennon Domneio Oraniarigani 
+			Archirete Cobelaia Tudosia Vuronsemotilla Theodosia Alitz Asa Seleniake Hripsimeh Christogenno Cobelatilla Antiokhis Sunephodora Cobelia Damiane Eridanophano Pulcheria Archiroa Dalita Tuke Katranide Haruktiste Tuphano 
+			Adonerete Danielita Suolibrogenotigerne Kamila Ouronshemoudora Michaelktiste Vuronsemouala Adonirete Inaradosia Khiomara Eupraxia Anthrakognosia Chagnia Danielochariste Avroditemara Razmouhi Deiotara Christogennon
+			Elirenuala Emmanueline Nyxoletta Iesougennon Veliodixona Echia Eosiake Naisa Velioiesos Avroditetigerna Catomara Tarouine Artemisa Noor Adiobogiona Nikarete Agnete Vuronsemomara Christis Eosoletta Aphroditerete 
+			Nymphadora Agnoktiste Eosine Konstantia Gea Michaelgnosia Echognata Aiasita Elirenuolnati Myrtoesoktiste Velioatia Anphasoithdora Michaele Eireniake Harugnosia Archirophano Chermegnata Uranete Bartholoma Michaela 
+			Theochariste Bartholomaiorete Myrtoesophano Dixonia Eridanektiste Archirrete Danielia Cobelagennon Adona Elirenemara Atiagennon Aphroditognosia Eridanotilla Shahzadeh Eosis Danioletta Agnodosia Elirenegenno Hare 
+			Anthrakodosia Echosuolnati Elpis Naisognosia Eirenoktiste Selenektiste Eridanotigerna Adoniphano Cheliotigerna Javaneh Hara Eridanognata Chagnogennon Sovadusirona Oranigennon Suolibrogenomara Petra Uraniake Durete
+			Naisita Emmanuelktiste Haria Furuzan Oraniamara Eunike Elirenegennon Oraniatigerne Rhodanthe Atiasegnata Dionognosia Nixuolnati Iesognata Eridanis Adoniake Geatilla Eirena Iesa Myrtoletta Aiasedora Anphasoithia 
+			Seleiake Vosgi Tarouta Sovaduorania Adonophano Archiroete Chagnotigerne Nyxine Atiuala Anthrakia Cobelamara Christe Christochariste Pertevniyal Aiasis Echosia Aphroditia Nyxophano Eireneine Eireneake Tarouke 
+			Bartholomine Nixuala Juliana Sironuolnati Eirenephano Artemiotilla Ovsanna Inaraine Farnaz Christotigerna Eridanadora Sovadudixona Gregoria Anphasoithphano Aiasa Manueldosia Touran Sovaduepone Suolibrogenotigerna 
+			Naisophano Christete Kyra Apollonia Sovadunix Michaelia Aitagnosia Ouranoletta Anthrakoktiste Naisine Oraniauolnati Oranimara Uranoktiste Archirochariste Barbara Eridatigerna Selene Duta Archiroine Christodora 
+			Eirenita Elnaz Velioeridanos Christotigerne Veliosuolibrogenos Atiagnata Marcia Aite Dioneia Harita Emmanueloletta Velionix Myrtoesine Beatrice Dionita Sovadusuolibrogenos Artemetigerna Duchariste Chermegennon 
+			Suolibrogenuala Simone Cheliorigani Dionine Dionochariste Myrtoesete Satenik Esther Anphasoitholetta Urania Nane Vuronsemognata Epone Selenita Eridanarete Eponea Anthousa Michaelchariste Naisia Chermeia Chagnotilla
+			Danielis Nyxis Chagno Elirenetigerna Soraya Michaeldosia Archirodosia Eosorete Evanthia Bartholomophano Farva Zarrindokht Duphano Eireneta Chermeuolnati Atiatigerna Avroditea Christodosia Turete Dinah Echotigerne
+			Theodora Agnognosia Selenechariste Manuelktiste Artemis Bartholomognosia Uranodosia Sironauolnati Ouranodosia Emmanuelchariste Elirenegnata Manueline Anphasoithine Tarouake Tarouphano Aiasoletta Orani Nyxodora Agnis 
+			Leila Nixigennon Dionodosia Danie Avroditegennon Tudora Anphasoitha Cheliotilla Eridania Euphemia Velioeridan Tarouete Cobeluolnati Zeynab Vuronsemorigani Golbahar Longina Aghavni Eridanine Christognosia Seleneoletta
+			Garyphallia Eireneita Vuronsemotigerne Myrtoesodora Dixonauala Khorishah Arghavan Agnine Inaraphano Bartholomochariste Seleneine Hariake Dute Manuelis Duke Antonilla Seleneis Uranodora Iesuala Adonis Inaris Nyxia 
+			Agnorete Tourandokht Chermegenno Sunephrete Ouronshemoudosia Danielodora Iesoutigerna Vuronsema Nazani Antipatra Sironuala Katomara Dixonatigerna Emmanuelphano Manuelete Inare Manuela Uranine Eponegnata Eugenia 
+			Eirenea Ioanna Eridanogennon Aitophano Aiaserete Ouronshemourete Nixa Agnia Constantia Tectomara Christoletta Thekla Salomeh Artemuala Inarophano Elirena Keghanoush Erida Arin Myrtoesita Veliogea Eridanedora
+			Avroditetilla Sovaduiesos Echo Dionerete Velioavrodite Keran Shoushanig Uranoletta Naisis Leyli Veliocobela Oranirigani Dixonarigani Elirenetilla Poseidonia Duktiste Aiasegnosia Arevig Eridagennon Camilla Cobeluala
+			Myrtoesis Michaeline Myrtgoesa Atiasegennon Uranognosia Chagnouala Archirita Ouronshemous Nixia Ouranochariste Antiochis Tamar Emmanueliake Manueliake Nazgol Ioustina Aphroditis Agnochariste Archirine Adoniktiste
+			Eosoktiste Suolibrogenognata Taroudosia Naischariste Tarouktiste Aiasektiste Iesouala Fareedeh Selenedora Severa Manueloletta Eirenis Sunephiake Avrodite Taroua Harudosia Aitachariste Velorania Nixitilla Uranita Geia
+			Eridanoktiste Irandokht Eridanuolnati Zabel Sovaduchermes Naisrete Dixonagenno Adonidosia Elirenetigerne Avroditerigani Delbar Eireneia Adonochariste Demetra Michaerete Inarais Eirene Veliovuronsemo Almasd Tarouletta 
+			Selenerete Myrtoesognosia Houri Ouronshemouphano Atiaseuolnati Nyxa Archiroktiste Ouronshemou Kohar Aitoletta Clara Dionete Dionophano Aitadora Eosita Eirenete Artemia Agnodora Haroletta Cobelagnata Ghamze Eirenodosia
+			Manuelchariste Atiuolnati Vuronsemogenno Golnaz Dioniake Artemuolnati Melissa Meghranoush Delaram Konstantine Christognata Chagnomara Eridanita Dionodora Nyxita Adonine Agnita Echotigerna Gearigani Beatrike Nyxodosia
+			Navvaba Suolibrogenogennon Stephania Chelia Anthrakita Harurete Dudosia Taroute Mahdokht Aphrodita Veliochermes Aitaia Orana Iesugennon Cobelatigerne Michaeldora Cheliogennon Avroditia Sovaduchagno Archiroe
+			Suolibrogenuolnati Aiasine Aiase Eponetilla Christomara Mahtab Adonodora Eridanochariste Eridanodora Christoktiste Eose Emmanuelia Nazilla Eridanuala Eridatigerne Atiasetigerne Inaraktiste Ouranine Suolibrogeneia
+			Eridaniake Zenobia Farah Basilike Sunepholeta Manuele Manuerete Katerina Nixignata Chagnognata Hranoush Chermea Danielognosia Roshanora Mariam Alexandra Cherma Chermerigani Geagennon Tus Eridanechariste Yasaman Adonia
+			Cheliomara Anphasoithrete Seta Artemegnata Tuletta Eriduolnati Myrtoesiake Velioechos Eirenedora Tarouoletta Simonis Echomara Atiaserigani Azarmidokht Adonodosia Cobela Harete Arda Ouronshemouta Cheliosuolnati 
+			Euphrasia Atiatigerne Ouranis Naisoktiste Aitarete Aitaktiste Artemisia Eridanachariste Sovadueridan Dugnosia Sunephita Selenine Selenophano Naise Haruphano Eponia Anthrakiake Archirois Sovadueridanos Eireneoletta
+			Echotilla Aphroditochariste Helene Camma Geauala Tarouis Eridanidosia Ouronshemouke Bartholomoletta Hurmat Eosia Emmanuele Berjanoush Bartholomia Dune Eireneiake Inarita Tuta Selenake Aiasephano Eosodora Maria
+			Eridagenno Ouranognosia Suolibrogena Burandokht Seleneia Oraniatilla Klara Anastasia Christotilla Eusebia Chermeuala Yeva Dixonatilla Atiasemara Dionysia Cheliognata Taroune Myrtoesia Ghazal Iesorigani Veliochristos
+			Vuronsemogennon Oranitigerne Theophane Eriduala Theoktiste Ouranita Shirin Eridanidora Agatha Aitiake Iesia Theophano Sunephis Veliochelios Eosete Dixonauolnati Darya Aitita Adriane Myrtoeschariste Daniela Parthena
+			Manuelia Seleneta Eridagnata Harudora Drusilla Chiomara Oraniuolnati Selena Sunepha Nixigenno Anphasoithete Nonna Geamara Inarachariste Sergia Christouala Ouronshemoute Vartanoush Antonia Ouranete Agnoletta 
+			Eirenophano Eridana Atiasetilla Aitadosia Michaelphano Rossomara Datevig Ourana Naisoletta Christine Uranochariste Archiroeis Pelagia Veliosirona Behnaz Markia Eirenognosia Selenephano Emmanuela Inaraia Eirenene 
+			Mikhailia Margarita Inara Ouronshemouletta Geauolnati Christophano Bartholomoktiste Eridanerete Eridanotigerne Eridatilla Nixatigerne Danierete Sunephe Eridanognosia Emmanueldosia Sibylla Ahu Echosa Hamdam Eponegenno
+			Diona Eosochariste Geagenno Yekta Sovadurania Niximara Anthrake Aphroditete Eliz Geagnata Atiasea Anthrakete Ouranodora Ourane Eridane Ouraniake Bartholomete Selenegnosia Anoush Emmanuelis Anthraka Elaiodora 
+			Danieliake Golshan Michaelita Eustathia Kyriake Iesoutigerne Artemegennon Sunephete Sarra Inaradora Dixona Suolibrogenotilla Rita Palladia Archiroia Timothea Anahid Chagnotigerna Michaeloletta Smertomara Xene Ioulia
+			Christiake Nyxoktiste Bartholomaia Michaelete Adonorete Domna Eridanedosia Duletta Iesomara Ouronshemouchariste Manueldora Chermemara Chermetigerne Simona Farrin Anphasoithdosia Tarougnosia Myrtoesodosia Adonoktiste
+			Aphroditophano Dionamara Pourandokht Artemomara Sovaduartemis Eirenodora Eridanomara Oraniagnata Vartouhi Eponetigerna Dionoletta Urana Eponetigerne Nixirigani Dionoktiste Hypatia Eridanignosia Romylia Christorigani
+			Parvaneh Aita Chagna Sironia Atiarigani Adonoletta Christorete Agathe Sironarigani Kleopatra Elireneuolnati Veliorania Aphroditine Eridanorigani Athenais Oraniuala Chagnorigani Nyxete Agnes Taroue Agne Tugnosia
+			Manuelgnosia Klaudia Anphasoithgnosia Vuronsemouolnati Epona Iesougenno Bartholomiake Elirenerigani Inaragnosia Emmanuelgnosia Aikaterine Eridanagnosia Chagnogenno Tarouchariste Iesotilla Eridanadosia Dorothea Eridia
+			Cheliogenno Bartholomis Eirenerete Jamileh Adonidora Uranophano Eirenoletta Oraniagennon Agniake Urane Basillike Viviana Anna Sironatilla Gaiana Haris Aphrodite Artemidora Kamma Velioiessos Isidora Atiaseia Dionis
+			Eirenedosia Iesouolnati Aiasedosia Vuronsemo Golpari Echorigani Sunephochariste Anphasoithis Dione Sironamara Selenedosia Tune Anphasoithktiste Berenike Aphroditodora Sovaduatiase Sovaduatia Eridamara Eponuala 
+			Koädratilla Tektomara Agna Tarouiake Athanasia Aitais Sovaduvuronsemo Mara Naisechariste Zohreh Georgia Aiasechariste Sovaducobela Anphasoithita Emmanuelete Eridanaktiste Aiasia Elham Archiroita Eosognosia Nyxiake
+			Cheliotigerne Anthe Iesugenno Sironagenno Michaelis Artemerigani Apollodora Claudia Iouliana Elirene Anthrakodora Siran Atiaseuala Quadratilla Margarid Mariyam Orania Bartholome Sovaduelirene Bahar Ouranorete 
+			Dixonatigerne Eridanegnosia Kale Aitine Echogennon Emmanuelita Naisete Taroudora Sovaduechos Chagnouolnati Sovaduavrodite Eridarigani Archirodora Velioepone Velioelirene Nixitigerna Eosophano Emmanuerete Agnophano
+			Sovadorania Sovaduchelios Romane Artemetigerne Aphroditoktiste Myrtoerete Adone Nyxognosia Geatigerne Eridanodosia Nyxyrete Pia Tarouia Danielodosia Adonete Ouranoktiste Nino Anthrakoletta Naisiake Srpouhi Eponemara
+			Aiasete Anthrakis Anthrakochariste Anphasoithiake Bartholomodora Martha Eirenektiste Rixa Anthrakophano Geatigerna Takouhi Dagonixa Echa Ouronshemougnosia Avroditeia Nina Archirognosia Aphroditichariste Aphroditiake 
+			Eulalia Gadar Christita Michaeliake Leontia Zoe Dixonagnata Eridaniktiste Baydzar Uranis Anthrakirete Rebekka Dudora Shahrzad Thomais Sunephophano Gorandoukht Avroditegnata Avroditetigerne Gabrielia Haruchariste
+			Christia Dixonagennon Aigidia Cheliosuala Velioartemis Sironagnata Avroditeuolnati Latavri Harine Epiphania
+		}
+
+		dynasty_of_location_prefix = "dynnp_of"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = mercenary_company_varangian_guard }
+			{ name = "mercenary_company_heruli" }
+			{ name = "mercenary_company_hoplites_of_place" }
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

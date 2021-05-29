@@ -1,0 +1,318 @@
+e_france = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	1013.1.1 = {
+		holder = drsfrance0001 # Amalie dEstrees
+	}
+}
+
+#### BEGIN k_france ####
+
+k_france = { # different holder # a dynasty stretching from 867 # becoming vassals to the high kingdom in 1013
+	867.1.1 = {	
+		change_development_level = 8
+		holder = drskfrance0001 # King Raimbaut I de Léchelle
+		succession_laws = {
+			francien_elective_succession_law
+			equal_law
+		}
+	}
+	903.1.1 = {
+		holder = drskfrance0003 # King Ïalonnosse I de Léchelle
+	}
+	950.1.1 = {
+		holder = drskfrance0017 # Queen Andrâste Irène I de Léchelle
+	}
+	958.1.1 = {
+		holder = drskfrance0039 # Queen Aphrodite I de Léchelle
+	}
+	1066.1.1 = { change_development_level = 21 }
+	1013.1.1 = {
+		liege = e_france # Highprincess Aphrodite I de Léchelle
+	}
+	1023.1.1 = {
+		holder = drskfrance0072 # Andrâste II de Léchelle
+	}
+}
+d_valois = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	867.1.1 = {	
+		change_development_level = 8
+		holder = drskfrance0001 # King Raimbaut de Léchelle
+		succession_laws = {
+			francien_elective_succession_law
+			equal_law
+		}
+	}
+	890.1.1 = {
+		liege = k_france
+		holder = drskfrance0015 # Duke Artaë Mansyrubiens
+	}
+	901.1.1 = {
+		holder = drsmansyrubiens0002 # Duchess Noire Mansyrubiens
+	}
+	913.1.1 = {
+		holder = drsmansyrubiens0004 # Duchess Gaie-Érècquère Mansyrubiens
+	}
+	# 1013 Petty Queen Gaie-Érècquère Mansyrubiens
+	1028.1.1 = {
+		holder = drsmansyrubiens0007 # Petty King Théodoric de Savigny-le-Temple
+	}
+	1063.1.1 = {
+		holder = drsmansyrubiens0013 # Petty Queen Yvesse de Savigny-le-Temple
+	}
+	1077.1.1 = {
+		holder = drsmansyrubiens0022 # Petty Queen Cérès de Savigny-le-Temple
+	}
+	1118.1.1 = {
+		holder = drsmansyrubiens0040 # Petty King Orson de Savigny-le-Temple
+	}
+}
+d_bourbon = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	867.1.1 = {	
+		liege = k_france
+		change_development_level = 8
+		holder = drskfrance0001 # King Raimbaut de Léchelle
+		succession_laws = {
+			francien_elective_succession_law
+			equal_law
+		}
+	}
+	903.1.1 = {
+		holder = drskfrance0003 # King Ïalonnosse de Léchelle
+	}
+	935.1.1 = {
+		holder = drskfrance0030 # Duke Antisthène de la Ville des Rêves
+	}
+}
+c_vermandois = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	1013.1.1 = {
+		liege = d_vermandois
+		holder = drsfrance0001 # Amalie dEstrees
+	}
+}
+
+##d_normandy ruled by Neustrian NEW CULTURE ALERT counts in 867 # with a Norman duchy forming around 900
+
+#
+##### BEGIN d_normandy #####
+#
+
+d_normandy = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	861.1.1 = {
+		holder = 0
+	}
+	900.1.1 = {
+		holder = drs900normandia0001 # Norman invasion
+		liege = 0
+		succession_laws = {
+			scandinavian_elective_succession_law
+			equal_law
+		}
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+		succession_laws = {
+			francien_elective_succession_law
+			equal_law
+		}
+	}
+	981.1.1 = {
+		holder = drs900normandia0020 # Lambert av Astera og Kernos
+	}
+	1002.1.1 = {
+		holder = drs900normandia0022 # Adelaide av Astera og Kernos
+	}
+	1013.1.1 = {
+		liege = e_france
+	}
+	# 1013 swears fealty to the Medium ruler of e_france # becoming a highprincipality in France
+	1026.1.1 = {
+		holder = drs900normandia0033 # Eleanor av Astera og Kernos
+	}
+	1070.1.1 = {
+		holder = drs900normandia0044 # Lancelin av Astera og Kernos
+	}
+	# 1092 new ruling dynasty
+}
+c_avranches = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	861.1.1 = {
+		liege = 0
+		holder = drsavranchesneustria0001 # Queen Rusticula Barnarding of West Neustria
+	}
+	900.1.1 = {
+		liege = d_normandy
+		holder = drs900normandia0001 # Rollo av Astera og Kernos
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+	}
+	# 961 new count norman gallian_ireneism
+}
+c_coustance = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	861.1.1 = {
+		liege = 0
+		holder = drsavranchesneustria0001 # Queen Rusticula Barnarding of West Neustria
+	}
+	900.1.1 = {
+		liege = d_normandy
+		holder = drs900normandia0001 # Rollo av Astera og Kernos
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+	}
+	# 961 new count norman gallian_ireneism
+}
+c_bayeux = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	861.1.1 = {
+		holder = drscaenneustria0001 # Queen Burgundofara Gotberging of Westshore
+	}
+	900.1.1 = {
+		liege = d_normandy
+		holder = drs900normandia0001 # Rollo av Astera og Kernos
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+	}
+	# 961 new countess norman gallian_ireneism
+}
+c_eu = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	861.1.1 = {
+		holder = drseuneustria0001 # Count Theutbald Sunning of Eu
+	}
+	900.1.1 = {
+		liege = d_normandy # he keeps his title as count # line rules for a good while and PRESERVES NEUSTRIAN CULTURE
+	}
+}
+c_lisieux = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	861.1.1 = {
+		holder = drslisieuxneustria0001 # Queen Amidala Siclanding of the Neustrian Hearthland
+	}
+	900.1.1 = {
+		liege = d_normandy 
+		holder = drs900normandia0001 # Rollo av Astera og Kernos
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+	}
+	# 961 new countess norman gallian_ireneism
+}
+c_mortain = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	861.1.1 = {
+		liege = 0
+		holder = drsmortainneustria0001 # Duke Maurifi Chlotharing of Mortain
+		## NON ELECTIVE SUCCESSION
+	}
+	900.1.1 = {
+		liege = d_normandy 
+		holder = drs900normandia0001 # Rollo av Astera og Kernos
+		## NON ELECTIVE SUCCESSION
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+	}
+	# 961 new count norman gallian_ireneism
+}
+c_alencon = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	861.1.1 = {
+		liege = 0
+		holder = drsmortainneustria0001 # Duke Maurifi Chlotharing of Mortain
+		## NON ELECTIVE SUCCESSION
+	}
+	900.1.1 = {
+		liege = d_normandy 
+		holder = drs900normandia0001 # Rollo av Astera og Kernos
+		## NON ELECTIVE SUCCESSION
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+	}
+	# 961 new count norman gallian_ireneism
+}
+c_rouen = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	840.1.1 = {
+		holder = drscoreneustria0001 # Countess Marcatrude Ildegarding of Rouen
+	}
+	900.1.1 = {
+		holder = drs900normandia0001 # Rollo av Astera og Kernos
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+	}
+	981.1.1 = {
+		holder = drs900normandia0020 # Lambert av Astera og Kernos
+	}
+	1002.1.1 = {
+		holder = drs900normandia0022 # Adelaide av Astera og Kernos
+	}
+	1026.1.1 = {
+		holder = drs900normandia0033 # Eleanor av Astera og Kernos
+	}
+	1070.1.1 = {
+		holder = drs900normandia0044 # Lancelin av Astera og Kernos
+	}
+	# 1092 new ruling dynasty
+}
+c_evreux = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	840.1.1 = {
+		holder = drscoreneustria0001 # Countess Marcatrude Ildegarding of Rouen
+	}
+	900.1.1 = {
+		holder = drs900normandia0001 # Rollo av Astera og Kernos
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+	}
+	981.1.1 = {
+		holder = drs900normandia0020 # Lambert av Astera og Kernos
+	}
+	1002.1.1 = {
+		holder = drs900normandia0022 # Adelaide av Astera og Kernos
+	}
+	1026.1.1 = {
+		holder = drs900normandia0033 # Eleanor av Astera og Kernos
+	}
+	1070.1.1 = {
+		holder = drs900normandia0044 # Lancelin av Astera og Kernos
+	}
+	# 1092 new ruling dynasty
+}
+c_vexin = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 21 }
+	840.1.1 = {
+		holder = drscoreneustria0001 # Countess Marcatrude Ildegarding of Rouen
+	}
+	900.1.1 = {
+		holder = drs900normandia0001 # Rollo av Astera og Kernos
+	}
+	960.1.1 = {
+		holder = drs900normandia0003 # Norman av Astera og Kernos
+	}
+	# 961 new countess norman gallian_ireneism
+}

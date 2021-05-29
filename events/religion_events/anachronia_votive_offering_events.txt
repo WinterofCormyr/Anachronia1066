@@ -1,0 +1,80 @@
+﻿namespace = votive
+
+##################################
+# Votive Offerings (Pontic Aitahism) #
+# by Laereona				 #
+# 0001 - 0004					#
+##################################
+votive.0001  = {
+	type = character_event
+	title = votive.0001.t
+	desc = votive.0001.d
+	theme = faith
+	option = {
+		name = votive.0001.aitah
+		trigger_event = votive.0002
+	}
+	option = {
+		name = votive.0001.ayase
+		trigger_event = votive.0003
+	}
+	option = {
+		name = votive.0001.matah
+		trigger_event = votive.0004
+	}
+}
+votive.0002  = {
+	type = character_event
+	title = votive.0002.t
+	desc = votive.0002.d
+	theme = faith
+	option = {
+		name = votive.0002.a
+	}
+}
+votive.0003  = {
+	type = character_event
+	title = votive.0003.t
+	desc = votive.0003.d
+	theme = faith
+	option = {
+		name = votive.0003.a
+	}
+}
+votive.0004  = {
+	type = character_event
+	title = votive.0004.t
+	desc = votive.0004.d
+	theme = faith
+	option = {
+		name = votive.0004.a
+	}
+}
+
+##################################
+# Votive Offerings (Hattian religion) #
+# by Laereona				 #
+# 0005 - 0025					#
+##################################
+votive.0005  = { # first event will contain options for Wurunshemu AKA Arinniti AKA Furu-Semu # Inara # Taru # Hanfasuit # Furun-Katte # Kasku # Katahziwuri # and list 2
+	# List 2 will contain options for Halmassuit # Hantapali # Hashammil # Kakshazet # Kashtuwarit # Tahakshaziatis # Tuhulelu # and List 3
+	# List 3 will contain options for Zithariyah AKA Zithariya # local gods # and looping back to list 1
+	type = character_event
+	title = votive.0005.t
+	desc = votive.0005.d
+	theme = faith
+	option = {
+		name = votive.0005.wurunshemu
+		trigger_event = votive.0006
+	}
+}
+votive.0006  = {
+	type = character_event
+	title = votive.0006.t
+	desc = votive.0006.d
+	theme = faith
+	option = {
+		name = votive.0006.a
+	}
+}
+# NEXT CATEGORY WILL START WITH 0026

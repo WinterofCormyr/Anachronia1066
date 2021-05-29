@@ -1,0 +1,796 @@
+﻿#Kingdom of Jazira # Assyrian mesopotamian_aitahism characters
+
+# rulers of the Kingdom of Jazira
+drsjazira0001 = {
+	name = "Ayetah" #
+	# daughter Mehalia, potentially other children
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	800.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drsjazira0002 = {
+	name = "Mehalia" #
+	# husband Gagik who is Armenian # daughter Nahara Assyrian
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	mother = drsjazira0001
+	820.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+drsjazira0003 = {
+	name = "Gagik" #
+	religion = mesopotamian_aitahism
+	culture = armenian
+	820.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		add_matrilineal_spouse = drsjazira0002 # Mehalia Barta Ayetah Barta Ayetah # daughter Nahara Barta Mehalia Barta Ayetah
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+drsjazira0004 = {
+	name = "Nahara" #
+	# husband Lazarus Assyrian # son Lebbaeus
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0003
+	mother = drsjazira0002
+	841.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}
+drsjazira0005 = {
+	name = "Lazarus" #
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	841.1.1 = {
+		birth = yes
+	}
+	861.1.1 = {
+		add_matrilineal_spouse = drsjazira0004 # Nahara Barta Mehalia # son Lebbaeus Bar Nahara
+	}
+	921.1.1 = {
+		death = yes
+	}
+}
+drsjazira0006 = {
+	name = "Lebbaeus" #
+	# no spouse # daughter Nura
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0005
+	mother = drsjazira0004
+	862.1.1 = {
+		birth = yes
+	}
+	942.1.1 = {
+		death = yes
+	}
+}
+drsjazira0007 = {
+	name = "Nura" #
+	# husband Nasr # son Maadai # daughter Khayra # son Makkikha # son Malukh # son Marabokht # daughter Raz
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0006
+	882.1.1 = {
+		birth = yes
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+drsjazira0008 = {
+	name = "Nasr" #
+	religion = mesopotamian_aitahism
+	culture = levantine
+	882.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		add_matrilineal_spouse = drsjazira0007 # Nura Barta Lebbaeus # son Maadai # daughter Khayra # son Makkikha # son Malukh # son Marabokht # daughter Raz
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+drsjazira0009 = {
+	name = "Maadai" #
+	# wife Reuma # son Maremmeh # daughter Saba # daughter Samantha
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0008 # Nasr
+	mother = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	903.1.1 = {
+		birth = yes
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+drsjazira0010 = {
+	name = "Khayra" #
+	# husband Mikha'il # son Mari # son Miqhli # son Muna # son Nahir # son Narsai # son Nazuk # son Nechunya # son Nehorai # daughter Sameah # son Niv # daughter Sava
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0008 # Nasr
+	mother = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	904.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		death = yes
+	}
+}
+drsjazira0011 = {
+	name = "Makkikha" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0008 # Nasr
+	mother = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	905.1.1 = {
+		birth = yes
+	}
+	985.1.1 = {
+		death = yes
+	}
+}
+drsjazira0012 = {
+	name = "Malukh" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0008 # Nasr
+	mother = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	906.1.1 = {
+		birth = yes
+	}
+	986.1.1 = {
+		death = yes
+	}
+}
+drsjazira0013 = {
+	name = "Marabokht" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0008 # Nasr
+	mother = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	907.1.1 = {
+		birth = yes
+	}
+	987.1.1 = {
+		death = yes
+	}
+}
+drsjazira0014 = {
+	name = "Raz" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0008 # Nasr
+	mother = drsjazira0007 # Nura Barta Lebbaeus Barta Ayetah
+	908.1.1 = {
+		birth = yes
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+drsjazira0015 = {
+	name = "Reuma" #
+	female = yes
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	903.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		add_spouse = drsjazira0009 # Naadai Bar Nura Barta Ayetah # son Maremmeh # daughter Saba # daughter Samantha
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+drsjazira0016 = {
+	name = "Maremmeh" #
+	# no spouse, no children
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0009 # Maadai Barta Ayetah
+	mother = drsjazira0015 # Reuma
+	924.1.1 = {
+		birth = yes
+	}
+	944.1.1 = {
+		add_trait = celibate
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+drsjazira0017 = {
+	name = "Saba" #
+	#matrilineal husband Nun # son Paul # daughter Sima # son Qaligh # daughter Tabatha # daughter Taliah # daughter Tamsyn # son Qayyoma # daughter Thaddea
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0009 # Maadai Barta Ayetah
+	mother = drsjazira0015 # Reuma
+	925.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+drsjazira0018 = {
+	name = "Samantha" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0009 # Maadai Barta Ayetah
+	mother = drsjazira0015 # Reuma
+	926.1.1 = {
+		birth = yes
+	}
+	1006.1.1 = {
+		death = yes
+	}
+}
+drsjazira0019 = {
+	name = "Mikha'il" #
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	904.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		add_matrilineal_spouse = drsjazira0010 # Khayra Barta Ayetah # son Mari # son Miqhli # son Muna # son Nahir # son Narsai # son Nazuk # son Nechunya # son Nehorai # daughter Sameah # son Niv # daughter Sava
+	}
+	984.1.1 = {
+		death = yes
+	}
+}
+# Death of Khayra and Mikha'il - formation of Kurdish Aitahism
+drsjazira0020 = {
+	name = "Mari" #
+	# wife Sayran who is Kurdish # all children Kurdish # son and heir Zia # daughter SerC_inar rules Hamadan from 990 onward # son ZerdeS_t # son Zand # daughter Serfiraz
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	923.1.1 = {
+		birth = yes
+	}
+	1003.1.1 = {
+		death = yes
+	}
+}
+drsjazira0021 = {
+	name = "Miqhli" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	924.1.1 = {
+		birth = yes
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+drsjazira0022 = {
+	name = "Muna" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	925.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+drsjazira0023 = {
+	name = "Nahir" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	926.1.1 = {
+		birth = yes
+	}
+	1006.1.1 = {
+		death = yes
+	}
+}
+drsjazira0024 = {
+	name = "Narsai" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	927.1.1 = {
+		birth = yes
+	}
+	1007.1.1 = {
+		death = yes
+	}
+}
+drsjazira0025 = {
+	name = "Nazuk" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	928.1.1 = {
+		birth = yes
+	}
+	1008.1.1 = {
+		death = yes
+	}
+}
+drsjazira0026 = {
+	name = "Nechunya" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	929.1.1 = {
+		birth = yes
+	}
+	1009.1.1 = {
+		death = yes
+	}
+}
+drsjazira0027 = {
+	name = "Nehorai" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	930.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+drsjazira0028 = {
+	name = "Sameah" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	931.1.1 = {
+		birth = yes
+	}
+	1011.1.1 = {
+		death = yes
+	}
+}
+drsjazira0029 = {
+	name = "Niv" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	932.1.1 = {
+		birth = yes
+	}
+	1012.1.1 = {
+		death = yes
+	}
+}
+drsjazira0030 = {
+	name = "Sava" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = assyrian
+	father = drsjazira0019 # Mikha'il
+	mother = drsjazira0010 # Khayra Barta Ayetah
+	933.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+drsjazira0031 = {
+	name = "Nun" #
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	925.1.1 = {
+		birth = yes
+	}
+	945.1.1 = {
+		add_matrilineal_spouse = drsjazira0017 # Saba Barta Ayetah # son Paul # daughter Sima # son Qaligh # daughter Tabatha # daughter Taliah # daughter Tamsyn # son Qayyoma # daughter Thaddea
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+drsjazira0032 = {
+	name = "Paul" #
+	# son Rachim
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0031 # Nun
+	mother = drsjazira0017 # Saba Barta Ayetah
+	946.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		death = yes
+	}
+}
+drsjazira0033 = {
+	name = "Sima" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0031 # Nun
+	mother = drsjazira0017 # Saba Barta Ayetah
+	947.1.1 = {
+		birth = yes
+	}
+	1027.1.1 = {
+		death = yes
+	}
+}
+drsjazira0034 = {
+	name = "Qaligh" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0031 # Nun
+	mother = drsjazira0017 # Saba Barta Ayetah
+	948.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = {
+		death = yes
+	}
+}
+drsjazira0035 = {
+	name = "Tabatha" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0031 # Nun
+	mother = drsjazira0017 # Saba Barta Ayetah
+	949.1.1 = {
+		birth = yes
+	}
+	1029.1.1 = {
+		death = yes
+	}
+}
+drsjazira0036 = {
+	name = "Taliah" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0031 # Nun
+	mother = drsjazira0017 # Saba Barta Ayetah
+	950.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+drsjazira0037 = {
+	name = "Tamsyn" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0031 # Nun
+	mother = drsjazira0017 # Saba Barta Ayetah
+	951.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+drsjazira0038 = {
+	name = "Qayyoma" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0031 # Nun
+	mother = drsjazira0017 # Saba Barta Ayetah
+	952.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+drsjazira0039 = {
+	name = "Thaddea" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0031 # Nun
+	mother = drsjazira0017 # Saba Barta Ayetah
+	953.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+drsjazira0040 = {
+	name = "Sayran" #
+	female = yes
+	religion = kurdish_aitahism
+	culture = kurdish
+	923.1.1 = {
+		birth = yes
+	}
+	943.1.1 = {
+		add_spouse = drsjazira0020 # Mari Barta Ayetah # son and heir Zia # daughter SerC_inar rules Hamadan from 990 onward # son ZerdeS_t # son Zand # daughter Serfiraz
+	}
+	1003.1.1 = {
+		death = yes
+	}
+}
+drsjazira0041 = {
+	name = "Zia" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	father = drsjazira0020 # Mari Barta Ayetah
+	mother = drsjazira0040 # Sayran
+	944.1.1 = {
+		birth = yes
+	}
+	1024.1.1 = {
+		death = yes
+	}
+}
+drsjazira0042 = {
+	name = "SerC_inar" #
+	# husband Zahak # son Xwedayar
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	father = drsjazira0020 # Mari Barta Ayetah
+	mother = drsjazira0040 # Sayran
+	945.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+drsjazira0043 = {
+	name = "ZerdeS_t" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	father = drsjazira0020 # Mari Barta Ayetah
+	mother = drsjazira0040 # Sayran
+	946.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		death = yes
+	}
+}
+drsjazira0044 = {
+	name = "Zand" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	father = drsjazira0020 # Mari Barta Ayetah
+	mother = drsjazira0040 # Sayran
+	947.1.1 = {
+		birth = yes
+	}
+	1027.1.1 = {
+		death = yes
+	}
+}
+drsjazira0045 = {
+	name = "Serfiraz" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	father = drsjazira0020 # Mari Barta Ayetah
+	mother = drsjazira0040 # Sayran
+	948.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = {
+		death = yes
+	}
+}
+drsjazira0046 = {
+	name = "Rachim" # daughter Thomasa
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0032 # Paul Barta Ayetah
+	966.1.1 = {
+		birth = yes
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}
+drsjazira0047 = {
+	name = "Zahak" #
+	religion = kurdish_aitahism
+	culture = kurdish
+	945.1.1 = {
+		birth = yes
+	}
+	965.1.1 = {
+		add_matrilineal_spouse = drsjazira0042 # SerC_inar Barta Ayetah # son Xwedayar
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+drsjazira0048 = {
+	name = "Xwedayar" #
+	# daughter Serbar
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	father = drsjazira0047 # Zahak
+	mother = drsjazira0042 # SerC_inar
+	966.1.1 = {
+		birth = yes
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}
+drsjazira0049 = {
+	name = "Thomasa" #
+	# no children # line passes to the Shanahan dynasty
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = mesopotamian_aitahism
+	culture = assyrian
+	father = drsjazira0046 # Rachim Barta Ayetah
+	986.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+drsjazira0050 = {
+	name = "Serbar" #
+	# son Xarmandar Vali
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	father = drsjazira0048 # Xwedayar
+	986.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+drsjazira0051 = {
+	name = "Xarmandar Vali" #
+	# wife RU_zerI_n # daughter RU_ken # son Vahusdan
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	mother = drsjazira0050 # Serbar
+	1006.1.1 = {
+		birth = yes
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+drsjazira0052 = {
+	name = "RU_zerI_n" #
+	female = yes
+	religion = kurdish_aitahism
+	culture = kurdish
+	1006.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		add_spouse = drsjazira0051 # Xarmandar Vali kurE_ Serbar Barta Ayetah
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+drsjazira0053 = {
+	name = "RU_ken" #
+	female = yes
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	father = drsjazira0051 # Xarmandar Vali kurE_ Serbar Barta Ayetah
+	mother = drsjazira0052 # RU_zerI_n
+	1027.1.1 = {
+		birth = yes
+	}
+	1113.1.1 = {
+		death = yes
+	}
+}
+drsjazira0054 = {
+	name = "Vahusdan" #
+	dynasty = drsdyn4 # Barta Ayetah
+	religion = kurdish_aitahism
+	culture = kurdish
+	father = drsjazira0051 # Xarmandar Vali kurE_ Serbar Barta Ayetah
+	mother = drsjazira0052 # RU_zerI_n
+	1028.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+# no more in this file
+##NASCENT PERSIC IRENEIST PERSIAN EMPIRE 1090 TAKES OVER KURDISTANIA
+# NEXT DYNASTY TO RULE WILL BE ARMENIAN # SHANAHAN DYNASTY

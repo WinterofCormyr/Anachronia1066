@@ -1,0 +1,109 @@
+﻿albanian_group = {
+	
+	graphical_cultures = {
+		byzantine_group_coa_gfx
+		western_coa_gfx
+		mediterranean_building_gfx
+		byzantine_clothing_gfx
+		eastern_unit_gfx
+	}
+	# byzantine_group CULTURE GROUP 
+	# pontic # greek # vlach # cibyrrhaeotine NOT CREATED ## combo of Hattian ## Isaurian ## Greek ## Telchines names
+	# eastern_celtic_group CULTURE GROUP
+	# galatian
+	# albanian_group CULTURE GROUP
+	# arberian
+	# northeast_caucasian_group CULTURE GROUP
+	# udi # caucasian_avar
+	# northwest_caucasian_group CULTURE GROUP
+	# kasogi NEW NAME LIST ## MAYBE CIRCASSIAN FROM PARADOX FORUMS
+	# east_germanic_group CULTURE GROUP
+	# crimean_gothic # high_gothic FROM NORTH GERMANIC
+	# armenian_group CULTURE GROUP
+	# armenian
+	# ADD TO iranian_group 
+	# alan
+	# kartvelian_group CULTURE GROUP
+	mercenary_names = {
+		{ name = mercenary_company_manglabites }
+		{ name = "mercenary_company_the_ten_thousand" }
+	}
+	
+	arberian = {
+		
+		color = { 0.5 0.5 0.8 }
+
+		cadet_dynasty_names = {
+		
+		"dynn_Thopia"
+		"dynn_Muzaka"
+		"dynn_Blenisti"
+		"dynn_Dukagjini"
+		"dynn_Kastrioti"
+		"dynn_Arianiti"
+		"dynn_Zaccaria"
+		"dynn_Araniti"
+		"dynn_Spani"
+		"dynn_Zanebisha"
+		"dynn_Jonima"
+		"dynn_Blinishti"
+		"dynn_Zenevisi"
+		"dynn_Gropa"
+	
+	
+	
+		}
+
+		dynasty_names = {
+			
+		"dynn_Thopia"
+		"dynn_Muzaka"
+		"dynn_Blenisti"
+		"dynn_Dukagjini"
+		"dynn_Kastrioti"
+		"dynn_Arianiti"
+		"dynn_Zaccaria"
+		"dynn_Araniti"
+		"dynn_Spani"
+		"dynn_Zanebisha"
+		"dynn_Jonima"
+		"dynn_Blinishti"
+		"dynn_Zenevisi"
+		"dynn_Gropa"
+	
+		}
+
+		male_names = {
+			Adnan Afrim Agim Agon Alban_Albano Alek Aleksander Andrea_Andrew Ardian Ardit Arianit Armend Bajram
+			Bashkim Behar Besian Besnik Blerim Bua Burim Dardan Depa Dhimiter Dimitri_Demetrius Dritan Defrim
+			Edon Endrit Engjell Fatmir Fisnik Flamur Gjergj Gjin Gjon Gojko Grigor Gulam Jakub Jetmir Jeton Koja
+			Kostandin Kreshnik Kushtrim Leka Leke Leotrim Leutrim Liridon Lulezim Moisi Muriq Muzaka Pal Perparim
+			Pjeter Progon Pellumb Skender Tanush Teodor Valon Veli Visar Vladan Ylli Zameer Zamyr
+		}
+		female_names = {
+			Aferdita Arjeta Blerina Blerta Blerte Bolja Bora Bosa Boxia Boza Dardana Diellza Edona Era
+			Fatmire Flutura Jehona Lindita Liridona Lule Luljeta Mirjeta Pranvera Shpresa Shqipe Teuta Tirana
+			Vera_Vera Yllka
+		}
+
+		dynasty_of_location_prefix = "dynnp_e"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+
+		mercenary_names = {
+		{ name = "mercenary_company_sheperds_of_the_romans" }
+		}
+	}
+}

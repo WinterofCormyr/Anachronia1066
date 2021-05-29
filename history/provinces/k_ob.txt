@@ -1,0 +1,923 @@
+#k_ob#Heavily modified to remove the overly large area Paradox had the Siberian peoples hold#
+# novar_tali is FORMER khanty
+# kal_obish is FORMER kirghiz
+# vayr_obish is FORMER laktan
+##d_salair ###################################
+###c_ob
+# 7427 - Ob
+7427 = {	# 7427 - Ob
+	
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	#holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+
+}
+7430 = {	#Obchikanak	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = khandorit_gunar
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7428 = {	#Berd'	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7429 = {	#Inia	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = ysara_gunar
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_biia
+1132 = {	# County Title
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7413 = {	#Chumych	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = zen_gunar
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7414 = {	#Yeshil Chumych	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = meriah_gunar
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_torema
+7426 = {	#Torema	#Fictional, based on local river
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	holding = castle_holding
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7425 = {	#Iaya	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = xuliasi_gunar
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7424 = {	#Kalym	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = azyren_gunarat_rextis_kaloos
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_sorok
+7422 = {	#Sorok	#Fictional
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	holding = castle_holding
+	900.1.1 = {
+		culture = kal_obish
+	}
+	
+}
+7423 = {	#Our	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = ur_gunarat
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7420 = {	#Kara Chumych	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = novar_tali_ha_gunarat
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_kondoma
+# 7421 - Kondoma
+7421 = {	# 7421 - Kondoma
+	
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	#holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7415 = {	#Sary Chumych	#Based on river Chumych # NEW RELIGION OR FAITH
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = inanna_gunar
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7416 = {	#Ojin	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = unified_pantheon_megha_rix_ta
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_kyin
+# 7419 - Kyin
+7419 = {	# 7419 - Kyin
+	
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	#holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+
+}
+7418 = {	#Mus Tagh	#Fictional, based on local mountain
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = megha_gunar
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7417 = {	#Bilbe	#Fictional, based on local mountain
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = redshift_gunar
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_aley
+# 7406 - Aley
+7406 = {	# 7406 - Aley
+	
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	#holding = castle_holding
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7403 = {	#Poperech	#Fictional, based on local river
+	holding = none
+	
+	# History
+	culture = old_obish # later kal_obish
+	religion = unified_pantheon_megha_rix_ta
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7407 = {	#Charych	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = solar_gunarat
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7408 = {	#Anyu	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = suvar_al_i_faith
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_korgon
+# 7405 - Korgon
+7405 = {	# 7405 - Korgon
+	
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	#holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+
+}
+7404 = {	#Korginia	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = suvar_al_i_faith
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7409 = {	#Anuy	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = cult_of_azeroth
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_terektai
+# 7412 - Terektai
+7412 = {	# 7412 - Terektai
+	
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	#holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+
+}
+7411 = {	#Ongutai	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = khandorit_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7410 = {	#Katun	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_tavan_bogd
+# 7514 - Khuiten
+7514 = {	# 7514 - Khuiten
+	
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	holding = castle_holding
+	
+	# History
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7515 = {	#Khoton	#Fictional, based on local lake
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7516 = {	#Dayan	#Fictional, based on local lake
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+##d_ala_tau ###################################
+###c_tomsk
+1463 = {	#Tomsk	#AKA Erchis
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+1329 = {	#Ket	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = ysara_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7431 = {	#Salim	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = zen_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7433 = {	#Yaia	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = meriah_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_kiia
+7432 = {	#Kiia	#Fictional, based on local river
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7434 = {	#Krolu	#Fictional, based on local mountain
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = xuliasi_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7438 = {	#Kitat	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = azyren_gunarat_rextis_kaloos
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_taskyl
+7436 = {	#Taskyl	#Fictional, based on local mountain
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7435 = {	#Perasku	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = ur_gunarat
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7437 = {	#Yogoran	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = novar_tali_ha_gunarat
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_kojuk
+7443 = {	#Kojuk	#Fictional, based on local river
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7441 = {	#Biriku	#AKA Birikoulskoie
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = inanna_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_chulym
+7439 = {	#Chulym_bis	#Fictional, based on local river
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7440 = {	#Chet	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = scribal_faith # REPLACE WITH NEW RELIGION scribal_faith
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7442 = {	#Shurysh	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = unified_pantheon_megha_rix_ta
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_narim
+1205 = {	#Narim	#AKA Narym
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7444 = {	#Tym	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = megha_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7445 = {	#Keljiga	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = redshift_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7446 = {	#Yutur	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = suvar_al_i_faith
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_sochur
+7448 = {	#Sochur	#Fictional, based on local river
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7447 = {	#Jorugul	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = solar_gunarat
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_yenisei
+7449 = {	#Yenisei	#AKA Yeniseysk
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7450 = {	#Yahtin	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = suvar_al_i_faith
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7451 = {	#Belska	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = suvar_al_i_faith
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+##d_vasyugan_mire ###################################
+###c_vasyugan
+7368 = {	#Vasyugan	#Based on the local Vasyugan Mire
+	culture = old_obish # later novar_tali
+	religion = all_khan_gunar
+	holding = castle_holding
+}
+7372 = {	#Parabel	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = cult_of_azeroth
+}
+7371 = {	#Yonoir	#Fictional
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = khandorit_gunar
+}
+7369 = {	#Yugar	#Fictional
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = aka_gunar
+}
+
+###umiai
+7367 = {	#Umiai	#Fictional
+	culture = old_obish # later novar_tali
+	religion = all_khan_gunar
+	holding = castle_holding
+}
+7366 = {	#Sayak	#Fictional
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = aka_gunar
+}
+7370 = {	#Chergana	#Fictional
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = all_khan_gunar
+}
+
+###c_tartas_SIB
+7363 = {	#Tartas_SIB	#Fictional, based on local river
+	culture = old_obish # later novar_tali
+	religion = all_khan_gunar
+	holding = castle_holding
+}
+7365 = {	#Om	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = ysara_gunar
+}
+7364 = {	#Gulyus	#Fictional
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = zen_gunar
+}
+
+###c_chich
+7360 = {	#Chich	#Fictional, based on local river
+	culture = old_obish # later novar_tali
+	religion = all_khan_gunar
+	holding = castle_holding
+}
+7361 = {	#Olyn	#Fictional
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = meriah_gunar
+}
+7362 = {	#Kargalin	#Fictional
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = xuliasi_gunar
+}
+
+##d_baraba_steppe ###################################
+###c_kolyvan
+# 7381 - Kolyvan
+7381 = {	# 7381 - Kolyvan
+	
+	# Misc
+	culture = old_obish # later vayr_obish
+	religion = aka_gunar
+	
+	#holding = castle_holding
+	
+	# History
+
+}
+7382 = {	#Chik	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = azyren_gunarat_rextis_kaloos
+}
+7383 = {	#Kayask	#Fictional, based on local lake
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = ur_gunarat
+}
+7384 = {	#Karasuk	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = novar_tali_ha_gunarat
+}
+
+###c_sartlan
+# 7386 - Sartlan
+7386 = {	# 7386 - Sartlan
+	
+	# Misc
+	culture = old_obish # later vayr_obish
+	religion = aka_gunar
+	
+	#holding = castle_holding
+	
+	# History
+
+}
+7387 = {	#Bagan
+	#AKA "Bagan'" on map of Turkestan by Vivien of Saint-Martin & Fr.Schrader
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = inanna_gunar
+}
+7385 = {	#Chulym	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = scribal_faith
+}
+
+###c_ubins
+# 7373 - Ubins
+7373 = {	# 7373 - Ubins
+	
+	# Misc
+	culture = old_obish # later novar_tali
+	religion = aka_gunar
+	
+	#holding = castle_holding
+	
+	# History
+}
+7374 = {	#Kargat	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = aka_gunar
+}
+7380 = {	#Baksa	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = unified_pantheon_megha_rix_ta
+}
+
+###c_igaran
+7375 = {	#Igaran	#Fictional
+	culture = old_obish # later novar_tali
+	religion = aka_gunar
+	holding = castle_holding
+}
+7376 = {	#Iau	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = megha_gunar
+}
+7377 = {	#Chegarka	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later novar_tali
+	religion = redshift_gunar
+}
+
+###c_konda_ob
+# 7378 - Konda_ob
+7378 = {	# 7378 - Konda_ob
+	
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	
+	#holding = castle_holding
+	
+	# History
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+
+}
+7379 = {	#Toya	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = suvar_al_i_faith
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+##d_kulyndy_steppe ###################################
+###c_kulunda
+# 7393 - Kulunda
+7393 = {	# 7393 - Kulunda
+	
+	# Misc
+	culture = old_obish # later vayr_obish
+	religion = aka_gunar
+	
+	#holding = castle_holding
+	
+	# History
+
+}
+7394 = {	#Kuria	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = solar_gunarat
+}
+7395 = {	#Gorko	#Fictional, based on local lake
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = suvar_al_i_faith
+}
+7392 = {	#Dolgo	#Fictional, based on local lake
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = suvar_al_i_faith
+}
+
+###c_barnaul
+# 7397 - Barnaul
+7397 = {	# 7397 - Barnaul
+	
+	# Misc
+	culture = old_obish # later kal_obish
+	religion = all_khan_gunar
+	
+	#holding = castle_holding
+	
+	# History
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7396 = {	#Kasmala	#Fictional, based on local river
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = cult_of_azeroth
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7398 = {	#Barnaii	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = khandorit_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+7399 = {	#Gorkoalei	#Fictional
+	holding = none
+	culture = old_obish # later kal_obish
+	religion = aka_gunar
+	
+	# History
+	900.1.1 = {
+		culture = kal_obish
+	}
+}
+
+###c_kachu
+# 7400 - Kachu
+7400 = {	# 7400 - Kachu
+	
+	# Misc
+	culture = old_obish # later vayr_obish
+	religion = aka_gunar
+	
+	#holding = castle_holding
+	
+	# History
+
+}
+7401 = {	#Dolons
+	#AKA "Dolonskaïa" on map of Turkestan by Vivien of Saint-Martin & Fr.Schrader
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = aka_gunar
+}
+7402 = {	#Molibay	#Fictional, based on local lake
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = all_khan_gunar
+}
+
+###c_kuchuk
+# 7391 - Kuchuk
+7391 = {	# 7391 - Kuchuk
+	
+	# Misc
+	culture = old_obish # later vayr_obish
+	religion = aka_gunar
+	# History
+
+}
+7390 = {	#Lamych	#Fictional, based on local lake
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = ysara_gunar
+}
+7389 = {	#Kacharsku	#Fictional
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = zen_gunar
+}
+7388 = {	#Topolno	#Fictional, based on local lake
+	holding = none
+	culture = old_obish # later vayr_obish
+	religion = meriah_gunar
+}

@@ -1,0 +1,211 @@
+﻿#Imperial Province of the Cappadocian Highlands # pontic Culture anatolian_cybelite Religion characters
+#first ruler IN THE CREATION PROCESS born 1040 takes throne 1060 dies 1120 # expand rulers with ancestors back to at least 936 later
+
+# rulers of the Imperial Province of the Cappadocian Highlands 1060 onwards
+drseireniakeos0001 = {
+	name = "Sunepholeta" #
+	female = yes
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	1040.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0002 = {
+	name = "Eosgnosia" # no children # Sunepholeta is descended from a different line of the family connected via a common ancestor to Eosgnosia
+	# father Paschalis # no recorded mother # Paschalis has an older daughter Aphroditis-Cubeleia # and no other children
+	female = yes
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	father = drseireniakeos0003
+	840.1.1 = {
+		birth = yes
+	}
+	# Crowned Governor 870
+	920.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0003 = {
+	name = "Paschalis" # no recorded wife # older daughter Aphroditis-Cubeleia # younger daughter Eosgnosia
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	820.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0004 = {
+	name = "Aphroditis-Cubeleia" # one husband named Cubelios Adonigonos drsdyn169 # three sons named Geaios # Aphroditophoros # and Uranogonos
+	female = yes
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	father = drseireniakeos0003
+	839.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		add_matrilineal_spouse = drseireniakeos0005 # Cubelios Adonigonos
+	}
+	919.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0005 = {
+	name = "Cubelios" # 
+	dynasty = drsdyn169 # Adonigonos
+	religion = anatolian_cybelite
+	culture = pontic
+	839.1.1 = {
+		birth = yes
+	}
+	919.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0006 = {
+	name = "Geaios" # 1 wife
+	#1 wife Seleneia Nikephoriai drsdyn171 # son Eosophylaktos # son Aristaeodosios
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	father = drseireniakeos0005 # Cubelios Adonigonos
+	mother = drseireniakeos0004 # Aphroditis-Cubeleia Eireniakeos
+	860.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		add_spouse = drseireniakeos0009 # Seleneia Nikephoriai
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0007 = {
+	name = "Aphroditophoros" # no children # throne INSTEAD passes to the line of Uranogonos
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	father = drseireniakeos0005 # Cubelios Adonigonos
+	mother = drseireniakeos0004 # Aphroditis-Cubeleia Eireniakeos
+	861.1.1 = {
+		birth = yes
+	}
+	941.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0008 = {
+	name = "Uranogonos" # wife Ekateis-Selenita Hypation drsdyn174 # with her a daughter Artemeia-Selenegnosia # and a daughter Ekatesia
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	father = drseireniakeos0005 # Cubelios Adonigonos
+	mother = drseireniakeos0004 # Aphroditis-Cubeleia Eireniakeos
+	862.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		add_spouse = drseireniakeos0012 # Ekateis-Selenita Hypation
+	}
+	942.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0009 = {
+	name = "Seleneia" #
+	female = yes
+	dynasty = drsdyn171 # Nikephoriai
+	religion = anatolian_cybelite
+	culture = pontic
+	860.1.1 = {
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0010 = {
+	name = "Eosophylaktos" # no children
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	father = drseireniakeos0006 # Geaios Eireniakeos
+	mother = drseireniakeos0009 # Seleneia Nikephoriai
+	881.1.1 = {
+		birth = yes
+	}
+	961.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0011 = {
+	name = "Aristaeodosios" # no children # throne passes to the line of Aphroditophoros probably
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	father = drseireniakeos0006 # Geaios Eireniakeos
+	mother = drseireniakeos0009 # Seleneia Nikephoriai
+	882.1.1 = {
+		birth = yes
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0012 = {
+	name = "Ekateis-Selenita" # a daughter Artemeia-Selenegnosia # and a daughter Ekatesia
+	female = yes
+	dynasty = drsdyn174 # Hypation
+	religion = anatolian_cybelite
+	culture = pontic
+	862.1.1 = {
+		birth = yes
+	}
+	942.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0013 = {
+	name = "Artemeia-Selenegnosia" # 1 husband named Akakios
+	# 11 vowels
+	# 9 consonants
+	female = yes
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	father = drseireniakeos0008 # Uranogonos Eireniakeos
+	mother = drseireniakeos0012 # Ekateis-Selenita Hypation
+	883.1.1 = {
+		birth = yes
+	}
+	963.1.1 = {
+		death = yes
+	}
+}
+drseireniakeos0014 = {
+	name = "Ekatesia" # 
+	# 5 vowels
+	# 3 consonants
+	female = yes
+	dynasty = drsdyn123 # Eireniakeos
+	religion = anatolian_cybelite
+	culture = pontic
+	father = drseireniakeos0008 # Uranogonos Eireniakeos
+	mother = drseireniakeos0012 # Ekateis-Selenita Hypation
+	884.1.1 = {
+		birth = yes
+	}
+	964.1.1 = {
+		death = yes
+	}
+}

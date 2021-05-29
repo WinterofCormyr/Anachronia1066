@@ -1,0 +1,17 @@
+﻿#County of the Mugodzhar Hills # kimek Culture megha_gunar Religion characters
+#first ruler born 841 takes throne 861
+
+# rulers of the County of the Mugodzhar Hills
+drsmugodzhar0001 = {
+	name = "Ilkay" #
+	female = yes
+	dynasty = drsdyn23 # megha OEg
+	religion = megha_gunar
+	culture = kimek
+	841.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}

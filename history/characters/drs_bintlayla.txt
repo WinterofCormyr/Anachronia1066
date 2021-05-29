@@ -1,0 +1,285 @@
+﻿#Kingdom of Gujarat # omani Culture arabian_aitahism Religion characters
+
+# rulers of the Kingdom of Gujarat 1034 onward
+drsbintlayla0001 = {
+	name = "Atikah" # Bought out the kingdom of Gujarat after Abhayapala's death
+	# 7 husband Rayapala 
+	# 8 husband Khalaf Man # daughter Dwaraka # son Khalid # son Umar
+	female = yes
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	1004.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0002 = {
+	name = "Rayapala" # A Gujarati man Atikah married upon coming into the kingdom and claiming it for herself.
+	religion = svetambara
+	culture = gujarati
+	1004.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		add_matrilineal_spouse = drsbintlayla0001 # Atikah bint Layla
+	}
+	1047.1.1 = {
+		religion = arabian_aitahism
+	}
+	1114.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0003 = {
+	name = "Khalaf Man" # An Omani immigrant to the kingdom after the rise of Sultana Atikah, who fell in love with and married her
+	religion = arabian_aitahism
+	culture = omani
+	1004.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		add_matrilineal_spouse = drsbintlayla0001 # Atikah bint Layla
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0004 = {
+	name = "Dwaraka" #
+	# husband 4 Rajyapala # daughter Hulla # son Hisham # daughter Mayanalladevi
+	# husband 5 Vakapati # son Sufyan # daughter Humai # son Kharagraha # daughter Nalka
+	# husband 6 Govindapala # daughter Ijliyah # daughter Azzah # daughter Munisa
+	female = yes
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0003 # Khalaf Man
+	mother = drsbintlayla0001 # Atikah bint Layla
+	1041.1.1 = {
+		birth = yes
+	}
+	1161.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0005 = {
+	name = "Khalid" #
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0003 # Khalaf Man
+	mother = drsbintlayla0001 # Atikah bint Layla
+	1042.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0006 = {
+	name = "Umar" #
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0003 # Khalaf Man
+	mother = drsbintlayla0001 # Atikah bint Layla
+	1043.1.1 = {
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0007 = {
+	name = "Rajyapala"
+	religion = arabian_aitahism
+	culture = gujarati
+	1041.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		add_matrilineal_spouse = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	}
+	1105.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0008 = {
+	name = "Hulla" #
+	female = yes
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0007 # Rajyapala
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1062.1.1 = {
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0009 = {
+	name = "Hisham" #
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0007 # Rajyapala
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1063.1.1 = {
+		birth = yes
+	}
+	1128.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0010 = {
+	name = "Mayanalladevi" #
+	female = yes
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = gujarati
+	father = drsbintlayla0007 # Rajyapala
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1064.1.1 = {
+		birth = yes
+	}
+	1185.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0011 = {
+	name = "Vakapati"
+	religion = arabian_aitahism
+	culture = gujarati
+	1041.1.1 = {
+		birth = yes
+	}
+	1062.1.1 = {
+		add_matrilineal_spouse = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	}
+	1111.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0012 = {
+	name = "Sufyan" #
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0011 # Vakapati
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1065.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0013 = {
+	name = "Humay" #
+	female = yes
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0011 # Vakapati
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1066.1.1 = {
+		birth = yes
+	}
+	1147.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0014 = {
+	name = "Kharagraha" #
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = gujarati
+	father = drsbintlayla0011 # Vakapati
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1067.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0015 = {
+	name = "Nalka" #
+	female = yes
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0011 # Vakapati
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1068.1.1 = {
+		birth = yes
+	}
+	1139.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0016 = {
+	name = "Govindapala"
+	religion = arabian_aitahism
+	culture = gujarati
+	1041.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		add_matrilineal_spouse = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	}
+	1129.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0017 = {
+	name = "Ijliyah" #
+	female = yes
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0016 # Govindapala
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1069.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0018 = {
+	name = "Azzah" #
+	female = yes
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0016 # Govindapala
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1060.1.1 = {
+		birth = yes
+	}
+	1141.1.1 = {
+		death = yes
+	}
+}
+drsbintlayla0019 = {
+	name = "Munisa" #
+	female = yes
+	dynasty = drsdyn20 # bint Layla
+	religion = arabian_aitahism
+	culture = omani
+	father = drsbintlayla0016 # Govindapala
+	mother = drsbintlayla0004 # Dwaraka bint Atikah bint Layla
+	1071.1.1 = {
+		birth = yes
+	}
+	1142.1.1 = {
+		death = yes
+	}
+}
+# Layla born year 1 and lives til year 200 - all bint Layla are descended from herself # always landless

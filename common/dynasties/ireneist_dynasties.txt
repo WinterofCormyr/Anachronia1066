@@ -1,0 +1,4 @@
+﻿ireneismdyn1 = {
+	name="Logos" # founder Einion, Sophia is his daughter and Duchess of Crete in 867
+	culture = greek
+}

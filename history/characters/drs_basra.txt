@@ -1,0 +1,170 @@
+﻿#Basra # Neo#Sumerian characters
+
+# rulers of the Duchy of Basra and the County of Basra
+drsbasra0001 = {
+	name = "Jushur" #
+	dynasty = 993bronzeage # Sabit-Nanshe
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drsbasra0002 # Manishtusu
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drsbasra0002 = {
+	name = "Manishtusu" #
+	female = yes
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drsbasra0001 # Jushur Sabit-Nanshe
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drsbasra0003 = {
+	name = "Kullassina-bel" #
+	dynasty = 993bronzeage # Sabit-Nanshe
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	father = drsbasra0001
+	mother = drsbasra0002
+	821.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		add_spouse = drsbasra0007 # Belessunu
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drsbasra0004 = {
+	name = "Seluku" #
+	female = yes
+	dynasty = 993bronzeage # Sabit-Nanshe
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	father = drsbasra0001
+	mother = drsbasra0002
+	822.1.1 = {
+		birth = yes
+	}
+	842.1.1 = {
+		add_matrilineal_spouse = drsbasra0008 # Nangishlishma
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drsbasra0005 = {
+	name = "Nur-Ayya" #
+	female = yes
+	dynasty = 993bronzeage # Sabit-Nanshe
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	father = drsbasra0001
+	mother = drsbasra0002
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drsbasra0006 = {
+	name = "Amata" #
+	female = yes
+	dynasty = 993bronzeage # Sabit-Nanshe
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	father = drsbasra0001
+	mother = drsbasra0002
+	824.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+drsbasra0007 = {
+	name = "Belessunu" #
+	female = yes
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	821.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		add_spouse = drsbasra0003 # Kullassina-bel Sabit-Nanshe
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drsbasra0008 = {
+	name = "Nangishlishma" #
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	822.1.1 = {
+		birth = yes
+	}
+	842.1.1 = {
+		add_matrilineal_spouse = drsbasra0004 # Seluku Sabit-Nanshe # daughter Ahatsunu
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drsbasra0009 = {
+	name = "Ahatsunu" # son En-tarah-ana with husband Babum
+	female = yes
+	dynasty = 993bronzeage # Sabit-Nanshe
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	father = drsbasra0008
+	mother = drsbasra0004
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drsbasra0010 = {
+	name = "Babum" #
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	843.1.1 = {
+		birth = yes
+	}
+	863.1.1 = {
+		add_matrilineal_spouse = drsbasra0009 # Ahatsunu Sabit-Nanshe # son En-tarah-ana
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drsbasra0011 = {
+	name = "En-tarah-ana" #
+	dynasty = 993bronzeage # Sabit-Nanshe
+	religion = sumerian_pagan
+	culture = neo_sumerian
+	father = drsbasra0010 # Babum
+	mother = drsbasra0009 # Ahatsunu Sabit-Nanshe
+	864.1.1 = {
+		birth = yes
+	}
+	944.1.1 = {
+		death = yes
+	}
+}

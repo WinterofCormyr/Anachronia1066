@@ -1,0 +1,169 @@
+﻿l_english:
+ #valdemarian
+ valdemarian_religion:0 "Valdemariesk Kellna" #esk or iesk is genitive suffix in Old Valdemarian #kellna means faith in Old Valdemarian
+ valdemarian_religion_adj:0 "Valdemariesk"
+ valdemarian_religion_adherent:0 "Valdemarieskmót" #mót means person in Old Valdemarian
+ valdemarian_religion_adherent_plural:0 "Valdemarieskmótja" #ja is plural suffix in Old Valdemarian
+ valdemarian_religion_desc:0 "Valdemar's motto states that there is *no* one true way, which holds true for religions as well as most other things. Most of the religions are based on a duotheistic god and goddess, but this is not the only pattern, and even in this there are wide differences."
+ 
+ valdemarian_high_god_name:0 "na' Ferja" #na' Fer means worthy of worship or thise worthy of worship
+ valdemarian_high_god_name_possessive:0 "na' Ferjaesk"
+ valdemarian_high_god_shehe:0 "They"
+ valdemarian_high_god_herselfhimself:0 "Themselves"
+ valdemarian_high_god_herhis:0 "Their"
+ valdemarian_high_god_name_alternate:0 "Gøtja" # gøt means god or deity and is archaic
+ valdemarian_high_god_name_alternate_possessive:0 "Gøtjaesk"
+ valdemarian_good_god_astera:0 "Astera"
+ valdemarian_good_god_kernos:0 "Kernos"
+ valdemarian_good_god_agnira:0 "Agnira"
+ valdemarian_good_god_agnoma:0 "Agnoma"
+ valdemarian_good_god_v_kandis:0 "V'kandis"
+ valdemarian_good_god_karanel:0 "Karanel"
+ valdemarian_good_god_dara:0 "Dara"
+ valdemarian_good_god_resoden:0 "Resoden"
+ valdemarian_good_god_star_eyed:0 "Star-Eyed"
+ valdemarian_good_god_thenoth:0 "Thenoth"
+ valdemarian_devil_name:0 "The Maliferous Spirits"
+ valdemarian_devil_name_possessive:0 "The Maliferous Spirits'"
+ valdemarian_devil_shehe:0 "they"
+ valdemarian_devil_herselfhimself:0 "themselves"
+ valdemarian_evil_god_maliferous:0 "Maliferous Light"
+ valdemarian_house_of_worship:0 "temple"
+ valdemarian_house_of_worship_plural:0 "temples"
+ valdemarian_religious_symbol:0 "Shield of Beniferous Light" # white flint stone
+ valdemarian_religious_text:0 "the Scriptures and the Sayings" #religious stories orally passed down by priests
+ valdemarian_religious_head_title:0 "Child of Gods"
+ valdemarian_religious_head_title_name:0 "Child of Gods"
+ valdemarian_devotee_male:0 "Valdemarieskmót var" #var means male
+ valdemarian_devotee_male_plural:0 "Valdemarieskmótja varja"
+ valdemarian_devotee_female:0 "Valdemarieskmót kayl" #kayl means female
+ valdemarian_devotee_female_plural:0 "Valdemarieskmótja kaylja" 
+ valdemarian_devotee_neuter:0 "Valdemarieskmót elo" # elo means gender-neutral
+ valdemarian_devotee_neuter_plural:0 "Valdemarieskmótja eloja" # elo means gender-neutral
+ valdemarian_priest_male:0 "Priest"
+ valdemarian_priest_male_plural:0 "Priests"
+ valdemarian_priest_female:0 "Priestess"
+ valdemarian_priest_female_plural:0 "Priestesses"
+ valdemarian_priest_neuter:0 "Priest"
+ valdemarian_priest_neuter_plural:0 "Priests"
+ valdemarian_priest_term_plural:0 "Priesthood"
+ valdemarian_divine_realm:0 "Skú" #literally sky
+ valdemarian_positive_afterlife:0 "the next life"
+ valdemarian_negative_afterlife:0 "the next life"
+ valdemarian_death_name:0 "The Grave"
+ valdemarian_death_name_possessive:0 "The Grave's"
+
+ valdemarian_creator_god_name:0 "LadyTrine"
+ valdemarian_creator_god_name_possessive:0 "LadyTrine"
+ valdemarian_health_god_name:0 "Shayana" #medicine god
+ valdemarian_health_god_name_possessive:0 "Shayana's"
+ valdemarian_fertility_god_name:0 "Agnetha" #birth god
+ valdemarian_fertility_god_name_possessive:0 "Agnetha's"
+ valdemarian_wealth_god_name:0 "Dina" #money god
+ valdemarian_wealth_god_name_possessive:0 "Dina's"
+ valdemarian_household_god_name:0 "Teslat the Windborn Lady" #house god
+ valdemarian_household_god_name_possessive:0 "Teslat the Windborn Lady's"
+ valdemarian_knowledge_god_name:0 "Anathei"
+ valdemarian_knowledge_god_name_possessive:0 "Anathei's"
+ valdemarian_war_god_name:0 "Bestet" #war god
+ valdemarian_war_god_name_possessive:0 "Bestet's"
+ valdemarian_night_god_name:0 "Kernos and Astera" #northern lights and star deities
+ valdemarian_night_god_name_possessive:0 "Kernos and Astera's"
+ valdemarian_water_god_name:0 "Kerenal" #water god
+ valdemarian_water_god_name_possessive:0 "Kerenal's"
+
+ #Valdemarian Common
+ valdemarian_common:0 "Róku Kellna" # lit. Common Faith
+ valdemarian_common_adj:0 "Róku"
+ valdemarian_common_adherent:0 "Rókumót"
+ valdemarian_common_adherent_plural:0 "Rókumótja"
+ valdemarian_common_desc:0 "The Róku Kellna, or Common Faith, was engineered in relatively recent times to unite the disparate pantheons of Valdemar on one banner while preserving the bare essence of each tradition."
+ 
+ 
+ doctrine_valdemarian_polygamy_name:0 "Valdemarian Polygamous"
+ doctrine_valdemarian_polygamy_desc:0 "The teachings of the Gods say that marriage is sacred, but ultimately a matter of the secular world. Common practice indicates that up to eight spouses may be taken by a person, of any gender as befitting of their orientation, but this is not required, and taking nine or more spouses is highly taboo. Likewise, love of any form can be found even beyond marriage, as long as all agree upon it, and as long as the marriages themselves are held to their rightful paramount position."
+
+ 
+ tenet_mercantilism_name:0 "Mercantilism"
+ tenet_mercantilism_desc:1 "Diligence in all things is a virtue, and ensuring the freedom of trade, commerce and association a higher one. The money must flow, and must not linger all in one place for too long."
+
+ tenet_scholarship_of_scripture_name:0 "Scholarship of Scripture"
+ tenet_scholarship_of_scripture_desc:1 "The ancient myths and texts hold deep meaning, and not all is as it seems at first glance. By studying them, meditating on their words, and practicing the ways of the prophets before us, we can realize deeper spiritual perfection, and work for a world that is more connected to that divinity and sacred essence-force."
+
+ tenet_pseudognostic_name:0 "Pseudognostic"
+ tenet_pseudognostic_desc:1 "While we differ from our gnostic brethren in asserting that there is not a demiurge, if there even is a creator, we find them wise in many other manners. It is the duty, perhaps even the obligation, of all true believers to work towards enlightment and union with the Monad, and those granted special gifts along this path are incredibly holy indeed. We must remember that the pleasures of the flesh are temporary, and the joy of spiritual perfection is eternal - once it has been achieved."
+
+ #northern_valdemar_faith (northern_valdemar Root West)
+ northern_valdemar_faith:0 "Njørvaldemariesk Kellna" # lit. Northern Valdemarian Faith
+ northern_valdemar_faith_adj:0 "Njøresk"
+ northern_valdemar_faith_adherent:0 "Njørvaldemarieskmót"
+ northern_valdemar_faith_adherent_plural:0 "Njørvaldemarieskmótja"
+ northern_valdemar_faith_desc:0 "A primarily duotheistic faith coming from northern Valdemar, the Northern Valdemarian Faith believes in many gods, but that only two, the heavenly couple Asztera of the Stars and Kernos of the Northern Lights, are the notable gods of their people. Other gods are not hated or even frowned upon, but simoply blatantly ignored by most believers, who assert that Kernos created the world and Astera the stars, and all things fall under their domain, as Mother Sky and Father Earth, the heavenly lights of supreme beauty above."
+ 
+ northern_valdemar_creator_god_name:0 "Kernos"
+ northern_valdemar_creator_god_name_possessive:0 "Kernos's"
+ northern_valdemar_health_god_name:0 "Astera"
+ northern_valdemar_health_god_name_possessive:0 "Astera's"
+ 
+ #rethwellanini
+ 
+ rethwellanini_high_god_name:0 "The LadyTrine" #na' Fer means worthy of worship or thise worthy of worship
+ rethwellanini_high_god_name_possessive:0 "The Lady Trine's"
+ rethwellanini_high_god_shehe:0 "She"
+ rethwellanini_high_god_herselfhimself:0 "Herselves"
+ rethwellanini_high_god_herhis:0 "Her"
+ rethwellanini_high_god_name_alternate:0 "The Triple Goddess" # gøt means god or deity and is archaic
+ rethwellanini_high_god_name_alternate_possessive:0 "The Triple Goddess's"
+ 
+ rethwellanini_creator_god_name:0 "Agnoma"
+ rethwellanini_creator_god_name_possessive:0 "Agnoma's"
+ rethwellanini_health_god_name:0 "Agnira" #medicine god
+ rethwellanini_health_god_name_possessive:0 "Agnira's"
+ rethwellanini_fertility_god_name:0 "Agnetha" #birth god
+ rethwellanini_fertility_god_name_possessive:0 "Agnetha's"
+ 
+ rethwellanini:0 "Rethwellanini Chellana" # lit. Rethwellan's Faith
+ rethwellanini_adj:0 "Rethwellanini"
+ rethwellanini_adherent:0 "Rethwellanine"
+ rethwellanini_adherent_plural:0 "Rethwellanines"
+ rethwellanini_desc:0 "In Rethwellan, a triple goddess known as the LadyTrine recieves most to almost all worship, with other deities seldom acknowledged."
+ 
+ jkathacek_high_god_name:0 "Lady Windborn" #na' Fer means worthy of worship or thise worthy of worship
+ jkathacek_high_god_name_possessive:0 "Lady Windborn's"
+ jkathacek_high_god_shehe:0 "She"
+ jkathacek_high_god_herselfhimself:0 "Herselves"
+ jkathacek_high_god_herhis:0 "Her"
+ jkathacek_high_god_name_alternate:0 "The Windborn Soulshaper" # gøt means god or deity and is archaic
+ jkathacek_high_god_name_alternate_possessive:0 "The Windborn Soulshaper's"
+ 
+ jkathacek_creator_god_name:0 "Teslat"
+ jkathacek_creator_god_name_possessive:0 "Teslat's" 
+ jkathacek_wealth_god_name:0 "Resoden"
+ jkathacek_wealth_god_name_possessive:0 "Resoden's"
+ 
+ jkathacek:0 "Jkathacek Ktelanac" # lit. Jkatha's Faith
+ jkathacek_adj:0 "Jkathacek"
+ jkathacek_adherent:0 "Jkathacek"
+ Jkathacek_adherent_plural:0 "Jkathacekdjo"
+ jkathacek_desc:0 "In Jkatha, there is a demi-duotheistic tradition following the completely unrelated and non married deities Lady Windborn and Resoden. Lady Windborn is also known as the Windborn Soulshaper or Teslat."
+ 
+ #shayanaic
+ shayanaic_high_god_name:0 "Shayana" #na' Fer means worthy of worship or thise worthy of worship
+ shayanaic_high_god_name_possessive:0 "Shayana's"
+ shayanaic_high_god_shehe:0 "She"
+ shayanaic_high_god_herselfhimself:0 "Herselves"
+ shayanaic_high_god_herhis:0 "Her"
+ shayanaic_high_god_name_alternate:0 "The Healer of Souls" # gøt means god or deity and is archaic
+ shayanaic_high_god_name_alternate_possessive:0 "The Healer of Souls's"
+ 
+ shayanaic:0 "Shayanaiesk Kellna" # lit. Shayana's Faith
+ shayanaic_adj:0 "Shayanaiesk"
+ shayanaic_adherent:0 "Shayanaieskmót"
+ shayanaic_adherent_plural:0 "Shayanaieskmótja"
+ shayanaic_desc:0 "The Order of Shayana, also called the Shayanaiesk Íe-rhanta or Shayanaiesk Íe-rhanta-na is a mendicant order of monks and layfolk dedicated to spreading the way of the healing goddess of Shayana through acts such as performing miracles of healing, as well as growing its own numbers. Followers of the faith who aren't members of the order are considered faithful of the Shayanaiesk Kellna."
+ 
+ holder_faith:0 "Holder Ways" #
+ holder_faith_adj:0 "Holderish"
+ holder_faith_adherent:0 "Holderfarer"
+ holder_faith_adherent_plural:0 "Holderfarers"
+ holder_faith_desc:0 "The highly conservative Holderfolk believe in a dominant male god and a passive subservient goddess."

@@ -1,0 +1,19 @@
+﻿#Duchy of Derbent # adhari Culture shirvanite_church Religion characters
+### k_shirvan is divided into de jure duchies following old_shirvanite_church before 980 # converts to shirvanite_church in 1034 # provinces done
+# rulers of the Duchy of Derbent
+drsderbent0001 = {
+	name = "Azarmidokht" #
+	female = yes
+	dynasty = drsdyn129 # Shahbazi
+	religion = old_shirvanite_church
+	culture = adhari
+	1030.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,46 @@
+﻿#Kingdom of Kirman # persian Culture persic_ireneism Religion characters
+#first ruler born 845 takes throne 865
+
+# rulers of the Kingdom of Kirman Duchy of Kirman
+drskirman0001 = {
+	name = "Aayaan" # wife Zhaleh # daughter Ziba
+	dynasty = drsdyn17 # Mashizi
+	religion = persic_ireneism
+	culture = persian
+	845.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drskirman0002 = {
+	name = "Zhaleh" # daughter Ziba
+	female = yes
+	religion = persic_ireneism
+	culture = persian
+	845.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		add_spouse = drskirman0001 # Aayaan Mashizi
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+drskirman0003 = {
+	name = "Ziba" # daughter Ziba
+	female = yes
+	dynasty = drsdyn17 # Mashizi
+	religion = persic_ireneism
+	culture = persian
+	father = drskirman0001 # Aayaan Mashizi
+	mother = drskirman0002 # Zhaleh
+	866.1.1 = {
+		birth = yes
+	}
+	868.1.1 = {
+		death = yes
+	}
+}

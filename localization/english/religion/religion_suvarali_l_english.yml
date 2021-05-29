@@ -1,0 +1,66 @@
+﻿
+l_english:
+
+ #suvar_al_i
+ suvar_al_i_religion:2 "Suvar'al'i'"
+ suvar_al_i_religion_adj:2 "Suvar'al'i'ja" 
+ suvar_al_i_religion_adherent:2 "Suvar'al'i'jam"
+ suvar_al_i_religion_adherent_plural:2 "Suvar'al'i'jamis"
+ suvar_al_i_religion_desc:0 "The Suvar'al'i' faith is a tradition based in the mystic writings of Tammy Gyichangmol, compiled in her later life, and teaches a way to spiritual enlightenment for all beings, which is called Amaranth or the Amaranthine Way. The tradition is very, very pacifist and believes that harmony between all is necessary for the achievement of Amaranth."
+
+ suvar_al_i_high_god_name:0 "The Amaranth"
+ suvar_al_i_high_god_name_possessive:0 "The Amaranth's"
+ suvar_al_i_high_god_name_alternate:0 "Love-Lies-Bleeding"
+ suvar_al_i_high_god_name_alternate_possessive:0 "Love-Lies-Bleeding's"
+ suvar_al_i_zero_sum:0 "Zero Sum"
+ suvar_al_i_zero_sum_possessive:0 "Zero Sum's"
+ suvar_al_i_priest_male:0 "High Seeker"
+ suvar_al_i_priest_male_plural:0 "High Seekers"
+ suvar_al_i_devotee:0 "Walker"
+ suvar_al_i_devoteeplural:0 "Walkers"
+ suvar_al_i_priest_female:0 "High Seeker"
+ suvar_al_i_priest_female_plural:0 "High Seekers"
+ suvar_al_i_priest_neuter:0 "High Seeker"
+ suvar_al_i_priest_neuter_plural:0 "High Seekers"
+ suvar_al_i_bishop_male:0 "Grand Seeker"
+ suvar_al_i_bishop_male_plural:0 "Grand Seekers"
+ suvar_al_i_religious_symbol:0 "amaranth"
+ suvar_al_i_religious_text:0 "the Mystic Writings"
+ suvar_al_i_religious_head_title:0 "Champion Seeker"
+ suvar_al_i_divine_realm:0 "the HOUSE OF WE"
+ suvar_al_i_dreamsleeve:0 "the Dreamsleeve"
+ suvar_al_i_house_of_worship:0 "Communal Monastery"
+ suvar_al_i_house_of_worship_plural:0 "Communal Monasteries"
+ suvar_al_i_witchgodname_megha_rix:0 "Megha"
+
+ suvar_al_i_creator_god_name:0 "The Godhead"
+ suvar_al_i_creator_god_name_possessive:0 "The Godhead's"
+ suvar_al_i_fate_god_name:0 "The Wheels of Lull"
+ suvar_al_i_fate_god_name_possessive:0 "The Wheels of Lull's"
+ suvar_al_i_knowledge_god_name:0 "St. Hrandel"
+ suvar_al_i_knowledge_god_name_possessive:0 "St. Hrandel's"
+
+ suvar_al_i_faith:0 "Suvar'al'i'"
+ suvar_al_i_faith_adj:0 "Suvar'al'i'ja"
+ suvar_al_i_faith_adherent:0 "Suvar'al'i'jam"
+ suvar_al_i_faith_adherent_plural:0 "Suvar'al'i'jamis"
+
+ suvar_al_i_megha_rix_ta:0 "Suvar'al'i'megha'rix'ta"
+ suvar_al_i_megha_rix_ta_adj:0 "Suvar'al'i'megha'rix'ta'ja"
+ suvar_al_i_megha_rix_ta_adherent:0 "Suvar'al'i'megha'rix'ta'jam"
+ suvar_al_i_megha_rix_ta_adherent_plural:0 "Suvar'al'i'megha'rix'ta'jamis"
+ suvar_al_i_megha_rix_ta_desc:0 "The Suvar'al'i'megha'rix'ta is a branch of the Suvar'al'i faith worshipping the Megha'rix'ta pantheon. It is less strongly pacifist than mainstream Suvar'al'i religion, but allows its followers to freely use battle magic, and believes heavily in personal theologies and spiritual reality scripting."
+
+ 
+ tenet_amaranth_path_name:0 "Amaranth Path"
+ tenet_amaranth_path_desc:1 "The way to freedom from suffering is within all of us. We must assert I AM and I ARE ALL WE in the face of EVERYTHING that indicates otherwise, and work to make a better world with our brethren of ALL faiths."
+ 
+ tenet_taminarian_pacifism_name:0 "Taminarian Pacifism"
+ tenet_taminarian_pacifism_desc:1 "Wars are a plague on this earth and should be completely opposed by all the virtuous. Only the gods, immortal, undying, are fit to wage war, and even then, they're on thin ice."
+ 
+ tenet_pseudomonastic_name:0 "Pseudomonastic"
+ tenet_pseudomonastic_desc:1 "While we do not believe in asceticism, there should indeed be communities of especially devoted believers to practice our faith without disturbance and the troubles of feudal life."
+ 
+ tenet_spiritual_reality_scripting_name:0 "Spiritual Reality Scripting"
+ tenet_spiritual_reality_scripting_desc:1 "The folk of our faith hold the gateways into all realities through the subcreations of our minds. We need not hide this, after all - who would believe such a preposterous thing!"
+ doctrine_parameter_tenet_srs_reality_shifting_education:0 "Characters of this faith can gain the [GetTrait('reality_shifter').GetName( GetNullCharacter )] trait either on random or if they succeed well in their childhood religious academics."

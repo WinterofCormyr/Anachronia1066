@@ -1,0 +1,479 @@
+﻿high_taminarian_group = {
+	graphical_cultures = {
+		byzantine_group_coa_gfx
+		western_coa_gfx
+		mediterranean_building_gfx
+		northern_clothing_gfx
+		northern_unit_gfx
+	}
+	mercenary_names = {
+		{ name = "mercenary_company_geezan_company" }
+		{ name = "mercenary_company_tigrayit_band" }
+	}
+	old_obish = { # splits into Kal'Obish ##Colovian## Novar'Tali ##Nibenese## and Vayr'Obish ##Imperial## by 936
+		color = { 71 86 71 }
+
+		cadet_dynasty_names = {
+			"dynn_Julio_Claudian"
+			"dynn_Flavian"
+			"dynn_Nerva_Antonine"
+			"dynn_Severan"
+			"dynn_Gordian"
+			"dynn_Constantinian"
+			"dynn_Valentinian"
+			"dynn_Theodosian"
+			"dynn_Leonid"
+			"dynn_Justinian"
+			"dynn_Heraclian"
+			"dynn_Isaurian"
+			"dynn_Nikephorian"
+			"dynn_Amorian"
+			"dynn_Macedonian"
+			"dynn_Doukid"
+			"dynn_Komnenid"
+			"dynn_Angelid"
+			"dynn_Laskarid"
+			"dynn_Palaiologan"
+		}
+
+		dynasty_names = {
+			"dynn_Julio_Claudian"
+			"dynn_Flavian"
+			"dynn_Nerva_Antonine"
+			"dynn_Severan"
+			"dynn_Gordian"
+			"dynn_Constantinian"
+			"dynn_Valentinian"
+			"dynn_Theodosian"
+			"dynn_Leonid"
+			"dynn_Justinian"
+			"dynn_Heraclian"
+			"dynn_Isaurian"
+			"dynn_Nikephorian"
+			"dynn_Amorian"
+			"dynn_Macedonian"
+			"dynn_Doukid"
+			"dynn_Komnenid"
+			"dynn_Angelid"
+			"dynn_Laskarid"
+			"dynn_Palaiologan"
+		}
+		male_names = { #
+		    Natalo Otho Strilian Varo Crito Antus Belisarius Berich Jesan Sergius Aebondeius Afer Albecius Allian Antonius Apelles Ariulcabor Arius Arlowe Arrinis Astius Attelivupis Audenian Augurius Aunius Bacola Baro Benunius
+			Burcanius Caccian Caius Calvario Calvus Canctunian Capiton Cassius Carnius Cavortius Cidius Cimber Clagius Clasomo Clecentor Clibergus Cocistian Codus Coirtene Constans Corrudus Crassius Crottus Crulius Cunius Darius
+			Depusanis Drusus Dunius Durus Duvianus Ertius Esdrufus Falco Falx Fandus Frinnius Furius Ganciele Gergio Glallian Granius Gratian Gualtierus Hasphat Ignatius Ildogesto Ilnori Iratian Iulus Jonus Larisus Larrius 
+			Letreius Levus Linus Lucan Lucretinaus Lurius Luspinian Luven Malpenix Manilian Marsus Masque Matus Mecilvus Miles Molvirian Moris Murberius Murudius Mus Namanian Naspis Natalinus Nirtunus Nitterius Nolus Oritius
+			Percius Pilper Pilus Plitinius Processus Procyon Pustula Raxle Reberio Rufinus Sabinus Saenus Saprius Sauleius Scelian Segunivus Seliulus Sellus Senilias Silius Sirollus Sitialius Somutis Stentus Stlubo Strillian 
+			Surus Synnolian Tappius Tasellis Ticemius Tienius Tininnus Trebonius Turedus Tyronius Vala Valgus Valvius Vantustius Varian Varus Vasesius Vertilvius Vinnus Vodunius Wulf Zeno Adamus Adrian Aloys Amantius Amiel 
+			Amminus Ancus Andreas Arcturus Arentus Ashtus Audens Baszone Bendu Betto Bremman Brielus Brotch Bruccius Bruscius Bruscus Caius Carius Carmalo Carodus Cartrus Casta Cicero Claudius Collatinus Contumeliorus Corvus
+			Cosmus Cyronin Danus Decentius Denel Desideratus Dion Draninus Dyus Eduard Fadus Fagus Florentius Fortis Fralav Gaius Galtus Garrus Gellius Gemellus Gerich Giovanni Glenroy Gregory Haderus Helvius Helvo Herdir
+			Hieronymus Hirrus Humilis Ilav Ilend Imus Iniel Inius Irlav Itius Jak Januarius Janus Jaras Jirolin Jiv John Joofy Kantav Kaslowyn Kastav Langley Laythe Lerexus Ley Lorgren Lucien Lurio Luther Malintus Marinus Marius
+			Maro Martin Mattius Melus Menien Mercator Natch Nermus Nigidius Olvus Ontus Ormellius Otius Pelagius Pelinal Pennus Pinarus Piner Plautis Primo Rallus Raminus Regulus Reman Rielus Rimalus Ris Roderic Roliand Rufrius
+			Savlian Servatius Severius Stantus Steffan Sulinus Surius Tahm Tertius Tertullian Toutius Trenus Tyrellius Uriel Valandrus Valus Vandorallen Vantus Velan Velus Velwyn Viator Viranus Vlanarus Vlanhonder Vlarimil Vontan
+			Vontus Zedrick Adonato Adventus Aerin Agrius Alethius Aquillius Aventus Bassianus Caius Calixto Cicero Constantius Corpulus Crescius Dexion Ennodius Falx Florentius Gaius Gallus Gavros Gian Leontius Lucan Mallus 
+			Marcurio Metilius Noster Orthus Paratus Pavo Plautis Proventus Quentin Quintus Reburrus Rexus Rogatus Salvianus Samuel Septimus Sergius Severio Silus Sorex Sulla Tacitus Taurinus Telrav Terek Titus Tyranus Vantus
+			Varnius Venarus Verulus Xander Aberius Abnur Absolon Accalia Adonatus Aetis Agapius Ancurio Andreas Antus Appius Aquila Arentus Aretino Arlowe Arrianus Artorius Artus Aspridus Astius Atrius Augurius August Auiphion 
+			Aurius Averio Azshalku Beldorr Blandus Brielus Brucus Cadwell Caecilus Caitarius Calvus Carodus Carolus Carusian Casta Castellan Cavorus Celag Celsus Chaero Cicero Cidius Cimbar Cimber Clasomo Claudius Clementus 
+			Codus Collatinus Compicius Contar Cordius Coris Corloius Cosh Crassius Crispinus Crispus Decalus Decanus Decius Dirge Dobias Domitius Donus Draninus Duvianus Eburris Ennis Fabio Fabius Fabricius Falco Falx Feristyr
+			Ferrus Flaminius Florentius Florus Floveran Fluvius Fortis Fralav Gadayn Gallinius Gorag Graccus Gregorius Haderus Hareld Hark Impudius Iniel Iocundus Iulianus Iulius Jadier Janius Jano Jaretius Javad Jirolin 
+			Justianas Justicius Justicus Justino Kastav Laelius Larrius Larus Leono Leontius Liguro Linus Liodes Livius Lorgren Lulius Lupandinus Lupius Luven Mallius Malpenix Marcellinus Marcius Margus Marius Maro Martialis
+			Martinus Martio Maxilien Maxim Medallus Mercuro Mero Molvirian Montanus Mulnus Murudius Musius Nemesianus Nemus Nepas Nepicius Nero Nerus Nicolas Nonus Novatus Nrio Nullius Octarianus Octavimus Orinthus Orland Ormax
+			Otius Ovidius Panundus Paolus Paratius Paulinius Percius Perenius Petronius Philius Phrastus Pilper Pitro Pius Pixot Plautis Plautisanus Plautus Porcius Postius Priscus Quan Quentinius Ravo Reberio Reman Rexus Roliand 
+			Sabinus Saevus Salanius Salano Salanus Sanctius Saulius Savilian Savio Scaevola Scarius Scelian Scipion Senilias Septius Sergianus Sergius Sergus Servatius Servius Severinus Sextus Sigilis Silus Sirollus Sorexius 
+			Statius Sulinus Surus Sylvian Taminal Tappius Teldius Terenus Tersius Tertius Thalanius Tiburtius Tininnus Tinus Titus Tractus Trano Tullius Tutorius Valentinus Valton Valvius Varen Varinus Varius Varnius Ventilias
+			Veranus Verel Verro Vibius Vinice Vinnus Viro Visetus Vitellus Vitrus Vitus Volgo Vyric Zelanus
+			# Saint Names
+			Isaac Abraham Aaron Ahijah Amos Agabus Azariah Daniel David Elijah Elisha Enoch Ezekiel Ezra Gad Gideon Habakkuk Haggai Hanani Hosea Iddo Isaiah Jacob Jehu Jeremiah Joel John Jonah Joshua Judas Job Lamech Lucius
+			Malachi Manahen Melchizedek Micah Micaiah Moses Mahum Nathan Noah Obadiah Oded Philip Paul Samuel Shemaiah Silas Simeon Uriah Zechariah Zephaniah Ananias Eldad Eliezer Elihu Jahaziel Joseph Medad Nebuchadnezzar
+			Saul Simeon Solomon 
+			# Aramaic Names
+			Aba Abahu Abaya Abaye Abayi Abba Abdima Abdisho Abgar Abimalek Abraham Abris Abrisius Acacius Achan Achina Addai
+			Adlai Aggai Ahai Ahadabui Ahha Akha_d_abuh Akh_es_Samain Aqib_Alaha Asa Ashur Avahu Avda Avdima Avdimi Avina Avira Azai
+			Babaeus Babai Babowai Babwahi Bar Bar_Abba Barba_shimin Bar_Nabha Bar_Talmai Bar_Timai Bar_Tolmai Bustan
+			Caiaphas Cephas Cephus Chadlai Chama Chanin Chanina Chaninai Chinena Chozai Chuma Chunya Clopas
+			Dadisho Denha Dikla Diklah Dimi Dinkha Dunanu Elisha Eliya Emmanuel Enosh Ezekiel Farbokht Foma Giwargis Grwgari
+			Hanina Hnanisho Hozai Idan Idra Ila Isaac Isho Isho_yahb Israel Kaiapha Karna Katsiu Kelaya
+			Laszio Lazar Lazare Lazaro Lazaros Lazarus Lazarz Lazer Lebbaeus Maadai Macabee Maccabee Magna Makkikha Maluch Ma_na Marabokht Maremmeh Mari Mikha_il Moqli Muna
+			Nahir Nahor Nahur Narsai Nazuk Nechunya Nehor Nehorai Niv Nun Nur Oran Pappa Paul Pethion Petros Petuel Qaligh Qayyoma Raca Rachim Rahim Raka Raz Raziel Rubil
+			Saad Saba Sabah Sabba_e Sabrisho Sabr_Ishu Salu Samal Sami Samiy Sagi Sargis Sava Sawma Shafer Shahdost
+			Shahlufa Shai Shalmai Shama Shamir Shammai Shemaiah Shem_on Sheraga Shila Shovai Shraga Sima Sliba-zkha Surin
+			Tabbai Taddai Talia Taliah Talmai Talya Tam Tam_as Ta_mhas Targhal Tauma Tavi Tavish Tevis Th_amhais Thoma Timai Tiv Toba Todos Tolmai Tomarsa Tamuza Tulmay
+			Ukba Yahballaha Yanai Ya_qob Yeshua Yohannan Yosip Yousef Yunanis Zerika
+			# Zhangzhung Names
+			Atimuwer Berkya ChimetsukphU_ Chirum Chunmardang Dakhor Damitheke Damshe Dangwa Demdruk Denpar
+			Dokchen Donla Draktsubkye Drenpa Dud Duddul Durshen Dzomar Gawagye GO_war Gurser Guwer
+			Gyalwa Gyer Gyerme Gyerpung Gyung Gyungyar Harachipar Hrido Hripa Hrista JO_nwa Kalarasa Khyabpa Kuchi
+			Kunla Kyabpai Kyeshe Kyichuk Kyile Labchen Lakring Lampa Langboche Larje Likmigyal Likmikya Likmur
+			Liknyashur Liknyikya Liknyirhya Liwergyer Lokpai LO_po LopO_n Ludrub Luje Lurab Lutsen Mabu Mangke Marpo
+			Martang Mebar Meka Meri Merutse MilU_samlek Mikmar Milwo Mra Mrabon Mranyite Mrawa Mucho MukhO_ Mukhung
+			Mulakhung Mumar Muwer Muwernor Namdak Namje Namse Nangwa Nangzher Naro Nor Norgyi O_kar
+			O_sel Pebon Pholha Pung Rabtson Rakhuk Salwa Sangjo Sangpo Sangto Sehrigyer Senggetram Shebu Shele
+			Shelgyung Shenlha Shenpa Shenrab Sridpa Takla Takma Thenwa Thipang ThokgO_ Thoktse Thuchen Tobchen
+			Tonggyung TO_npa TraphU_ TrideiO_po Tridem Trimen Triwer Troto Tsepo Wal Werya Yangje Yidring Zache
+			Zijid Zingkye Zingpa Zutse
+			# Khanty Names
+			Andyamo Arnaz Arti Artis Arvo Aymort Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Dobrinya Dokya Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey
+			Kezhevat Kichay Koksha Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg
+			Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka Pyera Rateg Rayda Sarin Sektev Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka Tikshayka Tuhan Tyueykezhut
+			Tyutyuk Tugan Turush Uchva Varaka Vechkas Velmayka Virdyan Viryas Viryay Vokan Yirkap Ylvan Zarny Zhebeg Zhuneg Zyryan
+			# Laktan Names
+			Chilbu Aepak Asalup Asep Atrak BO_nek Bachman Begluk Blush Bonyak Borch Eldechyuk Etrek Girgen Gzi Itlar Ituk KO_nC_ek Kobyak Kopti Kotyan Koza
+			Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevench Sirchan Sokal Sotan Sugr TO_rtogul Togli Tolun Tugor Uzluk Uzur
+			# Kirghiz names
+			Chilbu Adilet Aibek Aepak Asalup Asep Atrak BO_nek Bachman Barsbeg Begluk Blush Bonyak Borch Eldechyuk Etrek Girgen Gzi Itlar Ituk Jaglaqar Jyrgal
+			KO_nC_ek Kobyak Kokotoy Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan Manas Pulad
+			Saru Seitek Semetei Sevench Sirchan Sokal Sotan Sugr Sukhrab TO_rtogul Taalay Tardush Togli Tolun Tugor Uzluk Uzur Zhyrgal
+			# All names random order
+			Valandrus Thipang Chilbu Itius Labchen Shypicha Plautisanus Pethion Ovtay Narsai Babwahi Dadisho Allian Valus Pakstyan Luven Nahor Ventilias Diklah Dzomar Girgen Vinnus Janius Rateg Uzluk Yunanis Bremman Bruscus Troto
+			Venarus Taminal Jano Trebonius Ahha Chuma KO_nC_ek Fortis Ahai Tamuza Augurius Zhyrgal Gallinius Emmanuel Paolus Domitius Zelanus Sami Dobrinya Statius Vitrus Shemaiah Kezhay Sugr Shenpa Varius Corpulus Jak Azeg
+			Nicolas Corrudus Synnolian Gian Ennodius Macabee Fluvius Isaiah Dangwa Senggetram Spira Zechariah Gregorius Sorexius Habakkuk Mranyite Dimi Salu Togli Chadlai Marabokht Compicius Lazarz Ashur Shenrab Shalmai Kotyan
+			Harachipar Salwa Babaeus Kyeshe Shama Salanus Roderic Pebon Gavros Shenlha Carius Micah Gratian Uriel Galtus Hareld Mus Likmigyal Tomarsa Audens Trenus Hanani Tininnus Salvianus Israel Kozel Bassianus Toba Canctunian 
+			Babowai Elihu Mebar Lurio Tugan Aibek Adlai Zingkye Luje Cosmus Idan Ezekiel Demdruk Samuel Mabu Setyamka Duddul Ormellius Philius Lamech Processus Avira Agabus Tardush Orland Judas Veranus Vantustius TO_rtogul Jonah
+			Achan Dunius Cicero Aebondeius Marius Vokan Lazarus Sextus Thuchen Wal Trimen Ashtus Dunanu Nirtunus Giovanni Chozai Contumeliorus Varus Strillian Orinthus Martio Appius Clasomo Ilend Jadier Iocundus Contar Tullius 
+			Mero Milwo Berkya Zerika Stantus Vlanhonder Abahu Taurinus Todos Yohannan Kalarasa Silus Petronius Dergun Toutius Arius Tuhan Rahim Cavortius Tiv Caius Justicius Arvo Sigilis Draktsubkye Sektev Januarius Pustula
+			Audenian Yangje Kuchi Saba Ezra Quentinius Syrka Amantius Celag Larus Sabba_e Ta_mhas Medad Glenroy Bar_Tolmai Tasellis Bachman Tridem Murudius Noster Nangwa MukhO_ Carolus Telrav Saenus Falco Salano LopO_n Surus Dud
+			Benunius Denha Tappius Arnaz Gyung Nalka Septimus Manahen Plautus Ilav Yousef Chunya Etrek Saru Tolmai Caecilus Lyneg MilU_samlek Postius Naro Leontius Gerich Muna Sehrigyer Taddai August Gad Reman Chunmardang Jehu
+			Gyalwa Shebu Nigidius Attelivupis Pholha Ituk Varaka Azariah Nangzher Osh Velwyn Magna Zyryan Savio Katsiu Stentus Lucan Abba Arentus Artis Haggai Martang Flaminius Apelles Zingpa Corvus Accalia Sevench Qayyoma
+			Auiphion Gemellus Aberius Shele Gyer Baro Aretino Putyayka Damitheke Granius Rufinus TO_npa Pulad Qaligh Luspinian Servius Pilper Bar_Abba Vantus Daniel Agrius Marpo Aggai Floveran Timai Bar Malpenix Manilian Atrak 
+			ThokgO_ Darius Ma_na Orthus Natalinus Metilius Chaero Tavi Hrido Nur Scelian Quan Gorag Cyronin Tonggyung Liknyashur Hieronymus Varian Eldad Kyldysin Barba_shimin Atrius Kyabpai Oritius Akh_es_Samain Justianas Mallus
+			Olvus Sorex Ignatius Ennis Otho Sulinus Phrastus Parush TrideiO_po Martinus Nuyaksha Viryas Nebuchadnezzar Surin Zephaniah Jyrgal Kokotoy Pelinal Feristyr Constans Tabbai Shahlufa Burmort Severio Grwgari Linus Brucus
+			Talya Marcius Durshen Yeshua Severinus Marsus Pixot Silas Biyar Inius Koza Oran Cordius Raxle Seitek Verulus Rubil Averio Reburrus Sabr_Ishu Akha_d_abuh Mahum Dikla Aquila Danus Afer Paksyut Caitarius Iulus Talmai 
+			Sanctius Nehor Kubasar Hrista Maremmeh Savilian Mattius Ylvan Saulius Tulmay Uzur Abdima Lutsen Pius Rufrius Sava Rielus Yosip Ila Nemus Barsbeg Andyamo Antonius Paratus Tyueykezhut Sukhrab Viator Mulnus Abgar Kezhapa
+			Adonato Lurab Laelius Gyungyar Chama Florus Cadwell Asep Nuyat Lebbaeus Denel Avahu Jaretius Quentin Tyronius Crispus Mrawa Capiton Dokchen Ancurio Abayi Novatus Malyy Chuga Ris Mercuro Eldechyuk Gazheg Muwer Zarny 
+			Melus Tikshayka Nolus Ontus Scipion Castellan Borch Jirolin Ahijah Kaiapha Ariulcabor Tolun Pinarus Zache Nydog Crispinus Shelgyung Velmayka Inzhay Raziel Isaac Bonyak Drenpa Asalup Gzi Shindyay Kutan Achina Shovai
+			Rogatus Nahur Micaiah Ovidius Carusian Esdrufus Werya Tam_as Foma Moses Kunla Graccus Itlar Cimber Primo Hosea Dokya Valton Petuel Liguro Pivtsay Liknyirhya Sangto Maxilien Cimbar Cosh Abaye Ya_qob Tsepo Karna Malachi 
+			Abris Baszone Iulianus Albecius Celsus Addai Begluk Montanus Stlubo Teldius Kichay Shraga Turush Nero Justino Iulius Iddo Segunivus Saprius Clementus BO_nek Hirrus Clibergus Verel Langboche Aunius Aerin Crottus Lazaro
+			Plautis Letreius Shafer Ravo Abimalek Muwernor Ilnori Vechkas Jaras Scarius Collatinus Berich Luther Fralav Rakhuk Silius Pappa Vinice Bar_Talmai Nullius Miles Shila Mumar Ozheg Babai Otius Ganciele Moqli Medallus
+			Tractus Alethius Martialis Somutis Solomon Carnius Varen Tugor Kopti Enoch Dyus Ormax Merutse Cunius Oded Maro Nepas Cidius Tyranus Eburris Humilis Sheraga Nehorai Shem_on Vontus Idra Enosh Sirollus ChimetsukphU_ 
+			Nuyanza Plitinius Garrus Laythe LO_po Lupandinus Lazare Tinus Aymort Amos Ildogesto Deryab Kastav Vasesius Koksha Nechunya Gawagye Lysko Laszio Lucien Tobchen O_sel Yirkap Octavimus Furius Gurser Kezhevat Marinus 
+			Bruscius Nahir Adilet Valgus Jacob Oshmar Tienius Adventus Asa Likmur Abdisho Kezhedey Nitterius Mikha_il Nerus Tavish Joshua Vertilvius Arrinis Nylog Sliba-zkha Larisus Fabius Justicus Lucretinaus Meri Calvario Arti 
+			Haderus Tam Sirchan Codus Chanin Joofy Lucius Nepicius Kaslowyn Aloys Raca Cavorus Helvo Zhebeg Helvius Caiaphas Fabricius Elisha Taalay Liwergyer Clagius Liodes Rayda Mecilvus Cassius Depusanis Constantius Lerexus
+			Yidring Norgyi Kelaya Moris Masque Gadayn Joseph Agapius Sabrisho Turedus Varo Falx Avda Florentius TraphU_ Antus Kuntuvdi Tertullian Glallian Tahm Namanian Levus Maluch Semetei Yanai Amiel Maadai Guwer Sangpo 
+			Jaglaqar Pelagius Lulius Shammai Sokal Zeno Cephas Margus Arcturus Belisarius Philip Aquillius Paul Saul Hripa Impudius Giwargis Chirum Tutorius Dion Clopas Ananias Lakring Crulius Porcius Shamir Th_amhais Eliezer
+			Joel Dirge Durus Adrian Hark Meltsayka Musius Casta Liknyikya JO_nwa Cartrus Surius Uriah Uchva Thoma Verro Gideon Vitellus Aqib_Alaha Marcurio Onika Tacitus Raz Arlowe Viro Mrabon Tevis Bendu Terenus Quintus Blush 
+			Rexus Blandus Brielus Khyabpa Menien Desideratus Oshypel Octarianus Livius Obadiah Titus Virdyan Murberius Irlav Adonatus Simeon Reberio Shai Dakhor Vyric Varnius Claudius Coirtene Tersius Piner Javad Lorgren Amminus 
+			Seliulus Kudym-Osh Dexion Sawma Salanius Paulinius Pavo Cephus Job Makkikha Dinkha Saevus Vlanarus Aspridus Hanina Gaius Mosheg Larje Duvianus Vala John Natch Carodus Lokpai Rabtson Maccabee Elijah Senilias Sridpa 
+			Namje Avina Takla Iratian Artus Bruccius Fadus Lupius Pokshayka Nermus Petros Jeremiah Saad Mercator Paratius Shyrpuzh Draninus Chinena Pyera Trano Eliya Ukba Visetus Tiburtius Adamus Paksyay Zedrick Talia Marcellinus
+			Volgo Molvirian Aaron Likmikya Thalanius Aepak Shahdost Pilus Nazuk Septius Sylvian Savlian Niv Aurius Mallius Sergius Sergus Absolon Janus David Takma Acacius Ley Priscus Kyile Jonus Drusus Coris Sarin Ertius 
+			Malintus Samal Abaya Donus Bar_Timai Pitro Percius Severius Atimuwer Ferrus Sulla Thoktse Namse Ludrub Betto Raminus Vitus Sangjo Biur Carmalo Ticemius Donla Maxim Burcanius Jiv Avdimi Crassius Zijid Triwer Beldorr
+			Kobyak Ancus Varinus Natalo Leono Zutse Bustan Mangke Sagi Hasphat Fabio Lampa Nun Thenwa Naspis Meka Rachim Bar_Nabha Hulyen Gyerpung Sergianus Gyerme Dobias Kuaz Nemesianus Lazar Sabinus Sotan Gualtierus Artorius
+			Isho_yahb Terek Chichayka Gregory Roliand Strilian Mukhung Taliah Andreas Vontan Pung Zhuneg Procyon Corloius Eduard Gellius Isho Crito Clecentor Panundus Bacola Mulakhung Tyutyuk Kantav Sauleius Aba Mucho Abraham 
+			Decius Nonus Velan Calvus Targhal Regulus Lazer Fagus Brotch Abnur Malyaka Melchizedek Tauma Azai Vibius Ozhmeg Scaevola Vodunius Hnanisho Noah Arrianus Lazaros Viryay Vandorallen Gergio Tyrellius Servatius Proventus
+			Raka Steffan Mikmar Fandus Sima Velus Tertius Namdak Farbokht Larrius Valentinus Decalus O_kar Wulf Ahadabui Valvius Astius Abrisius Viranus Nathan Nrio Iniel Avdima Nor Chanina Xander Sabah Caccian Denpar Rimalus 
+			Herdir Kyichuk Hozai Aventus Jesan Irter Jahaziel Yahballaha Mra Damshe Lurius Chaninai Langley Gallus Pennus Decanus Dondy Odeg Martin Sitialius Cocistian Azshalku Calixto Samiy Vlarimil Decentius Rallus Perenius 
+			Sellus Kya GO_war Aetis Sargis Mari Frinnius Crescius Matus Imus Manas
+		}
+		female_names = { #
+			Lepida Horatia Catina Hostia Jena Alessia Avita Camilla Ida Jena Selene Salonia Cassia Adraria Agrippina Ahetotis Alcedonia Apronia Arenara Audania Blatta Cania Canodia Catia Cinda Cinia Clilias Coventina Craetia Eloe 
+			Emelia Eponis Ettiene Fallaise Fammana Fentula Flacassia Flaenia Fralvia Fruscia Gaea Germia Horulia Idonea Isobel Ladia Lalaine Lalatia Larienna Lassinia Laurina Leone Livia Lunia Maesa Marara Moria Nebia Pallia 
+			Pania Pelena Pellecia Peregrina Pritia Raesa Ruccia Sabrina Sarmosia Selvia Severa Severia Solea Syloria Thraccenia Vala Vianis Viatrix Viccia Vilbia Volrina Aia Ariela Arnora Arriana Astia Astinia Augusta Aviera 
+			Avresa Britta Bronsila Buntara Caelia Caldana Cargas Carmana Casta Caula Ciirta Dumania Dynari Erina Etira Faustina Gruiand Herminia Isa Ita Janonia Jantus Jastia Jastira Javolia Julitta Lenka Lucina Lyra Marana 
+			Mariana Marlena Martina Millona Narina Naspia Perennia Pista Praxedes Rena Renee Restita Romana Rona Rosentia Rusia Salonia Schlera Selena Sibylla Silana Simplicia Tertia Una Viera Vilena Vinicia Ysabel Adelaisa 
+			Adrianne Aia Alessandra Alexia Arcadia Camilla Carlotta Constance Edda Ganna Gemma Gianna Gilfre Illia Indara Larina Leonara Lucia Mila Pantea Raen Ria Safia Silana Silvia Sosia Valga Vex Vigdis Viola Vittoria Accalia
+			Aconia Aemilia Alcedonia Alessandra Alexia Aloisia Amanda Amandia Amia Annia Anodia Apphia Arria Asirel Astara Atia Augustina Aventina Aviera Avita Bellona Blatta Brittia Caecilia Caesina Caesonia Caledonia Canodia 
+			Candria Cania Cardea Carina Carlotta Cassia Cassipia Caula Celina Ciceri Ciirta Cinia Cloelia Comilla Constantina Coventina Damyra Darvala Denisa Dinia Domitiana Drusilla Dulcilla Dumania Duras Duvia Edana Edwina 
+			Elianna Elianne Elska Enganna Engannas Eponis Etira Euraxia Faltonia Famia Farida Fausta Felixa Felra Finia Flacassia Florentia Fortunata Fralvia Fruscia Gaea Galeria Ganna Gemma Gemmia Gnaea Gratidia Helena Helvia 
+			Herminia Hestra Hilora Holli Honorata Honoria Horonna Horulia Hyponea Idessa Idessia Idonea Ilfras Infrasia Iocani Itinia Janieta Janta Jastia Jera Jerae Jerina Julia Julitta Juna Justa Justina Justinia Kaie Kerelia 
+			Kirandas Kyleus Ladia Lalaine Laurentia Laurina Lavinia Laytiva Lekellae Leona Leta Libertas Licinia Linia Livia Luca Lucia Luciana Lucina Lucinia Lucretia Lusilla Lyra Maera Magna Marama Marenia Marina Marja Martina 
+			Maxima Meluse Micella Midaras Ministe Mirona Moria Naissa Nari Nebia Octavia Orendra Oriandra Orneldas Pallia Pania Patia Pelona Perennia Phedra Phedre Pinarus Pista Pladina Plexica Porcia Portia Pritia Pudentia
+			Pulcheria Regine Quintia Rafora Rasala Rilia Rona Sabenda Safia Sandana Sarmosia Selene Senna Septima Severa Severia Shekestra Siladia Slera Sonolia Sosea Tacita Talia Terari Terendras Terran Tertia Thisa Thorasa Tia
+			Urania Vacia Vala Valencia Valentina Vaneria Varandia Varilia Varina Varinia Vastae Ventitia Veresa Vesta Viatrix Vicca Viccia Vilbia Vilena Vinicia Viola Vistilia Vita Vitelia Vitellia Vodiaka Volcatia
+			# Prophet names
+			Deborah Huldah Elizabeth Mariam
+			# Aramaic Names
+			Adva Alya Anena Anina Bustan Chanina Chasina Chayuta China Chiyuta
+			Dikla Diklah Diklit Duvsha Hanina Hasna Hayuta Hina Ketina Kitra
+			Magdala Mahalia Mahalie Marfa Mariam Marta Marte Martha Marthe Marti
+			Martita Mehalia Meiriona Meirona Morta Nahara Nura Raz Reuma
+			Saba Sabah Samantha Sameah Samee Sameea Samiya Samiyah Samiyya Samya Sava Shapira Sima
+			Tabatha Tabby Tabetha Tabitha Tadea Talia Taliah Talya Talitha
+			Tam Tamasin Tami Tammy Tamsin Tamsyn Tamzin Thaddea Thomasa
+			Zeita Zeta
+			# Zhangzhung Names
+			Atak Ataklumo Atakmo Ba Batsame Bumtsho Cha Changmo Chatsame Chukmo Dangra
+			Drangma Drablai Dronglek Duk Duktsuk Dzomo Gyi Gyichangmo Gyilumo Gyitsame Kering Khyungza Kyinam Kyidagi
+			Kyukma Lekyi Lhogyal Liwer Lumo Magyal Menchung Mewar Molha Mracham Nangze Neuchung Nyakchikma
+			Ongma Ringtsun Semarkar Shenza Silema Takber Takliwer Ting Tingber Tinglumo Tingtsame Trakthung
+			Tsa Tsadagi Tsame Tsatsame Tshogyal Trinyen Yid Yidongma Yum Yumtsame Yuyi Zamatok Zangza Zazu
+			# Khanty Names
+			Anava Ashava Asrava Avya Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva Inyava Kanyava Kanyuva
+			Kirdyava Kunava Kunyavka Litava Liyava Mazava Megurka Mel_shay Nezayka Nulzyava Nyal_ka Nyayka Nyumina Nyv Olota Ordava Oshama O_shkamO_shka Parava Pekshayka
+			Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal_ka Sangasa Sernyava Serzhay Setyamka Seyamka Shochynava Shonzhava
+			Shukshtoroyka Sinyava Siyamka Slyugan_ka Sochava Styaka Syryava Tatka Tekay Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga
+			Utyayka Valdava Vergava Vezhav Vidyava Virtyava Yalgava YugO_rka
+			# Laktan Names
+			Chichek Chilen Chiltanesi O_zgul O_zlem Akgul Asli Ayasun Ayten BozC_in Dilek Esin Gulchichek Gulay Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge
+			Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekche Tura Umay Usunbike Yasar Yeldem Yildiz
+			# Kirghiz names
+			Chichek Chilen Chiltanesi O_zgul O_zlem Aigul Akgul Anara Asli Ayasun Ayten Bozchin Begayim Bermet Cholpon Dilek Esin
+			Gulchichek Gulay Gulnara Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge Jibek
+			Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekche Tura Umay Usunbike Yasar Yeldem Yildiz
+			# All names random order
+			Nulzyava Jibek Licinia Ruzava Dynari Pelona Gulnara Idessia Juna Patia Carlotta Sernyava O_shkamO_shka Arcadia Caula Blatta Samur Ipekel Mariam Millona Pellecia Pemka Livia Poshayka Chanina Shapira Dzomo Sameea 
+			Menchung China Peregrina Lunia Euraxia Esin Elianna Valga Lavinia Putyayka Viola Tertia Ysabel Viera Unzhutka Selene Ariela Horulia Gyichangmo Gulchichek Anina Terran Bellona Samiya Finia Justa Potyava Chukmo Nezayka 
+			Sirin Vesta Leona Hostia Domitiana Laurina Sevilay Arria Asirel Tetyava Virtyava Luciana Audania Idonea Itinia Alcedonia Siyamka Fruscia Setyamka Kirdyava Lusilla Mewar Asrava Jerina Sosia Chayuta Nyal_ka Saba Laytiva
+			Mahalia Larienna Carina Adrianne Adraria Orendra Talia Celina Catina Aigul Vilbia Aia Ruccia Terari Martha Tikshayka Alessia Chatsame Diklah Olota Vastae Bumtsho Brittia Selena Phedra Kanyuva Kunyavka Tsatsame Marfa 
+			Raz Songul Cinda Gyi Shochynava Cassia Shonzhava Rona Apphia Apronia Porcia Chechama Elyuva Valencia Meluse Chichayka Romana Gratidia Fralvia Caesonia Severa Janieta Mracham Vodiaka Asli Jastia Lenka Ventitia Pista 
+			Oshama Valentina Thorasa Javolia Gaea Slyugan_ka Vergava Mirona Marlena Tekay Atia Sanal_ka Upurga Cha Mel_shay Anena Dangra Cloelia Karacik Augusta Aventina Vidyava Duk Adva Caldana Toyaksha Cargas Faustina Amandia 
+			Rusia Vitelia Cassipia Engannas Sameah Anodia Canodia Infrasia Talitha Huldah Moria Illia Aviera Cardea Ringtsun Ciceri Comilla Pelena Yum Adelaisa Litava Laurentia Molha Tamzin Larina Zamatok Lalatia Restita Ria 
+			Leone Ita Meiriona Narina Yuyi Candria Nura Renee Trinyen Begayim Lucia Etira Tundava Veresa Tam Tekche Morta Accalia Gyilumo Yumtsame Cania Dulcilla Dumania Sibylla Denisa Tura Nyakchikma Kirandas O_zgul Ayasun Vicca 
+			Slera Pania Florentia Mila Marara Libertas Bermet Ordava Hina Sonolia Rena Kanyava Duktsuk Augustina Jantus Ministe Drusilla Alexia Honoria Potekay Elizabeth Chilen Linia Justinia Maesa Ahetotis Vinicia Pritia Marta
+			Leta Bustan Tabatha Tia Edana Lucina Tsa Chasina Midaras Fausta Quintia Vala Tabby Liwer Fortunata Maera Gilfre Dronglek Shukshtoroyka Emelia Sima Mariana Semarkar Vex Yildiz Jera Constance Parava Severia Batsame
+			Clilias Ting Vianis Catia Septima Serzhay Indara Raen Volrina Zazu Vezhav Felra Pokshava Lepida Tacita Urania Sirma Buntara Justina Inyava Martina Edda Annia Marte Hayuta Nyayka Kaie Tingber Thaddea Silana Isa 
+			Caecilia Usunbike Horonna Tshogyal Rafora Chindyapa Elianne Samee Cinia Iocani Schlera Yasar Nahara Chiltanesi YugO_rka Kyidagi Chinzhay Shenza Liyava Amanda Varandia Martita Pudentia Lhogyal Reuma Styaka Janonia
+			Astia Carmana Megurka Ciirta Astinia Tabetha Dilek Bronsila Una Portia Naissa Germia Julitta Rayda Phedre Takber Enganna Simplicia Ganna Orneldas Sati Samiyah Famia Trakthung Tammy Aloisia Tsadagi Chitska Gulay Solea
+			Nari Maxima Vigdis Aemilia Lumo Alessandra Tabitha Perennia Darvala Casta Britta Tami Gunduz Vistilia Umay Amia Praxedes Selvia Hanina Fammana Dinia Honorata Sabenda Sochava Kerelia Craetia Jerae Atak Syryava 
+			Tingtsame Damyra Pekshayka Mehalia Janta Sava Isobel Mahalie Ba Ayten Sevindik Peksen Hasna Vilena Neuchung Zeita Atakmo Samantha Kunava Thomasa Horatia Ketina Avita Tadea Irge Kyinam Lekyi Caelia Regine Dikla
+			Faltonia Octavia Ladia Silvia Hyponea Arriana Yeldem Naspia Yidongma Tatka Nangze Sarica Flacassia Yalgava Pinarus Lassinia Ravzhava Coventina Viatrix Pulcheria Alya Syloria Sangasa Azra-Va Drablai Changmo Caledonia
+			Avresa Fallaise Kyukma Arenara Thisa Julia Kering Lucretia Pantea Magna Silema Mazava Ipek Edwina Samiyya Ataklumo Vaneria Cherava Idessa Raesa Fentula Meirona Nebia Nyumina Rilia Chichek Astara Viccia Sosea Agrippina
+			Marama Deborah Pladina Gnaea Tamasin Helvia Lalaine Tamsyn Salonia Valdava Rasala Vitellia Pallia Shekestra Marenia Gemmia Magdala Galeria Flaenia Marti Mala Duvia Vacia Tamsin Rosentia Thraccenia Drangma Gunes Jena
+			Herminia Marina Tsame Sibel Zangza Anava Akgul Marana Terendras Sarmosia Chindyayka Avya Varilia Hestra Constantina Ilfras Nyv Lekellae O_zlem Gemma Erina Chenksa Aconia Sabrina Tundya Micella Safia Marja Zeta Ongma
+			Luca Gundes Magyal Jastira Duras Utyayka Eponis Khyungza Kitra Seyamka Varina Elska Vita Mutlu Ettiene Lucinia Kyleus Bozchin Hilora Volcatia Tinglumo Yid Gianna Taliah Helena Gruiand Takliwer Oriandra Talya Camilla
+			Felixa Farida Duvsha Samya Arnora Vittoria Holli Ilkay Anara Leonara Diklit Ida Senna Sinyava Plexica Chiyuta BozC_in Marthe Sandana Ashava Lyra Siladia Cholpon Caesina Eloe Varinia Sabah Gyitsame
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+		ethnicities = {
+			75 = circumpolar_dark_hair
+			25 = circumpolar_brown_hair
+		}
+	}
+	kal_obish = { # FORMER KIRGHIZ PROVINCES
+		# INFLUENCES
+		# Elder Scrolls Imperial ALL HIGH TAMINARIAN
+		# Zhangzhung ONLY kal_obish
+		# #saintly names and Aramaic names are ONLY in vayr_obish#
+		# #khanty names are ONLY in novar_tali#
+		# #laktan names are ONLY in vayr_obish#
+		# German names from the Society of Creative Anachronism Academy of Saint Gabriel website #
+		
+		color = { 200 86 71 }
+
+		cadet_dynasty_names = {
+			"dynn_Julio_Claudian"
+			"dynn_Flavian"
+			"dynn_Nerva_Antonine"
+			"dynn_Severan"
+			"dynn_Gordian"
+			"dynn_Constantinian"
+			"dynn_Valentinian"
+			"dynn_Theodosian"
+			"dynn_Leonid"
+			"dynn_Justinian"
+			"dynn_Heraclian"
+			"dynn_Isaurian"
+			"dynn_Nikephorian"
+			"dynn_Amorian"
+			"dynn_Macedonian"
+			"dynn_Doukid"
+			"dynn_Komnenid"
+			"dynn_Angelid"
+			"dynn_Laskarid"
+			"dynn_Palaiologan"
+		}
+
+		dynasty_names = {
+			"dynn_Julio_Claudian"
+			"dynn_Flavian"
+			"dynn_Nerva_Antonine"
+			"dynn_Severan"
+			"dynn_Gordian"
+			"dynn_Constantinian"
+			"dynn_Valentinian"
+			"dynn_Theodosian"
+			"dynn_Leonid"
+			"dynn_Justinian"
+			"dynn_Heraclian"
+			"dynn_Isaurian"
+			"dynn_Nikephorian"
+			"dynn_Amorian"
+			"dynn_Macedonian"
+			"dynn_Doukid"
+			"dynn_Komnenid"
+			"dynn_Angelid"
+			"dynn_Laskarid"
+			"dynn_Palaiologan"
+		}
+		male_names = { #
+			Natalo Otho Strilian Varo Crito Antus Belisarius Berich Jesan Sergius Aebondeius Afer Albecius Allian Antonius Apelles Ariulcabor Arius Arlowe Arrinis Astius Attelivupis Audenian Augurius Aunius Bacola Baro Benunius
+			Burcanius Caccian Caius Calvario Calvus Canctunian Capiton Cassius Carnius Cavortius Cidius Cimber Clagius Clasomo Clecentor Clibergus Cocistian Codus Coirtene Constans Corrudus Crassius Crottus Crulius Cunius Darius
+			Depusanis Drusus Dunius Durus Duvianus Ertius Esdrufus Falco Falx Fandus Frinnius Furius Ganciele Gergio Glallian Granius Gratian Gualtierus Hasphat Ignatius Ildogesto Ilnori Iratian Iulus Jonus Larisus Larrius 
+			Letreius Levus Linus Lucan Lucretinaus Lurius Luspinian Luven Malpenix Manilian Marsus Masque Matus Mecilvus Miles Molvirian Moris Murberius Murudius Mus Namanian Naspis Natalinus Nirtunus Nitterius Nolus Oritius
+			Percius Pilper Pilus Plitinius Processus Procyon Pustula Raxle Reberio Rufinus Sabinus Saenus Saprius Sauleius Scelian Segunivus Seliulus Sellus Senilias Silius Sirollus Sitialius Somutis Stentus Stlubo Strillian 
+			Surus Synnolian Tappius Tasellis Ticemius Tienius Tininnus Trebonius Turedus Tyronius Vala Valgus Valvius Vantustius Varian Varus Vasesius Vertilvius Vinnus Vodunius Wulf Zeno Adamus Adrian Aloys Amantius Amiel 
+			Amminus Ancus Andreas Arcturus Arentus Ashtus Audens Baszone Bendu Betto Bremman Brielus Brotch Bruccius Bruscius Bruscus Caius Carius Carmalo Carodus Cartrus Casta Cicero Claudius Collatinus Contumeliorus Corvus
+			Cosmus Cyronin Danus Decentius Denel Desideratus Dion Draninus Dyus Eduard Fadus Fagus Florentius Fortis Fralav Gaius Galtus Garrus Gellius Gemellus Gerich Giovanni Glenroy Gregory Haderus Helvius Helvo Herdir
+			Hieronymus Hirrus Humilis Ilav Ilend Imus Iniel Inius Irlav Itius Jak Januarius Janus Jaras Jirolin Jiv John Joofy Kantav Kaslowyn Kastav Langley Laythe Lerexus Ley Lorgren Lucien Lurio Luther Malintus Marinus Marius
+			Maro Martin Mattius Melus Menien Mercator Natch Nermus Nigidius Olvus Ontus Ormellius Otius Pelagius Pelinal Pennus Pinarus Piner Plautis Primo Rallus Raminus Regulus Reman Rielus Rimalus Ris Roderic Roliand Rufrius
+			Savlian Servatius Severius Stantus Steffan Sulinus Surius Tahm Tertius Tertullian Toutius Trenus Tyrellius Uriel Valandrus Valus Vandorallen Vantus Velan Velus Velwyn Viator Viranus Vlanarus Vlanhonder Vlarimil Vontan
+			Vontus Zedrick Adonato Adventus Aerin Agrius Alethius Aquillius Aventus Bassianus Caius Calixto Cicero Constantius Corpulus Crescius Dexion Ennodius Falx Florentius Gaius Gallus Gavros Gian Leontius Lucan Mallus 
+			Marcurio Metilius Noster Orthus Paratus Pavo Plautis Proventus Quentin Quintus Reburrus Rexus Rogatus Salvianus Samuel Septimus Sergius Severio Silus Sorex Sulla Tacitus Taurinus Telrav Terek Titus Tyranus Vantus
+			Varnius Venarus Verulus Xander Aberius Abnur Absolon Accalia Adonatus Aetis Agapius Ancurio Andreas Antus Appius Aquila Arentus Aretino Arlowe Arrianus Artorius Artus Aspridus Astius Atrius Augurius August Auiphion 
+			Aurius Averio Azshalku Beldorr Blandus Brielus Brucus Cadwell Caecilus Caitarius Calvus Carodus Carolus Carusian Casta Castellan Cavorus Celag Celsus Chaero Cicero Cidius Cimbar Cimber Clasomo Claudius Clementus 
+			Codus Collatinus Compicius Contar Cordius Coris Corloius Cosh Crassius Crispinus Crispus Decalus Decanus Decius Dirge Dobias Domitius Donus Draninus Duvianus Eburris Ennis Fabio Fabius Fabricius Falco Falx Feristyr
+			Ferrus Flaminius Florentius Florus Floveran Fluvius Fortis Fralav Gadayn Gallinius Gorag Graccus Gregorius Haderus Hareld Hark Impudius Iniel Iocundus Iulianus Iulius Jadier Janius Jano Jaretius Javad Jirolin 
+			Justianas Justicius Justicus Justino Kastav Laelius Larrius Larus Leono Leontius Liguro Linus Liodes Livius Lorgren Lulius Lupandinus Lupius Luven Mallius Malpenix Marcellinus Marcius Margus Marius Maro Martialis
+			Martinus Martio Maxilien Maxim Medallus Mercuro Mero Molvirian Montanus Mulnus Murudius Musius Nemesianus Nemus Nepas Nepicius Nero Nerus Nicolas Nonus Novatus Nrio Nullius Octarianus Octavimus Orinthus Orland Ormax
+			Otius Ovidius Panundus Paolus Paratius Paulinius Percius Perenius Petronius Philius Phrastus Pilper Pitro Pius Pixot Plautis Plautisanus Plautus Porcius Postius Priscus Quan Quentinius Ravo Reberio Reman Rexus Roliand 
+			Sabinus Saevus Salanius Salano Salanus Sanctius Saulius Savilian Savio Scaevola Scarius Scelian Scipion Senilias Septius Sergianus Sergius Sergus Servatius Servius Severinus Sextus Sigilis Silus Sirollus Sorexius 
+			Statius Sulinus Surus Sylvian Taminal Tappius Teldius Terenus Tersius Tertius Thalanius Tiburtius Tininnus Tinus Titus Tractus Trano Tullius Tutorius Valentinus Valton Valvius Varen Varinus Varius Varnius Ventilias
+			Veranus Verel Verro Vibius Vinice Vinnus Viro Visetus Vitellus Vitrus Vitus Volgo Vyric Zelanus
+			# Zhangzhung Names
+			Atimuwer Berkya ChimetsukphU_ Chirum Chunmardang Dakhor Damitheke Damshe Dangwa Demdruk Denpar
+			Dokchen Donla Draktsubkye Drenpa Dud Duddul Durshen Dzomar Gawagye GO_war Gurser Guwer
+			Gyalwa Gyer Gyerme Gyerpung Gyung Gyungyar Harachipar Hrido Hripa Hrista JO_nwa Kalarasa Khyabpa Kuchi
+			Kunla Kyabpai Kyeshe Kyichuk Kyile Labchen Lakring Lampa Langboche Larje Likmigyal Likmikya Likmur
+			Liknyashur Liknyikya Liknyirhya Liwergyer Lokpai LO_po LopO_n Ludrub Luje Lurab Lutsen Mabu Mangke Marpo
+			Martang Mebar Meka Meri Merutse MilU_samlek Mikmar Milwo Mra Mrabon Mranyite Mrawa Mucho MukhO_ Mukhung
+			Mulakhung Mumar Muwer Muwernor Namdak Namje Namse Nangwa Nangzher Naro Nor Norgyi O_kar
+			O_sel Pebon Pholha Pung Rabtson Rakhuk Salwa Sangjo Sangpo Sangto Sehrigyer Senggetram Shebu Shele
+			Shelgyung Shenlha Shenpa Shenrab Sridpa Takla Takma Thenwa Thipang ThokgO_ Thoktse Thuchen Tobchen
+			Tonggyung TO_npa TraphU_ TrideiO_po Tridem Trimen Triwer Troto Tsepo Wal Werya Yangje Yidring Zache
+			Zijid Zingkye Zingpa Zutse
+			# Kirghiz names
+			Chilbu Adilet Aibek Aepak Asalup Asep Atrak BO_nek Bachman Barsbeg Begluk Blush Bonyak Borch Eldechyuk Etrek Girgen Gzi Itlar Ituk Jaglaqar Jyrgal
+			KO_nC_ek Kobyak Kokotoy Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan Manas Pulad
+			Saru Seitek Semetei Sevench Sirchan Sokal Sotan Sugr Sukhrab TO_rtogul Taalay Tardush Togli Tolun Tugor Uzluk Uzur Zhyrgal
+			# Society of Saint Gabriel German names
+			Adam Anton Balthasar Balthaser Cunz Hans Heinz Henn Jakob Johann Jost Konrad Melchior Michael Paul Peter Presses Reichart Reitz Thonges Werber
+			Hansman Henselman Conrade Cunrat Cun Cuon Cuontz Haints Haintzlin Clas Clais Clos Cloes Closlin Clooslin Ullin Uellin Ulrich Uulrich Urrich Auberli Burk BU_rklin Benlin Dieterlin Diettrich Georien Franciscus
+			Frank Frantz Merklin Maerklin Oswalt Ital Y_tel Rudin Ruedin Ruodin Adam Ambrosius Antonius Anthonius Arnolt Bantlin Best Bricius Gabriel Gilig Gutman Guotman Hardlin Haerdlin Jeck Jerg Laurentz Lucas Marquart
+			Marx Ostertag Philippus Reinbolt Ruodolff Rudolff Ruoff Ruff Spon Steffan Urban Wernhart Wolff Zyppolt
+			Hanns
+			Hennslin
+			Hans Caspar Martin
+			HanS_o
+			Henslin Conrad Haini Heinrich Closlin Cloeslin Aulber Eberhart Wern Wernher Will Willin Merklin Oswald Bartholome Ger Geer Gut Guot LoY_e LU_gglin Melchior Paule SY_ferlin Walther Ulrich
+			Hanns Hans Heintz Haintz Heinz Hantz Henntz Conntz Conntzlein Contz Conrad Fritz Fridlein Friedlein Clas Nickel Claus Jorg Endres Enndres Peter Albrecht Albretch Linhart Linhard Herman Hermann Ditz Jacob Lorentz 
+			Lorenntz Ott Erhart Erhardt Thoman Thoma Thomas Veitt Veyd Veyt Bartholomes Eberlein Eberhart Johannes Michel Simon Steffan Casper Man Manns Marx Mathes Rein Reynnhart Vlein Wolff WO_lfflein Ernst Frencklein Kilgan
+			Ludwig Mertlein Moritz Sebastian Sella Vtz Wilhelm
+			# Markov names based on above names
+			Alber Alberhaelm Alberk Albern Albrech Albrechel Albrecklin Albrens Albrentz Albres Albreslin Albreslintz Albrich Albricht Albrick Albroslin Albroslintz Albroslinz Albrost Ambrech Ambrens Ambrentz Ambres Ambreslin 
+			Ambrett Ambrichart Ambrietch Ambros Ambroslin Anthar Anther Antherdt Anthon Antlin Antlinton Antlippolff Antonrad Antontz Antzlein Antzlinhard Arnhan Arnhank Arnhart Arnherklinz Arnoloos Arnsman Auber Auberban 
+			Auberber Auberdlin Auberg Auberhard Auberklin Auberlig Auberlin Auberma Aubermanns Aubernher Aubernhes Aubert Aulbrecher Aulein Auleinhans Auleinz Aulritz Balthael Baltharx Balthelm Balthes Balthomas Balthome 
+			Balthomes Bancklin Banndrenns Bannslin Banntz Banton Bantz Bardlein Bardli Bardlin Barquardlin Barthardt Barthart Barther Barthomas Barthome Barthon Barthonrade Bartianck Bartianntz Bartlin Bencius Bennselch
+			Bennsmanton Benntoni Benntz Benslintz Benslinz Benst Bentz Besli Beslin Bessel Besses Brich Brichilli Bricis Bridlein Bridlin Bridlinhan Briel Brielm Brienlin Brietch Brieterns Britz Burecklein Burenlin Burentz Bures B
+			urett Burklein Burkli Burklin Casart Casartlin Casel Caser Caspartin Casperdt Casperk Caspert Castian Castintz Clain Clainhes Claini Clainius Claintz Claiscus Clasar Clasart Claspar Claspardt Claspart Claul Claulbreck
+			Claulein Clauleitz Claulricht Claurentz Claureter Cloesli Cloeslinius Cloeslintz Cloesses Cloest Cloman Clomancius Clomancklin Clomannharx Clomans Clomanses Clomantz Clome Clomes Clomeslin Cloos Cloosius Clooslinz
+			Cloost Closius Closlinrann Closlintz Clost Closteff Clostin Conges Congester Conius Connhas Connsellin Connst Conntlinz Connton Conran Conrann Conranslinz Conrat Conrienntz Conritz Contleintz Contleitz Conton Conts
+			Contzlin Cunrad Cunrade Cunran Cunranslin Cunrathome Cunrich Cunriciscus Cunritt Cunritz Cuodin Cuodolff Cuodoloes Cuodolt Cuoff Cuonges Cuoni Cuonius Cuonntz Cuonran Cuonrannes Cuotma Cuotman Cuotmanntz Cuotmans
+			Diedin Diedle Diedleich Diedlein Dielch Diella Dienckel Dienn Diennslin Diennton Dienses Dientz Dietch Dieteff Dieterlein Dietern Dietert Diett Diettritz Dittrich Dittrielm Eberbantz Eberkle Eberle Eberleicht Eberlin 
+			Eberman Ebermanntz Ebern Ebernhar Ebernhart Ebernhasper Ebernher Ebernolt Eberns Ebert Ebertin Endreck Endrencis Endrenlin Endrenns Endrennst Endrens Endrentz Endretch Endreter Endretern Enndrennses Ennes Ennsmantz 
+			Ennst Ennthart Ennton Enntz Erhan Erhank Erhann Erhannhans Erhar Erharquart Erhartalt Erharx Erhas Erhasartin Erhasel Erhaserban Erhaspartag Erhasper Ernhan Ernhart Ernhartalt Ernharthes Ernhast Ernolff Ernoloes
+			Ernoloeslin Ernolosli Ernolt Ernserns Ernsman Ernsmanton Frade Frann Frannes Frannhardt Franns Franntz Frans Franthomes Franton Frathel Frathomank Frecht Freck Frecklin Frenntz Frenser Frenst Fresli Fretefflein
+			Frettrich Frich Frichael Frichart Friches Frichill Frichiorg Frichioritz Fricht Fricis Fricius Fricklin Fridleiches Fridli Fridlin Friedin Friedle Friedli Friel Friellippus Frielman Frienn Frienslin Frientonton 
+			Frients Frientz Frietcht Frieter Frieterle Fritt Frittrich Gabrencius Gabrenn Gabrenntz Gabrenst Gabrentz Gabres Gabressel Gabritzlin Gabros Gabroslin Gabrost Geerbasel Geerg Geerhart Geerklein Geerlein Geerlin 
+			Geerman Geermas Geern Geernhael Geernhannts Geernhart Georeck Georennhaer Georents Geores Georesterk Georetch Georetchael Georg Georicklein Georiennes Georieteff Gerlig German Germantz Gilgan Gilganntz Gilgantz Gilhes
+			Gilin Gilinrat Gilintle Gilippus Gillaiscus Gillin Guodin Guodoloest Guodolosius Guodolt Guoff Guoffantz Guofflein Guoni Guonn Guonrad Guontz Gutma Gutmancius Gutmans Gutmanst Gutmantz Gutmantzlin Gutmasper Haelchas 
+			Haellin Haelm Haerk Haerkleitt Haerklin Haerman Haernharx Haert Hainhard Hainhasarx Hainius Hainz Haiscus Hanck Hanckel Hancklinhan Hanndrech Hanneslin Hannslin Hannthel Hannton Hanntz Hanslin Hanslintz Hansmanntz 
+			Hanstin Hanton Hantonntz Hantzlin Hardlintz Hardt Harquart Harthardlin Hartholthas Hartian Heich Heichaspart Heinbolff Heinhan Heinhart Heinius Heinran Heinrann Heintonntz Heitt Heitz Hencis Hencius Henckell Hencklein
+			Hencklin Henlin Henlintz Henndres Hennes Hennesser Hennhart Hennharther Hennhelman Henns Hennslintz Henntzlin Hensel Henses Henslints Henslintz Hensma Henst Henstian Henther Hentlein Hentonrad Hentonrat Hentz 
+			Hentzlein Hentzlin Hentzlippus Herbaspart Herber Herberhardt Herhaern Herklein Herklin Herlein Herleinius Herlig Herlin Herlints Herma Hernhel Hernhelm Hernolt Hertal Itald Italt Italthar Italthardt Italtherlin 
+			Italthoman Jechaer Jechart Jechelmann Jeches Jecht Jeckel Jeckelchelm Jecklin Jerberk Jerlin Jerlinbolt Jermantz Johael Johaer Johaermantz Johan Johancis Johancklein Johar Johardlein Johardt Johart Johartal Joharthan 
+			Joharthon Johartian Johartin Johartintz Johas Johasper Johaster Jorenn Jores Joriett Joritz Josius Joslin Joslinthome Joslintlein Joslintontz Kilgannhart Kilin Kilippus Killaures Killig Killin Killinz Konius Konnsel
+			Konntz Konricius Konridlig Kontlin Laulber Laulbros Laulein Lauleintz Laulricis Lauretcht Laurk Laurklin Linhardt Linher Linius Lintz Loren Lorencius Lorenn Lorennts Lores Loreteff Loreter Lorett Lorichart Lorichelman
+			Loricis Loricius Loriedin Loriedle Loriedlein Loriettrich Loritz Loritzlein Lucasart Lucaspar Lucasper Lucasperg Lucast Ludin Ludinhas Ludintz Ludolff Ludolomes Maella Maelm Maerber Maerk Maerman Maermanst Maernher
+			Maert Mannhardlin Mannslintz Manntz Mantz Mardleintz Mardlig Mardlin Mardt Marquar Marquard Martal Martalthes Marthart Martholff Marthoman Marthomantz Martian Martleicht Mathar Matharthart Mathelman Mathelmantz 
+			Matholffann Mathonntz Melch Melcht Mella Mellasarx Mellippus Melman Merberman Merdlippus Merhast Merkli Merklintz Merlein Merli Merlin Merlinbolt Merman Mermans Mernhar Mernhert Mernolff Mernslin Mernsman Mertalthart 
+			Michan Michanntlin Michanntz Michard Michart Micharthart Michellin Michiorielm Micis Micius Micklig Moreckleitt Morenntz Mores Morest Moretch Morich Moricht Moricklin Moriedlin Moriellais Morienlin Morieter Moritt 
+			Moritzlein Nichart Nicharthes Nicharthon Nichastin Nichel Nicht Nicius Nickli Nicklin Ostian Ostiank Oswal Oswalthaer Oswaltharx Oswalthel Oswalthell Oswalthes Ottricius Ottridlin Ottriedin Ottriellin Ottritz Paulber 
+			Paulberlin Paulbritz Paulbrosius Paulbrost Paulein Pauleinton Paulrichart Paulritzlin Paures Paurk Paurklin Paurklippus Petch Petchart Petcht Peteff Peterg Peterhart Peterk Petertlintz Pettrich Pettricht Philhelchan
+			Philin Phillas Phillin Phillinhart Phillini Phiorenlin Phiorenntz Phiorenslin Phiorentz Phiores Phiorich Prenlin Prenn Prennst Prensert Prenst Prentz Pretefflein Preterhar Reinbolff Reinhaer Reinhardlin Reinran 
+			Reinthonn Reintleitz Reintonrade Reintz Reintzlin Reitt Reynn Reynndren Reynnes Reynntz Rudinhardle Rudinrank Rudintz Rudoloes Rudoloslin Rudolt Rudoltholff Rudwig Ruedinhart Ruedini Ruedlein Ruedlin Ruedlinher 
+			Ruedlintz Ruedlippus Ruffan Ruffle Rufflein Ruodinhart Ruodinius Ruodolffan Ruodoloes Ruodolomes Ruodoloslin Ruodolt Ruonges Ruoni Ruonius Ruonnesses Ruonnherdt Ruonns Ruonntz Ruontzlein Ruotman Ruotmanntz Ruotmanslin
+			Seban Sebanntz Sebanton Sebas Sebasard Sebases Sebaspart Sebast Sebastin Selch Selchioriel Sellaintz Sellig Sellin Selman Selmank Selmanns Selmantz Selmaspert Simonges Simonius Simonnes Simonns Simonntz Simonrad 
+			Simonrade Simonrick Spolff Spolffantz Spoloes Spoloslin Spoloslintz Spolostian Spolt Spolthar Spolthaster Spoltholff Sponts Steff Steffann Sterhar Sterklin Sterman Sternolff Stert Tholff Tholffan Tholfflein Tholoes
+			Tholoman Tholoos Tholosius Tholoslin Tholost Tholt Tholthardt Tholthel Thomank Thomann Thomanns Thomannsman Thomanntz Thomantz Thome Thomes Thoni Thonius Thonndrenn Thonnsmans Thonntz Thonrad Thonrade Thonran Thonrat
+			Thontlig Thontonges Thontz Thontzlin Uellain Uellinbolff Uelman Ullast Ullaulber Ullaurk Ullig Ullippolt Ullippus Ulrichar Ulrichardt Ulrichas Ulricius Ulridlein Ulridlin Ulrietchan Ulrieteff Ulritz Ulritzlin Urbas
+			Urbasel Urbaser Urbases Urbaster Urber Urberlintz Urbermas Urbert Urrichelch Urricht Urricius Urriel Urriennst Urrietchel Urrieter Urritt Urritz Urritzle Uulbrenslin Uulbritz Uulrielch Uulritz Veinbolosli Veintz Veitz
+			Veynn Veynndrentz Veynnhasar Veynnsman Veynntz Vleich Vleichartin Vleinboloes Vleintz Vleitz Vtzli Walthaellin Werban Werbank Werdlein Werhan Werkleintz Werklin Werle Werlein Werli Werlig Werlin Werma Werman Wermanton
+			Wernhel Wernoloes Wernoloest Werns Wernsel Wertag Wilgan Wilgann Wilganntz Wilgansel Wilgantz Wilhel Wilhellaurk Wilhelman Wilher Wilherg Wilherk Wilherleitz Wilhes Wilig Wilin Wilinhank Wilinius Wilintz Willais
+			Willints Willintz Woloes Wolooslig Wolooslin Wolos Woloslin Wolost Wolosteff Wolthoman Zyppolff Zyppolthome Zyppon Zypponi Zypponius Zyppus
+		}
+		female_names = { #
+			Lepida Horatia Catina Hostia Jena Alessia Avita Camilla Ida Jena Selene Salonia Cassia Adraria Agrippina Ahetotis Alcedonia Apronia Arenara Audania Blatta Cania Canodia Catia Cinda Cinia Clilias Coventina Craetia Eloe 
+			Emelia Eponis Ettiene Fallaise Fammana Fentula Flacassia Flaenia Fralvia Fruscia Gaea Germia Horulia Idonea Isobel Ladia Lalaine Lalatia Larienna Lassinia Laurina Leone Livia Lunia Maesa Marara Moria Nebia Pallia 
+			Pania Pelena Pellecia Peregrina Pritia Raesa Ruccia Sabrina Sarmosia Selvia Severa Severia Solea Syloria Thraccenia Vala Vianis Viatrix Viccia Vilbia Volrina Aia Ariela Arnora Arriana Astia Astinia Augusta Aviera 
+			Avresa Britta Bronsila Buntara Caelia Caldana Cargas Carmana Casta Caula Ciirta Dumania Dynari Erina Etira Faustina Gruiand Herminia Isa Ita Janonia Jantus Jastia Jastira Javolia Julitta Lenka Lucina Lyra Marana 
+			Mariana Marlena Martina Millona Narina Naspia Perennia Pista Praxedes Rena Renee Restita Romana Rona Rosentia Rusia Salonia Schlera Selena Sibylla Silana Simplicia Tertia Una Viera Vilena Vinicia Ysabel Adelaisa 
+			Adrianne Aia Alessandra Alexia Arcadia Camilla Carlotta Constance Edda Ganna Gemma Gianna Gilfre Illia Indara Larina Leonara Lucia Mila Pantea Raen Ria Safia Silana Silvia Sosia Valga Vex Vigdis Viola Vittoria Accalia
+			Aconia Aemilia Alcedonia Alessandra Alexia Aloisia Amanda Amandia Amia Annia Anodia Apphia Arria Asirel Astara Atia Augustina Aventina Aviera Avita Bellona Blatta Brittia Caecilia Caesina Caesonia Caledonia Canodia 
+			Candria Cania Cardea Carina Carlotta Cassia Cassipia Caula Celina Ciceri Ciirta Cinia Cloelia Comilla Constantina Coventina Damyra Darvala Denisa Dinia Domitiana Drusilla Dulcilla Dumania Duras Duvia Edana Edwina 
+			Elianna Elianne Elska Enganna Engannas Eponis Etira Euraxia Faltonia Famia Farida Fausta Felixa Felra Finia Flacassia Florentia Fortunata Fralvia Fruscia Gaea Galeria Ganna Gemma Gemmia Gnaea Gratidia Helena Helvia 
+			Herminia Hestra Hilora Holli Honorata Honoria Horonna Horulia Hyponea Idessa Idessia Idonea Ilfras Infrasia Iocani Itinia Janieta Janta Jastia Jera Jerae Jerina Julia Julitta Juna Justa Justina Justinia Kaie Kerelia 
+			Kirandas Kyleus Ladia Lalaine Laurentia Laurina Lavinia Laytiva Lekellae Leona Leta Libertas Licinia Linia Livia Luca Lucia Luciana Lucina Lucinia Lucretia Lusilla Lyra Maera Magna Marama Marenia Marina Marja Martina 
+			Maxima Meluse Micella Midaras Ministe Mirona Moria Naissa Nari Nebia Octavia Orendra Oriandra Orneldas Pallia Pania Patia Pelona Perennia Phedra Phedre Pinarus Pista Pladina Plexica Porcia Portia Pritia Pudentia
+			Pulcheria Regine Quintia Rafora Rasala Rilia Rona Sabenda Safia Sandana Sarmosia Selene Senna Septima Severa Severia Shekestra Siladia Slera Sonolia Sosea Tacita Talia Terari Terendras Terran Tertia Thisa Thorasa Tia
+			Urania Vacia Vala Valencia Valentina Vaneria Varandia Varilia Varina Varinia Vastae Ventitia Veresa Vesta Viatrix Vicca Viccia Vilbia Vilena Vinicia Viola Vistilia Vita Vitelia Vitellia Vodiaka Volcatia
+				# Zhangzhung Names
+			Atak Ataklumo Atakmo Ba Batsame Bumtsho Cha Changmo Chatsame Chukmo Dangra
+			Drangma Drablai Dronglek Duk Duktsuk Dzomo Gyi Gyichangmo Gyilumo Gyitsame Kering Khyungza Kyinam Kyidagi
+			Kyukma Lekyi Lhogyal Liwer Lumo Magyal Menchung Mewar Molha Mracham Nangze Neuchung Nyakchikma
+			Ongma Ringtsun Semarkar Shenza Silema Takber Takliwer Ting Tingber Tinglumo Tingtsame Trakthung
+			Tsa Tsadagi Tsame Tsatsame Tshogyal Trinyen Yid Yidongma Yum Yumtsame Yuyi Zamatok Zangza Zazu
+				# Kirghiz names
+			Chichek Chilen Chiltanesi O_zgul O_zlem Aigul Akgul Anara Asli Ayasun Ayten Bozchin Begayim Bermet Cholpon Dilek Esin
+			Gulchichek Gulay Gulnara Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge Jibek
+			Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekche Tura Umay Usunbike Yasar Yeldem Yildiz
+				# SCA German names
+			Anna Elizabeth Elsa Else Katharina Kunigunda Margarete Margareta Margarethe Ursula
+			Ayla Albrade Apollonia Bytzel Clare Cristyne Demyth Emeludt Eue Gerburg Gyel Gyszel Grede Gredechin Hette Kungund Contzel Liepmayt Lyse Margarete Niesenn Syele
+			Katherine
+			Gude
+			Elsebeth Meckil
+			Agnes Anne Bechte Else Fye Gele Irmele Lype
+			Katherin
+			Aenlin Anlin Kaetterlin Katterlin Beth Bridlin Agth Clar Claur Dorothea
+			Margreth Grethlein Margeth Marggreth Margretha Kungundt Kungund Kunigund Kunigundt Katherina Katherina Katharina Catherina Keth Ketherlein Anna Els Ells ElS_lein Barb Barbara Gerhaws Gerhaus Alheyt
+			Alhayt Alheitt Dorothea Endlein Madalena Cristan Cristina Angnes Engel Enngel Martsch Mecht Walpurg Beatrix Clara Fronica Gabriehelin Ger Marlein Martha Mertlein Ottilig Warb
+			# Procedural names based on above names
+			Aenlina Aenna Aenne Aenngne Aenngund Agnese Agnesebeth Agtha Agthaws Agthayt Agthe Agthea Agtheatha Agthein Agtheitt Agthel Agtheludt Agtherbur Agtherha Agtherhaws Agtheyt Agthle Albra Albrada Albridlena Albridlin 
+			Albries Albrin Albrina Albrine Albrista Albristin Albristyne Albrix Alhareterin Alhareth Alharg Alharggrede Alharth Alhaur Alhaurg Alhaurgre Alhaus Alhaws Alhayth Alhaytzel Alhaytzelin Alhea Alheath Alheatherin
+			Alheatte Alhein Alhel Alhelude Alheludt Alherb Alherbarada Alherbarbur Alherha Alherhara Alherhaur Alherhaws Alherhayt Alheridlena Alherin Alherina Alherista Alheristin Alheristyne Alherle Alherlein Alherlin Alherlina 
+			Alherth Alhertlein Alhertsch Alhertschte Alheyth Alheytheyt Alheytzel Angel Angele Angelein Angeleina Angelin Angete Angeth Angethein Angether Angetheyt Angne Angund Angunda Angundt Angungne Angungund Angunia Anlig
+			Anligundt Anlina Anline Anlines Anlizabett Annes Annese Annesebethe Anngel Anngele Anngeleine Anngeludt Anngeth Anngette Anngne Anngnes Anngund Anngunda Anngundt Anngunia Anngunica Anngunig Apollonica Apollonig 
+			Apollontzel Apolls Apollsa Apollse Apollsena Apollsenlin Aylara Aylarb Aylarede Aylareth Aylarethea Aylarethle Aylarettin Aylargarg Aylargreta Aylarthe Aylaur Aylaus Barada Baradecht Barbarb Barbur Barburg Barburgrete
+			Bareth Barethe Barethea Baretherha Baretherin Bargar Bargara Bargareth Bargarin Bargarle Bargartle Bargartscht Bargel Bargeth Bargethayt Bargetterix Barin Barina Baristan Barix Barlein Barlin Barth Barthayt Bartherix
+			Bartle Bartlein Bartleina Bartlenlina Bartsch Bartschin Beath Beatha Beathe Beatheath Beatherbur Beatherhayt Beatherlin Beatheyth Beatrin Beatrina Beatristyne Beatt Beatte Beattin Bechin Bechina Becht Bechterb Beckil 
+			Beckiligund Beckilin Beckilina Beckiline Bethargare Bethargel Betharlein Bethaur Bethaus Bethayt Bethea Bethein Bether Betherharb Betherin Betherina Betherlin Betherth Betheytzel Bethleitte Bette Bettilin Bridlein
+			Briehel Briehertle Briepmayt Briepmayth Bries Brina Brine Brista Bristan Bristil Bristin Bristina Bristyne Bythea Bytherin Bytzele Bytzelein Catha Cathaus Cathe Cathea Cathein Catheine Cathele Cather Catherharin
+			Catherin Catherlin Catheyt Cathle Cathlein Cathleina Cathlenlin Catrin Catte Cattil Cattin Clarade Clarb Clarbarb Clarbarg Clarbargel Clarbur Clarede Claredech Claredechin Claredecht Claredechte Claretan Clareth
+			Claretha Clarethayth Clarethea Clarethein Claretterix Clarg Clargar Clargarb Clargarede Clargarethe Clargargarb Clargarin Clarggrethe Clargreth Clargretha Clarin Clarista Claristina Clarix Clarlina Clarthle Clartlein 
+			Clartschina Clartscht Claurg Claurgar Claurgarede Claurgrethe Claus Conia Conica Conig Conigund Conigundle Conigundlin Conigundt Conigungel Conigungele Conigunia Conigunig Contzele Contzelin Cridle Cridlein Cridleina 
+			Cridlin Cridlina Crieherin Crieherlein Crieheyt Criepmayt Cries Criese Crina Crine Crista Cristil Cristilin Cristin Cristynes Demyt Demytha Demythe Demythein Demyther Demytherin Demytzel Demytzele Demytzelein
+			Demytzelude Demytzeludt Doronia Doronica Doronig Doronigundt Dorontzel Dorontzele Dorontzelin Doroth Dorothein Dorothele Dorotherha Dorotherlin Dorotherth Dorotheyth Eligungelin Eligungette Elina Elinesenlin Elizabett
+			Elizabettin Elizabra Ellonia Ellonica Ellonig Ellonigund Ellonigunda Ellonigundt Ellontzel Ellontzele Ellsa Ellse Ellsebeta Ellsebeth Ellsebette Ellsena Ellsenlin Ellsenn Elsebetan Elsebethaws Elsebethea Elsebether 
+			Elsebett Elsena Elsenlin Elsenna Elsenne Elsennes Elsenngund Elsenngundt Emele Emelein Emelena Emelenlig Emelenlin Emelenn Emeligundle Emelin Emelude Emeludeckil Endale Endle Endlena Endlin Endlina Engelein Engeleitt
+			Engeleitte Engete Engeth Engetheludt Engne Engnes Engnesenlin Engund Engundline Engundt Engungundt Engungungne Engunia Engunigundt Engunigunia Ennes Ennese Enngetha Enngne Enngundle Enngundlin Enngungunia Fronia 
+			Fronig Fronigund Fronigundt Frontzel Frontzeline Frontzeludt Froth Frothel Frother Frotherb Frotherha Frotherlein Frotherlin Fyele Fyelein Fyelenlin Fyelig Fyelin Fyeludt Gabeta Gabetan Gabete Gabeterlin Gabeth
+			Gabether Gabetherle Gabetherlin Gabett Gabettin Gabra Gabradalpur Gabradecht Gabridlein Gabrin Gabrina Gabristan Gabristil Gelein Geleina Gelena Geligund Gelin Geline Gelude Geludt Gerbarb Gerbargreth Gerbarth Gerha
+			Gerhara Gerhaur Gerhayt Geridle Geridleitt Geridlin Geridlina Gerieherina Geriese Gerin Gerina Gerinese Geristan Geristin Geristina Geristines Geristyne Geristynes Gerix Gerle Gerlein Gerleina Gerleine Gerleitte
+			Gerlenlin Gerligungel Gerligunig Gerlin Gerlina Gerlizabeth Gerth Gerthel Gertherle Gertle Gertlein Gertleina Gertleines Gertlena Gertschin Gertscht Gertschte Gredech Gredecht Gredechte Gredeckil Greta Gretan Grete 
+			Greterista Gretertsch Greth Gretha Grethaus Grethaws Grethayt Grethe Gretheatt Grethein Gretherb Gretherha Gretherin Gretherina Gretherista Gretherix Gretherline Gretheyt Gretheyth Grethle Grethlenna Grett Grette
+			Gretter Gretterhayt Gretterista Grettin Gudech Gudecht Gyele Gyelein Gyeleina Gyelena Gyelenlin Gyelenna Gyeligungel Gyelin Gyelina Gyelude Gyeludt Gysebeth Gysena Gysenlina Gysenn Gysenna Gysenngundt Gyszele 
+			Gyszelenna Gyszelina Gyszelude Gyszeludt Hetan Hetertle Hetha Hethayt Hethe Hethel Hethelin Hetherhaurg Hetherin Hetherlenne Hetheyt Hethle Hetterin Hettilin Hettin Irmel Irmelein Irmeleitt Irmeleittin Irmelenn
+			Irmeligund Irmelin Irmelina Irmelinese Irmelude Irmeludech Irmeludt Kaeta Kaete Kaeterix Kaeth Kaetha Kaethaws Kaethe Kaetheitt Kaetherbur Kaetherlin Kaetheyt Kaethlein Kaett Kaetterix Katha Katharb Kathareth 
+			Kathargrete Kathaurgel Kathaus Kathaws Kathayt Kathaytzel Kathe Kathea Katheathe Katheathea Katheatheyt Kathein Kathel Kathele Kather Katherb Katherha Katherhaws Katherhayt Katherix Katherleina Katherlin Katherlina 
+			Kathertscht Katheyt Katheytzel Kathle Kathleina Kathlena Katridleina Katridlena Katrin Katrina Katrista Katristan Katristin Katristina Katristyne Katrix Katte Katterb Katterha Katterin Katterlein Katterleina
+			Katterlina Katterline Kattertle Kattertlein Kattil Kattin Kattines Ketan Keterin Keterina Keterle Keterlein Ketha Kethaus Kethaws Kethe Kethea Kethein Ketheina Ketheitte Kethel Kethele Ketheleina Kethelin Kether
+			Ketheridle Ketherix Ketherleina Ketherlin Kethertscht Ketheythe Kethlein Kethlenlin Ketterb Ketterhayt Ketterin Ketterle Kettil Kettin Kunda Kundale Kundalein Kundalpur Kundle Kundlein Kundleina Kundlig Kundligund
+			Kundlin Kundt Kungel Kungele Kungelein Kungeleina Kungelena Kungelin Kungeth Kungette Kungne Kungnes Kungnesena Kungungundt Kungunig Kungunigund Kunia Kunica Kunig Kunigundale Kunigundlin Kunigungel Kunigunia
+			Kunigunica Liehe Lieheathe Liehein Lieheina Liehel Liehele Lieherin Lieherlin Lieheyt Liepmayther Liepmaytzel Liese Liesebettil Liesenn Lysebeth Lysebetha Lysebethe Lysebette Lysenlin Lysenna Lysenngne Lyszel 
+			Lyszelein Lyszelin Lyszelude Lyszeludt Madale Madalein Madalpurg Madalpurgar Madech Madechin Madechina Madecht Madechte Madeckil Marada Maradale Maradaleina Maradalpur Maradalpurg Marade Maradechine Marbar Marbarb 
+			Marbare Marbarethea Marbarett Marbarg Marbargrede Marbarista Marbarlin Marbartlein Marbur Marburg Marburgara Marburgel Marburgrett Marede Maredech Maredecht Maredechte Maretan Mareteries Mareterix Mareth Marethaurg 
+			Marethaus Marethaws Marethayt Marethe Marethea Maretheath Marethein Maretherin Maretherina Maretherlin Marethle Marethlein Marett Marette Maretter Marettina Marettine Margar Margara Margaradale Margarade Margarb
+			Margarbur Margareth Margarethel Margarett Margarettin Margarg Margargara Margargarin Margargel Margargre Margargrede Margargrete Margargreth Margarin Margaristan Margarle Margarlein Margarth Margartle Margartlena
+			Margel Margelein Margeleina Margeludt Margete Margethea Margethein Margethle Margett Margette Marggrede Marggredech Marggrete Marggrethe Marggrette Marggrettin Margrede Margredecht Margretan Margrete Margrethayt 
+			Margrethe Margrett Maridle Maridlein Maridleina Mariepmayt Maries Marin Marina Maristyne Maristynes Marix Marle Marleine Marligunig Marlin Marlinese Marth Marthaws Marthea Marthel Martheludt Marther Martheyt Martle
+			Martlein Martleina Martleitt Martleitte Martlenn Martschin Martschine Martschines Martscht Martschte Mechin Mechina Mechte Mechterhaus Meckilin Merbar Merha Merhara Merhargarth Merhaws Meridlein Meridlin Merin Merina 
+			Merista Meristil Meristin Meristyne Merix Merle Merleina Merlenlina Merlin Merlina Merlizabra Merth Mertle Mertlenna Niehe Niehea Niehein Niehel Nieher Nieherha Nieheriese Nieheytzel Niepmayt Niepmayth Niepmaytzel
+			Niese Niesebeth Otter Otterharg Otterhaws Otterhayt Otterin Otterina Otteristina Otterlin Ottertscht Ottil Ottilin Ottin Ottina Syelein Syeleina Syeleitt Syeleitter Syelena Syelin Syelizabeth Syeludt Ursular Ursulara
+			Ursulareth Ursulargel Ursulargett Ursularin Ursulaurg Ursulaus Walein Waleina Waleitte Walena Walenn Walpur Walpurgarb Walpurgarg Warbarbar Warbarbarix Warbur Warede Wareth Warettine Wargar Wargara Wargarette Wargarg 
+			Wargargreth Wargrettil Waridlin Warina Warle Warlena Warlina Wartlein Wartleine
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+		ethnicities = {
+			75 = circumpolar_dark_hair
+			25 = circumpolar_brown_hair
+		}
+	}
+}

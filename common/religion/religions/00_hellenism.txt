@@ -1,0 +1,1585 @@
+﻿hellenism_religion = {
+	family = rf_western
+	
+	doctrine = western_mideast_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	traits = {
+		virtues = { generous just temperate }
+		sins = { greedy arbitrary gluttonous }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_myrmidons" }
+		{ name = "holy_order_priesthood_of_ares" }
+	}
+
+	holy_order_maa = { praetorian }
+
+	localization = {
+		#High God Name
+		HighGodName = ireneism_high_god_name
+		HighGodNamePossessive = ireneism_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_SHE
+		HighGodHerselfHimself = CHARACTER_HERSELF
+		HighGodHerHis = CHARACTER_HERHIS_HER
+		HighGodNameAlternate = ireneism_high_god_name_alternate
+		HighGodNameAlternatePossessive = ireneism_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = ireneism_high_god_name
+		CreatorNamePossessive = ireneism_high_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_SHE
+		CreatorHerHis = CHARACTER_HERHIS_HER
+		CreatorHerHim = CHARACTER_HERHIM_HER
+
+		#HealthGod
+		HealthGodName = ireneism_high_god_name
+		HealthGodNamePossessive = ireneism_high_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = ireneism_high_god_name
+		FertilityGodNamePossessive = ireneism_high_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = ireneism_high_god_name
+		WealthGodNamePossessive = ireneism_high_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_SHE
+		WealthGodHerHis = CHARACTER_HERHIS_HER
+		WealthGodHerHim = CHARACTER_HERHIM_HER
+
+		#HouseholdGod
+		HouseholdGodName = ireneism_high_god_name
+		HouseholdGodNamePossessive = ireneism_high_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = ireneism_high_god_name
+		FateGodNamePossessive = ireneism_high_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_SHE
+		FateGodHerHis = CHARACTER_HERHIS_HER
+		FateGodHerHim = CHARACTER_HERHIM_HER
+
+		#KnowledgeGod
+		KnowledgeGodName = ireneism_high_god_name
+		KnowledgeGodNamePossessive = ireneism_high_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = ireneism_high_god_name
+		WarGodNamePossessive = ireneism_high_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIM_HER
+
+		#TricksterGod
+		TricksterGodName = ireneism_high_god_name
+		TricksterGodNamePossessive = ireneism_high_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_SHE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HER
+
+		#NightGod
+		NightGodName = ireneism_high_god_name
+		NightGodNamePossessive = ireneism_high_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = ireneism_high_god_name
+		WaterGodNamePossessive = ireneism_high_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+		PantheonTerm = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { ireneism_good_god_the_lady ireneism_good_god_eirene }
+		DevilName = hellenism_devil_name
+		DevilNamePossessive = hellenism_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { hellenism_evil_god_erinyes }
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = hellenism_religious_symbol
+		ReligiousText = hellenism_religious_text
+		ReligiousHeadName = hellenism_religious_head_title
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = ireneism_priest_male
+		PriestMalePlural = ireneism_priest_male_plural
+		PriestFemale = ireneism_priest_female
+		PriestFemalePlural = ireneism_priest_female_plural
+		PriestNeuter = ireneism_priest_neuter
+		PriestNeuterPlural = ireneism_priest_neuter_plural
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = ireneism_priest_male
+		BishopMalePlural = ireneism_priest_male_plural
+		BishopFemale = ireneism_priest_female
+		BishopFemalePlural = ireneism_priest_female_plural
+		BishopNeuter = ireneism_priest_neuter
+		BishopNeuterPlural = ireneism_priest_neuter_plural
+		DivineRealm = ireneism_divine_realm
+		PositiveAfterLife = ireneism_divine_realm
+		NegativeAfterLife = hellenism_death_deity_name
+		DeathDeityName = hellenism_death_deity_name
+		DeathDeityNamePossessive = hellenism_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = ireneism_high_god_name
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		hellenic_pagan = {
+			color = { 0.6 0.1 0.1 }
+			icon = hellenic
+			reformed_icon = hellenic_reformed
+
+			holy_site = rome
+			holy_site = athens
+			holy_site = sparta
+			holy_site = alexandria
+			holy_site = carthage
+			
+			localization = {
+				#High God Name
+				HighGodName = hellenism_high_god_name
+				HighGodNamePossessive = hellenism_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+				HighGodNameAlternate = hellenism_high_god_name_alternate
+				HighGodNameAlternatePossessive = hellenism_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = hellenism_creator_god_name
+				CreatorNamePossessive = hellenism_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = hellenism_health_god_name
+				HealthGodNamePossessive = hellenism_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_HE
+				HealthGodHerHis = CHARACTER_HERHIS_HIS
+				HealthGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#FertilityGod
+				FertilityGodName = hellenism_fertility_god_name
+				FertilityGodNamePossessive = hellenism_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = hellenism_wealth_god_name
+				WealthGodNamePossessive = hellenism_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = hellenism_household_god_name
+				HouseholdGodNamePossessive = hellenism_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = hellenism_fate_god_name
+				FateGodNamePossessive = hellenism_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = hellenism_knowledge_god_name
+				KnowledgeGodNamePossessive = hellenism_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = hellenism_war_god_name
+				WarGodNamePossessive = hellenism_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				#TricksterGod
+				TricksterGodName = hellenism_trickster_god_name
+				TricksterGodNamePossessive = hellenism_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = hellenism_night_god_name
+				NightGodNamePossessive = hellenism_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = hellenism_water_god_name
+				WaterGodNamePossessive = hellenism_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+				PantheonTerm = religion_the_gods
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = { hellenism_good_god_poseidon hellenism_good_god_athena hellenism_good_god_ares hellenism_good_god_hera hellenism_good_god_apollo hellenism_good_god_artemis hellenism_good_god_hermes hellenism_good_god_aphrodite }
+				DevilName = hellenism_devil_name
+				DevilNamePossessive = hellenism_devil_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { hellenism_evil_god_menoetius hellenism_evil_god_erinyes }
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = hellenism_religious_symbol
+				ReligiousText = hellenism_religious_text
+				ReligiousHeadName = hellenism_religious_head_title
+				ReligiousHeadTitleName = dualism_religious_head_title_name
+				DevoteeMale = paganism_devotee
+				DevoteeMalePlural = paganism_devoteeplural
+				DevoteeFemale = paganism_devotee
+				DevoteeFemalePlural = paganism_devoteeplural
+				DevoteeNeuter = paganism_devotee
+				DevoteeNeuterPlural = paganism_devoteeplural
+				PriestMale = hellenism_priest_male
+				PriestMalePlural = hellenism_priest_male_plural
+				PriestFemale = hellenism_priest_female
+				PriestFemalePlural = hellenism_priest_female_plural
+				PriestNeuter = hellenism_priest_male
+				PriestNeuterPlural = hellenism_priest_male_plural
+				AltPriestTermPlural = christianity_priest_alternate_plural
+				BishopMale = hellenism_bishop_male
+				BishopMalePlural = hellenism_bishop_male_plural
+				BishopFemale = hellenism_priest_female
+				BishopFemalePlural = hellenism_priest_female_plural
+				BishopNeuter = hellenism_priest_male
+				BishopNeuterPlural = hellenism_priest_male_plural
+				DivineRealm = hellenism_divine_realm
+				PositiveAfterLife = hellenism_death_deity_name
+				NegativeAfterLife = hellenism_death_deity_name
+				DeathDeityName = hellenism_death_deity_name
+				DeathDeityNamePossessive = hellenism_death_deity_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				WitchGodName = hellenism_witchgodname_hekate
+				WitchGodHerHis = CHARACTER_HERHIS_HER
+				WitchGodSheHe = CHARACTER_SHEHE_HE
+				WitchGodHerHim = CHARACTER_HERHIM_HER
+				WitchGodMistressMaster = mistress
+				WitchGodMotherFather = mother
+
+			
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+			doctrine = tenet_astrology
+			doctrine = tenet_communal_identity
+			doctrine = tenet_esotericism
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_monopantheolatry
+			doctrine = doctrine_from_chaos
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_semi_integrated
+			doctrine = doctrine_angels_irrelevant
+			doctrine = doctrine_hellenic_high_god_zeus
+			doctrine = doctrine_hellenic_fall_of_olympus_none
+			doctrine = doctrine_nymphs_neutral_free
+			
+			doctrine = pagan_hostility_doctrine
+		}
+		inner_pontic = {
+			color = { 0.6 0.6 0.1 }
+			icon = baltic
+			reformed_icon = baltic
+
+			holy_site = rome
+			holy_site = athens
+			holy_site = sparta
+			holy_site = alexandria
+			holy_site = carthage
+			
+			localization = {
+				#High God Name
+				HighGodName = inner_pontic_high_god_name # Adonis
+				HighGodNamePossessive = inner_pontic_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+				HighGodNameAlternate = inner_pontic_high_god_name_alternate # Prometheus Adonis
+				HighGodNameAlternatePossessive = inner_pontic_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = inner_pontic_creator_god_name # Urania
+				CreatorNamePossessive = inner_pontic_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = inner_pontic_health_god_name # Asklepios # no theophoric names after
+				HealthGodNamePossessive = inner_pontic_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_HE
+				HealthGodHerHis = CHARACTER_HERHIS_HIS
+				HealthGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#FertilityGod
+				FertilityGodName = inner_pontic_fertility_god_name # Aphrodite
+				FertilityGodNamePossessive = inner_pontic_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = inner_pontic_wealth_god_name # Mammon # borrowed from Christianity demonology # no theophoric names after
+				WealthGodNamePossessive = inner_pontic_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = inner_pontic_household_god_name # Eos
+				HouseholdGodNamePossessive = inner_pontic_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = inner_pontic_fate_god_name # Zeus # no theophoric names after
+				FateGodNamePossessive = inner_pontic_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_HE
+				FateGodHerHis = CHARACTER_HERHIS_HIS
+				FateGodHerHim = CHARACTER_HERHIM_HIM
+
+				#KnowledgeGod
+				KnowledgeGodName = inner_pontic_knowledge_god_name # Urania
+				KnowledgeGodNamePossessive = inner_pontic_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = inner_pontic_war_god_name # Adonis
+				WarGodNamePossessive = inner_pontic_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				#TricksterGod
+				TricksterGodName = inner_pontic_trickster_god_name # Ermes # Hermes # theophoric names # theophoric names done
+				TricksterGodNamePossessive = inner_pontic_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = inner_pontic_night_god_name # Selene
+				NightGodNamePossessive = inner_pontic_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = inner_pontic_water_god_name # Eridan
+				WaterGodNamePossessive = inner_pontic_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+				PantheonTerm = religion_the_gods
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = { 
+					inner_pontic_good_god_ariadne
+					hellenism_good_god_artemis
+					inner_pontic_good_god_chiron
+					inner_pontic_water_god_name # Eridan
+					inner_pontic_night_god_name # Selene
+					inner_pontic_trickster_god_name # Ermes # Hermes
+					inner_pontic_high_god_name # Adonis
+					inner_pontic_creator_god_name # Urania
+					inner_pontic_health_god_name # Asklepios
+					inner_pontic_fertility_god_name # Aphrodite
+					inner_pontic_wealth_god_name # Mammon
+					inner_pontic_household_god_name # Eos
+					inner_pontic_good_god_aristaeos # Aristaeus
+				}
+				DevilName = inner_pontic_evil_god_hades # Hades # rules the Earth between Samhain and Christmas # god of the dead and of winter # said to live in the far north, not underground # Chiron rules the realm of Hades
+				DevilNamePossessive = inner_pontic_evil_god_hades_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { 
+					hellenism_evil_god_menoetius
+					hellenism_evil_god_erinyes
+					hellenism_good_god_ares # murderer of Adonis every year at Samhain # he is rebirthed by Urania every Christmas
+				}
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = hellenism_religious_symbol
+				ReligiousText = hellenism_religious_text
+				ReligiousHeadName = hellenism_religious_head_title
+				ReligiousHeadTitleName = dualism_religious_head_title_name
+				DevoteeMale = paganism_devotee
+				DevoteeMalePlural = paganism_devoteeplural
+				DevoteeFemale = paganism_devotee
+				DevoteeFemalePlural = paganism_devoteeplural
+				DevoteeNeuter = paganism_devotee
+				DevoteeNeuterPlural = paganism_devoteeplural
+				PriestMale = hellenism_priest_male
+				PriestMalePlural = hellenism_priest_male_plural
+				PriestFemale = hellenism_priest_female
+				PriestFemalePlural = hellenism_priest_female_plural
+				PriestNeuter = hellenism_priest_male
+				PriestNeuterPlural = hellenism_priest_male_plural
+				AltPriestTermPlural = christianity_priest_alternate_plural
+				BishopMale = hellenism_bishop_male
+				BishopMalePlural = hellenism_bishop_male_plural
+				BishopFemale = hellenism_priest_female
+				BishopFemalePlural = hellenism_priest_female_plural
+				BishopNeuter = hellenism_priest_male
+				BishopNeuterPlural = hellenism_priest_male_plural
+				DivineRealm = inner_pontic_mount_ararat # equivalent of Mount Olympus
+				PositiveAfterLife = inner_pontic_hades_chironis
+				NegativeAfterLife = inner_pontic_hades_chironis
+				DeathDeityName = inner_pontic_evil_god_hades
+				DeathDeityNamePossessive = inner_pontic_evil_god_hades_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				WitchGodName = hellenism_witchgodname_hekate
+				WitchGodHerHis = CHARACTER_HERHIS_HER
+				WitchGodSheHe = CHARACTER_SHEHE_HE
+				WitchGodHerHim = CHARACTER_HERHIM_HER
+				WitchGodMistressMaster = mistress
+				WitchGodMotherFather = mother
+
+			
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+			doctrine = tenet_sanctity_of_nature # a Rustic faith
+			doctrine = tenet_communal_identity # focuses heavily on community and is only found in a small region
+			doctrine = tenet_reincarnation # Adonises reincarnation applies also to the other gods and to mortals but generally more rarely for the gods as they do not die that often
+			
+			doctrine = doctrine_gender_equal # Adonis is a proponent of complete gender equality 
+			doctrine = doctrine_bastardry_none # Free love
+			doctrine = doctrine_consanguinity_restricted
+			
+			doctrine = doctrine_free_love # Adonis and Aphrodite are both polyamorous love deities
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_monopantheolatry
+			doctrine = doctrine_from_chaos
+			doctrine = doctrine_local_gods_elevated
+			doctrine = doctrine_other_faiths_gods_accepted
+			doctrine = doctrine_angels_good_god_or_nongod
+			doctrine = doctrine_hellenic_high_god_adonis
+			doctrine = doctrine_hellenic_fall_of_olympus_cyclical
+			doctrine = doctrine_nymphs_good_free
+			
+			doctrine = pagan_hostility_doctrine
+		}
+		anatolian_cybelite = { # there is a pelasgian or cybelite family mainly centered around the aegean # said religions are followed in troy NOT ANATOLIAN CYBELITE THO
+		# d_sebasteia
+		# d_opsikion
+		# replace city_holding and church_holding in k_nikaea and k_anatolia with castle_holding
+			color = { 0.6 0.6 0.3 }
+			icon = zunist
+			reformed_icon = zunist
+
+			holy_site = rome
+			holy_site = athens
+			holy_site = sparta
+			holy_site = alexandria
+			holy_site = carthage
+			
+			localization = {
+				#High God Name
+				HighGodName = anatolian_cybelite_high_god_name # Cybele
+				HighGodNamePossessive = anatolian_cybelite_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = anatolian_cybelite_high_god_name_alternate # Rhea
+				HighGodNameAlternatePossessive = anatolian_cybelite_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = anatolian_cybelite_creator_god_name # Gea # Gaia
+				CreatorNamePossessive = anatolian_cybelite_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = inner_pontic_health_god_name # Asklepios # no theophoric names after
+				HealthGodNamePossessive = inner_pontic_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_HE
+				HealthGodHerHis = CHARACTER_HERHIS_HIS
+				HealthGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#FertilityGod
+				FertilityGodName = anatolian_cybelite_fertility_god_name # Aphrodite Cybele
+				FertilityGodNamePossessive = anatolian_cybelite_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = inner_pontic_wealth_god_name # Mammon # borrowed from Christianity demonology # no theophoric names after
+				WealthGodNamePossessive = inner_pontic_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = anatolian_cybelite_household_god_name # Hestia Cybele
+				HouseholdGodNamePossessive = anatolian_cybelite_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = inner_pontic_fate_god_name # Zeus # no theophoric names after
+				FateGodNamePossessive = inner_pontic_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_HE
+				FateGodHerHis = CHARACTER_HERHIS_HIS
+				FateGodHerHim = CHARACTER_HERHIM_HIM
+
+				#KnowledgeGod
+				KnowledgeGodName = inner_pontic_knowledge_god_name # Urania
+				KnowledgeGodNamePossessive = inner_pontic_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = inner_pontic_war_god_name # Adonis
+				WarGodNamePossessive = inner_pontic_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				#TricksterGod
+				TricksterGodName = inner_pontic_trickster_god_name # Ermes # Hermes # theophoric names # theophoric names done
+				TricksterGodNamePossessive = inner_pontic_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = inner_pontic_night_god_name # Selene
+				NightGodNamePossessive = inner_pontic_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = inner_pontic_water_god_name # Eridan
+				WaterGodNamePossessive = inner_pontic_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+				PantheonTerm = religion_the_gods
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = { 
+					inner_pontic_good_god_ariadne
+					hellenism_good_god_artemis
+					anatolian_cybelite_high_god_name # Cybele
+					inner_pontic_water_god_name # Eridan
+					inner_pontic_night_god_name # Selene
+					inner_pontic_trickster_god_name # Ermes # Hermes
+					inner_pontic_high_god_name # Adonis
+					inner_pontic_creator_god_name # Urania
+					inner_pontic_health_god_name # Asklepios
+					inner_pontic_fertility_god_name # Aphrodite
+					inner_pontic_wealth_god_name # Mammon
+					inner_pontic_household_god_name # Eos
+					inner_pontic_good_god_aristaeos # Aristaeus
+					anatolian_cybelite_high_god_name_alternate # Rhea
+					anatolian_cybelite_creator_god_name # Gea
+					anatolian_cybelite_fertility_god_name # Aphrodite Cybele
+					anatolian_cybelite_household_god_name # Hestia Cybele
+				}
+				DevilName = inner_pontic_good_god_chiron # King of the Underworld called Hades
+				DevilNamePossessive = inner_pontic_good_god_chiron_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { 
+					hellenism_evil_god_menoetius
+					hellenism_evil_god_erinyes
+					hellenism_good_god_ares # murderer of Adonis every year at Samhain # he is rebirthed by Urania every Christmas
+					inner_pontic_evil_god_hades # former king of the underworld # deposed by Chiron
+				}
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = hellenism_religious_symbol
+				ReligiousText = hellenism_religious_text
+				ReligiousHeadName = hellenism_religious_head_title
+				ReligiousHeadTitleName = dualism_religious_head_title_name
+				DevoteeMale = paganism_devotee
+				DevoteeMalePlural = paganism_devoteeplural
+				DevoteeFemale = paganism_devotee
+				DevoteeFemalePlural = paganism_devoteeplural
+				DevoteeNeuter = paganism_devotee
+				DevoteeNeuterPlural = paganism_devoteeplural
+				PriestMale = hellenism_priest_male
+				PriestMalePlural = hellenism_priest_male_plural
+				PriestFemale = hellenism_priest_female
+				PriestFemalePlural = hellenism_priest_female_plural
+				PriestNeuter = hellenism_priest_male
+				PriestNeuterPlural = hellenism_priest_male_plural
+				AltPriestTermPlural = christianity_priest_alternate_plural
+				BishopMale = hellenism_bishop_male
+				BishopMalePlural = hellenism_bishop_male_plural
+				BishopFemale = hellenism_priest_female
+				BishopFemalePlural = hellenism_priest_female_plural
+				BishopNeuter = hellenism_priest_male
+				BishopNeuterPlural = hellenism_priest_male_plural
+				DivineRealm = anatolian_cybele_mount_cybele # equivalent of Mount Olympus
+				PositiveAfterLife = anatolian_cybele_beniferous_rebirth
+				NegativeAfterLife = inner_pontic_hades_chironis
+				DeathDeityName = inner_pontic_good_god_chiron
+				DeathDeityNamePossessive = inner_pontic_good_god_chiron_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				WitchGodName = hellenism_witchgodname_hekate
+				WitchGodHerHis = CHARACTER_HERHIS_HER
+				WitchGodSheHe = CHARACTER_SHEHE_HE
+				WitchGodHerHim = CHARACTER_HERHIM_HER
+				WitchGodMistressMaster = mistress
+				WitchGodMotherFather = mother
+
+			
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+			doctrine = tenet_sanctity_of_nature # a Rustic faith
+			doctrine = tenet_communal_identity # focuses heavily on community and is only found in a small region
+			doctrine = tenet_way_of_cybele # unique tenet for cybele following religions
+			
+			# Theology
+			doctrine = doctrine_noble_polytheism
+			doctrine = doctrine_polylatry
+			doctrine = doctrine_from_chaos
+			doctrine = doctrine_local_gods_integrated
+			doctrine = doctrine_other_faiths_gods_semi_integrated
+			doctrine = doctrine_angels_none
+			doctrine = doctrine_hellenic_high_god_cybele
+			doctrine = doctrine_hellenic_fall_of_olympus_traditional
+			doctrine = doctrine_nymphs_good_free
+			
+			doctrine = doctrine_gender_female_dominated # matriarchial
+			doctrine = doctrine_bastardry_none # Free love
+			doctrine = doctrine_consanguinity_restricted
+			
+			doctrine = doctrine_free_love # Adonis and Aphrodite are both polyamorous love deities
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = pagan_hostility_doctrine
+		}
+		old_ireneism = { # Krete and Cyprus
+			color = { 0.6 0.3 0.0 }
+			icon = hellenic
+			
+			localization = {
+				#High God Name
+				HighGodName = ireneism_high_god_name
+				HighGodNamePossessive = ireneism_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = ireneism_high_god_name_alternate
+				HighGodNameAlternatePossessive = ireneism_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = hellenism_creator_god_name
+				CreatorNamePossessive = hellenism_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = hellenism_health_god_name
+				HealthGodNamePossessive = hellenism_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_HE
+				HealthGodHerHis = CHARACTER_HERHIS_HIS
+				HealthGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#FertilityGod
+				FertilityGodName = hellenism_fertility_god_name
+				FertilityGodNamePossessive = hellenism_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = hellenism_wealth_god_name
+				WealthGodNamePossessive = hellenism_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = hellenism_household_god_name
+				HouseholdGodNamePossessive = hellenism_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = hellenism_fate_god_name
+				FateGodNamePossessive = hellenism_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = hellenism_knowledge_god_name
+				KnowledgeGodNamePossessive = hellenism_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = hellenism_war_god_name
+				WarGodNamePossessive = hellenism_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				#TricksterGod
+				TricksterGodName = hellenism_trickster_god_name
+				TricksterGodNamePossessive = hellenism_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = hellenism_night_god_name
+				NightGodNamePossessive = hellenism_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = hellenism_water_god_name
+				WaterGodNamePossessive = hellenism_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+				PantheonTerm = religion_the_gods
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = { hellenism_good_god_poseidon hellenism_good_god_athena hellenism_good_god_ares hellenism_good_god_hera hellenism_good_god_apollo hellenism_good_god_artemis hellenism_good_god_hermes hellenism_good_god_aphrodite }
+				DevilName = hellenism_devil_name
+				DevilNamePossessive = hellenism_devil_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { hellenism_evil_god_menoetius hellenism_evil_god_erinyes }
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = hellenism_religious_symbol
+				ReligiousText = hellenism_religious_text
+				ReligiousHeadName = hellenism_religious_head_title
+				ReligiousHeadTitleName = dualism_religious_head_title_name
+				DevoteeMale = paganism_devotee
+				DevoteeMalePlural = paganism_devoteeplural
+				DevoteeFemale = paganism_devotee
+				DevoteeFemalePlural = paganism_devoteeplural
+				DevoteeNeuter = paganism_devotee
+				DevoteeNeuterPlural = paganism_devoteeplural
+				PriestMale = hellenism_priest_male
+				PriestMalePlural = hellenism_priest_male_plural
+				PriestFemale = hellenism_priest_female
+				PriestFemalePlural = hellenism_priest_female_plural
+				PriestNeuter = hellenism_priest_male
+				PriestNeuterPlural = hellenism_priest_male_plural
+				AltPriestTermPlural = christianity_priest_alternate_plural
+				BishopMale = hellenism_bishop_male
+				BishopMalePlural = hellenism_bishop_male_plural
+				BishopFemale = hellenism_priest_female
+				BishopFemalePlural = hellenism_priest_female_plural
+				BishopNeuter = hellenism_priest_male
+				BishopNeuterPlural = hellenism_priest_male_plural
+				DivineRealm = hellenism_divine_realm
+				PositiveAfterLife = hellenism_death_deity_name
+				NegativeAfterLife = hellenism_death_deity_name
+				DeathDeityName = hellenism_death_deity_name
+				DeathDeityNamePossessive = hellenism_death_deity_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				WitchGodName = hellenism_witchgodname_hekate
+				WitchGodHerHis = CHARACTER_HERHIS_HER
+				WitchGodSheHe = CHARACTER_SHEHE_HE
+				WitchGodHerHim = CHARACTER_HERHIM_HER
+				WitchGodMistressMaster = mistress
+				WitchGodMotherFather = mother
+
+			
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+			# Lesbos # Kaneia # Rhodos # Alexandria # Nicosia
+			holy_site = lesbos
+			holy_site = kaneia
+			holy_site = rhodos
+			holy_site = alexandria
+			holy_site = nicosia
+			
+			doctrine = doctrine_gender_female_dominated
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+			doctrine = doctrine_clerical_function_alms_and_pacification
+			doctrine = doctrine_clerical_gender_female_only
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			doctrine = doctrine_valdemarian_polygamy
+			doctrine = pagan_hostility_doctrine
+			
+			# Theology
+			doctrine = doctrine_noble_polytheism
+			doctrine = doctrine_pseudomonolatry
+			doctrine = doctrine_from_chaos
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_ignored
+			doctrine = doctrine_angels_good_monotheistic
+			doctrine = doctrine_hellenic_high_god_eirene
+			doctrine = doctrine_hellenic_fall_of_olympus_traditional
+			doctrine = doctrine_nymphs_good_free
+			
+			doctrine = tenet_communal_identity
+			doctrine = tenet_pacifism
+			doctrine = tenet_mendicant_preachers
+		}
+		northern_ireneism = { # Sweden and southern Sapmi
+            color = { 0.43 0.48 0.57 }
+            icon = adamites
+			
+            holy_site = rome # change later
+            holy_site = athens
+            holy_site = sparta
+            holy_site = alexandria
+            holy_site = carthage
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_legitimization
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_recruitment
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_shunned
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			doctrine = doctrine_valdemarian_polygamy
+			
+			# Theology
+			doctrine = doctrine_quoimonotheism
+			doctrine = doctrine_monolatry
+			doctrine = doctrine_theogony_ex_nihilo_monotheism
+			doctrine = doctrine_local_gods_rejected
+			doctrine = doctrine_other_faiths_gods_ignored_monolatry
+			doctrine = doctrine_angels_good_monotheistic
+			doctrine = doctrine_hellenic_high_god_lady_irene_monotheistic
+			doctrine = doctrine_hellenic_fall_of_olympus_no_olympus
+			doctrine - doctrine_nymphs_none
+
+            doctrine = tenet_pursuit_of_power
+            doctrine = tenet_monasticism
+			doctrine = tenet_mendicant_preachers
+        }
+		gallian_ireneism = { # France and Aquitaine # Empire of France rises 1013 under Amalie I d'Estrees # petty kings before then # once done with Aquitaine provinces revamp French namelists # Amalie's family were countesses of c_vermandois before then
+		
+            color = { 0.16 0.26 0.86 }
+            icon = hellenic
+			
+            holy_site = rome # change later
+            holy_site = athens
+            holy_site = sparta
+            holy_site = alexandria
+            holy_site = carthage
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_taxation
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_gallian_polygamy
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_henotheism
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_semi_integrated
+			doctrine = doctrine_angels_good_god_or_nongod
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_dionysiist
+			doctrine = doctrine_nymphs_good_free
+			
+            doctrine = tenet_scholarship_of_scripture
+            doctrine = tenet_pseudomonastic
+            doctrine = tenet_vows_of_poverty
+        }
+		old_misrian_ireneism = { # Nubia
+            color = { 0.71 0.38 0.99 }
+            icon = coptic
+			
+            holy_site = rome # change later
+            holy_site = athens
+            holy_site = sparta
+            holy_site = alexandria
+            holy_site = carthage
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_legitimization
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_taxation
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_shunned
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			doctrine = doctrine_valdemarian_polygamy
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_monolatry
+			doctrine = doctrine_eternal_chaos
+			doctrine = doctrine_local_gods_ignored
+			doctrine = doctrine_other_faiths_gods_ignored_monolatry
+			doctrine = doctrine_angels_good_nongod
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_resurrectionist
+			doctrine = doctrine_nymphs_irrelevant
+
+            doctrine = tenet_communal_identity
+			doctrine = tenet_scholarship_of_scripture
+            doctrine = tenet_monasticism
+        }
+		misrian_ireneism = { # Egypt
+            color = { 0.80 0.73 0.39 }
+            icon = coptic
+			
+            holy_site = rome # change later
+            holy_site = athens
+            holy_site = sparta
+            holy_site = alexandria
+            holy_site = carthage
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_taxation
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_crime
+			doctrine = doctrine_valdemarian_polygamy
+			
+			# Theology
+			doctrine = doctrine_monotheism
+			doctrine = doctrine_monolatry
+			doctrine = doctrine_theogony_ex_nihilo_monotheism
+			doctrine = doctrine_local_gods_demonized
+			doctrine = doctrine_other_faiths_gods_rejected
+			doctrine = doctrine_angels_demonized
+			doctrine = doctrine_hellenic_high_god_lady_irene_monotheistic
+			doctrine = doctrine_hellenic_fall_of_olympus_no_olympus
+			doctrine = doctrine_nymphs_demonized
+			
+            doctrine = tenet_reincarnation
+			doctrine = tenet_monasticism
+            doctrine = tenet_astrology
+        }
+		persic_ireneism = { # Iran
+			# follows the teachings of the 22 prophets # the most recent is Yazdegerd # who compiled the scriptures of the other prophets # of both Persic AND Pashtuni-Khwarezmian traditions
+			# not judging either of them but coming to his own conclusion which transcended them both # Henotheistic but not monotheistic
+            color = { 0.74 0.60 0.44 }
+            icon = coptic
+			
+            holy_site = rome # change later
+            holy_site = athens
+            holy_site = sparta
+            holy_site = alexandria
+            holy_site = carthage
+
+            doctrine = doctrine_gender_equal # male preference equal
+            doctrine = doctrine_bastardry_legitimization
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_taxation
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_shunned
+			doctrine = doctrine_valdemarian_polygamy
+			
+			# Theology
+			doctrine = doctrine_polytheism
+			doctrine = doctrine_pseudomonolatry
+			doctrine = doctrine_from_chaos
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_ignored
+			doctrine = doctrine_angels_neutral_god_or_nongod
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_dionysiist
+			doctrine = doctrine_nymphs_neutral_any
+
+            doctrine = tenet_gnosticism
+            doctrine = tenet_pseudomonastic
+            doctrine = tenet_false_conversion_sanction
+        }
+		pashtuni_khwarezmian_ireneism = { # Afghanistan and Khwarezm
+			# follows the teachings of the 22 prophets # the most recent is Yazdegerd # who compiled the scriptures of the other prophets # of both Persic AND Pashtuni-Khwarezmian traditions
+			# not judging either of them but coming to his own conclusion which transcended them both # Henotheistic but not monotheistic
+            color = { 234 71 56 }
+            icon = coptic
+			
+            holy_site = rome # change later
+            holy_site = athens
+            holy_site = sparta
+            holy_site = alexandria
+            holy_site = carthage
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_taxation
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_shunned
+			doctrine = doctrine_valdemarian_polygamy
+			
+			# Theology
+			doctrine = doctrine_seminoble_omnitheism
+			doctrine = doctrine_deities_worshipped_henotheism
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_accepted
+			doctrine = doctrine_angels_good_nongod
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_neutral_any
+
+            doctrine = tenet_inner_journey
+            doctrine = tenet_pseudognostic # make this # based on Ygdrasil Saga soft gnosticism
+            doctrine = tenet_false_conversion_sanction
+        }
+		iberic_ireneism = { # scattered throught Iberia # form an andalusian culture empire around 1080 # conquering all of Iberia by 1116
+            color = { 0.54 0.91 0.38 }
+            icon = coptic
+			
+            holy_site = rome # change later
+            holy_site = athens
+            holy_site = sparta
+            holy_site = alexandria
+            holy_site = carthage
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_legitimization
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_taxation
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_shunned
+			doctrine = doctrine_valdemarian_polygamy
+			
+			# Theology
+			doctrine = doctrine_godorgods_omnitheism
+			doctrine = doctrine_monolatry
+			doctrine = doctrine_eternal_chaos
+			doctrine = doctrine_local_gods_rejected
+			doctrine = doctrine_other_faiths_gods_ignored_monolatry
+			doctrine = doctrine_angels_good_monotheistic
+			doctrine = doctrine_hellenic_high_god_lady_irene_monotheistic
+			doctrine = doctrine_hellenic_fall_of_olympus_cyclical
+			doctrine = doctrine_nymphs_demonized
+
+            doctrine = tenet_gnosticism
+            doctrine = tenet_scholarship_of_scripture
+            doctrine = tenet_false_conversion_sanction
+        }
+		slavonic_ireneism = { # Poland and western Rus
+            color = { 0.99 0.51 0.38 }
+            icon = hellenic
+			
+            holy_site = rome # change later
+            holy_site = athens
+            holy_site = sparta
+            holy_site = alexandria
+            holy_site = carthage
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_taxation
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_valdemarian_polygamy
+		
+			# Theology
+			doctrine = doctrine_noble_quoiomnitheism
+			doctrine = doctrine_deities_worshipped_highgodcentered_omnilatry
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_dipantheonism
+			doctrine = doctrine_other_faiths_gods_equal_standards
+			doctrine = doctrine_angels_good_god_or_nongod
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_resurrectionist
+			doctrine = doctrine_nymphs_good_free
+		
+            doctrine = tenet_inner_journey
+            doctrine = tenet_ritual_hospitality
+            doctrine = tenet_ritual_celebrations
+        }
+		allemanian_ireneism = { # most of Germania
+            color = { 0.43 0.49 0.42 }
+            icon = christianity_waldensian
+			
+            holy_site = rome # change later
+            holy_site = athens
+            holy_site = sparta
+            holy_site = alexandria
+            holy_site = carthage
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_taxation
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_allemanian_free_love
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_henotheistic_tradition
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_integrated # mostly dipantheonism # but integration happens often enough that this is correct enough
+			doctrine = doctrine_other_faiths_gods_fully_integrated
+			doctrine = doctrine_angels_good_god
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_good_free
+
+			doctrine = tenet_scholarship_of_scripture
+            doctrine = tenet_pacifism
+            doctrine = tenet_pseudomonastic
+        }
+		seaxean_ireneism = { # southern England except for Kent 
+		# Kent follows shayanaic 
+		# Mercia follows mercian_church_of_irene which is more henotheistic 
+		# East Anglia follows valdemarian_common 
+		# the rest of Anglo-Saxon England follows northumbrian_ireneism
+		# Gwynedd follows gwyneddian_ireneism
+		# Powys follows gwerthrynion_ireneism
+		# Deheubarth follows welsh_pagan
+		# Cornwall follows cornish_ireneism
+		# Cumbria follows cumbrian_ireneism in the south
+		# northern Cumbria follows ystrad_clud_ireneism
+            color = { 175 25 45 }
+            icon = latvian_saule_01
+			
+            holy_site = kent # change later
+            holy_site = lesbos
+            holy_site = rome
+            holy_site = alexandria # soissons
+            holy_site = carthage # capital of wessex whatever that is
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_alms_and_pacification
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_free_love
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_noble_omnilatry
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_elevated
+			doctrine = doctrine_other_faiths_gods_fully_integrated
+			doctrine = doctrine_angels_good_god
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_none
+
+			doctrine = mz_tenet_great_hunt
+            doctrine = tenet_inner_journey
+            doctrine = tenet_monasticism
+        }
+		mercian_church_of_irene = { # Mercia
+		# Kent follows shayanaic 
+		# Mercia follows mercian_church_of_irene which is more henotheistic 
+		# East Anglia follows valdemarian_common 
+		# the rest of Anglo-Saxon England follows northumbrian_ireneism
+		# Gwynedd follows gwyneddian_ireneism
+		# Powys follows gwerthrynion_ireneism
+		# Deheubarth follows welsh_pagan
+		# Cornwall follows cornish_ireneism
+		# Cumbria follows cumbrian_ireneism in the south
+		# northern Cumbria follows ystrad_clud_ireneism
+            color = { 151 89 62 }
+            icon = latvian_auseklis
+			
+            holy_site = kent # london
+            holy_site = lesbos
+            holy_site = rome
+            holy_site = alexandria # soissons
+            holy_site = carthage # warwick
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_alms_and_pacification
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_free_love
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_henotheism
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_accepted
+			doctrine = doctrine_angels_good_god
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_none
+
+			doctrine = tenet_communal_identity
+            doctrine = tenet_inner_journey
+            doctrine = tenet_monasticism
+        }
+		cumbrian_ireneism = { # c_cumberland c_westmoreland c_annandale c_teviotdale
+		# the rest of Anglo-Saxon England follows northumbrian_ireneism
+		# Gwynedd follows gwyneddian_ireneism
+		# Powys follows gwerthrynion_ireneism
+		# Deheubarth follows welsh_pagan
+		# Cornwall follows cornish_ireneism
+		# Cumbria follows cumbrian_ireneism in the south
+		# northern Cumbria follows ystrad_clud_ireneism
+		# brythonic_pagan is followed in the rest of Scotland to represent the Picts
+            color = { 62 89 151 }
+            icon = lithuanian_05
+			
+            holy_site = kent # aeron
+            holy_site = lesbos
+            holy_site = rome
+            holy_site = alexandria # soissons
+            holy_site = carthage # cumberland
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_alms_and_pacification
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_free_love
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_henotheistic_tradition
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_accepted
+			doctrine = doctrine_other_faiths_gods_accepted
+			doctrine = doctrine_angels_good_god
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_good_god
+
+			doctrine = tenet_communal_identity
+            doctrine = tenet_sanctity_of_nature
+            doctrine = tenet_pseudomonastic
+        }
+		cornish_ireneism = { # d_cornwall
+		# the rest of Anglo-Saxon England follows northumbrian_ireneism
+		# Gwynedd follows gwyneddian_ireneism
+		# Powys follows gwerthrynion_ireneism
+		# Deheubarth follows welsh_pagan
+		# Cornwall follows cornish_ireneism
+		# northern Cumbria follows ystrad_clud_ireneism
+            color = { 50 50 50 }
+            icon = latvian_krupitis
+			
+            holy_site = kent # 
+            holy_site = lesbos
+            holy_site = rome
+            holy_site = alexandria # soissons
+            holy_site = carthage # cornwall
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_alms_and_pacification
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_free_love # version with extra 1.0 fertility
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_henotheistic_tradition
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_integrated
+			doctrine = doctrine_other_faiths_gods_semi_integrated
+			doctrine = doctrine_angels_good_god
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_good_god
+
+			doctrine = tenet_pseudognostic
+            doctrine = mz_tenet_great_hunt
+            doctrine = tenet_inner_journey
+        }
+		northumbrian_ireneism = { # d_lancaster d_york d_northumbria d_lothian
+		# the rest of Anglo-Saxon England follows northumbrian_ireneism
+		# Gwynedd follows gwyneddian_ireneism
+		# Powys follows gwerthrynion_ireneism
+		# Deheubarth follows welsh_pagan
+		# northern Cumbria follows ystrad_clud_ireneism
+            color = { 150 50 50 }
+            icon = estonian_05
+			
+            holy_site = kent # york
+            holy_site = lesbos
+            holy_site = rome
+            holy_site = alexandria # soissons
+            holy_site = carthage # aeron
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_alms_and_pacification
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_free_love # version with extra 1.0 fertility
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_noble_omnilatry
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_integrated
+			doctrine = doctrine_other_faiths_gods_semi_integrated
+			doctrine = doctrine_angels_good_god
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_good_god
+
+			doctrine = tenet_inner_journey
+            doctrine = tenet_astrology
+            doctrine = tenet_mendicant_preachers
+        }
+		ystrad_clud_ireneism = { # d_galloway d_strathclyde c_strathearn
+		# Gwynedd follows gwyneddian_ireneism
+		# Powys follows gwerthrynion_ireneism
+		# Deheubarth follows welsh_pagan
+		# northern Cumbria follows ystrad_clud_ireneism
+            color = { 150 50 150 }
+            icon = estonian_08
+			
+            holy_site = kent # galwyddek
+            holy_site = lesbos
+            holy_site = rome
+            holy_site = alexandria # soissons
+            holy_site = carthage # aeron
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_alms_and_pacification
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_free_love # version with extra 1.0 fertility
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_noble_omnilatry
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_integrated
+			doctrine = doctrine_other_faiths_gods_fully_integrated
+			doctrine = doctrine_angels_good_god
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_good_god
+
+			doctrine = tenet_communal_identity
+            doctrine = mz_tenet_great_hunt
+            doctrine = tenet_pseudomonastic
+        }
+		gwyneddian_ireneism = { # d_gwynedd
+		# Gwynedd follows gwyneddian_ireneism
+		# Powys follows gwerthrynion_ireneism
+		# Deheubarth follows welsh_pagan
+		# northern Cumbria follows ystrad_clud_ireneism
+            color = { 150 150 150 }
+            icon = estonian_05
+			
+            holy_site = kent # gwynedd
+            holy_site = lesbos
+            holy_site = rome
+            holy_site = alexandria # soissons
+            holy_site = carthage # powys
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_alms_and_pacification
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_free_love
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_noble_omnilatry
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_integrated
+			doctrine = doctrine_other_faiths_gods_multipantheonism
+			doctrine = doctrine_angels_good_god
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_good_god
+
+			doctrine = tenet_pseudognostic
+            doctrine = mz_tenet_great_hunt
+            doctrine = tenet_pseudomonastic
+        }
+		gwerthrynion_ireneism = { # d_powys
+		# Gwynedd follows gwyneddian_ireneism
+		# Powys follows gwerthrynion_ireneism
+		# Deheubarth follows welsh_pagan
+		# northern Cumbria follows ystrad_clud_ireneism
+            color = { 25 150 25 }
+            icon = estonian_05
+			
+            holy_site = kent # gwynedd
+            holy_site = lesbos
+            holy_site = rome
+            holy_site = alexandria # soissons
+            holy_site = carthage # powys
+
+            doctrine = doctrine_gender_equal
+            doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+            doctrine = doctrine_consanguinity_restricted
+            doctrine = doctrine_clerical_function_alms_and_pacification
+            doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_free_love
+			
+			# Theology
+			doctrine = doctrine_noble_omnitheism
+			doctrine = doctrine_deities_worshipped_noble_omnilatry
+			doctrine = doctrine_eternal_theogenesis
+			doctrine = doctrine_local_gods_integrated
+			doctrine = doctrine_other_faiths_gods_universal_pantheon
+			doctrine = doctrine_angels_good_god
+			doctrine = doctrine_hellenic_high_god_lady_irene
+			doctrine = doctrine_hellenic_fall_of_olympus_rebirth
+			doctrine = doctrine_nymphs_good_god
+
+			doctrine = tenet_reincarnation
+            doctrine = mz_tenet_great_hunt
+            doctrine = tenet_ritual_celebrations
+        }
+	}
+}

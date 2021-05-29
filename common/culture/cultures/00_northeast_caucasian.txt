@@ -1,0 +1,152 @@
+﻿northeast_caucasian_group = {
+	
+	graphical_cultures = {
+		byzantine_group_coa_gfx
+		western_coa_gfx
+		mediterranean_building_gfx
+		byzantine_clothing_gfx
+		eastern_unit_gfx
+	}
+	# byzantine_group CULTURE GROUP 
+	# pontic # greek # vlach # cibyrrhaeotine NOT CREATED ## combo of Hattian ## Isaurian ## Greek ## Telchines names
+	# eastern_celtic_group CULTURE GROUP
+	# galatian
+	# albanian_group CULTURE GROUP
+	# arberian
+	# northeast_caucasian_group CULTURE GROUP
+	# udi # caucasian_avar
+	# northwest_caucasian_group CULTURE GROUP
+	# kasogi NEW NAME LIST ## MAYBE CIRCASSIAN FROM PARADOX FORUMS
+	# east_germanic_group CULTURE GROUP
+	# crimean_gothic # high_gothic FROM NORTH GERMANIC
+	# armenian_group CULTURE GROUP
+	# armenian
+	# ADD TO iranian_group 
+	# alan
+	# kartvelian_group CULTURE GROUP
+	mercenary_names = {
+		{ name = mercenary_company_manglabites }
+		{ name = "mercenary_company_the_ten_thousand" }
+	}
+	udi = {
+		
+		color = { 0.5 0.8 0.7 }
+
+		cadet_dynasty_names = {
+		"dynn_Partaw"
+		"dynn_Kapalak"
+		"dynn_Gardman"
+		"dynn_Arcax"
+		"dynn_Shaki"
+
+		}
+
+		dynasty_names = {
+		"dynn_Partaw"
+		"dynn_Kapalak"
+		"dynn_Gardman"
+		"dynn_Arcax"
+		"dynn_Shaki"
+		
+		}
+
+		male_names = {
+			Adamar Aga Avel_Abel Avraam_Abraham Bilzi Bixo Bokawon Bocoken Bul Burxmux Danil_Daniel David_David Ek Elem Grigori_Gregory
+			Hel Iakovi_Jacob Ieremi_Jeremy Ili_Elias Ioan_John Is Isaak_Isaac Iskapos Iusus_Jesus Jora_George Kaban Karlen Kiro Kul Manak Marakesun
+			Mesrob Movses_Moses Murad Namoc Nawasardun Oleg Oroezes Palang Pascag Patvakan Rustam Serbaown Shudok Stepan_Stephen Tavar Tulen Urnayr Vahan Vacagan Vace 
+			Viroy Voroshil Xod Zaxari_Zacariah Zem Zober Zor Zoren Zorru
+		}
+		female_names = {
+			Arelin Bawga Basinda Beg Bias Biyay Bondoke Borzun Bowqana Busin Calag Caxowli Cay Chee Cile Cubux Curesun Daria
+			Desik Egele Eit Eka Enenevi Esva Exnay Fericte Gokarxe Hawke Hez Ihal Ingen Karavano Ke Kebin Kici
+			Majrami_Maria Maral Mare Meresimleri Muca Naiow Nana Nedun Nikar Nisanlu Nora Ocaq Olia Ot Orayin
+			Qehbelug Qus Reqs Rita_Rita Sas Savat Seir Ses Ssengi Tosol Toy Tur Usena Us Vede Xac Xibna Xunc Zhora
+		}
+		
+		dynasty_of_location_prefix = "dynnp_ve"
+		
+		
+		#dynasty_of_location_suffix = "dynnp_undi"
+
+   		patronym_suffix_male = "dynnp_gardi"
+    	patronym_suffix_female = "dynnp_xinerdi"
+			
+			
+			
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+	}
+	caucasian_avar = {
+		color = { 0.75 0.3 0.7 }
+		male_names = {
+			E_lbeg E_mbalan Aghsartan Alatey Akhsar Anbal Anbazuk Aravat Arsen Askhkadar Ashot Aslan Aspar Athom Balambar Balsag Barlah BE_qE_tar Basil Bazuk Beler Ber BirE_g Boz-Uruz BuU_rgur Buriberdi
+			Burikhan Candak Chelakhsartag Davit Djadaron Durgulel DzE_rE_s GE_tE_g Georgy Girgon Gokhar Gubaz Guram Hasqar Huddan Istor Itaz Iveri Kandak Kandz Kavtia Kaur
+			Khankhusy KhE_tag Konstantin Kubal Kuddana Kul Kuluk Lak Levan Pulad Respendial Rosmag Safrak Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon Taymuraz Taus Totraz Urdure Uruzma Uturku Yasynya Zaur
+		}
+		
+		female_names = {
+			Adadza Alda Altun Ana Atsyrukhs Baia Bedisa Borena Btsenon Burudukan Duda Elene Eliso Gergana Gulchara Guranduht Kera Keratsa Ketevan Koser
+			Lamara Lashin Lela Mariami Natia Nino Rusudan Sanatha Satinik Shatana Shorena Shukhia Tamari Tinatini Tsiala Vardo Vedokha Yeran
+		}	
+		
+		cadet_dynasty_names = {
+			"dynn_ArdasentA_"
+			"dynn_GA_bA_ratA_"
+			"dynn_DzA_rA_hohtA_"
+			"dynn_DzebysatA_"
+			"dynn_DjerdjitA_"
+			"dynn_GuyrdzybetA_"
+			"dynn_ZA_ndjiatA_"
+			"dynn_KA_rkuystA_"
+			"dynn_DjykkajtA_"
+			"dynn_GodjysatA_"
+			"dynn_PA_rrA_statA_"
+			"dynn_HetA_gkatA_"
+			"dynn_HA_darcatA_"
+			"dynn_TuallA_gtA_"
+			"dynn_FA_rniatA_"
+			"dynn_Ephraimid"
+			"dynn_TandelatA_"
+			"dynn_TsA_ykostA_"
+			"dynn_SozanatA_"
+			"dynn_MA_rzojtA_"
+			"dynn_Ovsia"
+		}
+
+		dynasty_names = {
+			"dynn_ArdasentA_"
+			"dynn_GA_bA_ratA_"
+			"dynn_DzA_rA_hohtA_"
+			"dynn_DzebysatA_"
+			"dynn_DjerdjitA_"
+			"dynn_GuyrdzybetA_"
+			"dynn_ZA_ndjiatA_"
+			"dynn_KA_rkuystA_"
+			"dynn_DjykkajtA_"
+			"dynn_GodjysatA_"
+			"dynn_PA_rrA_statA_"
+			"dynn_HetA_gkatA_"
+			"dynn_HA_darcatA_"
+			"dynn_TuallA_gtA_"
+			"dynn_FA_rniatA_"
+			"dynn_Ephraimid"
+			"dynn_TandelatA_"
+			"dynn_TsA_ykostA_"
+			"dynn_SozanatA_"
+			"dynn_MA_rzojtA_"
+			"dynn_Ovsia"
+		}
+		
+		dynasty_of_location_prefix = "dynnp_ve"
+		patronym_suffix_male = "dynnpat_suf_y_fyrt"
+		patronym_suffix_female = "dynnpat_suf_y_chyzg"
+		prefix = no
+		disinherit_from_blinding = yes
+		
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+	
+	}
+}

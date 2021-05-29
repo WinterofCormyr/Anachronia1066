@@ -1,0 +1,81 @@
+﻿l_english:
+########################################
+#### k_lithuania
+########################################
+k_lithuania:0 "Lithuania"
+k_lithuania_adj:0 "Lithuanian"
+########################################
+#### d_lithunanians
+########################################
+d_lithuanians:0 "Aukstaitija"
+d_lithuanians_adj:0 "Aukstaitian"
+c_kernave:0 "Neris"
+c_kernave_adj:0 "Neris"
+b_kernave:0 "Kernave"
+b_kernave_adj:0 "Kernave"
+b_vilkmerge:0 "Vilkmerge"
+b_vilkmerge_adj:0 "Vilkmerge"
+c_trakai:0 "Kunas"
+c_trakai_adj:0 "Kunas"
+b_kaunas:0 "Kaunas"
+b_kaunas_adj:0 "Kaunas"
+b_trakai:0 "Trakai"
+b_trakai_adj:0 "Trakai"
+c_braslau:0 "Nalsia"
+c_braslau_adj:0 "Nalsia"
+b_utena:0 "Utena"
+b_utena_adj:0 "Utena"
+b_braslau:0 "Braslaw"
+b_braslau_adj:0 "Braslaw"
+########################################
+#### d_dainava NEW
+########################################
+d_dainava:0 "Dainava" #NEW
+d_dainava_adj:0 "Dainava" #NEW
+c_dainava:0 "Dainava" #NEW
+c_dainava_adj:0 "Dainava" #NEW
+b_merkine:0 "Merkine"
+b_merkine_adj:0 "Merkine"
+b_valkininkai:0 "Eisiskes"
+b_valkininkai_adj:0 "Eisiskes"
+c_alsia:0 "Alsia"
+c_alsia_adj:0 "Alsia"
+b_vilnius:0 "Vilna"
+b_vilnius_adj:0 "Vilna"
+b_kreva:0 "Kreva"
+b_kreva_adj:0 "Kreva"
+c_grodno:0 "Neman" #Grodno
+c_grodno_adj:0 "Neman"
+b_grodno:0 "Grodno" #Grodno
+b_grodno_adj:0 "Grodno"
+b_lida:0 "Lida" #Lida
+b_lida_adj:0 "Lida"
+########################################
+#### d_samogitia
+########################################
+d_samogitia:0 "Samogitia"
+d_samogitia_adj:0 "Samogitian"
+c_raseiniai:0 "Karsuva"
+c_raseiniai_adj:0 "Karsuva"
+b_jurbarkas:0 "Jurbarkas"
+b_jurbarkas_adj:0 "Jurbarkas"
+b_raseiniai:0 "Raseiniai"
+b_raseiniai_adj:0 "Raseiniai"
+c_knituva:0 "Knituva"
+c_knituva_adj:0 "Knituva"
+b_medeniken:0 "Medininkai"
+b_medeniken_adj:0 "Medininkai"
+b_telsiai:0 "Telsiai"
+b_telsiai_adj:0 "Telsiai"
+c_gaizuva:0 "Gaizuva"
+c_gaizuva_adj:0 "Gaizuva"
+b_veliuona:0 "Piestve"
+b_veliuona_adj:0 "Piestve"
+b_kedainiai:0 "Kedainiai"
+b_kedainiai_adj:0 "Kedainiai"
+c_siauliai:0 "Siauliai"
+c_siauliai_adj:0 "Siauliai"
+b_siauliai:0 "Siauliai"
+b_siauliai_adj:0 "Siauliai"
+b_upyte:0 "Upyte"
+b_upyte_adj:0 "Upyte"

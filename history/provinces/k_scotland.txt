@@ -1,0 +1,640 @@
+#k_scotland
+##d_albany ###################################
+###c_gowrie
+1741 = {	#Perth / b_st_johnston
+	culture = pictish
+	religion = brythonic_pagan
+	holding = castle_holding
+}
+1742 = {	#Coupar Angus
+	holding = none
+	culture = pictish
+	religion = brythonic_pagan
+	1164.1.1 = {
+		holding = castle_holding
+		#Cisterian abbay founded
+	}
+}
+1745 = {	#Crieff
+	holding = none
+	culture = pictish
+	religion = brythonic_pagan
+}
+
+###c_fife
+1724 = {	#Dunfermline
+	culture = pictish
+	religion = brythonic_pagan
+	holding = castle_holding
+}
+1725 = {	#Kircaldy / Kirckaldy
+	holding = none
+	culture = pictish
+	religion = brythonic_pagan
+	1066.1.1 = {
+		holding = castle_holding
+		#First official mention in 1075
+	}
+}
+1726 = {	#St Andrews
+	holding = castle_holding
+	culture = pictish
+	religion = brythonic_pagan
+	#important church since 747 and bishopric since XIth
+}
+
+###c_strathearn
+1734 = {	#Stirling
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	holding = castle_holding
+}
+1735 = {	#Callander
+	holding = castle_holding
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	#Unclear, but potentially 
+}
+1736 = {	#Clackmannan
+	holding = none
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+}
+
+###c_atholl
+1743 = {	#Dunkeld
+	culture = pictish
+	religion = brythonic_pagan
+	holding = castle_holding
+}
+1744 = {	#Aberfeldy
+	holding = none
+	culture = pictish
+	religion = brythonic_pagan
+}
+
+###c_angus
+1720 = {	#Dundee
+	culture = pictish
+	religion = brythonic_pagan
+	holding = castle_holding
+}
+1721 = {	#Kirriemuir
+	holding = castle_holding
+	culture = pictish
+	religion = brythonic_pagan
+	#Potentially a rather ancient place with spitirual importance
+}
+1723 = {	#Mar
+	holding = none
+	culture = pictish
+	religion = brythonic_pagan
+}
+
+###c_mearns
+1718 = {	#Aberdeen
+	culture = pictish
+	religion = brythonic_pagan
+	holding = castle_holding
+}
+1719 = {	#Kincardine
+	holding = none
+	culture = pictish
+	religion = brythonic_pagan
+}
+1722 = {	#Ballater
+	holding = none
+	culture = pictish
+	religion = brythonic_pagan
+}
+
+##d_the_isles ###################################
+###c_isle_of_man
+1698 = {	#Castletown
+	culture = gaelic
+	religion = cumbrian_ireneism
+	holding = castle_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+}
+1699 = {	#Ramsey
+	holding = none
+	culture = gaelic
+	religion = cumbrian_ireneism
+}
+
+##d_galloway ###################################
+###c_lennox
+1695 = {	#Dumbarton
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	holding = castle_holding
+}
+1696 = {	#Glasgow
+	holding = castle_holding
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	#Potentially built in the XIth century, around a church
+}
+1697 = {	#Meneith / Menteith
+	holding = none
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+}
+
+###c_galloway
+1682 = {	#Kilcudbrite
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	holding = castle_holding
+}
+1683 = {	#Sanquhar
+	holding = castle_holding
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	#Unclear, but apparently already popular in ancient times, and received waves of settlers in the XIIIth
+}
+1684 = {	#Wigtown
+	holding = none
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+}
+
+###c_carrick
+1680 = {	#Maybole
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	holding = castle_holding
+}
+1685 = {	#Girvan
+	holding = none
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+}
+
+###c_ayrshire
+1686 = {	#Kyle
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	holding = castle_holding
+}
+1687 = {	#Strathgrythe
+	holding = none
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+}
+1688 = {	#Cunningham
+	holding = none
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+}
+
+###c_annandale
+1679 = {	#Annan
+	culture = cumbrian
+	religion = cumbrian_ireneism
+	holding = castle_holding
+}
+1681 = {	#Dumfries
+	holding = castle_holding
+	culture = cumbrian
+	religion = cumbrian_ireneism
+}
+
+##d_western_isles ###################################
+###c_inner_hebrides
+1689 = {	#Islay
+	culture = gaelic
+	religion = gaelic_pagan
+	holding = castle_holding
+}
+# 1690 - ARRAN
+1690 = {	# 1690 - Arran
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = hills
+	900.1.1 = {	
+		culture = norseirish
+	}
+}
+# 1691 - MULL
+1691 = {	# 1691 - Mull
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = hills
+	holding =  castle_holding 
+	900.1.1 = {	
+		culture = norseirish
+	}
+}
+
+# 1692 - SKYE
+1692 = {	# 1692 - Skye
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = hills
+	900.1.1 = {	
+		culture = norseirish
+	}
+}
+
+# 1693 - LEWIS
+1693 = {	# 1693 - Lewis
+	
+	# Misc
+
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = hills
+	holding =  castle_holding 
+}
+# 1694 - THE UISTS
+1694 = {	# 1694 - The Uists
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = hills
+	holding =  castle_holding
+}
+9814 = {	# 1689 - Islay
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	
+	holding =  castle_holding 
+
+}
+9815 = {	# 1689 - Islay
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+}
+9816 = {	# 1689 - Islay
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+}
+9817 = {	# 1689 - Islay
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = plains
+	
+	holding =  none
+}
+9818 = {	# 1689 - Islay
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = plains
+	
+	holding =  castle_holding
+}
+9819 = {	# 1689 - Islay
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = plains
+	
+	holding =  none 
+}
+9820 = {	# 1689 - Islay
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = plains
+	
+	holding =  none 
+}
+9821 = {	# 1689 - Islay
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = plains
+	
+	holding =  castle_holding 
+}
+9822 = {	# 1689 - Islay
+	
+	# Misc
+	culture = gaelic
+	religion = gaelic_pagan
+	terrain = plains
+	
+	holding =  none 
+}
+###c_argyll
+1700 = {	#Kilmarten
+	culture = gaelic
+	religion = gaelic_pagan
+	holding = castle_holding
+}
+1701 = {	#Glencoe
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+}
+1702 = {	#Lomond
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+}
+35 = {		#ARDNAMURCHON
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	935.1.1 = {
+		holding = castle_holding
+	}
+	#Apparently already populated pre CK timeframe
+}
+
+##d_lothian ###################################
+###c_lothian
+1727 = {	#Edinburgh
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	1100.11.11 = { culture = scottish }
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			military_camps_01
+			pastures_01
+		}
+	}
+}
+1728 = {	#Haddington
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	1100.11.11 = { culture = scottish }
+}
+1729 = {	#Galashiels
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	1100.11.11 = { culture = scottish }
+}
+1730 = {	#Penicuick
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	1100.11.11 = { culture = scottish }
+}
+
+###c_dunbar
+1676 = {	#Dunbar
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	1100.11.11 = { culture = scottish }
+
+}
+1675 = {	#Berwick
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	1100.11.11 = { culture = scottish }
+}
+
+###c_teviotdale
+1677 = {	#Kelso
+	culture = cumbrian
+	religion = cumbrian_ireneism
+	holding = castle_holding
+}
+1678 = {	#Jedburgh
+	holding = castle_holding
+	culture = cumbrian
+	religion = cumbrian_ireneism
+	#Church built in the IXth
+}
+1740 = {	#Selkirk
+	holding = none
+	culture = cumbrian
+	religion = cumbrian_ireneism
+}
+
+###c_linlithgowshire
+1731 = {	#Linlithgow
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	1100.11.11 = { culture = scottish }
+}
+1732 = {	#Queensferry
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	1100.11.11 = { culture = scottish }
+}
+1733 = {	#Falkirk
+	culture = anglo_saxon
+	religion = northumbrian_ireneism
+	holding = castle_holding
+	1100.11.11 = { culture = scottish }
+}
+
+###c_lanarkshire
+1737 = {	#Lanark
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	holding = castle_holding
+	1100.11.11 = {
+		culture = scottish
+	}
+}
+1738 = {	#Cadyou
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	holding = castle_holding
+	1100.11.11 = {
+		culture = scottish
+	}
+}
+1739 = {	#Biggar
+	holding = none
+	culture = cumbrian
+	religion = ystrad_clud_ireneism
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_moray ###################################
+###c_moray
+1715 = {	#Elgin
+	culture = gaelic
+	religion = gaelic_pagan
+	holding = castle_holding
+	1153.1.1 = {
+		culture = scottish
+	}
+}
+1716 = {	#Keith
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	#Oldest part apparently dates back to 1180
+}
+1717 = {	#Garioch
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+}
+
+###c_ross
+1703 = {	#Dingwall
+	culture = gaelic
+	religion = gaelic_pagan
+	holding = castle_holding
+}
+1704 = {	#Gairloch
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+}
+8777 = {	#Tain
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	1066.1.1 = {
+		holding = castle_holding
+		#Town charters in 1066
+	}
+}
+8778 = {	#Applecross
+	holding = castle_holding
+	culture = gaelic
+	religion = gaelic_pagan
+	#Very old monastery in the area
+}
+
+###c_buchan
+1712 = {	#Banff
+	culture = pictish
+	religion = brythonic_pagan
+	holding = castle_holding
+}
+1713 = {	#Mortlach
+	holding = none
+	culture = pictish
+	religion = brythonic_pagan
+	#Something around the XIIth century ?
+}
+1714 = {	#Peterhead
+	holding = none
+	culture = pictish
+	religion = brythonic_pagan
+}
+
+###c_sutherland
+1705 = {	#Dornoch
+	culture = gaelic
+	religion = gaelic_pagan
+	holding = castle_holding
+}
+1706 = {	#Durness
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+}
+8779 = {	#Assynt
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+}
+
+###c_caithness
+1707 = {	#Thurso
+	culture = gaelic
+	religion = gaelic_pagan
+	holding = castle_holding
+}
+1708 = {	#Wick
+	holding = castle_holding
+	culture = gaelic
+	religion = gaelic_pagan
+	#Irish patron of Wick lived in the area during the VIIIth, must have been settled by then
+}
+
+###c_inverness
+1709 = {	#Inverness
+	culture = gaelic
+	religion = gaelic_pagan
+	holding = castle_holding
+}
+1710 = {	#Badenoch
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+}
+1711 = {	#Glenfinnan
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+}
+8775 = {	#Urquhart
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	#Castle built in the XIIIth century
+}
+10099 = {	#Assynt
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	#Castle built in the XIIIth century
+}
+10100 = {	#Tayn
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	#Castle built in the XIIIth century
+}
+8775 = {	#Urquhart
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	#Castle built in the XIIIth century
+}
+10101 = {	#Applecross
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	#Castle built in the XIIIth century
+}
+10102 = {	#Glenelg
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	#Castle built in the XIIIth century
+}
+10103 = {	#Urquhart
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+	#Castle built in the XIIIth century
+}
+8776 = {	#Glenelg
+	holding = none
+	culture = gaelic
+	religion = gaelic_pagan
+}

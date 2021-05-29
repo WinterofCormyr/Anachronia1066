@@ -1,0 +1,667 @@
+﻿#Duchy of Armeniac # pontic Culture zhengyi Religion characters
+
+# rulers of the Duchy of Armeniac from 838 onward
+drsarmeniac0001 = {
+	name = "Theocharistos" # daughter Eirene # son Arkeos # son Valerios
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	773.1.1 = {
+		birth = yes
+	}
+	862.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0002 = {
+	name = "Eirene" # daughter Ioulia # son Gerasimos
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	father = drsarmeniac0001
+	793.1.1 = {
+		birth = yes
+	}
+	863.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0003 = {
+	name = "Arkeos" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	father = drsarmeniac0001
+	794.1.1 = {
+		birth = yes
+	}
+	883.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0004 = {
+	name = "Valerios" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	father = drsarmeniac0001
+	795.1.1 = {
+		birth = yes
+	}
+	886.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0005 = {
+	name = "Ioulia" # son David # daughter Rhodanthe # son Adrianos # son Phokas 
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0002 # Eirene Daogonos
+	813.1.1 = {
+		birth = yes
+	}
+	899.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0006 = {
+	name = "Gerasimos" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0002 # Eirene Daogonos
+	814.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0007 = {
+	name = "David" # no children
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0005 # Ioulia Daogonos
+	834.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0008 = {
+	name = "Rhodanthe" # daughter Elaiodora
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0005 # Ioulia Daogonos
+	835.1.1 = {
+		birth = yes
+	}
+	932.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0009 = {
+	name = "Adrianos" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0005 # Ioulia Daogonos
+	836.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0010 = {
+	name = "Phokas" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0005 # Ioulia Daogonos
+	837.1.1 = {
+		birth = yes
+	}
+	914.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0011 = {
+	name = "Elaiodora" # daughter Simonis # son Kallistos
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0008 # Rhodanthe Daogonos
+	855.1.1 = {
+		birth = yes
+	}
+	943.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0012 = {
+	name = "Simonis" # no children
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0011 # Elaiodora Daogonos
+	875.1.1 = {
+		birth = yes
+	}
+	951.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0013 = {
+	name = "Kallistos" # daughter Leontia # son Chrysanthos # son Aitachios # daughter Aiasia
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0011 # Elaiodora Daogonos
+	876.1.1 = {
+		birth = yes
+	}
+	952.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0014 = {
+	name = "Leontia" # daughter Kale # son Raphail # son Tarouios # son Niphon # daughter Selene # son Prokopios # son Thomas # son Tarouphylaktos
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	father = drsarmeniac0013 # Kallistos Daogonos
+	896.1.1 = {
+		birth = yes
+	}
+	987.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0015 = {
+	name = "Chrysanthos" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	father = drsarmeniac0013 # Kallistos Daogonos
+	897.1.1 = {
+		birth = yes
+	}
+	978.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0016 = {
+	name = "Aitachios" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	father = drsarmeniac0013 # Kallistos Daogonos
+	898.1.1 = {
+		birth = yes
+	}
+	978.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0017 = {
+	name = "Aiasia" #
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	father = drsarmeniac0013 # Kallistos Daogonos
+	899.1.1 = {
+		birth = yes
+	}
+	992.1.1 = {
+		death = yes 
+	}
+}
+drsarmeniac0018 = {
+	name = "Kale" # daughter Rhodanthe # son Inaraios # son Seleneios # daughter Anphasoithia # son Zenon
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0014 # Leontia Daogonos
+	919.1.1 = {
+		birth = yes
+	}
+	994.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0019 = {
+	name = "Raphail" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0014 # Leontia Daogonos
+	920.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0020 = {
+	name = "Tarouios" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0014 # Leontia Daogonos
+	921.1.1 = {
+		birth = yes
+	}
+	1002.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0021 = {
+	name = "Niphon" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0014 # Leontia Daogonos
+	922.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0022 = {
+	name = "Selene" #
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0014 # Leontia Daogonos
+	923.1.1 = {
+		birth = yes
+	}
+	1018.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0023 = {
+	name = "Prokopios" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0014 # Leontia Daogonos
+	924.1.1 = {
+		birth = yes
+	}
+	1007.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0024 = {
+	name = "Thomas" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0014 # Leontia Daogonos
+	925.1.1 = {
+		birth = yes
+	}
+	1006.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0025 = {
+	name = "Tarouphylaktos" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0014 # Leontia Daogonos
+	926.1.1 = {
+		birth = yes
+	}
+	1021.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0026 = {
+	name = "Rhodanthe" # no spouse or children
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0018 # Kale Daogonos
+	939.1.1 = {
+		birth = yes
+	}
+	1018.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0027 = {
+	name = "Inaraios" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0018 # Kale Daogonos
+	940.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0028 = {
+	name = "Seleneios" # no children
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0018 # Kale Daogonos
+	941.1.1 = {
+		birth = yes
+	}
+	1027.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0029 = {
+	name = "Anphasoithia" # daughter Kale # son Meletios # son Kataphraktos # son Komitas # son Theodoros # daughter Gregoria # daughter Tarouake # daughter Nikarete
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0018 # Kale Daogonos
+	942.1.1 = {
+		birth = yes
+	}
+	1014.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0030 = {
+	name = "Zenon" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0018 # Kale Daogonos
+	943.1.1 = {
+		birth = yes
+	}
+	1023.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0031 = {
+	name = "Kale" # no children
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0029 # Anphasoithia Daogonos
+	962.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0032 = {
+	name = "Meletios" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0029 # Anphasoithia Daogonos
+	963.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0033 = {
+	name = "Kataphraktos" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0029 # Anphasoithia Daogonos
+	964.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0034 = {
+	name = "Komitas" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0029 # Anphasoithia Daogonos
+	965.1.1 = {
+		birth = yes
+	}
+	1036.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0035 = {
+	name = "Theodoros" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0029 # Anphasoithia Daogonos
+	966.1.1 = {
+		birth = yes
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0036 = {
+	name = "Gregoria" #
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0029 # Anphasoithia Daogonos
+	967.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0037 = {
+	name = "Tarouake" # daughter Aitaktiste # daughter Basillike # daughter Konstantia 
+	# AFTER THIS DYNASTY IS DONE TO PEOPLE BORN JUST BEFORE OR AFTER 1066 WORK ON FLESHING OUT 1066 START 
+	#ESPECIALLY IN AND AROUND THE PONTIC EMPIRE
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0029 # Anphasoithia Daogonos
+	968.1.1 = {
+		birth = yes
+	}
+	1067.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0038 = {
+	name = "Nikarete" #
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0029 # Anphasoithia Daogonos
+	969.1.1 = {
+		birth = yes
+	}
+	1059.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0039 = {
+	name = "Aitaktiste" # no children
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0037 # Tarouake Daogonos
+	988.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0040 = {
+	name = "Basillike" # son Loukas
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0037 # Tarouake Daogonos
+	989.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0041 = {
+	name = "Konstantia" # son Eridanos # son Ouronshemoios # daughter Margarita # daughter Kyra
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0037 # Tarouake Daogonos
+	990.1.1 = {
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0042 = {
+	name = "Loukas" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0040 # Basillike Daogonos
+	1009.1.1 = {
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0043 = {
+	name = "Eridanos" # daughter Damiane # son Alexios
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0041 # Konstantia Daogonos
+	1010.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0044 = {
+	name = "Ouronshemoios" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0041 # Konstantia Daogonos
+	1011.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0045 = {
+	name = "Margarita" #
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0041 # Konstantia Daogonos
+	trait = twin # Kyra
+	1012.1.1 = {
+		birth = yes
+	}
+	1111.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0046 = {
+	name = "Kyra" #
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0041 # Konstantia Daogonos
+	trait = twin # Margarita
+	1012.1.1 = {
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0047 = {
+	name = "Damiane" # daughter Kale
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	father = drsarmeniac0043 # Eridanos Daogonos
+	1030.1.1 = {
+		birth = yes
+	}
+	1121.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0048 = {
+	name = "Alexios" #
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	father = drsarmeniac0043 # Eridanos Daogonos
+	1031.1.1 = {
+		birth = yes
+	}
+	1126.1.1 = {
+		death = yes
+	}
+}
+drsarmeniac0049 = {
+	name = "Kale" #
+	female = yes
+	dynasty = drsdyn80 # Daogonos
+	religion = zhengyi
+	culture = pontic
+	mother = drsarmeniac0047 # Damiane Daogonos
+	1050.1.1 = {
+		birth = yes
+	}
+	1148.1.1 = {
+		death = yes
+	}
+}
+# AFTER THIS DYNASTY IS DONE TO PEOPLE BORN JUST BEFORE OR AFTER 1066 WORK ON FLESHING OUT 1066 START 
+#ESPECIALLY IN AND AROUND THE PONTIC EMPIRE

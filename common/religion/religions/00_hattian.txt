@@ -1,0 +1,206 @@
+﻿hattian_religion = {
+	family = rf_mideast
+
+	pagan_roots = yes
+
+	doctrine = western_mideast_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_hattian_bigamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_restricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	traits = {
+		virtues = { brave just diligent compassionate }
+		sins = { craven arbitrary lazy wrathful }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	holy_order_maa = { maryannu }
+
+	localization = {
+		#High God Name
+		HighGodName = hattian_high_god_name # Wurunshemu
+		HighGodNamePossessive = hattian_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_SHE
+		HighGodHerselfHimself = CHARACTER_HERSELF
+		HighGodHerHis = CHARACTER_HERHIS_HER
+		HighGodNameAlternate = hattian_high_god_name_alternate # Arinniti
+		HighGodNameAlternatePossessive = hattian_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = hattian_high_god_name_alternate # Arinniti
+		CreatorNamePossessive = hattian_high_god_name_alternate_possessive
+		CreatorSheHe = CHARACTER_SHEHE_SHE
+		CreatorHerHis = CHARACTER_HERHIS_HER
+		CreatorHerHim = CHARACTER_HERHIM_HER
+
+		#HealthGod
+		HealthGodName = hattian_health_god_name # Inara
+		HealthGodNamePossessive = hattian_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_THEY
+		HealthGodHerHis = CHARACTER_HERHIS_THEIR
+		HealthGodHerHim = CHARACTER_HERHIM_THEM
+		
+		#FertilityGod
+		FertilityGodName = hattian_high_god_name # Wurunshemu
+		FertilityGodNamePossessive = hattian_high_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = hattian_wealth_god_name # Taru
+		WealthGodNamePossessive = hattian_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = hattian_household_god_name # Hanfasuit
+		HouseholdGodNamePossessive = hattian_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = hattian_fate_god_name # Istustaya and Papaya
+		FateGodNamePossessive = hattian_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+
+		#KnowledgeGod
+		KnowledgeGodName = hattian_knowledge_god_name # Furu-Semu
+		KnowledgeGodNamePossessive = hattian_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = hattian_war_god_name # Furun-Katte
+		WarGodNamePossessive = hattian_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = hattian_wealth_god_name # Taru
+		TricksterGodNamePossessive = hattian_wealth_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = hattian_night_god_name # Kasku
+		NightGodNamePossessive = hattian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = hattian_water_god_name # Katahziwuri
+		WaterGodNamePossessive = hattian_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+		PantheonTerm = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { hattian_good_god_halmassuit hattian_good_god_hantapali hattian_good_god_hashammil hattian_good_god_kakshazet hattian_good_god_kashtuwarit hattian_good_god_tahakshaziatis hattian_good_god_tuhuleli hattian_good_god_zithariya }
+		DevilName = hattian_evil_god_evil
+		DevilNamePossessive = hattian_evil_god_evil
+		DevilSheHe = CHARACTER_SHEHE_THEY
+		DevilHerHis = CHARACTER_HERHIS_THEIR
+		DevilHerselfHimself = CHARACTER_THEMSELF
+		EvilGodNames = { hattian_evil_god_evil }
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = hattian_religious_symbol
+		ReligiousText = hattian_religious_text
+		ReligiousHeadName = hattian_religious_head_title
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = hattian_priest_male
+		PriestMalePlural = hattian_priest_male_plural
+		PriestFemale = hattian_priest_female
+		PriestFemalePlural = hattian_priest_female_plural
+		PriestNeuter = hattian_priest_male
+		PriestNeuterPlural = hattian_priest_male_plural
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = hattian_bishop_male
+		BishopMalePlural = hattian_bishop_male_plural
+		BishopFemale = hattian_priest_female
+		BishopFemalePlural = hattian_priest_female_plural
+		BishopNeuter = hattian_priest_male
+		BishopNeuterPlural = hattian_priest_male_plural
+		DivineRealm = hattian_divine_realm
+		PositiveAfterLife = hattian_afterlife_name
+		NegativeAfterLife = hattian_bad_afterlife_name
+		DeathDeityName = hattian_death_deity_name # Lelwani
+		DeathDeityNamePossessive = hattian_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = hattian_fate_god_name
+		WitchGodHerHis = CHARACTER_HERHIS_THEIR
+		WitchGodSheHe = CHARACTER_SHEHE_THEY
+		WitchGodHerHim = CHARACTER_HERHIM_THEM
+		WitchGodMistressMaster = weaver
+		WitchGodMotherFather = keeper
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		hattian_pagan = {
+			color = { 103 188 158 }
+			icon = zunist
+
+			holy_site = nicosia
+			holy_site = sufed
+			holy_site = constantinople
+			holy_site = baghdad
+			holy_site = raqqa
+
+			doctrine = tenet_esotericism
+			doctrine = tenet_inner_journey
+			doctrine = tenet_reincarnation
+
+			holy_order_names = {
+				{ name = "holy_order_children_of_asherah" }
+				{ name = "holy_order_knights_of_canaan" }
+				{ name = "holy_order_els_champions" }
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+﻿drstavarre0001 = { 
+	name = "Solomon Dharmakame" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar
+	culture = ahezar
+	mother = drsazariahene0005 # Huldah Bar Isaac
+	904.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		culture = everfolk
+	}
+	960.1.1 = {
+		culture = high_tavar_re
+	}
+	984.1.1 = {
+		death = yes
+	}
+}

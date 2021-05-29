@@ -1,0 +1,48 @@
+﻿PontusDirectVassalDukeMale = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege = {
+				primary_title = title:e_pontic_empire
+			}
+		}
+		localization_key = title_governorduchy_pontic_empire
+	}
+	text = {
+		localization_key = title_ayase_pontic_empire
+		fallback = yes
+	}
+}
+PontusDirectVassalDukeFemale = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege = {
+				primary_title = title:e_pontic_empire
+			}
+		}
+		localization_key = title_governorduchy_female_pontic_empire
+	}
+	text = {
+		localization_key = title_ayase_female_pontic_empire
+		fallback = yes
+	}
+}
+PontusDirectVassalDuchy = {
+	type = character
+	text = {
+		trigger = {
+			exists = liege
+			liege = {
+				primary_title = title:e_pontic_empire
+			}
+		}
+		localization_key = title_imperial_provinceduchy_pontic_empire
+	}
+	text = {
+		localization_key = title_ayase_title_pontic_empire
+		fallback = yes
+	}
+}

@@ -1,0 +1,36 @@
+﻿# ve Kardesh
+house_ve_Kardesh = {
+	name = "ve Kardesh"
+	
+	dynasty = drsdyn10 #ve Kardesh
+}
+house_ve_kzankou = {
+	name = "ve Kardesh-Zankou"
+	
+	dynasty = drsdyn10 #ve Kardesh
+}
+house_Shanahan = {
+	name = "Shanahan"
+	
+	dynasty = drsdyn10 #ve Kardesh
+}
+house_ve_kzshemakha = {
+	name = "ve Kardesh-Zankou-Shemakha"
+	
+	dynasty = drsdyn10 #ve Kardesh
+}
+house_Bar_Nabha = {
+	name = "Bar Nabha"
+	
+	dynasty = drsdyn21 #Bar Isaac
+}
+house_Mansyrubiens = {
+	name = "Mansyrubiens"
+	
+	dynasty = drsdyn176 # de Léchelle
+}
+house_LManberg = {
+	name = "de la Ville des Rêves"
+	
+	dynasty = drsdyn176 # de Léchelle
+}

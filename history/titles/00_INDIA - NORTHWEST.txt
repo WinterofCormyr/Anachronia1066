@@ -1,0 +1,132 @@
+k_punjab = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_multan = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+d_lahore = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+}
+d_gandhara = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+k_sindh = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_sauvira = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+k_gujarat = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	980.1.1 = {
+		holder = drsgujarat0001 # Abhayapala Chitalia
+	}
+	1035.1.1 = {
+		holder = drsbintlayla0001 # Atikan bint Layla
+	}
+	1140.1.1 = {
+		holder = drsbintlayla0004 # Dwaraka bint Atikan bint Layla
+	}
+	1161.1.1 = {
+		holder = drsbintlayla0010 # Mayanalladevi bint Layla
+	}
+}
+d_gurjara_mandala = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+d_anartta = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+c_dvaraka = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 33 }
+	980.1.1 = {
+		holder = drsgujarat0001 # Abhayapala Chitalia
+	}
+	1035.1.1 = {
+		holder = drsbintlayla0001 # Atikan bint Layla
+	}
+	1140.1.1 = {
+		holder = drsbintlayla0004 # Dwaraka bint Atikan bint Layla
+	}
+	1161.1.1 = {
+		holder = drsbintlayla0010 # Mayanalladevi bint Layla
+	}
+}
+d_lata = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+}
+k_rajputana = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_maru = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+d_jangladesh = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+}
+d_stravani = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+k_delhi = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_kuru = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+c_delhi = {
+	867.1.1 = { change_development_level = 14 }
+	1066.1.1 = { change_development_level = 22 }
+}
+d_haritanaka = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+d_mathura = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+d_vodamayutja = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+k_kashmir = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+d_pamir = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 14 }
+}
+k_malwa = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_dadhipadra = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+}
+d_akara_dasarna = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+d_anupa = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}

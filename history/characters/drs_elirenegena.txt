@@ -1,0 +1,17 @@
+﻿#Imperial Province of Galatia # galatian Culture cobela_arixideuoi Religion characters
+#first ruler born 1077 takes throne 1097 dies 1157
+
+# rulers of the Imperial Province of Galatia 1097 onwards
+drselirenegena0001 = {
+	name = "Elirena" #
+	female = yes
+	dynasty = drsdyn122 # Elirenegena
+	religion = cobela_arixideuoi
+	culture = galatian
+	1077.1.1 = {
+		birth = yes
+	}
+	1157.1.1 = {
+		death = yes
+	}
+}

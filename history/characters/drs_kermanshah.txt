@@ -1,0 +1,323 @@
+﻿#Duchy of Kermanshah # Kurdish Meshefaresist characters
+
+# rulers of the Duchy of Kermanshah
+drskermanshah0001 = {
+	name = "S_ahbaz" # wife Ara # daughter Adar # son S_I_rkU_h
+	# wife Adan # son S_ayan # daughter S_I_wen
+	# wife S_I_nI_ # twins a son S_awur and a daughter S_I_lan
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	800.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+#880 S_I_rkU_h inherits Kurdistania as well as Kermanshah
+drskermanshah0002 = {
+	name = "Ara" 
+	female = yes
+	religion = meshefaresism
+	culture = kurdish
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drskermanshah0001 # Shahbaz Serger
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0003 = {
+	name = "Adar" 
+	female = yes
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0001
+	mother = drskermanshah0002
+	821.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0004 = {
+	name = "S_I_rkU_h" 
+	# wife S_epirze # quadruplet daughters # S_ermI_n # S_evba # S_evI_n # S_E_laz # son S_arvin # son S_apur # son S_ahruz # son S_ahryar # daughter S_epal # daughter S_engE_
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0001
+	mother = drskermanshah0002
+	822.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0005 = {
+	name = "Adan" 
+	female = yes
+	religion = meshefaresism
+	culture = kurdish
+	800.1.1 = {
+		birth = yes
+	}
+	821.1.1 = {
+		add_spouse = drskermanshah0001 # Shahbaz Serger
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0006 = {
+	name = "S_ayan" 
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0001 # S_ahbaz Serger
+	mother = drskermanshah0005 # Adan
+	822.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0007 = {
+	name = "S_I_wen" 
+	female = yes
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0001 # S_ahbaz Serger
+	mother = drskermanshah0005 # Adan
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0008 = {
+	name = "S_I_nI_" 
+	female = yes
+	religion = meshefaresism
+	culture = kurdish
+	800.1.1 = {
+		birth = yes
+	}
+	822.1.1 = {
+		add_spouse = drskermanshah0001 # Shahbaz Serger
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0009 = {
+	name = "S_awur" 
+	trait = twin
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0001 # S_ahbaz Serger
+	mother = drskermanshah0008 # Adan
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0010 = {
+	name = "S_I_lan" 
+	female = yes
+	trait = twin
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0001 # S_ahbaz Serger
+	mother = drskermanshah0008 # Adan
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0011 = {
+	name = "S_epirze" 
+	female = yes
+	religion = meshefaresism
+	culture = kurdish
+	822.1.1 = {
+		birth = yes
+	}
+	842.1.1 = {
+		add_spouse = drskermanshah0004 # S_I_rkU_h Serger # S_ermI_n # S_evba # S_evI_n # S_E_laz # son S_arvin # son S_apur # son S_ahruz # son S_ahryar # daughter S_epal # daughter S_engE_
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0012 = {
+	name = "S_ermI_n" 
+	female = yes
+	trait = twin
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0013 = {
+	name = "S_evba" 
+	female = yes
+	trait = twin
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0014 = {
+	name = "S_evI_n" 
+	female = yes
+	trait = twin
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0015 = {
+	name = "S_E_laz" 
+	female = yes
+	trait = twin
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0016 = {
+	name = "S_arvin" 
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	844.1.1 = {
+		birth = yes
+	}
+	924.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0017 = {
+	name = "S_apur" 
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	845.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0018 = {
+	name = "S_ahruz" 
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	846.1.1 = {
+		birth = yes
+	}
+	926.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0019 = {
+	name = "S_ahryar" 
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	847.1.1 = {
+		birth = yes
+	}
+	927.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0020 = {
+	name = "S_epal" 
+	female = yes
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	848.1.1 = {
+		birth = yes
+	}
+	928.1.1 = {
+		death = yes
+	}
+}
+drskermanshah0021 = {
+	name = "S_engE_" 
+	female = yes
+	dynasty = drsdyn3 # Serger
+	religion = meshefaresism
+	culture = kurdish
+	father = drskermanshah0004 # S_I_rkU_h Serger
+	mother = drskermanshah0011 # S_epirze
+	849.1.1 = {
+		birth = yes
+	}
+	994.1.1 = {
+		death = yes
+	}
+}
+####930 conquest of Kurdistania by King Lebbaeus of Jazira
+####931 Armenian governor of Kermanshah assigned
+####962 death of Nura # Khayra aka drsjazira0010 inherits Kurdistania
+####984 death of Khayra - formation of Kurdish Aitahism which becomes dominant faith in Kurdistanian rulership
+####1000 Yazidi and Meshefaresism provinces convert to Kurdish Aitahism

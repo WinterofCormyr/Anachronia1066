@@ -1,0 +1,15 @@
+﻿#Kingdom of Kurdistania # Kurdish characters
+
+# rulers of the Kingdom of Kurdistania Duchy of Kurdistan and County of Kurdistan
+drskurdistania0001 = {
+	name = "Bejno" # No chilren, line extinct after death
+	dynasty = drsdyn2 # Bejndar
+	religion = yazidi
+	culture = kurdish
+	800.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}

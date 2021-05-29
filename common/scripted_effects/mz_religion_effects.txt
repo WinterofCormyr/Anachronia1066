@@ -1,0 +1,691 @@
+﻿mz_faith_education_boost_master_effect = {
+	if = {
+		limit = { has_focus = education_diplomacy }
+		mz_faith_education_boost_effect = { SKILL = diplomacy }
+	}
+	else_if = {
+		limit = { has_focus = education_martial }
+		mz_faith_education_boost_effect = { SKILL = martial }
+	}
+	else_if = {
+		limit = { has_focus = education_stewardship }
+		mz_faith_education_boost_effect = { SKILL = stewardship }
+	}
+	else_if = {
+		limit = { has_focus = education_intrigue }
+		mz_faith_education_boost_effect = { SKILL = intrigue }
+	}
+	else_if = {
+		limit = { has_focus = education_learning }
+		mz_faith_education_boost_effect = { SKILL = learning }
+	}
+}
+
+mz_faith_education_boost_effect = {
+	random_list = {
+		3 = { 
+			change_variable = {
+				name = education_$SKILL$_variable
+				add = 2
+			}
+		}
+		2 = { 
+			change_variable = {
+				name = education_$SKILL$_variable
+				add = 3
+			}
+		}
+	}
+}
+
+mz_gain_or_upgrade_conquerer_trait_effect = { # Handles upgrading or giving the trait based on conquerer variable
+	if = {
+		limit = { exists = var:mz_conquerer_variable }
+		send_interface_toast = {
+			title = mz_conquerer_upgrade_title
+			left_icon = root
+			if = {
+				limit = { 
+					var:mz_conquerer_variable >= 10
+					has_trait = mz_conquerer_2
+				}
+				change_trait_rank = {
+					trait = mz_lifestyle_conquerer
+					rank = 1
+				}
+			}
+			else_if = {
+				limit = { 
+					var:mz_conquerer_variable >= 5
+					has_trait = mz_conquerer_1
+				}
+				change_trait_rank = {
+					trait = mz_lifestyle_conquerer
+					rank = 1
+				}
+			}
+			else_if = {
+				limit = { 
+					var:mz_conquerer_variable > 0
+					NOT = { has_trait = mz_lifestyle_conquerer }
+				}
+				add_trait = mz_conquerer_1
+			}	
+		}
+		add_character_flag = {
+			flag = mz_recently_won_offensive_war
+			years = 2
+		}
+		mz_update_conquerer_bonuses_effect = yes
+	}
+}
+
+mz_lose_or_downgrade_conquerer_trait_effect = {
+	send_interface_toast = {
+		title = mz_conquerer_downgrade_title
+		left_icon = root	
+		if = {
+			limit = {
+				exists = var:mz_conquerer_variable
+				var:mz_conquerer_variable < 8
+				has_trait = mz_conquerer_3
+			}
+			change_trait_rank = {
+				trait = mz_lifestyle_conquerer
+				rank = -1
+			}
+		}
+		else_if = {
+			limit = {
+				exists = var:mz_conquerer_variable
+				var:mz_conquerer_variable < 3
+				has_trait = mz_conquerer_2
+			}
+			change_trait_rank = {
+				trait = mz_lifestyle_conquerer
+				rank = -1
+			}
+		}
+		else_if = {
+			limit = {
+				exists = var:mz_conquerer_variable
+				var:mz_conquerer_variable = 0
+				has_trait = mz_conquerer_1
+			}
+			remove_trait = mz_conquerer_1
+		}
+	}
+	mz_remove_conquerer_bonus_or_add_penalty_effect = yes
+}
+
+mz_increase_conquerer_variable_declare_war_effect = { # On declare offensive war, set conquerer variable (highest possible value)
+	mz_remove_conquerer_penalties_effect = yes
+	if = {
+		limit = {
+			NOT = { exists = var:mz_conquerer_variable }
+		}
+		random_list = {
+			50 = {
+				set_variable = {
+					name = mz_conquerer_variable
+					value = 3
+				}
+			}
+			50 = {
+				set_variable = {
+					name = mz_conquerer_variable
+					value = 2
+				}
+			}
+		}
+	}
+	else = {
+		random_list = {
+			50 = {
+				change_variable = {
+					name = mz_conquerer_variable
+					add = 3
+				}
+			}
+			50 = {
+				change_variable = {
+					name = mz_conquerer_variable
+					add = 2
+				}
+			}
+		}
+	}
+}
+
+mz_increase_conquerer_variable_join_war_effect = { # On joining offensive war, lesser effect
+	mz_remove_conquerer_penalties_effect = yes
+	if = {
+		limit = {
+			NOT = { exists = var:mz_conquerer_variable }
+		}
+		random_list = {
+			50 = {
+				set_variable = {
+					name = mz_conquerer_variable
+					value = 2
+				}
+			}
+			50 = {
+				set_variable = {
+					name = mz_conquerer_variable
+					value = 1
+				}
+			}
+		}
+	}
+	else = {
+		random_list = {
+			50 = {
+				change_variable = {
+					name = mz_conquerer_variable
+					add = 2
+				}
+			}
+			50 = {
+				change_variable = {
+					name = mz_conquerer_variable
+					add = 1
+				}
+			}
+		}
+	}
+}
+
+mz_increase_conquerer_variable_combatant_effect = { # Participate in battle or raid as a commander or knight, weakest effect
+	mz_remove_conquerer_penalties_effect = yes
+	if = {
+		limit = {
+			NOT = { exists = var:mz_conquerer_variable }
+		}
+		set_variable = {
+			name = mz_conquerer_variable
+			value = 1
+		}
+	}
+	else = {
+		change_variable = {
+			name = mz_conquerer_variable
+			add = 1
+		}
+	}
+	add_character_flag = {
+		flag = mz_recently_increased_conquerer_variable_battle_flag
+		days = 180
+	}
+}
+
+mz_update_conquerer_bonuses_effect = {
+	if = {
+		limit = { 
+			religion = religion:germanic_religion
+			faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+			has_trait = mz_lifestyle_conquerer
+		}
+		if = {
+			limit = { has_trait = mz_conquerer_3 }
+			if = { 
+				limit = { has_character_modifier = mz_germanic_conquerer_3_modifier }
+				remove_character_modifier = mz_germanic_conquerer_3_modifier
+			}
+			else_if = {
+				limit = { has_character_modifier = mz_germanic_conquerer_2_modifier }
+				remove_character_modifier = mz_germanic_conquerer_2_modifier				
+			}
+			add_character_modifier = {
+				modifier = mz_germanic_conquerer_3_modifier
+				years = 5
+			}
+		}
+		else_if = {
+			limit = { has_trait = mz_conquerer_2 }
+			if = { 
+				limit = { has_character_modifier = mz_germanic_conquerer_2_modifier }
+				remove_character_modifier = mz_germanic_conquerer_2_modifier
+			}
+			else_if = {
+				limit = { has_character_modifier = mz_germanic_conquerer_1_modifier }
+				remove_character_modifier = mz_germanic_conquerer_1_modifier				
+			}
+			add_character_modifier = {
+				modifier = mz_germanic_conquerer_2_modifier
+				years = 5
+			}
+		}
+		else = {
+			if = { 
+				limit = { has_character_modifier = mz_germanic_conquerer_1_modifier }
+				remove_character_modifier = mz_germanic_conquerer_1_modifier
+			}
+			add_character_modifier = {
+				modifier = mz_germanic_conquerer_1_modifier
+				years = 5
+			}
+		}
+		every_held_title = {
+			limit = { 
+				tier = tier_county 
+				county = { faith = scope:attacker.faith }
+			}
+			county = {
+				if = {
+					limit = {
+						has_county_modifier = mz_germanic_conquerer_3_county_modifier
+						scope:attacker = { has_trait = mz_conquerer_3 }
+					}
+					remove_county_modifier = mz_germanic_conquerer_3_county_modifier
+					add_county_modifier = {
+						modifier = mz_germanic_conquerer_3_county_modifier
+						years = 5
+					}
+				}
+				else_if = {
+					limit = { has_county_modifier = mz_germanic_conquerer_2_county_modifier }
+					if = {
+						limit = { 
+							scope:attacker = { has_trait = mz_conquerer_3 }
+						}
+						remove_county_modifier = mz_germanic_conquerer_2_county_modifier
+						add_county_modifier = {
+							modifier = mz_germanic_conquerer_3_county_modifier
+							years = 5
+						}
+					}
+					else_if = {
+						limit = { 
+							scope:attacker = { has_trait = mz_conquerer_2 }
+						}
+						remove_county_modifier = mz_germanic_conquerer_2_county_modifier
+						add_county_modifier = {
+							modifier = mz_germanic_conquerer_2_county_modifier
+							years = 5
+						}
+					}
+				}
+				else_if = {
+					limit = { has_county_modifier = mz_germanic_conquerer_1_county_modifier }
+					if = {
+						limit = { 
+							scope:attacker = { 
+								OR = {
+									has_trait = mz_conquerer_2
+									has_trait = mz_conquerer_3
+								}
+							}
+						}
+						remove_county_modifier = mz_germanic_conquerer_1_county_modifier
+						add_county_modifier = {
+							modifier = mz_germanic_conquerer_2_county_modifier
+							years = 5
+						}
+					}
+					else_if = {
+						limit = { 
+							scope:attacker = { has_trait = mz_conquerer_1 }
+						}
+						remove_county_modifier = mz_germanic_conquerer_1_county_modifier
+						add_county_modifier = {
+							modifier = mz_germanic_conquerer_1_county_modifier
+							years = 5
+						}
+					}
+				}
+				else = {
+					add_county_modifier = {
+						modifier = mz_germanic_conquerer_1_county_modifier
+						years = 5
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = { 
+			religion = religion:tengrism_religion
+			faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+			has_trait = mz_lifestyle_conquerer
+		}
+		if = {
+			limit = { has_trait = mz_conquerer_3 }
+			if = { 
+				limit = { has_character_modifier = mz_steppe_conquerer_3_modifier }
+				remove_character_modifier = mz_steppe_conquerer_3_modifier
+			}
+			else_if = {
+				limit = { has_character_modifier = mz_steppe_conquerer_2_modifier }
+				remove_character_modifier = mz_steppe_conquerer_2_modifier				
+			}
+			add_character_modifier = {
+				modifier = mz_steppe_conquerer_3_modifier
+				years = 5
+			}
+		}
+		else_if = {
+			limit = { has_trait = mz_conquerer_2 }
+			if = { 
+				limit = { has_character_modifier = mz_steppe_conquerer_2_modifier }
+				remove_character_modifier = mz_steppe_conquerer_2_modifier
+			}
+			else_if = {
+				limit = { has_character_modifier = mz_steppe_conquerer_1_modifier }
+				remove_character_modifier = mz_steppe_conquerer_1_modifier				
+			}
+			add_character_modifier = {
+				modifier = mz_steppe_conquerer_2_modifier
+				years = 5
+			}
+		}
+		else = {
+			if = { 
+				limit = { has_character_modifier = mz_steppe_conquerer_1_modifier }
+				remove_character_modifier = mz_steppe_conquerer_1_modifier
+			}
+			add_character_modifier = {
+				modifier = mz_steppe_conquerer_1_modifier
+				years = 5
+			}
+		}
+		every_held_title = {
+			limit = { 
+				tier = tier_county 
+				county = { faith = scope:attacker.faith }
+			}
+			county = {
+				if = {
+					limit = {
+						has_county_modifier = mz_steppe_conquerer_3_county_modifier
+						scope:attacker = { has_trait = mz_conquerer_3 }
+					}
+					remove_county_modifier = mz_steppe_conquerer_3_county_modifier
+					add_county_modifier = {
+						modifier = mz_steppe_conquerer_3_county_modifier
+						years = 5
+					}
+				}
+				else_if = {
+					limit = { has_county_modifier = mz_steppe_conquerer_2_county_modifier }
+					if = {
+						limit = { 
+							scope:attacker = { has_trait = mz_conquerer_3 }
+						}
+						remove_county_modifier = mz_steppe_conquerer_2_county_modifier
+						add_county_modifier = {
+							modifier = mz_steppe_conquerer_3_county_modifier
+							years = 5
+						}
+					}
+					else_if = {
+						limit = { 
+							scope:attacker = { has_trait = mz_conquerer_2 }
+						}
+						remove_county_modifier = mz_steppe_conquerer_2_county_modifier
+						add_county_modifier = {
+							modifier = mz_steppe_conquerer_2_county_modifier
+							years = 5
+						}
+					}
+				}
+				else_if = {
+					limit = { has_county_modifier = mz_steppe_conquerer_1_county_modifier }
+					if = {
+						limit = { 
+							scope:attacker = { 
+								OR = {
+									has_trait = mz_conquerer_2
+									has_trait = mz_conquerer_3
+								}
+							}
+						}
+						remove_county_modifier = mz_steppe_conquerer_1_county_modifier
+						add_county_modifier = {
+							modifier = mz_steppe_conquerer_2_county_modifier
+							years = 5
+						}
+					}
+					else_if = {
+						limit = { 
+							scope:attacker = { has_trait = mz_conquerer_1 }
+						}
+						remove_county_modifier = mz_steppe_conquerer_1_county_modifier
+						add_county_modifier = {
+							modifier = mz_steppe_conquerer_1_county_modifier
+							years = 5
+						}
+					}
+				}
+				else = {
+					add_county_modifier = {
+						modifier = mz_steppe_conquerer_1_county_modifier
+						years = 5
+					}
+				}
+			}
+		}
+	}
+}
+
+mz_remove_conquerer_bonus_or_add_penalty_effect = {
+	if = {
+		limit = { has_character_modifier = mz_germanic_conquerer_3_modifier }
+		remove_character_modifier = mz_germanic_conquerer_3_modifier
+	}
+	else_if = {
+		limit = { has_character_modifier = mz_germanic_conquerer_2_modifier }
+		remove_character_modifier = mz_germanic_conquerer_2_modifier
+	}
+	else_if = {
+		limit = { has_character_modifier = mz_germanic_conquerer_1_modifier }
+		remove_character_modifier = mz_germanic_conquerer_1_modifier
+	}
+	else_if = {
+		limit = { has_character_modifier = mz_steppe_conquerer_3_modifier }
+		remove_character_modifier = mz_steppe_conquerer_3_modifier
+	}
+	else_if = {
+		limit = { has_character_modifier = mz_steppe_conquerer_2_modifier }
+		remove_character_modifier = mz_steppe_conquerer_2_modifier
+	}
+	else_if = {
+		limit = { has_character_modifier = mz_steppe_conquerer_1_modifier }
+		remove_character_modifier = mz_steppe_conquerer_1_modifier
+	}
+	else = {
+		if = { 
+			limit = { has_character_modifier = mz_at_peace_penalty_modifier }
+			remove_character_modifier = mz_at_peace_penalty_modifier
+		}
+		add_character_modifier = {
+			modifier = mz_at_peace_penalty_modifier
+			years = 5
+		}
+	}
+	every_held_title = {
+		limit = {
+			tier = tier_county
+			county = { faith = root.faith }
+		}
+		county = {
+			if = {
+				limit = { has_county_modifier = mz_germanic_conquerer_3_county_modifier }
+				remove_county_modifier = mz_germanic_conquerer_3_county_modifier
+			}
+			else_if = {
+				limit = { has_county_modifier = mz_germanic_conquerer_2_county_modifier }
+				remove_county_modifier = mz_germanic_conquerer_2_county_modifier
+			}
+			else_if = {
+				limit = { has_county_modifier = mz_germanic_conquerer_1_county_modifier }
+				remove_county_modifier = mz_germanic_conquerer_1_county_modifier
+			}
+			else_if = {
+				limit = { has_county_modifier = mz_steppe_conquerer_3_county_modifier }
+				remove_county_modifier = mz_steppe_conquerer_3_county_modifier
+			}
+			else_if = {
+				limit = { has_county_modifier = mz_steppe_conquerer_2_county_modifier }
+				remove_county_modifier = mz_steppe_conquerer_2_county_modifier
+			}
+			else_if = {
+				limit = { has_county_modifier = mz_steppe_conquerer_1_county_modifier }
+				remove_county_modifier = mz_steppe_conquerer_1_county_modifier
+			}
+			else = {
+				if = {
+					limit = { has_county_modifier = mz_at_peace_penalty_county_modifier }
+					remove_county_modifier = mz_at_peace_penalty_county_modifier	
+				}
+				add_county_modifier = {
+					modifier = mz_at_peace_penalty_county_modifier
+					years = 5
+				}
+			}
+		}
+	}
+}
+
+mz_remove_conquerer_penalties_effect = {
+	save_temporary_scope_as = mz_this_character
+	if = {
+		limit = { has_character_flag = mz_conquerer_warning_flag }
+		remove_character_flag = mz_conquerer_warning_flag
+	}
+	if = {
+		limit = { has_character_modifier = mz_at_peace_penalty_modifier }
+		remove_character_modifier = mz_at_peace_penalty_modifier
+	}
+	every_held_title = {
+		limit = {
+			tier = tier_county
+			county = { faith = scope:mz_this_character.faith }
+		}
+		county = {
+			if = {
+				limit = { has_county_modifier = mz_at_peace_penalty_county_modifier }
+				remove_county_modifier = mz_at_peace_penalty_county_modifier
+			}
+		}
+	}
+}
+
+mz_update_dawnbreakers_effect = {
+	save_temporary_scope_as = mz_this_character
+	if = {
+		limit = { 
+			NOT = {
+				faith = { has_doctrine_parameter = mz_dawnbreakers_active }
+			}
+		}
+		remove_all_character_modifier_instances = mz_dawnbreakers_modifier
+	}
+	else_if = {
+		limit = { 
+			faith = { has_doctrine_parameter = mz_dawnbreakers_active }
+			is_ruler = no
+		}
+		remove_all_character_modifier_instances = mz_dawnbreakers_modifier
+	}
+	else_if = {
+		limit = { 
+			faith = { has_doctrine_parameter = mz_dawnbreakers_active }
+			is_ruler = yes
+		}
+		remove_all_character_modifier_instances = mz_dawnbreakers_modifier
+		every_spouse = {
+			limit = {
+				is_alive = yes
+				is_close_family_of = scope:mz_this_character 
+			}
+			scope:mz_this_character = {
+				add_character_modifier = mz_dawnbreakers_modifier
+			}
+		}
+	}
+}
+
+mz_grant_grove_martial_modifier_effect = {
+	every_sub_realm_county = {
+		limit = { 
+			holder = root
+			faith = { has_doctrine_parameter = mz_grove_dedication_active }
+		}
+		add_county_modifier = {
+			modifier = mz_sacred_grove_county_modifier
+			years = 10
+		}
+		every_county_province = {
+			limit = {
+				NOT = { has_holding = no }
+				OR = {
+					terrain = taiga
+					terrain = forest
+					terrain = jungle
+				}
+			}
+			root = { add_character_modifier = mz_grove_martial_minor_modifier }
+		}
+		every_county_province = {
+			limit = { has_holding = no }
+			root = { add_character_modifier = mz_grove_martial_major_modifier }
+		}
+	}
+}
+
+mz_grant_grove_wealth_modifier_effect = {
+	every_sub_realm_county = {
+		limit = { 
+			holder = root
+			faith = { has_doctrine_parameter = mz_grove_dedication_active }
+		}
+		add_county_modifier = {
+			modifier = mz_sacred_grove_county_modifier
+			years = 10
+		}
+		every_county_province = {
+			limit = {
+				NOT = { has_holding = no }
+				OR = {
+					terrain = taiga
+					terrain = forest
+					terrain = jungle
+				}
+			}
+			root = { add_character_modifier = mz_grove_wealth_minor_modifier }
+		}
+		every_county_province = {
+			limit = { has_holding = no }
+			root = { add_character_modifier = mz_grove_wealth_major_modifier }
+		}
+	}
+}
+
+mz_grant_grove_health_modifier_effect = {
+	every_sub_realm_county = {
+		limit = { 
+			holder = root
+			faith = { has_doctrine_parameter = mz_grove_dedication_active }
+		}
+		add_county_modifier = {
+			modifier = mz_sacred_grove_county_modifier
+			years = 10
+		}
+		every_county_province = {
+			limit = {
+				NOT = { has_holding = no }
+				OR = {
+					terrain = taiga
+					terrain = forest
+					terrain = jungle
+				}
+			}
+			root = { add_character_modifier = mz_grove_health_minor_modifier }
+		}
+		every_county_province = {
+			limit = { has_holding = no }
+			root = { add_character_modifier = mz_grove_health_major_modifier }
+		}
+	}
+}

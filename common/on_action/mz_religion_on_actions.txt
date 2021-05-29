@@ -1,0 +1,572 @@
+﻿mz_conquerer_declare_offensive_war = { # Root is CB
+	trigger = {
+		scope:attacker = {
+			faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+		}
+	}
+	effect = {
+		scope:attacker = {
+			mz_increase_conquerer_variable_declare_war_effect = yes
+		}
+	}
+}
+
+mz_conquerer_join_war = { # Root is person joining
+	trigger = {
+		faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+		exists = scope:war
+		scope:war = { is_attacker = root }
+	}
+	effect = { mz_increase_conquerer_variable_join_war_effect = yes }
+}
+
+mz_conquerer_battle = { # Root is army
+	trigger = {
+		OR = {
+			any_side_commander = {
+				faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+				NOT = { has_character_flag = mz_recently_increased_conquerer_variable_battle_flag }
+			}
+			any_side_knight = { 
+				faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+				NOT = { has_character_flag = mz_recently_increased_conquerer_variable_battle_flag }
+			}
+		}
+	}
+	effect = {
+		every_side_commander = {
+			limit = { 
+				faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+				NOT = { has_character_flag = mz_recently_increased_conquerer_variable_battle_flag }
+			}
+			mz_increase_conquerer_variable_combatant_effect = yes 
+		}
+		every_side_knight = {
+			limit = { 
+				faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+				NOT = { has_character_flag = mz_recently_increased_conquerer_variable_battle_flag }
+			}
+			mz_increase_conquerer_variable_combatant_effect = yes 
+		}
+	}
+}
+
+mz_conquerer_raid = { # Root is army
+	trigger = {
+		scope:raider = {
+			is_at_location = scope:barony.title_province
+			faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+			NOT = { has_character_flag = mz_recently_increased_conquerer_variable_battle_flag }
+		}
+	}
+	effect = {
+		scope:raider = { mz_increase_conquerer_variable_combatant_effect = yes }
+	}
+}
+
+mz_conquerer_win_offensive_war = {
+	trigger = {
+		scope:attacker = {
+			faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+		}
+	}
+	effect = {
+		scope:attacker = {
+			mz_gain_or_upgrade_conquerer_trait_effect = yes
+		}
+	}
+}
+
+mz_faith_education_boost = {
+	trigger = {
+		any_relation = { 
+			type = guardian 
+			faith = { has_doctrine_parameter = mz_children_receive_better_educations_active }
+			count >= 1
+		}
+	}
+	effect = { mz_faith_education_boost_master_effect = yes }
+}
+
+mz_conquerer_short_pulse = {
+	trigger = { 
+		mz_eligible_conquerer_trigger = yes
+		is_at_war = no
+	}
+	effect = {
+		if = {
+			limit = { 
+				exists = var:mz_conquerer_variable
+				var:mz_conquerer_variable > 0
+			}
+			change_variable = {
+				name = mz_conquerer_variable
+				add = -1
+			}
+		}
+		else = {
+			set_variable = {
+				name = mz_conquerer_variable
+				value = 1
+			}
+		}
+	}
+}
+
+mz_conquerer_long_pulse = {
+	trigger = {
+		mz_eligible_conquerer_trigger = yes
+		exists = var:mz_conquerer_variable
+	}
+	effect = {
+		if = {
+			limit = { 
+				var:mz_conquerer_variable < 7
+				has_trait = mz_conquerer_3
+			}
+			trigger_event = mz_faith_tenet_specific.1001
+		}
+		else_if = {
+			limit = {
+				var:mz_conquerer_variable < 3
+				has_trait = mz_conquerer_2
+			}
+			trigger_event = mz_faith_tenet_specific.1001
+		}
+		else_if = {
+			limit = { var:mz_conquerer_variable = 0 }
+			trigger_event = mz_faith_tenet_specific.1001
+		}
+	}
+}
+
+mz_eldership_increase_skills_action = {
+	trigger = {
+		age >= 50
+		faith = { has_doctrine_parameter = mz_eldership_increase_skills }
+	}
+	effect = {
+		if = {
+			limit = { 
+				NOT = { exists = var:mz_eldership_skill_increase_chance }
+			}
+			set_variable = {
+				name = mz_eldership_skill_increase_chance
+				value = 0
+			}
+		}
+		random_list = {
+			20 = {
+				modifier = {
+					add = {
+						value = {
+							add = var:mz_eldership_skill_increase_chance
+							multiply = 20
+						}
+					}
+				}
+				random_list = {
+					1 = {
+						send_interface_toast = {
+							title = mz_eldership_increase_skill_toast
+							left_icon = root
+							add_diplomacy_skill = 1
+						}
+					}
+					1 = {
+						send_interface_toast = {
+							title = mz_eldership_increase_skill_toast
+							left_icon = root
+							add_martial_skill = 1
+						}
+					}
+					1 = {
+						send_interface_toast = {
+							title = mz_eldership_increase_skill_toast
+							left_icon = root
+							add_intrigue_skill = 1
+						}
+					}
+					1 = {
+						send_interface_toast = {
+							title = mz_eldership_increase_skill_toast
+							left_icon = root
+							add_stewardship_skill = 1
+						}
+					}
+					1 = {
+						send_interface_toast = {
+							title = mz_eldership_increase_skill_toast
+							left_icon = root
+							add_learning_skill = 1
+						}
+					}
+				}
+				set_variable = {
+					name = mz_eldership_skill_increase_chance
+					value = 0
+				}
+			}
+			80 = {
+				modifier = {
+					add = {
+						value = {
+							add = var:mz_eldership_skill_increase_chance
+							multiply = -20
+						}
+					}
+				}
+				change_variable = {
+					name = mz_eldership_skill_increase_chance
+					add = 1
+				}
+			}
+		}
+	}
+}
+
+mz_burial_rites_ancestor = {
+	trigger = {
+		exists = player_heir
+		player_heir = {
+			is_close_family_of = root
+		}
+		dynasty = player_heir.dynasty
+		faith = player_heir.faith
+		faith = { has_doctrine_parameter = mz_burial_rites_active }
+	}
+	effect = {
+		player_heir = {
+			set_variable = {
+				name = ancestor_to_bury
+				value = root
+				years = 20
+			}
+			trigger_event = {
+				on_action = mz_burial_rites_minor_penalty
+				years = 5
+			}
+		}
+	}
+}
+
+mz_burial_rites_minor_penalty = {
+	trigger = {
+		exists = var:ancestor_to_bury
+	}
+	effect = {
+		add_character_modifier = {
+			modifier = mz_burial_rites_penalty_minor_modifier
+			years = 10
+		}
+		trigger_event = {
+			on_action = mz_burial_rites_major_penalty
+			years = 10
+		}
+	}
+}
+
+mz_burial_rites_major_penalty = {
+	trigger = {
+		exists = var:ancestor_to_bury
+	}
+	effect = {
+		add_character_modifier = {
+			modifier = mz_burial_rites_penalty_major_modifier
+		}
+	}
+}
+
+mz_dawnbreakers_spouse_update = {
+	trigger = { # Trigger to attempt to save performance, only worry about this if they have the modifier or a relevant faith
+		OR = {
+			faith = { has_doctrine_parameter = mz_dawnbreakers_active }
+			has_character_modifier = mz_dawnbreakers_modifier
+		}
+	}
+	effect = { 
+		mz_update_dawnbreakers_effect = yes
+	}
+}
+
+mz_dawnbreakers_spouse_delayed_update = {
+	trigger = { # Trigger to attempt to save performance, only worry about this if they have the modifier or a relevant faith
+		any_consort = {
+			OR = {
+				faith = { has_doctrine_parameter = mz_dawnbreakers_active }
+				has_character_modifier = mz_dawnbreakers_modifier
+			}
+		}
+	}
+	effect = {
+		every_consort = {
+			trigger_event = {
+				days = 1
+				on_action = mz_dawnbreakers_spouse_update
+			}
+		}
+	}
+}
+
+mz_faith_creation_ai = {
+	trigger = {
+		NOT = { has_game_rule = mz_ai_will_not_use_custom_tenets } # Can disable this behavior via a game rule
+		is_ai = yes # This is for AI characters to adjust tenets/doctrines. We don't want this to trigger for players.
+	}
+	effect = {
+		if = { # Germanic
+			limit = {
+				has_fp1_dlc_trigger = yes
+				faith = { 
+					religion_tag = germanic_religion
+					has_doctrine = tenet_warmonger
+					has_doctrine = tenet_bhakti
+					NOT = { has_doctrine = tenet_ancestor_worship }
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_warmonger
+				remove_doctrine = tenet_bhakti
+				add_doctrine = mz_tenet_valhalla_bound
+				add_doctrine = tenet_ancestor_worship
+			}
+		}
+		if = { # Tengrism
+			limit = {
+				faith = {
+					religion_tag = tengrism_religion
+					has_doctrine = tenet_warmonger
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_warmonger
+				add_doctrine = mz_tenet_eternal_riders
+			}
+		}
+		if = { # Ukko
+			limit = {
+				faith = {
+					religion_tag = finno_ugric_religion
+					has_doctrine = tenet_communal_identity
+					NOT = { has_doctrine = doctrine_pluralism_pluralistic }
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_communal_identity
+				add_doctrine = mz_tenet_survivor_of_ukko
+			}
+		}
+		if = { # Slavic
+			limit = {
+				faith = {
+					religion_tag = slavic_religion
+					has_doctrine = tenet_ritual_celebrations
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_ritual_celebrations
+				add_doctrine = mz_tenet_children_of_perun
+			}
+		}
+		if = { # Baltic
+			limit = {
+				faith = {
+					religion_tag = baltic_religion
+					has_doctrine = tenet_sacred_childbirth
+					NOT = { has_doctrine = doctrine_pluralism_pluralistic }
+					NOT = { has_doctrine = mz_tenet_elder_veneration }
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_sacred_childbirth
+				add_doctrine = mz_tenet_defenders_of_dievas
+			}
+		}
+		if = { # Hellenism (unlikely)
+			limit = {
+				faith = {
+					religion_tag = hellenism_religion
+					has_doctrine = tenet_communal_identity
+					has_doctrine = doctrine_pluralism_pluralistic
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_communal_identity
+				add_doctrine = mz_tenet_civilized
+			}
+		}
+		if = { # Magyar
+			limit = {
+				faith = {
+					religion_tag = magyar_religion
+					has_doctrine = tenet_mystical_birthright
+					NOT = { has_doctrine = tenet_esotericism }
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_mystical_birthright
+				add_doctrine = mz_tenet_magyar_shamanism
+			}
+		}
+		if = { # Akom and Bori
+			limit = {
+				faith = {
+					OR = {
+						religion_tag = west_african_bori_religion
+						religion_tag = akom_religion
+					}
+					has_doctrine = tenet_adorcism
+					has_doctrine = tenet_ritual_celebrations
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_adorcism
+				remove_doctrine = tenet_ritual_celebrations
+				add_doctrine = mz_tenet_animism
+				add_doctrine = mz_tenet_elder_veneration
+			}
+		}
+		if = { # Roog and Orisha
+			limit = {
+				faith = {
+					OR = {
+						religion_tag = west_african_roog_religion
+						religion_tag = west_african_orisha_religion
+					}
+					has_doctrine = tenet_reincarnation
+					NOT = { has_doctrine = mz_tenet_elder_veneration }
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_reincarnation
+				add_doctrine = mz_tenet_totem_spirits
+			}
+		}
+		if = { # Kushitism
+			limit = {
+				faith = {
+					religion_tag = kushitism_religion
+					has_doctrine = tenet_consolamentum
+					NOT = { has_doctrine = mz_tenet_elder_veneration }
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_consolamentum
+				add_doctrine = mz_tenet_burial_rites
+			}
+		}
+		if = { # Zunbil (again, unlikley)
+			limit = {
+				faith = {
+					religion_tag = zunism_religion
+					has_doctrine = tenet_unrelenting_faith
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_unrelenting_faith
+				add_doctrine = mz_tenet_dawnbreakers
+				if = {
+					limit = { has_doctrine = doctrine_consanguinity_cousins }
+					remove_doctrine = doctrine_consanguinity_cousins
+					add_doctrine = tenet_divine_marriage
+				}
+				if = {
+					limit = { has_doctrine = doctrine_concubines }
+					remove_doctrine = doctrine_concubines
+					add_doctrine = doctrine_polygamy
+				}
+				if = {
+					limit = { has_doctrine = doctrine_no_head }
+					remove_doctrine = doctrine_no_head
+					add_doctrine = doctrine_spiritual_head
+				}
+			}
+		}
+		if = { # West African Paganism
+			limit = {
+				faith = {
+					religion_tag = west_african_religion
+					has_doctrine = tenet_ancestor_worship
+					NOT = { has_doctrine = mz_tenet_elder_veneration }
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_ancestor_worship
+				add_doctrine = mz_tenet_hogon_tradition
+			}
+		}
+		if = { # Waaqism
+			limit = {
+				faith = {
+					religion_tag = waaqism_religion
+					has_doctrine = tenet_sacred_childbirth
+					NOT = { has_doctrine = tenet_ancestor_worship }
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_sacred_childbirth
+				add_doctrine = mz_tenet_ekeraa
+			}			
+		}
+		if = { # Tanism
+			limit = {
+				faith = {
+					religion_tag = tani_religion
+					has_doctrine = tenet_religious_legal_pronouncements
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_religious_legal_pronouncements
+				add_doctrine = mz_tenet_tani_resistance
+			}			
+		}
+		if = { # Kiratism
+			limit = {
+				faith = {
+					religion_tag = mundhum_religion
+					has_doctrine = tenet_ancestor_worship
+					NOT = { has_doctrine = tenet_sanctity_of_nature }
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_ancestor_worship
+				add_doctrine = mz_tenet_kirat_shamanism
+			}			
+		}
+		if = { # Hsexje
+			limit = {
+				faith = {
+					religion_tag = qiangic_religion
+					OR = {
+						has_doctrine = tenet_astrology
+						has_doctrine = tenet_asceticism
+					}
+				}
+			}
+			faith = {
+				if = {
+					limit = { has_doctrine = tenet_astrology }
+					remove_doctrine = tenet_astrology
+				}
+				else_if = {
+					limit = { has_doctrine = tenet_asceticism }
+					remove_doctrine = tenet_asceticism
+				}
+				add_doctrine = mz_tenet_hsexje_unity
+			}	
+		}
+		if = { # Siberian
+			limit = {
+				faith = {
+					religion_tag = siberian_religion
+					has_doctrine = tenet_sanctity_of_nature
+				}
+			}
+			faith = {
+				remove_doctrine = tenet_sanctity_of_nature
+				add_doctrine = mz_tenet_great_hunt
+			}			
+		}
+		# End of AI reforms
+	}
+}

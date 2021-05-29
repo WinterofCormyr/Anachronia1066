@@ -1,0 +1,25 @@
+e_britannia = { 
+	867.1.1 = {	change_development_level = 5 }
+	1066.1.1 = { change_development_level = 33 }
+}
+#### BEGIN SCOTLAND ####
+k_albidoss = {
+	655.1.1 = {
+		holder = drsalbidoss0001 # Bride ach Bride
+	}
+}
+d_aberdeen = {
+	655.1.1 = {
+		holder = drsalbidoss0001 # Bride ach Bride
+	}
+}
+d_albany = {
+	655.1.1 = {
+		holder = drsalbidoss0001 # Bride ach Bride
+	}
+}
+c_mearns = {
+	655.1.1 = {
+		holder = drsalbidoss0001 # Bride ach Bride
+	}
+}

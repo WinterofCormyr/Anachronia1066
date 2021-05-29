@@ -1,0 +1,754 @@
+﻿#Kingdom of Normandia # norman Culture northern_valdemar_faith until 937 and gallian_ireneism afterwards Religion characters
+
+# rulers of the Kingdom of Normandia
+drs900normandia0001 = {
+	name = "Rollo" # monogamous # 1 wife the Northern Valdemarian woman Elspet (not a typo) # son Norman # daughter Clemenza # son Gaufrid # daughter Alisce # son Herbert # daughter Maysant # daughter Giselle
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	880.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		add_spouse = drs900normandia0002 # Elspet
+	}
+	# takes throne 900
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0002 = {
+	name = "Elspet" # monogamous # 1 husband Rollo # son Norman # daughter Clemenza # son Gaufrid # daughter Alisce # son Herbert # daughter Maysant # daughter Giselle
+	female = yes
+	religion = northern_valdemar_faith
+	culture = norwegian
+	880.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+#### GENERATION 2 ## 0-3 SPOUSES PER PERSON ## 0-4 SETS OF CHILDREN PER PERSON ## UP TO 8 CHILDREN PER SET ####
+drs900normandia0004 = {
+	name = "Clemenza" # brother Gaufrid # sister Alisce # brother Herbert # sister Maysant # sister Giselle
+	# 1 husband
+	# 3 sets of children, 2 with her husband and 1 of wild oats, interleaved
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0001 # Rollo av Astera og Kernos
+	mother = drs900normandia0002 # Elspet
+	902.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	982.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0005 = {
+	name = "Gaufrid" # sister Alisce # brother Herbert # sister Maysant # sister Giselle
+	# 2 wives
+	# 3 sets of children, 1 with first wife and 2 with second wife
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0001 # Rollo av Astera og Kernos
+	mother = drs900normandia0002 # Elspet
+	903.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0006 = {
+	name = "Alisce" # brother Herbert # sister Maysant # sister Giselle
+	# 1 husband
+	# 2 sets of children, both with her husband
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0001 # Rollo av Astera og Kernos
+	mother = drs900normandia0002 # Elspet
+	904.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	984.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0007 = {
+	name = "Herbert" # sister Maysant # sister Giselle
+	# 2 wives
+	# 2 sets of children, one per wife
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0001 # Rollo av Astera og Kernos
+	mother = drs900normandia0002 # Elspet
+	905.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	985.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0008 = {
+	name = "Maysant" # sister Giselle
+	# 2 husbands
+	# 1 set of children, with second husband
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0001 # Rollo av Astera og Kernos
+	mother = drs900normandia0002 # Elspet
+	906.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	986.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0009 = {
+	name = "Giselle" #
+	# 3 husbands
+	# no children, CREATE HUSBANDS ANYWAY
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0001 # Rollo av Astera og Kernos
+	mother = drs900normandia0002 # Elspet
+	907.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	987.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0003 = {
+	name = "Norman" # sister Clemenza # brother Gaufrid # sister Alisce # brother Herbert # sister Maysant # sister Giselle
+	# 3 wives
+	# wife 1 is Sadalberga Marcatruding drsdyn213 neustrian gallian_ireneism # son Sayer # daughter Mabel # son Abelard # daughter Richenda
+	# wife 2 is Gerberge de Blérancourt drsdyn214 french gallian_ireneism # no children
+	# wife 3 is Aphrodite Childeberting drsdyn215 neustrian gallian_ireneism # daughter Clarimond # son Haimo # son Ildebrando # son Lambert
+	# 2 sets of children, for first and third wife
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0001 # Rollo av Astera og Kernos
+	mother = drs900normandia0002 # Elspet
+	901.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		add_spouse = drs900normandia0010 # Sadalberga Marcatruding
+	}
+	921.1.1 = {
+		add_spouse = drs900normandia0015 # Gerberge de Blérancourt
+	}
+	921.1.1 = {
+		add_spouse = drs900normandia0016 # Aphrodite Childeberting
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0010 = {
+	name = "Sadalberga" #
+	female = yes
+	dynasty = drsdyn213 # Marcatruding
+	religion = gallian_ireneism
+	culture = neustrian
+	901.1.1 = {
+		birth = yes
+	}
+	936.1.1 = {
+		religion = northern_valdemar_faith
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0011 = {
+	name = "Sayer" # sister Mabel # brother Abelard # sister Richenda
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0003 # Norman av Astera og Kernos
+	mother = drs900normandia0010 # Sadalberga Marcatruding
+	922.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	1002.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0012 = {
+	name = "Mabel" # brother Abelard # sister Richenda
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0003 # Norman av Astera og Kernos
+	mother = drs900normandia0010 # Sadalberga Marcatruding
+	923.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	1003.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0013 = {
+	name = "Abelard" # sister Richenda
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0003 # Norman av Astera og Kernos
+	mother = drs900normandia0010 # Sadalberga Marcatruding
+	924.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0014 = {
+	name = "Richenda" #
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0003 # Norman av Astera og Kernos
+	mother = drs900normandia0010 # Sadalberga Marcatruding
+	925.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0015 = {
+	name = "Gerberge" #
+	female = yes
+	dynasty = drsdyn214 # de Blérancourt
+	religion = gallian_ireneism
+	culture = french
+	901.1.1 = {
+		birth = yes
+	}
+	936.1.1 = {
+		religion = northern_valdemar_faith
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0016 = {
+	name = "Aphrodite" # daughter Clarimond # son Haimo # son Ildebrando # son Lambert
+	female = yes
+	dynasty = drsdyn215 # Childeberting
+	religion = gallian_ireneism
+	culture = neustrian
+	901.1.1 = {
+		birth = yes
+	}
+	936.1.1 = {
+		religion = northern_valdemar_faith
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0017 = {
+	name = "Clarimond" #
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0003 # Norman av Astera og Kernos
+	mother = drs900normandia0016 # Aphrodite Childeberting
+	922.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	1002.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0018 = {
+	name = "Haimo" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0003 # Norman av Astera og Kernos
+	mother = drs900normandia0016 # Aphrodite Childeberting
+	923.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	1003.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0019 = {
+	name = "Ildebrando" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0003 # Norman av Astera og Kernos
+	mother = drs900normandia0016 # Aphrodite Childeberting
+	924.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0020 = {
+	name = "Lambert" # no wife # 1 set of kids # son Lancelin # daughter Adelaide
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = northern_valdemar_faith
+	culture = norman
+	father = drs900normandia0003 # Norman av Astera og Kernos
+	mother = drs900normandia0016 # Aphrodite Childeberting
+	925.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		religion = gallian_ireneism
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+# up to 4 sets of children
+# up to 8 children per set
+# Lancelin has kids recorded Adelaide does not
+drs900normandia0021 = { # 4 sets of kids
+	# set 1 # no children
+	# set 2 # son Kernos # daughter Egelina # son Errand # son Lambert
+	# set 3 # daughter Adele # son Ildebrando
+	# set 4 # son Drogo # son Eustache # son Adelard # daughter Valdrade
+	name = "Lancelin" # sister Adelaide
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0020 # Lambert av Astera og Kernos
+	945.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0022 = {
+	name = "Adelaide" # 1 set of children
+	# no children
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0020 # Lambert av Astera og Kernos
+	946.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		death = yes
+	}
+}
+# up to 4 sets of children
+# up to 10 children per set
+# only Ildebrando has children
+drs900normandia0023 = { # sister Egelina # brother Errand # brother Lambert
+	# set 3 # sister Adele # brother Ildebrando
+	# set 4 # brother Drogo # brother Eustache # brother Adelard # sister Valdrade
+	name = "Kernos" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	965.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0024 = { # brother Errand # brother Lambert
+	# set 3 # sister Adele # brother Ildebrando
+	# set 4 # brother Drogo # brother Eustache # brother Adelard # sister Valdrade
+	name = "Egelina" #
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	966.1.1 = {
+		birth = yes
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0025 = { # brother Lambert
+	# set 3 # sister Adele # brother Ildebrando
+	# set 4 # brother Drogo # brother Eustache # brother Adelard # sister Valdrade
+	name = "Errand" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	967.1.1 = {
+		birth = yes
+	}
+	1047.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0026 = {
+	# set 3 # sister Adele # brother Ildebrando
+	# set 4 # brother Drogo # brother Eustache # brother Adelard # sister Valdrade
+	name = "Lambert" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	968.1.1 = {
+		birth = yes
+	}
+	1048.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0027 = {
+	# brother Ildebrando
+	# set 4 # brother Drogo # brother Eustache # brother Adelard # sister Valdrade
+	name = "Adele" #
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	969.1.1 = {
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0028 = {
+	# set 4 # brother Drogo # brother Eustache # brother Adelard # sister Valdrade
+	name = "Ildebrando" # 1 set of children # 6 children # daughter Eleanor # son Radolf # son Odo # daughter Geva # son Orderic # son Errand
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	970.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0029 = {
+	# brother Eustache # brother Adelard # sister Valdrade
+	name = "Drogo" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	971.1.1 = {
+		birth = yes
+	}
+	1051.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0030 = {
+	# brother Adelard # sister Valdrade
+	name = "Eustache" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	972.1.1 = {
+		birth = yes
+	}
+	1052.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0031 = {
+	# sister Valdrade
+	name = "Adelard" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	973.1.1 = {
+		birth = yes
+	}
+	1053.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0032 = {
+	name = "Valdrade" #
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0021 # Lancelin av Astera og Kernos
+	974.1.1 = {
+		birth = yes
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+# up to 4 spouses
+# up to 5 sets of children
+# up to 7 children per set
+drs900normandia0033 = { # 1026 I inherit
+	name = "Eleanor" # brother Radolf # brother Odo # sister Geva # brother Orderic # brother Errand
+	# 4 husbands
+	# 1 set of children, with first husband
+	# husband 1 William de Bayeux drsdyn216 # daughter Wilmot # son Lancelin
+	# husband 2 Silvester de Cormolain drsdyn217 # no children
+	# husband 3 Turstin de Cossesseville drsdyn218 # no children
+	# husband 3 Baldwin de Cottun drsdyn219 # no children
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0028 # Ildebrando av Astera og Kernos
+	990.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		add_matrilineal_spouse = drs900normandia0039 # William de Bayeux
+	}
+	1010.1.1 = {
+		add_matrilineal_spouse = drs900normandia0040 # Silvester de Cormolain
+	}
+	1010.1.1 = {
+		add_matrilineal_spouse = drs900normandia0041 # Turstin de Cossesseville
+	}
+	1010.1.1 = {
+		add_matrilineal_spouse = drs900normandia0042 # Baldwin de Cottun
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0034 = {
+	name = "Radolf" # brother Odo # sister Geva # brother Orderic # brother Errand
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0028 # Ildebrando av Astera og Kernos
+	991.1.1 = {
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0035 = {
+	name = "Odo" # sister Geva # brother Orderic # brother Errand
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0028 # Ildebrando av Astera og Kernos
+	992.1.1 = {
+		birth = yes
+	}
+	1072.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0036 = {
+	name = "Geva" # brother Orderic # brother Errand
+	# no husbands
+	# no children
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0028 # Ildebrando av Astera og Kernos
+	993.1.1 = {
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0037 = {
+	name = "Orderic" # brother Errand
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0028 # Ildebrando av Astera og Kernos
+	994.1.1 = {
+		birth = yes
+	}
+	1074.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0038 = {
+	name = "Errand" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0028 # Ildebrando av Astera og Kernos
+	996.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0039 = {
+	name = "William" # daughter Wilmot and a son Lancelin
+	dynasty = drsdyn216 # de Bayeux
+	religion = gallian_ireneism
+	culture = norman
+	990.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0040 = {
+	name = "Silvester"
+	dynasty = drsdyn217 # de Cormolain
+	religion = gallian_ireneism
+	culture = norman
+	990.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0041 = {
+	name = "Turstin"
+	dynasty = drsdyn218 # de Cossesseville
+	religion = gallian_ireneism
+	culture = norman
+	990.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0042 = {
+	name = "Baldwin"
+	dynasty = drsdyn219 # de Cottun
+	religion = gallian_ireneism
+	culture = norman
+	990.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+# only Wilmot has children
+# up to 3 spouses
+# up to 5 sets of children
+# up to 8 children per set
+drs900normandia0043 = {
+	name = "Wilmot" #
+	# 1 husband
+	# no children
+	female = yes
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0039 # William de Bayeux
+	mother = drs900normandia0033 # Eleanor av Astera og Kernos
+	1011.1.1 = {
+		birth = yes
+	}
+	1091.1.1 = {
+		death = yes
+	}
+}
+drs900normandia0044 = {
+	name = "Lancelin" #
+	dynasty = drsdyn212 # av Astera og Kernos
+	religion = gallian_ireneism
+	culture = norman
+	father = drs900normandia0039 # William de Bayeux
+	mother = drs900normandia0033 # Eleanor av Astera og Kernos
+	1012.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}

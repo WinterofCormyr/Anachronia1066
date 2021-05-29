@@ -1,0 +1,327 @@
+#k_denmark
+##d_sjaelland ###################################
+###c_sjaelland
+63 = {		#ROSKILDE
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			longhouses_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			barracks_01
+			regimental_grounds_01
+		}
+	}
+}
+433 = {		#HELSINGORA
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+85 = {		#HAFN
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	1010.1.1 = {
+		holding = castle_holding
+	}
+}
+64 = {		#NAEVSTED
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	1060.1.1 = {
+		holding = castle_holding
+	}
+}
+69 = {		#SLAGELSE
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	980.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_fyn
+65 = {		#ODENSE
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+66 = {		#SVENDBORG
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	1060.1.1 = {
+		holding = castle_holding
+	}
+}
+228 = {		#MIDDELFART
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+###c_lolland_falster
+67 = {		#NYKOBING
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+68 = {		#NAKSKOV
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+##d_skane ###################################
+###c_skane
+70 = {		#LUND
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+	special_building_slot = lund_cathedral_01
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			cereal_fields_01
+			pastures_01
+		}
+	}
+}
+71 = {		#TRELLEBORG
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+72 = {		#TOMMERUP
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+86 = {		#GOINGE
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+73 = {		#HELSINGBORG
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_halland
+74 = {		#HALMSTAD
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+75 = {		#ONSALA
+	holding = castle_holding
+	culture = danish
+	religion = valdemarian_common
+}
+76 = {		#LAHOLM
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+###c_bornholm
+77 = {		#RONNE
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+
+###c_blekinge
+78 = {		#BREGNE
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+79 = {		#RONNEBY
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+87 = {		#LISTER
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+80 = {		#AVASKAR
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+##d_jylland ###################################
+###c_aarhus
+57 = {		#AARHUS
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+58 = {		#JELLING
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	965.1.1 = {
+		holding = castle_holding
+	}
+}
+226 = {		#DJURSLAND
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+###c_viborg
+56 = {		#VIBORG
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+222 = {		#ORMSTRUP
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+###c_ringkobing
+82 = {		#RINGKOBING
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+221 = {		#HOLSTEBRO
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+223 = {		#YCOST
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+225 = {		#TARM
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+###c_aalborg
+81 = {		#AALBORG
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+55 = {		#LINDHOLM
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+224 = {		#RANDROS
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+##d_slesvig ###################################
+###c_slesvig
+62 = {		#HEDEBY
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+	special_building_slot = danevirke_01
+	700.1.1 = {
+		special_building = danevirke_01
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			ramparts_01
+			military_camps_01	
+		}
+	}
+}
+61 = {		#AABENRAA
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+84 = {		#HUSUMBRO
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+###c_vorbasse
+59 = {		#VORBASSE
+	culture = danish
+	religion = valdemarian_common
+	holding = castle_holding
+}
+227 = {		#TAULOV
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+434 = {		#KOLDING
+	holding = none
+	culture = danish
+	religion = valdemarian_common
+}
+
+###c_ribe
+60 = {		#RIBE
+	culture = frisian
+	religion = shayanaic
+	holding = castle_holding 
+	
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			curtain_walls_01
+			military_camps_01
+		}
+	}
+}
+83 = {		#VARDE
+	holding = none
+	culture = frisian
+	religion = shayanaic
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+220 = {		#STRAND
+	holding = none
+	culture = frisian
+	religion = shayanaic
+}

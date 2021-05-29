@@ -1,0 +1,84 @@
+﻿namespace = faith_conversion
+
+faith_conversion.0002 = { # Overwriting this event is unfortunately necessary for Patron Gods to function correctly when converting away
+	hidden = yes
+
+	immediate = {
+		remove_trait = excommunicated
+		remove_character_modifier = recent_excommunication
+		remove_character_modifier = excommunication_recently_lifted
+		remove_character_modifier = vow_of_poverty_modifier
+		remove_character_modifier = temporal_condemnation_modifier
+		remove_character_modifier = ultimate_blasphemer_modifier
+		remove_character_modifier = defiant_high_king_conversion_boost_modifier
+		remove_character_modifier = defiant_high_queen_conversion_boost_modifier
+		remove_character_modifier = fp1_jomsvikings_caused_faith_crisis_modifier
+		# New modifiers
+		remove_character_modifier = mz_germanic_conquerer_1_modifier
+		remove_character_modifier = mz_germanic_conquerer_2_modifier
+		remove_character_modifier = mz_germanic_conquerer_3_modifier
+		remove_character_modifier = mz_steppe_conquerer_1_modifier
+		remove_character_modifier = mz_steppe_conquerer_2_modifier
+		remove_character_modifier = mz_steppe_conquerer_3_modifier
+
+
+		if = {
+			limit = {
+				faith = {
+					OR = { # Replace { has_doctrine = tenet_bhakti } with { has_doctrine_parameter = select_personal_god_active }
+						has_doctrine_parameter = select_personal_god_active
+						NOT = { religion = scope:old_faith.religion }
+					}
+				}
+			}
+			remove_character_modifier = bhakti_hinduism_ganga
+			remove_character_modifier = bhakti_hinduism_saraswati
+			remove_character_modifier = bhakti_hinduism_kali
+			remove_character_modifier = bhakti_hinduism_kubera
+			remove_character_modifier = bhakti_vaishnavism_lakishmi
+			remove_character_modifier = bhakti_vaishnavism_jagganath
+			remove_character_modifier = bhakti_vaishnavism_hayagriva
+			remove_character_modifier = bhakti_shaivism_parvati
+			remove_character_modifier = bhakti_shaivism_virabhadra
+			remove_character_modifier = bhakti_shaivism_munishwarar
+			remove_character_modifier = bhakti_shaivism_dakshinamoorthy
+			remove_character_modifier = bhakti_smartism_ganesha
+			remove_character_modifier = bhakti_smartism_vishnu
+			remove_character_modifier = bhakti_smartism_shiva
+			remove_character_modifier = bhakti_germanic_generic_odin
+			remove_character_modifier = bhakti_germanic_not_danish_ullr
+			remove_character_modifier = bhakti_germanic_danish_tyr
+			remove_character_modifier = bhakti_germanic_generic_thor
+			remove_character_modifier = bhakti_germanic_generic_freyr
+		}
+
+		if = { # Remove conquerer trait if new religion doesn't support it
+			limit = {
+				scope:old_faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+				NOT = { 
+					faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+				}
+			}
+			remove_trait = mz_conquerer_1
+			remove_trait = mz_conquerer_2
+			remove_trait = mz_conquerer_3
+			remove_character_modifier = mz_at_peace_penalty_modifier
+		}
+		mz_update_dawnbreakers_effect = yes
+		bastard_to_wild_oat_conversion_effect = yes
+		if = { # Remove Sanctity of Nature modifiers if no longer applicable
+			limit = { 
+				NOT = {
+					faith = { has_doctrine_parameter = mz_grove_dedication_active }	
+				}
+				mz_has_grove_modifier = yes
+			}
+			remove_all_character_modifier_instances = mz_grove_martial_major_modifier
+			remove_all_character_modifier_instances = mz_grove_martial_minor_modifier
+			remove_all_character_modifier_instances = mz_grove_health_major_modifier
+			remove_all_character_modifier_instances = mz_grove_health_minor_modifier
+			remove_all_character_modifier_instances = mz_grove_wealth_major_modifier
+			remove_all_character_modifier_instances = mz_grove_wealth_minor_modifier
+		}
+	}
+}

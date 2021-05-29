@@ -1,0 +1,1097 @@
+﻿#Duchy of Isfahan # persian Culture persic_ireneism Religion characters
+
+# rulers of the Duchy of Isfahan, 867 onward
+drsisfahan0001 = {
+	name = "Golnaz" # husband Shahrokh # daughter Ghoncheh
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	847.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0002 = {
+	name = "Shahrokh" # daughter Ghoncheh
+	religion = persic_ireneism
+	culture = persian
+	847.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		add_matrilineal_spouse = drsisfahan0001
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0003 = {
+	name = "Ghoncheh" #
+	# no husband 1
+	# husband 2 Zand # daughter Roshanora
+	# no husband 3
+	# no husband 4
+	# husband 5 Humayun # daughter Elham # daughter Azarmidokht # son Farrukhzad # daughter Arina theophoric name after Irene # son Shahbaz
+	# husband 6 Kurush Luri # lurish culture # no children with him
+	# husband 7 Tahmasb # daughter Mahtab # daughter Ghondokht # daughter Ava # daughter Areena theophoric name after Irene # daughter Tourandokht Valia # son Aya'se # son Babak
+	# husband 8 Tahmasb Khabisi # daughter Areena Valia theophoric name after Irene # daughter Afsaneh # daughter Yekta # son Afshar # daughter Asa # daughter Noor
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0002 # Shahrokh
+	mother = drsisfahan0001 # Golnaz Ardestani
+	868.1.1 = {
+		birth = yes
+	}
+	967.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0004 = {
+	name = "Zand" # daughter Roshanora
+	religion = persic_ireneism
+	culture = persian
+	868.1.1 = {
+		birth = yes
+	}
+	888.1.1 = {
+		add_matrilineal_spouse = drsisfahan0003
+	}
+	967.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0005 = {
+	name = "Roshanora" #
+	# husband Ferdows # no children
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0004 # Zand
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	889.1.1 = {
+		birth = yes
+	}
+	969.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0006 = {
+	name = "Humayun" # daughter Elham # daughter Azarmidokht # son Farrukhzad # daughter Arina theophoric name after Irene # son Shahbaz
+	religion = persic_ireneism
+	culture = persian
+	868.1.1 = {
+		birth = yes
+	}
+	889.1.1 = {
+		add_matrilineal_spouse = drsisfahan0003
+	}
+	967.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0007 = {
+	name = "Elham" #
+	# husband Rostam # daughter Areena # daughter Parvaneh # daughter Touran
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0006 # Humayun
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	891.1.1 = {
+		birth = yes
+	}
+	975.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0008 = {
+	name = "Azarmidokht" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0006 # Humayun
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	892.1.1 = {
+		birth = yes
+	}
+	945.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0009 = {
+	name = "Farrukhzad" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0006 # Humayun
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	893.1.1 = {
+		birth = yes
+	}
+	973.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0010 = {
+	name = "Arina" # theophoric name after Irene
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0006 # Humayun
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	894.1.1 = {
+		birth = yes
+	}
+	974.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0011 = {
+	name = "Shahbaz" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0006 # Humayun
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	895.1.1 = {
+		birth = yes
+	}
+	975.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0012 = {
+	name = "Kurush Luri" #
+	religion = persic_ireneism
+	culture = lurish
+	868.1.1 = {
+		birth = yes
+	}
+	896.1.1 = {
+		add_matrilineal_spouse = drsisfahan0003
+	}
+	967.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0013 = {
+	name = "Tahmasb" # daughter Mahtab # daughter Ghondokht # daughter Ava # daughter Areena theophoric name after Irene # daughter Tourandokht Valia # son Aya'se # son Babak
+	religion = persic_ireneism
+	culture = persian
+	868.1.1 = {
+		birth = yes
+	}
+	897.1.1 = {
+		add_matrilineal_spouse = drsisfahan0003
+	}
+	967.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0014 = {
+	name = "Mahtab" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0013 # Tahmasb
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	898.1.1 = {
+		birth = yes
+	}
+	978.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0015 = {
+	name = "Ghondokht" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0013 # Tahmasb
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	899.1.1 = {
+		birth = yes
+	}
+	979.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0016 = {
+	name = "Ava" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0013 # Tahmasb
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	900.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0017 = {
+	name = "Areena" # theophoric name after Irene
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0013 # Tahmasb
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	901.1.1 = {
+		birth = yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0018 = {
+	name = "Tourandokht Valia" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0013 # Tahmasb
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	902.1.1 = {
+		birth = yes
+	}
+	982.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0019 = {
+	name = "Aya'se" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0013 # Tahmasb
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	903.1.1 = {
+		birth = yes
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0020 = {
+	name = "Babak" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0013 # Tahmasb
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	904.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		death = yes
+	}
+}
+	# husband 8 Tahmasb Khabisi # daughter Areena Valia theophoric name after Irene # daughter Afsaneh # daughter Yekta # son Afshar # daughter Asa # daughter Noor
+drsisfahan0021 = {
+	name = "Tahmasb Khabisi" # 
+	religion = persic_ireneism
+	culture = persian
+	868.1.1 = {
+		birth = yes
+	}
+	905.1.1 = {
+		add_matrilineal_spouse = drsisfahan0003
+	}
+	967.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0022 = {
+	name = "Areena Valia" # theophoric name after Irene
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0021 # Tahmasb Khabisi
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	906.1.1 = {
+		birth = yes
+	}
+	986.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0023 = {
+	name = "Afsaneh" # 
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0021 # Tahmasb Khabisi
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	907.1.1 = {
+		birth = yes
+	}
+	987.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0024 = {
+	name = "Yekta" # 
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0021 # Tahmasb Khabisi
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	908.1.1 = {
+		birth = yes
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0025 = {
+	name = "Afshar" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0021 # Tahmasb Khabisi
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	909.1.1 = {
+		birth = yes
+	}
+	989.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0026 = {
+	name = "Asa" # 
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0021 # Tahmasb Khabisi
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	910.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0027 = {
+	name = "Noor" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0021 # Tahmasb Khabisi
+	mother = drsisfahan0003 # Ghoncheh Ardestani
+	911.1.1 = {
+		birth = yes
+	}
+	991.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0028 = {
+	name = "Ferdows" # 
+	religion = persic_ireneism
+	culture = persian
+	889.1.1 = {
+		birth = yes
+	}
+	909.1.1 = {
+		add_matrilineal_spouse = drsisfahan0005 # Roshanora Ardestani
+	}
+	967.1.1 = {
+		death = yes
+	}
+}
+	# Elham drsisfahan0007 has
+	# husband Rostam # daughter Areena # daughter Parvaneh # daughter Touran
+drsisfahan0029 = {
+	name = "Rostam" # 
+	religion = persic_ireneism
+	culture = persian
+	891.1.1 = {
+		birth = yes
+	}
+	911.1.1 = {
+		add_matrilineal_spouse = drsisfahan0007 # Elham Ghonchehdokht Ardestani
+	}
+	975.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0030 = {
+	name = "Areena" # theophoric name honoring Irene
+	# monogamous # husband Afshar # daughter Ava # daughter Zarrindokht
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0029 # Rostam
+	mother = drsisfahan0007 # Elham Ghonchehdokht Ardestani
+	912.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0031 = {
+	name = "Parvaneh" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0029 # Rostam
+	mother = drsisfahan0007 # Elham Ghonchehdokht Ardestani
+	913.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0032 = {
+	name = "Touran" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0029 # Rostam
+	mother = drsisfahan0007 # Elham Ghonchehdokht Ardestani
+	914.1.1 = {
+		birth = yes
+	}
+	992.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0033 = {
+	name = "Afshar" # 
+	religion = persic_ireneism
+	culture = persian
+	912.1.1 = {
+		birth = yes
+	}
+	932.1.1 = {
+		add_matrilineal_spouse = drsisfahan0030 # Areena Elhamdokht Ardestani
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0034 = {
+	name = "Ava" #
+	# monogamous # husband Dariush # daughter Kambizdokht # son Shahryar # daughter Shahdokht # son Ardeshir named after an Ireneist saint
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0033 # Afshar
+	mother = drsisfahan0030 # Areena Elhamdokht Ardestani
+	933.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0035 = {
+	name = "Zarrindokht" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0033 # Afshar
+	mother = drsisfahan0030 # Areena Elhamdokht Ardestani
+	934.1.1 = {
+		birth = yes
+	}
+	1014.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0036 = {
+	name = "Dariush" # 
+	religion = persic_ireneism
+	culture = persian
+	933.1.1 = {
+		birth = yes
+	}
+	953.1.1 = {
+		add_matrilineal_spouse = drsisfahan0034 # Ava Areenadokht Ardestani
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0037 = {
+	name = "Kambizdokht" #
+	# monogamous # husband Khosrau # son Jahanshah # daughter Jamileh
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0036 # Dariush
+	mother = drsisfahan0034 # Ava Areenadokht Ardestani
+	954.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0038 = {
+	name = "Shahryar" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0036 # Dariush
+	mother = drsisfahan0034 # Ava Areenadokht Ardestani
+	955.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0039 = {
+	name = "Shahdokht" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0036 # Dariush
+	mother = drsisfahan0034 # Ava Areenadokht Ardestani
+	956.1.1 = {
+		birth = yes
+	}
+	1036.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0040 = {
+	name = "Ardeshir" # named after an Ireneist saint
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0036 # Dariush
+	mother = drsisfahan0034 # Ava Areenadokht Ardestani
+	957.1.1 = {
+		birth = yes
+	}
+	1037.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0041 = {
+	name = "Khosrau" # 
+	religion = persic_ireneism
+	culture = persian
+	954.1.1 = {
+		birth = yes
+	}
+	974.1.1 = {
+		add_matrilineal_spouse = drsisfahan0037 # Kambizdokht Avadokht Ardestani
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0042 = {
+	name = "Jahanshah" #
+	#1 no wife
+	#2 wife Hurmat # son Iranzade # daughter Zemestan # son Bozorg # son Sadri # twin daughters Ahu and Azadeh # daughter Hamdam
+	#3 no wife
+	#4 wife Golshan # daughter Golpari # daughter Golnaz
+	#5 no wife
+	#6 wife Navvaba # daughter Areena theophoric name after Irene
+	#7 wife Bahar # daughter Banafsheh # daughter Salomeh
+	#8 no wife
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0041 # Khosrau
+	mother = drsisfahan0037 # Kambizdokht Avadokht Ardestani
+	975.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0043 = {
+	name = "Jamileh" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0041 # Khosrau
+	mother = drsisfahan0037 # Kambizdokht Avadokht Ardestani
+	976.1.1 = {
+		birth = yes
+	}
+	1056.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0044 = {
+	name = "Hurmat" # 
+	female = yes
+	religion = persic_ireneism
+	culture = persian
+	975.1.1 = {
+		birth = yes
+	}
+	995.1.1 = {
+		add_spouse = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0045 = {
+	name = "Iranzade" #
+	#1 wife Pourandokht # daughter Roxana # son Godarz
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0044 # Hurmat
+	996.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0046 = {
+	name = "Zemestan" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0044 # Hurmat
+	997.1.1 = {
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0047 = {
+	name = "Bozorg" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0044 # Hurmat
+	998.1.1 = {
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0048 = {
+	name = "Sadri" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0044 # Hurmat
+	999.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0049 = {
+	name = "Ahu" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0044 # Hurmat
+	trait = twin
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0050 = {
+	name = "Azadeh" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0044 # Hurmat
+	trait = twin
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0051 = {
+	name = "Hamdam" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0044 # Hurmat
+	1001.1.1 = {
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0052 = {
+	name = "Golshan" # 
+	female = yes
+	religion = persic_ireneism
+	culture = persian
+	975.1.1 = {
+		birth = yes
+	}
+	996.1.1 = {
+		add_spouse = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0053 = {
+	name = "Golpari" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0052 # Golshan
+	997.1.1 = {
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0054 = {
+	name = "Golnaz" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0052 # Golshan
+	998.1.1 = {
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0055 = {
+	name = "Navvaba" # 
+	female = yes
+	religion = persic_ireneism
+	culture = persian
+	975.1.1 = {
+		birth = yes
+	}
+	997.1.1 = {
+		add_spouse = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0056 = {
+	name = "Areena" # theophoric name after Irene
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0055 # Navvaba
+	998.1.1 = {
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0057 = {
+	name = "Bahar" # 
+	female = yes
+	religion = persic_ireneism
+	culture = persian
+	975.1.1 = {
+		birth = yes
+	}
+	998.1.1 = {
+		add_spouse = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0058 = {
+	name = "Banafsheh" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0057 # Bahar
+	999.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0059 = {
+	name = "Salomeh" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0042 # Jahanshah Kambizdokhtzade Ardestani
+	mother = drsisfahan0057 # Bahar
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0060 = {
+	name = "Pourandokht" # 
+	female = yes
+	religion = persic_ireneism
+	culture = persian
+	996.1.1 = {
+		birth = yes
+	}
+	1016.1.1 = {
+		add_spouse = drsisfahan0045 # Iranzade Jahanshahzade Ardestani
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0061 = {
+	name = "Roxana" #
+	# husband Vali # son Areenyak # daughter Furuzan
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0045 # Iranzade Jahanshahzade Ardestani
+	mother = drsisfahan0060 # Pourandokht
+	1017.1.1 = {
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0062 = {
+	name = "Godarz" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0045 # Iranzade Jahanshahzade Ardestani
+	mother = drsisfahan0060 # Pourandokht
+	1018.1.1 = {
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0063 = {
+	name = "Vali" # 
+	religion = persic_ireneism
+	culture = persian
+	1017.1.1 = {
+		birth = yes
+	}
+	1037.1.1 = {
+		add_matrilineal_spouse = drsisfahan0061 # Roxana Iranzadedokht Ardestani
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0064 = {
+	name = "Areenyak" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0063 # Vali
+	mother = drsisfahan0061 # Roxana Iranzadedokht Ardestani
+	1038.1.1 = {
+		birth = yes
+	}
+	1118.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0065 = {
+	name = "Furuzan" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0063 # Vali
+	mother = drsisfahan0061 # Roxana Iranzadedokht Ardestani
+	1039.1.1 = {
+		birth = yes
+	}
+	1119.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0066 = {
+	name = "Golbahar" # daughter Arghavan # daughter Areena Leila # twin sons Ghobad and Gholam # daughter Leila Mahdokht # son Tahmasb # son Amin
+	female = yes
+	religion = persic_ireneism
+	culture = persian
+	1038.1.1 = {
+		birth = yes
+	}
+	1058.1.1 = {
+		add_spouse = drsisfahan0064 # Areenyak Roxanazade Ardestani
+	}
+	1136.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0067 = {
+	name = "Arghavan" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0064 # Areenyak Roxanazade Ardestani
+	mother = drsisfahan0066 # Golbahar
+	1059.1.1 = {
+		birth = yes
+	}
+	1119.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0068 = {
+	name = "Areena Leila" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0064 # Areenyak Roxanazade Ardestani
+	mother = drsisfahan0066 # Golbahar
+	1060.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0069 = {
+	name = "Ghobad" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0064 # Areenyak Roxanazade Ardestani
+	mother = drsisfahan0066 # Golbahar
+	trait = twin
+	1061.1.1 = {
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0070 = {
+	name = "Gholam" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0064 # Areenyak Roxanazade Ardestani
+	mother = drsisfahan0066 # Golbahar
+	trait = twin
+	1061.1.1 = {
+		birth = yes
+	}
+	1067.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0071 = {
+	name = "Leila Mahdokht" #
+	female = yes
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0064 # Areenyak Roxanazade Ardestani
+	mother = drsisfahan0066 # Golbahar
+	1062.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0072 = {
+	name = "Tahmasb" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0064 # Areenyak Roxanazade Ardestani
+	mother = drsisfahan0066 # Golbahar
+	1063.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+drsisfahan0073 = {
+	name = "Amin" #
+	dynasty = drsdyn16 # Ardestani
+	religion = persic_ireneism
+	culture = persian
+	father = drsisfahan0064 # Areenyak Roxanazade Ardestani
+	mother = drsisfahan0066 # Golbahar
+	1064.1.1 = {
+		birth = yes
+	}
+	1128.1.1 = {
+		death = yes
+	}
+}

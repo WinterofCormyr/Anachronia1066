@@ -1,0 +1,629 @@
+#k_lithuania
+##d_lithuanians ###################################
+###c_kernave
+154 = {		#KERNAVE
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+155 = {		#VILNIUS
+	holding = none
+	culture = lithuanian
+	religion = baltic_pagan
+}
+149 = {		#VILKMERGE
+	holding = none
+	culture = lithuanian
+	religion = baltic_pagan
+}
+165 = {		#KREVA
+		culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+9846 = {		#KREVA
+		culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+9847 = {		#KREVA
+		culture = lithuanian
+	religion = baltic_pagan
+	holding = none
+}
+9848 = {		#KREVA
+		culture = lithuanian
+	religion = baltic_pagan
+	holding = none
+}
+9849 = {		#KREVA
+		culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+9850 = {		#KREVA
+		culture = lithuanian
+	religion = baltic_pagan
+	holding = none
+}
+9851 = {		#KREVA
+		culture = lithuanian
+	religion = baltic_pagan
+	holding = none
+}
+9852 = {		#KREVA
+		culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+9853 = {		#KREVA
+	culture = sudovian
+	religion = sudovian_pagan
+	holding = none
+}
+9854 = {		#KREVA
+	culture = sudovian
+	religion = sudovian_pagan
+	holding = none
+}
+###c_trakai
+153 = {		#TRAKAI
+	culture = sudovian
+	religion = sudovian_pagan
+	holding = tribal_holding
+	1066.1.1 = {
+		buildings = {
+			war_camps_01
+		}
+	}
+}
+130 = {		#KAUNAS
+	holding = none
+	culture = sudovian
+	religion = sudovian_pagan
+}
+160 = {		#MERKINE
+	holding = none
+	culture = sudovian
+	religion = sudovian_pagan
+}
+162 = {		#ALITEN
+	holding = none
+	culture = sudovian
+	religion = sudovian_pagan
+}
+159 = {		#VALKININKAI
+	holding = none
+	culture = sudovian
+	religion = sudovian_pagan
+}
+5043 = {		#SOKOLKA
+	holding = none
+	culture = sudovian
+	religion = sudovian_pagan
+}
+
+###c_yatvyagi
+156 = {		#PANEMUNE
+	culture = sudovian
+	religion = sudovian_pagan
+	holding = tribal_holding
+}
+158 = {		#VILKAVISKIS
+	holding = none
+	culture = sudovian
+	religion = sudovian_pagan
+}
+157 = {		#SUVALKAI
+	holding = castle_holding
+	culture = sudovian
+	religion = sudovian_pagan
+	holding = tribal_holding
+	
+}
+163 = {		#SEJNY
+	holding = none
+	culture = sudovian
+	religion = sudovian_pagan
+}
+
+###c_braslau
+166 = {		#BRASLAU #Braslau was not Lithuanian and was held by Polotsk
+	
+	# Misc
+	culture = russian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	989.9.15 = {
+		religion = orthodox
+	}
+}
+9839 = {		#BRASLAU #Braslau was not Lithuanian and was held by Polotsk
+	
+	# Misc
+	culture = russian
+	religion = slavic_pagan
+	
+	#holding = castle_holding
+	
+	#terrain = forest
+	
+	# History
+	989.9.15 = {
+		religion = orthodox
+	}
+}
+151 = {		#UTENA
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+9840 = {		#UTENA
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+9841 = {		#UTENA
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+##d_prussia ###################################
+###c_malbork (c_pomesania)
+2835 = {	#TRUSO
+	culture = prussian
+	religion = prussian_pagan
+	holding = tribal_holding
+	1210.1.1 = {
+		holding = castle_holding
+	}
+}
+2834 = {	#MALBORK
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+3197 = {	#KWEDIS
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+2831 = {	#WEIKSLA
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+
+###c_wormditt (c_warmia)
+3220 = {	#WORMDETEN
+	culture = prussian
+	religion = prussian_pagan
+	holding = tribal_holding
+}
+3201 = {	#MAURIN
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+3217 = {	#BRUS
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+
+###c_natangia
+3218 = {	#POKARWIS
+	culture = prussian
+	religion = prussian_pagan
+	holding = tribal_holding
+	1260.1.1 = {
+		holding = castle_holding
+	}
+}
+3203 = {	#TAPIAU
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+3219 = {	#VELOWE
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+
+###c_konigsberg (c_sambia)
+3216 = {	#TWANGSTE
+	culture = prussian
+	religion = prussian_pagan
+	holding = tribal_holding
+	867.1.1 = {
+		buildings = {
+			market_villages_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			market_villages_01
+			palisades_01
+		}
+	}
+}
+122 = {		#KAUP
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+
+###c_bartenstein (c_bartia)
+3204 = {	#LECBARG
+	culture = prussian
+	religion = prussian_pagan
+	holding = tribal_holding
+	1235.1.1 = {
+		holding = castle_holding
+	}
+}
+3205 = {	#LYNA
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+3206 = {	#ISRUTIS
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+3207 = {	#AESTIA
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+
+##d_masuria ###################################
+###c_torun (c_chelmno)
+3198 = {	#CHELMNO
+	culture = prussian
+	religion = prussian_pagan
+	holding = tribal_holding
+	1235.1.1 = {
+		holding = castle_holding
+	}
+}
+3199 = {	#TORUN
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+3202 = {	#WABRZEZNO
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+
+###c_osterode (c_sasna)
+3214 = {	#YLAVIA
+	culture = galindian
+	religion = prussian_pagan
+	holding = tribal_holding
+	1235.1.1 = {
+		holding = castle_holding
+	}
+}
+3200 = {	#LUBAVIA
+	holding = none
+	culture = galindian
+	religion = prussian_pagan
+}
+3213 = {	#DRWECA
+	holding = none
+	culture = galindian
+	religion = prussian_pagan
+}
+
+###c_allenstein (c_galindia)
+3212 = {	#ALNASTEINI
+	culture = galindian
+	religion = prussian_pagan
+	holding = tribal_holding
+}
+3211 = {	#SCTINO
+	holding = none
+	culture = galindian
+	religion = prussian_pagan
+}
+3215 = {	#NIDZIA
+	holding = none
+	culture = galindian
+	religion = prussian_pagan
+}
+
+###c_angerburg (c_sudovia)
+3208 = {	#RINS
+	culture = galindian
+	religion = prussian_pagan
+	holding = tribal_holding
+}
+3210 = {	#LUKS
+	holding = none
+	culture = galindian
+	religion = prussian_pagan
+}
+3209 = {	#ANGER
+	holding = none
+	culture = galindian
+	religion = prussian_pagan
+}
+
+##d_courland ###################################
+###c_zemigalians
+104 = {		#RIGA
+	culture = livonian
+	religion = estonian_pagan
+	holding = tribal_holding
+	1066.1.1 = {
+		buildings = {
+			market_villages_01
+			longhouses_01
+		}
+	}
+}
+107 = {		#MITAU
+	holding = castle_holding
+	culture = semigallian
+	religion = maramate_pagan
+	holding = tribal_holding
+	1220.1.1 = {
+		holding = castle_holding
+	}
+}
+105 = {		#BAUSKA
+	holding = none
+	culture = semigallian
+	religion = maramate_pagan
+}
+106 = {		#DOBELE
+	holding = none
+	culture = semigallian
+	religion = maramate_pagan
+}
+121 = {		#NEUENBURG
+	holding = none
+	culture = semigallian
+	religion = maramate_pagan
+}
+
+###c_vanemane
+110 = {		#PILTENE
+	culture = curonian
+	religion = maramate_pagan
+	holding = tribal_holding
+	1210.1.1 = {
+		holding = castle_holding
+	}
+}
+117 = {		#DUNDAGA
+	culture = curonian
+	religion = maramate_pagan
+	holding = tribal_holding
+	1210.1.1 = {
+		holding = castle_holding
+	}
+}
+112 = {		#KANDAVA
+	holding = none
+	culture = curonian
+	religion = maramate_pagan
+}
+
+###c_grobin
+114 = {		#GROBIN
+	culture = curonian
+	religion = maramate_pagan
+	holding = tribal_holding
+	1260.1.1 = {
+		holding = castle_holding
+	}
+}
+113 = {		#BANDAVA
+	holding = none
+	culture = curonian
+	religion = maramate_pagan
+}
+116 = {		#DUVZARE
+	holding = none
+	culture = curonian
+	religion = maramate_pagan
+}
+111 = {		#CEKLIS
+	holding = none
+	culture = curonian
+	religion = maramate_pagan
+}
+
+###c_selpils
+133 = {		#SELPILS
+	culture = selonian
+	religion = maramate_pagan
+	holding = tribal_holding
+	1199.1.1 = {
+		religion = catholic
+	}
+	1215.1.1 = {
+		holding = castle_holding
+	}
+}
+150 = {		#OKNIST
+	holding = none
+	culture = selonian
+	religion = maramate_pagan
+}
+
+##d_latgalians ###################################
+###c_talava
+102 = {		#VALMIERA
+	culture = latgalian
+	religion = latvian_pagan
+	holding = tribal_holding
+	1215.1.1 = {
+		holding = castle_holding
+	}
+}
+109 = {		#VENDEN
+	holding = none
+	culture = latgalian
+	religion = latvian_pagan
+}
+142 = {		#RAUNA
+	holding = none
+	culture = latgalian
+	religion = latvian_pagan
+}
+
+###c_kokenois
+103 = {		#KOKENOIS
+	culture = latgalian
+	religion = latvian_pagan
+	holding = tribal_holding
+	1215.1.1 = {
+		holding = castle_holding
+	}
+}
+139 = {		#CESVAINE
+	holding = none
+	culture = latgalian
+	religion = latvian_pagan
+}
+134 = {		#LENNEWARDEN
+	holding = none
+	culture = latgalian
+	religion = latvian_pagan
+}
+
+###c_jersika
+136 = {		#JERSIKA
+	culture = latgalian
+	religion = latvian_pagan
+	holding = tribal_holding
+	1215.1.1 = {
+		holding = castle_holding
+	}
+}
+135 = {		#JEKABPILS
+	holding = none
+	culture = latgalian
+	religion = latvian_pagan
+}
+137 = {		#DAUGAVPILS
+		culture = latgalian
+	religion = latvian_pagan
+	holding = tribal_holding
+	1215.1.1 = {
+		holding = castle_holding
+	}
+}
+138 = {		#REZEKNE
+	holding = none
+	culture = latgalian
+	religion = latvian_pagan
+}
+
+###c_aluksne
+141 = {		#ALUKSNE
+	culture = latgalian
+	religion = latvian_pagan
+	holding = tribal_holding
+	1215.1.1 = {
+		holding = castle_holding
+	}
+}
+140 = {		#GULBENE
+	holding = none
+	culture = latgalian
+	religion = latvian_pagan
+}
+
+##d_samogitia ###################################
+###c_raseiniai
+124 = {		#RASEINIAI
+	culture = samogitian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+123 = {		#JURBARKAS
+	holding = none
+	culture = samogitian
+	religion = baltic_pagan
+}
+129 = {		#VELIUONA
+	holding = none
+	culture = samogitian
+	religion = baltic_pagan
+}
+131 = {		#KEDAINIAI
+	holding = none
+	culture = samogitian
+	religion = baltic_pagan
+}
+
+###c_scalovia
+120 = {		#RAGNIT
+	culture = prussian
+	religion = prussian_pagan
+	holding = tribal_holding
+}
+119 = {		#TILSIT
+	holding = none
+	culture = prussian
+	religion = prussian_pagan
+}
+
+###c_memel
+118 = {		#MEMEL
+	culture = skalvian
+	religion = prussian_pagan
+	holding = tribal_holding
+}
+125 = {		#TAURAGE
+	holding = none
+	culture = skalvian
+	religion = prussian_pagan
+}
+
+###c_palanga
+115 = {		#PALANGA
+	culture = samogitian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+126 = {		#MEDENIKEN
+	holding = none
+	culture = samogitian
+	religion = baltic_pagan
+}
+128 = {		#TELSIAI
+	holding = none
+	culture = samogitian
+	religion = baltic_pagan
+}
+
+###c_siauliai
+127 = {		#SIAULIAI
+	culture = samogitian
+	religion = baltic_pagan
+	holding = tribal_holding
+}
+132 = {		#UPYTE
+	holding = none
+	culture = samogitian
+	religion = baltic_pagan
+}
+152 = {		#BIRZAI
+	holding = none
+	culture = samogitian
+	religion = baltic_pagan
+}

@@ -1,0 +1,31 @@
+e_tibet = { # Nestorian but religiously diverse empire in all start dates, founded 703 by a Nestorian zhangzhung of assyrian descent named Isaak Shenlha whose family stretches back to 600
+	# birthplace of religions, both christian and non christian # most notable being the slightly Ireneist-influenced in theology and Mahayana influenced in practice Tibetan Church founded arround 904 AD
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 10 }
+	1130.1.1 = { change_development_level = 18 }
+	1200.1.1 = { change_development_level = 25 }
+	703.1.1 = {
+		holder = drstibet0013 # Isaak Shenlha Bar Isaac
+	}
+	713.1.1 = {
+		holder = drstibet0014 # Sabrishoqh Dokchen Bar Isaac
+	}
+	762.1.1 = {
+		holder = drstibet0022 # Dadishoqh O_sel Bar Isaac
+	}
+	768.1.1 = {
+		holder = drstibet0024 # Yahballaha Tonggyung Bar Isaac
+	}
+	782.1.1 = {
+		holder = drstibet0025 # Emmanuel Zijid Bar Isaac
+	}
+	811.1.1 = {
+		holder = drstibet0027 # Joseph Berkya Bar Isaac
+	}
+	832.1.1 = {
+		holder = drstibet0028 # Ezekiel Dongla Bar Isaac
+	}
+	852.1.1 = {
+		holder = drstibet0029 # Isho'yahb Shem'on Gyer Bar Isaac
+	}
+}

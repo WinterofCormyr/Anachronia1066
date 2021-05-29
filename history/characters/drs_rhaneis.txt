@@ -1,0 +1,344 @@
+﻿#Pontic Empire # pontic Culture pontic_aitahism Religion characters
+
+# rulers of the Pontic Empire post 953
+drsrhaneis0001 = {
+	name = "Helias" # Emperor Helias I Rhaneis of Pontus
+	# wife Cybelis # daughter Leontia # daughter Eupraxia # daughter Aithogone
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	923.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1018.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0002 = {
+	name = "Cybelis" 
+	female = yes
+	religion = pontic_aitahism
+	culture = pontic
+	923.1.1 = {
+		birth = yes
+	}
+	943.1.1 = {
+		add_spouse = drsrhaneis0001 # Helias I Rhaneis, Emperor of Pontus # daughter Leontia I Rhaneis, Empress of Pontus # daughter Eupraxia Rhaneis # daughter Aithogone Rhaneis
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1018.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0003 = {
+	name = "Leontia" # Empress Leontia I Rhaneis of Pontus
+	# son Seisiaros
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsrhaneis0001 # Helias Rhaneis
+	mother = drsrhaneis0002 # Cybelis
+	944.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1037.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0004 = {
+	name = "Eupraxia" # Princess Eupraxia Rhaneis of Pontus
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsrhaneis0001 # Helias Rhaneis
+	mother = drsrhaneis0002 # Cybelis
+	945.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0005 = { # theophoric name Aithogone honors Aitah
+	name = "Aithogone" # Princess Aithogone Rhaneis of Pontus
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsrhaneis0001 # Helias Rhaneis
+	mother = drsrhaneis0002 # Cybelis
+	946.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0006 = {
+	name = "Seisiaros" # Emperor Seisiaros I Rhaneis of Pontus # hydrophoric name after river Seshweay
+	# wife Aiasia whose name is a theophoric name after Aya'se # daughter Riana # son Malichar # daughter Selena # twins Helian who is male and Eosse who is female # son Kvarkvare
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	mother = drsrhaneis0003 # Leontia Rhaneis
+	964.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0007 = {
+	name = "Aiasia" 
+	female = yes
+	religion = pontic_aitahism
+	culture = pontic
+	964.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
+		add_spouse = drsrhaneis0006 # Seisiaros I Rhaneis, Emperor of Pontus # daughter Riana # son Malichar # daughter Selena # twins Helian who is male and Eosse who is female # son Kvarkvare
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0008 = {
+	name = "Riana" # Empress Riana I Rhaneis of Pontus 
+	# husband Ishkhanik georgian # daughter Vardo georgian
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsrhaneis0006 # Seisiaros Rhaneis
+	mother = drsrhaneis0007 # Aiasia
+	985.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0009 = {
+	name = "Malichar" # 
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsrhaneis0006 # Seisiaros Rhaneis
+	mother = drsrhaneis0007 # Aiasia
+	986.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0010 = {
+	name = "Selena" #
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsrhaneis0006 # Seisiaros Rhaneis
+	mother = drsrhaneis0007 # Aiasia
+	987.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1056.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0011 = {
+	name = "Helian" # 
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsrhaneis0006 # Seisiaros Rhaneis
+	mother = drsrhaneis0007 # Aiasia
+	trait = twin
+	988.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1074.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0012 = {
+	name = "Eosse" # 
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = pontic
+	father = drsrhaneis0006 # Seisiaros Rhaneis
+	mother = drsrhaneis0007 # Aiasia
+	trait = twin
+	988.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = georgian
+	}
+	1048.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0013 = {
+	name = "Kvarkvare" # 
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = georgian
+	father = drsrhaneis0006 # Seisiaros Rhaneis
+	mother = drsrhaneis0007 # Aiasia
+	989.1.1 = {
+		birth = yes
+	}
+	1082.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0014 = {
+	name = "Ishkhanik" 
+	religion = pontic_aitahism
+	culture = georgian
+	985.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		add_matrilineal_spouse = drsrhaneis0008 # Riana I Rhaneis, Empress of Pontus # daughter Vardo
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0015 = {
+	name = "Vardo" # Empress Vardo I Rhaneis of Pontus
+	# husband Anzori # daughter Suliko # daughter Judjuna # daughter Tsiala
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = georgian
+	father = drsrhaneis0014 # Ishkhanik
+	mother = drsrhaneis0008 # Riana Rhaneis
+	1006.1.1 = {
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0016 = {
+	name = "Ansori" 
+	religion = pontic_aitahism
+	culture = georgian
+	1006.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		add_matrilineal_spouse = drsrhaneis0015 # Vardo I Rhaneis, Empress of Pontus # daughter Suliko # daughter Judjuna # daughter Tsiala
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0017 = {
+	name = "Suliko" # Empress Suliko I Rhaneis of Pontus
+	# singular daughter Shukhia
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = georgian
+	father = drsrhaneis0016 # Ansori
+	mother = drsrhaneis0015 # Vardo Rhaneis
+	1027.1.1 = {
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0018 = {
+	name = "Judjuna" # 
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = georgian
+	father = drsrhaneis0016 # Ansori
+	mother = drsrhaneis0015 # Vardo Rhaneis
+	1028.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0019 = {
+	name = "Tsiala" # 
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = georgian
+	father = drsrhaneis0016 # Ansori
+	mother = drsrhaneis0015 # Vardo Rhaneis
+	1029.1.1 = {
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}
+drsrhaneis0020 = {
+	name = "Shukhia" # 
+	female = yes
+	dynasty = drsdyn8 # Rhaneis
+	religion = pontic_aitahism
+	culture = georgian
+	mother = drsrhaneis0017 # Suliko Rhaneis
+	1047.1.1 = {
+		birth = yes
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}
+####1116 HOUSE UNI-NA-KUMARBI OF CILICIAN CLAIMS IMPERIAL THRONE
+#### if House Rhaneis main line falls the Hurrian dynasty of Cilician will take the imperial throne
+#### before Armenia do Attalata to 1066
+#after that do Cilician to 1066
+#### After 1066 is done do Kings of Armenia who are armenian and armenian_apostolic
+# After Armenia do Kings of Anatolia who are Hattian and Zalwari Faith # Replace Greeks in Anatolia with hattian Culture provinces # generate new hattian names LATER
+#### 953 throne of Pontus passes to house Rhaneis # house Attalata reigns in Pontus, and the empire capital is moved to Georgia
+#### after 1000 become Georgian culture

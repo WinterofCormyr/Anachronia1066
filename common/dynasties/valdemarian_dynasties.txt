@@ -1,0 +1,36 @@
+﻿valdemardyn1 = {
+	name="Valdemarieskja"
+	culture = danish
+}
+valdemardyn2 = {
+	name="Havaneskja"
+	culture = danish
+}
+valdemardyn3 = {
+	name="Dann"
+	culture = danish
+}
+valdemardyn4 = {
+	name="Devinieskja"
+	culture = danish
+}
+valdemardyn5 = {
+	name="Erroldieskja"
+	culture = danish
+}
+valdemardyn6 = {
+	name="Rustaami"
+	culture = khorasani
+}
+valdemardyn7 = {
+	name="Senasar"
+	culture = gothic
+}
+valdemardyn8 = {
+	name="Lakeholding"
+	culture = gothic
+}
+valdemardyn9 = {
+	name="Lissandrieskja"
+	culture = danish
+}

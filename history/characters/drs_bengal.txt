@@ -1,0 +1,198 @@
+﻿drsbengal0003 = { 
+	name = "Marta Harachipar" # founds Empire of Bengal, which is on its last legs in 867
+	female = yes # daughter founds Nestorian Church of Bengal # which is #heavily# syncretized with Hinduism and Buddhism # and survives to 1066 at the very least # also has gender equality
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0001
+	621.1.1 = {
+		birth = yes
+	}
+	702.1.1 = {
+		death = yes
+	}
+}
+drsbengal0004 = { 
+	name = "Maria Bhavashankari" # founds Empire of Bengal, which is on its last legs in 867
+	female = yes # daughter founds Nestorian Church of Bengal # which is #heavily# syncretized with Hinduism and Buddhism # and survives to 1066 at the very least # also has gender equality
+	# daughter Mariam Bushwas Devi
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = bengali
+	mother = drsbengal0003
+	641.1.1 = {
+		birth = yes
+	}
+	713.1.1 = {
+		religion = banali_girja # Bengali Church
+	}
+	728.1.1 = {
+		death = yes
+	}
+}
+drsbengal0005 = { 
+	name = "Mariam Bishwas Devi" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = bengali
+	mother = drsbengal0004
+	661.1.1 = {
+		birth = yes
+	}
+	713.1.1 = {
+		religion = banali_girja # Bengali Church
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+drsbengal0006 = { 
+	name = "Isaac Amritnarayan" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = bengali
+	mother = drsbengal0004
+	662.1.1 = {
+		birth = yes
+	}
+	713.1.1 = {
+		religion = banali_girja # Bengali Church
+	}
+	749.1.1 = {
+		death = yes
+	}
+}
+drsbengal0007 = { 
+	name = "Israel Balabhata" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = bengali
+	mother = drsbengal0004
+	663.1.1 = {
+		birth = yes
+	}
+	713.1.1 = {
+		religion = banali_girja # Bengali Church
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+drsbengal0008 = { 
+	name = "Nura Bhogavati" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = bengali
+	mother = drsbengal0004
+	664.1.1 = {
+		birth = yes
+	}
+	713.1.1 = {
+		religion = banali_girja # Bengali Church
+	}
+	751.1.1 = {
+		death = yes
+	}
+}
+drsbengal0009 = { 
+	name = "Thaddea Bibibai" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = bengali
+	mother = drsbengal0005 # Mariam Bishwas Devi
+	681.1.1 = {
+		birth = yes
+	}
+	713.1.1 = {
+		religion = banali_girja # Bengali Church
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+drsbengal0010 = { 
+	name = "Isaac Balinarayan" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = bengali
+	mother = drsbengal0009 # Thaddea Bibibai Bar Isaac
+	701.1.1 = {
+		birth = yes
+	}
+	713.1.1 = {
+		religion = banali_girja # Bengali Church
+	}
+	769.1.1 = {
+		death = yes
+	}
+}
+drsbengal0011 = { 
+	name = "Samuel Ballalsen" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = banali_girja
+	culture = bengali
+	father = drsbengal0010 # Isaac Balinarayan Bar Isaac
+	721.1.1 = {
+		birth = yes
+	}
+	789.1.1 = {
+		death = yes
+	}
+}
+drsbengal0012 = { 
+	name = "Lazarus Harendranarayan" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = banali_girja
+	culture = bengali
+	father = drsbengal0011 # Samuel Ballalsen Bar Isaac
+	741.1.1 = {
+		birth = yes
+	}
+	819.1.1 = {
+		death = yes
+	}
+}
+drsbengal0013 = { 
+	name = "Hannah Dattadevi" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = banali_girja
+	culture = bengali
+	father = drsbengal0012 # Lazarus Harendranarayan Bar Isaac
+	761.1.1 = {
+		birth = yes
+	}
+	839.1.1 = {
+		death = yes
+	}
+}
+drsbengal0014 = { 
+	name = "Chara Devavati" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = banali_girja
+	culture = bengali
+	mother = drsbengal0013 # Hannah Dattadevi Bar Isaac
+	781.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		death = yes
+	}
+}
+drsbengal0016 = { 
+	name = "Silas Vakapala" #
+	dynasty = drsdyn21 # Bar Isaac
+	religion = banali_girja
+	culture = bengali
+	mother = drsbengal0014 # Hannah Dattadevi Bar Isaac
+	802.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}

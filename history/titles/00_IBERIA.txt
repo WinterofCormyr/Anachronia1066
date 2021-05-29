@@ -1,0 +1,4 @@
+e_spain = { # new k_luticy in the e_wendish_empire # follows aelonist aitahism and contains d_nordmark d_wagria and d_ostmark
+	867.1.1 = {	change_development_level = 11 }
+	1066.1.1 = { change_development_level = 22 }
+}

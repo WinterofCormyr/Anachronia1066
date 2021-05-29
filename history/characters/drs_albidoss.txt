@@ -1,0 +1,137 @@
+﻿#Titular Kingdom of Albidoss # pictish Culture brythonic_pagan Religion characters
+
+# rulers of the Titular Kingdom of Albidoss controlling d_albany and d_aberdeen
+drsalbidoss0001 = {
+	name = "Bride" # 1 husband # named Usuullt uab Taran # daughter Margrud # no other children
+	female = yes
+	dynasty = drsdyn209 # ach Bride
+	religion = brythonic_pagan
+	culture = pictish
+	635.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		add_matrilineal_spouse = drsalbidoss0002 # Usuullt uab Taran
+	}
+	715.1.1 = {
+		death = yes
+	}
+}
+drsalbidoss0002 = {
+	name = "Usuullt" # daughter Margrud # no other children
+	dynasty = drsdyn210 # uab Taran
+	religion = brythonic_pagan
+	culture = pictish
+	635.1.1 = {
+		birth = yes
+	}
+	715.1.1 = {
+		death = yes
+	}
+}
+#### GEN 2 #### up to 7 husbands and 7 sets of children
+drsalbidoss0003 = {
+	name = "Margrud" #
+	# 1 husband Urguist uab Ruatirch drsdyn211 # 1 son named Pidarnoin FIRSTBORN AND INHERITS ### WILD OAT CHILDREN # daughter Addiena # son Ru # son Rudri # son Telurg
+	# 2 sets of children # 1 set with husband 1 set of wild oats
+	female = yes
+	dynasty = drsdyn209 # ach Bride
+	religion = brythonic_pagan
+	culture = pictish
+	father = drsalbidoss0002 # Usuullt uab Taran
+	mother = drsalbidoss0001 # Bride ach Bride
+	656.1.1 = {
+		birth = yes
+	}
+	676.1.1 = {
+		add_matrilineal_spouse = drsalbidos0004 # Urguist uab Ruatirch
+	}
+	736.1.1 = {
+		death = yes
+	}
+}
+drsalbidoss0004 = {
+	name = "Urguist" # son Pidarnoin
+	dynasty = drsdyn211 # uab Ruatirch
+	religion = brythonic_pagan
+	culture = pictish
+	656.1.1 = {
+		birth = yes
+	}
+	736.1.1 = {
+		death = yes
+	}
+}
+#### GEN 3 #### UP TO 4 SPOUSES AND 5 SETS OF CHILDREN #### UP TO 9 CHILDREN PER SET
+drsalbidoss0005 = {
+	name = "Pidarnoin" #
+	# 4 wives
+	dynasty = drsdyn209 # ach Bride
+	religion = brythonic_pagan
+	culture = pictish
+	father = drsalbidoss0004 # Urguist uab Ruatirch
+	mother = drsalbidoss0003 # Margrud ach Bride
+	677.1.1 = {
+		birth = yes
+	}
+	757.1.1 = {
+		death = yes
+	}
+}
+drsalbidoss0006 = {
+	name = "Addiena" #
+	female = yes
+	dynasty = drsdyn209 # ach Bride
+	religion = brythonic_pagan
+	culture = pictish
+	mother = drsalbidoss0003 # Margrud ach Bride
+	trait = wild_oat
+	678.1.1 = {
+		birth = yes
+	}
+	758.1.1 = {
+		death = yes
+	}
+}
+drsalbidoss0007 = {
+	name = "Ru" #
+	dynasty = drsdyn209 # ach Bride
+	religion = brythonic_pagan
+	culture = pictish
+	mother = drsalbidoss0003 # Margrud ach Bride
+	trait = wild_oat
+	679.1.1 = {
+		birth = yes
+	}
+	759.1.1 = {
+		death = yes
+	}
+}
+drsalbidoss0008 = {
+	name = "Rudri" #
+	dynasty = drsdyn209 # ach Bride
+	religion = brythonic_pagan
+	culture = pictish
+	mother = drsalbidoss0003 # Margrud ach Bride
+	trait = wild_oat
+	680.1.1 = {
+		birth = yes
+	}
+	760.1.1 = {
+		death = yes
+	}
+}
+drsalbidoss0009 = {
+	name = "Telurg" #
+	dynasty = drsdyn209 # ach Bride
+	religion = brythonic_pagan
+	culture = pictish
+	mother = drsalbidoss0003 # Margrud ach Bride
+	trait = wild_oat
+	681.1.1 = {
+		birth = yes
+	}
+	761.1.1 = {
+		death = yes
+	}
+}

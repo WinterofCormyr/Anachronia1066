@@ -1,0 +1,21 @@
+﻿can_become_reincarnation_trigger = {
+	save_temporary_scope_as = reincarnated_child
+	faith = {
+		has_doctrine_parameter = reincarnation_events_active # Changed from has_doctrine = tenet_reincarnation to has_doctrine_parameter = reincarnation_events_active
+	}
+	any_parent = {
+		is_landed = yes
+		faith = scope:reincarnated_child.faith
+	}
+}
+
+mz_has_grove_modifier = {
+	OR = {
+		has_character_modifier = mz_grove_martial_major_modifier
+		has_character_modifier = mz_grove_martial_minor_modifier
+		has_character_modifier = mz_grove_wealth_major_modifier
+		has_character_modifier = mz_grove_wealth_minor_modifier
+		has_character_modifier = mz_grove_health_major_modifier
+		has_character_modifier = mz_grove_health_minor_modifier
+	}
+}

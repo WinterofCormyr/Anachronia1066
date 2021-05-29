@@ -1,0 +1,288 @@
+﻿#Kingdom of Jazira # Armenian characters
+
+# rulers of the Kingdom of Jazira # Armenian culture # mesopotamian_aitahism religion
+drsshanahan0001 = {
+	name = "Artashes" # 
+	dynasty_house = house_Shanahan # Shanahan
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsshanahan0014 # Nerseh
+	mother = drsshanahan0013 # Takouhi Shanahan
+	1046.1.1 = {
+		birth = yes
+	}
+	1126.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0002 = {
+	name = "Srpouhi" #
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsarmenia0012 # Kyud Shanahan # drs_armenia file
+	905.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		add_matrilineal_spouse = drsshanahan0003
+	}
+	972.1.1 = {
+		religion = mesopotamian_aitahism
+	}
+	974.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0003 = {
+	name = "Babken" #
+	religion = armenian_apostolic
+	culture = armenian
+	905.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		religion = mesopotamian_aitahism
+	}
+	974.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0004 = {
+	name = "Alitz" #
+	# husband Ghevond # daughter Keghanoush
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsshanahan0003 # Babken
+	mother = drsshanahan0002 # Srpouhi Shanahan
+	926.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		religion = mesopotamian_aitahism
+	}
+	982.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0005 = {
+	name = "Ghevond" #
+	religion = armenian_apostolic
+	culture = armenian
+	926.1.1 = {
+		birth = yes
+	}
+	946.1.1 = {
+		add_matrilineal_spouse = drsshanahan0004 # Alitz Shanahan
+	}
+	972.1.1 = {
+		religion = mesopotamian_aitahism
+	}
+	982.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0006 = {
+	name = "Keghanoush" #
+	# husband Mashdotz # son Yeghishe
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsshanahan0005 # Ghevond
+	mother = drsshanahan0004 # Alitz Shanahan
+	947.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		religion = mesopotamian_aitahism
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0007 = {
+	name = "Mashdotz" #
+	religion = armenian_apostolic
+	culture = armenian
+	947.1.1 = {
+		birth = yes
+	}
+	967.1.1 = {
+		add_matrilineal_spouse = drsshanahan0006 # Keghanoush Shanahan
+	}
+	972.1.1 = {
+		religion = mesopotamian_aitahism
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0008 = {
+	name = "Yeghishe" #
+	# daughter Shoushanig # daughter Almasd # daughter Keran
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = armenian_apostolic
+	culture = armenian
+	father = drsshanahan0007 # Mashdotz
+	mother = drsshanahan0006 # Keghanoush Shanahan
+	968.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		religion = mesopotamian_aitahism
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0009 = {
+	name = "Shoushanig" #
+	# husband Khachig # daughter Takouhi
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsshanahan0008 # Yeghishe Shanahan
+	988.1.1 = {
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0010 = {
+	name = "Almasd" #
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsshanahan0008 # Yeghishe Shanahan
+	989.1.1 = {
+		birth = yes
+	}
+	1044.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0011 = {
+	name = "Keran" #
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsshanahan0008 # Yeghishe Shanahan
+	990.1.1 = {
+		birth = yes
+	}
+	1047.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0012 = {
+	name = "Khachig" #
+	religion = mesopotamian_aitahism
+	culture = armenian
+	988.1.1 = {
+		birth = yes
+	}
+	1008.1.1 = {
+		add_matrilineal_spouse = drsshanahan0009 # Shoushanig Shanahan
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0013 = {
+	name = "Takouhi" #
+	# husband Nerseh # son Oshin
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsshanahan0012 # Khachig
+	mother = drsshanahan0009 # Shoushanig Shanahan
+	1009.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0014 = {
+	name = "Nerseh" #
+	religion = mesopotamian_aitahism
+	culture = armenian
+	1009.1.1 = {
+		birth = yes
+	}
+	1029.1.1 = {
+		add_matrilineal_spouse = drsshanahan0013 # Takouhi Shanahan
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0015 = {
+	name = "Oshin" # daughter Aitah # daughter Vartanoush # daughter Kohar
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsshanahan0014 # Nerseh
+	mother = drsshanahan0013 # Takouhi Shanahan
+	1030.1.1 = {
+		birth = yes
+	}
+	1091.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0016 = {
+	name = "Aitah" 
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsshanahan0015 # Oshin
+	trait = ambitious
+	trait = possessed
+	1050.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0017 = {
+	name = "Vartanoush" 
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsshanahan0015 # Oshin
+	trait = content
+	1051.1.1 = {
+		birth = yes
+	}
+	1127.1.1 = {
+		death = yes
+	}
+}
+drsshanahan0018 = {
+	name = "Kohar" 
+	female = yes
+	dynasty_house = house_Shanahan # Shanahan - ve Kardesh
+	religion = mesopotamian_aitahism
+	culture = armenian
+	father = drsshanahan0015 # Oshin
+	trait = content
+	1052.1.1 = {
+		birth = yes
+	}
+	1128.1.1 = {
+		death = yes
+	}
+}

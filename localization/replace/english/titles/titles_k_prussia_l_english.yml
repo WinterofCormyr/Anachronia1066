@@ -1,0 +1,102 @@
+﻿l_english:
+########################################
+#### k_prussia
+########################################
+k_prussia:0 "Prussia" NEW
+k_prussia_adj:0 "Prussian" NEW
+########################################
+#### d_prussia
+########################################
+d_prussia:0 "Prussia" #Prussia
+d_prussia_adj:0 "Prussian" #Prussian
+c_malbork:0 "Pomesania" #Pomesania
+c_malbork_adj:0 "Pomesanian" #Pomesanian
+b_marienburg:0 "Malbork" #Malbork
+b_marienburg_adj:0 "Malbork"
+b_graudenz:0 "Kwedis" #Kwedis
+b_graudenz_adj:0 "Kwedis"
+b_wislana:0 "Vistula" #Weiksla
+b_wislana_adj:0 "Vistula"
+c_pogesania:0 "Pogesania" #NEW
+c_pogesania_adj:0 "Pogesanian"
+b_elblag:0 "Truso" #Truso
+b_elblag_adj:0 "Truso"
+b_mohrungen:0 "Maurin" #Maurin
+b_mohrungen_adj:0 "Maurin"
+c_wormditt:0 "Warmia" #Warmia
+c_wormditt_adj:0 "Warmian" #Warmian
+b_wormditt:0 "Orneta" #Wormedeten
+b_wormditt_adj:0 "Orneta"
+b_braunsberg:0 "Braunsberga" #Brus
+b_braunsberg_adj:0 "Braunsberga"
+c_natangia:0 "Natangia" #Natangia
+c_natangia_adj:0 "Natangian" #Natangian
+b_laukitten:0 "Pokarwis" #Pokarwis
+b_laukitten_adj:0 "Pokarwis"
+b_paterswalde:0 "Tapiow" #Tapiau
+b_paterswalde_adj:0 "Tapiow"
+b_ostlandsberg:0 "Velowe" #Velowe
+b_ostlandsberg_adj:0 "Velowe"
+c_konigsberg:0 "Sambia" #Sambia
+c_konigsberg_adj:0 "Sambian" #Sambian
+b_konigsberg:0 "Twangste" #Twangste
+b_konigsberg_adj:0 "Twangste"
+b_labiau:0 "Kaup" #Kaup
+b_labiau_adj:0 "Kaup"
+c_bartenstein:0 "Bartia" #Bartia
+c_bartenstein_adj:0 "Bartian" #Bartian
+b_bartenstein:0 "Barta" #Lyna
+b_bartenstein_adj:0 "Barta"
+b_lautenburg:0 "Lidzbark" #Lecbarg
+b_lautenburg_adj:0 "Lidzbark"
+c_scalovia:0 "Nadruvia" #Scalovia
+c_scalovia_adj:0 "Nadruvian" #Scalovian
+b_ragnit:0 "Ragnita" #Ragnit
+b_ragnit_adj:0 "Ragnita"
+b_insterburg:0 "Instra" #Isrutis
+b_insterburg_adj:0 "Instra"
+b_tilsit:0 "Tilsit" #Tilsit
+b_tilsit_adj:0 "Tilsit"
+c_memel:0 "Skalvia" #Memel
+c_memel_adj:0 "Skalvian" #Memelian
+b_taurage:0 "Taurage" #Taurage
+b_taurage_adj:0 "Taurage"
+b_memel:0 "Memel" #Memel
+b_memel_adj:0 "Memel"
+########################################
+#### d_masuria
+########################################
+d_masuria:0 "Masuria" #Masuria
+d_masuria_adj:0 "Masurian" #Masurian
+c_torun:0 "Culmland" #Chełmno
+c_torun_adj:0 "Culmlandian" #Chełmnoan
+b_kulm:0 "Culm" #Chełmno
+b_kulm_adj:0 "Culm"
+b_torun:0 "Thorunia" #Toruń
+b_torun_adj:0 "Thorunian"
+c_lubavia:0 "Lubavia" #NEW
+c_lubavia_adj:0 "Lubavian"
+b_brodnica:0 "Brodnica" #Lubavia
+b_brodnica_adj:0 "Brodnica"
+b_briesen:0 "Wambresia" #Wąbrzeźno
+b_briesen_adj:0 "Wambresian"
+c_osterode:0 "Sasna" #Sasna
+c_osterode_adj:0 "Sasnan" #Sasnan
+b_eylau:0 "Ylavia" #Ylavia
+b_eylau_adj:0 "Ylavian"
+b_osterode:0 "Osterode" #Drweca
+b_osterode_adj:0 "Osteroden"
+c_allenstein:0 "Galindia" #Galindia
+c_allenstein_adj:0 "Galindian" #Galindian
+b_allenstein:0 "Berting" #Alnasteini
+b_allenstein_adj:0 "Berting"
+b_ortelsburg:0 "Szczytno" #Sctino
+b_ortelsburg_adj:0 "Szczytno"
+b_niedenburg:0 "Nida" #Nidzia
+b_niedenburg_adj:0 "Nidan"
+c_mauraws:0 "Mamry" #NEW
+c_mauraws_adj:0 "Mamry"
+b_lotzen:0 "Leicze" #Rins
+b_lotzen_adj:0 "Leicze"
+b_rastenburg:0 "Rasten" #Aestia
+b_rastenburg_adj:0 "Rasten"

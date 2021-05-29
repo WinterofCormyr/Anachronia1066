@@ -1,0 +1,86 @@
+﻿##############################
+# Terrain Specific Buildings #
+##############################
+
+### Grindos
+grindos_01 = { #Žemgrindos
+	type_icon = "icon_building_grindos.dds"
+	construction_time = quick_construction_time
+	is_enabled = {
+		building_grindos_requirement_terrain = yes
+	}
+	can_construct_potential = {
+		building_grindos_requirement_terrain = yes
+	}
+	cost_prestige = expensive_building_tier_1_cost
+	cost_gold = tribal_building_tier_1_cost
+	county_modifier = {
+		monthly_county_control_change_add = 0.1
+		defender_holding_advantage = 2
+		levy_reinforcement_rate = 0.02
+	}
+	province_modifier = {
+		levy_reinforcement_rate = 0.02
+	}
+	ai_value = {
+		base = 1
+	}
+	next_building = grindos_02
+}
+grindos_02 = { #Medgrindos
+	type_icon = "icon_building_grindos.dds"
+	construction_time = quick_construction_time
+	is_enabled = {
+		culture = {
+			has_innovation = innovation_grindos
+		}
+	}
+	can_construct_potential = {
+		building_grindos_requirement_terrain = yes
+		culture = {
+			has_innovation = innovation_grindos
+		}
+	}
+	cost_prestige = expensive_building_tier_1_cost
+	cost_gold = tribal_building_tier_1_cost
+	county_modifier = {
+		monthly_county_control_change_add = 0.2
+		defender_holding_advantage = 4
+		levy_reinforcement_rate = 0.04
+	}
+	province_modifier = {
+		levy_reinforcement_rate = 0.04
+	}
+	ai_value = {
+		base = 1
+	}
+	next_building = grindos_03
+}
+grindos_03 = { #Kūlgrindos
+	type_icon = "icon_building_grindos.dds"
+	construction_time = quick_construction_time
+	is_enabled = {
+		culture = {
+			has_innovation = innovation_grindos
+		}
+	}
+	can_construct_potential = {
+		building_grindos_requirement_terrain = yes
+		culture = {
+			has_innovation = innovation_grindos
+		}
+	}
+	cost_prestige = expensive_building_tier_1_cost
+	cost_gold = tribal_building_tier_1_cost
+	county_modifier = {
+		monthly_county_control_change_add = 0.3
+		defender_holding_advantage = 6
+		levy_reinforcement_rate = 0.06
+	}
+	province_modifier = {
+		levy_reinforcement_rate = 0.06
+	}
+	ai_value = {
+		base = 1
+	}
+}

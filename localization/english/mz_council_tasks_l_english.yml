@@ -1,0 +1,9 @@
+﻿l_english:
+  MZ_COURT_CHAPLAIN_CONVERSION_UKKO_SURVIVOR_MODIFIER:2 "[county.GetProvince.GetCounty.GetCulture.GetName] — [GetFaithDoctrine('mz_tenet_survivor_of_ukko').GetBaseName]"
+  MZ_STEWARD_PROMOTE_CULTURE_SURVIVOR_OF_UKKO_MODIFIER:2 "[county.GetProvince.GetCounty.GetFaith.GetName] — [GetFaithDoctrine('mz_tenet_survivor_of_ukko').GetBaseName]"
+  MZ_COURT_CHAPLAIN_CONVERSION_DIEVAS_DEFENDER_MODIFIER:2 "[county.GetProvince.GetCounty.GetFaith.GetName] — [GetFaithDoctrine('mz_tenet_defenders_of_dievas').GetBaseName]"
+  MZ_STEWARD_PROMOTE_CULTURE_CIVILIZED_MODIFIER:2 "[county.GetProvince.GetCounty.GetFaith.GetName] — [GetFaithDoctrine('mz_tenet_civilized').GetBaseName]"
+  MZ_COURT_CHAPLAIN_CONVERSION_CIVILIZED_MODIFIER:2 "[county.GetProvince.GetCounty.GetCulture.GetName] — [GetFaithDoctrine('mz_tenet_civilized').GetBaseName]"
+  MZ_COURT_CHAPLAIN_CONVERSION_TANI_RESISTANCE_MODIFIER:2 "[county.GetProvince.GetCounty.GetCulture.GetName] — [GetFaithDoctrine('mz_tenet_tani_resistance').GetBaseName]"
+  MZ_COURT_CHAPLAIN_CONVERSION_TOTEM_SPIRITS_MODIFIER:2 "[county.GetProvince.GetCounty.GetCulture.GetName] — [GetFaithDoctrine('mz_tenet_totem_spirits').GetBaseName]"
+  MZ_DEVELOP_COUNTY_CIVILIZED_BONUS:2 "[county.GetProvince.GetCounty.GetFaith.GetName] — [GetFaithDoctrine('mz_tenet_civilized').GetBaseName]"

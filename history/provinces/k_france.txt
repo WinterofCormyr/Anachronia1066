@@ -1,0 +1,1177 @@
+#k_france
+##d_valois ###################################
+###c_ile_de_france
+2333 = {	#PARIS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+	769.1.1 = {
+		special_building_slot = notre_dame_01
+	}
+	867.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			castle_02
+			farm_estates_02
+			curtain_walls_01
+			regimental_grounds_01
+		}
+	}
+}
+2357 = {	#SAINT DENIS
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+	867.1.1 = {
+		buildings = {
+			temple_02
+		}
+	}
+}
+2356 = {	#MONTREUIL
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2334 = {	#VERSAILLES
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+2335 = {	#MONTLHERY
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1015.1.1 = {
+		holding = castle_holding
+	}
+}
+2336 = {	#ETAMPES
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_brie_francaise
+2354 = {	#MELUN
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2353 = {	#BRAY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2337 = {	#NEMOURS
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1120.1.1 = {
+		holding = castle_holding
+	}
+}
+2342 = {	#MONTEREAU
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_vermandois
+2397 = {	#MARLE
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2400 = {	#ROUCY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2399 = {	#LAON
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_valois
+2358 = {	#SENLIS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2360 = {	#CREPY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2398 = {	#COUCY
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1150.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_amiens
+2184 = {	#AMIENS
+	culture = picard
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2185 = {	#CORBIE
+	holding = castle_holding
+	culture = picard
+	religion = gallian_ireneism
+}
+2186 = {	#PERONNE
+	holding = castle_holding
+	culture = picard
+	religion = gallian_ireneism
+}
+
+###c_beaumont
+2190 = {	#BEAUMONT
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2181 = {	#MANTES
+	holding = castle_holding
+	culture = picard
+	religion = gallian_ireneism
+}
+2183 = {	#BEAUVAIS
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2332 = {	#MONTFORT
+	holding = none
+	culture = picard
+	religion = gallian_ireneism
+}
+
+###c_clermont
+2189 = {	#CLERMONT
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2188 = {	#NOYON
+	holding = castle_holding
+	culture = picard
+	religion = gallian_ireneism
+}
+2187 = {	#SAINT-QUENTIN
+	holding = castle_holding
+	culture = picard
+	religion = gallian_ireneism
+}
+
+##d_berry ###################################
+###c_berry
+2280 = {	#DEOLS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2279 = {	#CHATEAUROUX
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2276 = {	#LA HAYE, today known as "Descartes" in Indre-et-Loire
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_tourraine
+2274 = {	#TOURS
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2273 = {	#TOURRAINE
+	
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			cereal_fields_01
+			hunting_grounds_01
+			military_camps_01
+		}
+	}
+}
+2275 = {	#LOCHES
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_blois
+2319 = {	#BLOIS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2318 = {	#CONTRES
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+2316 = {	#ROMORANTIN
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_issoudun
+2278 = {	#ISSOUDUN
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2277 = {	#VALENCAY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2312 = {	#BOURGES
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+##d_anjou ###################################
+###c_anjou
+2267 = {	#ANGERS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2263 = {	#LUIGNE
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1186.1.1 = {
+		holding = castle_holding
+	}
+}
+2268 = {	#LA FLECHE
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+2269 = {	#LE LUDE
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2262 = {	#CRAON
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_saumur
+2261 = {	#SAUMUR
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2260 = {	#MELAY
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_maine
+2270 = {	#LE MANS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2272 = {	#COURCILLON	= Dissay-sous-Courcillon
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+2271 = {	#SARTHE
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_sable
+2264 = {	#SABLE
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2266 = {	#MAYENNE
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2265 = {	#LAVAL
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_normandy ###################################
+###c_rouen
+2179 = {	#ROUEN
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+	1066.1.1 = {
+		buildings = {
+			castle_02
+			ramparts_01
+			barracks_01
+			hunting_grounds_01
+			logging_camps_01
+		}
+	}
+}
+2180 = {	#GISORS
+	holding = castle_holding
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+}
+9799 = {	#GISORS
+	holding = castle_holding
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+}
+2175 = {	#HARCOURT
+	holding = castle_holding
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+}
+
+###c_evreux
+2329 = {	#EVREUX
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+2330 = {	#VERNON
+	holding = castle_holding
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+}
+2328 = {	#VERNEUIL
+	holding = none
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+}
+
+###c_bayeux
+2170 = {	#BAYEUX
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+2172 = {	#CAEN
+	holding = castle_holding
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+}
+2173 = {	#FALAISE
+	holding = none
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+}
+
+###c_avranches
+2167 = {	#AVRANCHES
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+9801 = {	#AVRANCHES
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+9802 = {	#AVRANCHES
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+2169 = {	#CHERBOURG
+		culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+2168 = {	#COUTANCES
+	holding = none
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+9803 = {	#COUTANCES
+	holding = none
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+###c_alencon
+2325 = {	#ALENCON
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+2171 = {	#MORTAIN
+		culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+9800 = {	#MORTAIN
+		culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+2326 = {	#ARGENTAN
+	holding = castle_holding
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+}
+
+###c_lisieux
+2174 = {	#LISIEUX
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+2327 = {	#SEES
+	holding = castle_holding
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+}
+
+###c_eu
+2178 = {	#EU
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+9798 = {	#EU
+	culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+2176 = {	#FECAMP
+		culture = neustrian
+	religion = gallian_ireneism
+	holding = castle_holding
+	960.1.1 = {	culture = norman }
+	#1100.11.11 = { culture = neustrian } #The Norman language/dialect didn't just disappear in 1100
+}
+2177 = {	#DIEPPE
+	holding = none
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+2182 = {	#AUMALE
+	holding = none
+	culture = neustrian
+	religion = gallian_ireneism
+	960.1.1 = {	culture = norman }
+	996.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_orleans ###################################
+###c_orleans
+2338 = {	#ORLEANS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			farm_estates_01
+			cereal_fields_02
+		}
+	}
+}
+2320 = {	#BEAUGENCY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2317 = {	#OLIVET
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	950.1.1 = {
+		holding = castle_holding
+	}
+}
+2315 = {	#VIERZON
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_montargis
+2339 = {	#MONTARGIS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2340 = {	#COURTENAY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2341 = {	#CHATEAU RENARD
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_vendome
+2283 = {	#VENODME
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2321 = {	#CHATEAUDUN
+		culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+
+###c_chartres
+2331 = {	#DREUX
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2322 = {	#CHARTRES
+		culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2323 = {	#NOGENT-LE-ROTROU
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2324 = {	#Perche / Mortagne
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_sancerre
+2314 = {	#SANCERRE
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2463 = {	#SULLY SUR LOIRE
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+2313 = {	#HERRY
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+
+##d_champagne ###################################
+###c_reims
+2390 = {	#REIMS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			monastic_schools_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			monastic_schools_02
+			hunting_grounds_01
+		}
+	}
+}
+2366 = {	#EPERNAY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2362 = {	#CHATILLON = Chatillon-sur-Marne
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2361 = {	#CHATEAU THIERRY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_troyes
+2371 = {	#TROYES
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			cereal_fields_02
+			curtain_walls_01
+		}
+	}
+}
+2375 = {	#CLAIRVAUX
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+2373 = {	#JOINVILLE
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2372 = {	#BAR SUR AUBE
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_coulommiers = Provins
+2363 = {	#PROVINS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			castle_02
+			cereal_fields_02
+			curtain_walls_01
+			hunting_grounds_01
+		}
+	}
+}
+2364 = {	#COULOMMIERS
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2365 = {	#ROMILLY
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1150.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_meaux
+2359 = {	#MEAUX
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2355 = {	#CRECY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_chalons
+2392 = {	#CHALONS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2389 = {	#SAINT DIZIER
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2367 = {	#VITRY EN PERTHOIS
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_rethel
+2391 = {	#RETHEL
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2393 = {	#GRANDPRE
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2394 = {	#MEZIERES
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	900.1.1 = {
+		holding = castle_holding
+	}
+}
+2396 = {	#ROMIGNY
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_sens
+2352 = {	#SENS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2368 = {	#NOGENT
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2369 = {	#AUBE
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1145.1.1 = {
+		holding = castle_holding
+	}
+}
+2370 = {	#BAR SUR SEINE
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+
+##d_burgundy ###################################
+###c_dijon
+2380 = {	#DIJON
+	culture = bourguignon
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2382 = {	#GRAY
+	holding = none
+	culture = bourguignon
+	religion = gallian_ireneism
+}
+2381 = {	#CHAUMONT
+	holding = castle_holding
+	culture = bourguignon
+	religion = gallian_ireneism
+}
+
+###c_chalon
+2348 = {	#CHALON
+	culture = bourguignon
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2377 = {	#CITEAUX
+	holding = none
+	culture = bourguignon
+	religion = gallian_ireneism
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+2376 = {	#BEAUNE
+	holding = castle_holding
+	culture = bourguignon
+	religion = gallian_ireneism
+}
+2347 = {	#AUTUN
+	holding = castle_holding
+	culture = bourguignon
+	religion = gallian_ireneism
+}
+
+###c_auxerre
+2346 = {	#AUXERRE
+	culture = bourguignon
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2345 = {	#DONZY
+	holding = castle_holding
+	culture = bourguignon
+	religion = gallian_ireneism
+}
+2350 = {	#CHABLIS
+	holding = none
+	culture = bourguignon
+	religion = gallian_ireneism
+}
+
+###c_tonnerrois
+2351 = {	#TONNERRE
+	culture = bourguignon
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2379 = {	#MONTBARD
+	holding = castle_holding
+	culture = bourguignon
+	religion = gallian_ireneism
+}
+
+###c_avalois
+2349 = {	#VEZELAY
+	culture = bourguignon
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2378 = {	#MORVAN
+	holding = none
+	culture = bourguignon
+	religion = gallian_ireneism
+}
+
+###c_macon
+2302 = {	#MACON
+	culture = arpitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2304 = {	#CLUNY
+	holding = castle_holding
+	culture = arpitan
+	religion = gallian_ireneism
+}
+2303 = {	#SEMUR EN BRIONNAIS
+	holding = castle_holding
+	culture = arpitan
+	religion = gallian_ireneism
+}
+###c_nevers
+2343 = {	#NEVERS
+	culture = bourguignon
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2307 = {	#MOULINS
+	holding = none
+	culture = bourguignon
+	religion = gallian_ireneism
+}
+2344 = {	#POUGUES LES EAUX
+	holding = none
+	culture = bourguignon
+	religion = gallian_ireneism
+	1061.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_bar ###################################
+###c_bar
+2388 = {	#BAR
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2395 = {	#VERDUN
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2081 = {	#b_argonne/SAINT-MIHIEL
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_briey
+2706 = {	#BRIEY
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2080 = {	#HAYANGE
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_langres
+2374 = {	#LANGRES
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2386 = {	#GRAND
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+2385 = {	#CHAMPS
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_vaucouleurs
+2387 = {	#VAUCOULEURS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2079 = {	#TOUL
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+##d_flanders ###################################
+###c_brugge
+2115 = {	#BRUGES
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+9808 = {	#BRUGES
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			curtain_walls_01
+			farm_estates_01
+		}
+	}
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+9809 = {	#BRUGES
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2114 = {	#GENT
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+9807 = {	#GENT
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2124 = {	#ROESELARE
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_yperen
+2125 = {	#YPRES
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+2128 = {	#VEURNE
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+2131 = {	#DUNKIRK
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+
+###c_guines
+9804 = {	#CALAIS
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+2130 = {	#CALAIS
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2129 = {	#GRAVELINES
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+2133 = {	#SAINT OMER
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+
+###c_lille
+2126 = {	#LILLE
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+2123 = {	#COURTRAI
+	culture = low_frankish
+	religion = gallian_ireneism
+	holding = castle_holding
+	1150.1.1 = {
+		culture = vlaemsch
+	}
+}
+2134 = {	#AIRE
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+9805 = {	#AIRE
+	culture = picard
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+9806 = {	#AIRE
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+9796 = {	#AIRE
+	culture = picard
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+
+###c_boulogne
+2132 = {	#BOULOGNE
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+9810 = {	#BOULOGNE
+	culture = picard
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+9797 = {	#BOULOGNE
+	culture = picard
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2136 = {	#MONTREUIL SUR MER
+	holding = castle_holding
+	culture = picard
+	religion = gallian_ireneism
+}
+2137 = {	#ABBEVILLE
+	holding = castle_holding
+	culture = picard
+	religion = gallian_ireneism
+}
+2135 = {	#HESDIN
+	holding = castle_holding
+	culture = picard
+	religion = gallian_ireneism
+}

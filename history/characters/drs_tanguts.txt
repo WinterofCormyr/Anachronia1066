@@ -1,0 +1,14 @@
+﻿drstibet0005 = { 
+	name = "Papa Liwergyer" # founds the Kingdom of the Tanguts # descendants become Tangut and convert to Melie
+	# a descendant branch founds a Melie heresy with heavy Christian influence
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0001
+	623.1.1 = {
+		birth = yes
+	}
+	702.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,16 @@
+﻿#Duchy of Translykos # pontic Culture inner_pontic Religion characters
+#first ruler born 1040 takes throne 1060
+
+# rulers of the Duchy of Translykos
+drstranslykos0001 = {
+	name = "Rheophoros" #
+	dynasty = drsdyn126 # Theodosiani
+	religion = inner_pontic
+	culture = pontic
+	1040.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}

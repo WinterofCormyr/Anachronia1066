@@ -1,0 +1,266 @@
+﻿akkadian_group = {	
+	
+	graphical_cultures = {
+		arabic_group_coa_gfx
+		mena_building_gfx
+		mena_clothing_gfx
+		mena_unit_gfx
+		dde_abbasid_clothing_gfx
+	}
+	mercenary_names = {
+		{ name = "mercenary_company_geezan_company" }
+		{ name = "mercenary_company_tigrayit_band" }
+	}
+	south_akkadian = {
+		color = { 107 255 183 }
+		cadet_dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+		}
+		dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+		}
+		male_names = {
+			Jushur Kullassina-bel Nangishlishma En-tarah-ana Babum Puannum Kalibum Kulumum Zuqaqip Atab A-ba Mashda Arwium Etana Balih En-me-nuna Melem-kish Barsal-nuna Zamug Tizqar Ilku En-me-barage-si Iltasadum Aga Susuda Dadasig Mamagal Klbum Tuge Men-nuna Enbi-Ishtar Lugalngu Anbu Anba Bazi Zizi Limer Sharrum-Iter Kug-Bau Sargon Rimush Manishtushu Manishtusu Naram-Sin Shar-kali-sharri Irgigi Imi Nanum Ilulu Dudu Shu-Durul Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana Zuabu Nuabu Abazu Belu Azarah Ushpia Apiashal Hale Samani Hayani Ilu-Mer Yakmesi Yakmeni Yazkur-el Ila-kabkabu Aminu Sulili Kikkla Akiya Puzur-Ashur Shalim-ahum Ilu-shuma Erishum Ikunum Sargon Naram-Sin Shamshi-Adad Imshe-Dagan Mut-Ashkur Rimush Asinum Ashur-dugul Ashur-apla-idi Nasir-Sin Sin-nami Ipqi-Ishtar Adad-salulu Adasi Bel-bani Libaya Sharma-Adad Iptar-Sin Bazaya Lullaya Ashur-nirari Enlil-nsir Nur-ili Ashur-shaduni Ashur-rabi Ashur-nadin-ahhe Ashur-bel-nisheshu Eriba-Adad Ashur-uballit Enlil-nirari Arik-den-ili Adad-nirari Shalmaneser Tukulti-Ninurta Ashur-nadin-apli Enlil-kudurri-usur Ninurta-apal-Ekur Ashur-dan Ninurta-tukulti-Ashur Mutakkil-nusku Ashur-resh-ishi Tiglath-Pileser Asharid-apal-Ekur Ashur-bel-kala Ashurnasirpal Sennacherib Esarhaddon Ashurbanipal Ashur-etil-ilani Sinharishkun Sin-shumu-lishir
+		}
+		female_names = {
+			Manishtusu Seluku Nur-Ayya Amata Belessunu Ahatsunu Ubalnu Gemeti Ettu Zakiti Humusi Alittum Arwia Kullaa Mushezibti Nidintu Enheduana Kubaba
+		}
+		ethnicities = {
+			10 = arab
+		}
+	}
+	ashurian = {
+		color = { 68 158 255 }
+		cadet_dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+		}
+		dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+		}
+		male_names = {
+			Jushur Kullassina-bel Nangishlishma En-tarah-ana Babum Puannum Kalibum Kulumum Zuqaqip Atab A-ba Mashda Arwium Etana Balih En-me-nuna Melem-kish Barsal-nuna Zamug Tizqar Ilku En-me-barage-si Iltasadum Aga Susuda Dadasig Mamagal Klbum Tuge Men-nuna Enbi-Ishtar Lugalngu Anbu Anba Bazi Zizi Limer Sharrum-Iter Kug-Bau Sargon Rimush Manishtushu Manishtusu Naram-Sin Shar-kali-sharri Irgigi Imi Nanum Ilulu Dudu Shu-Durul Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana Zuabu Nuabu Abazu Belu Azarah Ushpia Apiashal Hale Samani Hayani Ilu-Mer Yakmesi Yakmeni Yazkur-el Ila-kabkabu Aminu Sulili Kikkla Akiya Puzur-Ashur Shalim-ahum Ilu-shuma Erishum Ikunum Sargon Naram-Sin Shamshi-Adad Imshe-Dagan Mut-Ashkur Rimush Asinum Ashur-dugul Ashur-apla-idi Nasir-Sin Sin-nami Ipqi-Ishtar Adad-salulu Adasi Bel-bani Libaya Sharma-Adad Iptar-Sin Bazaya Lullaya Ashur-nirari Enlil-nsir Nur-ili Ashur-shaduni Ashur-rabi Ashur-nadin-ahhe Ashur-bel-nisheshu Eriba-Adad Ashur-uballit Enlil-nirari Arik-den-ili Adad-nirari Shalmaneser Tukulti-Ninurta Ashur-nadin-apli Enlil-kudurri-usur Ninurta-apal-Ekur Ashur-dan Ninurta-tukulti-Ashur Mutakkil-nusku Ashur-resh-ishi Tiglath-Pileser Asharid-apal-Ekur Ashur-bel-kala Ashurnasirpal Sennacherib Esarhaddon Ashurbanipal Ashur-etil-ilani Sinharishkun Sin-shumu-lishir
+		}
+		female_names = {
+			Manishtusu Seluku Nur-Ayya Amata Belessunu Ahatsunu Ubalnu Gemeti Ettu Zakiti Humusi Alittum Arwia Kullaa Mushezibti Nidintu Enheduana Kubaba
+		}
+		ethnicities = {
+			10 = arab
+		}
+	}
+	neo_sumerian = {
+		color = hsv { 0.33 0.5 0.56 }
+		cadet_dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+			"dynn_Nanniya-Meskilak"
+			"dynn_Sabit-Nanshe"
+			"dynn_Akurgal-Geshtinanna"
+			"dynn_Lugula-Ningal"
+			"dynn_Udul-Utu"
+			"dynn_Shulgi-Ninhursag"
+			"dynn_Kakug-Ninlil"
+			"dynn_Nanni-Enlil"
+			"dynn_Enmerkar-Ninazu"
+			"dynn_Melem-Ishtaran"
+			"dynn_Pirigme-Ishkur"
+			"dynn_Puzur-Nintinugga"
+			"dynn_Lugula-Ereshkigal"
+			"dynn_Zumudar-Nisaba"
+			"dynn_Nanni-Dumuzid"
+			"dynn_Ishu-Enki"
+			"dynn_Gar-Nanna"
+			"dynn_Ishu-Inanna"
+		}
+		dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+			"dynn_Nanniya-Meskilak"
+			"dynn_Sabit-Nanshe"
+			"dynn_Akurgal-Geshtinanna"
+			"dynn_Lugula-Ningal"
+			"dynn_Udul-Utu"
+			"dynn_Shulgi-Ninhursag"
+			"dynn_Kakug-Ninlil"
+			"dynn_Nanni-Enlil"
+			"dynn_Enmerkar-Ninazu"
+			"dynn_Melem-Ishtaran"
+			"dynn_Pirigme-Ishkur"
+			"dynn_Puzur-Nintinugga"
+			"dynn_Lugula-Ereshkigal"
+			"dynn_Zumudar-Nisaba"
+			"dynn_Nanni-Dumuzid"
+			"dynn_Ishu-Enki"
+			"dynn_Gar-Nanna"
+			"dynn_Ishu-Inanna"
+		}
+		male_names = {
+			Jushur Kullassina-bel Nangishlishma En-tarah-ana Babum Puannum Kalibum Kulumum Zuqaqip Atab A-ba Mashda Arwium Etana Balih En-me-nuna Melem-kish Barsal-nuna Zamug Tizqar Ilku En-me-barage-si Iltasadum Aga Susuda Dadasig Mamagal Klbum Tuge Men-nuna Enbi-Ishtar Lugalngu Anbu Anba Bazi Zizi Limer Sharrum-Iter Kug-Bau Sargon Rimush Manishtushu Manishtusu Naram-Sin Shar-kali-sharri Irgigi Imi Nanum Ilulu Dudu Shu-Durul Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana Zuabu Nuabu Abazu Belu Azarah Ushpia Apiashal Hale Samani Hayani Ilu-Mer Yakmesi Yakmeni Yazkur-el Ila-kabkabu Aminu Sulili Kikkla Akiya Puzur-Ashur Shalim-ahum Ilu-shuma Erishum Ikunum Sargon Naram-Sin Shamshi-Adad Imshe-Dagan Mut-Ashkur Rimush Asinum Ashur-dugul Ashur-apla-idi Nasir-Sin Sin-nami Ipqi-Ishtar Adad-salulu Adasi Bel-bani Libaya Sharma-Adad Iptar-Sin Bazaya Lullaya Ashur-nirari Enlil-nsir Nur-ili Ashur-shaduni Ashur-rabi Ashur-nadin-ahhe Ashur-bel-nisheshu Eriba-Adad Ashur-uballit Enlil-nirari Arik-den-ili Adad-nirari Shalmaneser Tukulti-Ninurta Ashur-nadin-apli Enlil-kudurri-usur Ninurta-apal-Ekur Ashur-dan Ninurta-tukulti-Ashur Mutakkil-nusku Ashur-resh-ishi Tiglath-Pileser Asharid-apal-Ekur Ashur-bel-kala Ashurnasirpal Sennacherib Esarhaddon Ashurbanipal Ashur-etil-ilani Sinharishkun Sin-shumu-lishir Alulim Alalngar En-men-lu-ana En-men-gal-ana Dumuzid En-sipad-zid-ana En-men-dur-ana Ubra-tutu Mesh-ki-ang-gasher Enmerkar Lugalbanda Dumuzid Dumuzi Gilgamesh Ur-Nungal Udul-klama La-ba_shum En-un-tarah-ana Mesh-he Melem-ana Lugal-kitun Mesh-Ane-pada Mesh-ki-ang-Nuna Elulu Balulu Hadanish En-shag-kush-ana Lugal-kinishe-dudu Lugal-ure Agrgandea Nanni Mesh-ki-ang-Nanna Lugal-Ane-mundu Unzi Undalulu Urur Puzur-Nirah Ishu-Il Shu-suen Puzur-Suen Ur-Zababa Zumudar Usi-watar Eshtar-muti Ishme-Shamash Shu-ilishu Nanniya Lugal-zage-si Ur-ningin Ur-gigir Kuda Puzur-ili Ur-Utu Lugal-melem En-hegal Lugal-sha-engur Ur-Nanshe Ur-nina Akurgal Eannatum Enannatum Entemena Enentarzi Lugalanda Urukagina Lugal-ushumgal Puzer-Mama Ur-Utu Ur-Mama Lu-Baba Lugula Kaku Kakug Ur-Baba Gudea Ur-Ningirsu Pirigme Ugme Ur-gar Nam-mahani Utu-hengal Ur-Namma Ur-Nammu Shulgi Amar-Suena Shu-Suen Ibbi-Suen
+		}
+		female_names = {
+			Manishtusu Seluku Nur-Ayya Amata Belessunu Ahatsunu Ubalnu Gemeti Ettu Zakiti Humusi Alittum Arwia Kullaa Mushezibti Nidintu Enheduana Kubaba Ashusikildigir Enanatuma En-hedu-anna Ninbanda Puabi Shagshag Suhub-ad Shatu-Murrim Nin-Imma Amurritum Beletum Aea Gamelat En-Hedu-Anna Shiptu Habannatum Nammu Nindukugga Mammetum Zimu Elutil Gemekala Urbau Lilith Ahunatum Yadidatum Ninbanda Anunit Gemeshega Sabit Ashusikildigir Ahatiwaqrat Lahamu Ninsar Belessunu
+		}
+		ethnicities = {
+			10 = arab
+		}
+	}
+	dilmunite = {
+		color = hsv { 0.97 0.12 0.07 }
+		cadet_dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+		}
+		dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+		}
+		male_names = {
+			Jushur Kullassina-bel Nangishlishma En-tarah-ana Babum Puannum Kalibum Kulumum Zuqaqip Atab A-ba Mashda Arwium Etana Balih En-me-nuna Melem-kish Barsal-nuna Zamug Tizqar Ilku En-me-barage-si Iltasadum Aga Susuda Dadasig Mamagal Klbum Tuge Men-nuna Enbi-Ishtar Lugalngu Anbu Anba Bazi Zizi Limer Sharrum-Iter Kug-Bau Sargon Rimush Manishtushu Manishtusu Naram-Sin Shar-kali-sharri Irgigi Imi Nanum Ilulu Dudu Shu-Durul Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana Zuabu Nuabu Abazu Belu Azarah Ushpia Apiashal Hale Samani Hayani Ilu-Mer Yakmesi Yakmeni Yazkur-el Ila-kabkabu Aminu Sulili Kikkla Akiya Puzur-Ashur Shalim-ahum Ilu-shuma Erishum Ikunum Sargon Naram-Sin Shamshi-Adad Imshe-Dagan Mut-Ashkur Rimush Asinum Ashur-dugul Ashur-apla-idi Nasir-Sin Sin-nami Ipqi-Ishtar Adad-salulu Adasi Bel-bani Libaya Sharma-Adad Iptar-Sin Bazaya Lullaya Ashur-nirari Enlil-nsir Nur-ili Ashur-shaduni Ashur-rabi Ashur-nadin-ahhe Ashur-bel-nisheshu Eriba-Adad Ashur-uballit Enlil-nirari Arik-den-ili Adad-nirari Shalmaneser Tukulti-Ninurta Ashur-nadin-apli Enlil-kudurri-usur Ninurta-apal-Ekur Ashur-dan Ninurta-tukulti-Ashur Mutakkil-nusku Ashur-resh-ishi Tiglath-Pileser Asharid-apal-Ekur Ashur-bel-kala Ashurnasirpal Sennacherib Esarhaddon Ashurbanipal Ashur-etil-ilani Sinharishkun Sin-shumu-lishir
+		}
+		female_names = {
+			Manishtusu Seluku Nur-Ayya Amata Belessunu Ahatsunu Ubalnu Gemeti Ettu Zakiti Humusi Alittum Arwia Kullaa Mushezibti Nidintu Enheduana Kubaba
+		}
+		ethnicities = {
+			10 = arab
+		}
+	}
+}

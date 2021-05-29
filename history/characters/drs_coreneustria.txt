@@ -1,0 +1,16 @@
+﻿# Kingdom of Inner Neustria # d_normandy d_vexin # neustrian Culture gallian_ireneism Religion characters
+
+# rulers of the Kingdom of Inner Neustria
+drscoreneustria0001 = {
+	name = "Marcatrude" #
+	female = yes
+	dynasty = drsdyn208 # Ildegarding
+	religion = gallian_ireneism
+	culture = neustrian
+	820.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,194 @@
+﻿#Kingdom of Cilician # kizzuni Culture zalwari_pagan Religion characters
+
+# rulers of the Kingdom of Cilician
+drscilician0001 = {
+	name = "Kuwari-ya" #
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	990.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+drscilician0002 = {
+	name = "Saushtatar" # wife Muzuli # daughter Tulpu-e # daughter Ahal-tenaya # daughter Aripun-abushaus-n
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	father = drscilician0001
+	1010.1.1 = {
+		birth = yes
+	}
+	1089.1.1 = {
+		death = yes
+	}
+}
+drscilician0003 = {
+	name = "Muzuli" 
+	female = yes
+	religion = zalwari_pagan
+	culture = kizzuni
+	1010.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		add_spouse = drscilician0002 # Saushtatar I Rhaneis, King of Cilician # daughter Tulpu-e # daughter Ahal-tenaya # daughter Aripun-abushaus-n
+	}
+	1089.1.1 = {
+		death = yes
+	}
+}
+drscilician0004 = {
+	name = "Tulpu-e" # 
+	# no recorded spouses
+	# daughter Alisha # daughter Purip-hi # daughter Nama-Shuwaliyatti # daughter Hazip-sarrumarbi
+	female = yes
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	father = drscilician0002 # Saushtatar Uni-na-Kumarbi
+	mother = drscilician0003 # Muzuli
+	1031.1.1 = {
+		birth = yes
+	}
+	1091.1.1 = {
+		death = yes
+	}
+}
+drscilician0005 = {
+	name = "Ahal-tenaya" # 
+	female = yes
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	father = drscilician0002 # Saushtatar Uni-na-Kumarbi
+	mother = drscilician0003 # Muzuli
+	1032.1.1 = {
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+drscilician0006 = {
+	name = "Aripun-abushaus-n" # 
+	female = yes
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	father = drscilician0002 # Saushtatar Uni-na-Kumarbi
+	mother = drscilician0003 # Muzuli
+	1033.1.1 = {
+		birth = yes
+	}
+	1114.1.1 = {
+		death = yes
+	}
+}
+drscilician0007 = {
+	name = "Alisha" # 
+	female = yes
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = welayta
+	mother = drscilician0004 # Tulpu-e Uni-na-Kumarbi
+	1051.1.1 = {
+		birth = yes
+	}
+	1052.1.1 = {
+		culture = kizzuni
+	}
+	1123.1.1 = {
+		death = yes
+	}
+}
+drscilician0008 = {
+	name = "Purip-hi" # husband Nuza-pa # daughter Alai-kupa # daughter Amma-n who conquers k_syria and k_jerusalem founding the e_neo_palmyrene_empire
+	female = yes
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	mother = drscilician0004 # Tulpu-e Uni-na-Kumarbi
+	1052.1.1 = {
+		birth = yes
+	}
+	1138.1.1 = {
+		death = yes
+	}
+}
+drscilician0009 = {
+	name = "Nama-Shuwaliyatti" # 
+	female = yes
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	mother = drscilician0004 # Tulpu-e Uni-na-Kumarbi
+	1053.1.1 = {
+		birth = yes
+	}
+	1133.1.1 = {
+		death = yes
+	}
+}
+drscilician0010 = {
+	name = "Hazip-sarrumarbi" # 
+	female = yes
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	mother = drscilician0004 # Tulpu-e Uni-na-Kumarbi
+	1054.1.1 = {
+		birth = yes
+	}
+	1118.1.1 = {
+		death = yes
+	}
+}
+drscilician0011 = {
+	name = "Nuza-pa" 
+	religion = zalwari_pagan
+	culture = kizzuni
+	1052.1.1 = {
+		birth = yes
+	}
+	1072.1.1 = {
+		add_matrilineal_spouse = drscilician0008 # Purip-hi I Uni-na-Kumarbi, Empress of Pontus # daughter Alai-kupa # daughter Amma-n who conquers k_syria and k_jerusalem founding the e_neo_palmyrene_empire
+	}
+	1138.1.1 = {
+		death = yes
+	}
+}
+drscilician0012 = {
+	name = "Alai-kupa" # 
+	female = yes
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	father = drscilician0011 # Nuza-pa
+	mother = drscilician0008 # Purip-hi Uni-na-Kumarbi
+	1073.1.1 = {
+		birth = yes
+	}
+	1141.1.1 = {
+		death = yes
+	}
+}
+drscilician0013 = {
+	name = "Amma-n" # conquers k_syria and k_jerusalem founding the e_neo_palmyrene_empire
+	# Syria in 1100 # Jerusalem in 1110
+	female = yes
+	dynasty = 111bronzeage # Uni-na-Kumarbi
+	religion = zalwari_pagan
+	culture = kizzuni
+	father = drscilician0011 # Nuza-pa
+	mother = drscilician0008 # Purip-hi Uni-na-Kumarbi
+	1074.1.1 = {
+		birth = yes
+	}
+	1149.1.1 = {
+		death = yes
+	}
+}

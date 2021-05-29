@@ -1,0 +1,113 @@
+# 868 Nordiaran culture spreads through these lands # basically Skyrim Nords # with HEAVY Uralic but not Turkic influence # diversifies later
+
+#### START VOLGA BULGARIA ####
+
+k_volga_bulgaria = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	802.1.1 = {
+		liege = e_siberia
+		holder = drssiberia0012 # David Bar Nabha
+	}
+	852.1.1 = {
+		holder = drsvolgaural0001 # Kastav Bar Nabha
+	}
+	1067.1.1 = {
+		de_jure_liege = e_siberia
+	}
+}
+d_kazan = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	802.1.1 = {
+		liege = e_siberia
+		holder = drssiberia0012 # David Bar Nabha
+	}
+	852.1.1 = { # NEW RULER
+		liege = k_volga_bulgaria
+		holder = drsvolgaural0001 # Kastav Bar Nabha
+	}
+	1067.1.1 = {
+		de_jure_liege = e_siberia
+	}
+}
+d_jalmat = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	802.1.1 = {
+		liege = e_siberia
+		holder = drssiberia0012 # David Bar Nabha
+	}
+	852.1.1 = { # NEW RULER
+		liege = k_volga_bulgaria
+		holder = drsvolgaural0001 # Kastav Bar Nabha
+	}
+	1067.1.1 = {
+		de_jure_liege = e_siberia
+	}
+}
+d_martyuba = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	802.1.1 = {
+		liege = e_siberia
+		holder = drssiberia0012 # David Bar Nabha
+	}
+	852.1.1 = { # NEW RULER
+		liege = k_volga_bulgaria
+		holder = drsvolgaural0001 # Kastav Bar Nabha
+	}
+	1067.1.1 = {
+		de_jure_liege = e_siberia
+	}
+}
+
+####START MORDVINIA####
+
+k_mordvinia = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	802.1.1 = {
+		liege = e_siberia
+		holder = drssiberia0012 # David Bar Nabha
+	}
+	852.1.1 = {
+		holder = drsvolgaural0001 # Kastav Bar Nabha
+	}
+	1067.1.1 = {
+		de_jure_liege = e_siberia
+	}
+}
+
+#### START PERMIA ####
+
+k_permia = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	802.1.1 = {
+		liege = e_siberia
+		holder = drssiberia0012 # David Bar Nabha
+	}
+	852.1.1 = {
+		holder = drsvolgaural0001 # Kastav Bar Nabha
+	}
+	1067.1.1 = {
+		de_jure_liege = e_siberia
+	}
+}
+#### START BASHKIRIA ####
+
+k_bashkiria = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 55 }
+	802.1.1 = {
+		liege = e_siberia
+		holder = drssiberia0012 # David Bar Nabha
+	}
+	852.1.1 = {
+		holder = drsvolgaural0001 # Kastav Bar Nabha
+	}
+	1067.1.1 = {
+		de_jure_liege = e_siberia
+	}
+}

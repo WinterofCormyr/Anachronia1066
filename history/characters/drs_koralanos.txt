@@ -1,0 +1,16 @@
+﻿#Duchy of Magnopolis # pontic Culture mesopotamian_aitahism Religion characters
+
+# rulers of the Duchy of Magnopolis from 1060 onward
+drskoralanos0001 = {
+	name = "Nikarete" # 
+	female = yes
+	dynasty = drsdyn78 # Koralanos
+	religion = mesopotamian_aitahism
+	culture = pontic
+	1040.1.1 = {
+		birth = yes
+	}
+	1133.1.1 = {
+		death = yes
+	}
+}

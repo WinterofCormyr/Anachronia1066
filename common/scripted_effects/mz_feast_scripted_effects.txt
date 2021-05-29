@@ -1,0 +1,165 @@
+﻿# Add new effect
+hosted_successful_feast_effect = {
+	add_prestige = medium_prestige_gain
+	if = {
+		limit = {
+			faith = { has_doctrine_parameter = mz_skill_gain_from_feasts_active }
+		}
+		hidden_effect = { mz_skill_gain_from_feasts_effect = yes }
+	}
+	scope:activity = {
+		every_participant = {
+			limit = { NOT = { this = root } }
+			custom = every_guest_scope_tt
+			add_opinion = {
+				target = root
+				modifier = feast_hosted_successful_feast
+			}
+		}
+	}
+	reveler_lifestyle_rank_up_check_effect = yes
+	hidden_effect = {
+		if = {
+			limit = { exists = scope:spouse }
+			add_opinion = { #Your opinion of your Spouse increases, considering they did most of the work
+				target = scope:spouse
+				modifier = feast_spouse_hosted_successful_feast_opinion
+			}
+		}
+	}
+}
+
+hosted_successful_feast_interrupted_effect = {
+	add_prestige = medium_prestige_gain
+	if = {
+		limit = {
+			faith = { has_doctrine_parameter = mz_skill_gain_from_feasts_active }
+		}
+		hidden_effect = { mz_skill_gain_from_feasts_effect = yes }
+	}
+	every_in_list = {
+		list = feast_participants
+		custom = every_guest_scope_tt
+		add_opinion = {
+			target = scope:host
+			modifier = feast_hosted_successful_feast
+		}
+	}
+	reveler_lifestyle_rank_up_check_effect = yes
+	hidden_effect = {
+		if = {
+			limit = { exists = scope:spouse }
+			add_opinion = { #Your opinion of your Spouse increases, considering they did most of the work
+				target = scope:spouse
+				modifier = feast_spouse_hosted_successful_feast_opinion
+			}
+		}
+	}
+}
+
+mz_skill_gain_from_feasts_effect = {
+	send_interface_toast = {
+		title = mz_skill_gain_from_feasts_toast
+		left_icon = root
+		mz_skill_gain_roll_effect = yes
+		random = {
+			chance = 25
+			mz_skill_gain_roll_effect = yes
+		}
+	}
+}
+
+mz_skill_gain_roll_effect = {
+	random_list = {
+		20 = {
+			modifier = {
+				diplomacy >= high_skill_rating
+				add = -10
+			}
+			modifier = {
+				diplomacy >= very_high_skill_rating
+				add = -5
+			}
+			modifier = {
+				diplomacy >= extremely_high_skill_rating
+				add = -4
+			}
+			random_list = {
+				3 = { add_diplomacy_skill = 1 }
+				1 = { add_diplomacy_skill = 2 }
+			}
+		}
+		20 = {
+			modifier = {
+				martial >= high_skill_rating
+				add = -10
+			}
+			modifier = {
+				martial >= very_high_skill_rating
+				add = -5
+			}
+			modifier = {
+				martial >= extremely_high_skill_rating
+				add = -4
+			}
+			random_list = {
+				3 = { add_martial_skill = 1 }
+				1 = { add_martial_skill = 2 }
+			}
+		}
+		20 = {
+			modifier = {
+				stewardship >= high_skill_rating
+				add = -10
+			}
+			modifier = {
+				stewardship >= very_high_skill_rating
+				add = -5
+			}
+			modifier = {
+				stewardship >= extremely_high_skill_rating
+				add = -4
+			}
+			random_list = {
+				3 = { add_stewardship_skill = 1 }
+				1 = { add_stewardship_skill = 2 }
+			}
+		}
+		20 = {
+			modifier = {
+				intrigue >= high_skill_rating
+				add = -10
+			}
+			modifier = {
+				intrigue >= very_high_skill_rating
+				add = -5
+			}
+			modifier = {
+				intrigue >= extremely_high_skill_rating
+				add = -4
+			}
+			random_list = {
+				3 = { add_intrigue_skill = 1 }
+				1 = { add_intrigue_skill = 2 }
+			}
+		}
+		20 = {
+			modifier = {
+				learning >= high_skill_rating
+				add = -10
+			}
+			modifier = {
+				learning >= very_high_skill_rating
+				add = -5
+			}
+			modifier = {
+				learning >= extremely_high_skill_rating
+				add = -4
+			}
+			random_list = {
+				3 = { add_learning_skill = 1 }
+				1 = { add_learning_skill = 2 }
+			}
+		}
+	}
+}

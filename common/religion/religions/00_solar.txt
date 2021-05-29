@@ -1,0 +1,228 @@
+﻿solar_religion = { # aniar'na and megha'rix'ta # aedra and magna-ge
+	family = rf_taminarian
+
+	pagan_roots = yes
+
+	doctrine = taminarian_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_free_love
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_restricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_spiritual_appointment
+
+	traits = {
+		virtues = { generous gallant just }
+		sins = { arbitrary greedy }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_myrmidons" }
+		{ name = "holy_order_priesthood_of_ares" }
+	}
+
+	holy_order_maa = { praetorian }
+
+	localization = {
+		#High God Name
+		HighGodName = solar_high_god_name # Anaryel
+		HighGodNamePossessive = solar_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_SHE
+		HighGodHerselfHimself = CHARACTER_HERSELF
+		HighGodHerHis = CHARACTER_HERHIS_HER
+		HighGodNameAlternate = solar_high_god_name_alternate # Daughter of the Sun
+		HighGodNameAlternatePossessive = solar_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = aniar_na_creator_god_name # All-Khan # Lorkhan
+		CreatorNamePossessive = aniar_na_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = solar_health_god_name # Dea of Angara # Dea of Telvannis
+		HealthGodNamePossessive = solar_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = solar_fertility_god_name # Dea Duskfall
+		FertilityGodNamePossessive = solar_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = solar_wealth_god_name # Lucifer of the Aniar'na
+		WealthGodNamePossessive = solar_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = solar_household_god_name # Dea of Angara # Dea of Telvannis
+		HouseholdGodNamePossessive = solar_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = solar_fate_god_name # Sat'un # the Gilges # the Greek fates or Norse norns
+		FateGodNamePossessive = solar_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+
+		#KnowledgeGod
+		KnowledgeGodName = solar_knowledge_god_name # Megha # Magnus 
+		KnowledgeGodNamePossessive = solar_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = solar_war_god_name # Lucifer
+		WarGodNamePossessive = solar_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = aniar_na_creator_god_name # All-Khan # Lorkhan
+		TricksterGodNamePossessive = aniar_na_creator_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = solar_night_god_name # Dea Duskfall
+		NightGodNamePossessive = solar_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = solar_water_god_name # Dea Duskfall # island god if anyone even cares
+		WaterGodNamePossessive = solar_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
+
+
+
+		PantheonTerm = pantheon_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { 
+			aniar_na_creator_god_name # also an evil god
+			solar_high_god_name
+			solar_health_god_name
+			solar_fertility_god_name
+			solar_wealth_god_name
+			solar_knowledge_god_name
+		}
+		DevilName = thuhar_na_the_thuhar_na
+		DevilNamePossessive = thuhar_na_the_thuhar_na_possessive
+		DevilSheHe = CHARACTER_SHEHE_THEY
+		DevilHerHis = CHARACTER_HERHIS_THEIR
+		DevilHerselfHimself = CHARACTER_THEMSELF
+		EvilGodNames = { cult_of_azeroth_name_azeroth aniar_na_creator_god_name }
+		HouseOfWorship = solar_house_of_worship # Sun Temple
+		HouseOfWorshipPlural = solar_house_of_worship_plural
+		ReligiousSymbol = solar_religious_symbol # Sun
+		ReligiousText = solar_religious_text # Book of Light
+		ReligiousHeadName = solar_religious_head_title
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = solar_devotee
+		DevoteeMalePlural = solar_devoteeplural
+		DevoteeFemale = solar_devotee
+		DevoteeFemalePlural = solar_devoteeplural
+		DevoteeNeuter = solar_devotee
+		DevoteeNeuterPlural = solar_devoteeplural
+		PriestMale = solar_priest_male # Sunpriest
+		PriestMalePlural = solar_priest_male_plural
+		PriestFemale = solar_priest_female # Sunpriestess
+		PriestFemalePlural = solar_priest_female_plural
+		PriestNeuter = solar_priest_male
+		PriestNeuterPlural = solar_priest_male_plural
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = solar_bishop_male # High Sunpriest
+		BishopMalePlural = solar_bishop_male_plural
+		BishopFemale = solar_priest_female
+		BishopFemalePlural = solar_priest_female_plural
+		BishopNeuter = solar_priest_male
+		BishopNeuterPlural = solar_priest_male_plural
+		DivineRealm = solar_divine_realm # The Surface of the Sun
+		PositiveAfterLife = solar_dreamsleeve
+		NegativeAfterLife = solar_dreamsleeve
+		DeathDeityName = aniar_na_death_deity_name # Rkhet # Arkay
+		DeathDeityNamePossessive = aniar_na_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = solar_knowledge_god_name # Megha'rix # leader of the Megha'rix'ta # Magnus fem
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = { #
+		solar_gunarat = { # 
+			color = { 255 210 63 }
+			icon = zunist_reformed
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the Bar Isaac dynasty
+			
+			doctrine = tenet_sun_worship
+			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_ritual_celebrations
+			
+			# Theology
+			doctrine = doctrine_godorgods_omnitheism
+			doctrine = doctrine_polylatry
+			doctrine = doctrine_theogony_unknown
+			doctrine = doctrine_local_gods_rejected
+			doctrine = doctrine_other_faiths_gods_ignored
+		}
+		# "Cults" really Sects of different mainstream Aniar'na
+		#
+		# Pantheons based on Pantheons from Aurbis 2RED like the Andallics such as Sucellus and Sirona # Ur-Aniar'na such as Lugal An Dingir ## Nin Inanna ## and Lugal Nubadig # and the Nibenese ##Novar'Tali## Pantheons
+		# Novar'Tali have several faiths and gods like Varos Adonis ## Dea of Nibenay ## Princess Eirene ## Prince Neord ## and Prince Jupiter
+		#
+		# Syncretisms very much galore # found throughout the entirety of the CK3 world
+	}
+}

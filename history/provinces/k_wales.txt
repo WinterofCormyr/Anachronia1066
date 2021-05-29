@@ -1,0 +1,241 @@
+#k_wales
+#New
+9813 = {	# 1650 - Swansea
+	
+	# Misc
+	culture = welsh
+	religion = welsh_pagan
+	terrain = plains
+
+holding =  castle_holding 
+}
+
+##d_gwynedd ###################################
+###c_cardiganshire / Ceredigion
+1657 = {	#Cardigan / Aberteifi
+	culture = welsh
+	religion = welsh_pagan
+	holding = castle_holding
+}
+1658 = {	#Aberswyth
+	holding = none
+	culture = welsh
+	religion = welsh_pagan
+	1109.1.1 = {
+		holding = castle_holding
+		#Fortress built, set as castle_holding to have different holding types
+	}
+}
+
+###c_merioneth / Merionnydd
+1665 = {	#Dolgellau / Harlech
+	culture = welsh
+	religion = gwyneddian_ireneism
+	holding = castle_holding
+}
+1666 = {	#Corwen
+	holding = none
+	culture = welsh
+	religion = gwyneddian_ireneism
+	#Built in the XIVth century ?
+}
+
+###c_caernarfonshire / Eryri
+1667 = {	#Caernarfon
+	culture = welsh
+	religion = gwyneddian_ireneism
+	holding = castle_holding
+}
+1668 = {	#Llyn
+	holding = castle_holding
+	culture = welsh
+	religion = gwyneddian_ireneism
+}
+1669 = {	#Llandudno
+	holding = castle_holding
+	culture = welsh
+	religion = gwyneddian_ireneism
+	#Already settled before the Middle Age, apparently
+}
+
+###c_anglesey / Ynys Mon
+1673 = {	#Yns Mons
+	culture = welsh
+	religion = gwyneddian_ireneism
+	holding = castle_holding
+}
+1674 = {	#Holyhead / Caer Gybi
+	holding = castle_holding
+	culture = welsh
+	religion = gwyneddian_ireneism
+	#Already settled by the romans
+}
+
+###c_denbighshire / Perfeddwlad
+1670 = {	#Denbigh / Dinbych
+	culture = welsh
+	religion = gwyneddian_ireneism
+	holding = castle_holding
+}
+1671 = {	#Wrexham / Tegeingl
+	holding = castle_holding
+	culture = welsh
+	religion = gwyneddian_ireneism
+}
+1672 = {	#Ruthin / Rhuthun
+	holding = none
+	culture = welsh
+	religion = gwyneddian_ireneism
+	#Little evidence of history before 1277
+}
+
+##d_powys ###################################
+###c_maldwyn Penllyn (Cantrefi, not the peninsula)
+1663 = {	#Welshpool / Mathrafal
+	#Technically a different town: Welshpool is Y Trallwng, whereas b_welshpool is currently Mathrafal, historic seat of the Princes of Powys.
+	culture = welsh
+	religion = gwerthrynion_ireneism
+	holding = castle_holding
+}
+1664 = {	#Newtown / Machynlleth
+	#Technically a different settlement, as Newtown wouldn't be founded till the 1300s, but b_newtown is currently Machynlleth, which was a more important Welsh site previously.
+	holding = castle_holding
+	culture = welsh
+	religion = gwerthrynion_ireneism
+	#Machynlleth settled for a long time
+}
+###c_sir_faesyfed
+1661 = {	#Llandrindod
+	culture = welsh
+	religion = gwerthrynion_ireneism
+	holding = castle_holding
+}
+1662 = {	#Rhayader / Rhaeadr Gwy
+	holding = none
+	culture = welsh
+	religion = gwerthrynion_ireneism
+	1066.1.1 = {
+		holding = castle_holding
+		#At least somewhat inhabitted for a long time and used by romans
+		#Proper city documentation from the XIIth
+		#Went with an "in-between" and made it a city holding in 1066
+	}
+}
+
+###c_hereford / Ergyng
+1632 = {	#Hereford
+	culture = welsh
+	religion = gwerthrynion_ireneism
+	holding = castle_holding
+	767.1.1 = {
+		special_building = offas_dyke_01
+	}
+	1100.11.11 = {
+		culture = english
+	}
+}
+1633 = {	#Wigmore
+	holding = castle_holding
+	culture = welsh
+	religion = gwerthrynion_ireneism
+	#Settled in roman times, anglo-saxon church from before the Xth century
+	767.1.1 = {
+		special_building = offas_dyke_01
+	}
+}
+1634 = {	#Clifford
+	holding = none
+	culture = welsh
+	religion = gwerthrynion_ireneism
+	767.1.1 = {
+		special_building = offas_dyke_01
+	}
+}
+
+##d_deheubarth ###################################
+###c_carmarthenshire / Sir Gaerfyrddin
+1652 = {	#Carmarthen / Caerfyrddin
+	culture = welsh
+	religion = welsh_pagan
+	holding = castle_holding
+}
+1653 = {	#Llandovery / Llanymddyfri
+	holding = none
+	culture = welsh
+	religion = welsh_pagan
+	1100.1.1 = {
+		holding = castle_holding
+		#castle built in 1100, set as castle_holding to have different holding types
+	}
+}
+
+###c_pembrokeshire / Dyfed
+1654 = {	#Pembroke / Penfro
+	culture = welsh
+	religion = welsh_pagan
+	holding = castle_holding
+}
+1655 = {	#Saint Davids / Tyddewi
+	holding =  castle_holding
+	culture = welsh
+	religion = welsh_pagan
+}
+1656 = {	#Fishguard / Abergwaun
+	holding = none
+	culture = welsh
+	religion = welsh_pagan
+	975.1.1 = {
+		holding = castle_holding
+		#established between 950-1000
+	}
+}
+
+###c_glamorgan / Morgannwg
+1649 = {	#Cardiff
+	culture = welsh
+	religion = welsh_pagan
+	holding = castle_holding
+}
+1650 = {	#Swansea / Abertawe
+	culture = welsh
+	religion = welsh_pagan
+	holding = castle_holding
+	900.1.1 = {
+		holding = castle_holding
+		#valuable land, trade post established between IXth -XIth
+	}
+}
+1651 = {	#Caerphilly / Caerffili
+	holding = castle_holding
+	culture = welsh
+	religion = welsh_pagan
+	#Possibly predates viking activity
+	#castle_holding as we can have 3 different holding types, and the town is at least folklorically tied to a monastery, and named after a Saint
+}
+
+###c_monmouthshire / Gwent
+1630 = {	#Newport / Caerllion / b_casnewydd
+	culture = welsh
+	religion = welsh_pagan
+	holding = castle_holding
+	1100.11.11 = {
+		culture = english
+	}
+}
+1631 = {	# Monmouth / Trefynwy
+	holding = castle_holding
+	culture = welsh
+	religion = welsh_pagan
+	#Built in the VIIth
+}
+###c_brecknockshire / Brycheiniog
+1659 = {	#Brecon / Aberhonddu
+	culture = welsh
+	religion = gwerthrynion_ireneism
+	holding = castle_holding
+}
+1660 = {	#Talgerth
+	holding = none
+	culture = welsh
+	religion = gwerthrynion_ireneism
+}

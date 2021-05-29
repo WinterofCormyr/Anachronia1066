@@ -1,0 +1,34 @@
+﻿l_english:
+ #Votive offering localization - Pontic Empire
+ an_votive_offering_pontic_aitahist:0 "Give a votive offering to the Gods"
+ an_votive_offering_pontic_aitahist_desc:0 "The gods walk with us, guide us on our path. It is fit that we should give offerings to them, that they may hear our prayers and know our worshipful agapē for them."
+ an_votive_offering_pontic_aitahist_tooltip:0 "Give a votive offering to Aitah, Matah or Aya'se."
+ an_votive_offering_pontic_aitahist_confirm:0 "Yes."
+ votive.0001.t:0 "Giving an Offering"
+ votive.0001.d:0 "Aside from local gods, the Pontic Aitahists only believe in three Good, True Gods. They are named Aitah (the reincarnate heroine savior, patron of the religion), Aya'se (Aitah's faither, the warrior hero who drives away the Ancestors), and Matah (mother of all things, good and evil)."
+ votive.0001.aitah:0 "Give an offering to Aitah"
+ votive.0001.ayase:0 "Give an offering to Aya'se"
+ votive.0001.matah:0 "Give an offering to Matah"
+ votive.0002.t:0 "An offering to Aitah"
+ votive.0002.d:0 "Aitah is the great goddess of all beings. It is she who drove back the darkness of the ancestors, being trained as a warrior by her father. It is also she who negotiated peace with them, so that they would no longer assault this reality incessantly. She is a half blood - daughter of Aya'se, the king of the Noble Hearts, the ancestors who sided against their Ancestral King in favor of the defense of mankind, and the mortal woman Ta'e'ma. And it is through this twofold royalty - divine and mortal - she was able to achieve so much. The faithful ever fight on, live on, in her holy name. Truly it is she who is the greatest of the gods?"
+ votive.0002.a:0 "Aitah walks with us as always she has." 
+ votive.0003.t:0 "An offering to Aya'se"
+ votive.0003.d:0 "Aya'se is the warrior. He is the freedom spirit. A great general who freed the Seshweay from Akkadian oppression in long years ago. He, too, is a reincarnate soul. It was he that was reborn over and over, living countless lives just to protect himself - and his people - from his supreme might were he to become one of the Ancestors. \n But no more. He sabotaged them, becoming an ancestor yet fathering a child - consensually, completely purely and noblely - with a woman of Seshweay called Ta'e'ma. Her name was - is, in fact - Aitah, the savior of man, and she has liberated all of us - faithful and faithless - from the ancestral war."
+ votive.0003.a:0 "Aya'se is my sword. Let us ever conquer our demons, inner and outer." 
+ votive.0004.t:0 "An offering to Matah"
+ votive.0004.d:0 "Matah is the mother. The mother of rivers, mother of life. She created this existence, and she - while she lacked foresight to foresee the coming of the Ancestors and the Ancestral War - does not, in any sense, lack love. All existence, good or evil, springs from her/. Through her we know that existence is by and large good, not evil, and that her motherly protective nature will always seek to defend us from the darkness. She sleeps at the center of the earth, her life giving blood - water and magma - creating the world anew eternally. And when all things seem lost, she shall awaken at the end of days, drive back the darkness singlehandedly, and create a world where people can all live in harmony, and the only death is the death of death itself."
+ votive.0004.a:0 "Mother Matah, give us guidance, give us life." 
+ an_votive_offering_hattian:0 "Give a votive offering to the Wahasap"
+ an_votive_offering_hattian_desc:0 "The Wahasap, the Gods of Hatti, walk with us, guide us on our path. It is fit that we should give offerings to them, that they may hear our prayers and know our worshipful agapē for them."
+ an_votive_offering_hattian_tooltip:0 "Give a votive offering to one of the Wahasap."
+ an_votive_offering_hattian_confirm:0 "Yes."
+ votive.0005.t:0 "Giving an Offering"
+ votive.0005.d:0 "The Hattians believe in a countless array of gods, a pantheon led by the Leopard of the Sun or the Leopard of Summer, who is called Wurunshemu, Arinniti, or Furu-Semu. Other major, non-regional gods include Inara the androgynous health gxddé Inara, the trickster-god of wealth Taru, the household and throne goddess Hanfasuit, the war-god and consort of Furu-Semu called Furun-Katte, the moon god Kasku, the ocean god Katahziwuri (zalled 'father of rivers'), the goddess Halmassuit who is keeper of the hearth, the diplomat's god Hantapali, the industry god Hashammil, the gxddé of love Kakshazet, the gxddess of gender Kashtuwarit, the thunder god Tahakshaziatis, the architect Tuhuleli, and the protective goddess or god Zithariyah or Zithariya."
+ votive.0005.wurunshemu:0 "Give an offering to Wurunshemu"
+ votive.0006.t:0 "An offering to Wurunshemu"
+ votive.0006.d:0 "Wurunshemu is the leopard of the sun. She is called Arinniti, the Leopard of Summer, the Leopard of the Sun, or, most commonly, Wurunshemu, and she is a mighty and noble goddess. She created this existence directly, her life-giving light illuminating the Primordium which is called Wurunkaippi, and from this light sprung her husband Furunkatte, the first king, King of the Earth and King of her Heart. She is the greatest of all the gods, and it is righteous that we give proper reverence to her as queen of the sky, leopard of the sun, goddess of the summer."
+ votive.0006.a:0 "Wurunshemu's light heals all wounds, and her mercy illuminates my soul with peace." 
+
+
+
+

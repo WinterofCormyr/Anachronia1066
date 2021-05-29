@@ -1,0 +1,341 @@
+﻿thuhar_na_religion = { # equivalent of the daedra # the thuhar'na
+	family = rf_taminarian
+
+
+	doctrine = taminarian_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_fundamentalist
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_polygamy
+	doctrine = doctrine_divorce_approval
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_restricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_accepted
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_spiritual_appointment
+
+	traits = {
+		virtues = { zealous } #
+		sins = { cynical }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_myrmidons" }
+		{ name = "holy_order_priesthood_of_ares" }
+	}
+
+	holy_order_maa = { praetorian }
+
+	localization = {
+		#High God Name
+		HighGodName = thuhar_na_the_thuhar_na #
+		HighGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_THEY
+		HighGodHerselfHimself = CHARACTER_THEMSELVES
+		HighGodHerHis = CHARACTER_HERHIS_THEIR
+		HighGodNameAlternate = thuhar_na_the_thuhar_na # 
+		HighGodNameAlternatePossessive = thuhar_na_the_thuhar_na_possessive
+
+		#Creator
+		CreatorName = aniar_na_creator_god_name # All-Khan # Lorkhan
+		CreatorNamePossessive = aniar_na_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = thuhar_na_the_thuhar_na # 
+		HealthGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_THEY
+		HealthGodHerHis = CHARACTER_HERHIS_THEIR
+		HealthGodHerHim = CHARACTER_HERHIM_THEM
+		
+		#START BACK HERE
+		
+		#FertilityGod
+		FertilityGodName = thuhar_na_the_thuhar_na #
+		FertilityGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_THEY
+		FertilityGodHerHis = CHARACTER_HERHIS_THEIR
+		FertilityGodHerHim = CHARACTER_HERHIM_THEM
+
+		#WealthGod
+		WealthGodName = thuhar_na_the_thuhar_na #
+		WealthGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_THEY
+		WealthGodHerHis = CHARACTER_HERHIS_THEIR
+		WealthGodHerHim = CHARACTER_HERHIM_THEM
+
+		#HouseholdGod
+		HouseholdGodName = thuhar_na_the_thuhar_na # 
+		HouseholdGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_THEY
+		HouseholdGodHerHis = CHARACTER_HERHIS_THEIR
+		HouseholdGodHerHim = CHARACTER_HERHIM_THEM
+
+		#FateGod
+		FateGodName = thuhar_na_the_thuhar_na #
+		FateGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
+
+		#KnowledgeGod
+		KnowledgeGodName = thuhar_na_the_thuhar_na #  
+		KnowledgeGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_THEY
+		KnowledgeGodHerHis = CHARACTER_HERHIS_THEIR
+		KnowledgeGodHerHim = CHARACTER_HERHIM_THEM
+
+		#WarGod
+		WarGodName = thuhar_na_the_thuhar_na #
+		WarGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		WarGodSheHe = CHARACTER_SHEHE_THEY
+		WarGodHerHis = CHARACTER_HERHIS_THEIR
+		WarGodHerHim = CHARACTER_HERHIM_THEM
+
+		#TricksterGod
+		TricksterGodName = thuhar_na_the_thuhar_na # 
+		TricksterGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_THEY
+		TricksterGodHerHis = CHARACTER_HERHIS_THEIR
+		TricksterGodHerHim = CHARACTER_HERHIM_THEM
+
+		#NightGod
+		NightGodName = thuhar_na_the_thuhar_na #
+		NightGodNamePossessive = thuhar_na_the_thuhar_napossessive
+		NightGodSheHe = CHARACTER_SHEHE_THEY
+		NightGodHerHis = CHARACTER_HERHIS_THEIR
+		NightGodHerHim = CHARACTER_HERHIM_THEM
+
+		#WaterGod
+		WaterGodName = thuhar_na_the_thuhar_na # 
+		WaterGodNamePossessive = thuhar_na_the_thuhar_na_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_THEY
+		WaterGodHerHis = CHARACTER_HERHIS_THEIR
+		WaterGodHerHim = CHARACTER_HERHIM_THEM
+
+
+
+		PantheonTerm = thuhar_na_the_thuhar_na
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { 
+			thuhar_na_the_thuhar_na
+		}
+		DevilName = aniar_na_good_god_aniar_na
+		DevilNamePossessive = aniar_na_good_god_aniar_na_possessive
+		DevilSheHe = CHARACTER_SHEHE_THEY
+		DevilHerHis = CHARACTER_HERHIS_THEIR
+		DevilHerselfHimself = CHARACTER_THEMSELVES
+		EvilGodNames = { 
+			aniar_na_high_god_name
+			aniar_na_health_god_name
+			aniar_na_fertility_god_name
+			aniar_na_wealth_god_name
+			aniar_na_household_god_name
+			aniar_na_knowledge_god_name
+			aniar_na_war_god_name
+			aniar_na_night_god_name
+			aniar_na_water_god_name
+			aniar_na_god_azyren
+			aniar_na_god_azuloon
+			aniar_na_god_manyfold_azarootta
+			aniar_na_god_nin_inanna
+			aniar_na_god_lugal_an
+			aniar_na_god_shaushka
+			aniar_na_god_haya
+			aniar_na_god_antu_aya
+			aniar_na_god_nisaba_dingirnaga
+			aniar_na_god_nubadig
+			aniar_na_god_arcturus
+			aniar_na_god_jupiter
+			aniar_na_god_arubani_potnia
+			aniar_na_god_diwo_khaldi
+			aniar_na_god_bagvarti_diwia
+			aniar_na_god_potnia_athhena
+			aniar_na_god_potnia_hippeia
+		}
+		HouseOfWorship = thuhar_na_house_of_worship
+		HouseOfWorshipPlural = thuhar_na_house_of_worship_plural
+		ReligiousSymbol = thuhar_na_religious_symbol
+		ReligiousText = thuhar_na_religious_text
+		ReligiousHeadName = thuhar_na_religious_head_title
+		ReligiousHeadTitleName = dualism_religious_head_title_name
+		DevoteeMale = thuhar_na_devotee
+		DevoteeMalePlural = thuhar_na_devoteeplural
+		DevoteeFemale = thuhar_na_devotee
+		DevoteeFemalePlural = thuhar_na_devoteeplural
+		DevoteeNeuter = thuhar_na_devotee
+		DevoteeNeuterPlural = thuhar_na_devoteeplural
+		PriestMale = thuhar_na_priest_male
+		PriestMalePlural = thuhar_na_priest_male_plural
+		PriestFemale = thuhar_na_priest_female
+		PriestFemalePlural = thuhar_na_priest_female_plural
+		PriestNeuter = thuhar_na_priest_male
+		PriestNeuterPlural = thuhar_na_priest_male_plural
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = thuhar_na_bishop_male
+		BishopMalePlural = thuhar_na_bishop_male_plural
+		BishopFemale = thuhar_na_priest_female
+		BishopFemalePlural = thuhar_na_priest_female_plural
+		BishopNeuter = thuhar_na_priest_male
+		BishopNeuterPlural = thuhar_na_priest_male_plural
+		DivineRealm = thuhar_na_divine_realm
+		PositiveAfterLife = thuhar_na_dreamsleeve
+		NegativeAfterLife = thuhar_na_dreamsleeve
+		DeathDeityName = thuhar_na_the_thuhar_na # 
+		DeathDeityNamePossessive = thuhar_na_the_thuhar_na_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_THEY
+		DeathDeityHerHis = CHARACTER_HERHIS_THEIR
+		WitchGodName = thuhar_na_the_thuhar_na #
+		WitchGodHerHis = CHARACTER_HERHIS_THEIR
+		WitchGodSheHe = CHARACTER_SHEHE_THEY
+		WitchGodHerHim = CHARACTER_HERHIM_THEM
+		WitchGodMistressMaster = patrons
+		WitchGodMotherFather = patrons
+
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = { #
+		cult_of_azeroth = { # Azeroth is basically Azura
+			color = { 50 50 100 }
+			icon = azariqa
+
+			holy_site = perm
+			holy_site = tyumen
+			holy_site = surgut
+			holy_site = ob
+			holy_site = lhasa # capital of the bar isaac dynasty
+			
+			
+			religious_head = d_temple_of_azeroth
+			
+			#Marriage
+			doctrine = doctrine_free_love
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_accepted
+			
+			doctrine = tenet_way_of_azeroth
+			doctrine = tenet_reincarnation
+			doctrine = tenet_communal_identity
+			localization = {
+				#High God Name
+				HighGodName = cult_of_azeroth_name_azeroth # Azeroth
+				HighGodNamePossessive = cult_of_azeroth_name_azeroth_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = cult_of_azeroth_name_the_dusklight # the Dusklight
+				HighGodNameAlternatePossessive = cult_of_azeroth_name_the_dusklight_possessive
+
+				#Creator
+				CreatorName = cult_of_azeroth_name_the_sparkling_twilight # the Sparkling Twilight
+				CreatorNamePossessive = cult_of_azeroth_name_the_sparkling_twilight_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = cult_of_azeroth_name_lady_of_the_crimson_gate # Lady of the Crimson Gate
+				HealthGodNamePossessive = cult_of_azeroth_name_lady_of_the_crimson_gate_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = cult_of_azeroth_name_mother_soul # the Mother Soul
+				FertilityGodNamePossessive = cult_of_azeroth_name_mother_soul_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = cult_of_azeroth_name_moonshadow # Moonshadow
+				WealthGodNamePossessive = cult_of_azeroth_name_moonshadow_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				#HouseholdGod
+				HouseholdGodName = cult_of_azeroth_name_mother_of_the_rose # the Mother of the Rose
+				HouseholdGodNamePossessive = cult_of_azeroth_name_mother_of_the_rose_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = aniar_na_fate_god_name # Sat'un # the Gilges # the Greek fates or Norse norns
+				FateGodNamePossessive = aniar_na_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_THEY
+				FateGodHerHis = CHARACTER_HERHIS_THEIR
+				FateGodHerHim = CHARACTER_HERHIM_THEM
+
+				#KnowledgeGod
+				KnowledgeGodName = cult_of_azeroth_name_queen_of_the_nights_sky # Queen of the Night's Sky 
+				KnowledgeGodNamePossessive = cult_of_azeroth_name_queen_of_the_nights_sky_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = cult_of_azeroth_name_cosmic_severer # the Cosmic Severer
+				WarGodNamePossessive = cult_of_azeroth_name_cosmic_severer_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#TricksterGod
+				TricksterGodName = cult_of_azeroth_name_azeroth # Azeroth
+				TricksterGodNamePossessive = cult_of_azeroth_name_azeroth_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_SHE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HER
+
+				#NightGod
+				NightGodName = cult_of_azeroth_name_queen_of_the_nights_sky # Queen of the Night's Sky
+				NightGodNamePossessive = cult_of_azeroth_name_queen_of_the_nights_sky_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = cult_of_azeroth_name_the_dusklight # The Dusklight
+				WaterGodNamePossessive = cult_of_azeroth_name_the_dusklight_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+				
+				PositiveAfterLife = cult_of_azeroth_name_moonshadow
+			}
+		}
+	}
+}

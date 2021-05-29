@@ -1,0 +1,100 @@
+﻿l_english:
+ #hurrian
+ hurrian_religion:2 "Hu-ur-ri Ēn-na"
+ hurrian_religion_adj:2 "Hu-ur-ri-še"
+ hurrian_religion_adherent:2 "Hu-ur-ri-še Taršuwa-ni"
+ hurrian_religion_adherent_plural:2 "Hu-ur-ri-še Taršuwa-nife"
+ hurrian_religion_desc:0 "Hurrian religion is a polytheistic tradition directly descended from Sumerian religion and believing in over a thousand named gods."
+
+ hurrian_high_god_name:0 "Teššub"
+ hurrian_high_god_name_possessive:0 "Teššub's"
+ hurrian_high_god_name_alternate:0 "The Thunderer"
+ hurrian_high_god_name_alternate_possessive:0 "The Thunderer's"
+ hurrian_good_god_aya:0 "Aya"
+ hurrian_good_god_sarruma:0 "Šarruma"
+ hurrian_good_god_kubaba:0 "Kubaba"
+ hurrian_good_god_inara:0 "Inara"
+ hurrian_good_god_shuwala:0 "Šuwala"
+ hurrian_good_god_pirengir:0 "Pirengir"
+ hurrian_evil_god_evil:0 "Evil"
+ hurrian_evil_god_evil_possessive:0 "Evil's"
+ hurrian_priest_male:0 "Priest"
+ hurrian_priest_male_plural:0 "Priests"
+ hurrian_priest_female:0 "Priestess"
+ hurrian_priest_female_plural:0 "Priestesses"
+ hurrian_priest_neuter:0 "Diviner"
+ hurrian_priest_neuter_plural:0 "Diviners"
+ hurrian_bishop_male:0 "Priest"
+ hurrian_bishop_male_plural:0 "Priests"
+ hurrian_death_deity_name:0 "Aštabi"
+ hurrian_death_deity_name_possessive:0 "Aštabi's"
+ hurrian_religious_symbol:0 "chariot wheel"
+ hurrian_religious_text:0 "book of the Ēn-na"
+ hurrian_divine_realm:0 "Šiuxxe"
+ hurrian_witchgodname_nubadig:0 "Nubadig"
+
+ hurrian_creator_god_name:0 "Hebat"
+ hurrian_creator_god_name_possessive:0 "Hebat's"
+ hurrian_health_god_name:0 "Hutezzi"
+ hurrian_health_god_name_possessive:0 "Hutezzi's"
+ hurrian_fertility_god_name:0 "Išhara"
+ hurrian_fertility_god_name_possessive:0 "Išhara's"
+ hurrian_wealth_god_name:0 "Iršappa"
+ hurrian_wealth_god_name_possessive:0 "Iršappa's"
+ hurrian_household_god_name:0 "Hannahanna"
+ hurrian_household_god_name_possessive:0 "Hannahanna's"
+ hurrian_fate_god_name:0 "Aštabi"
+ hurrian_fate_god_name_possessive:0 "Aštabi's"
+ hurrian_knowledge_god_name:0 "Šimige" # sun god you filthy homestuck
+ hurrian_knowledge_god_name_possessive:0 "Šimige's"
+ hurrian_war_god_name:0 "Šauška"
+ hurrian_war_god_name_possessive:0 "Šauška's"
+ hurrian_trickster_god_name:0 "Šauška"
+ hurrian_trickster_god_name_possessive:0 "Šauška's"
+ hurrian_night_god_name:0 "Kušuh"
+ hurrian_night_god_name_possessive:0 "Kušuh's"
+ hurrian_water_god_name:0 "Hatni Pišaišaphi"
+ hurrian_water_god_name_possessive:0 "Hatni Pišaišaphi's"
+
+ hurrian_afterlife_name:0 "the Next Life"
+
+ hurrian_pagan:0 "Hu-ur-ri"
+ hurrian_pagan_adj:0 "Hu-ur-ri-še"
+ hurrian_pagan_adherent:0 "Hu-ur-ri-še Taršuwa-ni"
+ hurrian_pagan_adherent_plural:0 "Hu-ur-ri-še Taršuwa-nife"
+ 
+ #Zalwari
+ zalwari_pagan:0 "Zalwar=ra"
+ zalwari_pagan_adj:0 "Zalwar-še"
+ zalwari_pagan_adherent:0 "Zalwar-še Taršuwa-ni"
+ zalwari_pagan_adherent_plural:0 "Zalwar-še Taršuwa-nife"
+ 
+ zalwari_pagan_desc:0 "Zalwari tradition is descended from that of the ancient Mitanni, and while worship of the Vedic gods has nearly died out in Zalwar, the traditions of meditation and mysticism still remain."
+## Shirvanite Church of St. Aitah
+
+ shirvanite_church_wealth_god_name:0 "St. Aya'se"
+ shirvanite_church_wealth_god_name_possessive:0 "St. Aya'se's"
+ 
+ shirvanite_church:0 "Shirvanite Church of St. Aitah"
+ shirvanite_church_adj:0 "Shirvanite"
+ shirvanite_church_adherent:0 "Veshirvanist"
+ shirvanite_church_adherent_plural:0 "Veshirvanists"
+ 
+ shirvanite_church_desc:0 "The Shirvanite Church of St. Aitah was founded by Governor Smbat I ve-Kardesh-Zankou-Shemakha of Shirvan Province in the year 1034 A.D. As an official syncretism of Christian (Armenian Apostolic) and Aitahist beliefs, the church won over the support of the Emperors of Pontus as well as the widespread populace of Shirvan, who had been previously following the Eastern Rite Armenian Church, with Nestorian elements."
+ 
+ old_shirvanite_church:0 "Eastern Apostolic Church"
+ old_shirvanite_church_adj:0 "Eastern Rite"
+ old_shirvanite_church_adherent:0 "Eastern Apostolic"
+ old_shirvanite_church_adherent_plural:0 "Eastern Apostolics"
+ 
+ old_shirvanite_church_desc:0 "The Eastern Rite Apostolic Church is an ancient church once followed in Shirvan and Daylam, but by 1066 only exists in the mountains of Shirvan, having largely been supplanted by the Shirvanite Church of St. Aitah, founded by Smbat I of Shirvan in 1034 A.D.. The church believes in similar teachings to the Armenian Apostolic Church, but has adopted many Nestorian practices and doctrines as well."
+ 
+ # Kerman School Buddhism
+ kirman_school:0 "Kirmâni Mazhab-e Budâ"
+ kirman_school_adj:0 "Kirmâni"
+ kirman_school_adherent:0 "Kirmâni Imân-dâr"
+ kirman_school_adherent_plural:0 "Kirmâni Imân-dâr-hâ"
+ 
+ kirman_school_desc:0 "The Kirman School of Buddhism is an iranian Mahayâna school that differs from mainstream Mahayâna due to its integration of gnostic concepts such as a demiurge, preaching of complete gender equity, and proclaiming that the Impure can NEVER heal or reach Nirvâna. The school was founded by the Queen of Kirman, Zulëixa Afghanzada, in the year 930 CE, and has remained a small yet tenacious religious tradition since then."
+ 
+ 

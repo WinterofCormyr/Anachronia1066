@@ -1,0 +1,15 @@
+﻿#Duchy of Crimea # crimean_gothic Culture firner_situic Religion characters
+
+# rulers of the Duchy of Crimea
+drscrimea0001 = {
+	name = "Theodorich" # Governor Theodorich I Amaling of Cherson
+	dynasty = drsdyn75 # Amaling
+	religion = firner_situic
+	culture = crimean_gothic
+	800.1.1 = {
+		birth = yes
+	}
+	889.1.1 = {
+		death = yes
+	}
+}

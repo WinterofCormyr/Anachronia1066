@@ -1,0 +1,515 @@
+#k_thessalonika
+##d_thrace ###################################
+###c_byzantion
+496 = {		#Constantinople / Former Byzantion
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+	# History	
+	769.1.1 = {
+		buildings = {
+			castle_02
+			common_tradeport_01
+		}
+		special_building = hagia_sophia_01
+		duchy_capital_building = theodosian_walls_01
+	}
+	1066.1.1 = {
+		buildings = {
+			castle_02
+			common_tradeport_02
+			farm_estates_01
+			barracks_01
+		}
+	}
+}
+9830 = {		#Hagia Sofia
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+	# History
+}
+
+###c_kalliopolis
+495 = {		#Kaliopolis
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+	#1374 - Ottomans
+}
+# 3766 - Ainos
+3766 = {	# 3766 - Ainos
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+}
+3765 = {	#Kypsela
+	holding = none
+	culture = greek
+	religion = orthodox
+}
+3764 = {	#Raidestos
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3763 = {	#Chariopolis AKA Hayrabolu
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+9824 = {	#Malgara
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+9825 = {	#Tzouroulos
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+
+###c_brysis
+497 = {		#Thrake	
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+	#1374 - Ottomans
+}
+# 3760 - Arkadiopolis
+3760 = {	# 3760 - Arkadiopolis
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+}
+
+# 3761 - Selymbria
+3761 = {	# 3761 - Selymbria
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+}
+3762 = {	#Herakleia Perinthos AKA Marmara Ereglisi
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3759 = {	#Bizye AKA Vize
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3758 = {	#Salmydessus
+	holding = none
+	culture = greek
+	religion = orthodox
+}
+9823 = {	#Madytos
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+
+##d_strymon ###################################
+###c_mosynopolis
+492 = {		#Strymon	
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+	950.1.1 = {
+		religion = bogomilist
+	}
+	1050.1.1 = {
+		religion = orthodox
+	}
+}
+3767 = {	#Xanthia AKA Xanthi
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+# 3768 - Traianopolis
+3768 = {	# 3768 - Traianopolis
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3769 = {	#Thasos
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3554 = {	#Rodopi
+	holding = none
+	culture = greek
+	religion = orthodox
+}
+
+###c_serres
+3771 = {	#Serres
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+}
+3770 = {	#Siderokastron
+	holding = none
+	culture = greek
+	religion = orthodox
+	#1st mention in XIIIth century
+}
+3772 = {	#Drama aka Ydrama aka Dyrama
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3773 = {	#Kavala
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3774 = {	#Chrysopolis aka Eion
+	holding = none
+	culture = greek
+	religion = orthodox
+}
+3780 = {	#Mavrouda
+	holding = none
+	culture = greek
+	religion = orthodox
+}
+
+##d_aegean_islands ###################################
+###c_naxos
+484 = {		#Naxos
+	culture = cycladic
+	religion = orthodox
+	holding = castle_holding
+}
+3757 = {	#Thera AKA Santorini
+	holding = none
+	culture = cycladic
+	religion = orthodox
+	#1st mention in XIIth
+}
+3755 = {	#Andros
+	holding = castle_holding
+	culture = cycladic
+	religion = orthodox
+}
+3756 = {	#Tinos
+	holding = castle_holding
+	culture = cycladic
+	religion = orthodox
+	#Set as castle_holding to have all 3 holding types
+}
+
+###c_abydos ## iliite_faith
+744 = {		#Abydos
+	culture = greek
+	religion = iliite_faith
+	holding = castle_holding	
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			pastures_01
+			military_camps_01
+		}
+	}
+	#1374 - Ottomans
+}
+3749 = {	#Lampsakos
+	holding = castle_holding
+	culture = greek
+	religion = iliite_faith
+}
+3750 = {	#Ilion
+	holding = none
+	culture = greek
+	religion = iliite_faith
+}
+3751 = {	#Alexandria Troas
+	holding = castle_holding
+	culture = greek
+	religion = iliite_faith
+}
+3748 = {	#Pagaea
+	holding = none
+	culture = greek
+	religion = iliite_faith
+}
+
+###c_lesbos # lelegic_cybelite
+487 = {		#Lesbos
+	culture = leleges
+	religion = lelegic_cybelite
+	holding = castle_holding
+}
+3752 = {	#Lemnos
+	holding = castle_holding
+	culture = leleges
+	religion = lelegic_cybelite
+}
+3753 = {	#Skyros
+	holding = castle_holding
+	culture = leleges
+	religion = lelegic_cybelite
+	#Set as castle_holding to have all 3 holding types
+}
+
+###c_chios # lelegic_cybelite
+486 = {		#Chios
+	culture = leleges
+	religion = lelegic_cybelite
+	holding = castle_holding
+}
+3754 = {	#Samos
+	holding = castle_holding
+	culture = leleges
+	religion = lelegic_cybelite
+}
+
+###c_rhodos
+483 = {		#Rhodos
+	culture = telchines
+	religion = old_ireneism
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			hill_forts_01
+			common_tradeport_01
+			barracks_01
+		}
+	}
+}
+3741 = {	# 3741 - Lindos
+	
+	# Misc
+	culture = telchines
+	religion = old_ireneism
+	
+	holding = castle_holding
+	
+	# History
+
+}
+3740 = {	# 3740 - Kos
+	
+	# Misc
+	culture = telchines
+	religion = old_ireneism
+	
+	holding = castle_holding
+	
+	# History
+
+}
+3742 = {	# 3742 - Karpathos
+	
+	# Misc
+	culture = karpathan
+	religion = old_ireneism
+	
+	holding = castle_holding
+	
+	# History
+
+}
+
+##d_thessalonika ###################################
+###c_thessalonika
+490 = {		#Thessalonike / b_thessaloniki
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			farm_estates_01
+			cereal_fields_01
+			barracks_01
+		}
+	}
+	
+	#1205 - 4th crusade, kingdom of Thessaloniki	
+	#1225 - To the despotate of Epirus, Serbian Empire, Byzantine Empire
+	#1349 - Byzantine rule, restored
+	#1387 - Conquest by the Ottomans
+	#1402 - Byzantine rule, restored
+	#1423 - Sold to Venice
+	#1430 - Conquest by the Ottomans
+}
+3778 = {	#Gynaikokastron
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+	#Unclear if it's old/important enough, but needed to build some slots
+}
+3779 = {	#Langades AKA Langadas
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+	#Unclear if it's old/important enough, but needed to build some slots
+}
+3780 = {	#Mavrouda
+	holding = none
+}
+
+###c_chalkidike # chalkidian_faith in pelasgian_religion
+491 = {		#Polygyros
+	culture = tyrsenian
+	religion = chalkidian_faith
+	holding = castle_holding
+	867.1.1 = {
+		#Placed here to let the county holder control the mine
+		special_building_slot = siderokausia_mines_01
+		special_building = siderokausia_mines_01
+	}
+}
+3775 = {	#Rendina AKA Eion
+	holding = castle_holding
+	culture = tyrsenian
+	religion = chalkidian_faith
+}
+3777 = {	#Kassandreia
+	holding = castle_holding
+	culture = tyrsenian
+	religion = chalkidian_faith
+	#Ancient diocese built on the ruins of an important macedonian city which got destroyed before CK timeframe
+}
+3776 = {	#Ierrisos / Ierissos
+	holding = castle_holding
+	culture = tyrsenian
+	religion = chalkidian_faith
+}
+
+###c_veria
+3784 = {	#Veria
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+}
+3781 = {	#Maglen
+	holding = none
+	culture = greek
+	religion = orthodox
+}
+3782 = {	#Sthlanitza
+	holding = none
+	culture = greek
+	religion = orthodox
+}
+3783 = {	#Voden aka Edessa
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3785 = {	#Kalyvia, Larissa
+	holding = none
+	culture = greek
+	religion = orthodox
+	#Founded during Ottoman rule
+}
+
+##d_thessaly ################################### trikalan_faith in pelasgian_group # trikalan culture in a new iliite_group that also contains the leleges moved from the pelasgian group as well as the iliite culture
+###c_thessalia
+489 = {		#Thessalia
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+	#1205 - 4th crusade, kingdom of Thessaloniki
+	#1225 - To the despotate of Epirus and Serbian empire
+	#1393 - Conquest by the Ottomans
+	#1402 - Byzantine rule, restored
+	#1430 - Conquest by the Ottomans
+}
+3786 = {	#Platamon
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3787 = {	#Servia
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3788 = {	#Elasson aka Elassona
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+
+###c_demetrias
+488 = {		#Demetrias
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+}
+3789 = {	#Velestino
+	holding = none
+	culture = greek
+	religion = orthodox
+	#Abandonned in VIIth, 1st mention after that in XIIIth
+}
+3790 = {	#Halmyros tied to the ancient city of Alos
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+
+###c_neopatras
+3793 = {	#Neopatras
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+}
+3791 = {	#Domokos
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+3792 = {	#Gardikia
+	holding = none
+	culture = greek
+	religion = orthodox
+}
+3794 = {	#Zetouni aka Lamia
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}
+
+###c_thessaliotis
+3797 = {	#Trikala
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+}
+3795 = {	#Grevena
+	holding = none
+	culture = greek
+	religion = orthodox
+}
+3796 = {	#Stagoi
+	holding = none
+	culture = greek
+	religion = orthodox
+	900.1.1 = {
+		holding = castle_holding
+		#First mention in Xth
+	}
+}
+3570 = {	#Pharsalos aka Farsala
+	holding = castle_holding
+	culture = greek
+	religion = orthodox
+}

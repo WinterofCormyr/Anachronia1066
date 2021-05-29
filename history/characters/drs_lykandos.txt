@@ -1,0 +1,17 @@
+﻿#Duchy of Lykandos d_elbistan # armenian Culture cobela_arixideuoi Religion characters
+#first ruler IN THE CREATION PROCESS born 1040 takes throne 1060 dies 1120 # expand rulers with ancestors back to at least 936 later
+
+# rulers of the Duchy of Lykandos 1060 onwards
+drslykandos0001 = {
+	name = "Meghranoush" #
+	female = yes
+	dynasty = drsdyn124 # Tornikian
+	religion = cobela_arixideuoi
+	culture = armenian
+	1040.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,297 @@
+﻿title_governor_pontic_empire = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 160
+	titles = { e_pontic_empire }
+	top_liege = yes
+}
+title_governor_female_pontic_empire = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 160
+	titles = { e_pontic_empire }
+	top_liege = yes
+}
+title_imperial_province_pontic_empire = {
+	type = title
+	tier = kingdom
+	titles = { e_pontic_empire }
+	priority = 160
+	top_liege = yes
+}
+title_duke_pontic_empire = {
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 160
+	titles = { e_pontic_empire }
+	top_liege = yes
+}
+title_duchess_pontic_empire = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 160
+	titles = { e_pontic_empire }
+	top_liege = yes
+}
+title_duchy_pontic_empire = {
+	type = title
+	tier = duchy
+	titles = { e_pontic_empire }
+	priority = 160
+	top_liege = yes
+}
+title_king_hattian = { # duke and count will be katte#kattah#kattes # emperor will be Zarinkatte#Zarinkattah#Zarinkattes meaning King#Queen#Kingdom of Mortal Men 
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 142
+	cultures = { hattian }
+	top_liege = no
+}
+title_queen_hattian = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 142
+	cultures = { hattian }
+	top_liege = no
+}
+title_kingdom_hattian = {
+	type = title
+	tier = kingdom
+	cultures = { hattian }
+	priority = 142
+	top_liege = no
+}
+title_duke_hattian = { # duke and count will be katte#kattah#kattes # emperor will be Zarinkatte#Zarinkattah#Zarinkattes meaning King#Queen#Kingdom of Mortal Men 
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 122
+	cultures = { hattian }
+	top_liege = no
+}
+title_duchess_hattian = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 122
+	cultures = { hattian }
+	top_liege = no
+}
+title_duchy_hattian = {
+	type = title
+	tier = duchy
+	cultures = { hattian }
+	priority = 122
+	top_liege = no
+}
+title_count_hattian = { # duke and count will be katte#kattah#kattes # emperor will be Zarinkatte#Zarinkattah#Zarinkattes meaning King#Queen#Kingdom of Mortal Men 
+	type = character
+	tier = county
+	gender = male
+	special = holder
+	priority = 112
+	cultures = { hattian }
+	top_liege = no
+}
+title_countess_hattian = {
+	type = character
+	tier = county
+	gender = female
+	special = holder
+	priority = 112
+	cultures = { hattian }
+	top_liege = no
+}
+title_county_hattian = {
+	type = title
+	tier = county
+	cultures = { hattian }
+	priority = 112
+	top_liege = no
+}
+title_emperor_hattian = { # duke and count will be katte#kattah#kattes # emperor will be Zarinkatte#Zarinkattah#Zarinkattes meaning King#Queen#Kingdom of Mortal Men 
+	type = character
+	tier = empire
+	gender = male
+	special = holder
+	priority = 152
+	cultures = { hattian }
+	top_liege = no
+}
+title_empress_hattian = {
+	type = character
+	tier = empire
+	gender = female
+	special = holder
+	priority = 152
+	cultures = { hattian }
+	top_liege = no
+}
+title_empire_hattian = {
+	type = title
+	tier = empire
+	cultures = { hattian }
+	priority = 152
+	top_liege = no
+}
+title_high_king_france = { # High King
+	type = character
+	tier = empire
+	gender = male
+	special = holder
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_high_queen_france = { # High Queen
+	type = character
+	tier = empire
+	gender = female
+	special = holder
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_high_queendom_france = { # High Queendom
+	type = title
+	tier = empire
+	titles = { e_france }
+	priority = 160
+	top_liege = yes
+}
+title_highprince_france = { # Highprince # High Prince
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_highprincess_france = { # Highprincess # High Princess
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_high_principality_france = { # High Principality
+	type = title
+	tier = kingdom
+	titles = { e_france }
+	priority = 160
+	top_liege = yes
+}
+title_petty_king_france = { # Petty King
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_petty_queen_france = { # Petty Queen
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_pettycrown_france = { # Pettycrown
+	type = title
+	tier = duchy
+	titles = { e_france }
+	priority = 160
+	top_liege = yes
+}
+title_seigneur_high_king_france = { # Seigneur # son of a High King of France
+	type = character
+	tier = empire
+	gender = male
+	special = ruler_child
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_dame_high_queen_france = { # Dame # daughter of a High Queen of France
+	type = character
+	tier = empire
+	gender = female
+	special = ruler_child
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_seigneur_highprince_france = { # Seigneur # son of a French Highprince
+	type = character
+	tier = kingdom
+	gender = male
+	special = ruler_child
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_dame_highprincess_france = { # Dame # daughter of a French Highprincess
+	type = character
+	tier = kingdom
+	gender = female
+	special = ruler_child
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_seigneur_pettyking_france = { # Seigneur # son of a French Petty King
+	type = character
+	tier = duchy
+	gender = male
+	special = ruler_child
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_dame_pettyqueen_france = { # Dame # daughter of a French Petty Queen
+	type = character
+	tier = duchy
+	gender = female
+	special = ruler_child
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_seigneur_count_france = { # Seigneur # son of a French Count
+	type = character
+	tier = county
+	gender = male
+	special = ruler_child
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}
+title_dame_countess_france = { # Dame # daughter of a French Countess
+	type = character
+	tier = county
+	gender = female
+	special = ruler_child
+	priority = 160
+	titles = { e_france }
+	top_liege = yes
+}

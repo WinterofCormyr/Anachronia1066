@@ -1,0 +1,17 @@
+﻿#Kingdom of Yugra # old_obish Culture suvar_al_i_faith Religion characters
+#first ruler born 841 takes throne 861
+
+# rulers of the Kingdom of Yugra
+drsyugra0001 = {
+	name = "Asli" #
+	female = yes
+	dynasty = drsdyn33 # Hayn
+	religion = suvar_al_i_faith
+	culture = old_obish
+	841.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}

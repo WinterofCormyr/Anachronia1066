@@ -1,0 +1,196 @@
+﻿elamite_group = {	
+	graphical_cultures = {
+		iranian_group_coa_gfx
+		mena_building_gfx
+		mena_clothing_gfx
+		mena_unit_gfx
+	}
+	mercenary_names = {
+		{ name = "mercenary_company_geezan_company" }
+		{ name = "mercenary_company_tigrayit_band" }
+	}
+	susanian = {
+		color = hsv { 0.17 0.40 0.81 }
+
+		cadet_dynasty_names = {
+			"dynn_Attar-Halki"
+			"dynn_Ige-Kittah"
+			"dynn_Ata-Halki"
+			"dynn_Kidin-Ishshan"
+			"dynn_Pahir-Hutran"
+			"dynn_Numena-Humban"
+			"dynn_Kutir-Napirisha"
+			"dynn_Untash-Nahhunte"
+			"dynn_Napi-Nashur"
+			"dynn_Kuk-Ilhush"
+			"dynn_Shushun-Tanhish"
+			"dynn_Ukku-Tarana"
+			"dynn_Temti-Inshushinak"
+			"dynn_Kutik-Hutran"
+		}
+		dynasty_names = {
+			"dynn_Attar-Halki"
+			"dynn_Ige-Kittah"
+			"dynn_Ata-Halki"
+			"dynn_Kidin-Ishshan"
+			"dynn_Pahir-Hutran"
+			"dynn_Numena-Humban"
+			"dynn_Kutir-Napirisha"
+			"dynn_Untash-Nahhunte"
+			"dynn_Napi-Nashur"
+			"dynn_Kuk-Ilhush"
+			"dynn_Shushun-Tanhish"
+			"dynn_Ukku-Tarana"
+			"dynn_Temti-Inshushinak"
+			"dynn_Kutik-Hutran"
+		}
+		male_names = { 
+			Kur-Ishshak Peli Tata Ukku-Tanhish Hishutash Shushun-Tarana Napi-Ilhush Kkku-Siwe-Temti Hishep-Ratep Luh-Ishshan Emahsini Helu Hita Kutik-Inshushinak Gir-Namme Tazitta Eparti Lurak_Luhhan Hutran-Temti Idattu-Inshushinak Kindattu Tan-Ruhuratir Indattu-Napir Indattu-Temti Shilhaha Kuk-Nashur Atta-hushu Tetep-Mada Palar-Ishshan Kuk-Sanit Kuk-Kirwash Tem-Sanit Kuk-Nahhunte Shirukduh Shimut-Wartash Siwe-Palar-Hupak Kuduzulush Kutir-Nahhunte Atta-Merra-Haiki Lila-Irtash Temti-Agun Temti-Raptash Shirtuh Tan-Uli Temti-Halksi Kutik-Matlat Kidinu Kidinu Insushinak-Sunkir-Nappipir Shalla Temti-Ahar Ata-Halki Attar-Kittah Ige-Halki Pahir-Ishshan Kidin-Hutran Humban-Numena Untash-Napirisha Untash_Humban Unpatar-Napirisha Unpatar-Humban Humban-Untash Napirisha-Untash Atamaita Asina Martiya Umamaita Upadarma
+		}
+		female_names = {
+			Tabguri Shatilu Shashru Iapru Gizili Hu_urti Azahar Iapulmat Napganaza Shimuthisha Liliriri Temukra Zana Zanidah
+		}
+		ethnicities = {
+			8 = arab
+			5 = mediterranean
+		}
+	}
+	anshanian = {
+		color = hsv { 0.14 0.42 0.85 }
+
+		cadet_dynasty_names = {
+			"dynn_Attar-Halki"
+			"dynn_Ige-Kittah"
+			"dynn_Ata-Halki"
+			"dynn_Kidin-Ishshan"
+			"dynn_Pahir-Hutran"
+			"dynn_Numena-Humban"
+			"dynn_Kutir-Napirisha"
+			"dynn_Untash-Nahhunte"
+			"dynn_Napi-Nashur"
+			"dynn_Kuk-Ilhush"
+			"dynn_Shushun-Tanhish"
+			"dynn_Ukku-Tarana"
+			"dynn_Temti-Inshushinak"
+			"dynn_Kutik-Hutran"
+		}
+		dynasty_names = {
+			"dynn_Attar-Halki"
+			"dynn_Ige-Kittah"
+			"dynn_Ata-Halki"
+			"dynn_Kidin-Ishshan"
+			"dynn_Pahir-Hutran"
+			"dynn_Numena-Humban"
+			"dynn_Kutir-Napirisha"
+			"dynn_Untash-Nahhunte"
+			"dynn_Napi-Nashur"
+			"dynn_Kuk-Ilhush"
+			"dynn_Shushun-Tanhish"
+			"dynn_Ukku-Tarana"
+			"dynn_Temti-Inshushinak"
+			"dynn_Kutik-Hutran"
+		}
+		male_names = { 
+			Kur-Ishshak Peli Tata Ukku-Tanhish Hishutash Shushun-Tarana Napi-Ilhush Kkku-Siwe-Temti Hishep-Ratep Luh-Ishshan Emahsini Helu Hita Kutik-Inshushinak Gir-Namme Tazitta Eparti Lurak_Luhhan Hutran-Temti Idattu-Inshushinak Kindattu Tan-Ruhuratir Indattu-Napir Indattu-Temti Shilhaha Kuk-Nashur Atta-hushu Tetep-Mada Palar-Ishshan Kuk-Sanit Kuk-Kirwash Tem-Sanit Kuk-Nahhunte Shirukduh Shimut-Wartash Siwe-Palar-Hupak Kuduzulush Kutir-Nahhunte Atta-Merra-Haiki Lila-Irtash Temti-Agun Temti-Raptash Shirtuh Tan-Uli Temti-Halksi Kutik-Matlat Kidinu Kidinu Insushinak-Sunkir-Nappipir Shalla Temti-Ahar Ata-Halki Attar-Kittah Ige-Halki Pahir-Ishshan Kidin-Hutran Humban-Numena Untash-Napirisha Untash_Humban Unpatar-Napirisha Unpatar-Humban Humban-Untash Napirisha-Untash Atamaita Asina Martiya Umamaita Upadarma
+		}
+		female_names = {
+			Tabguri Shatilu Shashru Iapru Gizili Hu_urti Azahar Iapulmat Napganaza Shimuthisha Liliriri Temukra Zana Zanidah
+		}
+		ethnicities = {
+			8 = arab
+			5 = mediterranean
+		}
+	}
+	ellipian = {
+		color = hsv { 0.19 0.37 0.78 }
+
+		cadet_dynasty_names = {
+			"dynn_Attar-Halki"
+			"dynn_Ige-Kittah"
+			"dynn_Ata-Halki"
+			"dynn_Kidin-Ishshan"
+			"dynn_Pahir-Hutran"
+			"dynn_Numena-Humban"
+			"dynn_Kutir-Napirisha"
+			"dynn_Untash-Nahhunte"
+			"dynn_Napi-Nashur"
+			"dynn_Kuk-Ilhush"
+			"dynn_Shushun-Tanhish"
+			"dynn_Ukku-Tarana"
+			"dynn_Temti-Inshushinak"
+			"dynn_Kutik-Hutran"
+		}
+		dynasty_names = {
+			"dynn_Attar-Halki"
+			"dynn_Ige-Kittah"
+			"dynn_Ata-Halki"
+			"dynn_Kidin-Ishshan"
+			"dynn_Pahir-Hutran"
+			"dynn_Numena-Humban"
+			"dynn_Kutir-Napirisha"
+			"dynn_Untash-Nahhunte"
+			"dynn_Napi-Nashur"
+			"dynn_Kuk-Ilhush"
+			"dynn_Shushun-Tanhish"
+			"dynn_Ukku-Tarana"
+			"dynn_Temti-Inshushinak"
+			"dynn_Kutik-Hutran"
+		}
+		male_names = { 
+			Kur-Ishshak Peli Tata Ukku-Tanhish Hishutash Shushun-Tarana Napi-Ilhush Kkku-Siwe-Temti Hishep-Ratep Luh-Ishshan Emahsini Helu Hita Kutik-Inshushinak Gir-Namme Tazitta Eparti Lurak_Luhhan Hutran-Temti Idattu-Inshushinak Kindattu Tan-Ruhuratir Indattu-Napir Indattu-Temti Shilhaha Kuk-Nashur Atta-hushu Tetep-Mada Palar-Ishshan Kuk-Sanit Kuk-Kirwash Tem-Sanit Kuk-Nahhunte Shirukduh Shimut-Wartash Siwe-Palar-Hupak Kuduzulush Kutir-Nahhunte Atta-Merra-Haiki Lila-Irtash Temti-Agun Temti-Raptash Shirtuh Tan-Uli Temti-Halksi Kutik-Matlat Kidinu Kidinu Insushinak-Sunkir-Nappipir Shalla Temti-Ahar Ata-Halki Attar-Kittah Ige-Halki Pahir-Ishshan Kidin-Hutran Humban-Numena Untash-Napirisha Untash_Humban Unpatar-Napirisha Unpatar-Humban Humban-Untash Napirisha-Untash Atamaita Asina Martiya Umamaita Upadarma
+		}
+		female_names = {
+			Tabguri Shatilu Shashru Iapru Gizili Hu_urti Azahar Iapulmat Napganaza Shimuthisha Liliriri Temukra Zana Zanidah
+		}
+		ethnicities = {
+			8 = arab
+			5 = mediterranean
+		}
+	}
+	liyan = {
+		color = hsv { 0.15 0.32 0.83 }
+
+		cadet_dynasty_names = {
+			"dynn_Attar-Halki"
+			"dynn_Ige-Kittah"
+			"dynn_Ata-Halki"
+			"dynn_Kidin-Ishshan"
+			"dynn_Pahir-Hutran"
+			"dynn_Numena-Humban"
+			"dynn_Kutir-Napirisha"
+			"dynn_Untash-Nahhunte"
+			"dynn_Napi-Nashur"
+			"dynn_Kuk-Ilhush"
+			"dynn_Shushun-Tanhish"
+			"dynn_Ukku-Tarana"
+			"dynn_Temti-Inshushinak"
+			"dynn_Kutik-Hutran"
+		}
+		dynasty_names = {
+			"dynn_Attar-Halki"
+			"dynn_Ige-Kittah"
+			"dynn_Ata-Halki"
+			"dynn_Kidin-Ishshan"
+			"dynn_Pahir-Hutran"
+			"dynn_Numena-Humban"
+			"dynn_Kutir-Napirisha"
+			"dynn_Untash-Nahhunte"
+			"dynn_Napi-Nashur"
+			"dynn_Kuk-Ilhush"
+			"dynn_Shushun-Tanhish"
+			"dynn_Ukku-Tarana"
+			"dynn_Temti-Inshushinak"
+			"dynn_Kutik-Hutran"
+		}
+		male_names = { 
+			Kur-Ishshak Peli Tata Ukku-Tanhish Hishutash Shushun-Tarana Napi-Ilhush Kkku-Siwe-Temti Hishep-Ratep Luh-Ishshan Emahsini Helu Hita Kutik-Inshushinak Gir-Namme Tazitta Eparti Lurak_Luhhan Hutran-Temti Idattu-Inshushinak Kindattu Tan-Ruhuratir Indattu-Napir Indattu-Temti Shilhaha Kuk-Nashur Atta-hushu Tetep-Mada Palar-Ishshan Kuk-Sanit Kuk-Kirwash Tem-Sanit Kuk-Nahhunte Shirukduh Shimut-Wartash Siwe-Palar-Hupak Kuduzulush Kutir-Nahhunte Atta-Merra-Haiki Lila-Irtash Temti-Agun Temti-Raptash Shirtuh Tan-Uli Temti-Halksi Kutik-Matlat Kidinu Kidinu Insushinak-Sunkir-Nappipir Shalla Temti-Ahar Ata-Halki Attar-Kittah Ige-Halki Pahir-Ishshan Kidin-Hutran Humban-Numena Untash-Napirisha Untash_Humban Unpatar-Napirisha Unpatar-Humban Humban-Untash Napirisha-Untash Atamaita Asina Martiya Umamaita Upadarma
+		}
+		female_names = {
+			Tabguri Shatilu Shashru Iapru Gizili Hu_urti Azahar Iapulmat Napganaza Shimuthisha Liliriri Temukra Zana Zanidah
+		}
+		ethnicities = {
+			8 = arab
+			5 = mediterranean
+		}
+	}
+}

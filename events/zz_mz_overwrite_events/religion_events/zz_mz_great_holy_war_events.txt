@@ -1,0 +1,102 @@
+﻿great_holy_war.0052 = { #The Crusade was successful. Edited to adjust conquerer trait upwards, since seems fitting.
+	title = {
+		first_valid = { #Title for winners/bystanders
+			triggered_desc = {
+				trigger = {
+					NOT = { scope:ghw_defender.faith.religion = root.faith.religion }
+				}
+				desc = great_holy_war.0052.title.winners
+			}
+		}
+		first_valid = { #Title for losers
+			triggered_desc = {
+				trigger = { scope:ghw_defender.faith.religion = root.faith.religion }
+				desc = great_holy_war.0052.title.losers
+			}
+		}
+	}
+	desc = {
+		first_valid = {
+			#Everybody else's flavor - Attackers.
+			triggered_desc = {
+				trigger = { scope:attacker.faith = root.faith }
+				desc = great_holy_war.0052.generic.attackers.desc
+			}
+			#Everybody else's flavor - Defenders.
+			triggered_desc = {
+				trigger = { scope:ghw_defender.faith.religion = root.faith.religion }
+				desc = great_holy_war.0052.generic.defenders.desc
+			}
+			#Other players.
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						scope:attacker.faith = root.faith
+						scope:ghw_defender.faith.religion = root.faith.religion
+					}
+				}
+				desc = great_holy_war.0052.generic.outsiders.desc
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		event_background = battlefield
+	}
+	left_portrait = {
+		character = scope:title_recipient
+		animation = war_over_win
+	}
+	right_portrait = {
+		character = scope:ghw_defender
+		animation = shame
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_general_crusade_event_3"
+		if = { # Conquerer update if applicable for GHW
+			limit = { 
+				scope:attacker.faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+				faith = { has_doctrine_parameter = mz_can_get_conquerer_trait }
+			}
+			if = {
+				limit = {
+					NOT = { exists = var:mz_conquerer_variable }
+				}
+				set_variable = {
+					name = mz_conquerer_variable
+					value = 1
+				}
+			}
+			else = {
+				change_variable = {
+					name = mz_conquerer_variable
+					add = 1
+				}
+			}
+			mz_gain_or_upgrade_conquerer_trait_effect = yes
+		}
+	}
+	
+	option = {
+		name = great_holy_war.0052.a
+		trigger = { scope:attacker.faith = root.faith }
+	}
+	
+	option = {
+		name = great_holy_war.0052.b
+		trigger = { scope:ghw_defender.faith = root.faith }
+	}
+	
+	option = {
+		name = great_holy_war.0052.c
+		trigger = {
+			NOR = {
+				scope:attacker.faith = root.faith
+				scope:ghw_defender.faith = root.faith
+			}
+		}
+	}
+
+	after = { remove_variable = ghw_war_chest_donated_sum }
+}

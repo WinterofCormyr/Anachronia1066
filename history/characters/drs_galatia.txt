@@ -1,0 +1,927 @@
+﻿#Kingdom of Galatia # galatian Culture high_galatian_faith Religion characters # RULES THE KINGDOM FROM 860 ONWARDS AS A UNITED STATE
+# rulers of the Kingdom of Galatia
+drsgalatia0001 = { #
+	name = "Dixonestos" # King Dixonestos I Rigosages of Galatia
+	# wife Nixitilla Vuronsemestogenos # no children with her
+	# wife Artemetigerne Eponetorixi drsdyn105 # daughter Palladia # son Lutatios # daughter Christogennon # daughter Chagnouolnati # son Cernunnios # daughter Sovaducobela # daughter Iesomara
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	830.1.1 = {
+		birth = yes
+	}
+	911.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0002 = { #
+	name = "Nixitilla" #
+	female = yes
+	dynasty = drsdyn102 # Vuronsemestogenos
+	religion = high_galatian_faith
+	culture = galatian
+	830.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		add_spouse = drsgalatia0001 # Dixonestos Rigosages
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0003 = { #
+	name = "Artemetigerne" #
+	female = yes
+	dynasty = drsdyn105 # Eponetorixi
+	religion = high_galatian_faith
+	culture = galatian
+	830.1.1 = {
+		birth = yes
+	}
+	850.1.2 = {
+		add_spouse = drsgalatia0001 # Dixonestos Rigosages
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0004 = { #
+	name = "Palladia" # inherits k_galatia in 911 # monogamous # husband Atiuelnamnos Vuronsemocintutouta drsdyn106 # no children
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0001 # Dixonestos Rigosages
+	mother = drsgalatia0003 # Artemetigerne Eponetorixi
+	851.1.1 = {
+		birth = yes
+	}
+	946.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0005 = { #
+	name = "Lutatios" #
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0001 # Dixonestos Rigosages
+	mother = drsgalatia0003 # Artemetigerne Eponetorixi
+	852.1.1 = {
+		birth = yes
+	}
+	937.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0006 = { #
+	name = "Christogennon" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0001 # Dixonestos Rigosages
+	mother = drsgalatia0003 # Artemetigerne Eponetorixi
+	853.1.1 = {
+		birth = yes
+	}
+	924.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0007 = { #
+	name = "Chagnouolnati" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0001 # Dixonestos Rigosages
+	mother = drsgalatia0003 # Artemetigerne Eponetorixi
+	854.1.1 = {
+		birth = yes
+	}
+	926.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0008 = { #
+	name = "Cernunnios" #
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0001 # Dixonestos Rigosages
+	mother = drsgalatia0003 # Artemetigerne Eponetorixi
+	855.1.1 = {
+		birth = yes
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0009 = { #
+	name = "Sovaducobela" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0001 # Dixonestos Rigosages
+	mother = drsgalatia0003 # Artemetigerne Eponetorixi
+	856.1.1 = {
+		birth = yes
+	}
+	933.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0010 = { #
+	name = "Iesomara" # inherits k_galatia in 946 # death of Palladia Rigosages # monogamous # husband Gaios # daughter Atiuolnati theophoric name honoring Aitah # daughter Atiaserigani theophoric name honoring Ayase
+	# daughter Cheliogennon mythic name based on Chelios-Helios # daughter Chermemara mythic name based on Hermes # daughter Christa theophoric name based on Christos-Christ # Sovaduchagno mythic name based on the nymph Chagno
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0001 # Dixonestos Rigosages
+	mother = drsgalatia0003 # Artemetigerne Eponetorixi
+	857.1.1 = {
+		birth = yes
+	}
+	953.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0011 = { #
+	name = "Atiuelnamnos" #
+	dynasty = drsdyn106 # Vuronsemocintutouta
+	religion = high_galatian_faith
+	culture = galatian
+	851.1.1 = {
+		birth = yes
+	}
+	871.1.1 = {
+		add_matrilineal_spouse = drsgalatia0004 # Palladia Rigosages
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0012 = { #
+	name = "Gaios" #
+	dynasty = drsdyn107 # Elirenos
+	religion = high_galatian_faith
+	culture = galatian
+	857.1.1 = {
+		birth = yes
+	}
+	877.1.1 = {
+		add_matrilineal_spouse = drsgalatia0010 # Iesomara Rigosages
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0013 = { #
+	name = "Atiuolnati" # Theophoric - Aitah
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0012 # Gaios Elirenos
+	mother = drsgalatia0010 # Iesomara Rigosages
+	878.1.1 = {
+		birth = yes
+	}
+	949.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0014 = { # inherits k_galatia 953
+	name = "Atiaserigani" # Theophoric - Aya'se # death of Iesomara Rigosages # monogamous # husband Adonirix Cintudixonitoutias drsdyn108 # married matrilineally
+	# Adonirix follows greek_galatian_faith a post-revolution and resurrectionist Hellenic faith in the Galatian group that worships both sets of deities # Greek and Galatian # greek_galatian_faith is followed in southern Bucellaria
+	# c_iuliopolis c_papira c_vindia c_mocissus c_lagania
+	# son Eponestos # son Theodoros # daughter Cobelagenno # daughter Artemetigerna
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0012 # Gaios Elirenos
+	mother = drsgalatia0010 # Iesomara Rigosages
+	879.1.1 = {
+		birth = yes
+	}
+	974.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0015 = { #
+	name = "Cheliogennon" # Theophoric - Helios
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0012 # Gaios Elirenos
+	mother = drsgalatia0010 # Iesomara Rigosages
+	880.1.1 = {
+		birth = yes
+	}
+	976.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0016 = { #
+	name = "Chermemara" # Theophoric - Hermes
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0012 # Gaios Elirenos
+	mother = drsgalatia0010 # Iesomara Rigosages
+	881.1.1 = {
+		birth = yes
+	}
+	963.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0017 = { #
+	name = "Christa" # Theophoric - Christ
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0012 # Gaios Elirenos
+	mother = drsgalatia0010 # Iesomara Rigosages
+	882.1.1 = {
+		birth = yes
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0018 = { #
+	name = "Sovaduchagno" # Theophoric - Hagno
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0012 # Gaios Elirenos
+	mother = drsgalatia0010 # Iesomara Rigosages
+	883.1.1 = {
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0019 = { #
+	name = "Adonirix" #
+	dynasty = drsdyn108 # Cintudixonitoutias
+	religion = greek_galatian_faith
+	culture = galatian
+	879.1.1 = {
+		birth = yes
+	}
+	899.1.1 = {
+		add_matrilineal_spouse = drsgalatia0014 # Atiaserigani Rigosages
+	}
+	974.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0020 = { # inherits k_galatia 974 
+	name = "Eponestos" # polygamous # 3 spouses all patrilineal
+	#1 wife Chermerigani Christoualatoutabi drsdyn110 # no children
+	#2 wife Velioiessos Eponerigani drsdyn111 # daughter Dixonamara # daughter Echosia # daughter Avroditeia # daughter Oraniatilla # daughter Epone # son Selenestos
+	#3 wife Geatilla Vuronsemouolnati drsdyn112 # son Pylamenes # son Eridanosestos # son Elirenios # daughter Iesualla # daughter Cobelatigerne # son Iesognatos # daughter Iesoutigerna # daughter Cobelagennon 
+	# daughter Eponegenno
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0019 # Adonirix Cintudixonitoutias
+	mother = drsgalatia0014 # Atiaserigani Rigosages
+	900.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0021 = { # 
+	name = "Theodoros" # 
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0019 # Adonirix Cintudixonitoutias
+	mother = drsgalatia0014 # Atiaserigani Rigosages
+	901.1.1 = {
+		birth = yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0022 = { # 
+	name = "Cobelagenno" # 
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0019 # Adonirix Cintudixonitoutias
+	mother = drsgalatia0014 # Atiaserigani Rigosages
+	902.1.1 = {
+		birth = yes
+	}
+	982.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0023 = { # 
+	name = "Artemetigerna" # 
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0019 # Adonirix Cintudixonitoutias
+	mother = drsgalatia0014 # Atiaserigani Rigosages
+	903.1.1 = {
+		birth = yes
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0024 = { #
+	name = "Chermerigani" #
+	female = yes
+	dynasty = drsdyn110 # Christoualatoutabi
+	religion = iesodeuonosism
+	culture = galatian
+	900.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		add_spouse = drsgalatia0020 # Eponestos Rigosages
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0025 = { #
+	name = "Velioiessos" #
+	female = yes
+	dynasty = drsdyn111 # Eponerigani
+	religion = high_galatian_faith
+	culture = galatian
+	900.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		add_spouse = drsgalatia0020 # Eponestos Rigosages
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0026 = { # inherits k_galatia in 980
+	name = "Dixonamara" # monogamous # husband Iesomaros # daughter Cobela # daughter Sirona # daughter Eponemara
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0025 # Velioiessos Eponerigani
+	922.1.1 = {
+		birth = yes
+	}
+	1002.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0027 = { # 
+	name = "Echosia" # 
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0025 # Velioiessos Eponerigani
+	923.1.1 = {
+		birth = yes
+	}
+	1003.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0028 = { # 
+	name = "Avroditeia" # 
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0025 # Velioiessos Eponerigani
+	924.1.1 = {
+		birth = yes
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0029 = { # 
+	name = "Oraniatilla" # sister Epone brother Selenestos
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0025 # Velioiessos Eponerigani
+	925.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0030 = { # 
+	name = "Epone" # 
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0025 # Velioiessos Eponerigani
+	926.1.1 = {
+		birth = yes
+	}
+	1006.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0031 = { # 
+	name = "Selenestos" # 
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0025 # Velioiessos Eponerigani
+	927.1.1 = {
+		birth = yes
+	}
+	1007.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0032 = { #3 wife of Eponestos # Geatilla Vuronsemouolnati drsdyn112 # son Pylamenes # son Eridanosestos # son Elirenios # daughter Iesualla # daughter Cobelatigerne # son Iesognatos # daughter Iesoutigerna 
+	# daughter Cobelagennon # daughter Eponegenno
+	name = "Geatilla" #
+	female = yes
+	dynasty = drsdyn112 # Vuronsemouolnati
+	religion = high_galatian_faith
+	culture = galatian
+	900.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		add_spouse = drsgalatia0020 # Eponestos Rigosages
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0033 = { # 
+	name = "Pylamenes" # 
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0032 # Geatilla Vuronsemouolnati
+	928.1.2 = {
+		birth = yes
+	}
+	1008.1.2 = {
+		death = yes
+	}
+}
+drsgalatia0034 = { # 
+	name = "Eridanosestos" # 
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0032 # Geatilla Vuronsemouolnati
+	929.1.1 = {
+		birth = yes
+	}
+	1009.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0035 = { # 
+	name = "Elireneos" # 
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0032 # Geatilla Vuronsemouolnati
+	930.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0036 = { # 
+	name = "Iesualla" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0032 # Geatilla Vuronsemouolnati
+	931.1.1 = {
+		birth = yes
+	}
+	1011.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0037 = { # 
+	name = "Cobelatigerne" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0032 # Geatilla Vuronsemouolnati
+	932.1.1 = {
+		birth = yes
+	}
+	1012.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0038 = { # 
+	name = "Iesognatos" #
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0032 # Geatilla Vuronsemouolnati
+	933.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0039 = { # 
+	name = "Iesoutigerna" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0032 # Geatilla Vuronsemouolnati
+	934.1.1 = {
+		birth = yes
+	}
+	1014.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0040 = { # 
+	name = "Cobelagennon" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0032 # Geatilla Vuronsemouolnati
+	935.1.1 = {
+		birth = yes
+	}
+	1015.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0041 = { # 
+	name = "Eponegenno" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0020 # Eponestos Rigosages
+	mother = drsgalatia0032 # Geatilla Vuronsemouolnati
+	936.1.1 = {
+		birth = yes
+	}
+	1016.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0042 = { #
+	name = "Iesomaros" #
+	dynasty = drsdyn113 # Nixatigerni
+	religion = high_galatian_faith
+	culture = galatian
+	922.1.1 = {
+		birth = yes
+	}
+	942.1.1 = {
+		add_matrilineal_spouse = drsgalatia0026 # Dixonamara Rigosages
+	}
+	1002.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0043 = { # inherits k_galatia 1002
+	name = "Cobela" # monogamous # husband 14A Artementigerne Atiageni drsdyn114 # no children
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0042 # Iesomaros Nixatigerni
+	mother = drsgalatia0026 # Dixonamara Rigosages
+	943.1.1 = {
+		birth = yes
+	}
+	1023.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0044 = { # 
+	name = "Sirona" # polygamous (3 spouses)
+	#1 husband Segoatiase Eridanogennos drsdyn115 # daughter Iesougennon
+	#2 husband Vuronsemotigernos Echogennom drsdyn116 # no children
+	#3 husband Selenecorix Viroeridanos drsdyn117 # daughter Iesouala
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0042 # Iesomaros Nixatigerni
+	mother = drsgalatia0026 # Dixonamara Rigosages
+	944.1.1 = {
+		birth = yes
+	}
+	1024.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0045 = { # 
+	name = "Eponemara" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0042 # Iesomaros Nixatigerni
+	mother = drsgalatia0026 # Dixonamara Rigosages
+	945.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0046 = { #
+	name = "Artementigerne" #
+	dynasty = drsdyn114 # Atiageni
+	religion = high_galatian_faith
+	culture = galatian
+	943.1.1 = {
+		birth = yes
+	}
+	963.1.1 = {
+		add_matrilineal_spouse = drsgalatia0043 # Cobela Rigosages
+	}
+	1023.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0047 = { #
+	name = "Segoatiase" #
+	dynasty = drsdyn115 # Eridanogennos
+	religion = high_galatian_faith
+	culture = galatian
+	944.1.1 = {
+		birth = yes
+	}
+	964.1.1 = {
+		add_matrilineal_spouse = drsgalatia0044 # Sirona Rigosages
+	}
+	1024.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0048 = { # inherits k_galatia 1024
+	name = "Iesougennon" # monogamous # husband Dumnorix Veliogeotouta drsdyn118 # son Dominus 
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0047 # Segoatiase Eridanogennos
+	mother = drsgalatia0044 # Sirona Rigosages
+	965.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0049 = { #
+	name = "Vuronsemotigernos" #
+	dynasty = drsdyn116 # Echogennom
+	religion = high_galatian_faith
+	culture = galatian
+	944.1.1 = {
+		birth = yes
+	}
+	965.1.1 = {
+		add_matrilineal_spouse = drsgalatia0044 # Sirona Rigosages
+	}
+	1024.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0050 = { #
+	name = "Selenecorix" #
+	dynasty = drsdyn117 # Viroeridanos
+	religion = high_galatian_faith
+	culture = galatian
+	944.1.1 = {
+		birth = yes
+	}
+	966.1.1 = {
+		add_matrilineal_spouse = drsgalatia0044 # Sirona Rigosages
+	}
+	1024.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0051 = { # 
+	name = "Iesouala" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0050 # Selenecorix Viroeridanos
+	mother = drsgalatia0044 # Sirona Rigosages
+	967.1.1 = {
+		birth = yes
+	}
+	1047.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0052 = { #
+	name = "Dumnorix" #
+	dynasty = drsdyn118 # Veliogeotouta
+	religion = high_galatian_faith
+	culture = galatian
+	965.1.1 = {
+		birth = yes
+	}
+	985.1.1 = {
+		add_matrilineal_spouse = drsgalatia0048 # Iesougennon Rigosages
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0053 = { # inherits k_galatia 1045
+	name = "Dominus" # polygamous # two wives
+	#1 wife Geauolnati Chagnotoutan drsdyn119 # no children
+	#2 wife Sovaducobela Segoartemistoutim drsdyn120 # daughter Iesuala # daughter Antiochis # daughter Agathe # daughter Rossomara # daughter Brogimara
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0052 # Dumnorix Veliogeotouta
+	mother = drsgalatia0048 # Iesougennon Rigosages
+	989.1.1 = {
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0054 = { #
+	name = "Geauolnati" #
+	female = yes
+	dynasty = drsdyn119 # Chagnotoutan
+	religion = high_galatian_faith
+	culture = galatian
+	989.1.1 = {
+		birth = yes
+	}
+	1009.1.1 = {
+		add_spouse = drsgalatia0053 # Dominus Rigosages
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0055 = { #
+	name = "Sovaducobela" #
+	female = yes
+	dynasty = drsdyn120 # Segoartemistoutim
+	religion = high_galatian_faith
+	culture = galatian
+	989.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		add_spouse = drsgalatia0053 # Dominus Rigosages
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0056 = { # inherits k_galatia 1069
+	name = "Iesuala" # monogamous # husband Catucernunnos Petratoutas drsdyn121 # no children
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0053 # Dominus Rigosages
+	mother = drsgalatia0055 # Sovaducobela Segoartemistoutim
+	1011.1.1 = {
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0057 = { # 
+	name = "Antiochis" # no children
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0053 # Dominus Rigosages
+	mother = drsgalatia0055 # Sovaducobela Segoartemistoutim
+	1012.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0058 = { # 
+	name = "Agathe" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0053 # Dominus Rigosages
+	mother = drsgalatia0055 # Sovaducobela Segoartemistoutim
+	1013.1.1 = {
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0059 = { # 
+	name = "Rossomara" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0053 # Dominus Rigosages
+	mother = drsgalatia0055 # Sovaducobela Segoartemistoutim
+	1014.1.1 = {
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0060 = { # 
+	name = "Brogimara" #
+	female = yes
+	dynasty = drsdyn93 # Rigosages
+	religion = high_galatian_faith
+	culture = galatian
+	father = drsgalatia0053 # Dominus Rigosages
+	mother = drsgalatia0055 # Sovaducobela Segoartemistoutim
+	1015.1.1 = {
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}
+drsgalatia0061 = { #
+	name = "Catucernunnos" #
+	dynasty = drsdyn121 # Petratoutas
+	religion = high_galatian_faith
+	culture = galatian
+	1011.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		add_matrilineal_spouse = drsgalatia0056 # Iesuala Rigosages
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}

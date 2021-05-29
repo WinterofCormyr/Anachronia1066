@@ -1,0 +1,102 @@
+﻿l_english:
+########################################
+#### k_esthonia
+########################################
+k_esthonia:0 "Maavald" #Estonia
+k_esthonia_adj:0 "Maavald" #Estonian
+########################################
+#### d_estonia
+########################################
+c_reval:0 "Revalia" #Reval
+c_reval_adj:0 "Revalian" #Kalevanian
+b_reval:0 "Revala" #Kalevan
+b_reval_adj:0 "Revala"
+b_harjumaa:0 "Varbola" #Harjumaa
+b_harjumaa_adj:0 "Varbola"
+b_jarva:0 "Kareda" #Järva
+b_jarva_adj:0 "Kareda"
+c_narva:0 "Vironia" #Narva
+c_narva_adj:0 "Vironian" #Narvaian
+b_wesenburg:0 "Tarvanpea" #Wesenburg
+b_wesenburg_adj:0 "Tarvanpea"
+b_narva:0 "Narva" #Narva
+b_narva_adj:0 "Narva"
+c_osel:0 "Osilia" #Osel
+c_osel_adj:0 "Osilian" #Öselian
+b_kuressare:0 "Kuressaare" #Kuressaare
+b_kuressare_adj:0 "Kuressaare"
+b_maasilinna:0 "Maasilinna" #Maasilinna
+b_maasilinna_adj:0 "Maasilinna"
+b_muhu:0 "Muhu" #Muhu
+b_muhu_adj:0 "Muhu"
+b_hiiumaa:0 "Hiiu" #Hiiumaa
+b_hiiumaa_adj:0 "Hiiu"
+c_wiek:0 "Rotalia" #Wiek
+c_wiek_adj:0 "Rotalian"
+b_leal:0 "Lihula" #Lihula
+b_leal_adj:0 "Lihula"
+b_hapsal:0 "Ridala" #Haapsalu
+b_hapsal_adj:0 "Ridala"
+########################################
+#### d_livonia
+########################################
+d_livonia:0 "Livonia"
+d_livonia_adj:0 "Livonian"
+c_metsepole:0 "Metsepole" #NEW
+c_metsepole_adj:0 "Metsepole" #NEW
+b_valmiera:0 "Turaida"
+b_valmiera_adj:0 "Turaida"
+b_lemisele:0 "Limbazi"
+b_lemisele_adj:0 "Limbazi"
+c_vidzeme:0 "Vidzeme"
+c_vidzeme_adj:0 "Vidzeme"
+b_venden:0 "Cesis"
+b_venden_adj:0 "Cesis"
+b_lennewarden:0 "Lielvarde"
+b_lennewarden_adj:0 "Lielvarde"
+c_riga:0 "Riga" #NEW
+c_riga_adj:0 "Riga"
+b_riga:0 "Riga"
+b_riga_adj:0 "Riga"
+b_uxkull:0 "Daugava"
+b_uxkull_adj:0 "Daugava"
+c_vanemane:0 "Vanemane"
+c_vanemane_adj:0 "Vanemane"
+b_kandava:0 "Kandava"
+b_kandava_adj:0 "Kandava"
+b_dundaga:0 "Talsi"
+b_dundaga_adj:0 "Talsi"
+########################################
+#### d_sakala #NEW
+########################################
+d_sakala:0 "Sakala" #Livs
+d_sakala_adj:0 "Sakala" #Livonian
+c_livs:0 "Sakala" #Livs
+c_livs_adj:0 "Sakala" #Livonian
+b_viljandi:0 "Viljandi" #Viljandi
+b_viljandi_adj:0 "Viljandi"
+b_alistegunde:0 "Alistegunde"
+b_alistegunde_adj:0 "Alistegunde"
+c_salaca:0 "Salaca" #NEW
+c_salaca_adj:0 "Salaca" #NEW
+b_salacgriva:0 "Salaca"
+b_salacgriva_adj:0 "Salaca"
+b_parnu:0 "Parnu" #Parnu
+b_parnu_adj:0 "Parnu" #Parnu
+########################################
+#### d_ugandi #NEW
+########################################
+d_ugandi:0 "Ugaunia" #NEW
+d_ugandi_adj:0 "Ugaunian" #NEW
+c_voru:0 "Voru" #NEW
+c_voru_adj:0 "Voru" #NEW
+b_valga:0 "Otepaa" #Valga
+b_valga_adj:0 "Otepaa"
+b_vastseliina:0 "Kaapa" #Vastseliina
+b_vastseliina_adj:0 "Kaapa"
+c_dorpat:0 "Tartu" #Tartu
+c_dorpat_adj:0 "Tartu" #Tartuan
+b_tartu:0 "Tartu" #Tartu
+b_tartu_adj:0 "Tartu" #Tartus
+b_poltsamaa:0 "Poltsamaa" #Poltsamaa
+b_poltsamaa_adj:0 "Poltsamaa"

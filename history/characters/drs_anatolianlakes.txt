@@ -1,0 +1,212 @@
+﻿drsanatolianlakes0001 = { 
+	name = "Anufelianu" # monogamous # wife Niwasanah Kizhanun drsdyn165 # daughter Katuhannah # daughter Asannanna # daughter Eskasbar # twin children a son Hawaskar and a daughter Kasah 
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	800.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0002 = { 
+	name = "Niwasanah" # monogamous # husband Anufelianu Furunkarun drsdyn165 # daughter Katuhannah # daughter Asannanna # daughter Eskasbar # twin children a son Hawaskar and a daughter Kasah 
+	female = yes
+	dynasty = drsdyn165 # Kizhanun
+	religion = hattian_pagan
+	culture = hattian
+	800.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		add_spouse = drsanatolianlakes0001 # Anufelianu Furunkarun
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0003 = { 
+	name = "Katuhannah" # monogamous # husband Hamasku Hirun drsdyn166 # son Hanhait # twin children a son Allamarkim and a daughter Furu-Semu # twin children a daughter Hanah and a son Hangara 
+	female = yes
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0001 # Anufelianu Furunkarun
+	mother = drsanatolianlakes0002 # Niwasanah Kizhanun
+	821.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0004 = { 
+	name = "Asannanna" #
+	female = yes
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0001 # Anufelianu Furunkarun
+	mother = drsanatolianlakes0002 # Niwasanah Kizhanun
+	822.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0005 = { 
+	name = "Eskasbar" #
+	female = yes
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0001 # Anufelianu Furunkarun
+	mother = drsanatolianlakes0002 # Niwasanah Kizhanun
+	823.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0006 = { 
+	name = "Hawaskar" #
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0001 # Anufelianu Furunkarun
+	mother = drsanatolianlakes0002 # Niwasanah Kizhanun
+	trait = twin
+	824.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0007 = { 
+	name = "Kasah" #
+	female = yes
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0001 # Anufelianu Furunkarun
+	mother = drsanatolianlakes0002 # Niwasanah Kizhanun
+	trait = twin
+	824.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0008 = { 
+	name = "Hamasku" # bigamous # wife Katuhannah Furunkarun drsdyn164 # son Hanhait # twin children a son Allamarkim and a daughter Furu-Semu # twin children a daughter Hanah and a son Hangara
+	# wife 2 is Hirah Karganun # no children
+	dynasty = drsdyn166 # Hirun
+	religion = hattian_pagan
+	culture = hattian
+	821.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		add_matrilineal_spouse = drsanatolianlakes0003 # Katuhannah Furunkarun
+	}
+	844.1.1 = {
+		add_spouse = drsanatolianlakes0009 # Hirah Karganun
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0009 = { 
+	name = "Hirah" # 
+	female = yes
+	dynasty = drsdyn167 # Karganun
+	religion = hattian_pagan
+	culture = hattian
+	821.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0010 = { 
+	name = "Hanhait" #
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0008 # Hamasku Hirun
+	mother = drsanatolianlakes0003 # Katuhannah Furunkarun
+	842.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0011 = { 
+	name = "Allamarkim" #
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0008 # Hamasku Hirun
+	mother = drsanatolianlakes0003 # Katuhannah Furunkarun
+	trait = twin
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0012 = { 
+	name = "Furu-Semu" #
+	female = yes
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0008 # Hamasku Hirun
+	mother = drsanatolianlakes0003 # Katuhannah Furunkarun
+	trait = twin
+	843.1.1 = {
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0013 = { 
+	name = "Hanah" #
+	female = yes
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0008 # Hamasku Hirun
+	mother = drsanatolianlakes0003 # Katuhannah Furunkarun
+	trait = twin
+	844.1.1 = {
+		birth = yes
+	}
+	924.1.1 = {
+		death = yes
+	}
+}
+drsanatolianlakes0014 = { 
+	name = "Hangara" #
+	dynasty = drsdyn164 # Furunkarun
+	religion = hattian_pagan
+	culture = hattian
+	father = drsanatolianlakes0008 # Hamasku Hirun
+	mother = drsanatolianlakes0003 # Katuhannah Furunkarun
+	trait = twin
+	844.1.1 = {
+		birth = yes
+	}
+	924.1.1 = {
+		death = yes
+	}
+}

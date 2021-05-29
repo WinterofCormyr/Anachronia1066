@@ -1,0 +1,929 @@
+#k_bavaria
+##d_bavaria ###################################
+###c_regensburg
+2964 = {	#REGENSBURG
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			farm_estates_01
+			barracks_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			farm_estates_01
+			barracks_01
+			curtain_walls_01
+			pastures_01
+		}
+  }
+}
+2965 = {	#TEGERNHEIM
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	900.1.1 = {
+		holding = castle_holding
+	}
+}
+2941 = {	#ABENSBERG
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2963 = {	#LEONSBERG
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1230.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_munchen
+2945 = {	#MUNCHEN
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2946 = {	#AHEIM
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2947 = {	#WOLFRATSHAUSEN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_eschenlohe
+2949 = {	#ESCHENLOHE
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2948 = {	#TOLZ
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	#~1175
+}
+
+###c_rothenburg
+2942 = {	#ROTHENBURG
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2943 = {	#FREISING
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2939 = {	#ILMMUNSTER
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_geisenhausen
+2957 = {	#GEISENHAUSEN
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2958 = {	#ERDING
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_frontenhausen
+2959 = {	#FRONTENHAUSEN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1120.1.1 = {
+		holding = castle_holding
+	}
+	
+}
+2961 = {	#DORNBERG
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2962 = {	#ORTENBURG
+
+		culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2981 = {	#BURGHAUSEN
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+
+###c_falkenstein
+2956 = {	#FALKENSTEIN
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2984 = {	#MARQUARTSTEIN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_ingolstadt
+2883 = {	#INGOLSTADT
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2940 = {	#MUNCHSMUNSTER
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2938 = {	#NIEDERSCHONENFELD
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_passau
+2960 = {	#PASSAU
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2969 = {	#WALDKIRCHEN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2970 = {	#SCHARDING
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2968 = {	#DEGGENDORF
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+##d_nordgau ###################################
+###c_eichstadt
+2878 = {	#EICHTSTAD
+holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2879 = {	#HIRSCHBERG
+	
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2882 = {	#NEUE WEISSENBURG
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_leuchtenburg
+2990 = {	#LEUCHTENBURG
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2994 = {	#KULMBACH
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2993 = {	#BAYREUTH
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_parsberg
+2987 = {	#PARSBERG
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2986 = {	#LENGENFELD
+	holding = none
+		culture = bavarian
+	religion = allemanian_ireneism
+}
+2988 = {	#SULZBACH
+		culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2991 = {	#NEUMARKT
+	holding = castle_holding
+		culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_hohenburg
+2989 = {	#HOHENBURG
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2967 = {	#CHAM
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2966 = {	#WENZENBACH
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+##d_salzburg ###################################
+###c_salzburg
+2975 = {	#SALZBURG
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2973 = {	#BRAUNAU
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1120.1.1 = {
+		holding = castle_holding
+	}
+}
+2983 = {	#TRAUNSTEIN
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2978 = {	#HALLEIN
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2982 = {	#LAUFEN
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_berchtesgaden
+2977 = {	#BERCHTESGADEN
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2985 = {	#LAUKENTAL
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2976 = {	#KITZBUHEL
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_hallstatt
+3135 = {	#HALLSTATT
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3130 = {	#LIEZEN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1125.1.1 = {
+		holding = castle_holding
+	}
+}
+3133 = {	#WELS
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_linz
+3131 = {	#LINZ
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			curtain_walls_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			cereal_fields_01
+			military_camps_01
+			hunting_grounds_01
+		}
+	}
+}
+3132 = {	#STEYR
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+3072 = {	#LEONFELDEN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_schaumberg
+2971 = {	#SCHAUMBERG
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2979 = {	#STRASSWALCHEN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2972 = {	#RIED
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_augsburg ###################################
+###c_augsburg
+2778 = {	#AUGSBURG
+	culture = swabian
+	religion = allemanian_ireneism
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			military_camps_01
+			pastures_01
+		}
+	}
+}
+2779 = {	#FRIEDBERG
+	holding = none
+	culture = swabian
+	religion = allemanian_ireneism
+	#1264
+}
+2780 = {	#LECHRAIN
+	holding = none
+	culture = swabian
+	religion = allemanian_ireneism
+}
+2784 = {	#KAUFBEUREN
+	holding = castle_holding
+	culture = swabian
+	religion = allemanian_ireneism
+}
+
+###c_alpsee
+2782 = {	#SCHONGAU
+	culture = swabian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2781 = {	#PEITING
+	holding = castle_holding
+	culture = swabian
+	religion = allemanian_ireneism
+}
+2790 = {	#HOHENSCHWANGAU
+	holding = none
+	culture = swabian
+	religion = allemanian_ireneism
+}
+
+###c_kempten
+2783 = {	#KEMPTEN
+	culture = swabian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2776 = {	#MARSETTEN
+	culture = swabian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2785 = {	#MEMMINGEN
+	holding = castle_holding
+	culture = swabian
+	religion = allemanian_ireneism
+}
+
+###c_ravensburg
+2786 = {	#RAVENSBURG
+	culture = swabian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2787 = {	#BREGENZ
+	culture = swabian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+
+###c_burgau
+2777 = {	#BURGAU
+	culture = swabian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2775 = {	#KIRCHBERG
+	holding = none
+	culture = swabian
+	religion = allemanian_ireneism
+}
+
+##d_steyermark ###################################
+###c_graz
+3117 = {	#GRAZ
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+	
+	955.1.1 = { culture = bavarian }
+}
+3111 = {	#KOFLACH
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+3118 = {	#KAPFENBERG
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+3110 = {	#LEOBEN
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	900.1.1 = {
+		holding = castle_holding
+	}
+}
+3116 = {	#FELDBACH
+	holding = none
+	#1188
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+
+###c_pitten
+3092 = {	#PITTEN
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = tribal_holding
+	955.1.1 = { culture = bavarian }
+	1000.1.1 = {
+		holding = castle_holding
+		#Fortified settlement with castle/fortress in the XIth
+	}
+}
+3120 = {	#OBERWART
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_liebnitz
+3109 = {	#LIEBNITZ
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3103 = {	#MARIBOR
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1164.1.1 = {
+		holding = castle_holding
+	}
+}
+3106 = {	#WINDISCHE BUHEL
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+
+###c_murzzuschlag
+3121 = {	#MURZZUSCHLAG
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+	
+	955.1.1 = { culture = bavarian }
+	
+}
+3119 = {	#OSTFURSTENFELD
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+
+##d_osterreich ###################################
+###c_vienna
+3086 = {	#VIENNA
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3085 = {	#ERNSTBRUNN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1045.1.1 = {
+		holding = castle_holding
+	}
+}
+3084 = {	#FLORIDSDORF
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1014.1.1 = {
+		holding = castle_holding
+	}
+}
+3091 = {	#PADUN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+3087 = {	#BRUCK
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_hohenau
+3081 = {	#HOHENAU
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3079 = {	#LAA
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1125.1.1 = {
+		holding = castle_holding
+	}
+}
+3082 = {	#MISTELBACH
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	#1130
+}
+
+###c_sankt_polten
+3089 = {	#SANKT POLTEN
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3122 = {	#MARIAZELL
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+3094 = {	#WIESELBURG
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	976.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_freistadt
+3073 = {	#FREISTADT
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3090 = {	#SPITZ
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+3076 = {	#ZWETTL
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1137.1.1 = {
+		holding = castle_holding
+	}
+}
+3074 = {	#GMUND
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	#1208
+}
+
+###c_amstetten
+3093 = {	#AMSTETTEN
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3124 = {	#WAIDHOFEN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_krems
+3088 = {	#KREMS
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3075 = {	#WILD
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+3077 = {	#HORN
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+3078 = {	#HAUGSDORF
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_tyrol ###################################
+###c_innsbruck
+2950 = {	#INNSBRUCK
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+	special_building_slot = schwaz_mines_01
+}
+2954 = {	#BOZEN = Bolzano
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+2953 = {	#KUFSTEIN
+	holding = castle_holding
+	culture = bavarian
+	religion = allemanian_ireneism
+}
+
+###c_brixen
+2955 = {	#BRIXEN
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2952 = {	#BRUNECK
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	#1250
+}
+
+###c_lienz
+3134 = {	#LIENZ
+	culture = bavarian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3137 = {	#OBERVALLACH
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	995.1.1 = {
+		holding = castle_holding
+	}
+}
+2951 = {	#MATREI
+	holding = none
+	culture = bavarian
+	religion = allemanian_ireneism
+	1170.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_carinthia ###################################
+###c_karnten
+3105 = {	#KLAGENFURT
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3113 = {	#SANKT VEIT
+	holding = castle_holding
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+3108 = {	#WOLFSBERG
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_kammersberg
+3128 = {	#KAMMERSBERG
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+	
+	955.1.1 = { culture = bavarian }
+}
+3114 = {	#MURAU
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	#1250
+}
+3129 = {	#IRDNING
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1140.1.1 = {
+		holding = castle_holding
+	}
+}
+3115 = {	#TAMSWEG
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1165.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_knittelfeld
+3125 = {	#KNITTELFELD
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+	
+	955.1.1 = { culture = bavarian }
+}
+3112 = {	#JUDENBURG
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1066.1.1 = {	#1st mention in 1074
+		holding = castle_holding
+	}
+}
+3126 = {	#ADMONT
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1066.1.1 = {	#founded in 1074
+		holding = castle_holding
+	}
+}
+
+###c_villach
+3099 = {	#VILLACH
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3127 = {	#FELDKIRCHEN
+	holding = castle_holding
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+3083 = {	#SPITTAL
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	#1191
+}
+
+##d_krain ###################################
+###c_kranj
+3100 = {	#KRANJ
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3102 = {	#KRSKO
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+3101 = {	#KAMNIK
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_ljubljana
+3096 = {	#LJUBLJANA
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+3097 = {	#DOBOVEC
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+3098 = {	#RUDOLFSWERDE = Novo Mesto
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+3095 = {	#RIBNICA
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+
+##d_istria ###################################
+###c_pula
+2518 = {	#PULA
+	culture = carantanian
+	religion = allemanian_ireneism
+	holding = castle_holding
+}
+2519 = {	#PIRAN
+	holding = castle_holding
+	culture = carantanian
+	religion = allemanian_ireneism
+}
+2520 = {	#PAZIN
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+	980.1.1 = {
+		holding = castle_holding
+	}
+}
+2522 = {	#LABIN
+	holding = none
+	culture = carantanian
+	religion = allemanian_ireneism
+}

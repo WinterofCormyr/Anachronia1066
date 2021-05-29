@@ -1,0 +1,155 @@
+﻿#Empire of Turan # old_obish later ahezar Culture old_aniar_na Religion characters
+
+# rulers of the Empire of Turan # Kingdom of Zhetysu # and Kingdom of Dzungaria
+drsturan0001 = {
+	name = "Elizabeth Sibel" # 
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = old_aniar_na
+	culture = old_obish
+	father = drssiberia0008 # Ahijah Lazarz Adonato Bar Isaac
+	761.1.1 = {
+		birth = yes
+	}
+	801.1.1 = {
+		culture = ahezar
+	}
+	836.1.1 = {
+		death = yes
+	}
+}
+drsturan0002 = {
+	name = "Mariam Özgul" # 
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = old_aniar_na
+	culture = old_obish
+	mother = drsturan0001 # Elizabeth Sibel Bar Isaac
+	781.1.1 = {
+		birth = yes
+	}
+	801.1.1 = {
+		culture = ahezar
+	}
+	866.1.1 = {
+		death = yes
+	}
+}
+drsturan0003 = {
+	name = "Amos Wanxanak" # son Agabus Uxushukan # son Azariah Yazdegerd # Azariah Yazdegerd inherits Zhetysu and Dzungaria as vassal to Emperor Azariah
+	dynasty = drsdyn21 # Bar Isaac
+	religion = old_aniar_na
+	culture = ahezar
+	mother = drsturan0002 # Mariam Ozgul Bar Isaac
+	801.1.1 = {
+		birth = yes
+	}
+	803.1.1 = {
+		religion = aka_gunar
+	}
+	886.1.1 = {
+		death = yes
+	}
+}
+drsturan0004 = {
+	name = "Agabus Uxushukan" # daughter Ghotai Sari # daughter Amprätasene Alsamgya
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar
+	culture = ahezar
+	father = drsturan0003 # Amos Wanxanak Bar Isaac
+	821.1.1 = {
+		birth = yes
+	}
+	906.1.1 = {
+		death = yes
+	}
+}
+drsturan0005 = { # descendants in new document # drs_azariahene
+	name = "Azariah Yazdegerd" # inherits Zhetysu and Dzungaria as vassal to Emperor Azariah
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar
+	culture = ahezar
+	father = drsturan0003 # Amos Wanxanak Bar Isaac
+	822.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		death = yes
+	}
+}
+drsturan0006 = { 
+	name = "Ghotai Sari" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar
+	culture = ahezar
+	father = drsturan0004 # Agabus Uxushukan Bar Isaac
+	841.1.1 = {
+		birth = yes
+	}
+	926.1.1 = {
+		death = yes
+	}
+}
+drsturan0007 = { 
+	name = "Amprätasene Alsamgya" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = aka_gunar
+	culture = ahezar
+	father = drsturan0004 # Agabus Uxushukan Bar Isaac
+	847.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		religion = khandorit_gunar
+	}
+	927.1.1 = {
+		death = yes
+	}
+}
+drsturan0008 = { 
+	name = "Chiltanesi Aigiarn" # daughter Rosaldine Gyichangmo # daughter Chenksa Asli # daughter Aigul Shahrzad
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = old_aniar_na
+	culture = ahezar
+	mother = drsturan0006 # Ghotai Sari Bar Isaac
+	861.1.1 = {
+		birth = yes
+	}
+	881.1.1 = {
+		religion = khandorit_gunar
+	}
+	946.1.1 = {
+		death = yes
+	}
+}
+drsturan0009 = { 
+	name = "Chiltanesi Gundes" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = khandorit_gunar
+	culture = ahezar
+	mother = drsturan0006 # Ghotai Sari Bar Isaac
+	862.1.1 = {
+		birth = yes
+	}
+	947.1.1 = {
+		death = yes
+	}
+}
+drsturan0010 = { 
+	name = "Chiltanesi Shikhivyaitata" #
+	female = yes
+	dynasty = drsdyn21 # Bar Isaac
+	religion = khandorit_gunar
+	culture = ahezar
+	mother = drsturan0006 # Ghotai Sari Bar Isaac
+	863.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		death = yes
+	}
+}

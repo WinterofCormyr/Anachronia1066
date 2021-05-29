@@ -1,0 +1,763 @@
+#k_brittany
+##d_gascogne ###################################
+###c_bordeaux
+2142 = {	#BORDEAUX
+	culture = gascon
+	religion = gallian_ireneism
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			hunting_grounds_01
+		}
+	}	
+	1066.1.1 = {
+		buildings = {
+			hunting_grounds_01
+			ramparts_01
+			outposts_01
+		}
+	}
+}
+2141 = {	#MEDOC
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+2144 = {	#BLAYE
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+2143 = {	#FRONSAC
+	holding = none
+	culture = gascon
+	religion = gallian_ireneism
+}
+
+###c_labourd
+2012 = {	#BAYONNE
+	culture = gascon
+	religion = gallian_ireneism
+	holding = castle_holding
+	
+	1066.1.1 = {
+		buildings = {
+			hill_forts_01
+			common_tradeport_01
+			hill_farms_01
+		}
+	}
+}
+2138 = {	#DAX
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+2139 = {	#MIMIZAN
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+
+###c_albret
+2196 = {	#ALBRET
+	culture = gascon
+	religion = gallian_ireneism
+	holding = castle_holding
+
+}
+2195 = {	#TARTAS
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+2140 = {	#LA TESTE DE BUCH
+	holding = none
+	culture = gascon
+	religion = gallian_ireneism
+}
+2197 = {	#LANGON
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+
+###c_marsan
+2199 = {	#MARSAN
+	culture = gascon
+	religion = gallian_ireneism
+	holding = castle_holding
+	
+}
+2198 = {	#BAZADAIS
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+2200 = {	#GABARDAN
+	holding = none
+	culture = gascon
+	religion = gallian_ireneism
+}
+
+###c_agenais
+2232 = {	#AGEN
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2235 = {	#AGENAIS
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+##d_aquitaine ###################################
+###c_angouleme
+2244 = {	#ANGOULEME
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+	1308.1.1 = {
+	culture = french
+}
+
+}
+2245 = {	#SAINT JUNIEN
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2462 = {	#COGNAC
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_perigord
+2237 = {	#PERIGUEUX
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2239 = {	#NONTRON
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2238 = {	#MONTIGNAC
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2236 = {	#BERGERAC
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_limousin
+2248 = {	#LIMGOES
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2246 = {	#CHALUS
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+2247 = {	#VENTADOUR
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2240 = {	#TURENNE
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_saintonge
+2241 = {	#SAINTONGE
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+	1214.1.1 = {
+	culture = french
+}
+
+}
+2145 = {	#JONZAC
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2146 = {	#ROYAN
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+2242 = {	#SAINTES
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_aunis
+2147 = {	#LA ROCHELLE
+culture = french
+religion = gallian_ireneism
+	holding = castle_holding
+}
+2243 = {	#TAILLEBOURG
+	holding = none
+culture = french
+religion = gallian_ireneism
+}
+
+##d_toulouse ###################################
+###c_toulouse
+2214 = {	#TOULOUSE
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			cereal_fields_01
+			hunting_grounds_01
+			military_camps_01
+		}
+	}
+}
+2211 = {	#PAMIERS
+	culture = occitan
+	religion = gallian_ireneism
+	900.1.1 = {
+		holding = castle_holding
+	}
+}
+2213 = {	#CASTELSARRASIN
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+2208 = {	#BEAUMONT SUR LEZE
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_quercy
+2231 = {	#QUERCY
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2230 = {	#MONTAUBAN
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+	1144.10.1 = {
+		holding = castle_holding
+	}
+}
+2233 = {	#CAHORS
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2234 = {	#FIGEAC
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_gevaudan
+2223 = {	#GEVAUDAN
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2221 = {	#MENDE
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2224 = {	#SAINT FLOUR
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2291 = {	#LANGEAC
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+	994.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_rouergue
+2226 = {	#RODEZ
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2228 = {	#LA SALLE
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+2227 = {	#MARVEJOLS
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2229 = {	#LA PEYRADE
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_millau
+2222 = {	#MILLAU
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2220 = {	#NAVACELLES
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+##d_languedoc ###################################
+###c_albi
+2215 = {	#ALBI
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2212 = {	#CASTELNAUDARY
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+	1103.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_uses
+2217 = {	#MONTLAUR
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2216 = {	#USES
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_montpellier
+2015 = {	#MONTPELLIER
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2016 = {	#NIMES
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2218 = {	#CEVENNES
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_carcassonne
+2006 = {	#CARCASSONNE
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2447 = {	#LIMOUX
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+9792 = {	#LIMOUX
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+9793 = {	#LIMOUX
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2005 = {	#NARBONNE
+		culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+9795 = {	#NARBONNE
+		culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+###c_beziers
+2013 = {	#BEZIERS
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+9794 = {	#BEZIERS
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2219 = {	#LODEVE
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+2014 = {	#AGDE
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_foix
+2209 = {	#FOIX
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+	977.1.1	 = {
+		culture = occitan
+	}
+}
+2210 = {	#TARASCON
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2007 = {	#MONTBEL
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+##d_armagnac ###################################
+###c_armagnac
+2201 = {	#ARMAGNAC
+	culture = gascon
+	religion = gallian_ireneism
+	holding = castle_holding
+	
+}
+2204 = {	#LECTOURE
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+2205 = {	#LOMAGNE
+	holding = none
+	culture = gascon
+	religion = gallian_ireneism
+}
+2203 = {	#FESENSAC
+	holding = none
+	culture = gascon
+	religion = gallian_ireneism
+}
+
+###c_bigorre
+2010 = {	#TARBES
+	culture = gascon
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2202 = {	#PARDIAC
+	holding = none
+	culture = gascon
+	religion = gallian_ireneism
+}
+
+###c_bearn
+2193 = {	#PAU
+	culture = gascon
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2194 = {	#TURSAN
+	holding = none
+	culture = gascon
+	religion = gallian_ireneism
+}
+2011 = {	#OLORON
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+
+###c_comminges
+2009 = {	#BERTRAND DE COMMINGES
+	culture = gascon
+	religion = gallian_ireneism
+	holding = castle_holding
+	
+}
+2008 = {	#SAINT LIZIER
+	holding = castle_holding
+	culture = gascon
+	religion = gallian_ireneism
+}
+2206 = {	#ASTARAC
+	holding = none
+	culture = gascon
+	religion = gallian_ireneism
+}
+2207 = {	#MURET
+	holding = none
+	culture = gascon
+	religion = gallian_ireneism
+}
+
+##d_poitou ###################################
+###c_poitiers
+2252 = {	#POITIERS
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			hunting_grounds_01
+			military_camps_01
+		}
+	}
+	1214.1.1 = {
+	culture = french
+}
+}
+2251 = {	#RUFFEC
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+2253 = {	#CHATELLERAULT
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+	952.1.1 = {
+		holding = castle_holding
+	}
+}
+2256 = {	#LOUDUN
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_lusignan
+2249 = {	#LUSIGNAN
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+	1214.1.1 = {
+	culture = french
+}
+}
+2250 = {	#MELLE
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+2254 = {	#NIORT
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_montaigu
+2150 = {	#MONTAIGU
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2149 = {	#TALMONT
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+2259 = {	#MAULEVRIER
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+###c_thouars
+2257 = {	#THOUARS
+culture = french
+religion = gallian_ireneism
+	holding = castle_holding
+}
+2255 = {	#PARTHENAY
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1010.1.1 = {
+		holding = castle_holding
+	}
+}
+2258 = {	#BRESSUIRE
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+2148 = {	#FONTENAY
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+
+##d_auvergne ###################################
+###c_auvergne
+2294 = {	#AURILLAC
+	culture = occitan
+	religion = gallian_ireneism
+
+}
+2293 = {	#CARLAT
+		culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2292 = {	#MURAT
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_clermont_sur_allier
+2289 = {	#CLERMONT SUR AILLER
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2295 = {	#LA TOUR
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+2290 = {	#MERCAEUR
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+2288 = {	#MONTPENSIER
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_thiers
+2299 = {	#THIERS
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2300 = {	#AMBERT
+	holding = none
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+###c_velay
+2225 = {	#LE PUY
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2296 = {	#VELAY
+	holding = castle_holding
+	culture = occitan
+	religion = gallian_ireneism
+}
+
+##d_bourbon ###################################
+###c_bourbon
+2310 = {	#BOURBON-LARCHEMBAULT
+	culture = french
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2311 = {	#ORVAL
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+2308 = {	#MONTLUCON
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2281 = {	#BOUSSAC
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_bellac
+2284 = {	#BELLAC
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2464 = {	#LA TREMOUILLE
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}
+###c_jaligny
+2309 = {	#SAINT POURCAIN
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2306 = {	#JALIGNY
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+
+###c_la_marche
+2285 = {	#GRANDMONT
+	culture = occitan
+	religion = gallian_ireneism
+	holding = castle_holding
+}
+2286 = {	#GUERET
+	holding = castle_holding
+	culture = french
+	religion = gallian_ireneism
+}
+2287 = {	#AUBUSSON
+	holding = none
+	culture = french
+	religion = gallian_ireneism
+}

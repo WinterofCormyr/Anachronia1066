@@ -1,0 +1,68 @@
+﻿maganite_group = {
+	
+	graphical_cultures = {
+		arabic_group_coa_gfx
+		mena_building_gfx
+		mena_clothing_gfx
+		mena_unit_gfx
+		dde_abbasid_clothing_gfx
+	}
+	mercenary_names = {
+		{ name = "mercenary_company_geezan_company" }
+		{ name = "mercenary_company_tigrayit_band" }
+	}
+	maganite = {
+		color = hsv { 0.43 0.1 0.55 }
+		cadet_dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+		}
+		dynasty_names = {
+			"dynn_Jushur-Sin"
+			"dynn_Lullaya-Shamash"
+			"dynn_Samani-Enlil"
+			"dynn_Tudiya-Ishtar"
+			"dynn_Iltasadum-Nabu"
+			"dynn_Kulumum-Ninurta"
+			"dynn_Sargon-Ea"
+			"dynn_Hana-Tammuz"
+			"dynn_Hayani-Ereshkigal"
+			"dynn_Zuqaqip-Bau"
+			"dynn_Limer-Adad"
+			"dynn_Rimush-Tishpak"
+			"dynn_Akiya-Mulliltu"
+			"dynn_Abazu-Belet-Ili"
+			"dynn_Puannum-Ningal"
+			"dynn_Ilulu-Sin"
+			"dynn_Babum-Geshtinanna"
+			"dynn_Suhlamu-Inzak"
+			"dynn_Samani"
+		}
+		male_names = {
+			Jushur Kullassina-bel Nangishlishma En-tarah-ana Babum Puannum Kalibum Kulumum Zuqaqip Atab A-ba Mashda Arwium Etana Balih En-me-nuna Melem-kish Barsal-nuna Zamug Tizqar Ilku En-me-barage-si Iltasadum Aga Susuda Dadasig Mamagal Klbum Tuge Men-nuna Enbi-Ishtar Lugalngu Anbu Anba Bazi Zizi Limer Sharrum-Iter Kug-Bau Sargon Rimush Manishtushu Manishtusu Naram-Sin Shar-kali-sharri Irgigi Imi Nanum Ilulu Dudu Shu-Durul Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana Zuabu Nuabu Abazu Belu Azarah Ushpia Apiashal Hale Samani Hayani Ilu-Mer Yakmesi Yakmeni Yazkur-el Ila-kabkabu Aminu Sulili Kikkla Akiya Puzur-Ashur Shalim-ahum Ilu-shuma Erishum Ikunum Sargon Naram-Sin Shamshi-Adad Imshe-Dagan Mut-Ashkur Rimush Asinum Ashur-dugul Ashur-apla-idi Nasir-Sin Sin-nami Ipqi-Ishtar Adad-salulu Adasi Bel-bani Libaya Sharma-Adad Iptar-Sin Bazaya Lullaya Ashur-nirari Enlil-nsir Nur-ili Ashur-shaduni Ashur-rabi Ashur-nadin-ahhe Ashur-bel-nisheshu Eriba-Adad Ashur-uballit Enlil-nirari Arik-den-ili Adad-nirari Shalmaneser Tukulti-Ninurta Ashur-nadin-apli Enlil-kudurri-usur Ninurta-apal-Ekur Ashur-dan Ninurta-tukulti-Ashur Mutakkil-nusku Ashur-resh-ishi Tiglath-Pileser Asharid-apal-Ekur Ashur-bel-kala Ashurnasirpal Sennacherib Esarhaddon Ashurbanipal Ashur-etil-ilani Sinharishkun Sin-shumu-lishir
+		}
+		female_names = {
+			Manishtusu Seluku Nur-Ayya Amata Belessunu Ahatsunu Ubalnu Gemeti Ettu Zakiti Humusi Alittum Arwia Kullaa Mushezibti Nidintu Enheduana Kubaba
+		}
+		ethnicities = {
+			10 = arab
+		}
+	}
+}

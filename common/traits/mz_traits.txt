@@ -1,0 +1,232 @@
+﻿## Additional Traits
+
+mz_conquerer_1 = {
+	index = 570
+	lifestyle = yes
+	martial = 1
+	flag = mz_conquerer_trait_desc
+	
+	group = mz_lifestyle_conquerer
+	level = 1
+	shown_in_ruler_designer = no
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this }
+				}
+				desc = mz_conquerer_1.dds
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = tengrism_religion } 
+				}
+				desc = mz_steppe_warrior_1.dds
+			}
+			desc = mz_conquerer_1.dds
+		}
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mz_conquerer_1
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = germanic_religion } 
+				}
+				desc = trait_mz_conquerer_1_germanic
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = tengrism_religion } 
+				}
+				desc = trait_mz_conquerer_1_steppe
+			}
+			desc = trait_mz_conquerer_1
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mz_conquerer_1_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = germanic_religion } 
+				}
+				desc = trait_mz_conquerer_1_germanic_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = tengrism_religion } 
+				}
+				desc = trait_mz_conquerer_1_steppe_desc
+			}
+			desc = trait_mz_conquerer_1_character_desc
+		}
+	}
+}
+
+mz_conquerer_2 = {
+	index = 571
+	lifestyle = yes
+	martial = 2
+	flag = mz_conquerer_trait_desc
+	
+	group = mz_lifestyle_conquerer
+	level = 2
+	shown_in_ruler_designer = no
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this }
+				}
+				desc = mz_conquerer_2.dds
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = tengrism_religion } 
+				}
+				desc = mz_steppe_warrior_2.dds
+			}
+			desc = mz_conquerer_2.dds
+		}
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mz_conquerer_2
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = germanic_religion } 
+				}
+				desc = trait_mz_conquerer_2_germanic
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = tengrism_religion } 
+				}
+				desc = trait_mz_conquerer_2_steppe
+			}
+			desc = trait_mz_conquerer_2
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mz_conquerer_2_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = germanic_religion } 
+				}
+				desc = trait_mz_conquerer_2_germanic_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = tengrism_religion } 
+				}
+				desc = trait_mz_conquerer_2_steppe_desc
+			}
+			desc = trait_mz_conquerer_2_character_desc
+		}
+	}
+}
+
+mz_conquerer_3 = {
+	index = 572
+	lifestyle = yes
+	martial = 4
+	flag = mz_conquerer_trait_desc
+	
+	group = mz_lifestyle_conquerer
+	level = 3
+	shown_in_ruler_designer = no
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this }
+				}
+				desc = mz_conquerer_3.dds
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = tengrism_religion } 
+				}
+				desc = mz_steppe_warrior_3.dds
+			}
+			desc = mz_conquerer_3.dds
+		}
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mz_conquerer_3
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = germanic_religion } 
+				}
+				desc = trait_mz_conquerer_3_germanic
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = tengrism_religion } 
+				}
+				desc = trait_mz_conquerer_3_steppe
+			}
+			desc = trait_mz_conquerer_3
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mz_conquerer_3_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = germanic_religion } 
+				}
+				desc = trait_mz_conquerer_3_germanic_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					faith = { religion_tag = tengrism_religion } 
+				}
+				desc = trait_mz_conquerer_3_steppe_desc
+			}
+			desc = trait_mz_conquerer_3_character_desc
+		}
+	}
+}

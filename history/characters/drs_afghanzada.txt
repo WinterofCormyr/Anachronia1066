@@ -1,0 +1,533 @@
+﻿#Kingdom of Kirman # afghan Culture mahayana Religion characters
+#first ruler born 900 takes throne 923
+
+# rulers of the Kingdom of Kirman Duchy of Kirman
+drsafghanzada0001 = {
+	name = "Zulëixa" # husband Zmarai # daughter Zartaj # daughter Zarsanga
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = mahayana
+	culture = afghan
+	900.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		religion = kirman_school
+	} # 930 Kirman province converts # 945 rest of the kingdom converts
+	945.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0002 = {
+	name = "Zmarai" # daughter Zartaj # daughter Zarsanga
+	religion = mahayana
+	culture = afghan
+	900.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		add_matrilineal_spouse = drsafghanzada0001 # Zulëixa Afghanzada
+	}
+	930.1.1 = {
+		religion = kirman_school
+	} # 930 Kirman province converts # 945 rest of the kingdom converts
+	931.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0003 = {
+	name = "Zartaj" #
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = mahayana
+	culture = afghan
+	father = drsafghanzada0002 # Zmarai
+	mother = drsafghanzada0001 # Zulëixa Afghanzada
+	921.1.1 = {
+		birth = yes
+	}
+	926.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0004 = {
+	name = "Zarsanga" #
+	# husband Dawar # daughter Brekhna # son Besebodhi
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = mahayana
+	culture = afghan
+	father = drsafghanzada0002 # Zmarai
+	mother = drsafghanzada0001 # Zulëixa Afghanzada
+	922.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		religion = kirman_school
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0005 = {
+	name = "Dawar" # daughter Brekhna # son Besebodhi
+	religion = mahayana
+	culture = afghan
+	922.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		religion = kirman_school
+	}
+	942.1.1 = {
+		add_matrilineal_spouse = drsafghanzada0004 # Zarsanga Zulëixadokht Afghanzada
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0006 = {
+	name = "Brekhna" #
+	# husband Atal # no children with him
+	# NEW DYNASTY AT 1011
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0005 # Dawar
+	mother = drsafghanzada0004 # Zarsanga Zulëixadokht Afghanzada
+	942.1.1 = {
+		birth = yes
+	}
+	1011.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0007 = {
+	name = "Besebodhi" #
+	# founds Kingdom of Kabulistan in 993 # 50 years old when he does so
+	# wife Wowreena # son Besebodhi # daughter Tanima # son Govahbuddha # son Hewad # son Jagrali
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0005 # Dawar
+	mother = drsafghanzada0004 # Zarsanga Zulëixadokht Afghanzada
+	943.1.1 = {
+		birth = yes
+	}
+	1059.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0008 = {
+	name = "Wowreena" # son Besebodhi # daughter Tanima # son Govahbuddha # son Hewad # son Jagrali
+	female = yes
+	religion = kirman_school
+	culture = afghan
+	943.1.1 = {
+		birth = yes
+	}
+	963.1.1 = {
+		add_spouse = drsafghanzada0007 # Besebodhi Zarsangazade Afghanzada
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0009 = {
+	name = "Besebodhi" #
+	# Besebodhi II
+	# no spouse no children
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0007 # Besebodhi Zarsangazade Afghanzada
+	mother = drsafghanzada0008 # Wowreena
+	964.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1064.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0010 = {
+	name = "Tanima" #
+	# husband Khushal # daughter Storay # daughter Ranrha # daughter Perkha
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0007 # Besebodhi Zarsangazade Afghanzada
+	mother = drsafghanzada0008 # Wowreena
+	965.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0011 = {
+	name = "Govahbuddha" #
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0007 # Besebodhi Zarsangazade Afghanzada
+	mother = drsafghanzada0008 # Wowreena
+	966.1.1 = {
+		birth = yes
+	}
+	1051.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0012 = {
+	name = "Hewad" #
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0007 # Besebodhi Zarsangazade Afghanzada
+	mother = drsafghanzada0008 # Wowreena
+	967.1.1 = {
+		birth = yes
+	}
+	982.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0013 = {
+	name = "Jagrali" #
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0007 # Besebodhi Zarsangazade Afghanzada
+	mother = drsafghanzada0008 # Wowreena
+	968.1.1 = {
+		birth = yes
+	}
+	994.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0014 = {
+	name = "Khushal" # daughter Storay # daughter Ranrha # daughter Perkha
+	religion = kirman_school
+	culture = afghan
+	965.1.1 = {
+		birth = yes
+	}
+	985.1.1 = {
+		add_matrilineal_spouse = drsafghanzada0010 # Tanima Besebodhidokht Afghanzada
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0015 = {
+	name = "Storay" #
+	#husband Laro # son Mohebbodhi # son Nufail # daughter Orzala
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0014 # Khushal
+	mother = drsafghanzada0010 # Tanima Besebodhidokht Afghanzada
+	986.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1099.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0016 = {
+	name = "Ranrha" #
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0014 # Khushal
+	mother = drsafghanzada0010 # Tanima Besebodhidokht Afghanzada
+	987.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1099.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0017 = {
+	name = "Perkha" #
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0014 # Khushal
+	mother = drsafghanzada0010 # Tanima Besebodhidokht Afghanzada
+	988.1.1 = {
+		birth = yes
+	}
+	1048.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0018 = {
+	name = "Laro" # son Mohebbodhi # son Nufail # daughter Orzala
+	religion = kirman_school
+	culture = afghan
+	986.1.1 = {
+		birth = yes
+	}
+	1006.1.1 = {
+		add_matrilineal_spouse = drsafghanzada0015 # Storay Tanimadokht Afghanzada
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0019 = {
+	name = "Mohebbodhi" #
+	# wife Nikmargah # daughter Mina # son Olas # son Pohyali # daughter Lawanga # daughter Kontara # daughter Hosai # daughter Storai Lalzari
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0018 # Laro
+	mother = drsafghanzada0015 # Storay Tanimadokht Afghanzada
+	1007.1.1 = {
+		birth = yes
+	}
+	1059.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0020 = {
+	name = "Nufail" #
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0018 # Laro
+	mother = drsafghanzada0015 # Storay Tanimadokht Afghanzada
+	1008.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0021 = {
+	name = "Orzala" #
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0018 # Laro
+	mother = drsafghanzada0015 # Storay Tanimadokht Afghanzada
+	1009.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0022 = {
+	name = "Nikmargah" # daughter Mina # son Olas # son Pohyali # daughter Lawanga # daughter Kontara # daughter Hosai # daughter Storai Lalzari
+	female = yes
+	religion = kirman_school
+	culture = afghan
+	1007.1.1 = {
+		birth = yes
+	}
+	1027.1.1 = {
+		add_spouse = drsafghanzada0019 # Mohebbodhi Storayzade Afghanzada
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0023 = {
+	name = "Mina" #
+	# husband Qais
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0019 # Mohebbodhi Storayzade Afghanzada
+	mother = drsafghanzada0022 # Nikmargah
+	1028.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1121.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0024 = {
+	name = "Olas" #
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0019 # Mohebbodhi Storayzade Afghanzada
+	mother = drsafghanzada0022 # Nikmargah
+	1029.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0025 = {
+	name = "Pohyali" #
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0019 # Mohebbodhi Storayzade Afghanzada
+	mother = drsafghanzada0022 # Nikmargah
+	1030.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1157.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0026 = {
+	name = "Lawanga" #
+	# husband Rostum # daughter Gulalay 
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0019 # Mohebbodhi Storayzade Afghanzada
+	mother = drsafghanzada0022 # Nikmargah
+	1031.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0027 = {
+	name = "Kontara" #
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0019 # Mohebbodhi Storayzade Afghanzada
+	mother = drsafghanzada0022 # Nikmargah
+	1032.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1177.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0028 = {
+	name = "Hosai" #
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0019 # Mohebbodhi Storayzade Afghanzada
+	mother = drsafghanzada0022 # Nikmargah
+	1033.1.1 = {
+		birth = yes
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0029 = {
+	name = "Storai Lalzari" #
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0019 # Mohebbodhi Storayzade Afghanzada
+	mother = drsafghanzada0022 # Nikmargah
+	1035.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1192.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0030 = {
+	name = "Qais" #
+	religion = kirman_school
+	culture = afghan
+	1028.1.1 = {
+		birth = yes
+	}
+	1048.1.1 = {
+		add_matrilineal_spouse = drsafghanzada0023 # Mina Mohebbodhidokht Afghanzada
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0031 = {
+	name = "Rostum" #
+	religion = kirman_school
+	culture = afghan
+	1031.1.1 = {
+		birth = yes
+	}
+	1051.1.1 = {
+		add_matrilineal_spouse = drsafghanzada0026 # Lawanga Mohebbodhidokht Afghanzada
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1142.1.1 = {
+		death = yes
+	}
+}
+drsafghanzada0032 = {
+	name = "Gulalay" #
+	female = yes
+	dynasty = drsdyn18 # Afghanzada
+	religion = kirman_school
+	culture = afghan
+	father = drsafghanzada0031 # Rostum
+	mother = drsafghanzada0026 # Lawanga Mohebbodhidokht Afghanzada
+	1052.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		religion = afghan_school
+	}
+	1111.1.1 = {
+		death = yes
+	}
+}

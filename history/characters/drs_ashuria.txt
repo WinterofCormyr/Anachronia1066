@@ -1,0 +1,15 @@
+﻿#Kingdom of Ashuria # Ashurian characters
+
+# rulers of the Duchy of Ashuria
+drsashuria0001 = {
+	name = "Tiglath-Pileser" #
+	dynasty = 778bronzeage # Akiya-Mulliltu
+	religion = assyrian_pagan
+	culture = ashurian
+	800.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}

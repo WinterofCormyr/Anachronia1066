@@ -1,0 +1,17 @@
+﻿#Duchy of Thuringia # thuringian Culture allemanian_ireneism Religion characters
+#first ruler born 841 takes throne 861
+
+# rulers of the Duchy of Thuringia
+drsthuringia0001 = {
+	name = "Kriemhild" #
+	female = yes
+	dynasty = drsdyn200	# von Erfurt
+	religion = allemanian_ireneism
+	culture = thuringian
+	841.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}

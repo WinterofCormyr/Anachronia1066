@@ -1,0 +1,135 @@
+﻿# Extra reward effects for specific tenets
+pilgrimage_additional_reward_effect = {
+	# Armed Pilgrimages
+	if = {
+		limit = { faith = { has_doctrine = tenet_armed_pilgrimages } }
+		custom_description_no_bullet = {
+			text = pilgrimage_because_i_have_armed_pilgrimages
+		}
+		add_character_modifier = {
+			modifier = pilgrimage_armed_pilgrimages_modifier
+			years = 10
+		}
+	}
+	# Mendicant Preachers
+	if = {
+		limit = { faith = { has_doctrine = tenet_mendicant_preachers } }
+		custom_description_no_bullet = {
+			text = pilgrimage_because_i_have_tenet_mendicant_preachers
+		}
+		add_character_modifier = {
+			modifier = pilgrimage_mendicant_preachers_modifier
+			years = 10
+		}
+	}
+	# Pentarchy
+	if = {
+		limit = { faith = { has_doctrine = tenet_pentarchy } }
+		custom_description_no_bullet = {
+			text = pilgrimage_because_i_have_tenet_pentarchy
+		}
+		add_character_modifier = {
+			modifier = pilgrimage_pentarchy_modifier
+			years = 10
+		}
+	}
+	# Struggle and Submission
+	if = {
+		limit = { faith = { has_doctrine = tenet_struggle_submission } }
+		custom_description_no_bullet = {
+			text = pilgrimage_because_i_have_tenet_struggle_submission
+		}
+		add_character_modifier = {
+			modifier = pilgrimage_struggle_submission_modifier
+			years = 10
+		}
+	}
+	# Ancestor Worship
+	if = {
+		limit = { faith = { has_doctrine = tenet_ancestor_worship } }
+		custom_description_no_bullet = {
+			text = pilgrimage_because_i_have_tenet_ancestor_worship
+		}
+		add_character_modifier = {
+			modifier = pilgrimage_ancestor_worship_modifier
+			years = 10
+		}
+	}
+	# Esotericism
+	if = {
+		limit = {
+			faith = { has_doctrine = tenet_esotericism }
+			NOT = { has_trait = mystic_3 }
+		}
+		custom_description_no_bullet = {
+			text = pilgrimage_because_i_have_tenet_esotericism
+			subject = root
+		}
+		random_list = {
+			desc = pilgrimage_learn_from_the_bishops
+			50 = {
+				desc = pilgrimage_learn_from_the_bishops_success
+				compare_modifier = {
+					value = learning
+					multiplier = 5
+				}
+				change_trait_rank = {
+					trait = lifestyle_mystic
+					rank = 1
+					max = 3
+				}
+			}
+			50 = {
+				desc = pilgrimage_learn_from_the_bishops_failure
+				send_interface_toast = {
+					title = pilgrimage_learn_from_the_bishops_failure
+					left_icon = root
+				}
+			}
+		}
+	}
+	# Magyar Shamanism
+	if = {
+		limit = {
+			faith = { has_doctrine = mz_tenet_magyar_shamanism }
+			NOT = { has_trait = mystic_3 }
+		}
+		custom_description_no_bullet = {
+			text = mz_pilgrimage_because_i_have_tenet_magyar_shamanism
+			subject = root
+		}
+		random_list = {
+			desc = pilgrimage_learn_from_the_bishops
+			50 = {
+				desc = pilgrimage_learn_from_the_bishops_success
+				compare_modifier = {
+					value = learning
+					multiplier = 5
+				}
+				change_trait_rank = {
+					trait = lifestyle_mystic
+					rank = 1
+					max = 3
+				}
+			}
+			50 = {
+				desc = pilgrimage_learn_from_the_bishops_failure
+				send_interface_toast = {
+					title = pilgrimage_learn_from_the_bishops_failure
+					left_icon = root
+				}
+			}
+		}
+	}
+	# Ekeraa
+	if = {
+		limit = { faith = { has_doctrine = mz_tenet_ekeraa } }
+		custom_description_no_bullet = {
+			text = mz_pilgrimage_because_i_have_tenet_ekeraa
+		}
+		add_character_modifier = {
+			modifier = pilgrimage_ancestor_worship_modifier
+			years = 10
+		}
+	}
+}

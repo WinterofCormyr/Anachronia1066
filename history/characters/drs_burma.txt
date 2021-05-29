@@ -1,0 +1,13 @@
+﻿drstibet0006 = { 
+	name = "Hnanishoqh Dzomar" # founds the Kingdom of Burma # descendants become Bamar and Ari
+	dynasty = drsdyn21 # Bar Isaac
+	religion = nestorian
+	culture = zhangzhung
+	father = drstibet0001
+	624.1.1 = {
+		birth = yes
+	}
+	682.1.1 = {
+		death = yes
+	}
+}

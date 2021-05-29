@@ -1,0 +1,169 @@
+﻿l_english:
+estonian_pagan:0 "Maausk"
+estonian_pagan_adj:0 "Maausuline"
+estonian_pagan_adherent:0 "Maausuline"
+estonian_pagan_adherent_plural:0 "Maausulised"
+estonian_pagan_desc:0 "Maausk is a native faith of the Estonian tribes."
+estonian_pagan_old:0 "Vana Maausk"
+estonian_pagan_old_adj:0 "Vana Maausuline"
+estonian_pagan_old_adherent:0 "Vana Maausuline"
+estonian_pagan_old_adherent_plural:0 "Vana Maausulised"
+estonian_divine_realm:0 "Linnutee"
+estonian_house_of_worship:0 "hiis"
+estonian_house_of_worship_plural:0 "hiisi"
+estonian_negative_afterlife:0 "Manala"
+estonian_positive_afterlife:0 "Hiiela"
+estonian_bishop_male:0 "võlur"
+estonian_bishop_male_plural:0 "võlurid"
+estonian_bishop_female:0 "võlur"
+estonian_bishop_female_plural:0 "võlurid"
+estonian_bishop_neuter:0 "võlur"
+estonian_bishop_neuter_plural:0 "võlurid"
+estonian_devotee_female:0 "hoidja"
+estonian_devotee_female_plural:0 "hoidjad"
+estonian_devotee_male:0 "hoidja"
+estonian_devotee_male_plural:0 "hoidjad"
+estonian_devotee_neuter:0 "hoidja"
+estonian_devotee_neuter_plural:0 "hoidjad"
+estonian_priest_alternate_plural:0 "arbujad"
+estonian_priest_female:0 "nõid"
+estonian_priest_female_plural:0 "nõiad"
+estonian_priest_male:0 "nõid"
+estonian_priest_male_plural:0 "nõiad"
+estonian_priest_neuter:0 "nõid"
+estonian_priest_neuter_plural:0 "nõiad"
+estonian_religious_head_title:0 "Vanem"
+estonian_religious_head_title_name:0 "Vanadus"
+estonian_religious_symbol:0 "ohvrikivi"
+estonian_religious_text:0 "rahvaluule" #folklore
+
+estonian_creator_god_name:0 "$estonian_good_god_Maajumal$"
+estonian_creator_god_name_possessive:0 "$estonian_good_god_Maajumal$'s"
+estonian_death_deity_name:0 "$estonian_evil_god_Mana$"
+estonian_death_deity_name_possessive:0 "$estonian_evil_god_Mana$'s"
+estonian_devil_name:0 "$estonian_evil_god_Kurat$"
+estonian_devil_name_possessive:0 "$estonian_evil_god_Kurat$'s"
+estonian_fate_god_name:0 "$estonian_good_god_Aio$"
+estonian_fate_god_name_possessive:0 "$estonian_good_god_Aio$'s"
+estonian_fertility_god_name:0 "$estonian_good_god_Tonn$"
+estonian_fertility_god_name_possessive:0 "$estonian_good_god_Tonn$'s"
+estonian_health_god_name:0 "$estonian_good_god_Metsavana$"
+estonian_health_god_name_possessive:0 "$estonian_good_god_Metsavana$'s"
+estonian_high_god_name:0 "Uku"
+estonian_high_god_name_possessive:0 "Uku's"
+estonian_high_god_name_alternate:0 "Taevataat"
+estonian_high_god_name_alternate_possessive:0 "Taevataat's"
+estonian_household_god_name:0 "$estonian_good_god_Majahaldjas$"
+estonian_household_god_name_possessive:0 "$estonian_good_god_Majahaldjas$'"
+estonian_knowledge_god_name:0 "$estonian_good_god_Vanemuine$"
+estonian_knowledge_god_name_possessive:0 "$estonian_good_god_Vanemuine$'s"
+estonian_night_god_name:0 "$estonian_high_god_name$"
+estonian_night_god_name_possessive:0 "$estonian_high_god_name_possessive$"
+estonian_trickster_god_name:0 "$estonian_evil_god_Luupainaja$"
+estonian_trickster_god_name_possessive:0 "$estonian_evil_god_Luupainaja$'s"
+estonian_war_god_name:0 "$estonian_good_god_Taara$"
+estonian_war_god_name_possessive:0 "$estonian_good_god_Taara$'"
+estonian_water_god_name:0 "$estonian_good_god_Ahto$"
+estonian_water_god_name_possessive:0 "$estonian_good_god_Ahto$'s"
+estonian_wealth_god_name:0 "$estonian_high_god_name$"
+estonian_wealth_god_name_possessive:0 "$estonian_high_god_name_possessive$"
+estonian_witch_god_name:0 "$estonian_good_god_Rougutaja$"
+
+estonian_good_god_Ahto:0 "Ahto" #god of sea
+estonian_good_god_Aio:0 "Äio" #god of dreams
+estonian_good_god_Jumal:0 "Jumal" #god
+estonian_good_god_Jutta:0 "Jutta" #goddess of birds, daughter of Uku
+estonian_good_god_Kou:0 "Kõu" #god of thunder, son of Uku
+estonian_good_god_Lemming:0 "Lemming" #god of hunting
+estonian_good_god_Linda:0 "Linda" #goddess of birds, daughter of Uku
+estonian_good_god_Maaema:0 "Maaema" #mother of earth
+estonian_good_god_Maaisa:0 "Maaisa" #father of earth
+estonian_good_god_Maajumal:0 "Maajumal" #god of earth
+estonian_good_god_Majahaldjas:0 "Majahaldjas" #fairy of house
+estonian_good_god_Metsavana:0 "Metsavana" #god of forest
+estonian_good_god_Peko:0 "Peko" #god of fertility, Seto
+estonian_good_god_Pikker:0 "Pikker" #god of lighting, son of Uku
+estonian_good_god_Rougutaja:0 "Rõugutaja" #goddess of women and children
+estonian_good_god_Tonn:0 "Tõnn" #god of fertility
+estonian_good_god_Taara:0 "Taara" #god like Thor
+estonian_good_god_Vanemuine:0 "Vanemuine" #god of song
+
+estonian_evil_god_Ilmatutar:0 "Ilmatütar" #goddess of weather
+estonian_evil_god_Kurat:0 "Kurat" #devil
+estonian_evil_god_Luupainaja:0 "Luupainaja" #god of nightmare
+estonian_evil_god_Mana:0 "Mana" #god of underworld
+estonian_evil_god_Paharet:0 "Paharet" #devil helper
+estonian_evil_god_Purgu_Vanaeit:0 "Põrgu Vanaeit" #goddess of underworld
+estonian_evil_god_Sarvik:0 "Sarvik" #god of underworld
+estonian_evil_god_Ussikuningas:0 "Ussikuningas" #god of snakes
+estonian_evil_god_Vana_Tuhi:0 "Vana Tühi" #god of underworld
+
+osilian_pagan:0 "Taarausk"
+osilian_pagan_adj:0 "Taarausuline"
+osilian_pagan_adherent:0 "Taarausuline"
+osilian_pagan_adherent_plural:0 "Taarausulised"
+osilian_pagan_desc:0 "Taarausk is a native faith of the Osilians."
+osilian_pagan_old:0 "Vana Taarausuline"
+osilian_pagan_old_adj:0 "Vana Taarausuline"
+osilian_pagan_old_adherent:0 "Vana Taarausuline"
+osilian_pagan_old_adherent_plural:0 "Vana Taarausulised"
+osilian_divine_realm:0 "Ebaveremägi"
+osilian_house_of_worship:0 "hiis"
+osilian_house_of_worship_plural:0 "hiisi"
+osilian_negative_afterlife:0 "Manala"
+osilian_positive_afterlife:0 "Hiiela"
+osilian_bishop_male:0 "võlur"
+osilian_bishop_male_plural:0 "võlurid"
+osilian_bishop_female:0 "võlur"
+osilian_bishop_female_plural:0 "võlurid"
+osilian_bishop_neuter:0 "võlur"
+osilian_bishop_neuter_plural:0 "võlurid"
+osilian_devotee_female:0 "hoidja"
+osilian_devotee_female_plural:0 "hoidjad"
+osilian_devotee_male:0 "hoidja"
+osilian_devotee_male_plural:0 "hoidjad"
+osilian_devotee_neuter:0 "hoidja"
+osilian_devotee_neuter_plural:0 "hoidjad"
+osilian_priest_alternate_plural:0 "arbujad"
+osilian_priest_female:0 "nõid"
+osilian_priest_female_plural:0 "nõiad"
+osilian_priest_male:0 "nõid"
+osilian_priest_male_plural:0 "nõiad"
+osilian_priest_neuter:0 "nõid"
+osilian_priest_neuter_plural:0 "nõiad"
+osilian_religious_head_title:0 "Vanem"
+osilian_religious_head_title_name:0 "Vanadus"
+osilian_religious_symbol:0 "urituli" #sacred fire
+osilian_religious_text:0 "rahvaluule" #folklore
+
+osilian_creator_god_name:0 "$osilian_high_god_name$"
+osilian_creator_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_death_deity_name:0 "$osilian_high_god_name$"
+osilian_death_deity_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_devil_name:0 "Kurat"
+osilian_devil_name_possessive:0 "Kurat's"
+osilian_fate_god_name:0 "$osilian_high_god_name$"
+osilian_fate_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_fertility_god_name:0 "$osilian_high_god_name$"
+osilian_fertility_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_health_god_name:0 "$osilian_high_god_name$"
+osilian_health_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_high_god_name:0 "Taara"
+osilian_high_god_name_possessive:0 "Taara's"
+osilian_high_god_name_alternate:0 "Taarapita"
+osilian_high_god_name_alternate_possessive:0 "Taarapita's"
+osilian_household_god_name:0 "$osilian_high_god_name$"
+osilian_household_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_knowledge_god_name:0 "$osilian_high_god_name$"
+osilian_knowledge_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_night_god_name:0 "$osilian_high_god_name$"
+osilian_night_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_trickster_god_name:0 "$osilian_high_god_name$"
+osilian_trickster_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_war_god_name:0 "$osilian_high_god_name$"
+osilian_war_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_water_god_name:0 "$osilian_high_god_name$"
+osilian_water_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_wealth_god_name:0 "$osilian_high_god_name$"
+osilian_wealth_god_name_possessive:0 "$osilian_high_god_name_possessive$"
+osilian_witch_god_name:0 "$osilian_devil_name$"

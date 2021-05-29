@@ -1,0 +1,46 @@
+﻿#Valdemariesk (later Gothic) Governors of Holderland characters
+
+# rulers of the Kingdom of Holderland
+holdergov0001 = {
+	name = "Holger" # Governor of Holderland
+	dynasty = valdemardyn9 # Lissandrieskja
+	religion = valdemarian_common
+	culture = danish
+	mother = holdergov0002
+	1035.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+holdergov0002 = {
+	name = "Lissandra" #
+	dynasty = valdemardyn9 # Lissandrieskja
+	religion = valdemarian_common
+	culture = danish
+	female = yes
+	1014.1.1 = {
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+holdergov0003 = {
+	name = "Cathi" # Governor of Holderland
+	dynasty = valdemardyn9 # Lissandrieskja
+	religion = valdemarian_common
+	culture = danish
+	father = holdergov0001
+	1065.1.1 = {
+		birth = yes
+	}
+	1135.1.1 = {
+		death = yes
+	}
+}
+#### 1065 Valdemarian Military Governorate
+# 1120 Governors become Gothic 
+# 1120 founding of Livonian faith which covers all of k_livlios
+# 1140 Provinces in Holderland and Dallands become Roku

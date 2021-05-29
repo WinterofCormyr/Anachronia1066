@@ -1,0 +1,66 @@
+﻿l_english:
+########################################
+#### k_sudovia
+########################################
+k_sudovia:0 "Sudovia"
+k_sudovia_adj:0 "Sudovian"
+########################################
+#### d_sudovia #NEW
+########################################
+d_sudovia:0 "Sudovia" #NEW
+d_sudovia_adj:0 "Sudovia" #NEW
+c_rudamina:0 "Rudamina"
+c_rudamina_adj:0 "Rudamina"
+b_aliten:0 "Rudamina"
+b_aliten_adj:0 "Rudamina"
+b_sejny:0 "Sejny"
+b_sejny_adj:0 "Sejny"
+c_yatvyagi:0 "Sesupe"
+c_yatvyagi_adj:0 "Sesupe"
+b_panemune:0 "Sakiai"
+b_panemune_adj:0 "Sakiai"
+b_vilkaviskis:0 "Marijampole"
+b_vilkaviskis_adj:0 "Marijampole"
+c_angerburg:0 "Suwalki"
+c_angerburg_adj:0 "Suwalki"
+b_suvalkai:0 "Suwalki"
+b_suvalkai_adj:0 "Suwalki"
+b_lyck:0 "Elk"
+b_lyck_adj:0 "Elk"
+b_angerburg:0 "Angir"
+b_angerburg_adj:0 "Angir"
+c_wizna:0 "Wizna" NEW
+c_wizna_adj:0 "Wizna"
+b_wizna:0 "Wizna" #Wizna
+b_wizna_adj:0 "Wizna"
+b_kolno:0 "Kolno" #Kolno
+b_kolno_adj:0 "Kolno"
+########################################
+#### d_grodno
+########################################
+d_grodno:0 "Yotvingia" #Grodno
+d_grodno_adj:0 "Yotvingian" #Grodnian
+c_volkovysk:0 "Narew" #Volkovysk
+c_volkovysk_adj:0 "Narew"
+b_bielastock:0 "Bialystok" #Bielastock
+b_bielastock_adj:0 "Bialystok"
+b_sokolka:0 "Sokolka" #Sokolka
+b_sokolka_adj:0 "Sokolka"
+b_volkovysk:0 "Volkovysk" #Volkovysk
+b_volkovysk_adj:0 "Volkovysk"
+c_berestye:0 "Berestia" #Berestye
+c_berestye_adj:0 "Berestian"
+b_berestye:0 "Berestye" #Berestye
+b_berestye_adj:0 "Berestye"
+b_kamyanyets:0 "Kamyanyets" #Kamyanyets
+b_kamyanyets_adj:0 "Kamyanyets"
+c_drohicin:0 "Drohicin" #NEW
+c_drohicin_adj:0 "Drohicin"
+b_simiatychi:0 "Drohicin" #Simiatychi
+b_simiatychi_adj:0 "Drohicin"
+b_bielsk:0 "Bielsk" #Bielsk
+b_bielsk_adj:0 "Bielsk"
+c_dorohychyn:0 "Sokolow" #Dorohychyn
+c_dorohychyn_adj:0 "Sokolow"
+b_dorohychyn:0 "Sokolow" #Dorohychyn
+b_dorohychyn_adj:0 "Sokolow"

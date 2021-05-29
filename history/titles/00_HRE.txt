@@ -1,0 +1,77 @@
+e_germany = { # de jure k_switzerland # de jure k_austria controls # new k_luticy in the e_wendish_empire # follows aelonist aitahism
+	867.1.1 = {	change_development_level = 22 } # FIRST UNITING EMPRESS OF GERMANIA IS MAGDALENA VON BUERSKE IN 1120 BORN 1090 DIED 1178
+	1066.1.1 = { change_development_level = 44 }
+	1120.1.1 = {
+		holder = drsgermany0001
+	}
+}
+
+#### START SAXONY ####
+
+d_thuringia = {
+	861.1.1 = {
+		holder = drsthuringia0001 # Kriemhild von Erfurt
+	}
+}
+#### START SORBIA ####
+
+d_meissen = {
+	820.1.1 = {
+		holder = drssorbia0001 # Aeta Crabatovsce
+	}
+	862.1.1 = {
+		holder = drssorbia0005 # Marja Blancavsce
+	}
+}
+c_meissen = {
+	820.1.1 = {
+		holder = drssorbia0001 # Aeta Crabatovsce
+		liege = d_meissen
+	}
+	862.1.1 = {
+		holder = drssorbia0005 # Marja Blancavsce
+	}
+}
+c_vogtland = {
+	820.1.1 = {
+		holder = drssorbia0001 # Aeta Crabatovsce
+		liege = d_meissen
+	}
+	862.1.1 = {
+		holder = drssorbia0008 # Lydija Aetavsce, Countess of Vogtland
+	}
+}
+d_anhalt = {
+	820.1.1 = {
+		holder = drssorbia0001 # Aeta Crabatovsce
+	}
+	862.1.1 = {
+		holder = drssorbia0006 # Trudla Crabatovsce
+	}
+}
+c_wittenberg = {
+	820.1.1 = {
+		holder = drssorbia0001 # Aeta Crabatovsce
+		liege = d_anhalt
+	}
+	862.1.1 = {
+		holder = drssorbia0006 # Trudla Crabatovsce
+	}
+}
+d_lausitz = {
+	820.1.1 = {
+		holder = drssorbia0001 # Aeta Crabatovsce
+	}
+	862.1.1 = {
+		holder = drssorbia0007 # Ruzalca Aetavsce
+	}
+}
+c_juterbog = {
+	820.1.1 = {
+		holder = drssorbia0001 # Aeta Crabatovsce
+		liege = d_lausitz
+	}
+	862.1.1 = {
+		holder = drssorbia0007 # Ruzalca Aetavsce
+	}
+}

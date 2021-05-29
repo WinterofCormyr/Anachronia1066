@@ -1,0 +1,610 @@
+#k_daylam
+# 669 - Shemakha
+9903 = {	# 669 - Shemakha
+	
+	# Misc
+	culture = udi
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+}
+# 669 - Shemakha
+9904 = {	# 669 - Shemakha
+	
+	# Misc
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+
+}
+# 5774 - Kabala
+9902 = {	# 5774 - Kabala
+	
+	# Misc
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+
+}
+##d_daylam ###################################
+###c_gilan
+4001 = {	#Daylam
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4000 = {	#Gilan
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4004 = {	#Lahij	#AKA Lahijan
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+###c_zanjan
+4325 = {	#Zanjan
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding	
+}
+4326 = {	#Afshar
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4327 = {	#Suhravard	#AKA Sohrevard
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+###c_qazwin
+4323 = {	#Qazwin / Qazvin
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4006 = {	#Alamut
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4324 = {	#Abhar
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+##d_tabaristan ###################################
+###c_mazandaran
+4312 = {	#Amul
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4310 = {	#Tamisha
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4311 = {	#Sariya	#AKA Sari
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+###c_ruyan
+4005 = {	#Ruyan
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4313 = {	#Natil
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4314 = {	#Shalush
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+###c_baduspan
+4317 = {	#Uram
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4315 = {	#Larijan
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4316 = {	#Firrim
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+##d_gurgan ###################################
+###c_gurgan
+4029 = {	#Gurgan
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4028 = {	#Astarabad
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4030 = {	#Bakrabad
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4031 = {	#Abaskun
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+	#Prosperous coastal city in the middle ages
+}
+
+###c_dihistan
+4032 = {	#Kerend
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4033 = {	#Dihistan
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4034 = {	#Khodzhakala
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4035 = {	#Oboy
+	culture = daylamite
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+##d_azerbaijan ###################################
+###c_tabriz
+4537 = {	#Tabriz
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+	
+	# History
+	1150.1.1 = { 
+	culture = adhari 
+}
+
+	867.1.1 = {
+		buildings = {
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			watchtowers_01
+			hunting_grounds_01
+			military_camps_01
+		}
+	}
+}
+4536 = {	#Marand
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+	
+	# History
+	1150.1.1 = { 
+	culture = adhari 
+}
+}
+4538 = {	#Dihnakhirjan
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+	
+	# History
+	1150.1.1 = { 
+	culture = adhari 
+}
+}
+4539 = {	#Ujan
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+	
+	# History
+	1150.1.1 = { 
+	culture = adhari 
+}
+}
+4540 = {	#Ahar
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+	
+	# History
+	1150.1.1 = { 
+	culture = adhari 
+}
+	#Ancient city
+}
+4541 = {	#Dizmar
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+	
+	# History
+	1150.1.1 = { 
+	culture = adhari 
+}
+}
+
+###c_talish
+4534 = {	#Talish
+	culture = adhari
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4535 = {	#Aparshahr
+	culture = adhari
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+###c_ardabil
+# 4543 - Ardabil
+4543 = {	# 4543 - Ardabil
+	
+	#Misc
+	culture = daylamite
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+}
+4002 = {	#Khalkhal
+	culture = daylamite
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+}
+4542 = {	#Unar	#AKA Ounar / Unar
+	culture = daylamite
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+}
+4544 = {	#Sarat
+	culture = daylamite
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+}
+
+###c_maragha
+4545 = {	#Maragha
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+	
+}
+4003 = {	#Kursara
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4546 = {	#Maragha	#AKA Maragheh
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4547 = {	#Khunaj
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4548 = {	#Ar-Ran
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4549 = {	#Shiz	#AKA modern day Takab
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+###c_bailaqan
+4767 = {	#Bailaqan
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4766 = {	#Barza
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4768 = {	#Darband-Qarabuli
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4769 = {	#Basawa
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+###c_urmiya
+4771 = {	#Urmiya
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4770 = {	#Ushnuya
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+4772 = {	#Salmas
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+	#Ancient city of renown
+}
+5794 = {	#Gher
+	culture = kurdish
+	religion = old_shirvanite_church
+	holding = castle_holding
+}
+
+##d_shirvan ###################################
+###c_shirvan
+# 668 - Shirvan
+668 = {	# 668 - Shirvan
+	
+	# Misc
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+
+}
+5771 = {	#Baku
+	# Misc
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1066.1.1 = {
+		buildings = {
+			guild_halls_01
+			common_tradeport_01
+			pastures_01
+		}
+	}
+}
+5772 = {	#Maras
+	# Misc
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+}
+5773 = {	#Salyan
+	# Misc
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+}
+
+###c_shaki
+# 669 - Shemakha
+669 = {	# 669 - Shemakha
+	
+	# Misc
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+
+}
+# 5774 - Kabala
+5774 = {	# 5774 - Kabala
+	
+	# Misc
+	culture = udi
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+
+}
+5775 = {	#Kudevan
+	culture = udi
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+}
+5776 = {	#Paidangaran
+	culture = udi
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+}
+
+###c_aran
+5777 = {	#Ganja
+	culture = georgian
+	religion = old_shirvanite_church
+	holding = castle_holding
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+	1066.1.1 = {
+		buildings = {
+			pastures_01
+			hunting_grounds_01
+			military_camps_01
+		}
+	}
+}
+5778 = {	#Mingachevir
+	culture = georgian
+	religion = old_shirvanite_church
+	holding = castle_holding
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+}
+# 5779 - Barda
+5779 = {	# 5779 - Barda
+	
+	# Misc
+	culture = georgian
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	950.1.1 = { 
+	culture = adhari
+	}
+	
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+
+}
+###c_mugan
+# 5790 - Paytakaran
+5790 = {	# 5790 - Paytakaran
+	
+	# Misc
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+
+}
+5788 = {	#Gabarawan
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+}
+5789 = {	#Varsan
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+}
+5791 = {	#Langarkanan
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+}
+5792 = {	#Nakorzan
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+}
+5793 = {	#Barzand
+	culture = adhari
+	religion = old_shirvanite_church
+	
+	holding = castle_holding
+	
+	# History
+	1034.1.1 = {
+		religion = shirvanite_church
+	}
+}

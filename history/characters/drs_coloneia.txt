@@ -1,0 +1,16 @@
+﻿#Duchy of Coloneia # pontic Culture inner_pontic Religion characters
+
+# rulers of the Duchy of Coloneia
+drscoloneia0001 = {
+	name = "Adone" #
+	female = yes
+	dynasty = drsdyn127 # Archirine
+	religion = inner_pontic
+	culture = pontic
+	1040.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}

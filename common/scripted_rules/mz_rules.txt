@@ -1,0 +1,25 @@
+﻿# Can this character traverse rivers using boats? Small change
+# root: the owner of the army
+can_traverse_river = {
+	OR = {
+		culture = {
+			OR = {
+				has_innovation = innovation_longboats
+				has_innovation = innovation_african_canoes
+			}
+		}
+		faith = { has_doctrine_parameter = mz_faith_major_river_sailing }
+		AND = {
+			exists = dynasty
+			dynasty = { has_dynasty_modifier = fp1_legacy_of_piracy_modifier }
+		}
+	}
+}
+
+cares_about_powerful_vassal_council_position = { # root is powerful vassal, minor change
+	can_be_councillor_basics_trigger = yes
+	NAND = { # If faith has eldership powerful vassal adjustment, they don't care when below age 50
+		faith = { has_doctrine_parameter = mz_eldership_powerful_vassal_adjustment }
+		age < 50
+	}
+}

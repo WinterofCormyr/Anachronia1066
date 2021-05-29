@@ -1,0 +1,16 @@
+﻿#County of Jitikul # kimek Culture megha_gunar Religion characters
+#first ruler born 841 takes throne 861
+
+# rulers of the County of Jitikul
+drsjitikul0001 = {
+	name = "Kobyak" #
+	dynasty = drsdyn24 # kobyak UElgue
+	religion = megha_gunar
+	culture = kimek
+	841.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}

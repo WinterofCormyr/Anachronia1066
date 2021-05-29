@@ -1,0 +1,502 @@
+﻿east_germanic_group = {
+	
+	graphical_cultures = {
+		western_coa_gfx
+		fp1_norse_clothing_gfx
+		mediterranean_building_gfx
+		byzantine_clothing_gfx
+		eastern_unit_gfx
+	}
+
+	mercenary_names = {
+		{ name = "mercenary_company_thinglith" coat_of_arms = "mc_thinglith" }
+		{ name = "mercenary_company_army_of_kylfingar" }
+		{ name = "mercenary_company_company_of_jarl_landless" }
+		{ name = "mercenary_company_huscarls_of_the_sea" }
+		{ name = "mercenary_company_band_of_firesmoke" }
+		{ name = "mercenary_company_queens_hird" }
+	}
+	
+	high_gothic = {
+		
+		color = { 0.5 0.5 0.8 }
+		
+		cadet_dynasty_names = {
+			"Cunigasting"
+			"Iolanthing"
+			"Athalathruthing"
+			"Adeling"
+			"Berchtaranding"
+			"Alamanning"
+			"Ibhramundsing"
+		}
+
+		dynasty_names = {
+			"Cunigasting"
+			"Iolanthing"
+			"Athalathruthing"
+			"Adeling"
+			"Berchtaranding"
+			"Alamanning"
+			"Ibhramundsing"
+		}
+		
+		male_names = { # namelist from kolibri8 on paradox forums
+           Abhraham Aðam Angælus Angel Aghila Aghustus August Aughustus August Æmilís Emil Erastus Erastus Ermanabherchts Irmbert Ermanafriþus Irmfried Ermanaghilþs Ermanaríchs Ermenrich Erminabherchts Irmbert Erminafriþus Irmfried
+           Erminaghilþs Ermenegild Erminaríchs Ermenrich Æþika Edika Æþiwulfs Ediulf Ewaríchs Ewawalþs Ewald Alæxandrus Alexander Alaghilþs Alamanna Alaríchs Alarich Alaþius Alawíws Albhís Albhila Albhiríchs Alberic
+           Albhiréþs Alfred Albhiwins Alboin Alika Amaðæus Amadeus Amalaríchs Amalric Amandus Amantsís Amans Amatus Ambhrósís Ambrose Anastasís Anastasius Andræas Andrew Ansibherchts Osbert Ansighæs Ansgar Ansihilms Anselm Ansila Ansimérs Osmar
+           Ansimunds Osmond Ansiríchs Osriuc Ansiréþs Osred Ansiwalþs Oswald Ansiwins Oswine Antonís Anthony Askalchs Aþafuns Alphonse Aþalabherchts Albert Aþalabhalþs Adalbert Aþalabhrands Adalbrand Aþalafriþus Alfried Aþalaghæs Adalger Aþalaharðus Adelhard
+           Aþalaharjis Adelar Aþalahilms Adalhelm Aþalamanna Adalmann Aþalamérs Adalmar Aþalaríchs Adalrich Aþalawins Adalwin Aþalawulfs Adolf Aþanaghilþs Athanagild Aþanaríchs Athanarich Aþawulfs Adolf Óðamunds Edmund Óðaþius Óðawakrs Ottokar Óðawarþs Edward Óðawins Edwin
+           Óðawulfs Edwulf Óðwakrs Ottokar Óðwarþs Edward Óðwins Edwin Óðwulfs Edwulf Óstraghuta Ostrogotha Baðuharjis Baðwila Bænæðiktus Benedict Bæniamín Benjamin Beraharðus Bernard Beramoþs Beraþius
+           Berchtafriþus Bertfried Berchtachrabhns Bertram Berchtarandus Bertrand Berchtawalþs Berthold Berchtawulfs Bertulf Berika Bernuharðus Bernard Bernuhilms Bernhelm Bernuwalþs Bernold Bernuwarþs Bernward Balæntínus Valentine Baltasar Balthasar Balþabherchts Baldebert
+           Balþamérs Baldemar Balþaríchs Balderich Balþaréþs Barnabhas Barnaby Bartímæus Bartimeo Barþólómæus Bartholomew Baruk Baruch Basilíus Basil Batja Biktur Viktor Biljafriþus Billfried Biljaharðus Billhard Blasís Blaise Brandawulfs Brandols Daghabherchts Dagobert
+           Daghaharjis Daghalæfs Daghamérs Dagomar Daghawalþs Daghila Daghisþius Damianus Damian Daniél Daniel Dans Dan Dóminikus Dominic Dawíþ David Esaías Isaias Filippus Philip Frankiskus Francis Friþa Freda Friþugherns Friþunanþs Ferdinand
+           Friþuríchs Frederick Frumaghilþs Frumaharjis Frumaríchs Frumaréþs Fulkabherchts Fulbert Fulkaharðus Volkhard Fulkaharjis Volker Fulkamérs Volkmar Fulkaréþs Volkrad Fulkawarþs Volkward Fulkawins Volkwin Gabhriél Gabriel Gæorghís George
+           Gæzabherchts Gerbert Gæzafriþus Gerfried Gæzaharðus Gerard Gæzalæfs Gerleib Gæzalæchs Gæzamérs Germar Gæzamunds Gæzanóþs Gernot Gæzaríchs Gaiserich Gæzawalþs Gerald Gæzawíchs Gerwig Gæzawins Gerwin Gæzawulfs Gerolf Gallus Gall Gójaharjis
+           Gójaríchs Góts Gawðæntsís Gaudence Gibhaharðus Gebhard Gibhamérs Gibhamunds Gibharíchs Gibhawulþus Gibhika Gibica Gréghårís Gregory Grímabherchts Grimbert Grímawalþs Grimwald Guðabherchts Gottbert Guðafriþus Godfrey Guðaharðus Gotthard Gumaharjis
+           Gunþiharjis Gunther Gunþichrabhns Guntram Gutastafs Gustavus Gutawins Godwin Hæfstawulfs Hæfstwulfs Hæmaríchs Henry Hanhahilms Hanhawalþs Hanhawulfs Harjabherchts Herbert Harjawulfs Haribherchts Herbert Hariwulfs Hélias Elias
+           Héroðés Chluþaharjis Lothair Chluþawíchs Louis Chroþabherchts Robert Chroþaríchs Roderick Hughubherchts Hubert Hughubhalþs Hunibherchts Humbert Hunifriþus Humfrey Hunila Huniríchs Ieræmias Jeremy Iakobhus Jacob Iårðanís Jordan Ibhraharðus Eberhard
+           Ibhrahilms Eberhelm Ibhramoþs Ebermund Ibhramunds Ebermund Ibhrawins Eberwin Ibhrawulfs Eberwolf Iésus Jesus Ingilþs Inwilja Iohannés John Ioséf Joseph Isak Isaac Iuðas Judas Iuþaríchs Jukundus Julís Julius Julianus Julian Justínus Justin Karólus Charles Karlus Charles
+           Kinþaswinþs Kinþila Klémæntus Clement Kustantus Constantius Kustantínus Constantine Lewwís Levi Lauræntsís Laurence Lazarus Liubha Liubhaghís Liubhaghilþs Liubharíchs Liubhís Liuðibherchts Lutbert Liuðibhalþs Luitbald
+           Liuðibhrands Luitbrand Liuðifriþus Luitfried Liuðighæs Ludger Liuðiharðus Luithard Liuðiharjis Liuðiwins Luitwin Liuðiwulfs Luitwulf Lukas Luke Markus Mark Matþæus Matthew Míkaél Michael Mosés Moses Naþanaél Nathaniel Nóðighæs Notker Nårþrabherchts Norbert Nårþramanna Norman
+           Níkóðémus Nicodemus Níkólós Nicholas Oþalabherchts Olbert Oþalafriþus Udalfried Oþalaríchs Ulrich Pætrus Peter Paulus Paul Pélaghius Ríkaharðus Richard Sólómon Solomon Símon Simon Sighifriþus Siegfried Sighismunds Sigismund
+           Stæfanus Stephen Symæon Simon Tímóþæus Timothy Títus Titus Totila Triggwa Triggwila Þårisharjis Þårismoþs Thorismund Þéja Theja Þiuða Teoda Þiuðabherchts Dietbert Þiuðabhalþs Theobald Þiuðabhrands Dietbrand Þiuðafriþus Dietfried Þiuðafriþs Dietfried Þiuðaghæs Dietger Þiuðaghísls Theudegisel
+           Þiuðaharðus Diethard Þiuðaharjis Diether Þiuðahaþus Theodahad Þiuðahilms Diethelm Þiuðachrabhns Dietram Þiuðalæfs Þiuðamunds Dietmund Þiuðamérs Dietmar Þiuðamoþs Dietmut Þiuðaríchs Thierry Þiuðaréþs Þiuðawalþs Dietwald Þiuðawarþs Dietward Þiuðís Theudis Þiwalæfs
+           Þomas Thomas Þrafstila Þrasamunds Thrasamund Þrasaríchs Thrasarich Þuliwins Uftaharjis Uftila Walachrabhns Walram Wiðughója Vidugavia Wiljahilms William Wisuwalþs Wulfila Christófårus Christopher Christianus Christian
+		   ## Random order version
+		   Daghila Volkmar Gæzanóþs Wiðughója Daniel Ermanabherchts Luitbrand Godfrey Lauræntsís Balþabherchts Andræas Aþalamanna Hunifriþus Oswald Ríkaharðus Biljafriþus Aghila Óstraghuta Adalger Wulfila Gunþichrabhns Liuðiwulfs
+		   Adalwin Albhiríchs Ermanafriþus Iésus Humfrey Triggwila Frumaríchs Aþanaghilþs Athanarich Æþika Julís Sólómon Albhiréþs Thrasarich Elias Daghabherchts Daghaharjis Aþalaharjis Gibhaharðus Míkaél Æþiwulfs Ibhramoþs 
+		   Ansimunds Aþafuns Andrew Þiuðalæfs Ulrich Titus Ansiwins Hélias Frumaghilþs Totila Hubert Dietbert Ansighæs Hæmaríchs Udalfried Erminabherchts Bertulf Aþalabherchts Mark Liubhaghís Liubhís Blasís Iohannés Bernuharðus 
+		   Gæzaríchs George Lukas Berchtachrabhns Þiuðahilms Þiuðabherchts Notker Þiuðamoþs Liuðiharjis Óðawulfs Constantine Ermenrich Aþalawins Liuðibherchts Eberhard Dagobert Julianus Gibhamunds Chluþaharjis Justínus Edmund
+		   Askalchs Damianus Þiuðaharðus Klémæntus Liubharíchs Volker Blaise Uftaharjis Guðafriþus Barnabhas Germar Harjabherchts Þårisharjis Matthew William Karlus Humbert Roderick Liubha Ibhrawins Harjawulfs Eberwolf Adelar
+		   Gæzawulfs Hughubhalþs Dans Paulus Alawíws Aþawulfs Friþuríchs Billfried Gæzalæchs Aþanaríchs Fulkabherchts Ibhrahilms Alæxandrus Þiuðamérs Matþæus Volkward Þiuðís Edward Gibhika Ottokar Óðwarþs Gerleib Beraþius Amaðæus 
+		   Hughubherchts Amandus Iuþaríchs Liuðibhalþs Dietmund Balæntínus Huniríchs Justin Albhila Edwulf Philip Benjamin Þrasamunds Baldebert Ferdinand Pélaghius Eberwin Gæzawins Alfried Gerwig Kinþaswinþs Fulkawins Alaghilþs
+		   Biljaharðus Hæfstawulfs Þiwalæfs Gæzawíchs Isak Levi Ermanaríchs Liuðibhrands Frumaréþs Markus Ostrogotha Luke Esaías Balþamérs Títus Lothair Níkólós Adalbrand Ansihilms Timothy Theodahad Herbert Benedict Liuðighæs 
+		   Berchtarand Isaac Óðwulfs Ewaríchs Þiuðaríchs Antonís Adalmann Teoda Wiljahilms Þomas Kustantínus Balderich Julius Vidugavia Alika Jacob Gójaharjis Julian Aþalabhrands Iakobhus Tímóþæus Diether Dagomar Nóðighæs 
+		   Liubhaghilþs Thierry Kinþila Basilíus Daghisþius Oþalabherchts Michael Damian Berchtafriþus Freda Kustantus Ermenegild Athanagild Aþalaríchs Hanhahilms Bartholomew Gustavus Biktur Emil Nårþrabherchts Jesus 
+		   Balþaríchs Gottbert Theja Luitwin Aþalaghæs Aþalaharðus Luithard Daghalæfs Luitwulf Ambrose Barþólómæus Þiuðabhalþs Valentine Gæorghís Gerald Angælus Osmond Þiuðamunds Frankiskus Inwilja Bartimeo Frederick Abhraham
+		   Alamanna Chroþabherchts Baruch Thrasamund Osriuc Fulkawarþs Clement Óðwakrs Þiuðaréþs Hariwulfs Gutastafs Laurence Þrafstila Thomas Robert Fulkaharðus Brandawulfs Sighismunds Amalaríchs Adalbert Iuðas 
+		   Þiuðabhrands Þiuða Norman Naþanaél Adelhard Gæzalæfs Erminafriþus Stephen Bernard Gibhawulþus Bernhelm Baldemar Gæzafriþus Hæfstwulfs Erminaghilþs Daghawalþs Gibica Þiuðafriþus 
+		   Þiuðafriþs Guðaharðus August Dietger Nårþramanna Dietward Alfred Ansimérs Volkhard Dan Gerolf Óðaþius Óðawins Ibhrawulfs Þiuðaghæs Baltasar Þiuðawarþs Amalric Gæzamunds Christianus Alaríchs Osbert Amadeus Gójaríchs
+		   Baðuharjis Grimwald Gawðæntsís Gunþiharjis Symæon Pætrus Wisuwalþs Fulkaréþs Gæzawalþs Níkóðémus Alaþius Þiuðaghísls Þéja Berthold Ewald Gabriel Billhard Anastasís 
+		   Ibhramunds Bertfried Sighifriþus Beraharðus Gerfried Anthony Triggwa Ewawalþs Basil Moses Christopher Karólus Fulkamérs Adolf Þiuðaharjis Hunibherchts Albhiwins Liuðiwins Ansgar Dominic Liuðiharðus Friþunanþs Alberic 
+		   Baruk Gaudence Amans Þuliwins Christian Daghamérs Gabhriél Aþalahilms Baðwila Alarich Anselm Þiuðawalþs Judas Constantius Anastasius Ingilþs Walachrabhns Bernuwalþs Richard Oþalafriþus Þårismoþs 
+		   Dóminik Friþa Óðwins Jeremy Guntram John David Óðamunds Albert Francis Alboin Bernuwarþs Thorismund Bernold Adalrich Lazarus Aþalawulfs Osred Gæzabherchts Gernot Bernward Bænæðiktus Gibharíchs Ebermund Dietwald 
+		   Þiuðachrabhns Gæzamérs Gaiserich Theudegisel Ansibherchts Henry Diethard Berchtawalþs Stæfanus Beramoþs Bernuhilms Erminaríchs Þiuðahaþus Ansila Aghustus Dietram Hanhawulfs Nicodemus Simon Gregory Þrasaríchs 
+		   Balþaréþs Dietbrand Jordan Frumaharjis Chluþawíchs Aþalamérs Berchtawulfs Friþugherns Daniél Héroðés Gerwin Godwin Berika Ansiwalþs Viktor Brandols Gebhard Ansiríchs Irmbert Filippus Ibhraharðus Símon Dietmut 
+		   Guðabherchts Volkwin Walram Grímabherchts Gibhamérs Aþalabhalþs Barnaby Liuðifriþus Iårðanís Nathaniel Haribherchts Sigismund Ambhrósís Gæzaharðus Gall Ermanaghilþs Paul Theudis Volkrad Ansiréþs Uftila Olbert Ieræmias
+		   Hunila Gunther Adalmar Aðam Góts Oþalaríchs Dawíþ Osmar Ioséf Fulbert Lewwís Aughustus Bartímæus Batja Mosés Gotthard Gumaharjis Æmilís Amantsís Óðawarþs Joseph Aþalafriþus Luitbald Ludger Oswine Ediulf Gerard 
+		   Gutawins Gallus Theobald Jukundus Albhís Grímawalþs Gerbert Diethelm Chroþaríchs Hanhawalþs Luitfried Irmfried Gréghårís Charles Edwin Christófårus Fulkaharjis Amatus Dietmar Bæniamín Óðawakrs Nicholas
+		   Biljaharð
+       }
+       female_names = {
+           Aghaþa Agatha Angæla Angela Angælika Angelica Aghnés Ælísabhæþ Elisabeth Æmilja Emily Ewníka Eunike Ewwa Eva Alæxandra Alexandra Amalabhergha Amalberga Amalaswinþa Amalasuintha Amanda Amanda Amarwllis Amata Anastasia Anastasia Anastasja Anastasia
+           Anna Anna Ansigharði Ansihilma Antonja Antonia Ariaðna Ariadne Aþala Adela Aþalabhergha Aþalabherchta Adalberta Aþalabhårch Adelborg Aþalaghunþi Adalgund Aþalahæþi Aþalahilði Adalhild Aþalalinþi Adelind Aþalamoði Aþalaruna Adalrun
+           Aþalaþruþi Adaltrud Aþawulfa Óðafléða Óstraghuto Awghusta Auguste Balæntína Valentina Barbhara Barbara Biktorja Victoria Biljahilði Brunihilði Brunhilda Damiana Daniéla Dóminika Dominica Íréna Irene Filippa Philippa Frankiska Francesca
+           Friþunanþa Ferdinanda Gabhriéla Gabriela Gæzahilði Gerhild Gæzaþruþi Gertrude Gójaswinþa Glorja Gloria Goðaliubha Grímahilði Kriemhild Gunþiruna Hilðibherchta Hilðibhårch Hildeburg Hilðigharði Hildegard Hilðighunþi
+           Hilðiruna Hilðiþruþi Hilðiwara Chroþaswinþa Hunibherchta Ibhragharði Ibhraghunþi Ibhrahilði Iohanna Joan Iolanþa Jolanda Ioséfa Iuðíth Judith Jukunda Juliana Juliana Julja Julia Justína Justina
+           Karóla Caroline Karla Caroline Kaþarína Catherine Kustantína Constance Kustantsja Constance Lawræntsja Laurentia Liuðibhergha Liuðigharði Liuðiwina Lwðia Lydia Lwðja Lydia Maghðaléna Magdalena Maghðaléné Magdalena Machtiswinþa Maria Maria Marja Maria
+           Marþa Martha Oþalaríka Pætra Petra Pawla Paula Ræbhækka Rebecca Rakél Rachel Salomé Salomeh Sara Sarah Símona Stæfanja Stephania Susanna Susana Þiuðabhergha Þiuðagharði Þiuðaghunþi Þiuðaghuto Þiuðahilði Þiuðalinþi Theodelinda Þiuðamoði
+           Þiuðananþa Þiuðaruna Christiana Christina
+		   # Random order version
+		   Hildeburg Salomé Aþalabherchta Liuðigharði Angela Rachel Maghðaléné Catherine Theodelinda Glorja Karóla Ælísabhæþ Gunþiruna Biljahilði Liuðiwina Brunihilði Petra Agatha Þiuðananþa Chroþaswinþa Amarwllis 
+		   Iolanþa Ariadne Óstraghuto Þiuðabhergha Hilðiþruþi Maghðaléna Kustantína Daniéla Emily Pawla Liuðibhergha Adalhild Gertrude Justina Lwðia Hilðiruna Óðafléða Ferdinanda Awghusta Ibhragharði Adelborg Hilðibherchta
+		   Jolanda Lwðja Friþunanþa Ibhraghunþi Irene Þiuðaruna Amalabhergha Gæzahilði Hilðibhårch Símona Antonja Adalberta Caroline Þiuðalinþi Kaþarína Adaltrud Sara Marþa Magdalena Ansigharði Barbara 
+		   Hilðigharði Hilðiwara Iohanna Amalasuintha Ewwa Juliana Gloria Pætra Barbhara Kriemhild Lawræntsja Þiuðahilði Salomeh Julia Machtiswinþa Auguste Amalberga Antonia Stephania Julja Æmilja Þiuðaghunþi 
+		   Aþalaþruþi Íréna Goðaliubha Aþalamoði Karla Constance Francesca Adalrun Laurentia Hunibherchta Hildegard Ansihilma Ewníka Aþalaghunþi Ioséfa Þiuðaghuto Aþawulfa Eva Christina Amalaswinþa Anna Susanna Brunhilda 
+		   Eunike Ariaðna Rakél Angelica Aghaþa Ibhrahilði Aþalahæþi Gabhriéla Gójaswinþa Joan Þiuðagharði Aþala Gæzaþruþi Jukunda Justína Aþalaruna Adalgund Iuðíth Victoria Dominica Aþalabhårch Philippa Oþalaríka Aþalahilði
+		   Rebecca Alæxandra Ræbhækka Susana Aþalabhergha Kustantsja Valentina Angælika Hilðighunþi Damiana Angæla Amanda Aghnés Anastasja Stæfanja Elisabeth Adelind Filippa Þiuðamoði Dóminika Aþalalinþi Frankiska Amata
+		   Adela Grímahilði Lydia Balæntína Biktorja Anastasia Maria
+       }
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+	#Obviously not 'Byzantine' but for gameplay reasons prevents the negative opinion malus
+	crimean_gothic = {
+		
+		color = { 0.5 0.4 0.8 }
+		
+		cadet_dynasty_names = {
+			"dynn_Amali"
+			"dynn_Balti"
+			"dynn_Amuthi"
+			"dynn_Ildibadi"
+			"dynn_Cilliga"
+			"dynn_Dorosi"
+			{ "dynnp_af" "dynn_Palatinate_Zweibrucken" }
+			{ "dynnp_af" "dynn_Holstein_Gottorp" }
+			"dynn_GA_rdske"
+			"dynn_Grip"
+			"dynn_Svarte"
+			"dynn_Skancke"
+			"dynn_Thornberg"
+			"dynn_Ribbing"
+			"dynn_BA_A_t"
+			"dynn_Ulv"
+			"dynn_Sparre"
+			"dynn_FA_rla"
+			"dynn_Brahe"
+			{ "dynnp_af" "dynn_Rumby" }
+			{ "dynnp_af" "dynn_Brunnsholm" }
+			{ "dynnp_af" "dynn_UlvA_sa" }
+			"dynn_SjO_blad"
+			"dynn_Skarsholm"
+			"dynn_BlA_"
+			"dynn_Natt_och_Dag"
+			"dynn_Griphuvud"
+			"dynn_Lejon"
+			"dynn_Bielke"
+			"dynn_Erik"
+			"dynn_Horn"
+			"dynn_Bjering"
+			"dynn_RothE_n"
+			"dynn_LA_ma"
+			"dynn_Rumby"
+			"dynn_DjA_kn"
+			"dynn_SvA_rd"
+			"dynn_Bagge"
+			"dynn_Borg"
+			"dynn_Bese"
+			"dynn_Boberg"
+			"dynn_Bragde"
+			"dynn_Bure"
+			"dynn_Eka"
+			"dynn_Fargalt"
+			{ "dynnp_af" "dynn_FA_nO_" }
+			"dynn_Forsa"
+			"dynn_Get"
+			"dynn_Gedda"
+			{ "dynnp_af" "dynn_Hafrid" }
+			"dynn_Hatt"
+			{ "dynnp_af" "dynn_HA_lbonA_s" }
+			"dynn_HA_sthuvud"
+			"dynn_Knoppe"
+			"dynn_Kraam"
+			"dynn_Lake"
+			"dynn_Lejonansikte"
+			"dynn_Lejonbalk"
+			"dynn_Marsvin"
+			"dynn_Oxhufvud"
+			"dynn_Oxpanna"
+			"dynn_Pik"
+			"dynn_Svan"
+			"dynn_Svinhufvud"
+			"dynn_Tott"
+			"dynn_Tre_Rosor"
+			"dynn_Tre_Rutor"
+			"dynn_Trolle"
+			"dynn_Vasa"
+			"dynn_Vinstorpa"
+			"dynn_Virske"
+			"dynn_Vingad_Pil"
+			"dynn_Vingad_Lilja"
+			"dynn_HA_stesko"
+			"dynn_O_rnsparre"
+			"dynn_Snedbielke"
+			"dynn_LA_ma"
+			"dynn_Fluga"
+			"dynn_Guldtupp"
+			"dynn_Ulfsax"
+			"dynn_Tre_SjO_blad"
+			"dynn_Stjerne"
+			"dynn_Bratt"
+			"dynn_Munk"
+			"dynn_Bjelke"
+			"dynn_Bonde"
+			"dynn_Pilhufvud"
+			"dynn_Haraldsson"
+			"dynn_Gera"
+			"dynn_Soop"
+			"dynn_Gylta"
+			"dynn_KA_rling"
+			{ "dynnp_af" "dynn_Finsta" }
+			"dynn_Leijonhufvud"
+			{ "dynnp_af" "dynn_AspenA_s" }
+			{ "dynnp_af" "dynn_Hammersta" }
+			"dynn_LilliehO_O_k"
+			"dynn_A_ngel"
+			"dynn_Fleming"
+			"dynn_Bidz"
+			"dynn_Diekn"
+			"dynn_Stiernkors"
+			"dynn_VillnA_s"
+			"dynn_Fincke"
+			"dynn_Dufva"
+			"dynn_JA_gerhorn_af_Spurila"
+			"dynn_Gesterby"
+			"dynn_BA_A_t"
+			"dynn_Cronstedt"
+		}
+
+		dynasty_names = {
+			"dynn_GA_rdske"
+			"dynn_Amali"
+			"dynn_Balti"
+			"dynn_Amuthi"
+			"dynn_Ildibadi"
+			"dynn_Cilliga"
+			"dynn_Dorosi"
+			"dynn_Grip"
+			"dynn_Svarte"
+			"dynn_Skancke"
+			"dynn_Thornberg"
+			"dynn_Ribbing"
+			"dynn_BA_A_t"
+			"dynn_Ulv"
+			"dynn_Sparre"
+			"dynn_FA_rla"
+			"dynn_Brahe"
+			{ "dynnp_af" "dynn_Rumby" }
+			{ "dynnp_af" "dynn_Brunnsholm" }
+			{ "dynnp_af" "dynn_UlvA_sa" }
+			"dynn_SjO_blad"
+			"dynn_Skarsholm"
+			"dynn_BlA_"
+			"dynn_Natt_och_Dag"
+			"dynn_Griphuvud"
+			"dynn_Lejon"
+			"dynn_Bielke"
+			"dynn_Erik"
+			"dynn_Horn"
+			"dynn_Bjering"
+			"dynn_RothE_n"
+			"dynn_LA_ma"
+			"dynn_Rumby"
+			"dynn_DjA_kn"
+			"dynn_SvA_rd"
+			"dynn_Bagge"
+			"dynn_Borg"
+			"dynn_Bese"
+			"dynn_Boberg"
+			"dynn_Bragde"
+			"dynn_Bure"
+			"dynn_Eka"
+			"dynn_Fargalt"
+			{ "dynnp_af" "dynn_FA_nO_" }
+			"dynn_Forsa"
+			"dynn_Get"
+			"dynn_Gedda"
+			{ "dynnp_af" "dynn_Hafrid" }
+			"dynn_Hatt"
+			{ "dynnp_af" "dynn_HA_lbonA_s" }
+			"dynn_HA_sthuvud"
+			"dynn_Knoppe"
+			"dynn_Kraam"
+			"dynn_Lake"
+			"dynn_Lejonansikte"
+			"dynn_Lejonbalk"
+			"dynn_Marsvin"
+			"dynn_Oxhufvud"
+			"dynn_Oxpanna"
+			"dynn_Pik"
+			"dynn_Svan"
+			"dynn_Svinhufvud"
+			"dynn_Tott"
+			"dynn_Tre_Rosor"
+			"dynn_Tre_Rutor"
+			"dynn_Trolle"
+			"dynn_Vasa"
+			"dynn_Vinstorpa"
+			"dynn_Virske"
+			"dynn_Vingad_Pil"
+			"dynn_Vingad_Lilja"
+			"dynn_HA_stesko"
+			"dynn_O_rnsparre"
+			"dynn_Snedbielke"
+			"dynn_LA_ma"
+			"dynn_Fluga"
+			"dynn_Guldtupp"
+			"dynn_Ulfsax"
+			"dynn_Tre_SjO_blad"
+			"dynn_Stjerne"
+			"dynn_Bratt"
+			"dynn_Munk"
+			"dynn_Bjelke"
+			"dynn_Bonde"
+			"dynn_Pilhufvud"
+			"dynn_Haraldsson"
+			"dynn_Gera"
+			"dynn_Soop"
+			"dynn_Gylta"
+			"dynn_KA_rling"
+			{ "dynnp_af" "dynn_Finsta" }
+			"dynn_Leijonhufvud"
+			{ "dynnp_af" "dynn_AspenA_s" }
+			{ "dynnp_af" "dynn_Hammersta" }
+			"dynn_LilliehO_O_k"
+			"dynn_A_ngel"
+			"dynn_Fleming"
+			"dynn_Bidz"
+			"dynn_Diekn"
+			"dynn_Stiernkors"
+			"dynn_VillnA_s"
+			"dynn_Fincke"
+			"dynn_Dufva"
+			"dynn_JA_gerhorn_af_Spurila"
+			"dynn_Gesterby"
+			"dynn_BA_A_t"
+			"dynn_Cronstedt"
+		}
+		
+		male_names = { # namelist from kolibri8 on paradox forums
+			Abraham Adam Aggailus Agila Agustus August Awgustus August Aimileis Emil Airastus Erastus Airmanabairhts Irmbert Airmanafrithus Irmfried Airmanagilds Airmanareiks Ermenrich Airminabairhts Irmbert Airminafrithus Irmfried
+            Airminagilds Ermenegild Airminareiks Ermenrich Aithika Edika Aithiwulfs Ediulf Aiwareiks Aiwawalds Ewald Alaiksandrus Alexander Alagilds Alamanna Alareiks Alarich Alathius Alaweiws Albeis Albila Albireiks Alberich
+            Albireths Alfred Albiwins Alboin Alika Amadaius Amadeus Amalareiks Amalric Amandus Amantseis Amans Amatus Ambrauseis Ambrose Anastaseis Anastasius Andraias Andrew Ansibairhts Osbert Ansigais Ansgar Ansihilms Anselm Ansila Ansimers Osmar
+            Ansimunds Osmond Ansireiks Osriuc Ansireths Osred Ansiwalds Oswald Ansiwins Oswine Antoneis Anthony Askalks Athafuns Alphonse Athalabairhts Albert Athalabalths Adalbert Athalabrands Adalbrand Athalafrithus Alfried Athalagais Adalger Athalahardus Adelhard
+            Athalaharjis Adelar Athalahilms Adalhelm Athalamanna Adalmann Athalamers Adalmar Athalareiks Adalrich Athalawins Adalwin Athalawulfs Adolf Athanareiks Athanarich Athawulfs Adolf Audamunds Edmund Audathius Audawakrs Ottokar Audawards Edward Audawins Edwin
+            Audawulfs Edwulf Audwakrs Ottokar Audwards Edward Audwins Edwin Audwulfs Edwulf Austraguta Ostrogotha Baduharjis Badwila Bainaidiktus Benedict Bainiamein Benjamin Bairahardus Bernard Bairamoths Bairathius
+            Bairhtafrithus Bertfried Bairhtahrabns Bertram Bairhtarandus Bertrand Bairhtawalds Berthold Bairhtawulfs Bertulf Bairika Bairnuhardus Bernard Bairnuhilms Bernold Bairnuwalds Bernold Bairnuwards bernward Balainteinus Valentine Baltasar Balthasar Balthabairhts Baldebert
+            Balthamers Baldemar Balthareiks Balderich Balthareths Barnabas Barnaby Barteimaius Bartimeo Barthaulaumaius Bartholomew Baruk Baruch Basileius Basil Batja Biktur Viktor Biljafrithus Billfried Biljahardus Billhard Blaseis Blaise Brandawulfs Brandols Dagabairhts Dagobert
+            Dagaharjis Dagalaifs Dagamers Dagomar Dagawalds Dagila Dagisthius Damianus Damian Daniel Dans Dauminikus Dominic Daweid David Esaeias Isaias Filippus Philip Fragkiskus Francis Fritha Freda Frithugairns Frithunanths Ferdinand
+            Frithureiks Frederick Frumagilds Frumaharjis Frumareiks Frumareths Fulkabairhts Fulbert Fulkahardus Volhard Fulkaharjis Volker Fulkamers Volkmar Fulkareths Volkrad Fulkawards Volkward Fulkawins Volkwin Gabriel Gaiorgeis
+            Gaizabairhts Gerbert Gaizafrithus Gerfried Gaizahardus Gerard Gaizalaifs Gerleib Gaizalaiks Gaizamers Germar Gaizamunds Gaizanauths Gernot Gaizareiks Gaiserich Gaizawalds Gerald Gaizaweigs Gerwig Gaizawins Gerwin Gaizawulfs Gerolf Gallus Gall Gaujaharjis
+            Gaujareiks Gauts Gawdaintseis Gaudence Gibahardus Gebhard Gibamers Gibamunds Gibareiks Gibawulthus Gibika Gibica Gregaureis Gregory Greimabairhts Grimbert Greimawalds Grimwald Gudabairhts Gottbert Gudafrithus Godfrey Gudahardus Gotthard Gumaharjis
+            Gunthiharjis Gunther Gunthihrabns Guntram Gutastafs Gustavus Gutawins Godwin Haifstawulfs Haifstwulfs Haimareiks Henry Hanhahilms Hanhawalds Hanhawulfs Harjabairhts Herbert Harjawulfs Haribairhts Herbert Hariwulfs Helias Elias
+            Herodes Hluthaharjis Lothair Hluthaweigs Louis Hrothabairhts Robert Hrothareiks Roderick Hugubairhts Hubert Hugubalths Hunibairhts Humbert Hunifrithus Humfrey Hunila Hunireiks Iairaimias Jeremy Iakobus Jacob Iaurdaneis Jordan Ibrahardus Eberhard
+            Ibrahilms Eberhelm Ibramoths Ebermund Ibramunds Ebermund Ibrawins Eberwin Ibrawulfs Eberwolf Iesus Jesus Iggilds Inwilja Iohannes John Iosef Joseph Isak Isaac Iudas Judas Iuthareiks Jukundus Juleis Julius Julianus Julian Justeinus Justin Karaulus Charles Karlus Charles
+            Kinthaswinths Kinthila Klemaintus Clement Kustantus Constant Kustanteinus Constantine Laiwweis Levi Lawraintseis Laurence Lazarus Liuba Liubageis Liubagilds Liubareiks Liubeis Liudibairhts Luitbert Liudibalths Leopold
+            Liudibrands Luitbrand Liudifrithus Luitfried Liudigais Ludger Liudihardus Luithard Liudiharjis Liudiwins Luitwin Liudiwulfs Luitwulf Lukas Markus Matthaius Matthew Meikael Michael Moses Nathanael Nathaniel Naudigais Notker Naurthrabairhts Norbert Naurthramanna Norman
+            Neikaudemus Nicodemus Neikaulaus Nicholas Othalabairhts Olbert Othalafrithus Udalfried Othalareiks Ulrich Paitrus Peter Pawlus Paul Reikahardus Richard Saulaumon Solomon Seimon Simon Sigifrithus Siegfried Sigismunds Sigismund
+            Staifanus Stephen Swmaion Simon Teimauthaius Timothy Teitus Titus Totila Triggwa Triggwila Thaurisharjis Thaurismoths Thorismund Theja Theja Thiuda Teoda Thiudabairhts Dietbert Thiudabalths Thibaud Thiudabrands Dietbrand Thiudafrithus Dietfried Thiudagais Dietger Thiudageisls Theudegisel
+            Thiudahardus Diethard Thiudaharjis Diether Thiudahathus Thiudahilms Diethelm Thiudahrabns Dietram Thiudalaifs Thiudamunds Dietmund Thiudamers Dietmar Thiudamoths Dietmut Thiudareiks Theodoric Thiudareths Thiudawalds Dietwald Thiudawards Dietward Thiudeis Theudis Thiwalaifs
+            Thomas Thomas Thrafstila Thrasamunds Thrasareiks Thuliwins Uftaharjis Uftila Walahrabns Walram Widugauja Wiljahilms William Wisuwalds Wulfila Xristaufaurus Christopher Xristianus Christian
+		}
+		female_names = { # namelist from kolibri8 on paradox forums
+			Agatha Agatha Aggaila Aggailika Agnes Aileisabaith Aimilja Aiwneika Aiwwa Alaiksandra Alexandra Amalabairga Amalaswintha Amanda Amarwllis Amata Anastasia Anastasja Anastasia
+            Anna Ansigardi Ansihilma Antonja Antonia Ariadna Athala Athalabairga Athalabairhta Athalabaurg Athalagunthi Athalahaithi Athalahildi Athalalinthi Athalamodi Athalaruna
+            Athalathruthi Athawulfa Audafleda Austraguto Awgusta Balainteina Barbara Biktorja Biljahildi Brunihildi Brunhild Damiana Daniela Dauminika Eirena Irene Filippa Fragkiska
+            Frithunantha Gabriela Gaizahildi Gaizathruthi Gaujaswintha Glorja Godaliuba Greimahildi Gunthiruna Hildibairhta Hildibaurg Hildigardi Hildigunthi
+            Hildiruna Hildithruthi Hildiwara Hrothaswintha Hunibairhta Ibragardi Ibragunthi Ibrahildi Iohanna Iolantha Iosefa Iudeith Jukunda Juliana Julja Julia Justeina
+            Karaula Karla Kathareina Kustanteina Kustantsja Lawraintsja Liudibairga Liudigardi Liudiwina Lwdia Lwdja Magdalena Magdalene Mahtiswintha Maria Mary Marja Mary
+            Martha Othalareika Paitra Pawla Raibaikka Rakel Salome Sara Seimona Staifanja Susanna Thiudabairga Thiudagardi Thiudagunthi Thiudaguto Thiudahildi Thiudalinthi Thiudamodi
+            Thiudanantha Thiudaruna Xristiana
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
+
+	visigothic = {
+		
+		color = { 0.55 0.55 0.15 }
+		
+		cadet_dynasty_names = {
+			"dynn_Erwigiana"
+			"dynn_Kindasuinthiana"
+			"dynn_Athanagildid"
+			"dynn_Athaulf"
+			"dynn_Sigireik"
+			"dynn_Gaisalaik"
+			"dynn_Thiudis"
+			"dynn_Liwa"
+			"dynn_Guntimer"
+			"dynn_Swinthila"
+			"dynn_Tulga"
+			"dynn_Hairwig"
+			"dynn_Witiza"
+			"dynn_Rotreik"
+			"dynn_Lewigild"
+			"dynn_Walja"
+			"dynn_Witireik"
+			"dynn_Sisibaud"
+			"dynn_Kindila"
+			"dynn_Wanbs"
+		}
+		
+		dynasty_names = {
+			"dynn_Erwigiana"
+			"dynn_Kindasuinthiana"
+			"dynn_Athanagildid"
+			"dynn_Athaulf"
+			"dynn_Sigireik"
+			"dynn_Gaisalaik"
+			"dynn_Thiudis"
+			"dynn_Liwa"
+			"dynn_Guntimer"
+			"dynn_Swinthila"
+			"dynn_Tulga"
+			"dynn_Hairwig"
+			"dynn_Witiza"
+			"dynn_Rotreik"
+			"dynn_Lewigild"
+			"dynn_Walja"
+			"dynn_Witireik"
+			"dynn_Sisibaud"
+			"dynn_Kindila"
+			"dynn_Wanbs"
+		}
+
+		male_names = {
+			Adelfonso Adelgaster Agila Airmanagildo Alaricho Alatheo Aloito Amalaricho Amalmondo Ambroz
+			Aoricho Ardo Arias Assur Atawulfo Athanagildo Athanaricho Aurelio Bego Bera
+			Berengario Diaco Egica Ermengar Erwigio Euricho Fafila Fredol Friedenando Friednand
+			Fruella GarC_i Gaton Gauzberto Geila Gesalecho GonC_alo Gundemar Guttier Johan
+			Julian Khindaswintho Khintila Leovigildo Liuva Liuvericho Lucidio Lupo Madrubal Matheo
+			Mauregato Miron Monnio Nunno Obada Oddilon Odoario Oliba Olmondo Oppas
+			Ordonno Pelagio Petro Radulfo Ranimiro Rekkaredo Rekkeswintho Ricimero Riculfo Rocesthes
+			Rodericho Rostan Sans Savarico Silo Sisebuto Sisenando Suinthila Suneario Suniefredo
+			Tello Theodefredo Theodemiro Theodoricho Theudigislo Theudis Thorismondo Tulga Veremondo Wifredo
+			Wimarano Witiza Wittericho
+
+			Abdela AbdelaC_iC_ Abdelmelic Abdeluahid Abderrabmen Abrafim Ambroz Amet Ayyub C_acharya
+			C_elim C_ulema Hacan Hamdan Harun IC_ag Mahomat Maruan MuC_a Omar
+			Xabrit Yabya Yafar YuC_uf Yunus
+		}
+		female_names = {
+			Adelgundis Adosinda Agnes Aragonte Argilo Ariberga Ava Baddo Brunechildis Cixillo
+			Creusa Egilona Eldonza Elduara Elvira Ercheswintha Ermeneberga Ermengardis Ermenierdis Ermenisinda
+			Fafinia Flamula Froiliuva Fronilde Gado Gaudiosa Gonterote Gothina Gudilona Iberia
+			Ingundis Leodegundis Liuvigothona Menenda Monnia Monniadomna Onecca Paterna Patruina Ralindis
+			Riciberga Ricilo Sibilia Sisenanda Theodora Urraca Winidilda
+
+			Abda Ayab AyC_a C_ayida C_eida Emira Isra Leyla Melica Nadia
+			Nadira Neyla Nur Tarifa YaC_mina
+		}
+		dynasty_of_location_prefix = "dynnp_de"
+		#grammar_transform = french
+		patronym_suffix_male = "dynnpat_suf_iz"
+		patronym_suffix_female = "dynnpat_suf_iz"
+		always_use_patronym = yes	
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		ethnicities = {
+			10 = mediterranean
+		}
+	}
+}

@@ -1,0 +1,754 @@
+#### A PONTIC EMPIRE WILL RISE BETWEEN 867 AND 936 ### THE WIRLD WILL BOW BEFORE THE AITAHIST MIGHT ###
+
+
+e_pontic_empire = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	840.1.1 = {
+		holder = drspontus0001 # Arkos Arkosene
+	}
+	898.1.1 = {
+		holder = drspontus0002 # Arkos II Arkosene
+	}
+	901.1.1 = {
+		holder = drspontus0004 # Leaina I Arkosene
+	}
+	906.1.1 = {
+		holder = drspontus0006 # Lynx I Arkosene
+	}
+	922.1.1 = {
+		holder = drspontus0007 # Pardalis I Arkosene
+	}
+	953.1.1 = {
+		holder = drsrhaneis0001 # Emperor Helias I Rhaneis
+		capital = c_tbilisi
+	}
+	1018.1.1 = {
+		holder = drsrhaneis0003 # Empress Leontia I Rhaneis
+		capital = c_tbilisi
+	}
+	1037.1.1 = {
+		holder = drsrhaneis0006 # Emperor Seisiaros I Rhaneis
+	}
+	1060.1.1 = {
+		holder = drsrhaneis0008 # Empress Riana I Rhaneis
+		capital = c_tbilisi
+	}
+	1073.1.1 = {
+		holder = drsrhaneis0015 # Empress Vardo I Rhaneis
+	}
+	1098.1.1 = {
+		holder = drsrhaneis0017 # Empress Suliko I Rhaneis
+	}
+	1104.1.1 = {
+		holder = drsrhaneis0020 # Empress Shukhia I Rhaneis
+	}
+	1116.1.1 = {
+		holder = drscilician0007 # Empress Alisha I Uni-na-Kumarbi
+	}
+	1123.1.1 = {
+		holder = drscilician0008 # Empress Purip-hi I Uni-na-Kumarbi of the Pontic Empire
+	}
+	1138.1.1 = {
+		holder = drscilician0012 # Empress Alai-kupa I Uni-na-Kumarbi of the Pontic Empire
+	}
+}
+
+k_pontus = { # provinces done # duchies done I think
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	840.1.1 = {
+		holder = drspontus0001 # Arkos Arkosene
+	}
+	860.1.1 = {
+		de_jure_liege = e_pontic_empire
+		liege = e_pontic_empire
+	}
+	898.1.1 = {
+		holder = drspontus0002 # Arkos II Arkosene
+	}
+	901.1.1 = {
+		holder = drspontus0004 # Leaina I Arkosene
+	}
+	906.1.1 = {
+		holder = drspontus0006 # Lynx I Arkosene
+	}
+	922.1.1 = {
+		holder = drspontus0007 # Pardalis I Arkosene
+	}
+	953.1.1 = {
+		holder = drsattalata0001 # Queen Adriane I Attalata
+	}
+	999.1.1 = {
+		holder = drsattalata0003 # Queen Agathe I Attalata
+	}
+	1018.1.1 = {
+		holder = drsattalata0013 # Queen Aikaterine I Attalata
+	}
+	1057.1.1 = {
+		holder = drsattalata0018 # Queen Euphrosyne I Attalata
+	}
+	1080.1.1 = {
+		holder = drsattalata0020 # Queen Euphrasia I Attalata
+	}
+	1099.1.1 = {
+		holder = drsattalata0021 # Queen Mústara I Attalata
+	}
+	1102.1.1 = {
+		holder = drsattalata0022 # Queen Zenobia I Attalata
+	}
+}
+
+c_sinope = { # capital of Pontus under the Arkosenes
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	840.1.1 = {
+		holder = drspontus0001 # Arkos Arkosene
+	}
+	860.1.1 = {
+		liege = k_pontus
+	}
+	898.1.1 = {
+		holder = drspontus0002 # Arkos II Arkosene
+	}
+	901.1.1 = {
+		holder = drspontus0004 # Leaina I Arkosene
+	}
+	906.1.1 = {
+		holder = drspontus0006 # Lynx I Arkosene
+	}
+	922.1.1 = {
+		holder = drspontus0007 # Pardalis I Arkosene
+	}
+	953.1.1 = {
+		holder = drsattalata0001 # Queen Adriane I Attalata
+	}
+	999.1.1 = {
+		holder = drsattalata0003 # Queen Agathe I Attalata
+	}
+	1018.1.1 = {
+		holder = drsattalata0013 # Queen Aikaterine I Attalata
+	}
+	1057.1.1 = {
+		holder = drsattalata0018 # Queen Euphrosyne I Attalata
+	}
+	1080.1.1 = {
+		holder = drsattalata0020 # Queen Euphrasia I Attalata
+	}
+	1099.1.1 = {
+		holder = drsattalata0021 # Queen Mústara I Attalata
+	}
+	1102.1.1 = {
+		holder = drsattalata0022 # Queen Zenobia I Attalata
+	}
+}
+
+c_euchaita = { #
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	819.1.1 = {
+		holder = drsmagnopolis0001 # Aithodora Magnapolitanai
+	}
+	840.1.1 = {
+		liege = k_pontus
+	}
+	896.1.1 = {
+		holder = drsmagnopolis0002 # Alexandria Magnapolitanai
+	}
+	900.1.1 = {
+		holder = drsmagnopolis0012 # Belisarios Magnapolitanai
+	}
+	939.1.1 = {
+		holder = drsmagnopolis0014 # Elaiodora Magnapolitanai
+	}
+	951.1.1 = {
+		holder = drsmagnopolis0018 # Romanos Magnapolitanai
+	}
+	970.1.1 = {
+		holder = drsmagnopolis0019 # Evanthia Magnapolitanai
+	}
+	985.1.1 = {
+		holder = drsmagnopolis0021 # Xene Magnapolitanai
+	}
+	986.1.1 = {
+		holder = drsmagnopolis0024 # Aitalia Magnapolitanai
+	}
+	1002.1.1 = {
+		holder = drsmagnopolis0026 # Ioustina Magnapolitanai
+	}
+	1032.1.1 = {
+		holder = drsmagnopolis0033 # Sergia Magnapolitanai # NEW DYNASTY 1060 # pontic mesopotamian_aitahism # house Koralanos
+	}
+	1060.1.1 = {
+		holder = drskoralanos0001 # Nikarete Koralanos # NEW DYNASTY 1133 # pontic pontic_aitahism # house Melikalaria
+	}
+	1133.1.1 = {
+		holder = drsmelikalaria0001 # Helene Melikalaria
+	}
+}
+
+c_zela = { # Zhengyi Aiase # pontic culture still # 880 amaseia becomes zhengyi
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	838.1.1 = {
+		holder = drsarmeniac0001 # Theocharistos Daogonos
+	}
+	840.1.1 = {
+		liege = k_pontus
+	}
+	862.1.1 = {
+		holder = drsarmeniac0002 # Eirene Daogonos
+	}
+	863.1.1 = {
+		holder = drsarmeniac0005 # Ioulia Daogonos
+	}
+	899.1.1 = {
+		holder = drsarmeniac0007 # David Daogonos
+	}
+	925.1.1 = {
+		holder = drsarmeniac0008 # Rhodanthe Daogonos
+	}
+	932.1.1 = {
+		holder = drsarmeniac0011 # Elaiodora Daogonos
+	}
+	943.1.1 = {
+		holder = drsarmeniac0012 # Simonis Daogonos
+	}
+	951.1.1 = {
+		holder = drsarmeniac0013 # Kallistos Daogonos
+	}
+	952.1.1 = {
+		holder = drsarmeniac0014 # Leontia Daogonos
+	}
+	987.1.1 = {
+		holder = drsarmeniac0018 # Kale I Daogonos
+	}
+	994.1.1 = {
+		holder = drsarmeniac0026 # Rhodanthe Daogonos
+	}
+	1018.1.1 = {
+		holder = drsarmeniac0028 # Seleneios Daogonos
+	}
+	1027.1.1 = {
+		holder = drsarmeniac0031 # Kale II Daogonos
+	}
+	1042.1.1 = {
+		holder = drsarmeniac0033 # Kataphraktos Daogonos
+	}
+	1050.1.1 = {
+		holder = drsarmeniac0037 # Tarouake Daogonos
+	}
+	1067.1.1 = {
+		holder = drsarmeniac0039 # Aitaktiste Daogonos
+	}
+	1083.1.1 = {
+		holder = drsarmeniac0041 # Konstantia Daogonos
+	}
+	1084.1.1 = {
+		holder = drsarmeniac0047 # Damiane Daogonos
+	}
+	1121.1.1 = {
+		holder = drsarmeniac0049 # Kale III Daogonos
+	}
+}
+
+d_chaldia = { # Orthodox Christian duke
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	840.1.1 = {
+		holder = drspontus0001 # Arkos Arkosene
+	}
+	860.1.1 = {
+		liege = k_pontus
+		holder = drschaldia0001 # pontic # orthodox
+	}
+	866.1.1 = {
+		holder = drschaldia0002 # pontic # orthodox
+	}
+	886.1.1 = {
+		holder = drschaldia0005 # Kallistos Khaldaeos
+	}
+	941.1.1 = {
+		holder = drschaldia0020 # Michaelia Khaldaeos
+	}
+	958.1.1 = {
+		holder = drschaldia0028 # Christios Khaldaeos
+	}
+	978.1.1 = {
+		holder = drschaldia0031 # Selenerete Uranetios
+	}
+	984.1.1 = {
+		holder = drschaldia0033 # Harus Uranetios
+	}
+	1019.1.1 = {
+		holder = drschaldia0035 # Dionocharistos Uranetios
+	}
+	1044.1.1 = {
+		holder = drschaldia0042 # Agnaios Uranetios
+	}
+	1064.1.1 = {
+		holder = drschaldia0050 # Bartholomochariste Uranetios
+	}
+	1065.1.1 = {
+		holder = drschaldia0055 # Euphrasia Adrianeas
+	}
+	1098.1.1 = {
+		holder = drschaldia0060 # Gabrielia Adrianeas
+	}
+	1124.1.1 = {
+		holder = drschaldia0063 # Emmanuelios Adrianeas
+	}
+}
+d_cherson = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	840.1.1 = {
+		holder = drspontus0001 # Arkos Arkosene
+	}
+	860.1.1 = {
+		liege = e_pontic_empire
+		holder = drscherson0001 # Governor Athanarich I Cunigasting # high_gothic # firner_situic
+	}
+	889.1.1 = {
+		holder = drscherson0002 # Governor Daghila I Cunigasting # high_gothic # firner_situic
+	}
+	901.1.1 = {
+		holder = drscherson0012 # Governor Salome I Cunigasting # high_gothic # firner_situic
+	}
+	922.1.1 = {
+		holder = drscherson0013 # Governor Hughubherchts I Cunigasting # high_gothic # firner_situic
+	}
+	923.1.1 = {
+		holder = drscherson0017 # Governor Hildhiwara I Cunigasting # high_gothic # firner_situic
+	}
+}
+c_theodosia = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	860.1.1 = {
+		holder = drsbosporosia0001 # Brandila Vitigising
+		liege = d_cherson
+	}
+}
+d_crimea = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	860.1.1 = {
+		holder = drscrimea0001 # Theodorich Amaling
+		liege = e_pontic_empire
+	}
+}
+
+
+k_anatolia = { # hattian hattian_pagan governor # greeks become hattians # provinces done
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	
+	870.1.1 = {
+		liege = e_pontic_empire
+		holder = drspontus0004 # Leaina I Arkosene
+	}
+	906.1.1 = {
+		holder = drspontus0006 # Lynx I Arkosene
+	}
+	922.1.1 = {
+		holder = drspontus0007 # Pardalis I Arkosene
+	}
+	930.1.1 = {
+		de_jure_liege = e_pontic_empire
+		liege = e_pontic_empire
+		holder = drsanatolia0001 # Furufana Furunzariun
+	}
+	984.1.1 = {
+		holder = drsanatolia0005 # Felanna Furunzariun
+	}
+	1019.1.1 = {
+		holder = drsanatolia0009 # Kattanna Furunzariun
+	}
+	1033.1.1 = {
+		holder = drsanatolia0012 # Kapanna Furunzariun
+	}
+	1051.1.1 = {
+		holder = drsanatolia0021 # Fashamuruya Furunzariun
+	}
+	1069.1.1 = {
+		holder = drsanatolia0043 # Haisah Furunzariun
+	}
+	1129.1.1 = {
+		holder = drsanatolia0046 # Kilana Furunzariun
+	}
+}
+
+
+c_philomelium = { # hattian tettekates before the rise of pontus
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	820.1.1 = {
+		holder = drsanatolianlakes0001
+	}
+	870.1.1 = { # same ruler still # he submits to Pontic control
+		liege = k_anatolia
+		de_jure_liege = k_anatolia
+	}
+	880.1.1 = {
+		holder = drsanatolianlakes0003 # Katuhannah Furunkarun
+	}
+	901.1.1 = {
+		holder = drsanatolianlakes0010 # Hanhait Furunkarun
+	}
+}
+
+d_charsianon = { # galatian galatian_pagan governor when we get around to it # unbroken line of dukes or governors since 860 # before the Pontic conquest
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	860.1.1 = {
+		holder = drsgalatia0001 # Dixonestos Rigosages
+	}
+	870.1.1 = {
+		liege = e_pontic_empire
+	}
+	911.1.1 = {
+		holder = drsgalatia0004 # Palladia Rigosages
+	}
+	930.1.1 = {
+		de_jure_liege = e_pontic_empire
+		liege = e_pontic_empire
+	}
+	946.1.1 = {
+		holder = drsgalatia0010 # Iesomara Rigosages
+	}
+	953.1.1 = {
+		holder = drsgalatia0014 # Atiaserigani Rigosages
+	}
+	974.1.1 = {
+		holder = drsgalatia0020 # Eponestos Rigosages
+	}
+	980.1.1 = {
+		holder = drsgalatia0026 # Dixonamara Rigosages
+	}
+	1002.1.1 = {
+		holder = drsgalatia0043 # Cobela Rigosages
+	}
+	1023.1.1 = {
+		holder = drsgalatia0044 # Sirona Rigosages
+	}
+	1024.1.1 = {
+		holder = drsgalatia0048 # Iesougennon Rigosages
+	}
+	1045.1.1 = {
+		holder = drsgalatia0053 # Dominus Rigosages
+	}
+	1069.1.1 = {
+		holder = drsgalatia0056 # Iesuala Rigosages
+	}
+	1097.1.1 = {
+		holder = drselirenegena0001 # Elirene Elirenegena
+	}
+}
+
+c_galatia_salutaris = { # galatian galatian_pagan governor when we get around to it # unbroken line of dukes or governors since 860 # before the Pontic conquest
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	860.1.1 = {
+		holder = drsgalatia0001 # Dixonestos Rigosages
+	}
+	870.1.1 = {
+		liege = e_pontic_empire
+	}
+	911.1.1 = {
+		holder = drsgalatia0004 # Palladia Rigosages
+	}
+	930.1.1 = {
+		de_jure_liege = e_pontic_empire
+		liege = e_pontic_empire
+	}
+	946.1.1 = {
+		holder = drsgalatia0010 # Iesomara Rigosages
+	}
+	953.1.1 = {
+		holder = drsgalatia0014 # Atiaserigani Rigosages
+	}
+	974.1.1 = {
+		holder = drsgalatia0020 # Eponestos Rigosages
+	}
+	980.1.1 = {
+		holder = drsgalatia0026 # Dixonamara Rigosages
+	}
+	1002.1.1 = {
+		holder = drsgalatia0043 # Cobela Rigosages
+	}
+	1023.1.1 = {
+		holder = drsgalatia0044 # Sirona Rigosages
+	}
+	1024.1.1 = {
+		holder = drsgalatia0048 # Iesougennon Rigosages
+	}
+	1045.1.1 = {
+		holder = drsgalatia0053 # Dominus Rigosages
+	}
+	1069.1.1 = {
+		holder = drsgalatia0056 # Iesuala Rigosages
+	}
+	1097.1.1 = {
+		holder = drselirenegena0001 # Elirene Elirenegena
+	}
+}
+
+c_lower_galatia = { # galatian galatian_pagan governor when we get around to it # unbroken line of dukes or governors since 860 # before the Pontic conquest
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	860.1.1 = {
+		holder = drsgalatia0001 # Dixonestos Rigosages
+	}
+	870.1.1 = {
+		liege = e_pontic_empire
+	}
+	911.1.1 = {
+		holder = drsgalatia0004 # Palladia Rigosages
+	}
+	930.1.1 = {
+		de_jure_liege = e_pontic_empire
+		liege = e_pontic_empire
+	}
+	946.1.1 = {
+		holder = drsgalatia0010 # Iesomara Rigosages
+	}
+	953.1.1 = {
+		holder = drsgalatia0014 # Atiaserigani Rigosages
+	}
+	974.1.1 = {
+		holder = drsgalatia0020 # Eponestos Rigosages
+	}
+	980.1.1 = {
+		holder = drsgalatia0026 # Dixonamara Rigosages
+	}
+	1002.1.1 = {
+		holder = drsgalatia0043 # Cobela Rigosages
+	}
+	1023.1.1 = {
+		holder = drsgalatia0044 # Sirona Rigosages
+	}
+	1024.1.1 = {
+		holder = drsgalatia0048 # Iesougennon Rigosages
+	}
+	1045.1.1 = {
+		holder = drsgalatia0053 # Dominus Rigosages
+	}
+	1069.1.1 = {
+		holder = drsgalatia0056 # Iesuala Rigosages
+	}
+	1097.1.1 = {
+		holder = drselirenegena0001 # Elirene Elirenegena
+	}
+}
+
+
+c_azysia = { # pontic anatolian_cybelite governor when we get around to it # generally pontic culture
+	# d_elbistan # Lykandos # armenian cobela_arixideuoi duchess # Meghranoush Tornikian drsdyn124
+	# d_sebasteia # neocimmerian cobela_arixideuoi duchess # neocimmerian is galatian plus pontic plus armenian plus persian # neocimmerian is in eastern_celtic_group # Suolibrogenorigani Alexeia drsdyn125
+	# d_translykos # pontic inner_pontic duke # Rheophoros Theodosiani drsdyn126
+	# d_coloneia # pontic inner_pontic duchess # Adone Archirine drsdyn127
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	
+	870.1.1 = {
+		liege = e_pontic_empire
+		holder = drseireniakeos0002 # Eosgnosia I Eireniakeos
+	}
+	920.1.1 = {
+		holder = drseireniakeos0006 # Geaios I Eireniakeos
+	}
+	930.1.1 = {
+		de_jure_liege = e_pontic_empire
+	}
+	940.1.1 = {
+		holder = drseireniakeos0010 # Eosophylaktos I Eireniakeos
+	}
+	961.1.1 = {
+		holder = drseireniakeos0011 # Aristaeodosios I Eireniakeos
+	}
+	962.1.1 = {
+		holder = drseireniakeos0013 # Artemeia-Selenegnosia I Eireniakeos
+	}
+	1060.1.1 = {
+		holder = drseireniakeos0001 # Sunepholeta Eireniakeos
+	}
+}
+
+d_elbistan = { # pontic anatolian_cybelite governor when we get around to it # generally pontic culture
+	# d_elbistan # Lykandos # armenian cobela_arixideuoi duchess # Meghranoush Tornikian drsdyn124
+	# d_sebasteia # neocimmerian cobela_arixideuoi duchess # neocimmerian is galatian plus pontic plus armenian plus persian # neocimmerian is in eastern_celtic_group # Suolibrogenorigani Alexeia drsdyn125
+	# d_translykos # pontic inner_pontic duke # Rheophoros Theodosiani drsdyn126
+	# d_coloneia # pontic inner_pontic duchess # Adone Archirine drsdyn127
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	
+	870.1.1 = {
+		liege = e_pontic_empire
+	}
+	1060.1.1 = {
+		holder = drslykandos0001 # Meghranoush Tornikian
+	}
+}
+
+d_sebasteia = { # pontic anatolian_cybelite governor when we get around to it # generally pontic culture
+	# d_elbistan # Lykandos # armenian cobela_arixideuoi duchess # Meghranoush Tornikian drsdyn124
+	# d_sebasteia # neocimmerian cobela_arixideuoi duchess # neocimmerian is galatian plus pontic plus armenian plus persian # neocimmerian is in eastern_celtic_group # Suolibrogenorigani Alexeia drsdyn125
+	# d_translykos # pontic inner_pontic duke # Rheophoros Theodosiani drsdyn126
+	# d_coloneia # pontic inner_pontic duchess # Adone Archirine drsdyn127
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	
+	870.1.1 = {
+		liege = e_pontic_empire
+	}
+	1060.1.1 = {
+		holder = drssebasteia0001 # Suolibrogenorigani Alexeia
+	}
+}
+
+d_coloneia = { # pontic anatolian_cybelite governor when we get around to it # generally pontic culture
+	# d_elbistan # Lykandos # armenian cobela_arixideuoi duchess # Meghranoush Tornikian drsdyn124
+	# d_sebasteia # neocimmerian cobela_arixideuoi duchess # neocimmerian is galatian plus pontic plus armenian plus persian # neocimmerian is in eastern_celtic_group # Suolibrogenorigani Alexeia drsdyn125
+	# d_translykos # pontic inner_pontic duke # Rheophoros Theodosiani drsdyn126
+	# d_coloneia # pontic inner_pontic duchess # Adone Archirine drsdyn127
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	
+	870.1.1 = {
+		liege = e_pontic_empire
+	}
+	1060.1.1 = {
+		holder = drstranslykos0001 # Rheophoros Theodosiani
+	}
+}
+c_neokaisareia = { # pontic anatolian_cybelite governor when we get around to it # generally pontic culture
+	# d_elbistan # Lykandos # armenian cobela_arixideuoi duchess # Meghranoush Tornikian drsdyn124
+	# d_sebasteia # neocimmerian cobela_arixideuoi duchess # neocimmerian is galatian plus pontic plus armenian plus persian # neocimmerian is in eastern_celtic_group # Suolibrogenorigani Alexeia drsdyn125
+	# d_translykos # pontic inner_pontic duke # Rheophoros Theodosiani drsdyn126
+	# d_coloneia # pontic inner_pontic duchess # Adone Archirine drsdyn127
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	
+	
+	870.1.1 = {
+		liege = d_coloneia
+	}
+	1060.1.1 = {
+		holder = drscoloneia0001 # Adone Archirine
+	}
+}
+
+k_nikaea = { # Greek dynasty Papadopoulos # orthodox Religion # provinces done
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	#1020 a Karpathan warlord king rises in Nikaea # killed by the Pontic Empire in their invasion
+	
+	1050.1.1 = {
+		de_jure_liege = e_pontic_empire
+		liege = e_pontic_empire
+		holder = drsnikaea0001
+	}
+}
+k_cilician = { # CILICIA IS HURRIAN AND HAS HURRIAN GOVERNOR AND HURRIAN CULTURES # KIZZUNI AND ZALWARI
+# ALSO HURRIAN RELIGION # provinces done
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	1010.1.1 = {
+		de_jure_liege = e_pontic_empire
+		liege = e_pontic_empire
+		holder = drscilician0001 # King Kuwari-ya I Uni-na-Kumarbi
+	}
+	1060.1.1 = {
+		holder = drscilician0002 # King Saushtatar I Uni-na-Kumarbi
+	}
+	1089.1.1 = {
+		holder = drscilician0004 # Queen Tulpu-e I Uni-na-Kumarbi
+	}
+	1091.1.1 = {
+		holder = drscilician0007 # Queen Alisha I Uni-na-Kumarbi
+	}
+	1123.1.1 = {
+		holder = drscilician0008 # Empress Purip-hi I Uni-na-Kumarbi of the Pontic Empire
+	}
+	1138.1.1 = {
+		holder = drscilician0012 # Empress Alai-kupa I Uni-na-Kumarbi of the Pontic Empire
+	}
+}
+k_antioch = { # HARRANI CULTURE FROM HURRIAN GROUP # Duke of Edessa is assyrian nestorian and also rules d_melitene # family is vassal to Armenia before the conquest of Antiocheia by Pontus, after which both are vassals to Antiocheia
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	
+	1050.1.1 = {
+		de_jure_liege = e_pontic_empire
+		liege = e_pontic_empire
+		holder = drsantiocheia0001 # Kabi-pal-Kuma Sehrum-nirzi-Shimegi
+	}
+}
+k_melitene_and_edessa = { # Duke of Edessa is assyrian nestorian and also rules d_melitene # family is vassal to Armenia before the conquest of Antiocheia by Pontus, after which both are vassals to Antiocheia
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	801.1.1 = {
+		holder = drsmelitene0001 # 'Dadisho Bar Talmai
+		de_jure_liege = e_arabia
+	}
+	823.1.1 = {
+		holder = drsmelitene0003 # Nahara Bar Talmai	
+	}
+}
+d_edessa = { # Duke of Edessa is assyrian nestorian and also rules d_melitene # family is vassal to Armenia before the conquest of Antiocheia by Pontus, after which both are vassals to Antiocheia
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	801.1.1 = {
+		holder = drsmelitene0001 # 'Dadisho Bar Talmai	
+		de_jure_liege = k_melitene_and_edessa
+		liege = k_melitene_and_edessa
+	}
+	823.1.1 = {
+		holder = drsmelitene0003 # Nahara Bar Talmai	
+	}
+	930.1.1 = {
+		liege = k_armenia
+		de_jure_liege = k_armenia
+	}
+	1050.1.1 = {
+		liege = k_antioch
+		de_jure_liege = k_antioch
+	}
+}
+d_melitene = { # Duke of Edessa is assyrian nestorian and also rules d_melitene # family is vassal to Armenia before the conquest of Antiocheia by Pontus, after which both are vassals to Antiocheia
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 20 }
+	801.1.1 = {
+		holder = drsmelitene0001 # 'Dadisho Bar Talmai
+		de_jure_liege = k_melitene_and_edessa
+		liege = k_melitene_and_edessa
+	}
+	823.1.1 = {
+		holder = drsmelitene0003 # Nahara Bar Talmai	
+	}
+	930.1.1 = {
+		liege = k_armenia
+		de_jure_liege = k_armenia
+	}
+	1050.1.1 = {
+		liege = k_antioch
+		de_jure_liege = k_antioch
+	}
+}

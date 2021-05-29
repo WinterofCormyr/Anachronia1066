@@ -1,0 +1,68 @@
+﻿an_votive_offering_pontic_aitahist = {
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	
+	desc = an_votive_offering_pontic_aitahist_desc
+	selection_tooltip = an_votive_offering_pontic_aitahist_tooltip
+
+	cooldown = { days = 0 } # if only the player can do it it shouldn't lag too much. Might wanna implement game concepts for different deities at a later time
+	
+	is_shown = {
+		is_landed = yes
+		primary_title.tier > tier_barony
+		root.faith = faith:pontic_aitahism
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes # Standard checks.
+		is_at_war = no # Shouldn't be at war.
+	}
+
+	ai_check_interval = 0
+	
+	ai_potential = { always = no }
+
+	ai_will_do = { 
+		base = 0
+	} 
+
+	effect = {
+		# add_piety = 5
+		trigger_event = {
+			id = votive.0001
+		}
+	}
+}
+an_votive_offering_hattian = {
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	
+	desc = an_votive_offering_hattian_desc
+	selection_tooltip = an_votive_offering_hattian_tooltip
+
+	cooldown = { days = 0 } # if only the player can do it it shouldn't lag too much. Might wanna implement game concepts for different deities at a later time
+
+	is_shown = {
+		is_landed = yes
+		primary_title.tier > tier_barony
+		root.religion = religion:hattian_religion
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes # Standard checks.
+		is_at_war = no # Shouldn't be at war.
+	}
+
+	ai_check_interval = 0
+	
+	ai_potential = { always = no }
+
+	ai_will_do = { 
+		base = 0
+	}
+
+	effect = {
+		# add_piety = 5
+		trigger_event = {
+			id = votive.0005
+		}
+	}
+}
